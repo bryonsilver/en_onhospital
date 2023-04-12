@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>온종합병원 그룹 - ONN TV</title>
+    
+    <link rel="stylesheet" href="./css/comon.css">
+    <link rel="icon" href="./img/common/favicon2.png">
+    <link rel="stylesheet" href="./css/swiper-bundle.css">
+    <link rel="stylesheet" href="./css/m_left_common.css">
+    <link rel="stylesheet" href="./css/onn.css">
+
+    <script src="./js/common/jquery-2.1.4.min.js"></script>
+    <script defer src="./js/common/common.js"></script>
+    <script defer src="./js/medi_depart/doctor_list.js"></script>
+    <!-- <script defer src="./js/medi_detail.js"></script> -->
+    <script defer src="./js/common/swiper-bundle.js"></script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="./js/common/google.js"></script>
+    <script src="./js/onn.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <div class="black_pan"></div>
+        <div class="top_btn">
+            <div class="top_btn_img">
+                <img src="./img/common/top.png" alt="top_btn_img" class="top_btn">
+            </div>
+        </div>
+        <div class="you_onn_box">
+            <div class="yo_center_box">
+            
+            </div>
+        </div>
+        <div class="header">
+            <div class="head_flex">
+                <div class="head_contain">
+                    <div class="h_logo_box desk">
+                        <a href="./index.html">
+                            <img src="./img/common/logo_2_1.png" alt="logo" class="logo_d">
+                            <img src="./img/common/logo_m_2.png" alt="logo_m" class="logo_m">
+                        </a>
+                    </div>
+                    <div class="h_nav_box">
+                        <ul class="h_nav_ul">
+                            <li class="h_nav_li nav_0"><a href="./infor/infor.html?num=0">병원안내</a></li>
+                            <li class="h_nav_li nav_1"><a href="./medi_depart.html?num=5">진료안내</a></li>
+                            <li class="h_nav_li nav_2"><a href="./medi_center.html?cen_v=0">전문센터</a></li>
+                            <li class="h_nav_li nav_2"><a href="./medi_center_2.html?cen_v2=0">암병원</a></li>
+                            <li class="h_nav_li nav_3"><a href="./news.html?num=0">병원소식</a></li>
+                            <li class="h_nav_li nav_4"><a href="./onntv.html?cate=0">ONN TV</a></li>
+                        </ul>
+                        <div class="h_min_box">
+                            <div class="google_lang_box">
+                                <div id="google_translate_element" class="reloding"></div>
+                            </div>
+                            
+                            <div class="h_logo_box moblie_logo">
+                                <a href="./index.html" class="moblie_1">
+                                    <img src="./img/common/logo_2_1.png" alt="logo" class="logo_d_min">
+                                    <img src="./img/common/logo_m_2.png" alt="logo_m" class="logo_m">
+                                </a>
+                            </div>
+                            
+                            <div class="ham_box_2">
+                                <div class="ham_box ">
+                                    <a href="./ham.html" class="width"><span>메뉴</span></a>
+                                    <a href="./ham.html">
+                                        <div class="line first_l"></div>
+                                        <div class="line second_l"></div>
+                                        <div class="line third_l"></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav_pan_box">
+            <div class="container">
+                <div class="n_set_pan n_pan n_pan_0">
+                    <span class="dep1">병원안내</span>
+                    <ul class="dep2">
+                        <li class="dep2_li"><a class="dep2_a di_1" href="./infor/infor.html?num=0">인사말</a></li>
+                        <li class="dep2_li"><a class="dep2_a di_2" href="./infor/history.html?num=1">연혁</a></li>
+                        <li class="dep2_li"><a class="dep2_a di_3" href="./infor/mission.html?num=2">미션/비전</a></li>
+                        <li class="dep2_li"><a class="dep2_a di_4" href="./infor/floor.html?num=3">층별안내</a></li>
+                        <li class="dep2_li"><a class="dep2_a di_5" href="./infor/directions.html?num=4">오시는길</a></li>
+                        <li class="dep2_li"><a class="dep2_a di_6" href="./infor/phone_num.html?num=6">전화번호</a></li>
+                        <li class="dep2_li"><a class="dep2_a di_7" href="./infor/customer.html?num=6">고객지원센터</a></li>
+                        <li class="dep2_li"><a class="dep2_a di_8" href="./infor/emergency.html?num=7">응급의료센터</a></li>
+                        <li class="dep2_li"><a class="dep2_a di_9" href="./infor/funeral.html?num=9">장례식장</a></li>
+                    </ul>
+                </div>
+                <div class="n_set_pan n_pan n_pan_1">
+                    <span class="dep1">진료안내</span>
+                    <ul class="dep2">
+                        <li class="dep2_li"><a class="dep2_a dm_1" href="./medi_depart.html?num=5">진료과ㆍ의료진</a></li>
+                        <li class="dep2_li"><a class="dep2_a dm_2" href="./medi_infor/infor.html?num=0">진료안내</a></li>
+                        <li class="dep2_li"><a class="dep2_a dm_3" href="./medi_infor/visit.html?num=1">병문안안내</a></li>
+                        <li class="dep2_li"><a class="dep2_a dm_4" href="./medi_infor/admission.html?num=2">입/퇴원 안내</a></li>
+                        <li class="dep2_li"><a class="dep2_a dm_5" href="./medi_infor/issuance.html?num=3">제증명서발급</a></li>
+                        <li class="dep2_li"><a class="dep2_a dm_6" href="./unpaid.html?num=6?num=6">비급여</a></li>
+                    </ul>
+                </div>
+                <div class="n_set_pan n_pan n_pan_2">
+                    <span class="dep1">전문센터</span>
+                    <ul class="dep2">
+                        <li class="dep2_li">
+                            <ul class="dep3">
+                                <li class="npan_li"><a class="dep3_a dc_1" href="./medi_center.html?cen_v=0">간담췌센터 위ㆍ대장암</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_2" href="./medi_center.html?cen_v=1">간센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_3" href="./medi_center.html?cen_v=2">감염센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_4" href="./medi_center.html?cen_v=3">대장항문센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_5" href="./medi_center.html?cen_v=4">소아청소년 정신건강센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_6" href="./medi_center.html?cen_v=5">소화내시경센터</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li class="dep2_li">
+                            <ul class="dep3">
+                                <li class="npan_li"><a class="dep3_a dc_7" href="./medi_center.html?cen_v=6">소화기암수술센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_8" href="./medi_center.html?cen_v=7">신경센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_9" href="./medi_center.html?cen_v=8">심뇌혈관센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_10" href="./medi_center.html?cen_v=9">알레르기 센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_11" href="./medi_center.html?cen_v=10">암재활프로그램</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_12" href="./medi_center.html?cen_v=11">여성암센터</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li class="dep2_li">
+                            <ul class="dep3">
+                                <li class="npan_li"><a class="dep3_a dc_13" href="./medi_center.html?cen_v=12">유방ㆍ갑상선암 센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_14" href="./medi_center.html?cen_v=13">유방암센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_15" href="./medi_center.html?cen_v=14">응급의료센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_16" href="./medi_center.html?cen_v=15">인공신장센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_17" href="./medi_center.html?cen_v=16">인터벤션센터(중재시술)</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_18" href="./medi_center.html?cen_v=17">장례식장</a></li>
+                            </ul>
+                        </li>
+                        <li class="dep2_li">
+                            <ul class="dep3">
+                                <li class="npan_li"><a class="dep3_a dc_19" href="./medi_center.html?cen_v=18">재활치료센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_20" href="./medi_center.html?cen_v=19">전립선ㆍ배뇨장애 센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_21" href="./medi_center.html?cen_v=20">전립선암센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_22" href="./medi_center.html?cen_v=21">척추관절센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_23" href="./medi_center.html?cen_v=22">초음파진단센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_24" href="./medi_center.html?cen_v=23">췌장담도센터</a></li>
+                            </ul>
+                        </li>
+
+
+                        <li class="dep2_li">
+                            <ul class="dep3">
+                                <li class="npan_li"><a class="dep3_a dc_25" href="./medi_center.html?cen_v=24">턱얼굴수술센터(양악센터)</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_26" href="./medi_center.html?cen_v=25">페암수술센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_27" href="./medi_center.html?cen_v=26">항암방사선치료센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_28" href="./medi_center.html?cen_v=27">호스피스완화의료병동</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_29" href="./medi_center.html?cen_v=28">호흡기센터</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="n_set_pan n_pan n_pan_5">
+                    <span class="dep1">암병원</span>
+                    <ul class="dep2">
+                        <li class="dep2_li">
+                            <ul class="dep3">
+                                <li class="npan_li"><a class="dep3_a dc_2_1" href="./medi_center_2.html?cen_v2=1">간센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_2_2" href="./medi_center_2.html?cen_v2=6">소화기암수술센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_2_3" href="./medi_center_2.html?cen_v2=11">여성암센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_2_4" href="./medi_center_2.html?cen_v2=12">유방ㆍ갑상선암 센터</a></li>
+                            </ul>
+                        </li>
+                        <li class="dep2_li">
+                            <ul class="dep3">
+                                <li class="npan_li"><a class="dep3_a dc_2_5" href="./medi_center_2.html?cen_v2=16">인터벤션센터(중재시술)</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_2_6" href="./medi_center_2.html?cen_v2=20">전립선암센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_2_7" href="./medi_center_2.html?cen_v2=25">폐암수술센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_2_8" href="./medi_center_2.html?cen_v2=26">항암방사선치료센터</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="n_set_pan n_pan n_pan_3">
+                    <span class="dep1">병원소식</span>
+                    <ul class="dep2">
+                        <li class="dep2_li"><a class="dep2_a dn_1" href="./news.html?num=0">공지사항</a></li>
+                        <li class="dep2_li"><a class="dep2_a dn_2" href="./news.html?num=1">기타소식</a></li>
+                        <li class="dep2_li"><a class="dep2_a dn_3" href="./news.html?num=2">언론보도</a></li>
+                        <li class="dep2_li"><a class="dep2_a dn_4" href="./news.html?num=3">채용정보</a></li>
+                        <li class="dep2_li"><a class="dep2_a dn_5" href="./news.html?num=4">오늘의 식단</a></li>
+                        <li class="dep2_li"><a class="dep2_a dn_6" href="./news.html?num=5">자주묻는질문</a></li>
+                    </ul>
+                </div>
+                <div class="n_set_pan n_pan n_pan_4">
+                    <span class="dep1 do_1">ONN TV</span>
+                    <!-- <ul class="dep2">
+                        <li class="dep2_li"><a class="dep2_a" href="./news.html?num=0">공지사항</a></li>
+                        <li class="dep2_li"><a class="dep2_a" href="./news.html?num=1">기타소식</a></li>
+                        <li class="dep2_li"><a class="dep2_a" href="./news.html?num=2">언론보도</a></li>
+                        <li class="dep2_li"><a class="dep2_a" href="./news.html?num=3">채용정보</a></li>
+                        <li class="dep2_li"><a class="dep2_a" href="./news.html?num=4">오늘의 식단</a></li>
+                        <li class="dep2_li"><a class="dep2_a" href="./news.html?num=5">자주묻는질문</a></li>
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+
+
+        <div class="main">
+            <div class="m_top_2">
+                <!-- <div class="title_icon_box">
+                    <img src="./img/common/medi_bg.png">
+                </div> -->
+                
+            </div>
+            <div class="container">
+                <div class="main_flex">
+                    <div class="m_left">
+                        <div class="m_l_aside">
+                            <h4 class="ml_pic">
+                                <span>ONN TV <span class="number_images">(25)</span></span>
+                            </h4>
+                            <ul class="ml_ul">                                
+                                <li>
+                                    <ul>
+                                        <li class="ml_li medi_onn medi_onn_1">
+                                            <a href="./onntv.html?cate=0">
+                                                <span>가정의학과</span>
+                                                <span class="number_images">(0)</span>
+                                            </a>
+                                        </li>
+                                        <li class="ml_li medi_onn medi_onn_2">
+                                            <a href="./onntv.html?cate=1">
+                                                <span>간담췌외과</span>
+                                                <span class="number_images">(1)</span>
+                                            </a>
+                                        </li>
+                                        <li class="ml_li medi_onn medi_onn_3">
+                                            <a href="./onntv.html?cate=2">
+                                                <span>내과</span>
+                                                <span class="number_images">(4)</span>
+                                            </a>
+                                        </li>
+                                        <li class="ml_li medi_onn medi_onn_4">
+                                            <a href="./onntv.html?cate=3">
+                                                <span>내분비 내과</span>
+                                                <span class="number_images">(0)</span>
+                                            </a>
+                                        </li>
+                                        <li class="ml_li medi_onn medi_onn_5">
+                                            <a href="./onntv.html?cate=4">
+                                                <span>마취통증의학과</span>
+                                                <span class="number_images">(0)</span>
+                                            </a>
+                                        </li>
+                                        <li class="ml_li medi_onn medi_onn_6">
+                                            <a href="./onntv.html?cate=5">
+                                                <span>방사선종양학과</span>
+                                                <span class="number_images">(0)</span>
+                                            </a>
+                                        </li>
+                                        <li class="ml_li medi_onn medi_onn_7">
+                                            <a href="./onntv.html?cate=6">
+                                                <span>비뇨의학과</span>
+                                                <span class="number_images">(1)</span>
+                                            </a>
+                                        </li>
+                                        <li class="ml_li medi_onn medi_onn_8">
+                                            <a href="./onntv.html?cate=7">
+                                                <span>산부인과</span>
+                                                <span class="number_images">(0)</span>
+                                            </a>
+                                        </li>
+                                        <li class="ml_li medi_onn medi_onn_9">
+                                            <a href="./onntv.html?cate=8">
+                                                <span>소아청소년과</span>
+                                                <span class="number_images">(0)</span>
+                                            </a>
+                                        </li>
+                                        <li class="ml_li medi_onn medi_onn_10">
+                                            <a href="./onntv.html?cate=9">
+                                                <span>소화기 내과</span>
+                                                <span class="number_images">(1)</span>
+                                            </a>
+                                        </li>
+                                        <li class="ml_li medi_onn medi_onn_11">
+                                            <a href="./onntv.html?cate=10">
+                                                <span>신경과</span>
+                                                <span class="number_images">(1)</span>
+                                            </a>
+                                        </li>
+                                        <li class="ml_li medi_onn medi_onn_12">
+                                            <a href="./onntv.html?cate=11">
+                                                <span>신경외과</span>
+                                                <span class="number_images">(2)</span>
+                                            </a>
+                                        </li>
+                                        <li class="ml_li medi_onn medi_onn_13">
+                                            <a href="./onntv.html?cate=12">
+                                                <span>신장내과</span>
+                                                <span class="number_images">(1)</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul>
+                                        <li class="ml_li medi_onn medi_onn_14">
+                                            <a href="./onntv.html?cate=13">
+                                                <span>심장내과</span>
+                                                <span class="number_images">(1)</span>
+                                            </a>
+                                        </li>
+                                        <li class="ml_li medi_onn medi_onn_15">
+                                            <a href="./onntv.html?cate=14">
+                                                <span>안과</span>
+                                                <span class="number_images">(0)</span>
+                                            </a>
+                                        </li>
+                                        <li class="ml_li medi_onn medi_onn_16">
+                                            <a href="./onntv.html?cate=15">
+                                                <span>이비인후과</span>
+                                                <span class="number_images">(2)</span>
+                                            </a>
+                                        </li>
+                                        <li class="ml_li medi_onn medi_onn_17">
+                                            <a href="./onntv.html?cate=16">
+                                                <span>영상의학과</span>
+                                                <span class="number_images">(1)</span>
+                                            </a>
+                                        </li>
+                                        <li class="ml_li medi_onn medi_onn_18">
+                                            <a href="./onntv.html?cate=17">
+                                                <span>외과</span>
+                                                <span class="number_images">(3)</span>
+                                            </a>
+                                        </li>
+                                        <li class="ml_li medi_onn medi_onn_19">
+                                            <a href="./onntv.html?cate=18">
+                                                <span>응급의학과</span>
+                                                <span class="number_images">(0)</span>
+                                            </a>
+                                        </li>
+                                        <li class="ml_li medi_onn medi_onn_20">
+                                            <a href="./onntv.html?cate=19">
+                                                <span>정신건강의학과</span>
+                                                <span class="number_images">(2)</span>
+                                            </a>
+                                        </li>
+                                        <li class="ml_li medi_onn medi_onn_21">
+                                            <a href="./onntv.html?cate=20">
+                                                <span>정형외과</span>
+                                                <span class="number_images">(2)</span>
+                                            </a>
+                                        </li>
+                                        <li class="ml_li medi_onn medi_onn_22">
+                                            <a href="./onntv.html?cate=21">
+                                                <span>진단검사의학과</span>
+                                                <span class="number_images">(0)</span>
+                                            </a>
+                                        </li>
+                                        <li class="ml_li medi_onn medi_onn_23">
+                                            <a href="./onntv.html?cate=22">
+                                                <span>췌장담도내과</span>
+                                                <span class="number_images">(1)</span>
+                                            </a>
+                                        </li>
+                                        <li class="ml_li medi_onn medi_onn_24">
+                                            <a href="./onntv.html?cate=23">
+                                                <span>치과</span>
+                                                <span class="number_images">(1)</span>
+                                            </a>
+                                        </li>
+                                        <li class="ml_li medi_onn medi_onn_25">
+                                            <a href="./onntv.html?cate=24">
+                                                <span>혈액종양내과</span>
+                                                <span class="number_images">(0)</span>
+                                            </a>
+                                        </li>
+                                        <li class="ml_li medi_onn medi_onn_26">
+                                            <a href="./onntv.html?cate=25">
+                                                <span>호흡기 내과</span>
+                                                <span class="number_images">(1)</span>
+                                            </a>
+                                        </li>
+                                        <li class="ml_li medi_onn medi_onn_27">
+                                            <a href="./onntv.html?cate=26">
+                                                <span>흉부외과</span>
+                                                <span class="number_images">(0)</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <form id="frm" method="get" action="">
+                                <input type="hidden" name="pageName" id="pageName">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="m_right">
+                        <div class="m_select_nav_box">
+                            <div class="submenu_box">
+                                <select name="select_s" id="select_id" class="select_class" onchange="if(this.value) location.href=(this.value);">
+                                    <option value="./onntv.html?cate=0">ONN TV</option>
+                                    <option id="selec0" value="./onntv.html?cate=0"><span>가정의학과</span></li>
+                                    <option id="selec1" value="./onntv.html?cate=1"><span>간담췌외과</span></li>
+                                    <option id="selec2" value="./onntv.html?cate=2"><span>내과</span></li>
+                                    <option id="selec3" value="./onntv.html?cate=3"><span>내분비 내과</span></li>
+                                    <option id="selec4" value="./onntv.html?cate=4"><span>마취통증의학과</span></li>
+                                    <option id="selec5" value="./onntv.html?cate=5"><span>방사선종양학과</span></li>
+                                    <option id="selec6" value="./onntv.html?cate=6"><span>비뇨의학과</span></li>
+                                    <option id="selec7" value="./onntv.html?cate=7"><span>산부인과</span></li>
+                                    <option id="selec8" value="./onntv.html?cate=8"><span>소아청소년과</span></li>
+                                    <option id="selec9" value="./onntv.html?cate=9"><span>소화기 내과</span></li>
+                                    <option id="selec10" value="./onntv.html?cate=10"><span>신경과</span></li>
+                                    <option id="selec11" value="./onntv.html?cate=11"><span>신경외과</span></li>
+                                    <option id="selec12" value="./onntv.html?cate=12"><span>신장내과</span></li>
+                                    <option id="selec13" value="./onntv.html?cate=13"><span>심장내과</span></li>
+                                    <option id="selec14" value="./onntv.html?cate=14"><span>안과</span></li>
+                                    <option id="selec15" value="./onntv.html?cate=15"><span>이비인후과</span></li>
+                                    <option id="selec16" value="./onntv.html?cate=16"><span>영상의학과</span></li>
+                                    <option id="selec17" value="./onntv.html?cate=17"><span>외과</span></li>
+                                    <option id="selec18" value="./onntv.html?cate=18"><span>응급의학과</span></li>
+                                    <option id="selec19" value="./onntv.html?cate=19"><span>정신건강의학과</span></li>
+                                    <option id="selec20" value="./onntv.html?cate=20"><span>정형외과</span></li>
+                                    <option id="selec21" value="./onntv.html?cate=21"><span>진단검사의학과</span></li>
+                                    <option id="selec22" value="./onntv.html?cate=22"><span>췌장담도내과</span></li>
+                                    <option id="selec23" value="./onntv.html?cate=23"><span>치과</span></li>
+                                    <option id="selec24" value="./onntv.html?cate=24"><span>혈액종양내과</span></li>
+                                    <option id="selec25" value="./onntv.html?cate=25"><span>호흡기 내과</span></li>
+                                    <option id="selec26" value="./onntv.html?cate=26"><span>흉부외과</span></li>
+                                </select>
+                                <div class="arrow"><img src="./img/common/submenu_arrow.png" alt="sub_arrow" class="sub_arrow"></div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <!-- <div class="row mb-4 onn_container"> 
+                                <div class="col-lg-12">
+                                    <h1 class="top_title">
+                                        <span class="icon"></span>
+                                        ONN TV
+                                    </h1>
+                                </div>
+                            </div> -->
+                            <div class="medi_de_grid_box onn_container">
+                                <div class="onn_con_main onn_container margin_b">
+                                    <!-- <div class="onn_title">
+                                        <div class="title_icon_box">
+                                            <span class="icon_title"><img src="./img/common/chk_2.png" alt=""></span>
+                                            <h4>내과</h4>
+                                        </div>
+                                    </div> -->
+
+                                    <!-- <div class="onn_video_box">
+                                        <span class="oe_num_box"><span>1</span></span>
+                                        <span class="oe_content_box">
+                                            <div class="oe_c_thum_box">
+                                                <div class="oe_ct_img_box"><img src="./img/onn/on_1.webp" alt=""></div>
+                                                <div class="oe_ct_running_time"><span>19:57</span></div>
+                                            </div>
+                                            <div class="oe_c_context_box">
+                                                <div class="oe_cc_title">
+                                                    <span>사촌이 땅을 사면 배가 아프다, 이게 과민성대장증후군?!</span>
+                                                </div>
+                                                <div class="oe_cc_ext_text_box">
+                                                    <div class="oe_cc_class"><span>내과</span></div>
+                                                    <div class="oe_cc_tem">•</div>
+                                                    <div class="oe_cc_ext_text">
+                                                        <span>소화기내과 은명 과장님과 '과민성대장증후군'에 관하여 이야기 나눠보았습니다.</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </span>
+                                        <span class="oe_video">
+                                            <iframe width="100%" height="450" src="https://www.youtube.com/embed/9IyJ7-PZaJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                        </span>
+                                    </div> -->
+
+
+
+                                    
+                                    <!-- <div class="onn_video_box">
+                                        <ul class="onn_v_ul">
+                                            <li class="onn_v_li">
+                                                <div class="ov_li_title_box"><span>사촌이 땅을 사면 배가 아프다, 이게 과민성대장증후군?!</span></div>
+                                                <div class="ov_li_video">
+                                                    <iframe width="100%" height="600" src="https://www.youtube.com/embed/9IyJ7-PZaJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                                </div>
+                                            </li>                            
+                                        </ul>
+                                    </div> -->
+                                </div>
+                            </div>
+            
+            
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border"></div>
+            <div class="swiper_box4 cooperaiton contain">
+                <div class="contain">
+                    <div class="row">
+                        <div class="col">
+                            <div class="swiper mySwiper4">
+                                <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="https://www.kuh.ac.kr/main.do" class="coope">
+                                        <img src="./img/common/coope_1.png" alt="cooperation_img">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="https://www.paik.ac.kr/paik/user/main/view.do" class="coope">
+                                        <img src="./img/common/coope_2.png" alt="cooperation_img">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="https://www.kosinmed.or.kr/" class="coope">
+                                        <img src="./img/common/coope_3.png" alt="cooperation_img">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="https://www.damc.or.kr/main/main_2017.php" class="coope">
+                                        <img src="./img/common/coope_4.png" alt="cooperation_img">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="https://www.cmcseoul.or.kr/page/main" class="coope">
+                                        <img src="./img/common/coope_5.png" alt="cooperation_img">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="http://www.snuh.org/intro.do" class="coope">
+                                        <img src="./img/common/coope_6.png" alt="cooperation_img">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#" class="coope"> <!--부산대학교 병원 사이트 안됨.. -->
+                                        <img src="./img/common/coope_7.png" alt="cooperation_img">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="https://sev.severance.healthcare/sev/intro.do" class="coope">
+                                        <img src="./img/common/coope_8.png" alt="cooperation_img">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="https://www.hyumc.com/" class="coope">
+                                        <img src="./img/common/coope_9.png" alt="cooperation_img">
+                                    </a>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="footer">
+            <div class="container f_margin">
+                <div class="f_text_box">
+                    <div class="footer_top_box">
+                        <div class="ft_logo_box">온종합병원</div>
+                        <div class="f_top_box">
+                            <ul class="f_nav_ul">
+                                <li class="f_nav_li">
+                                    <a href="./personal.html" class="f_nav_link">개인정보처리방침</a>
+                                </li>
+                                <li class="f_nav_li">
+                                    <a href="./infor/infor.html?num=0" class="f_nav_link">병원안내</a>
+                                </li>
+                                <li class="f_nav_li">
+                                    <a href="./medi_infor/infor.html?num=0" class="f_nav_link">진료안내</a>
+                                </li>
+                                <li class="f_nav_li">
+                                    <a href="./medi_depart.html?num=5 class="f_nav_link">진료과ㆍ의료진</a>
+                                </li>
+                                <li class="f_nav_li">
+                                    <a href="./medi_center.html?cen_v=0" class="f_nav_link">전문센터</a>
+                                </li>
+                                <li class="f_nav_li">
+                                    <a href="./medi_center.html?cen_v=1" class="f_nav_link">암병원</a>
+                                </li>
+                                <li class="f_nav_li">
+                                    <a href="./news.html?num=0" class="f_nav_link">병원소식</a>
+                                </li>
+                                
+                                <li class="f_nav_li">
+                                    <a href="./unpaid.html?num=6" class="f_nav_link">비급여</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ft_detail_box">
+                        <div class="ft_d_box">47261 부산광역시 부산진구 가야대로 721 (당감동 966번지) | 의료기관명칭 : 의료법인 온그룹의료재단 온종합병원</div>
+                        <div class="ft_d_box">사업자등록번호 : 605-82-11399 | TEL : 051-607-0114, 응급실: 051-607-0129 | FAX : 051-607-0220</div>
+                        <div class="ft_d_box">E-Mail : onhospital@hanmail.net | 대표자명 : 윤선희</div>
+                        <div class="ft_d_box">© 온종합병원. ALL RIGHTS RESERVED.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

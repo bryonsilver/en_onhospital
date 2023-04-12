@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>온종합병원 그룹 - 응급의료센터</title>
+
+    <link rel="stylesheet" href="../css/comon.css">
+    <link rel="icon" href="../img/common/favicon2.png">
+    <link rel="stylesheet" href="../css/swiper-bundle.css">
+    <link rel="stylesheet" href="../css/medi_detail.css">
+    <link rel="stylesheet" href="../css/guide.css">
+    <link rel="stylesheet" href="../css/m_left_common.css">
+    <link rel="stylesheet" href="../css/infor/emergency.css">
+
+    <script src="../js/common/jquery-2.1.4.min.js"></script>
+    <script defer src="../js/common/common.js"></script>
+    <script defer src="../js/medi_depart/doctor_list.js"></script>
+    <script defer src="../js/guide/guide.js"></script>
+    <script src="../js/guide/guide_list.js"></script>
+    <script src="../js/guide/emergency.js"></script>
+
+    <script defer src="../js/common/swiper-bundle.js"></script>
+    <script defer src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script defer src="../js/common/google.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <div class="black_pan"></div>
+        <div class="top_btn">
+            <div class="top_btn_img">
+                <img src="../img/common/top.png" alt="top_btn_img" class="top_btn">
+            </div>
+        </div>
+        <div class="header">
+            <div class="head_flex">
+                <div class="head_contain">
+                    <div class="h_logo_box desk">
+                        <a href="../index.html">
+                            <img src="../img/common/logo_2_1.png" alt="logo" class="logo_d">
+                            <img src="../img/common/logo_m_2.png" alt="logo_m" class="logo_m">
+                        </a>
+                    </div>
+                    <div class="h_nav_box">
+                        <ul class="h_nav_ul">
+                            <li class="h_nav_li nav_0"><a href="../infor/infor.html?num=0">병원안내</a></li>
+                            <li class="h_nav_li nav_1"><a href="../medi_depart.html?num=5">진료안내</a></li>
+                            <li class="h_nav_li nav_2"><a href="../medi_center.html?cen_v=0">전문센터</a></li>
+                            <li class="h_nav_li nav_5"><a href="../medi_center_2.html?cen_v2=1">암병원</a></li>
+                            <li class="h_nav_li nav_3"><a href="../news.html?num=0">병원소식</a></li>
+                            <li class="h_nav_li nav_4"><a href="../onntv.html?cate=0">ONN TV</a></li>
+                        </ul>
+                       
+                        <div class="h_min_box">
+                            <div class="google_lang_box">
+                                <div id="google_translate_element" class="reloding"></div>
+                            </div>
+
+                            <div class="h_logo_box moblie_logo">
+                                <a href="../index.html" class="moblie_1">
+                                   <img src="../img/common/logo_2_1.png" alt="logo" class="logo_d_min">
+                                    <img src="../img/common/logo_m_2.png" alt="logo_m" class="logo_m">
+                                </a>
+                            </div>
+                            
+                            <div class="ham_box_2">
+                                <div class="ham_box ">
+                                    <a href="../ham.html" class="width"><span>메뉴</span></a>
+                                    <a href="../ham.html">
+                                        <div class="line first_l"></div>
+                                        <div class="line second_l"></div>
+                                        <div class="line third_l"></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav_pan_box">
+            <div class="container">
+                <div class="n_set_pan n_pan n_pan_0">
+                    <span class="dep1">병원안내</span>
+                    <ul class="dep2">
+                        <li class="dep2_li"><a class="dep2_a di_1" href="../infor/infor.html?num=0">인사말</a></li>
+                        <li class="dep2_li"><a class="dep2_a di_2" href="../infor/history.html?num=1">연혁</a></li>
+                        <li class="dep2_li"><a class="dep2_a di_3" href="../infor/mission.html?num=2">미션/비전</a></li>
+                        <li class="dep2_li"><a class="dep2_a di_4" href="../infor/floor.html?num=3">층별안내</a></li>
+                        <li class="dep2_li"><a class="dep2_a di_5" href="../infor/directions.html?num=4">오시는길</a></li>
+                        <li class="dep2_li"><a class="dep2_a di_6" href="../infor/phone_num.html?num=6">전화번호</a></li>
+                        <li class="dep2_li"><a class="dep2_a di_7" href="../infor/customer.html?num=6">고객지원센터</a></li>
+                        <li class="dep2_li"><a class="dep2_a di_8" href="../infor/emergency.html?num=7">응급의료센터</a></li>
+                        <li class="dep2_li"><a class="dep2_a di_9" href="../infor/funeral.html?num=9">장례식장</a></li>
+                    </ul>
+                </div>
+                <div class="n_set_pan n_pan n_pan_1">
+                    <span class="dep1">진료안내</span>
+                    <ul class="dep2">
+                        <li class="dep2_li"><a class="dep2_a dm_1" href="../medi_depart.html?num=5">진료과ㆍ의료진</a></li>
+                        <li class="dep2_li"><a class="dep2_a dm_2" href="../medi_infor/infor.html?num=0">진료안내</a></li>
+                        <li class="dep2_li"><a class="dep2_a dm_3" href="../medi_infor/visit.html?num=1">병문안안내</a></li>
+                        <li class="dep2_li"><a class="dep2_a dm_4" href="../medi_infor/admission.html?num=2">입/퇴원 안내</a></li>
+                        <li class="dep2_li"><a class="dep2_a dm_5" href="../medi_infor/issuance.html?num=3">제증명서발급</a></li>
+                        <li class="dep2_li"><a class="dep2_a dm_6" href="../unpaid.html?num=6?num=6">비급여</a></li>
+                    </ul>
+                </div>
+                <div class="n_set_pan n_pan n_pan_2">
+                    <span class="dep1">전문센터</span>
+                    <ul class="dep2">
+                        <li class="dep2_li">
+                            <ul class="dep3">
+                                <li class="npan_li"><a class="dep3_a dc_1" href="../medi_center.html?cen_v=0">간담췌센터 위ㆍ대장암</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_2" href="../medi_center.html?cen_v=1">간센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_3" href="../medi_center.html?cen_v=2">감염센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_4" href="../medi_center.html?cen_v=3">대장항문센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_5" href="../medi_center.html?cen_v=4">소아청소년 정신건강센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_6" href="../medi_center.html?cen_v=5">소화내시경센터</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li class="dep2_li">
+                            <ul class="dep3">
+                                <li class="npan_li"><a class="dep3_a dc_7" href="../medi_center.html?cen_v=6">소화기암수술센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_8" href="../medi_center.html?cen_v=7">신경센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_9" href="../medi_center.html?cen_v=8">심뇌혈관센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_10" href="../medi_center.html?cen_v=9">알레르기 센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_11" href="../medi_center.html?cen_v=10">암재활프로그램</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_12" href="../medi_center.html?cen_v=11">여성암센터</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li class="dep2_li">
+                            <ul class="dep3">
+                                <li class="npan_li"><a class="dep3_a dc_13" href="../medi_center.html?cen_v=12">유방ㆍ갑상선암 센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_14" href="../medi_center.html?cen_v=13">유방암센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_15" href="../medi_center.html?cen_v=14">응급의료센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_16" href="../medi_center.html?cen_v=15">인공신장센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_17" href="../medi_center.html?cen_v=16">인터벤션센터(중재시술)</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_18" href="../medi_center.html?cen_v=17">장례식장</a></li>
+                            </ul>
+                        </li>
+                        <li class="dep2_li">
+                            <ul class="dep3">
+                                <li class="npan_li"><a class="dep3_a dc_19" href="../medi_center.html?cen_v=18">재활치료센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_20" href="../medi_center.html?cen_v=19">전립선ㆍ배뇨장애 센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_21" href="../medi_center.html?cen_v=20">전립선암센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_22" href="../medi_center.html?cen_v=21">척추관절센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_23" href="../medi_center.html?cen_v=22">초음파진단센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_24" href="../medi_center.html?cen_v=23">췌장담도센터</a></li>
+                            </ul>
+                        </li>
+
+
+                        <li class="dep2_li">
+                            <ul class="dep3">
+                                <li class="npan_li"><a class="dep3_a dc_25" href="../medi_center.html?cen_v=24">턱얼굴수술센터(양악센터)</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_26" href="../medi_center.html?cen_v=25">페암수술센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_27" href="../medi_center.html?cen_v=26">항암방사선치료센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_28" href="../medi_center.html?cen_v=27">호스피스완화의료병동</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_29" href="../medi_center.html?cen_v=28">호흡기센터</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="n_set_pan n_pan n_pan_5">
+                    <span class="dep1">암병원</span>
+                    <ul class="dep2">
+                        <li class="dep2_li">
+                            <ul class="dep3">
+                                <li class="npan_li"><a class="dep3_a dc_2_1" href="../medi_center_2.html?cen_v2=1">간센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_2_2" href="../medi_center_2.html?cen_v2=6">소화기암수술센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_2_3" href="../medi_center_2.html?cen_v2=11">여성암센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_2_4" href="../medi_center_2.html?cen_v2=12">유방ㆍ갑상선암 센터</a></li>
+                            </ul>
+                        </li>
+                        <li class="dep2_li">
+                            <ul class="dep3">
+                                <li class="npan_li"><a class="dep3_a dc_2_5" href="../medi_center_2.html?cen_v2=16">인터벤션센터(중재시술)</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_2_6" href="../medi_center_2.html?cen_v2=20">전립선암센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_2_7" href="../medi_center_2.html?cen_v2=25">폐암수술센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_2_8" href="../medi_center_2.html?cen_v2=26">항암방사선치료센터</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="n_set_pan n_pan n_pan_3">
+                    <span class="dep1">병원소식</span>
+                    <ul class="dep2">
+                        <li class="dep2_li"><a class="dep2_a dn_1" href="../news.html?num=0">공지사항</a></li>
+                        <li class="dep2_li"><a class="dep2_a dn_2" href="../news.html?num=1">기타소식</a></li>
+                        <li class="dep2_li"><a class="dep2_a dn_3" href="../news.html?num=2">언론보도</a></li>
+                        <li class="dep2_li"><a class="dep2_a dn_4" href="../news.html?num=3">채용정보</a></li>
+                        <li class="dep2_li"><a class="dep2_a dn_5" href="../news.html?num=4">오늘의 식단</a></li>
+                        <li class="dep2_li"><a class="dep2_a dn_6" href="../news.html?num=5">자주묻는질문</a></li>
+                    </ul>
+                </div>
+                <div class="n_set_pan n_pan n_pan_4">
+                    <span class="dep1 do_1">ONN TV</span>
+                    <!-- <ul class="dep2">
+                        <li class="dep2_li"><a class="dep2_a" href="../news.html?num=0">공지사항</a></li>
+                        <li class="dep2_li"><a class="dep2_a" href="./news.html?num=1">기타소식</a></li>
+                        <li class="dep2_li"><a class="dep2_a" href="./news.html?num=2">언론보도</a></li>
+                        <li class="dep2_li"><a class="dep2_a" href="./news.html?num=3">채용정보</a></li>
+                        <li class="dep2_li"><a class="dep2_a" href="./news.html?num=4">오늘의 식단</a></li>
+                        <li class="dep2_li"><a class="dep2_a" href="./news.html?num=5">자주묻는질문</a></li>
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="container">
+                <div class="main_flex">
+                    <div class="m_left">
+                        <div class="m_l_aside">
+                            <h4 class="ml_pic">
+                                <span>병원안내</span>
+                            </h4>
+                            <ul class="ml_ul">
+                                <li class="ml_li pm_1" id="m_li"><a href="../infor/infor.html?num=0">인사말</a></li>
+                                <li class="ml_li pm_2" id="m_li"><a href="../infor/history.html?num=1">연혁</a></li>
+                                <li class="ml_li pm_3" id="m_li"><a href="../infor/mission.html?num=2">미션/비전</a></li>
+                                <li class="ml_li pm_4" id="m_li"><a href="../infor/floor.html?num=3">층별안내</a></li>
+                                <li class="ml_li pm_5" id="m_li"><a href="../infor/directions.html?num=4">오시는길</a></li>
+                                <li class="ml_li pm_6" id="m_li"><a href="../infor/phone_num.html?num=5">전화번호</a></li>
+                                <li class="ml_li pm_7" id="m_li"><a href="../infor/customer.html?num=6">고객지원센터</a></li>
+                                <li class="ml_li pm_8" id="m_li"><a href="../infor/emergency.html?num=7">응급의료센터</a></li>
+                                <li class="ml_li pm_10" id="m_li"><a href="../infor/funeral.html?num=9">장례식장</a></li>
+                            </ul>
+                            <form id="frm" method="get" action="">
+                                <input type="hidden" name="pageName" id="pageName">
+                            </form>
+                        </div>
+                    </div> 
+                    <div class="m_right">
+                        <div class="m_select_nav_box">
+                            <div class="submenu_box">
+                                <select name="select_s" id="select_id" class="select_class" onchange="if(this.value) location.href=(this.value);">
+                                    <option value="../infor/infor.html?num=0">병원안내</option>
+                                    <option value="../infor/infor.html?num=0" id="selec0">- 인사말</option>
+                                    <option value="../infor/history.html?num=1" id="selec1">- 연혁</option>
+                                    <option value="../infor/mission.html?num=2" id="selec2">- 미션/비전</option>
+                                    <option value="../infor/floor.html?num=3" id="selec3">- 층별안내</option>
+                                    <option value="../infor/directions.html?num=4" id="selec4">- 오시는길</option>
+                                    <option value="../infor/phone_num.html?num=5" id="selec5">- 전화번호</option>
+                                    <option value="../infor/customer.html?num=6" id="selec6">- 고객지원센터</option>
+                                    <option value="../infor/emergency.html?num=7" id="selec7">- 응급의료센터</option>
+                                    <option value="../infor/funeral.html?num=9" id="selec9">- 장례식장</option>
+                                </select>
+                                <div class="arrow"><img src="../img/common/submenu_arrow.png" alt="sub_arrow" class="sub_arrow"></div>
+                            </div>
+                        </div>
+                        <div class="m_flex_box">
+                            <div class="row mb-4"> 
+                                <div class="col-lg-12">
+                                    <h1 class="top_title">
+                                        <span class="icon"></span>
+                                        응급의료센터
+                                    </h1>
+                                </div>
+                            </div>
+                            <div class="row mb-5">
+                                <div class="col-lg-12">
+                                   <div class="box-img"></div>			
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="title_icon_box">
+                                        <span class="icon_title"><img src="../img/common/chk_2.png" alt=""></span>
+                                        <h4>응급 진료 방법</h4>	
+                                    </div>
+                                    <div class="mb-3 d-block d-lg-none text-center emergency">
+                                        <svg class="svg-inline--fa fa-hand-point-down fa-w-14" aria-hidden="true" focusable="false" data-prefix="far" data-icon="hand-point-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M188.8 512c45.616 0 83.2-37.765 83.2-83.2v-35.647a93.148 93.148 0 0 0 22.064-7.929c22.006 2.507 44.978-3.503 62.791-15.985C409.342 368.1 448 331.841 448 269.299V248c0-60.063-40-98.512-40-127.2v-2.679c4.952-5.747 8-13.536 8-22.12V32c0-17.673-12.894-32-28.8-32H156.8C140.894 0 128 14.327 128 32v64c0 8.584 3.048 16.373 8 22.12v2.679c0 6.964-6.193 14.862-23.668 30.183l-.148.129-.146.131c-9.937 8.856-20.841 18.116-33.253 25.851C48.537 195.798 0 207.486 0 252.8c0 56.928 35.286 92 83.2 92 8.026 0 15.489-.814 22.4-2.176V428.8c0 45.099 38.101 83.2 83.2 83.2zm0-48c-18.7 0-35.2-16.775-35.2-35.2V270.4c-17.325 0-35.2 26.4-70.4 26.4-26.4 0-35.2-20.625-35.2-44 0-8.794 32.712-20.445 56.1-34.926 14.575-9.074 27.225-19.524 39.875-30.799 18.374-16.109 36.633-33.836 39.596-59.075h176.752C364.087 170.79 400 202.509 400 248v21.299c0 40.524-22.197 57.124-61.325 50.601-8.001 14.612-33.979 24.151-53.625 12.925-18.225 19.365-46.381 17.787-61.05 4.95V428.8c0 18.975-16.225 35.2-35.2 35.2zM328 64c0-13.255 10.745-24 24-24s24 10.745 24 24-10.745 24-24 24-24-10.745-24-24z"></path></svg>
+                                        <i class="far fa-hand-point-down"></i> 손으로 좌우 움직여보세요.
+                                    </div>
+                                    <div class="table-responsive-lg">
+                                        <table class="table table-bordered emerg">
+                                            <tbody>
+                                                <tr>
+                                                    <td style="color: #69d6ef;">
+                                                        <svg class="svg-inline--fa fa-file-signature fa-w-18 fa-3x" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="file-signature" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M218.17 424.14c-2.95-5.92-8.09-6.52-10.17-6.52s-7.22.59-10.02 6.19l-7.67 15.34c-6.37 12.78-25.03 11.37-29.48-2.09L144 386.59l-10.61 31.88c-5.89 17.66-22.38 29.53-41 29.53H80c-8.84 0-16-7.16-16-16s7.16-16 16-16h12.39c4.83 0 9.11-3.08 10.64-7.66l18.19-54.64c3.3-9.81 12.44-16.41 22.78-16.41s19.48 6.59 22.77 16.41l13.88 41.64c19.75-16.19 54.06-9.7 66 14.16 1.89 3.78 5.49 5.95 9.36 6.26v-82.12l128-127.09V160H248c-13.2 0-24-10.8-24-24V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24v-40l-128-.11c-16.12-.31-30.58-9.28-37.83-23.75zM384 121.9c0-6.3-2.5-12.4-7-16.9L279.1 7c-4.5-4.5-10.6-7-17-7H256v128h128v-6.1zm-96 225.06V416h68.99l161.68-162.78-67.88-67.88L288 346.96zm280.54-179.63l-31.87-31.87c-9.94-9.94-26.07-9.94-36.01 0l-27.25 27.25 67.88 67.88 27.25-27.25c9.95-9.94 9.95-26.07 0-36.01z"></path></svg>
+                                                        <i class="fas fa-file-signature fa-3x"></i>
+                                                    </td>
+                                                    <td class="text-left">
+                                                        <h5>01. <span>진료신청</span></h5>
+                                                        응급수납에서 진료신청서를 작성하시어 제출하시면 진료접수증이 발급됩니다.
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="color: #69d6ef;">
+                                                        <svg class="svg-inline--fa fa-project-diagram fa-w-20 fa-3x" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="project-diagram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M384 320H256c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h128c17.67 0 32-14.33 32-32V352c0-17.67-14.33-32-32-32zM192 32c0-17.67-14.33-32-32-32H32C14.33 0 0 14.33 0 32v128c0 17.67 14.33 32 32 32h95.72l73.16 128.04C211.98 300.98 232.4 288 256 288h.28L192 175.51V128h224V64H192V32zM608 0H480c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h128c17.67 0 32-14.33 32-32V32c0-17.67-14.33-32-32-32z"></path></svg>
+                                                        <i class="fas fa-project-diagram fa-3x"></i>
+                                                    </td>
+                                                    <td class="text-left">
+                                                        <h5>02. <span>분류실(초진실)</span></h5>
+                                                        분류실에 가시면 예진 후 환자 중증도에 따라 진료구역을 배정 받게 됩니다. 
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="color: #69d6ef;">
+                                                        <svg class="svg-inline--fa fa-stethoscope fa-w-16 fa-3x" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="stethoscope" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M447.1 112c-34.2.5-62.3 28.4-63 62.6-.5 24.3 12.5 45.6 32 56.8V344c0 57.3-50.2 104-112 104-60 0-109.2-44.1-111.9-99.2C265 333.8 320 269.2 320 192V36.6c0-11.4-8.1-21.3-19.3-23.5L237.8.5c-13-2.6-25.6 5.8-28.2 18.8L206.4 35c-2.6 13 5.8 25.6 18.8 28.2l30.7 6.1v121.4c0 52.9-42.2 96.7-95.1 97.2-53.4.5-96.9-42.7-96.9-96V69.4l30.7-6.1c13-2.6 21.4-15.2 18.8-28.2l-3.1-15.7C107.7 6.4 95.1-2 82.1.6L19.3 13C8.1 15.3 0 25.1 0 36.6V192c0 77.3 55.1 142 128.1 156.8C130.7 439.2 208.6 512 304 512c97 0 176-75.4 176-168V231.4c19.1-11.1 32-31.7 32-55.4 0-35.7-29.2-64.5-64.9-64zm.9 80c-8.8 0-16-7.2-16-16s7.2-16 16-16 16 7.2 16 16-7.2 16-16 16z"></path></svg>
+                                                        <i class="fas fa-stethoscope fa-3x"></i>
+                                                    </td>
+                                                    <td class="text-left">
+                                                        <h5>03. <span>진찰</span></h5>
+                                                        해당구역 읍급실 간호사에게 진료접수증을 제출하시면 담당의사가 응급진료를 하게 됩니다.<br>
+                                                        진료 후 퇴실 및 입원을 결정하게 됩니다. <br><br>
+                                                        <h6>※ 응급실 전문의 당직 근무 진료과</h6>
+                                                        <span class="text-info">
+                                                        내과, 소아청소년과, 정신건강의학과, 신경과, 피부과, 외과, 정형외과, 신경외과, 흉부외과, 성형외과, 산부인과, 안과, 이비인후과,<br> 비뇨의학과, 재활의학과, 가정의학과, 치과, 마취통증의학과, 방사선종양학과, 영상의학과, 한의학과, 진단검사의학과</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="color: #69d6ef;">
+                                                        <svg class="svg-inline--fa fa-cash-register fa-w-16 fa-3x" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cash-register" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M511.1 378.8l-26.7-160c-2.6-15.4-15.9-26.7-31.6-26.7H208v-64h96c8.8 0 16-7.2 16-16V16c0-8.8-7.2-16-16-16H48c-8.8 0-16 7.2-16 16v96c0 8.8 7.2 16 16 16h96v64H59.1c-15.6 0-29 11.3-31.6 26.7L.8 378.7c-.6 3.5-.9 7-.9 10.5V480c0 17.7 14.3 32 32 32h448c17.7 0 32-14.3 32-32v-90.7c.1-3.5-.2-7-.8-10.5zM280 248c0-8.8 7.2-16 16-16h16c8.8 0 16 7.2 16 16v16c0 8.8-7.2 16-16 16h-16c-8.8 0-16-7.2-16-16v-16zm-32 64h16c8.8 0 16 7.2 16 16v16c0 8.8-7.2 16-16 16h-16c-8.8 0-16-7.2-16-16v-16c0-8.8 7.2-16 16-16zm-32-80c8.8 0 16 7.2 16 16v16c0 8.8-7.2 16-16 16h-16c-8.8 0-16-7.2-16-16v-16c0-8.8 7.2-16 16-16h16zM80 80V48h192v32H80zm40 200h-16c-8.8 0-16-7.2-16-16v-16c0-8.8 7.2-16 16-16h16c8.8 0 16 7.2 16 16v16c0 8.8-7.2 16-16 16zm16 64v-16c0-8.8 7.2-16 16-16h16c8.8 0 16 7.2 16 16v16c0 8.8-7.2 16-16 16h-16c-8.8 0-16-7.2-16-16zm216 112c0 4.4-3.6 8-8 8H168c-4.4 0-8-3.6-8-8v-16c0-4.4 3.6-8 8-8h176c4.4 0 8 3.6 8 8v16zm24-112c0 8.8-7.2 16-16 16h-16c-8.8 0-16-7.2-16-16v-16c0-8.8 7.2-16 16-16h16c8.8 0 16 7.2 16 16v16zm48-80c0 8.8-7.2 16-16 16h-16c-8.8 0-16-7.2-16-16v-16c0-8.8 7.2-16 16-16h16c8.8 0 16 7.2 16 16v16z"></path></svg>
+                                                        <i class="fas fa-cash-register fa-3x"></i>
+                                                    </td>
+                                                    <td class="text-left">
+                                                        <h5>04. <span>진료비 수납</span></h5>
+                                                        퇴실결정을 받으신 분은 응급수납창구에서 진료비를 수납하시고 영수증 및 외래진료예약증을 받으시면 됩니다.
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="color: #69d6ef;">
+                                                        <svg class="svg-inline--fa fa-capsules fa-w-18 fa-3x" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="capsules" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M555.3 300.1L424.2 112.8C401.9 81 366.4 64 330.4 64c-22.6 0-45.5 6.7-65.5 20.7-19.7 13.8-33.7 32.8-41.5 53.8C220.5 79.2 172 32 112 32 50.1 32 0 82.1 0 144v224c0 61.9 50.1 112 112 112s112-50.1 112-112V218.9c3.3 8.6 7.3 17.1 12.8 25L368 431.2c22.2 31.8 57.7 48.8 93.8 48.8 22.7 0 45.5-6.7 65.5-20.7 51.7-36.2 64.2-107.5 28-159.2zM160 256H64V144c0-26.5 21.5-48 48-48s48 21.5 48 48v112zm194.8 44.9l-65.6-93.7c-7.7-11-10.7-24.4-8.3-37.6 2.3-13.2 9.7-24.8 20.7-32.5 8.5-6 18.5-9.1 28.8-9.1 16.5 0 31.9 8 41.3 21.5l65.6 93.7-82.5 57.7z"></path></svg>
+                                                        <i class="fas fa-capsules fa-3x"></i>
+                                                    </td>
+                                                    <td class="text-left">
+                                                        <h5>05. <span>투약</span></h5>
+                                                        퇴실시 의료진에게 다음 진료사항과 귀가시 주의사항에 대해 상담 후 퇴실하십시오.<br>
+                                                        원외처방인 경우 인근 약국에서 처방전을 제시하고 약을 구입하시면 됩니다.
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="color: #69d6ef;">
+                                                        <svg class="svg-inline--fa fa-hospital-user fa-w-20 fa-3x" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hospital-user" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M480 320a96 96 0 1 0-96-96 96 96 0 0 0 96 96zm48 32a22.88 22.88 0 0 0-7.06 1.09 124.76 124.76 0 0 1-81.89 0A22.82 22.82 0 0 0 432 352a112 112 0 0 0-112 112.62c.14 26.26 21.73 47.38 48 47.38h224c26.27 0 47.86-21.12 48-47.38A112 112 0 0 0 528 352zm-198.09 10.45A145.19 145.19 0 0 1 352 344.62V128a32 32 0 0 0-32-32h-32V32a32 32 0 0 0-32-32H96a32 32 0 0 0-32 32v64H32a32 32 0 0 0-32 32v368a16 16 0 0 0 16 16h288.31A78.62 78.62 0 0 1 288 464.79a143.06 143.06 0 0 1 41.91-102.34zM144 404a12 12 0 0 1-12 12H92a12 12 0 0 1-12-12v-40a12 12 0 0 1 12-12h40a12 12 0 0 1 12 12zm0-128a12 12 0 0 1-12 12H92a12 12 0 0 1-12-12v-40a12 12 0 0 1 12-12h40a12 12 0 0 1 12 12zm48-122a6 6 0 0 1-6 6h-20a6 6 0 0 1-6-6v-26h-26a6 6 0 0 1-6-6v-20a6 6 0 0 1 6-6h26V70a6 6 0 0 1 6-6h20a6 6 0 0 1 6 6v26h26a6 6 0 0 1 6 6v20a6 6 0 0 1-6 6h-26zm80 250a12 12 0 0 1-12 12h-40a12 12 0 0 1-12-12v-40a12 12 0 0 1 12-12h40a12 12 0 0 1 12 12zm0-128a12 12 0 0 1-12 12h-40a12 12 0 0 1-12-12v-40a12 12 0 0 1 12-12h40a12 12 0 0 1 12 12z"></path></svg>
+                                                        <i class="fas fa-hospital-user fa-3x"></i>
+                                                    </td>
+                                                    <td class="text-left">
+                                                        <h5>06. <span>입원</span></h5>
+                                                        입원 결정을 받으신 분은 입원계에서 입원 수속하시면 됩니다. 
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border"></div>
+            <div class="swiper_box4 cooperaiton contain">
+                <div class="contain">
+                    <div class="row">
+                        <div class="col">
+                            <div class="swiper mySwiper4">
+                                <div class="swiper-wrapper">
+                                  <div class="swiper-slide">
+                                    <a href="https://www.kuh.ac.kr/main.do" class="coope">
+                                        <img src="../img/common/coope_1.png" alt="cooperation_img">
+                                    </a>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <a href="https://www.paik.ac.kr/paik/user/main/view.do" class="coope">
+                                        <img src="../img/common/coope_2.png" alt="cooperation_img">
+                                    </a>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <a href="https://www.kosinmed.or.kr/" class="coope">
+                                        <img src="../img/common/coope_3.png" alt="cooperation_img">
+                                    </a>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <a href="https://www.damc.or.kr/main/main_2017.php" class="coope">
+                                        <img src="../img/common/coope_4.png" alt="cooperation_img">
+                                    </a>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <a href="https://www.cmcseoul.or.kr/page/main" class="coope">
+                                        <img src="../img/common/coope_5.png" alt="cooperation_img">
+                                    </a>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <a href="http://www.snuh.org/intro.do" class="coope">
+                                        <img src="../img/common/coope_6.png" alt="cooperation_img">
+                                    </a>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <a href="#" class="coope"> <!--부산대학교 병원 사이트 안됨.. -->
+                                        <img src="../img/common/coope_7.png" alt="cooperation_img">
+                                    </a>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <a href="https://sev.severance.healthcare/sev/intro.do" class="coope">
+                                        <img src="../img/common/coope_8.png" alt="cooperation_img">
+                                    </a>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <a href="https://www.hyumc.com/" class="coope">
+                                        <img src="../img/common/coope_9.png" alt="cooperation_img">
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container f_margin">
+                <div class="f_text_box">
+                    <div class="footer_top_box">
+                        <div class="ft_logo_box">온종합병원</div>
+                        <div class="f_top_box">
+                            <ul class="f_nav_ul">
+                                <li class="f_nav_li">
+                                    <a href="../personal.html" class="f_nav_link">개인정보처리방침</a>
+                                </li>
+                                <li class="f_nav_li">
+                                    <a href="../infor/infor.html" class="f_nav_link">병원안내</a>
+                                </li>
+                                <li class="f_nav_li">
+                                    <a href="../medi_infor/infor.html" class="f_nav_link">진료안내</a>
+                                </li>
+                                <li class="f_nav_li">
+                                    <a href="../medi_depart.html?num=5"class="f_nav_link">진료과ㆍ의료진</a>
+                                </li>
+                                <li class="f_nav_li">
+                                    <a href="../medi_center.html?cen_v=0" class="f_nav_link">전문센터</a>
+                                </li>
+                                <li class="f_nav_li">
+                                    <a href="../medi_center.html?cen_v=1" class="f_nav_link">암병원</a>
+                                </li>
+                                <li class="f_nav_li">
+                                    <a href="../news.html?num=0" class="f_nav_link">병원소식</a>
+                                </li>
+                                
+                                <li class="f_nav_li">
+                                    <a href="../unpaid.html?num=6" class="f_nav_link">비급여</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ft_detail_box">
+                        <div class="ft_d_box">47261 부산광역시 부산진구 가야대로 721 (당감동 966번지) | 의료기관명칭 : 의료법인 온그룹의료재단 온종합병원</div>
+                        <div class="ft_d_box">사업자등록번호 : 605-82-11399 | TEL : 051-607-0114, 응급실: 051-607-0129 | FAX : 051-607-0220</div>
+                        <div class="ft_d_box">E-Mail : onhospital@hanmail.net | 대표자명 : 윤선희</div>
+                        <div class="ft_d_box">© 온종합병원. ALL RIGHTS RESERVED.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

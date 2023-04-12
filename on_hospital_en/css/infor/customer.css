@@ -1,0 +1,115 @@
+
+.page-title {
+    font-weight: 500;
+}
+.first_text_box {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #777;
+    line-height: 28px;
+}
+.first_text_box .text-justify {margin-bottom: 50px;}
+.float-right {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: right !important;
+    color: #666;
+}
+.first_text_center {
+    text-align: center;
+}
+
+.col-lg-12 h4 {
+    font-size: 22px;
+}
+.circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #ee791c99;
+    text-align: center;
+    line-height: 24px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+
+    margin-bottom: 10px;
+    margin-right: 12px;
+}
+.text-justify h5 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #555;
+    margin: 0 !important;
+}
+.table-phone {
+    width: 100%;
+    border-spacing: 0;
+
+    border-top: 2px solid #555;
+    border-bottom: 1px solid #555;
+}
+.bg-light {
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #ee791c30;
+    color: #666;
+}
+th {
+    border-top: 1px solid #999;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #ee791c30;
+    color: #666;
+}
+td {
+    border-top: 1px solid #999;
+    font-weight: 400;
+    font-size: 16px;
+    color: #777;
+}
+.btn-kso {
+    padding: 5px 10px ;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background: #ee791c;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.two {
+    margin-top: 50px;
+}
+table {
+    min-width: 580px;
+}
+.table>:not(caption)>*>* {
+    padding: 0.5rem 0.5rem;
+    border-bottom-width: 1px;
+    box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+}
+@media (max-width: 770px) {
+    .main > .container {
+        max-width: 600px !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .table-responsive-lg {
+        overflow-x: scroll;
+    }
+}
+@media (max-width: 414px) {
+    .title_icon_box {gap: 9px !important;}
+}
+@media (max-width: 400px) {
+    .col-lg-12 h4 {
+        text-align: left !important;
+        width: 100%;
+        max-width: 85% !important;
+    }
+}
+@media (max-width: 280px) {
+    .title_icon_box {margin-bottom: 26px !important;}
+}

@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>온종합병원 그룹 - 제증명서발급</title>
+
+    <link rel="stylesheet" href="../css/comon.css">
+    <link rel="icon" href="../img/common/favicon2.png">
+    <link rel="stylesheet" href="../css/swiper-bundle.css">
+    <link rel="stylesheet" href="../css/infor.css">
+    <link rel="stylesheet" href="../css/m_left_common.css">
+    <link rel="stylesheet" href="../css/medi_infor/issuance.css">
+
+    <script src="../js/common/jquery-2.1.4.min.js"></script>
+    <script defer src="../js/common/common.js"></script>
+    <script defer src="../js/medi_depart/doctor_list.js"></script>
+
+    <script defer src="../js/medi_infor/medi_infor.js"></script>
+    <script src="../js/medi_infor/infor_list.js"></script>
+    <script src="../js/medi_infor/issuance.js"></script>
+
+    <script defer src="../js/common/swiper-bundle.js"></script>
+    <script defer src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script defer src="../js/common/google.js"></script>
+
+</head>
+<body>
+    <div class="wrap">
+        <div class="black_pan"></div>
+        <div class="top_btn">
+            <div class="top_btn_img">
+                <img src="../img/common/top.png" alt="top_btn_img" class="top_btn">
+            </div>
+        </div>
+        <div class="header">
+            <div class="head_flex">
+                <div class="head_contain">
+                    <div class="h_logo_box desk">
+                        <a href="../index.html">
+                            <img src="../img/common/logo_2_1.png" alt="logo" class="logo_d">
+                            <img src="../img/common/logo_m_2.png" alt="logo_m" class="logo_m">
+                        </a>
+                    </div>
+                    <div class="h_nav_box">
+                        <ul class="h_nav_ul">
+                            <li class="h_nav_li nav_0"><a href="../infor/infor.html?num=0">병원안내</a></li>
+                            <li class="h_nav_li nav_1"><a href="../medi_depart.html?num=5">진료안내</a></li>
+                            <li class="h_nav_li nav_2"><a href="../medi_center.html?cen_v=0">전문센터</a></li>
+                            <li class="h_nav_li nav_5"><a href="../medi_center_2.html?cen_v2=1">암병원</a></li>
+                            <li class="h_nav_li nav_3"><a href="../news.html?num=0">병원소식</a></li>
+                            <li class="h_nav_li nav_4"><a href="../onntv.html?cate=0">ONN TV</a></li>
+                        </ul>
+                        
+                        <div class="h_min_box">
+                            <div class="google_lang_box">
+                                <div id="google_translate_element" class="reloding"></div>
+                            </div>
+                            <div class="h_logo_box moblie_logo">
+                                <a href="../index.html" class="moblie_1">
+                                   <img src="../img/common/logo_2_1.png" alt="logo" class="logo_d_min">
+                                    <img src="../img/common/logo_m_2.png" alt="logo_m" class="logo_m">
+                                </a>
+                            </div>
+                            
+                            <div class="ham_box_2">
+                                <div class="ham_box ">
+                                    <a href="../ham.html" class="width"><span>메뉴</span></a>
+                                    <a href="../ham.html">
+                                        <div class="line first_l"></div>
+                                        <div class="line second_l"></div>
+                                        <div class="line third_l"></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav_pan_box">
+            <div class="container">
+                <div class="n_set_pan n_pan n_pan_0">
+                    <span class="dep1">병원안내</span>
+                    <ul class="dep2">
+                        <li class="dep2_li"><a class="dep2_a di_1" href="../infor/infor.html?num=0">인사말</a></li>
+                        <li class="dep2_li"><a class="dep2_a di_2" href="../infor/history.html?num=1">연혁</a></li>
+                        <li class="dep2_li"><a class="dep2_a di_3" href="../infor/mission.html?num=2">미션/비전</a></li>
+                        <li class="dep2_li"><a class="dep2_a di_4" href="../infor/floor.html?num=3">층별안내</a></li>
+                        <li class="dep2_li"><a class="dep2_a di_5" href="../infor/directions.html?num=4">오시는길</a></li>
+                        <li class="dep2_li"><a class="dep2_a di_6" href="../infor/phone_num.html?num=6">전화번호</a></li>
+                        <li class="dep2_li"><a class="dep2_a di_7" href="../infor/customer.html?num=6">고객지원센터</a></li>
+                        <li class="dep2_li"><a class="dep2_a di_8" href="../infor/emergency.html?num=7">응급의료센터</a></li>
+                        <li class="dep2_li"><a class="dep2_a di_9" href="../infor/funeral.html?num=9">장례식장</a></li>
+                    </ul>
+                </div>
+                <div class="n_set_pan n_pan n_pan_1">
+                    <span class="dep1">진료안내</span>
+                    <ul class="dep2">
+                        <li class="dep2_li"><a class="dep2_a dm_1" href="../medi_depart.html?num=5">진료과ㆍ의료진</a></li>
+                        <li class="dep2_li"><a class="dep2_a dm_2" href="./medi_infor/infor.html?num=0">진료안내</a></li>
+                        <li class="dep2_li"><a class="dep2_a dm_3" href="./medi_infor/visit.html?num=1">병문안안내</a></li>
+                        <li class="dep2_li"><a class="dep2_a dm_4" href="./medi_infor/admission.html?num=2">입/퇴원 안내</a></li>
+                        <li class="dep2_li"><a class="dep2_a dm_5" href="./medi_infor/issuance.html?num=3">제증명서발급</a></li>
+                        <li class="dep2_li"><a class="dep2_a dm_6" href="../unpaid.html?num=6?num=6">비급여</a></li>
+                    </ul>
+                </div>
+                <div class="n_set_pan n_pan n_pan_2">
+                    <span class="dep1">전문센터</span>
+                    <ul class="dep2">
+                        <li class="dep2_li">
+                            <ul class="dep3">
+                                <li class="npan_li"><a class="dep3_a dc_1" href="../medi_center.html?cen_v=0">간담췌센터 위ㆍ대장암</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_2" href="../medi_center.html?cen_v=1">간센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_3" href="../medi_center.html?cen_v=2">감염센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_4" href="../medi_center.html?cen_v=3">대장항문센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_5" href="../medi_center.html?cen_v=4">소아청소년 정신건강센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_6" href="../medi_center.html?cen_v=5">소화내시경센터</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li class="dep2_li">
+                            <ul class="dep3">
+                                <li class="npan_li"><a class="dep3_a dc_7" href="../medi_center.html?cen_v=6">소화기암수술센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_8" href="../medi_center.html?cen_v=7">신경센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_9" href="../medi_center.html?cen_v=8">심뇌혈관센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_10" href="../medi_center.html?cen_v=9">알레르기 센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_11" href="../medi_center.html?cen_v=10">암재활프로그램</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_12" href="../medi_center.html?cen_v=11">여성암센터</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li class="dep2_li">
+                            <ul class="dep3">
+                                <li class="npan_li"><a class="dep3_a dc_13" href="../medi_center.html?cen_v=12">유방ㆍ갑상선암 센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_14" href="../medi_center.html?cen_v=13">유방암센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_15" href="../medi_center.html?cen_v=14">응급의료센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_16" href="../medi_center.html?cen_v=15">인공신장센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_17" href="../medi_center.html?cen_v=16">인터벤션센터(중재시술)</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_18" href="../medi_center.html?cen_v=17">장례식장</a></li>
+                            </ul>
+                        </li>
+                        <li class="dep2_li">
+                            <ul class="dep3">
+                                <li class="npan_li"><a class="dep3_a dc_19" href="../medi_center.html?cen_v=18">재활치료센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_20" href="../medi_center.html?cen_v=19">전립선ㆍ배뇨장애 센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_21" href="../medi_center.html?cen_v=20">전립선암센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_22" href="../medi_center.html?cen_v=21">척추관절센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_23" href="../medi_center.html?cen_v=22">초음파진단센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_24" href="../medi_center.html?cen_v=23">췌장담도센터</a></li>
+                            </ul>
+                        </li>
+
+
+                        <li class="dep2_li">
+                            <ul class="dep3">
+                                <li class="npan_li"><a class="dep3_a dc_25" href="../medi_center.html?cen_v=24">턱얼굴수술센터(양악센터)</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_26" href="../medi_center.html?cen_v=25">페암수술센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_27" href="../medi_center.html?cen_v=26">항암방사선치료센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_28" href="../medi_center.html?cen_v=27">호스피스완화의료병동</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_29" href="../medi_center.html?cen_v=28">호흡기센터</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="n_set_pan n_pan n_pan_5">
+                    <span class="dep1">암병원</span>
+                    <ul class="dep2">
+                        <li class="dep2_li">
+                            <ul class="dep3">
+                                <li class="npan_li"><a class="dep3_a dc_2_1" href="../medi_center_2.html?cen_v2=1">간센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_2_2" href="../medi_center_2.html?cen_v2=6">소화기암수술센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_2_3" href="../medi_center_2.html?cen_v2=11">여성암센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_2_4" href="../medi_center_2.html?cen_v2=12">유방ㆍ갑상선암 센터</a></li>
+                            </ul>
+                        </li>
+                        <li class="dep2_li">
+                            <ul class="dep3">
+                                <li class="npan_li"><a class="dep3_a dc_2_5" href="../medi_center_2.html?cen_v2=16">인터벤션센터(중재시술)</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_2_6" href="../medi_center_2.html?cen_v2=20">전립선암센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_2_7" href="../medi_center_2.html?cen_v2=25">폐암수술센터</a></li>
+                                <li class="npan_li"><a class="dep3_a dc_2_8" href="../medi_center_2.html?cen_v2=26">항암방사선치료센터</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="n_set_pan n_pan n_pan_3">
+                    <span class="dep1">병원소식</span>
+                    <ul class="dep2">
+                        <li class="dep2_li"><a class="dep2_a dn_1" href="../news.html?num=0">공지사항</a></li>
+                        <li class="dep2_li"><a class="dep2_a dn_2" href="../news.html?num=1">기타소식</a></li>
+                        <li class="dep2_li"><a class="dep2_a dn_3" href="../news.html?num=2">언론보도</a></li>
+                        <li class="dep2_li"><a class="dep2_a dn_4" href="../news.html?num=3">채용정보</a></li>
+                        <li class="dep2_li"><a class="dep2_a dn_5" href="../news.html?num=4">오늘의 식단</a></li>
+                        <li class="dep2_li"><a class="dep2_a dn_6" href="../news.html?num=5">자주묻는질문</a></li>
+                    </ul>
+                </div>
+                <div class="n_set_pan n_pan n_pan_4">
+                    <span class="dep1 do_1">ONN TV</span>
+                    <!-- <ul class="dep2">
+                        <li class="dep2_li"><a class="dep2_a" href="../news.html?num=0">공지사항</a></li>
+                        <li class="dep2_li"><a class="dep2_a" href="./news.html?num=1">기타소식</a></li>
+                        <li class="dep2_li"><a class="dep2_a" href="./news.html?num=2">언론보도</a></li>
+                        <li class="dep2_li"><a class="dep2_a" href="./news.html?num=3">채용정보</a></li>
+                        <li class="dep2_li"><a class="dep2_a" href="./news.html?num=4">오늘의 식단</a></li>
+                        <li class="dep2_li"><a class="dep2_a" href="./news.html?num=5">자주묻는질문</a></li>
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="container">
+                <div class="main_flex">
+                    <div class="m_left">
+                        <div class="m_l_aside">
+                            <h4 class="ml_pic">
+                                <span>진료안내</span>
+                            </h4>
+                            <ul class="ml_ul">
+                                <li class="ml_li pm_5" id="m_li">
+                                    <a href="../medi_depart.html?num=5">진료과ㆍ의료진</a>
+                                </li>
+                                <li class="ml_li pm_1" id="m_li">
+                                    <a href="../medi_infor/infor.html?num=0">진료안내</a>
+                                </li>
+                                <li class="ml_li pm_2" id="m_li">
+                                    <a href="../medi_infor/visit.html?num=1">병문안안내</a>
+                                </li>
+                                <li class="ml_li pm_3" id="m_li">
+                                    <a href="../medi_infor/admission.html?num=2">입/퇴원 안내</a>
+                                </li>
+                                <li class="ml_li pm_4" id="m_li">
+                                    <a href="../medi_infor/issuance.html?num=3">제증명서발급</a>
+                                </li>
+                                <li class="ml_li pm_6" id="m_li">
+                                    <a href="../unpaid.html?num=6">비급여</a>
+                                </li>
+                            </ul>
+                            <form id="frm" method="get" action="">
+                                <input type="hidden" name="pageName" id="pageName">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="m_right">
+                        <div class="m_select_nav_box">
+                            <div class="submenu_box">
+                                <select name="select_s" id="select_id" class="select_class" onchange="if(this.value) location.href=(this.value);">
+                                    <option value="../medi_depart.html?num=5">진료안내</option>
+                                    <option value="../medi_depart.html?num=5"id="selec4">- 진료과ㆍ의료진</option>
+                                    <option value="../medi_infor/infor.html?num=0" id="selec0">- 진료안내</option>
+                                    <option value="../medi_infor/visit.html?num=1" id="selec1">- 병문안안내</option>
+                                    <option value="../medi_infor/admission.html?num=2" id="selec2">- 입/퇴원 안내</option>
+                                    <option value="../medi_infor/issuance.html?num=3" id="selec3">- 제증명서발급</option>
+                                    <option value="../unpaid.html?num=6" id="selec5">- 비급여</option>
+                                </select>
+                                <div class="arrow"><img src="../img/common/submenu_arrow.png" alt="sub_arrow" class="sub_arrow"></div>
+                            </div>
+                        </div>
+
+                        <div class="m_flex_box">
+                            <div class="row mb-4"> 
+                                <div class="col-lg-12">
+                                    <h1 class="top_title">
+                                        <span class="icon"></span>
+                                        제증명서발급
+                                    </h1>
+                                </div>
+                            </div>
+                            <div class="row mb-5">
+                                <div class="col-lg-12 text-justify margin_bottom">
+                                    <div class="title_icon_box spec">
+                                        <span class="icon_title"><img src="../img/common/chk_2.png" alt=""></span>
+                                        <h4>제증명/의무기록 사본 발급</h4>
+                                    </div>
+                                    <h6><span class="icon_mini"></span> Issue Info</h6>
+                                    <span class="text_1">환자의 ‘개인정보 보호’를 위해서 의료기관은 의무기록의 비밀을 유지할 ‘책임’이 있습니다. 환자의 의무기록 열람 및 사본 교부는 환자의 동의가 있어야 가능합니다.</span>
+                                    <br><br><br>	
+                                    <div class="title_icon_box spec">
+                                        <span class="icon_title"><img src="../img/common/chk_2.png" alt=""></span>
+                                        <h4>사본 발급 안내</h4>
+                                    </div>
+                                    <h6><span class="icon_mini"></span> 구비서류</h6>
+                                    <ol class="mb-5">
+                                        <li class="mb-2"><span class="mr-2"></span>신분증 또는 신분증 사본은 반드시 사진이 있는 것이어야 함.</li>
+                                        <li class="mb-2"><span class="mr-2"></span>친족관계 증명서는 환자 본인과의 관계가 명시된 것이어야 함.<br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;건강보험증은 친족관계가 입증되지 않으므로 인정되지 않음<br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;의무기록 사본발급일 기준 3개월 이내에 발급 받은 것만 인정함.</li>
+                                        <li class="mb-2"><span class="mr-2"></span>동의서 및 위임장의 자필서명은 도장 및 지장은 인정되지 않음. (반드시 서명이어야 함)</li>
+                                        <li class="mb-2"><span class="mr-2"></span>동의서에는 사본발급 받는 범위(날짜, 기록지 범위 등)를 구체적으로 명기하도록 하여야 함.</li>
+                                        <li class="mb-2"><span class="mr-2"></span>사망, 의식불명인자, 미성년자 등의 경우에는 법정 대리인이 대신할 수 있음</li>
+                                    </ol>
+                                    <h6><span class="icon_mini"></span> 의료법 제 21조, 시행규칙 제 13조의 [표]</h6>
+                                    <div class="text-center d-block d-md-none">
+                                        <svg class="svg-inline--fa fa-hand-point-down fa-w-14" aria-hidden="true" focusable="false" data-prefix="far" data-icon="hand-point-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M188.8 512c45.616 0 83.2-37.765 83.2-83.2v-35.647a93.148 93.148 0 0 0 22.064-7.929c22.006 2.507 44.978-3.503 62.791-15.985C409.342 368.1 448 331.841 448 269.299V248c0-60.063-40-98.512-40-127.2v-2.679c4.952-5.747 8-13.536 8-22.12V32c0-17.673-12.894-32-28.8-32H156.8C140.894 0 128 14.327 128 32v64c0 8.584 3.048 16.373 8 22.12v2.679c0 6.964-6.193 14.862-23.668 30.183l-.148.129-.146.131c-9.937 8.856-20.841 18.116-33.253 25.851C48.537 195.798 0 207.486 0 252.8c0 56.928 35.286 92 83.2 92 8.026 0 15.489-.814 22.4-2.176V428.8c0 45.099 38.101 83.2 83.2 83.2zm0-48c-18.7 0-35.2-16.775-35.2-35.2V270.4c-17.325 0-35.2 26.4-70.4 26.4-26.4 0-35.2-20.625-35.2-44 0-8.794 32.712-20.445 56.1-34.926 14.575-9.074 27.225-19.524 39.875-30.799 18.374-16.109 36.633-33.836 39.596-59.075h176.752C364.087 170.79 400 202.509 400 248v21.299c0 40.524-22.197 57.124-61.325 50.601-8.001 14.612-33.979 24.151-53.625 12.925-18.225 19.365-46.381 17.787-61.05 4.95V428.8c0 18.975-16.225 35.2-35.2 35.2zM328 64c0-13.255 10.745-24 24-24s24 10.745 24 24-10.745 24-24 24-24-10.745-24-24z"></path></svg>
+                                        <i class="far fa-hand-point-down"></i> 좌우로 이동해보세요.
+                                    </div>
+                                    <div class="table-responsive-lg mb-5 one margin_bottom">				
+                                        <table class="table table-phone">
+                                            <tbody>
+                                                <tr>
+                                                    <th>신청자</th>
+                                                    <td>필요한 서류</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>환자본인</th>
+                                                    <td>사진이 있는 신분증</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>친족<br>(배우자,직계존속,직계비속,<br> 배우자의 직계존속)</th>
+                                                    <td>
+                                                        <ul>
+                                                            <li>신청자의 신분증 또는 사본</li>
+                                                            <li>친족관계 증명서 (가족관계서류, <span>주민등록등본 등</span><br>친족임을 입증할 수 있는 서류)</li>
+                                                            <li>환자가 자필 서명한 동의서</li>
+                                                            <li>환자의 신분증 사본</li>
+                                                        </ul>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>환자 대리인<br>(형제, 자매, 보험회사 등)</th>
+                                                    <td>
+                                                        <ul>
+                                                            <li>신청자의 신분증 또는 사본</li>
+                                                            <li>환자가 자필 서명한 동의서</li>
+                                                            <li>환자가 자필 서명한 위임장</li>
+                                                            <li>환자의 신분증 사본</li>
+                                                            <li>친족이 없는 형제, 자매 신청 시 : <span> 법정구비서류 + </span><span>친족이 없음을 증빙하는 서류</span> <br>(하단 확인서파일 참조)</li>
+                                                        </ul>		
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>만 14세 미만 <span>친권자가 신청시</span></th>
+                                                    <td>신청자 신분증, 가족관계 증빙서류</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>만 14세 미만 친권자 외 신청시</th>
+                                                    <td>신청자 신분증, 친권자 신분증 사본, <span>가족관계 증빙서류,</span> <span>친권자 동의서,친권자 위임장</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>만 17세 미만 <span>(주민등록증 미발급)환자</span></th>
+                                                    <td>신분증(여권, 학생증, 청소년증), <span>가족관계증명서, </span> <span>주민등록초본 등으로 본인 확인</span></td>
+                                                </tr>
+                                            </tbody>		
+                                        </table>
+                                    </div>
+                                    <div class="title_icon_box spec down_text_box">
+                                        <span class="icon_title"><img src="../img/common/chk_2.png" alt=""></span>
+                                        <h4>서류 양식을 다운 받으실 수 있습니다</h4>
+                                        <h4 class="moblie_download">서류 양식 다운</h4>
+                                    </div>
+                                    <div class="row mb-5 down_box">
+                                        <div class="col-lg-4 mb-2">
+                                            <a href="../file/첨부파일동의서.hwp" class="btn-download"><i class="fas fa-download fa-lg">
+                                                <svg class="svg-inline--fa fa-download fa-w-16 fa-lg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="download" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M216 0h80c13.3 0 24 10.7 24 24v168h87.7c17.8 0 26.7 21.5 14.1 34.1L269.7 378.3c-7.5 7.5-19.8 7.5-27.3 0L90.1 226.1c-12.6-12.6-3.7-34.1 14.1-34.1H192V24c0-13.3 10.7-24 24-24zm296 376v112c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V376c0-13.3 10.7-24 24-24h146.7l49 49c20.1 20.1 52.5 20.1 72.6 0l49-49H488c13.3 0 24 10.7 24 24zm-124 88c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20zm64 0c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20z"></path></svg>
+                                                </i>&nbsp; 동의서 양식 <small>(한글파일)</small>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-4 mb-2">
+                                            <a href="../file/첨부파일위임장.hwp" class="btn-download"><i class="fas fa-download fa-lg">
+                                                <svg class="svg-inline--fa fa-download fa-w-16 fa-lg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="download" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M216 0h80c13.3 0 24 10.7 24 24v168h87.7c17.8 0 26.7 21.5 14.1 34.1L269.7 378.3c-7.5 7.5-19.8 7.5-27.3 0L90.1 226.1c-12.6-12.6-3.7-34.1 14.1-34.1H192V24c0-13.3 10.7-24 24-24zm296 376v112c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V376c0-13.3 10.7-24 24-24h146.7l49 49c20.1 20.1 52.5 20.1 72.6 0l49-49H488c13.3 0 24 10.7 24 24zm-124 88c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20zm64 0c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20z"></path></svg>
+                                                </i>&nbsp; 위임장 양식 <small>(한글파일)</small>
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-4 mb-2">
+                                            <a href="../file/첨부파일확인서.hwp" class="btn-download"><i class="fas fa-download fa-lg">
+                                                <svg class="svg-inline--fa fa-download fa-w-16 fa-lg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="download" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M216 0h80c13.3 0 24 10.7 24 24v168h87.7c17.8 0 26.7 21.5 14.1 34.1L269.7 378.3c-7.5 7.5-19.8 7.5-27.3 0L90.1 226.1c-12.6-12.6-3.7-34.1 14.1-34.1H192V24c0-13.3 10.7-24 24-24zm296 376v112c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V376c0-13.3 10.7-24 24-24h146.7l49 49c20.1 20.1 52.5 20.1 72.6 0l49-49H488c13.3 0 24 10.7 24 24zm-124 88c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20zm64 0c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20z"></path></svg>
+                                                </i>&nbsp; 확인서 양식 <small>(한글파일)</small>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col text-justify margin_bottom">
+                                    <div class="title_icon_box">
+                                        <span class="icon_title"><img src="../img/common/chk_2.png" alt=""></span>
+                                        <h4>발급절차</h4>
+                                    </div>
+                                    <div class="text-center d-block d-md-none">
+                                        <svg class="svg-inline--fa fa-hand-point-down fa-w-14" aria-hidden="true" focusable="false" data-prefix="far" data-icon="hand-point-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M188.8 512c45.616 0 83.2-37.765 83.2-83.2v-35.647a93.148 93.148 0 0 0 22.064-7.929c22.006 2.507 44.978-3.503 62.791-15.985C409.342 368.1 448 331.841 448 269.299V248c0-60.063-40-98.512-40-127.2v-2.679c4.952-5.747 8-13.536 8-22.12V32c0-17.673-12.894-32-28.8-32H156.8C140.894 0 128 14.327 128 32v64c0 8.584 3.048 16.373 8 22.12v2.679c0 6.964-6.193 14.862-23.668 30.183l-.148.129-.146.131c-9.937 8.856-20.841 18.116-33.253 25.851C48.537 195.798 0 207.486 0 252.8c0 56.928 35.286 92 83.2 92 8.026 0 15.489-.814 22.4-2.176V428.8c0 45.099 38.101 83.2 83.2 83.2zm0-48c-18.7 0-35.2-16.775-35.2-35.2V270.4c-17.325 0-35.2 26.4-70.4 26.4-26.4 0-35.2-20.625-35.2-44 0-8.794 32.712-20.445 56.1-34.926 14.575-9.074 27.225-19.524 39.875-30.799 18.374-16.109 36.633-33.836 39.596-59.075h176.752C364.087 170.79 400 202.509 400 248v21.299c0 40.524-22.197 57.124-61.325 50.601-8.001 14.612-33.979 24.151-53.625 12.925-18.225 19.365-46.381 17.787-61.05 4.95V428.8c0 18.975-16.225 35.2-35.2 35.2zM328 64c0-13.255 10.745-24 24-24s24 10.745 24 24-10.745 24-24 24-24-10.745-24-24z"></path></svg>
+                                        <i class="far fa-hand-point-down"></i> 좌우로 이동해보세요.
+                                    </div>
+                                    <div class="table-responsive-lg mb-5 two">				
+                                        <table class="table table-phone">
+                                            <tbody>
+                                                <tr>
+                                                    <th><h5 class="mb-0 font-oswald">Step. <b>01</b></h5></th>
+                                                    <td>진료과 접수</td>
+                                                    <td>원무과</td>
+                                                </tr>
+                                                <tr>
+                                                    <th><h5 class="mb-0 font-oswald">Step. <b>02</b></h5></th>
+                                                    <td>의사 상담 후 신청</td>
+                                                    <td>진료과</td>
+                                                </tr>
+                                                <tr>
+                                                    <th><h5 class="mb-0 font-oswald">Step. <b>03</b></h5></th>
+                                                    <td>신청서 작성 및 구비서류 제출</td>
+                                                    <td>제증명창구</td>
+                                                </tr>
+                                                <tr>
+                                                    <th><h5 class="mb-0 font-oswald">Step. <b>04</b></h5></th>
+                                                    <td>수납 및 교부</td>
+                                                    <td>
+                                                        제증명창구<br>
+                                                        제증명창구 위치 : 2층 원무과 (051-6070-252)<br>
+                                                        의사 상담을 위해 해당 진료과 진료시간을 꼭 확인하여 주시기 바랍니다.<br>
+                                                        (문의 : 051-6070-114)
+                                                    </td>
+                                                </tr>
+                                            </tbody>		
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col text-justify margin_bottom">
+                                    <div class="title_icon_box">
+                                        <span class="icon_title"><img src="../img/common/chk_2.png" alt=""></span>
+                                        <h4>사본발급 가능시간</h4>
+                                    </div>
+                                    <div class="table-responsive-lg mb-5 three">				
+                                        <table class="table table-phone">
+                                            <tbody>
+                                                <tr>
+                                                    <th>월요일</th>
+                                                    <td>오전 9시 ~ 오후6시</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>화~금</th>
+                                                    <td>오전9시 ~ 오후5시</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>토요일</th>
+                                                    <td>오전9시 ~ 오후1시</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>점심시간</th>
+                                                    <td>낮12시30분 ~ 오후1시30분<br>(단, 원활한 서류 발급을 위해 마감시간 30분 전에 내원하여 주시기 바랍니다.)</td>
+                                                </tr>
+                                            </tbody>		
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col text-justify margin_bottom">
+                                    <div class="title_icon_box">
+                                        <span class="icon_title"><img src="../img/common/chk_2.png" alt=""></span>
+                                        <h4>제증명발급안내</h4>
+                                    </div>
+                                    <h6><span class="icon_mini"></span> 제증명 종류</h6>
+                                    <div class="text-center d-block d-md-none">
+                                        <svg class="svg-inline--fa fa-hand-point-down fa-w-14" aria-hidden="true" focusable="false" data-prefix="far" data-icon="hand-point-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M188.8 512c45.616 0 83.2-37.765 83.2-83.2v-35.647a93.148 93.148 0 0 0 22.064-7.929c22.006 2.507 44.978-3.503 62.791-15.985C409.342 368.1 448 331.841 448 269.299V248c0-60.063-40-98.512-40-127.2v-2.679c4.952-5.747 8-13.536 8-22.12V32c0-17.673-12.894-32-28.8-32H156.8C140.894 0 128 14.327 128 32v64c0 8.584 3.048 16.373 8 22.12v2.679c0 6.964-6.193 14.862-23.668 30.183l-.148.129-.146.131c-9.937 8.856-20.841 18.116-33.253 25.851C48.537 195.798 0 207.486 0 252.8c0 56.928 35.286 92 83.2 92 8.026 0 15.489-.814 22.4-2.176V428.8c0 45.099 38.101 83.2 83.2 83.2zm0-48c-18.7 0-35.2-16.775-35.2-35.2V270.4c-17.325 0-35.2 26.4-70.4 26.4-26.4 0-35.2-20.625-35.2-44 0-8.794 32.712-20.445 56.1-34.926 14.575-9.074 27.225-19.524 39.875-30.799 18.374-16.109 36.633-33.836 39.596-59.075h176.752C364.087 170.79 400 202.509 400 248v21.299c0 40.524-22.197 57.124-61.325 50.601-8.001 14.612-33.979 24.151-53.625 12.925-18.225 19.365-46.381 17.787-61.05 4.95V428.8c0 18.975-16.225 35.2-35.2 35.2zM328 64c0-13.255 10.745-24 24-24s24 10.745 24 24-10.745 24-24 24-24-10.745-24-24z"></path></svg>
+                                        <i class="far fa-hand-point-down"></i> 좌우로 이동해보세요.
+                                    </div>
+                                    <div class="table-responsive-lg mb-5 four">				
+                                        <table class="table table-phone table-bordered">
+                                            <thead>
+                                                <tr>
+                                                    <th>발급부서</th>
+                                                    <th>증명서 종류</th>
+                                                    <th>비고</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="tr_1">
+                                                    <td>진료과 주치의 발급</td>
+                                                    <td class="margin_top_table">
+                                                        <ul>
+                                                            <li>진단서/소견서</li>
+                                                            <li>병사용 진단서 <br>사진2매 (병원보관용, 제출용) 필수 제출<br>※ 필요 부수에 따라 사진 1매씩 추가 구비<br>(ex. 1부 : 사진 2매, 2부 : 사진 3매, 3부 : 사진 4매)</li>
+                                                            <li>장애 진단서</li>
+                                                            <li>입원사실 증명서(병명, 날짜기재) <span>및 병명 또는 소견이 필요한 증명서</span></li>
+                                                            <li>진료/통원확인서</li>
+                                                            <li>상해진단서</li>
+                                                            <li>근로능력평가용 진단서</li>
+                                                            <li>산정특례신청서</li>
+                                                            <li>의료급여일수 연장승인 신청서</li>
+                                                            <li>입원/퇴원확인서</li>
+                                                        </ul>		
+                                                    </td>
+                                                    <td class="td_3">진찰료 및 수수료 발생</td>
+                                                </tr>
+                                                <tr class="tr_2">
+                                                    <td>원무팀 발급 (진료불필요)</td>
+                                                    <td class="margin_top_table">
+                                                        <ul>
+                                                            <li>상급병실 확인서</li>
+                                                            <li>재발급서류 등</li>
+                                                        </ul>					
+                                                    </td>
+                                                    <td class="td_3">수수료 발생</td>
+                                                </tr>
+                                            </tbody>		
+                                        </table>					
+                                    </div>
+                                    <span class="span_text">※ 의료법 시행규칙 제 18조 1에 의거 각종 증명서의 보존기간은 3년으로 보존기간이 경과한 증명서는 발급신청을 할 수 없습니다.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border"></div>
+            <div class="swiper_box4 cooperaiton contain">
+                <div class="contain">
+                    <div class="row">
+                        <div class="col">
+                            <div class="swiper mySwiper4">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <a href="https://www.kuh.ac.kr/main.do" class="coope">
+                                            <img src="../img/common/coope_1.png" alt="cooperation_img">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="https://www.paik.ac.kr/paik/user/main/view.do" class="coope">
+                                            <img src="../img/common/coope_2.png" alt="cooperation_img">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="https://www.kosinmed.or.kr/" class="coope">
+                                            <img src="../img/common/coope_3.png" alt="cooperation_img">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="https://www.damc.or.kr/main/main_2017.php" class="coope">
+                                            <img src="../img/common/coope_4.png" alt="cooperation_img">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="https://www.cmcseoul.or.kr/page/main" class="coope">
+                                            <img src="../img/common/coope_5.png" alt="cooperation_img">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="http://www.snuh.org/intro.do" class="coope">
+                                            <img src="../img/common/coope_6.png" alt="cooperation_img">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="coope"> <!--부산대학교 병원 사이트 안됨.. -->
+                                            <img src="../img/common/coope_7.png" alt="cooperation_img">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="https://sev.severance.healthcare/sev/intro.do" class="coope">
+                                            <img src="../img/common/coope_8.png" alt="cooperation_img">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="https://www.hyumc.com/" class="coope">
+                                            <img src="../img/common/coope_9.png" alt="cooperation_img">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container f_margin">
+                <div class="f_text_box">
+                    <div class="footer_top_box">
+                        <div class="ft_logo_box">온종합병원</div>
+                        <div class="f_top_box">
+                            <ul class="f_nav_ul">
+                                <li class="f_nav_li">
+                                    <a href="./personal.html" class="f_nav_link">개인정보처리방침</a>
+                                </li>
+                                <li class="f_nav_li">
+                                    <a href="./infor/infor.html" class="f_nav_link">병원안내</a>
+                                </li>
+                                <li class="f_nav_li">
+                                    <a href="./medi_infor/infor.html" class="f_nav_link">진료안내</a>
+                                </li>
+                                <li class="f_nav_li">
+                                    <a href="./medi_depart.html?num=5 class="f_nav_link">진료과ㆍ의료진</a>
+                                </li>
+                                <li class="f_nav_li">
+                                    <a href="../medi_center.html?cen_v=0" class="f_nav_link">전문센터</a>
+                                </li>
+                                <li class="f_nav_li">
+                                    <a href="../medi_center.html?cen_v=1" class="f_nav_link">암병원</a>
+                                </li>
+                                <li class="f_nav_li">
+                                    <a href="./news.html?num=0" class="f_nav_link">병원소식</a>
+                                </li>
+                                
+                                <li class="f_nav_li">
+                                    <a href="./unpaid.html?num=6" class="f_nav_link">비급여</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ft_detail_box">
+                        <div class="ft_d_box">47261 부산광역시 부산진구 가야대로 721 (당감동 966번지) | 의료기관명칭 : 의료법인 온그룹의료재단 온종합병원</div>
+                        <div class="ft_d_box">사업자등록번호 : 605-82-11399 | TEL : 051-607-0114, 응급실: 051-607-0129 | FAX : 051-607-0220</div>
+                        <div class="ft_d_box">E-Mail : onhospital@hanmail.net | 대표자명 : 윤선희</div>
+                        <div class="ft_d_box">© 온종합병원. ALL RIGHTS RESERVED.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+body::-webkit-scrollbar {
+    width: 10px;
+}
+body::-webkit-scrollbar-thumb {
+    height: 30%;
+    background-color: #ED5929; /* #217af4 */
+
+    border-radius: 10px;
+}
+body::-webkit-scrollbar-track {
+    background: rgba(244, 68, 33, 0.1); /*  rgba(33, 122, 244, .1)*/
+}
+.wrap {
+    overflow-x: inherit !important;
+}
+
+.none_box {display: none; background-attachment: local !important;}
+
+
+/*  hover 했을때 구글 번역 팝업 안보이게 하는 코드  */
+#goog-gt- {
+    visibility: hidden !important;
+}
+
+/*  구글 번역 팝업 안보이게 하는 코드  */
+iframe#\:1\.container {
+    visibility: hidden !important;
+    height: 0;
+}
+body {
+    top: 0 !important;
+}

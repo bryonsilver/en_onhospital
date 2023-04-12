@@ -1,0 +1,220 @@
+body {font-family:'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple SD Gothic Neo','나눔고딕',NanumGothic,ng,sans-serif ;}
+
+.m_left {
+    height: auto!important;
+}
+.mr_title_box {
+    display: flex;
+    flex-direction: column;
+    /* gap: 30px; */
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #444547;
+}
+.red_text {
+    color: #ff3300;
+    text-decoration: underline;
+    text-decoration-color: #666;
+    text-decoration-thickness: 2px;
+    margin: 0 3px;
+}
+.red_text2 {
+    color: #ff3300;
+    margin: 0 3px;
+}
+.question {
+    font-weight: 400 !important;
+}
+.top_small {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px !important;
+}
+.top_content {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px !important;
+}
+.news_de_img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0 !important;
+}
+.img_text {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    font-size: 13px;
+    font-weight: 400;
+}
+.img_p {
+    margin-bottom: 0 !important;
+}
+.sources_box div {
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.blue_bold_t {
+    color: #2980b9 !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+}
+.orange_bold_t {
+    font-size: 18px !important;
+    color: #d35400 !important;
+    font-weight: 700 !important ;
+}
+.box {
+    margin-bottom: 30px;
+}
+.box > p {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 23px !important;
+}
+.bold {
+    font-weight: 600 !important;
+}
+.bold2 {
+    font-weight: 500 !important;
+    padding-left: 12px;
+    box-sizing: border-box;
+}
+.n_bold {
+    font-weight: 400 !important;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+.small {
+    font-size: 13px !important;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+.small_under {
+    font-size: 13px !important;
+    text-decoration: underline;
+    font-weight: 600 !important;
+    color:  #666;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+.small_left {
+    font-size: 14px !important;
+    color: #666;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+.left {
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+.left2 {
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+.left3 {
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.left4 {
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+.left5 {
+    padding-left: 88px;
+    box-sizing: border-box;
+}
+
+.center_con {
+    font-size: 24px;
+    font-weight: 400 !important;
+    margin-bottom: 30px !important;
+}
+.top_bold {
+    font-weight: 500 !important;
+    font-size: 24px;
+    margin: 0 !important;
+    color: #333;
+}
+
+
+
+
+.mr_t_title {
+    font-size: 23px;
+    font-weight: 500;
+    color: #333;
+    padding: 20px 0 10px 0;
+    box-sizing: border-box;
+}
+.mr_t_date {
+    display: flex;
+    justify-content: space-between;
+    color: #999;
+    font-size: 14px;
+}
+.date_box {
+    display: flex;
+    gap: 10px;
+}
+.member_1 {
+    color: #333;
+}
+.mr_main_comment {
+    padding: 30px 0;
+    box-sizing: border-box; 
+    font-size: 14px;
+    font-weight: 600;
+    color: #666;
+}
+.mr_main_comment img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.mr_main_comment p {
+    margin: 5px;
+}
+.danger {
+    color: #ff3300;
+}
+.bottom_line {
+    border-bottom: 1px solid #666;
+}
+.border_left {
+    width: 2px;
+    height: 15px;
+    background-color: #666;
+    vertical-align: middle;
+}
+
+.turn_table_box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #333;
+}
+.pr_ne_box {
+    display: flex;
+    gap: 5px;
+}
+.news_de_list  {
+    padding: 5px 15px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.next,
+.prev {
+    padding: 5px 15px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+@media (max-width:600px) {
+    .mr_t_date {flex-direction: column;}
+}

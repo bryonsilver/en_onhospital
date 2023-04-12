@@ -1,0 +1,379 @@
+# Query: ./medi_depart.html"
+# ContextLines: 1
+
+92개 결과 - 25 파일
+
+medi_center.html:
+  57                          <div class="as_tab_ul_div">
+  58:                             <a href="./medi_depart.html?num=5">진료과ㆍ의료진</a>
+  59                          </div>
+
+medi_depart___copy.html:
+    53                          <div class="as_tab_ul_div">
+    54:                             <a href="./medi_depart.html?num=5">진료과ㆍ의료진</a>
+    55                          </div>
+
+   288                      <select name="select_s" id="select_id" class="select_class" onchange="if(this.value) location.href=(this.value);">
+   289:                         <option value="./medi_depart.html?num=5">진료안내</option>
+   290:                         <option value="./medi_depart.html?num=5" id="selec4">- 진료과ㆍ의료진</option>
+   291                          <option value="./medi_infor/infor.html?num=0" id="selec0">- 진료안내</option>
+
+  1215                                  <li class="f_nav_li">
+  1216:                                     <a href="./medi_depart.html?num=5" class="f_nav_link">진료과ㆍ의료진</a>
+  1217                                  </li>
+
+medi_depart.html:
+    40                              <li class="h_nav_li nav_0"><a href="./infor/infor.html?num=0">병원안내</a></li>
+    41:                             <li class="h_nav_li nav_1"><a href="./medi_depart.html?num=5">진료안내</a></li>
+    42                              <li class="h_nav_li nav_2"><a href="./medi_center.html?cen_v=0">전문센터</a></li>
+
+    90                      <ul class="dep2">
+    91:                         <li class="dep2_li"><a class="dep2_a" href="./medi_depart.html?num=5">진료과ㆍ의료진</a></li>
+    92                          <li class="dep2_li"><a class="dep2_a" href="./medi_infor/infor.html?num=0">진료절차</a></li>
+
+  1268                                  <li class="f_nav_li">
+  1269:                                     <a href="./medi_depart.html?num=5" class="f_nav_link">진료과ㆍ의료진</a>
+  1270                                  </li>
+
+medi_detail.html:
+   69                                      <li class="bur_u_li"><a href="./medi_infor/issuance.html?num=3">제증명서발급</a></li>
+   70:                                     <li class="bur_u_li"><a href="./medi_depart.html?num=5">진료과ㆍ의료진</a></li>
+   71                                      <li class="bur_u_li"><a href="./unpaid.html">비급여</a></li>
+
+  151                              <li class="h_nav_li nav_0"><a href="./infor/infor.html?num=0">병원안내</a></li>
+  152:                             <li class="h_nav_li nav_1"><a href="./medi_depart.html?num=5">진료안내</a></li>
+  153                              <li class="h_nav_li nav_2"><a href="./medi_center.html?cen_v=0">전문센터</a></li>
+
+  201                      <ul class="dep2">
+  202:                         <li class="dep2_li"><a class="dep2_a" href="./medi_depart.html?num=5">진료과ㆍ의료진</a></li>
+  203                          <li class="dep2_li"><a class="dep2_a" href="./medi_infor/infor.html?num=0">진료절차</a></li>
+
+  488                  <div class="return_btn">
+  489:                     <a href="./medi_depart.html?num=5" class="rounded">돌아가기</a>
+  490                  </div>
+
+  571                                  <li class="f_nav_li">
+  572:                                     <a href="./medi_depart.html?num=5" class="f_nav_link">진료과ㆍ의료진</a>
+  573                                  </li>
+
+medi_infor.html:
+   43                              <li class="h_nav_li nav_0"><a href="./infor/infor.html?num=0">병원안내</a></li>
+   44:                             <li class="h_nav_li nav_1"><a href="./medi_depart.html?num=5">진료안내</a></li>
+   45                              <li class="h_nav_li nav_2"><a href="./medi_center.html?cen_v=0">전문센터</a></li>
+
+   93                      <ul class="dep2">
+   94:                         <li class="dep2_li"><a class="dep2_a" href="./medi_depart.html?num=5">진료과ㆍ의료진</a></li>
+   95                          <li class="dep2_li"><a class="dep2_a" href="./medi_infor/infor.html?num=0">진료절차</a></li>
+
+  237                                  <select name="select_s" id="select_id" class="select_class" onchange="if(this.value) location.href=(this.value);">
+  238:                                     <option value="./medi_depart.html?num=5">진료안내</option>
+  239:                                     <option value="./medi_depart.html?num=5" id="selec4">- 진료과ㆍ의료진</option>
+  240                                      <option value="./medi_infor/infor.html?num=0&selec=1" id="selec0">- 진료안내</option>
+
+  360                                  <li class="f_nav_li">
+  361:                                     <a href="./medi_depart.html?num=5" class="f_nav_link">진료과ㆍ의료진</a>
+  362                                  </li>
+
+medi_more.html:
+   71                                      <li class="bur_u_li"><a href="./medi_infor/issuance.html?num=3">제증명서발급</a></li>
+   72:                                     <li class="bur_u_li"><a href="./medi_depart.html?num=5">진료과ㆍ의료진</a></li>
+   73                                      <li class="bur_u_li"><a href="./unpaid.html">비급여</a></li>
+
+  153                              <li class="h_nav_li nav_0"><a href="./infor/infor.html?num=0">병원안내</a></li>
+  154:                             <li class="h_nav_li nav_1"><a href="./medi_depart.html?num=5">진료안내</a></li>
+  155                              <li class="h_nav_li nav_2"><a href="./medi_center.html?cen_v=0">전문센터</a></li>
+
+  203                      <ul class="dep2">
+  204:                         <li class="dep2_li"><a class="dep2_a" href="./medi_depart.html?num=5">진료과ㆍ의료진</a></li>
+  205                          <li class="dep2_li"><a class="dep2_a" href="./medi_infor/infor.html?num=0">진료절차</a></li>
+
+  574                                  <li class="f_nav_li">
+  575:                                     <a href="./medi_depart.html?num=5" class="f_nav_link">진료과ㆍ의료진</a>
+  576                                  </li>
+
+news_detail.html:
+   43                              <li class="h_nav_li nav_0"><a href="./infor/infor.html?num=0">병원안내</a></li>
+   44:                             <li class="h_nav_li nav_1"><a href="./medi_depart.html?num=5">진료안내</a></li>
+   45                              <li class="h_nav_li nav_2"><a href="./medi_center.html?cen_v=0">전문센터</a></li>
+
+   93                      <ul class="dep2">
+   94:                         <li class="dep2_li"><a class="dep2_a" href="./medi_depart.html?num=5">진료과ㆍ의료진</a></li>
+   95                          <li class="dep2_li"><a class="dep2_a" href="./medi_infor/infor.html?num=0">진료절차</a></li>
+
+  376                                  <li class="f_nav_li">
+  377:                                     <a href="./medi_depart.html?num=5" class="f_nav_link">진료과ㆍ의료진</a>
+  378                                  </li>
+
+news.html:
+   43                              <li class="h_nav_li nav_0"><a href="./infor/infor.html?num=0">병원안내</a></li>
+   44:                             <li class="h_nav_li nav_1"><a href="./medi_depart.html?num=5">진료안내</a></li>
+   45                              <li class="h_nav_li nav_2"><a href="./medi_center.html?cen_v=0">전문센터</a></li>
+
+   93                      <ul class="dep2">
+   94:                         <li class="dep2_li"><a class="dep2_a" href="./medi_depart.html?num=5">진료과ㆍ의료진</a></li>
+   95                          <li class="dep2_li"><a class="dep2_a" href="./medi_infor/infor.html?num=0">진료절차</a></li>
+
+  611                                  <li class="f_nav_li">
+  612:                                     <a href="./medi_depart.html?num=5" class="f_nav_link">진료과ㆍ의료진</a>
+  613                                  </li>
+
+onntv_in.html:
+   41                              <li class="h_nav_li nav_0"><a href="./infor/infor.html?num=0">병원안내</a></li>
+   42:                             <li class="h_nav_li nav_1"><a href="./medi_depart.html?num=5">진료안내</a></li>
+   43                              <li class="h_nav_li nav_2"><a href="./medi_center.html?cen_v=0">전문센터</a></li>
+
+   91                      <ul class="dep2">
+   92:                         <li class="dep2_li"><a class="dep2_a" href="./medi_depart.html?num=5">진료과ㆍ의료진</a></li>
+   93                          <li class="dep2_li"><a class="dep2_a" href="./medi_infor/infor.html?num=0">진료절차</a></li>
+
+  313                                  <li class="f_nav_li">
+  314:                                     <a href="./medi_depart.html?num=5" class="f_nav_link">진료과ㆍ의료진</a>
+  315                                  </li>
+
+onntv.html:
+   46                              <li class="h_nav_li nav_0"><a href="./infor/infor.html?num=0">병원안내</a></li>
+   47:                             <li class="h_nav_li nav_1"><a href="./medi_depart.html?num=5">진료안내</a></li>
+   48                              <li class="h_nav_li nav_2"><a href="./medi_center.html?cen_v=0">전문센터</a></li>
+
+   96                      <ul class="dep2">
+   97:                         <li class="dep2_li"><a class="dep2_a" href="./medi_depart.html?num=5">진료과ㆍ의료진</a></li>
+   98                          <li class="dep2_li"><a class="dep2_a" href="./medi_infor/infor.html?num=0">진료절차</a></li>
+
+  436                                  <li class="f_nav_li">
+  437:                                     <a href="./medi_depart.html?num=5" class="f_nav_link">진료과ㆍ의료진</a>
+  438                                  </li>
+
+personal.html:
+   39                              <li class="h_nav_li nav_0"><a href="./infor/infor.html?num=0">병원안내</a></li>
+   40:                             <li class="h_nav_li nav_1"><a href="./medi_depart.html?num=5">진료안내</a></li>
+   41                              <li class="h_nav_li nav_2"><a href="./medi_center.html?cen_v=0">전문센터</a></li>
+
+   89                      <ul class="dep2">
+   90:                         <li class="dep2_li"><a class="dep2_a" href="./medi_depart.html?num=5">진료과ㆍ의료진</a></li>
+   91                          <li class="dep2_li"><a class="dep2_a" href="./medi_infor/infor.html?num=0">진료절차</a></li>
+
+  392                                  <li class="f_nav_li">
+  393:                                     <a href="./medi_depart.html?num=5" class="f_nav_link">진료과ㆍ의료진</a>
+  394                                  </li>
+
+unpaid.html:
+   40                              <li class="h_nav_li nav_0"><a href="./infor/infor.html?num=0">병원안내</a></li>
+   41:                             <li class="h_nav_li nav_1"><a href="./medi_depart.html?num=5">진료안내</a></li>
+   42                              <li class="h_nav_li nav_2"><a href="./medi_center.html?cen_v=0">전문센터</a></li>
+
+   90                      <ul class="dep2">
+   91:                         <li class="dep2_li"><a class="dep2_a" href="./medi_depart.html?num=5">진료과ㆍ의료진</a></li>
+   92                          <li class="dep2_li"><a class="dep2_a" href="./medi_infor/infor.html?num=0">진료절차</a></li>
+
+  250                                  <li class="f_nav_li">
+  251:                                     <a href="./medi_depart.html?num=5" class="f_nav_link">진료과ㆍ의료진</a>
+  252                                  </li>
+
+infor\customer.html:
+   45                              <li class="h_nav_li nav_0"><a href="../infor/infor.html?num=0">병원안내</a></li>
+   46:                             <li class="h_nav_li nav_1"><a href="../medi_depart.html?num=5">진료안내</a></li>
+   47                              <li class="h_nav_li nav_2"><a href="../medi_center.html?cen_v=0">전문센터</a></li>
+
+   95                      <ul class="dep2">
+   96:                         <li class="dep2_li"><a class="dep2_a" href="../medi_depart.html?num=5">진료과ㆍ의료진</a></li>
+   97                          <li class="dep2_li"><a class="dep2_a" href="../medi_infor/infor.html?num=0">진료절차</a></li>
+
+  415                                  <li class="f_nav_li">
+  416:                                     <a href="./medi_depart.html?num=5" class="f_nav_link">진료과ㆍ의료진</a>
+  417                                  </li>
+
+infor\directions.html:
+   50                              <li class="h_nav_li nav_0"><a href="../infor/infor.html?num=0">병원안내</a></li>
+   51:                             <li class="h_nav_li nav_1"><a href="../medi_depart.html?num=5">진료안내</a></li>
+   52                              <li class="h_nav_li nav_2"><a href="../medi_center.html?cen_v=0">전문센터</a></li>
+
+  100                      <ul class="dep2">
+  101:                         <li class="dep2_li"><a class="dep2_a" href="../medi_depart.html?num=5">진료과ㆍ의료진</a></li>
+  102                          <li class="dep2_li"><a class="dep2_a" href="../medi_infor/infor.html?num=0">진료절차</a></li>
+
+  514                                  <li class="f_nav_li">
+  515:                                     <a href="../medi_depart.html?num=5" class="f_nav_link">진료과ㆍ의료진</a>
+  516                                  </li>
+
+infor\emergency.html:
+   44                              <li class="h_nav_li nav_0"><a href="../infor/infor.html?num=0">병원안내</a></li>
+   45:                             <li class="h_nav_li nav_1"><a href="../medi_depart.html?num=5">진료안내</a></li>
+   46                              <li class="h_nav_li nav_2"><a href="../medi_center.html?cen_v=0">전문센터</a></li>
+
+   94                      <ul class="dep2">
+   95:                         <li class="dep2_li"><a class="dep2_a" href="../medi_depart.html?num=5">진료과ㆍ의료진</a></li>
+   96                          <li class="dep2_li"><a class="dep2_a" href="../medi_infor/infor.html?num=0">진료절차</a></li>
+
+  426                                  <li class="f_nav_li">
+  427:                                     <a href="../medi_depart.html?num=5" class="f_nav_link">진료과ㆍ의료진</a>
+  428                                  </li>
+
+infor\floor.html:
+   50                              <li class="h_nav_li nav_0"><a href="../infor/infor.html?num=0">병원안내</a></li>
+   51:                             <li class="h_nav_li nav_1"><a href="../medi_depart.html?num=5">진료안내</a></li>
+   52                              <li class="h_nav_li nav_2"><a href="../medi_center.html?cen_v=0">전문센터</a></li>
+
+  100                      <ul class="dep2">
+  101:                         <li class="dep2_li"><a class="dep2_a" href="../medi_depart.html?num=5">진료과ㆍ의료진</a></li>
+  102                          <li class="dep2_li"><a class="dep2_a" href="../medi_infor/infor.html?num=0">진료절차</a></li>
+
+  470                                  <li class="f_nav_li">
+  471:                                     <a href="../medi_depart.html?num=5" class="f_nav_link">진료과ㆍ의료진</a>
+  472                                  </li>
+
+infor\funeral.html:
+   63                          <div class="as_tab_ul_div">
+   64:                             <a href="../medi_depart.html?num=5">진료과ㆍ의료진</a>
+   65                          </div>
+
+  151                              <li class="h_nav_li nav_0"><a href="../infor/infor.html?num=0">병원안내</a></li>
+  152:                             <li class="h_nav_li nav_1"><a href="../medi_depart.html?num=5">진료안내</a></li>
+  153                              <li class="h_nav_li nav_2"><a href="./medi_center.html?cen_v=0">전문센터</a></li>
+
+  201                      <ul class="dep2">
+  202:                         <li class="dep2_li"><a class="dep2_a" href="../medi_depart.html?num=5">진료과ㆍ의료진</a></li>
+  203                          <li class="dep2_li"><a class="dep2_a" href="../medi_infor/infor.html?num=0">진료절차</a></li>
+
+  661                                  <li class="f_nav_li">
+  662:                                     <a href="../medi_depart.html?num=5" class="f_nav_link">진료과ㆍ의료진</a>
+  663                                  </li>
+
+infor\history.html:
+   46                              <li class="h_nav_li nav_0"><a href="../infor/infor.html?num=0">병원안내</a></li>
+   47:                             <li class="h_nav_li nav_1"><a href="../medi_depart.html?num=5">진료안내</a></li>
+   48                              <li class="h_nav_li nav_2"><a href="../medi_center.html?cen_v=0">전문센터</a></li>
+
+   96                      <ul class="dep2">
+   97:                         <li class="dep2_li"><a class="dep2_a" href="../medi_depart.html?num=5">진료과ㆍ의료진</a></li>
+   98                          <li class="dep2_li"><a class="dep2_a" href="../medi_infor/infor.html?num=0">진료절차</a></li>
+
+  587                                  <li class="f_nav_li">
+  588:                                     <a href="../medi_depart.html?num=5" class="f_nav_link">진료과ㆍ의료진</a>
+  589                                  </li>
+
+infor\infor.html:
+   46                              <li class="h_nav_li nav_0"><a href="../infor/infor.html?num=0">병원안내</a></li>
+   47:                             <li class="h_nav_li nav_1"><a href="../medi_depart.html?num=5">진료안내</a></li>
+   48                              <li class="h_nav_li nav_2"><a href="../medi_center.html?cen_v=0">전문센터</a></li>
+
+   96                      <ul class="dep2">
+   97:                         <li class="dep2_li"><a class="dep2_a" href="../medi_depart.html?num=5">진료과ㆍ의료진</a></li>
+   98                          <li class="dep2_li"><a class="dep2_a" href="../medi_infor/infor.html?num=0">진료절차</a></li>
+
+  436                                  <li class="f_nav_li">
+  437:                                     <a href="../medi_depart.html?num=5" class="f_nav_link">진료과ㆍ의료진</a>
+  438                                  </li>
+
+infor\mission.html:
+   44                              <li class="h_nav_li nav_0"><a href="../infor/infor.html?num=0">병원안내</a></li>
+   45:                             <li class="h_nav_li nav_1"><a href="../medi_depart.html?num=5">진료안내</a></li>
+   46                              <li class="h_nav_li nav_2"><a href="../medi_center.html?cen_v=0">전문센터</a></li>
+
+   93                      <ul class="dep2">
+   94:                         <li class="dep2_li"><a class="dep2_a" href="../medi_depart.html?num=5">진료과ㆍ의료진</a></li>
+   95                          <li class="dep2_li"><a class="dep2_a" href="../medi_infor/infor.html?num=0">진료절차</a></li>
+
+  413                                  <li class="f_nav_li">
+  414:                                     <a href="../medi_depart.html?num=5" class="f_nav_link">진료과ㆍ의료진</a>
+  415                                  </li>
+
+infor\phone_num.html:
+   44                              <li class="h_nav_li nav_0"><a href="../infor/infor.html?num=0">병원안내</a></li>
+   45:                             <li class="h_nav_li nav_1"><a href=".../medi_depart.html?num=5">진료안내</a></li>
+   46                              <li class="h_nav_li nav_2"><a href="../medi_center.html?cen_v=0">전문센터</a></li>
+
+   94                      <ul class="dep2">
+   95:                         <li class="dep2_li"><a class="dep2_a" href="../medi_depart.html?num=5">진료과ㆍ의료진</a></li>
+   96                          <li class="dep2_li"><a class="dep2_a" href="../medi_infor/infor.html?num=0">진료절차</a></li>
+
+  763                                  <li class="f_nav_li">
+  764:                                     <a href="../medi_depart.html?num=5" class="f_nav_link">진료과ㆍ의료진</a>
+  765                                  </li>
+
+medi_infor\admission.html:
+   45                              <li class="h_nav_li nav_0"><a href="../infor/infor.html?num=0">병원안내</a></li>
+   46:                             <li class="h_nav_li nav_1"><a href="../medi_depart.html?num=5">진료안내</a></li>
+   47                              <li class="h_nav_li nav_2"><a href="../medi_center.html?cen_v=0">전문센터</a></li>
+
+   95                      <ul class="dep2">
+   96:                         <li class="dep2_li"><a class="dep2_a" href="../medi_depart.html?num=5">진료과ㆍ의료진</a></li>
+   97                          <li class="dep2_li"><a class="dep2_a" href="../medi_infor/infor.html?num=0">진료절차</a></li>
+
+  217                                  <li class="ml_li pm_5" id="m_li">
+  218:                                     <a href="../medi_depart.html?num=5">진료과ㆍ의료진</a>
+  219                                  </li>
+
+  244                                  <select name="select_s" id="select_id" class="select_class" onchange="if(this.value) location.href=(this.value);">
+  245:                                     <option value="../medi_depart.html?num=5">진료안내</option>
+  246:                                     <option value="../medi_depart.html?num=5" id="selec4">- 진료과ㆍ의료진</option>
+  247                                      <option value="../medi_infor/infor.html?num=0" id="selec0">- 진료안내</option>
+
+  399                                  <li class="f_nav_li">
+  400:                                     <a href="./medi_depart.html?num=5" class="f_nav_link">진료과ㆍ의료진</a>
+  401                                  </li>
+
+medi_infor\infor.html:
+   46                              <li class="h_nav_li nav_0"><a href="../infor/infor.html?num=0">병원안내</a></li>
+   47:                             <li class="h_nav_li nav_1"><a href="../medi_depart.html?num=5">진료안내</a></li>
+   48                              <li class="h_nav_li nav_2"><a href="../medi_center.html?cen_v=0">전문센터</a></li>
+
+   96                      <ul class="dep2">
+   97:                         <li class="dep2_li"><a class="dep2_a" href="../medi_depart.html?num=5">진료과ㆍ의료진</a></li>
+   98                          <li class="dep2_li"><a class="dep2_a" href="../medi_infor/infor.html?num=0">진료절차</a></li>
+
+  217                                  <li class="ml_li pm_5" id="m_li">
+  218:                                     <a href="../medi_depart.html?num=5">진료과ㆍ의료진</a>
+  219                                  </li>
+
+  244                                  <select name="select_s" id="select_id" class="select_class" onchange="if(this.value) location.href=(this.value);">
+  245:                                     <option value="../medi_depart.html?num=5">진료안내</option>
+  246:                                     <option value="../medi_depart.html?num=5" id="selec4">- 진료과ㆍ의료진</option>
+  247                                      <option value="../medi_infor/infor.html?num=0" id="selec0">- 진료안내</option>
+
+  537                                  <li class="f_nav_li">
+  538:                                     <a href="./medi_depart.html?num=5" class="f_nav_link">진료과ㆍ의료진</a>
+  539                                  </li>
+
+medi_infor\issuance.html:
+   45                              <li class="h_nav_li nav_0"><a href="../infor/infor.html?num=0">병원안내</a></li>
+   46:                             <li class="h_nav_li nav_1"><a href="../medi_depart.html?num=5">진료안내</a></li>
+   47                              <li class="h_nav_li nav_2"><a href="../medi_center.html?cen_v=0">전문센터</a></li>
+
+   95                      <ul class="dep2">
+   96:                         <li class="dep2_li"><a class="dep2_a" href="../medi_depart.html?num=5">진료과ㆍ의료진</a></li>
+   97                          <li class="dep2_li"><a class="dep2_a" href="../medi_infor/infor.html?num=0">진료절차</a></li>
+
+  217                                  <li class="ml_li pm_5" id="m_li">
+  218:                                     <a href="../medi_depart.html?num=5">진료과ㆍ의료진</a>
+  219                                  </li>
+
+  244                                  <select name="select_s" id="select_id" class="select_class" onchange="if(this.value) location.href=(this.value);">
+  245:                                     <option value="../medi_depart.html?num=5">진료안내</option>
+  246:                                     <option value="../medi_depart.html?num=5" id="selec4">- 진료과ㆍ의료진</option>
+  247                                      <option value="../medi_infor/infor.html?num=0" id="selec0">- 진료안내</option>
+
+  578                                  <li class="f_nav_li">
+  579:                                     <a href="./medi_depart.html?num=5" class="f_nav_link">진료과ㆍ의료진</a>
+  580                                  </li>
+
+medi_infor\visit.html:
+   45                              <li class="h_nav_li nav_0"><a href="../infor/infor.html?num=0">병원안내</a></li>
+   46:                             <li class="h_nav_li nav_1"><a href="../medi_depart.html?num=5">진료안내</a></li>
+   47                              <li class="h_nav_li nav_2"><a href="../medi_center.html?cen_v=0">전문센터</a></li>
+
+   95                      <ul class="dep2">
+   96:                         <li class="dep2_li"><a class="dep2_a" href="../medi_depart.html?num=5">진료과ㆍ의료진</a></li>
+   97                          <li class="dep2_li"><a class="dep2_a" href="../medi_infor/infor.html?num=0">진료절차</a></li>
+
+  217                                  <li class="ml_li pm_5" id="m_li">
+  218:                                     <a href="../medi_depart.html?num=5">진료과ㆍ의료진</a>
+  219                                  </li>
+
+  244                                  <select name="select_s" id="select_id" class="select_class" onchange="if(this.value) location.href=(this.value);">
+  245:                                     <option value="../medi_depart.html?num=5">진료안내</option>
+  246:                                     <option value="../medi_depart.html?num=5" id="selec4">- 진료과ㆍ의료진</option>
+  247                                      <option value="../medi_infor/infor.html?num=0" id="selec0">- 진료안내</option>
+
+  396                                  <li class="f_nav_li">
+  397:                                     <a href="./medi_depart.html?num=5" class="f_nav_link">진료과ㆍ의료진</a>
+  398                                  </li>

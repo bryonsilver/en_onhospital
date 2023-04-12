@@ -1,0 +1,87 @@
+body {font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple SD Gothic Neo','나눔고딕',NanumGothic,ng,sans-serif;}
+
+.icon img {
+    width: 20px;
+}
+.main {overflow: hidden;}
+
+.text-justify h4 {
+    color: #007dd6;
+    font-size: 23px;
+    font-weight: 600;
+    margin: 0;
+}
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+
+.second_table,
+.first_table {
+    margin-bottom: 24px;
+    box-sizing: border-box;
+    padding-bottom: 30px;
+}
+.second_table th ,
+.first_table th {
+    min-width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    color: #777;
+    background-color: #ee791c30;
+    white-space: nowrap;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 12px 12px;
+    box-sizing: border-box;
+}
+.second_table tr:first-child td,
+.second_table tr:first-child th,
+.first_table tr:first-child td, 
+.first_table tr:first-child th {
+    border-top: 3px solid #555;
+}
+.second_table tr:last-child td,
+.second_table tr:last-child th,
+.first_table tr:last-child td,
+.first_table tr:last-child th {
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+}
+.second_table td,
+.first_table td {
+    text-align: left;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 15px;
+    box-sizing: border-box;
+    color: #777;
+    padding: 0 10px;
+}
+.span,
+.first_table > span {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 25px;
+    color: #777;
+}
+.span:last-child{margin-top: 0;}
+
+@media (max-width: 500px) {
+    .first_table tr {
+        display: flex;
+        flex-direction: column;
+    }
+    .span_flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .first_table td {
+        padding: 10px 0;
+        text-align: center;
+    }
+}

@@ -1,0 +1,111 @@
+
+.box-img {
+    height: 400px;
+    background-image: url(../../img/guide/emergency_2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+
+svg:not(:root).svg-inline--fa {
+    overflow: visible;
+}
+
+.svg-inline--fa.fa-w-14 {
+    width: 0.875em;
+    color: #777;
+}
+
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+}
+
+.fa-3x {
+    color: #ee791c99;
+    font-size: 3em;
+    width: 1.25em;
+}
+
+td  h6 {
+    color: #5a72cc;
+    font-size: 17px;
+    font-weight: 500;
+}
+td {
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;
+}
+.text-info {
+    font-size: 15px;
+    color: #ee791c;
+}
+table {
+    border-top: 2px solid #555;
+    border-bottom: 1px solid #555;
+    border-spacing: 0;
+    text-align: center;
+    min-width: 680px;
+}
+.table>:not(caption)>*>* {
+    padding: 1.5rem 1.0rem;
+    border-bottom-width: 1px;
+    box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+}
+
+.text-left h5 {
+    font-size: 20px;
+    font-weight: 300;
+    color: #555;
+    font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple SD Gothic Neo','나눔고딕',NanumGothic,ng,sans-serif;
+}
+.text-left h5 span {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.text-left {
+    font-size: 13px;
+    color: #777;
+    line-height: 25px;
+    border-right: 0;
+}
+.text-left h6 {
+    margin: 10px 0;
+}
+
+.d-lg-none {
+    text-align: center;
+    font-size: 16px;
+    color: #777;
+    margin: 15px 0;
+    display: none;
+}
+.emergency {
+    display: none !important;
+}
+
+@media (max-width: 767px) {
+    .table-responsive-lg {
+        overflow-x: scroll;
+    }
+    .d-lg-none  {display: block;}
+    table {text-align: left; min-width: 300px;}
+    .table>:not(caption)>*>* {padding: 0 0.5rem;}
+    .text-left h5 {margin: 10px;}
+}
+@media (max-width:770px) {
+    .main > .container {
+        max-width: 600px !important;
+    }
+}
+@media (max-width: 300px) {
+    .emergency {display: block !important; text-align: center;}
+}
