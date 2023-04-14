@@ -856,7 +856,7 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_16.png',
                                 },
                                 {
-                                        name : '간센터',
+                                        name : 'Liver',
                                         a_link :'./medi_center.html?cen_v=1&item=14',
                                         img_link :'./img/medi_details/icon/medi_icon_15_1.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_15.png',
@@ -988,7 +988,7 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_14.png',
                                 },
                                 {
-                                        name : '여성암센터',
+                                        name : 'Women's Cancer',
                                         a_link: './medi_detail.html?value=8&item=11',
                                         img_link : './img/medi_details/icon/medi_icon_11.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
@@ -1181,7 +1181,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_16.png',
                                         },
                                         {
-                                                name : '간센터',
+                                                name : 'Liver',
                                                 a_link :'./medi_center.html?cen_v=1&item=14',
                                                 img_link :'./img/medi_details/icon/medi_icon_15_1.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_15.png',
@@ -1313,7 +1313,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_14.png',
                                         },
                                         {
-                                                name : '여성암센터',
+                                                name : 'Women's Cancer',
                                                 a_link: './medi_detail.html?value=8&item=11',
                                                 img_link : './img/medi_details/icon/medi_icon_11.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
@@ -1825,7 +1825,7 @@ $(document).ready(function(){
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_16.png',
                 },
                 {
-                        name : '간센터',
+                        name : 'Liver',
                         a_link :'./medi_center.html?cen_v=1&item=14',
                         img_link :'./img/medi_details/icon/medi_icon_15_1.png',
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_15.png',
@@ -1957,7 +1957,7 @@ $(document).ready(function(){
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_14.png',
                 },
                 {
-                        name : '여성암센터',
+                        name : 'Women's Cancer',
                         a_link: './medi_detail.html?value=8&item=11',
                         img_link : './img/medi_details/icon/medi_icon_11.png',
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
@@ -2152,7 +2152,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_16.png',
                                         },
                                         {
-                                                name : '간센터',
+                                                name : 'Liver',
                                                 a_link :'./medi_center.html?cen_v=1&item=14',
                                                 img_link :'./img/medi_details/icon/medi_icon_15_1.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_15.png',
@@ -2284,7 +2284,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_14.png',
                                         },
                                         {
-                                                name : '여성암센터',
+                                                name : 'Women's Cancer',
                                                 a_link: './medi_detail.html?value=8&item=11',
                                                 img_link : './img/medi_details/icon/medi_icon_11.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',

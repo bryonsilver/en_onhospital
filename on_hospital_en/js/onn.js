@@ -141,7 +141,7 @@ $(document).ready(function(){
     // $('.yo_li').empty();
 
 
-// 병원장 TV 클릭시 유튜브 팝업이 나오도록 
+// ONN TV 클릭시 유튜브 팝업이 나오도록 
     $('.onn_video_bx').on('click',function(event){
         // let dv = event.currentTarget;
         console.log('클릭 youtube')

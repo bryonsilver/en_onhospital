@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    // 메인 슬라이드
+    // Main 슬라이드
     var swiper = new Swiper(".mySwiper", {
         navigation: {
             nextEl: ".swiper-button-next",
@@ -20,7 +20,7 @@ $(document).ready(function(){
         effect : 'fade',
  
     });
-    // 온병원 그룹
+    // ON Group
     var swiper = new Swiper(".mySwiper3", {
         slidesPerView: 2.5,
         pagination: {
@@ -91,12 +91,12 @@ $(document).ready(function(){
     //                 if (document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'en') {
     //                     $('.alpha_main').css({display: 'block'})
     //                     $('img.alpha_off_img').css({display: 'none'})
-    //                     console.log('메인배너 영어버전 변경')
+    //                     console.log('Main배너 영어버전 변경')
     //                 }
     //                 else if (document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value !== 'en') {
     //                     $('.alpha_main').css({display: 'none'})
     //                     $('img.alpha_off_img').css({display: 'block'})
-    //                     console.log('메인배너 영어버전 취소')
+    //                     console.log('Main배너 영어버전 취소')
     //                 }
     //         } else if (width < 990) {
     //             $('.m_alpha_main').css({display: 'none'})
@@ -104,12 +104,12 @@ $(document).ready(function(){
     //                 if (document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'en') {
     //                     $('#m_alpha').removeAttr('id', 'alpha_img')
     //                     $('#m_alpha_off').attr({display: 'none'})
-    //                     console.log('모바일 메인배너 영어버전 변경')
+    //                     console.log('모바일 Main배너 영어버전 변경')
     //                 }
     //                 else if (document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value !== 'en') {
     //                     $('#m_alpha').attr('id', 'alpha_img')
     //                     $('#m_alpha_off').removeAttr({display: 'block'})
-    //                     console.log('모바일 메인배너 영어버전 취소')
+    //                     console.log('모바일 Main배너 영어버전 취소')
     //                 }
     //         }
     //     }).resize();
@@ -119,7 +119,7 @@ $(document).ready(function(){
 
     
     
-    // 병원장 TV
+    // ONN TV
     var swiper = new Swiper(".mySwiper2", {
        
         slidesPerView: 2.5,
@@ -270,7 +270,7 @@ $(document).ready(function(){
 
 
 
-    // notice 병원소식에서 공지사항이든 기타소식 이든 클릭시 가운데에 내용 보이게
+    // notice HOSPITAL NEWS에서 Announcements이든 More News 이든 클릭시 가운데에 내용 보이게
 
 
     $('#nc_t_1').css('display', 'block')
@@ -282,7 +282,7 @@ $(document).ready(function(){
     $('#nc_t_6').css('display', 'none')
     
     $('.n_1').click(function(){
-        console.log("1번 공지사항 클릭했수")
+        console.log("1번 Announcements 클릭했수")
         // 클릭시 가운데 내용 나옴
         $('#no_1').css('opacity', '1')
 
@@ -357,7 +357,7 @@ $(document).ready(function(){
 
     })
     $('.n_2').click(function(){
-        console.log("2번 기타소식 클릭했수")
+        console.log("2번 More News 클릭했수")
                 // 클릭시 가운데 내용 나옴
         $('#no_2').css('opacity', '1')
 
@@ -631,7 +631,7 @@ $(document).ready(function(){
         $('.color_n_6 .n_name_box').css('color', '#333')
     })
     $('.n_6').click(function(){
-        console.log("6번 언론보도 클릭했수")
+        console.log("6번 News & Publications 클릭했수")
         $('#no_3').css('opacity', '1')
 
         $('#no_1').css('opacity', '0')
@@ -1072,7 +1072,7 @@ $(document).ready(function(){
     });
 
 
-    // 병원장 TV 클릭시 유튜브 팝업이 나오도록 
+    // ONN TV 클릭시 유튜브 팝업이 나오도록 
 
     $('.youtube_box').click(function(){
         $('.youtube_box').css('display', 'none')

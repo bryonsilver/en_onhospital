@@ -775,7 +775,7 @@ cent_list+= `<div class="mr_content">`
                                                 <div class="top mcenter_top">
                                                     <!-- <div class="mb-4 mb-lg-0"><img src="./img/guide/funeral.jpg" class="mx-auto d-block rounded-circle" style="width: 150px;height: 150px;" alt=""></div> -->
                                                     <div class="cont ml-lg-4">
-                                                        <h3 class="mb-3 mcenter_color title2 mcenter_title2"><b>온종합병원 장례식장</b></h3>
+                                                        <h3 class="mb-3 mcenter_color title2 mcenter_title2"><b>ON Hospital Funeral Home/Mortuary</b></h3>
                                                         <div class="mb-3">
                                                             지하철역 (2호선 부암역)과 바로 연결되어 최고의 교통요지에 위치하고 있으며 <span>직접 조리한 최고급 양질의 음식제공 등 최고의 장례서비스를 제공합니다.</span>
                                                         </div>
@@ -793,10 +793,10 @@ cent_list+= `<div class="mr_content">`
                                                 <div class="section1">					
                                                     <ul class="row best_box">
                                                         <li class="col-lg-6 best_re">
-                                                            <h5 class="mb-3 pl-5 mcenter_color"> 온종합병원에서 <br><b class="section1_span">직영으로 운영</b>합니다.</h5>
+                                                            <h5 class="mb-3 pl-5 mcenter_color"> ON Hospital에서 <br><b class="section1_span">직영으로 운영</b>합니다.</h5>
                                                         </li>
                                                         <li class="col-lg-6 best_re">
-                                                            <h5 class="mb-3 pl-5 mcenter_color"> 부산시내 최저 사용료로<br><b class="section1_span">시 장례식장보다 저렴</b>합니다.</h5>
+                                                            <h5 class="mb-3 pl-5 mcenter_color"> 부산시내 최저 사용료로<br><b class="section1_span">시 Funeral Home/Mortuary보다 저렴</b>합니다.</h5>
                                                         </li>
                                                         <li class="col-lg-6 best_re">
                                                             <h5 class="mb-3 mb-lg-0 pl-5 mcenter_color"> 정직한 운영으로 공식비용 외 <br><b class="section1_span">추가부담이 전혀 없습니다.</b></h5>
@@ -978,7 +978,7 @@ cent_list+= `<div class="mr_content">`
                                         </div>
                                         <div class="row mb-4 margin_b">
                                             <div class="col-lg-12">
-                                                <h3 class="mcenter_color font-myeongjo text-center" style="line-height: 1.6;">고인의 일생을 가장 아름답게 기억할 수 있는 편안한 장례식장으로 <span>항상 숭고하고 엄숙한 마음으로 유가족께 정성을 다하겠습니다.</span></h3>
+                                                <h3 class="mcenter_color font-myeongjo text-center" style="line-height: 1.6;">고인의 일생을 가장 아름답게 기억할 수 있는 편안한 Funeral Home/Mortuary으로 <span>항상 숭고하고 엄숙한 마음으로 유가족께 정성을 다하겠습니다.</span></h3>
                                             </div>
                                         </div>
                                         <div class="row">

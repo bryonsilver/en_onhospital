@@ -99,7 +99,7 @@ $(document).ready(function(){
     //                  guide_list += ` <div class="mf_s_img_1_box mf_s_img_box">
     //                             <img src="./img/guide/${data[num].img_src[j]}" alt="${data[num].img_src[j]}">
     //                             <h5 class="text_center">${data[num].cont_name[j]}</h5>
-    //                             <div class="text_center">온종합병원장</div>
+    //                             <div class="text_center">ON Hospital장</div>
     //                         </div>`
     //                         }
     //               guide_list += `</div>`

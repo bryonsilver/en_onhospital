@@ -7,22 +7,22 @@ $(document).ready(function(){
 		$('.nav_pan_box').addClass('p_active');
 
 		$('.nav_0').hover(function(){
-			$('.nav_pan_box').css({height: "120px"})
+			$('.nav_pan_box').css({height: "150px"})
 		})
 		$('.nav_1').hover(function(){
 			$('.nav_pan_box').css({height: "120px"})
 		})
 		$('.nav_2').hover(function(){
-			$('.nav_pan_box').css({height: "250px"})
+			$('.nav_pan_box').css({height: "350px"})
 		})
 		$('.nav_3').hover(function(){
-			$('.nav_pan_box').css({height: "120px"})
+			$('.nav_pan_box').css({height: "150px"})
 		})
 		$('.nav_4').hover(function(){
 			$('.nav_pan_box').css({height: "0px"})
 		})
 		$('.nav_5').hover(function(){
-			$('.nav_pan_box').css({height: "180px"})
+			$('.nav_pan_box').css({height: "140px"})
 		})
 
 
