@@ -1,4 +1,4 @@
-
+body {font-family: 'Noto Sans KR';}
 .page-title {
     font-weight: 500;
 }
@@ -25,6 +25,8 @@
 .circle {
     width: 25px;
     height: 25px;
+    max-width: 25px;
+    min-width: 25px;
     border-radius: 50%;
     background-color: #ee791c99;
     text-align: center;
@@ -33,7 +35,7 @@
     font-size: 15px;
     font-weight: 400;
 
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     margin-right: 12px;
 }
 .text-justify h5 {
@@ -55,6 +57,13 @@
     background-color: #ee791c30;
     color: #666;
 }
+.customer_num_title {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.customer_num_title:nth-of-type(1) {padding-bottom: 15px;}
+.customer_num_title:nth-of-type(2) {padding-top: 45px; padding-bottom: 10px;}
 th {
     border-top: 1px solid #999;
     font-weight: 400;
@@ -78,9 +87,9 @@ td {
     font-weight: 400;
 }
 
-.two {
+/* .two {
     margin-top: 50px;
-}
+} */
 table {
     min-width: 580px;
 }
@@ -109,6 +118,7 @@ table {
         width: 100%;
         max-width: 85% !important;
     }
+    .float-right {text-align: center !important;}
 }
 @media (max-width: 280px) {
     .title_icon_box {margin-bottom: 26px !important;}

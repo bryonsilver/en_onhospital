@@ -1,4 +1,26 @@
 $(document).ready(function(){
+        // 구글번역 뒤로갔다가 돌아왔을때 번역기능 사라지는 것 제압
+	 var s = document.createElement("script");
+	 var a = document.createElement("script");
+
+	window.onpageshow = function(event) {
+		if ( event.persisted || (window.performance && window.performance.navigation.type == 2)) {
+			console.log('되고 있나요? onpageshow')
+	// Back Forward Cache로 브라우저가 로딩될 경우 혹은 브라우저 뒤로가기 했을 경우
+			$('.reloding').remove();
+			$('.google_lang_box').prepend("<div id='google_translate_element' class='back'></div>")
+			
+			s.type = "text/javascript";
+			s.src = "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
+			a.type = "text/javascript";
+			a.src = "./js/common/google.js";
+			$("head").append(s);
+			$("head").append(a);
+			location.reload();
+
+			console.log('구글번역기능 가즈아!!')
+		}
+	}
     $('#selec4').prop("selected", true);
     $('.rt1_box .box_input').css({
         background:'#ee791c',
@@ -988,7 +1010,7 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_14.png',
                                 },
                                 {
-                                        name : 'Women's Cancer',
+                                        name : 'Women`s Cancer',
                                         a_link: './medi_detail.html?value=8&item=11',
                                         img_link : './img/medi_details/icon/medi_icon_11.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
@@ -1313,7 +1335,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_14.png',
                                         },
                                         {
-                                                name : 'Women's Cancer',
+                                                name : 'Women`s Cancer',
                                                 a_link: './medi_detail.html?value=8&item=11',
                                                 img_link : './img/medi_details/icon/medi_icon_11.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
@@ -1957,7 +1979,7 @@ $(document).ready(function(){
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_14.png',
                 },
                 {
-                        name : 'Women's Cancer',
+                        name : 'Women`s Cancer',
                         a_link: './medi_detail.html?value=8&item=11',
                         img_link : './img/medi_details/icon/medi_icon_11.png',
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
@@ -2284,7 +2306,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_14.png',
                                         },
                                         {
-                                                name : 'Women's Cancer',
+                                                name : 'Women`s Cancer',
                                                 a_link: './medi_detail.html?value=8&item=11',
                                                 img_link : './img/medi_details/icon/medi_icon_11.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',

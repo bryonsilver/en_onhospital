@@ -10,7 +10,7 @@ const NEWS_LIST = [
         // {cate_no:0, item_no:6, num:5, title:'[휴진 안내] 어린이날 휴진 안내', writer: 'ON Hospital', date:'2022.05.27',},
         // {cate_no:0, item_no:7, num:4, title:'[휴진안내] 설연휴 휴진 안내', writer: 'ON Hospital', date:'2022.05.27',},
         // {cate_no:0, item_no:8, num:3, title:'[휴진안내] 성탄절 및 신정 휴진 안내', writer: 'ON Hospital', date:'2022.05.27',},
-        // {cate_no:0, item_no:9, num:2, title:'[PATIENT CARE] 한글날 진료 안내', writer: 'ON Hospital', date:'2022.05.27',},
+        // {cate_no:0, item_no:9, num:2, title:'[Medical Information] 한글날 진료 안내', writer: 'ON Hospital', date:'2022.05.27',},
         // {cate_no:0, item_no:10, num:1, title:'[휴진안내] 추석 휴진 안내', writer: 'ON Hospital', date:'2022.05.27',},
     ],
     //More News

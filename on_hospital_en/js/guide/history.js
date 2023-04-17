@@ -54,7 +54,7 @@ $(document).ready(function(){
 
 $('.every_btn').on("click", function(){
     $('.his_box').css({display: 'flex'})
-    $('.his_total_box').css('height', '5140px')
+    $('.his_total_box').css('height', '5800px')
     
     $('.every_btn').css({backgroundColor: '#ee791c', color: '#fff'})
     $('.hs_b').css({color:'#ddd'})
@@ -62,7 +62,7 @@ $('.every_btn').on("click", function(){
 })
 $('.every_m_btn').on("click", function(){
     $('.his_box').css({display: 'flex'})
-    $('.his_total_box').css('height', '5140px')
+    $('.his_total_box').css('height', '5800px')
 
     $('.every_m_btn').css({backgroundColor: '#ee791c', color: '#fff'})
     $('.hs_b').css({color:'#ddd'})
@@ -71,9 +71,9 @@ $('.every_m_btn').on("click", function(){
 
     $(window).resize(function(){ 
         var width = window.innerWidth;
-        if (width > 1150) {  // 다바이스 크기가 1400이상일때 
+        if(width > 1650) { // 다바이스 크기가 1400이상일때 
             console.log("이건 와웅 데스크탑용 이넹!")
-            
+
             $('.every_m_btn').trigger("click")
             
                     
@@ -218,19 +218,26 @@ $('.every_m_btn').on("click", function(){
                 $('.every_btn').css({backgroundColor: '#ddd', color: '#999'})
             })
             
-
-        
+        }
+        else if (1650 > width &&  1600 < width) {
+            $('.his_total_box').css('height', '6600px')
+        }
+        else if (1600 > width &&  1500 < width) { 
+            $('.his_total_box').css('height', '6600px')        
         } 
-        else if (1500 > width &&  900 < width) {
+        else if (1500 > width &&  1400 < width) { 
+            $('.his_total_box').css('height', '6600px')        
+        } 
+        else if (1400 > width &&  900 < width) {
             console.log("이건 900 큼")
             $('.his_box').css({display: 'flex'})
-            $('.his_total_box').css('height', '5140px')
+            $('.his_total_box').css('height', '5800px')
             $('.every_m_btn').trigger("click")
         
                         
             $('.every_m_btn').on("click", function(){
                 $('.his_box').css({display: 'flex'})
-                $('.his_total_box').css('height', '5140px')
+                $('.his_total_box').css('height', '5800px')
             
                 $('.every_m_btn').css({backgroundColor: '#ee791c', color: '#fff'})
                 $('.hs_b').css({color:'#ddd'})
@@ -397,7 +404,7 @@ $('.every_m_btn').on("click", function(){
 
             $('.every_m_btn').on("click", function(){
                 $('.his_box').css({display: 'flex'})
-                $('.his_total_box').css('height', '5140px')
+                $('.his_total_box').css('height', '5800px')
             
                 $('.every_m_btn').css({backgroundColor: '#ee791c', color: '#fff'})
                 $('.hs_b').css({color:'#ddd'})
@@ -570,7 +577,7 @@ $('.every_m_btn').on("click", function(){
             $('.every_m_btn').trigger("click")
             $('.every_m_btn').on("click", function(){
                 $('.his_box').css({display: 'flex'})
-                $('.his_total_box').css('height', '5140px')
+                $('.his_total_box').css('height', '5800px')
             
                 $('.every_m_btn').css({backgroundColor: '#ee791c', color: '#fff'})
                 $('.hs_b').css({color:'#ddd'})

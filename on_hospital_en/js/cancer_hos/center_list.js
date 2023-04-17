@@ -5,7 +5,7 @@ const CENT_LIST = [
             img_src:'', 
             sub_title:['', ''], 
             icon_src:'medi_icon_15_1',
-            name:'Hepatobiliary Pancreatic/Gastric/Colorectal Cancer',
+            name:'Hepatobiliary Pancreatic / Gastric / Colorectal Cancer',
             sub_context3: ['ON Hospital은 간, 담도계 및 췌장내 악성종야에 대해 풍부한 임상경험과 전문지식을 갖춘 소화기내과, 종양내과, 간담췌외과, 방사선종양학과, 영상의학과, 병리과 전문의들이 주축이 되어 전문의들이 모여 진단에서부터 치료까지 환자중심의 유기적인 협조체계를 구축하고 상호 협력함으로서 환자의 빠른 진단 및 환자 개개인에 맞는 최장의 치료를 제공 하고 있습니다.'],
             sub_context2: ['일반적으로 담도계 및 췌장내 악성종양의 예후는 타 장기악성종양에 비해 치료 결과가 좋지 않다고 합니다.','그러나 영상진단의 정확도가 증가하고, 수술 술기의 발전으로 절제율이 향상되고 있으며 수술 후 합병증의 발병율이 낮아지고 있습니다. 또한 수술 후에 여러 보조적 치료 약제의 개발과 방사선치료 방법이 향상되어 치료 결과는 느리지만 차츰 향상되고 있습니다.'],
             sub_context1: ['간암에 대한 여러 치료법이 개발되고 활용됨에 따라 최적의 치료를 받게 되면 좋은 결과를 예상할 수 있습니다.','또한 담도계 및 췌장내 악성종양들을 대상으로 진단, 수술, 수술 전후 항암화학요법, 방사선치료 등 전문적인 진단과 치료를 제공하여 환자의 치료율과 질적향상을 도모하고 있습니다.'] },
@@ -249,7 +249,7 @@ const CENT_LIST = [
 
 const CENT_TITLE = [
     [
-        {cate_no:0, item_no:1, title:'Hepatobiliary Pancreatic/Gastric/Colorectal Cancer', icon_src:'medi_w_cetner_1',},
+        {cate_no:0, item_no:1, title:'Hepatobiliary Pancreatic / Gastric / Colorectal Cancer', icon_src:'medi_w_cetner_1',},
         {cate_no:0, item_no:2, title:'Liver', icon_src:'medi_w_cetner_2',},
         {cate_no:0, item_no:3, title:'Infection', icon_src:'medi_w_cetner_3',},
         {cate_no:0, item_no:4, title:'Proctology', icon_src:'medi_w_cetner_4',},
@@ -987,7 +987,7 @@ const CENT_BANNER = [
 
 // const CENT_TITLE = [
 //     [
-//         {cate_no:0, item_no:1, title:'Hepatobiliary Pancreatic/Gastric/Colorectal Cancer'},
+//         {cate_no:0, item_no:1, title:'Hepatobiliary Pancreatic / Gastric / Colorectal Cancer'},
 //         {cate_no:0, item_no:2, title:'Liver'},
 //         {cate_no:0, item_no:3, title:'Infection'},
 //         {cate_no:0, item_no:4, title:'Proctology'},

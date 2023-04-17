@@ -8,6 +8,9 @@
     display: none;
     text-align: center !important;
 } */
+body {font-family: 'Noto Sans KR';}
+.col-lg-12 h4 {width: 100%;}
+.icon_title {margin-bottom: 0 !important;}
 th {
     background: #f1f2f9;
     min-width: 150px;
@@ -98,6 +101,13 @@ svg:not(:root).svg-inline--fa {
     width: 0.875em;
 }
 
+
+
+
+
+@media (max-width: 500px) {
+    .table-floor td {max-width: 388px;}
+}
 
 
 

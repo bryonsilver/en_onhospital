@@ -1,4 +1,4 @@
-
+    body {font-family: 'Noto Sans KR';}
         .mySwiper2  {width: 73% !important;}
       .mySwiper2 .swiper,
       .mySwiper_1 .swiper {
@@ -176,6 +176,8 @@
 .img_box {
     width: 65px;
     height: 65px;
+    min-width: 65px;
+    max-width: 65px;
     background-color: #eee;
     border-radius: 50%;
     display: flex;
@@ -427,7 +429,7 @@ svg:not(:root).svg-inline--fa {
     color: #222 ;
 }
 .th {
-    width: 50%;
+    width: 100%;
 }
 .th h5 {
     font-weight: 600 !important;
@@ -584,7 +586,16 @@ svg:not(:root).svg-inline--fa {
     .mySwiper_1 {max-width: 100% !important;}
     .margin_b {margin-top: 16px !important;}
     .mySwiper_1 .swiper-slide {width: 50px !important;}
+    .font-myeongjo {font-size: 18px;}
+
+    .mySwiper2 .swiper-slide img {
+        width: 130%;
+        transform: translateX(-11%);
+        border-radius: 15px;
+    }
 
 
-
+}
+@media (max-width: 300px) {
+    .section2 {padding: 0;}
 }

@@ -1,3 +1,4 @@
+.wrap {overflow-y: hidden;}
 body {font-family: 'Noto Sans KR';}
 .swiper {height: auto !important;}
 .mySwiper4 .swiper-wrapper, .mySwiper4 .swiper-slide img {height: auto !important;}
@@ -67,6 +68,7 @@ body {font-family: 'Noto Sans KR';}
 
 /* 재 디자인 */
 .his_total_box {
+    height: 6700px ;
     width: 100%;
     flex: 14;
 }
@@ -127,6 +129,8 @@ body {font-family: 'Noto Sans KR';}
 .h_l_circle {
     width: 13px;
     height: 13px;
+    min-width: 13px;
+    max-width: 13px;
     background-color: #eb5f22;
     border-radius: 50%;
 
@@ -160,7 +164,7 @@ body {font-family: 'Noto Sans KR';}
     width: 100%;
 }
 .em {
-    font-weight: 700;
+    font-weight: 500;
     color: #444;
 }
 .his_shorts_button {
@@ -231,6 +235,19 @@ body {font-family: 'Noto Sans KR';}
 .miner {
     top: -1% !important;
 }
+
+
+
+
+
+
+
+
+
+
+/* 영어버전에서 글이 길어져서 맨위 점 위치 transform으로 변경 */
+#h_9 .his_li:nth-of-type(1) .h_l_circle,
+#h_11 .his_li:nth-of-type(1) .h_l_circle {transform: translateY(-7px);}
 
 
 @media only screen and (max-width: 1650px) {

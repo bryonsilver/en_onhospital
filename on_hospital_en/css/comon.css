@@ -293,13 +293,14 @@ span {display: inline-block;}
     position: relative;
 }
 .h_nav_li {
-    padding: 30px 20px;
+    padding: 30px 12px;
     font-size: 20px;
     font-weight: 500;
     position: relative;
     transition: all 0.2s linear;
     cursor: pointer;
 }
+.h_nav_li a {text-align: center;}
 .google_lang_box {
     display: flex;
     align-items: center;
@@ -1619,6 +1620,13 @@ body {
     }
     
 }
+@media (max-width: 1290px)  {
+
+    .h_nav_li {
+        /* padding: 30px 10px !important; */
+        font-size: 18px !important;
+    }
+}
 @media (max-width: 1260px) {
     .nav_ul > li > a {
         padding: 20px 20px;
@@ -1641,8 +1649,10 @@ body {
         top: -15px;
         left: -10px;
     }
+}
+@media (max-width: 1220px ) {
     .h_nav_li {
-        padding: 30px 10px !important;
+        font-size: 17px !important;
     }
 }
 @media (max-width: 1200px) {

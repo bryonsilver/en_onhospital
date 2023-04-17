@@ -1,9 +1,12 @@
 
+body {font-family: 'Noto Sans KR';}
 .icon {
     /* padding-top: 5px;
     box-sizing: border-box; */
     width: 30px;
     height: 30px;
+    max-width: 30px;
+    min-width: 30px;
     margin-top: 8px;
     border-radius: 50%;
     background-color: #fff;
@@ -47,14 +50,17 @@
 .mission_text_1 {
     top: 15%;
     left: 46%;
+    transform: translate(-10px, 3px);
 }
 .mission_text_2 {
     top: 71%;
     left: 20.5%;
+    transform: translate(10px, 0px);
 }
 .mission_text_3 {
     top: 71%;
     left: 69%;
+    transform: translate(-10px, -10px);
 }
 .col-lg {
     display: flex;
@@ -165,12 +171,17 @@
 /* ff9f1c  ee791c */
 
 @media (max-width: 1400px) {
-    .mission_text_1  {left: 45%;}
+    .mission_text_1  {
+        left: 45%;
+        transform: translate(-5px, 3px);
+    }
     .mission_text_2 {
         left: 14.5%;
+        transform: translate(35px, 0px);
     }
     .mission_text_3 {
         left: 72%;
+        transform: translate(-25px, -15px);
     }
 }
 @media (max-width: 1350px) {
@@ -178,7 +189,7 @@
         left: 45%;
     }
     .mission_text_2 {
-        left: 15%;
+        left: 15%;    transform: translate(30px, 0px);
     }
     .mission_text_3 {
         left: 72%;
@@ -200,18 +211,23 @@
     }
     .mission_text_2 {
         left: 18%;
+        transform: translate(55px, 0px);
     }
     .mission_text_3 {
         left: 71%;
+        transform: translate(-45px, -15px);
     }
 }
 
 @media (max-width: 1100px) {
+    .mission_text_1 {transform: translate(-15px, 3px);}
     .mission_text_2 {
         left: 19%;
+        transform: translate(-5px, 0px);
     }
     .mission_text_3 {
         left: 70%;
+        transform: translate(-5px, -15px);
     }
 }
 @media (max-width:991px) {
@@ -219,13 +235,15 @@
         flex-direction: column;
     }
     .mission_text_1 {
-        left: 45.5%;
+        left: 45.5%;    transform: translate(-10px, 3px);
     }
     .mission_text_2 {
         left: 13%;
+        transform: translate(5px, 5px);
     }
     .mission_text_3 {
         left: 75%;
+        transform: translate(-5px, -7px);
     }
 }
 
@@ -237,10 +255,12 @@
     .mission_text_2 {
         top: 72%;
         left: 13%;
+        transform: translate(5px, 0px);
     }
     .mission_text_3 {
         top: 72%;
         left: 75%;
+        transform: translate(-10px, -17px);
     }
 }
 
@@ -269,14 +289,17 @@
     .mission_text_1 {
         left: 44%;
         top: 14%;
+        transform: translate(-3px, 3px);
     }
     .mission_text_2 {
         top: 70%;
         left: 11%;
+        transform: translate(15px, 0px);
     }
     .mission_text_3 {
         top: 70%;
         left: 74%;
+        transform: translate(-5px, -12px);
     }
 }
 @media (max-width:660px) {
@@ -307,14 +330,17 @@
     .mission_text_1 {
         left: 43%;
         top: 12%;
+        transform: translate(-3px, 6px);
     }
     .mission_text_2 {
         top: 68%;
         left: 10%;
+        transform: translate(15px, 7px);
     }
     .mission_text_3 {
         top: 68%;
         left: 72%;
+        transform: translate(3px, -10px);
     }
     .under_line {width: 50%;}
 }
@@ -322,14 +348,17 @@
     .mission_text_1 {
         left: 43%;
         top: 13%;
+        transform: translate(-3px, 0px);
     }
     .mission_text_2 {
         top: 69%;
         left: 10%;
+        transform: translate(10px, 3px);
     }
     .mission_text_3 {
         top: 69%;
         left: 72.5%;
+        transform: translate(-5px, -13px);
     }
 }
 @media (max-width:500px) {
@@ -464,9 +493,10 @@
     .mission_text_1 {
         left: 41%;
         top: 13%;
+        transform: translate(-5px, 0px);
     }
     .row_text_box {
-        font-size: 15px;
+        font-size: 14px;
     }
     .mi_t {line-height: 19px;}
     .under_line {width: 80%;}

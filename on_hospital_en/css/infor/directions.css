@@ -1,4 +1,4 @@
-
+body {font-family: 'Noto Sans KR';}
 .text {
     color: #777;
     font-size: 17px;
@@ -31,7 +31,7 @@
 }
 .dm_ul th {
     width: 100%;
-    max-width: 72px;
+    max-width: 92px;
     text-align: justify;
     font-weight: 400;
     vertical-align: text-top;
@@ -299,7 +299,7 @@
     .w {flex-direction: column;}
 }
 @media (max-width: 500px) {
-    .dm_ul tr {
+    .dm_ul tr:nth-of-type(1) {
         display: flex;
         flex-direction: column;
         gap: 5px;
@@ -308,8 +308,8 @@
     .dm_ul th {
         box-sizing: border-box;
         padding: 10px 10px;
-        max-width: 92px;
-        margin-top: 24px;
+        max-width: 112px;
+        margin-top: 0px;
         border-radius: 5px;
     }
     .dm_ul th::before,
@@ -347,4 +347,19 @@
     } */
     .sns_ul {margin-top: 0 !important;}   
     .wrap_map {height: 200px !important;} 
+}
+@media (max-width: 400px) {
+    .dm_ul tr {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        /* align-items: center; */
+    }
+    .dm_ul th {
+        box-sizing: border-box;
+        padding: 10px 10px;
+        max-width: 112px;
+        margin-top: 24px;
+        border-radius: 5px;
+    }
 }
