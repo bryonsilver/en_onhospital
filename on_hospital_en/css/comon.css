@@ -528,7 +528,7 @@ span {display: inline-block;}
     left: 0;
     top: 45px;
 }
-.n_pan_3 .dep1:after {top: 70px;}
+.n_pan_1 .dep1:after, .n_pan_3 .dep1:after {top: 70px;}
 .dep2 {
     overflow: hidden;
     padding-left: 190px;
