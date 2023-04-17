@@ -1,4 +1,86 @@
+
 $(document).ready(function(){
+	$('#google_translate_element').val('en').trigger('change');
+
+	  // 한국어판에서 번역기 클릭 시 영어판으로 와서 클릭한 언어로 번역기 돌리기!
+
+	  const urlParams = new URL(location.href).searchParams;
+	  const trans = urlParams.get('trans');
+	  console.log('trans',trans)
+
+	  if (trans == 'el') {
+		$('#google_translate_element').val('el').trigger('change');
+	  }else if (trans == 'nl') {
+		$('#google_translate_element').val('nl').trigger('change');
+	  }else if (trans == 'no') {
+		$('#google_translate_element').val('no').trigger('change');
+	  }else if (trans == 'da') {
+		$('#google_translate_element').val('da').trigger('change');
+	  }else if (trans == 'de') {
+		$('#google_translate_element').val('de').trigger('change');
+	  }else if (trans == 'ru') {
+		$('#google_translate_element').val('ru').trigger('change');
+	  }else if (trans == 'ro') {
+		$('#google_translate_element').val('ro').trigger('change');
+	  }else if (trans == 'mk') {
+		$('#google_translate_element').val('mk').trigger('change');
+	  }else if (trans == 'ms') {
+		$('#google_translate_element').val('ms').trigger('change');
+	  }else if (trans == 'mn') {
+		$('#google_translate_element').val('mn').trigger('change');
+	  }else if (trans == 'vi') {
+		$('#google_translate_element').val('vi').trigger('change');
+	  }else if (trans == 'bg') {
+		$('#google_translate_element').val('bg').trigger('change');
+	  }else if (trans == 'sv') {
+		$('#google_translate_element').val('sv').trigger('change');
+	  }else if (trans == 'es') {
+		$('#google_translate_element').val('es').trigger('change');
+	  }else if (trans == 'ar') {
+		$('#google_translate_element').val('ar').trigger('change');
+	  }else if (trans == 'af') {
+		$('#google_translate_element').val('af').trigger('change');
+	  }else if (trans == 'sq') {
+		$('#google_translate_element').val('sq').trigger('change');
+	  }else if (trans == 'et') {
+		$('#google_translate_element').val('et').trigger('change');
+	  }else if (trans == 'en') {
+		$('#google_translate_element').val('en').trigger('change');
+	  }else if (trans == 'uz') {
+		$('#google_translate_element').val('uz').trigger('change');
+	  }else if (trans == 'uk') {
+		$('#google_translate_element').val('uk').trigger('change');
+	  }else if (trans == 'it') {
+		$('#google_translate_element').val('it').trigger('change');
+	  }else if (trans == 'id') {
+		$('#google_translate_element').val('id').trigger('change');
+	  }else if (trans == 'ja') {
+		$('#google_translate_element').val('ja').trigger('change');
+	  }else if (trans == 'zh-CN') {
+		$('#google_translate_element').val('zh-CN').trigger('change');
+	  }else if (trans == 'zh-TW') {
+		$('#google_translate_element').val('zh-TW').trigger('change');
+	  }else if (trans == 'cs') {
+		$('#google_translate_element').val('cs').trigger('change');
+	  }else if (trans == 'hr') {
+		$('#google_translate_element').val('hr').trigger('change');
+	  }else if (trans == 'th') {
+		$('#google_translate_element').val('th').trigger('change');
+	  }else if (trans == 'fa') {
+		$('#google_translate_element').val('fa').trigger('change');
+	  }else if (trans == 'pt') {
+		$('#google_translate_element').val('pt').trigger('change');
+	  }else if (trans == 'fr') {
+		$('#google_translate_element').val('fr').trigger('change');
+	  }else if (trans == 'fi') {
+		$('#google_translate_element').val('fi').trigger('change');
+	  }else if (trans == 'hu') {
+		$('#google_translate_element').val('hu').trigger('change');
+	  }else if (trans == 'hi') {
+		$('#google_translate_element').val('hi').trigger('change');
+	  }else if (trans == 'ko') {
+		$(location).attr("href",'https://bryonsilver.github.io/ON_Hospital/on_hospital/index.html?trans=ko');	
+	  }
    
 	// nav
 
@@ -252,6 +334,8 @@ $(document).ready(function(){
 	// 	console.log('언어 option 추가함')
 	// })
 	
+
+
 
 
 
