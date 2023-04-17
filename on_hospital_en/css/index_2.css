@@ -3,6 +3,7 @@ html { scroll-behavior: smooth;}
 #alpha_img {
     display: none !important;
 }
+.m_text_small {font-family: 'Noto Sans KR';}
 .lang_input{display: none;}
 
 /* Main배너 슬라이드 중 병원 교수들 배너 css */
@@ -1025,10 +1026,12 @@ html { scroll-behavior: smooth;}
 }
 @media (max-width:1400px) {
     .nc_5, .nc_4, .nc_3, .nc_2, .nc_1 {width: 300px;}
-    #nc_t_1 {    transform: translateX(-40px)translateY(18px);}
-    #nc_t_2 {transform: translateX(-15px)translateY(10px);}
-    #nc_t_3 {transform: translateX(-17px)translateY(-5px); font-size: 20px;}
-    #nc_t_5 {    transform: translateX(-10px)translateY(10px);}
+    #nc_t_1 {    transform: translateX(-60px)translateY(18px);}
+    #nc_t_2 {transform: translateX(-25px)translateY(10px);}
+    #nc_t_3 {transform: translateX(-27px)translateY(-5px); font-size: 20px;}
+    #nc_t_4 {    transform: translateX(-30px)translateY(10px);}
+    #nc_t_5 {    transform: translateX(-35px)translateY(10px);}
+    #nc_t_6 {left: 20px;}
     
    
     .n_thrid_box, .n_first_box  {gap: 20px; width: 620px;}

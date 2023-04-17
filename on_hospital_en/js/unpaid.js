@@ -11,7 +11,7 @@ $(document).ready(function(){
 			$('.danger').css({opacity:'1'})
             alert('모바일에서는 보기 어려움으로 모니터화면으로 봐주시기 바랍니다.')
             // alert_ck= ture; 
-			// ture false 하면 햄버거 메뉴까지 안먹히게 됨... 방법 모색....
+			// ture false 하면 햄버거 MENU까지 안먹히게 됨... 방법 모색....
 		}
 	}).resize();
 

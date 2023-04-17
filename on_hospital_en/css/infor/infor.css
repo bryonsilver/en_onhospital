@@ -1,5 +1,5 @@
 
-
+body {font-family: 'Noto Sans KR'; }
 
 .flex_m,
 .img_moblie {
@@ -24,6 +24,8 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    font-weight: 800;
+    font-family: 'S-Core_Dream';
 }
 .col-lg-12 h4 .small_font {
     font-size: 17px;
@@ -53,6 +55,8 @@
 .list {
     width: 5px;
     height: 5px;
+    min-width: 5px;
+    max-width: 5px;
     background-color: #ffffff;
     border-radius: 50%;
     border: 5px solid #ff7c00;
@@ -240,5 +244,9 @@
     .list {
         min-width: 5px;
         max-width: 5px;
+    }
+    .moblie_ext_n span:nth-of-type(2) {
+        border-top: 1px solid #ddd;
+        margin-top: 5px;
     }
 }

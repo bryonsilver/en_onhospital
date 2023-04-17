@@ -20,7 +20,7 @@ $(document).ready(function(){
         effect : 'fade',
  
     });
-    // ON Group
+    // ON Hospital Group
     var swiper = new Swiper(".mySwiper3", {
         slidesPerView: 2.5,
         pagination: {
