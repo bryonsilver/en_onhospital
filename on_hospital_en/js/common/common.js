@@ -1,4 +1,7 @@
-$('#google_translate_element').val('en').trigger('change');
+if(location.href.indexOf('https://bryonsilver.github.io/en_on_hospital/on_hospital_en/index.html') > -1){ // location.href 로 현재 페이지 주소를 가져옵니다.
+	$('#google_translate_element').val('en').trigger('change');
+	console.log("영어판 링크얏!!")
+}
 
 	  // 한국어판에서 번역기 클릭 시 영어판으로 와서 클릭한 언어로 번역기 돌리기!
 
