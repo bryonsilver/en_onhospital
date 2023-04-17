@@ -1,6 +1,4 @@
-
-$(document).ready(function(){
-	$('#google_translate_element').val('en').trigger('change');
+$('#google_translate_element').val('en').trigger('change');
 
 	  // 한국어판에서 번역기 클릭 시 영어판으로 와서 클릭한 언어로 번역기 돌리기!
 
@@ -81,6 +79,9 @@ $(document).ready(function(){
 	  }else if (trans == 'ko') {
 		$(location).attr("href",'https://bryonsilver.github.io/ON_Hospital/on_hospital/index.html?trans=ko');	
 	  }
+	  
+$(document).ready(function(){
+	
    
 	// nav
 
