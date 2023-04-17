@@ -82,9 +82,11 @@ $('#google_translate_element').val('en').trigger('change');
 
 	$('#google_translate_element').off("change").on('change' , function(){
 		if (document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'ko') {
+			console.log("한국어 입니다~ ㅎㅎㅎ ")
 			$(location).attr("href",'https://bryonsilver.github.io/ON_Hospital/on_hospital/index.html?trans=ko');	
 		}
 	});
+	
 	  
 	
 	  

@@ -1,3 +1,4 @@
+body {font-family: 'Noto Sans KR';}
 .swiper {height: auto !important;}
 .mySwiper4 .swiper-wrapper, .mySwiper4 .swiper-slide img {height: auto !important;}
 .mb-4 {
@@ -5,6 +6,10 @@
 }
 .m_flex_box{
     gap: 50px !important;
+}
+.his_li span:nth-of-type(3) {
+    text-align: left;
+    color: #444;
 }
 .top_title {align-items: center;}
 .icon {margin-top: 1px;}
@@ -105,6 +110,7 @@
 }
 .h_l_month {
     width: 40px;
+    min-width: 40px;
     color: #eb5f22;
     font-size: 16px;
     font-weight: 500;
@@ -154,8 +160,8 @@
     width: 100%;
 }
 .em {
-    font-weight: 500;
-    color: #000;
+    font-weight: 700;
+    color: #444;
 }
 .his_shorts_button {
     /* position: fixed; 
@@ -231,6 +237,7 @@
     .his_box {
         margin-left: 5%;
     }
+    .his_li span:nth-of-type(3) {max-width: 400px;}
 }
 @media only screen and (max-width: 1400px) {
     .history {
@@ -282,7 +289,7 @@
    
     .h_l_month {text-align: left; width: auto !important;}
     .his_li {text-align: left; gap: 10px !important;}
-    .h_m_left {padding: 0 10px;}
+    /* .h_m_left {padding: 0 10px;} */
 
     .his_shorts_button::-webkit-scrollbar {
         width: 30%;
@@ -372,7 +379,7 @@
     .his_right_box {border: none;}
     .h_l_circle {display: none;}
     .h_l_circle_2 {display: none;}
-    .h_l_month {white-space: nowrap;}
+    .h_l_month {white-space: nowrap; text-align: center;}
     .m_flex_box {
         gap: 10px !important;
     }

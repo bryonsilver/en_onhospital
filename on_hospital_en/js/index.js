@@ -1160,6 +1160,7 @@ $(document).ready(function(){
             var tmp = $(".width").attr("href");
             $('.width_ham_link').prop('href', tmp)
             console.log("width ham_link = ", tmp)
+			$(location).attr("href",'https://bryonsilver.github.io/ON_Hospital/on_hospital/index.html?trans=ko');	
         }
         else if (document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value !== 'ko') {
             console.log('한국어 아니야!')
