@@ -1,7 +1,7 @@
-if(location.href.indexOf('https://bryonsilver.github.io/en_on_hospital/on_hospital_en/index.html') > -1){ // location.href 로 현재 페이지 주소를 가져옵니다.
-	$('#google_translate_element').val('en').trigger('change');
-	console.log("영어판 링크얏!!")
-}
+// if(location.href.indexOf('https://bryonsilver.github.io/en_on_hospital/on_hospital_en/index.html') > -1){ // location.href 로 현재 페이지 주소를 가져옵니다.
+// 	$('#google_translate_element').val('en').trigger('change');
+// 	console.log("영어판 링크얏!!")
+// }
 
 	  // 한국어판에서 번역기 클릭 시 영어판으로 와서 클릭한 언어로 번역기 돌리기!
 
@@ -11,74 +11,109 @@ if(location.href.indexOf('https://bryonsilver.github.io/en_on_hospital/on_hospit
 
 	  if (trans == 'el') {
 		$('#google_translate_element').val('el').trigger('change');
+		console.log("el");
 	  }else if (trans == 'nl') {
 		$('#google_translate_element').val('nl').trigger('change');
+		console.log("nl");
 	  }else if (trans == 'no') {
 		$('#google_translate_element').val('no').trigger('change');
+		console.log("no");
 	  }else if (trans == 'da') {
 		$('#google_translate_element').val('da').trigger('change');
+		console.log("da");
 	  }else if (trans == 'de') {
 		$('#google_translate_element').val('de').trigger('change');
+		console.log("de");
 	  }else if (trans == 'ru') {
 		$('#google_translate_element').val('ru').trigger('change');
+		console.log("ru");
 	  }else if (trans == 'ro') {
 		$('#google_translate_element').val('ro').trigger('change');
+		console.log("ro");
 	  }else if (trans == 'mk') {
 		$('#google_translate_element').val('mk').trigger('change');
+		console.log("mk");
 	  }else if (trans == 'ms') {
 		$('#google_translate_element').val('ms').trigger('change');
+		console.log("ms");
 	  }else if (trans == 'mn') {
 		$('#google_translate_element').val('mn').trigger('change');
+		console.log("mn");
 	  }else if (trans == 'vi') {
 		$('#google_translate_element').val('vi').trigger('change');
+		console.log("vi");
 	  }else if (trans == 'bg') {
 		$('#google_translate_element').val('bg').trigger('change');
+		console.log("bg");
 	  }else if (trans == 'sv') {
 		$('#google_translate_element').val('sv').trigger('change');
+		console.log("sv");
 	  }else if (trans == 'es') {
 		$('#google_translate_element').val('es').trigger('change');
+		console.log("es");
 	  }else if (trans == 'ar') {
 		$('#google_translate_element').val('ar').trigger('change');
+		console.log("ar");
 	  }else if (trans == 'af') {
 		$('#google_translate_element').val('af').trigger('change');
+		console.log("af");
 	  }else if (trans == 'sq') {
 		$('#google_translate_element').val('sq').trigger('change');
+		console.log("sq");
 	  }else if (trans == 'et') {
 		$('#google_translate_element').val('et').trigger('change');
+		console.log("et");
 	  }else if (trans == 'en') {
 		$('#google_translate_element').val('en').trigger('change');
+		console.log("en");
 	  }else if (trans == 'uz') {
 		$('#google_translate_element').val('uz').trigger('change');
+		console.log("uz");
 	  }else if (trans == 'uk') {
 		$('#google_translate_element').val('uk').trigger('change');
+		console.log("uk");
 	  }else if (trans == 'it') {
 		$('#google_translate_element').val('it').trigger('change');
+		console.log("it");
 	  }else if (trans == 'id') {
 		$('#google_translate_element').val('id').trigger('change');
+		console.log("id");
 	  }else if (trans == 'ja') {
 		$('#google_translate_element').val('ja').trigger('change');
+		console.log("ja");
 	  }else if (trans == 'zh-CN') {
 		$('#google_translate_element').val('zh-CN').trigger('change');
+		console.log("zh-CN");
 	  }else if (trans == 'zh-TW') {
 		$('#google_translate_element').val('zh-TW').trigger('change');
+		console.log("zh-TW");
 	  }else if (trans == 'cs') {
 		$('#google_translate_element').val('cs').trigger('change');
+		console.log("cs");
 	  }else if (trans == 'hr') {
 		$('#google_translate_element').val('hr').trigger('change');
+		console.log("hr");
 	  }else if (trans == 'th') {
 		$('#google_translate_element').val('th').trigger('change');
+		console.log("th");
 	  }else if (trans == 'fa') {
 		$('#google_translate_element').val('fa').trigger('change');
+		console.log("fa");
 	  }else if (trans == 'pt') {
 		$('#google_translate_element').val('pt').trigger('change');
+		console.log("pt");
 	  }else if (trans == 'fr') {
 		$('#google_translate_element').val('fr').trigger('change');
+		console.log("fr");
 	  }else if (trans == 'fi') {
 		$('#google_translate_element').val('fi').trigger('change');
+		console.log("fi");
 	  }else if (trans == 'hu') {
 		$('#google_translate_element').val('hu').trigger('change');
+		console.log("hu");
 	  }else if (trans == 'hi') {
 		$('#google_translate_element').val('hi').trigger('change');
+		console.log("hi");
 	  }else if (trans == 'ko') {
 		$(location).attr("href",'https://bryonsilver.github.io/ON_Hospital/on_hospital/index.html?trans=ko');	
 	  }
