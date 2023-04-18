@@ -496,7 +496,7 @@ body {font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple
 }
 .list_li {
     display: grid;
-    grid-template-columns: 80px 1fr;
+    grid-template-columns: 150px 1fr;
 
     font-size: 16px;
     font-weight: 400;
@@ -679,4 +679,5 @@ body {font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple
         max-width: 10%;
         height: 28px;
     }
+    .list_li {grid-template-columns: 120px 1fr;}
 }

@@ -12,156 +12,188 @@
 	  
 $(document).ready(function(){
 
+	
 
+	const urlParams = new URL(location.href).searchParams;
+    const trans = urlParams.get('trans');
+    console.log('trans',trans)
+	// $(".width").append("<div style='font-size:30px; color: red; font-weight: bolder' class='width_hello'>Hello</div>");
 
-	const searchParams = new URLSearchParams(location.search);
+	// setTimeout(function(){
+	// 	$(".width").append("<div style='font-size:30px; color: blue; font-weight: bolder' class='width_hello'>Hello</div>");
+	// },800)
+	// setTimeout(function(){
+	// 	if($('div').hasClass("width_hello")) {
+	// 		alert("으아아앙 이건 되냐??!")
+	// 	}
+	// }, 1000)
 
-    for (const param of searchParams) {
-        if(param[0] == 'trans') {
-            var trans_lang = param[1]  // param[1] = 23.5  Number(param[1])
+	// setTimeout(function(){
+	// 	if ($('select').hasClass("goog-te-combo")) {
+	// 		console.log("있음!! ")
+	// 		$('.nav_4').css({backgroundColor: 'blue'})
+	// 		alert("nav_4 아리요")
+	// 		setTimeout(function(){
+	// 			$('.nav_4').css({backgroundColor: 'red'})
+	// 			alert("nav_4 납시오오오오오오ㅗ오오ㅗㅇ")
+	// 		}, 600)
+	// 	}
+	// }, 1000)
 
-            if (trans_lang == 'el') {
-				$(".goog-te-combo option:eq(2)").prop("selected",true);
-				console.log("el");
-            }
-            else if (trans_lang == 'nl') {
-				$(".goog-te-combo option:eq(3)").prop("selected",true);
-				console.log("nl");
-            }
-			else if (trans_lang == 'no') {
-				$(".goog-te-combo option:eq(4)").prop("selected",true);
-				console.log("no");
-            }
-			else if (trans_lang == 'da') {
-				$(".goog-te-combo option:eq(5)").prop("selected",true);
-				console.log("da");
-            }
-			else if (trans_lang == 'de') {
-				$(".goog-te-combo option:eq(6)").prop("selected",true);
-				console.log("de");
-            }
-			else if (trans_lang == 'ru') {
-				$(".goog-te-combo option:eq(7)").prop("selected",true);
-				console.log("ru");
-            }
-			else if (trans_lang == 'ro') {
-				$(".goog-te-combo option:eq(8)").prop("selected",true);
-				console.log("ro");
-            }
-			else if (trans_lang == 'mk') {
-				$(".goog-te-combo option:eq(9)").prop("selected",true);
-				console.log("mk");
-            }
-			else if (trans_lang == 'ms') {
-				$(".goog-te-combo option:eq(10)").prop("selected",true);
-				console.log("ms");
-            }
-			else if (trans_lang == 'mn') {
-				$(".goog-te-combo option:eq(11)").prop("selected",true);
-				console.log("mn");
-            }
-			 else if (trans_lang == 'vi') {
-				$(".goog-te-combo option:eq(12)").prop("selected",true);
-				console.log("vi");
-            } else if (trans_lang == 'bg') {
-				$(".goog-te-combo option:eq(13)").prop("selected",true);
-				console.log("bg");
-            }
-			else if (trans_lang == 'sv') {
-				$(".goog-te-combo option:eq(14)").prop("selected",true);
-				console.log("sv");
-            }
-			else if (trans_lang == 'es') {
-				$(".goog-te-combo option:eq(15)").prop("selected",true);
-				console.log("es");
-            }
-			else if (trans_lang == 'ar') {
-				$(".goog-te-combo option:eq(16)").prop("selected",true);
-				console.log("ar");
-            }
-			else if (trans_lang == 'af') {
-				$(".goog-te-combo option:eq(17)").prop("selected",true);
-				console.log("af");
-            }
-			else if (trans_lang == 'sq') {
-				$(".goog-te-combo option:eq(18)").prop("selected",true);
-				console.log("sq");
-            }
-			else if (trans_lang == 'et') {
-				$(".goog-te-combo option:eq(19)").prop("selected",true);
-				console.log("et");
-            }
-			else if (trans_lang == 'en') {
-				$(".goog-te-combo option:eq(20)").prop("selected",true);
-				console.log("en");
-            }
-			else if (trans_lang == 'uz') {
-				$(".goog-te-combo option:eq(21)").prop("selected",true);
-				console.log("uz");
-            }
-			else if (trans_lang == 'uk') {
-				$(".goog-te-combo option:eq(22)").prop("selected",true);
-				console.log("uk");
-            }
-			else if (trans_lang == 'it') {
-				$(".goog-te-combo option:eq(23)").prop("selected",true);
-				console.log("it");
-            }
-			else if (trans_lang == 'id') {
-				$(".goog-te-combo option:eq(24)").prop("selected",true);
-				console.log("id");
-            }
-			else if (trans_lang == 'ja') {
-				$(".goog-te-combo option:eq(25)").prop("selected",true);
-				console.log("ja");
-            }
-			else if (trans_lang == 'zh-CN') {
-				$(".goog-te-combo option:eq(26)").prop("selected",true);
-				console.log("zh-CN");
-            }
-			else if (trans_lang == 'zh-TW') {
-				$(".goog-te-combo option:eq(27)").prop("selected",true);
-				console.log("zh-TW");
-            }
-			else if (trans_lang == 'cs') {
-				$(".goog-te-combo option:eq(28)").prop("selected",true);
-				console.log("cs");
-            }
-			else if (trans_lang == 'hr') {
-				$(".goog-te-combo option:eq(29)").prop("selected",true);
-				console.log("hr");
-            }
-			else if (trans_lang == 'th') {
-				$(".goog-te-combo option:eq(30)").prop("selected",true);
-				console.log("th");
-            }
-			else if (trans_lang == 'fa') {
-				$(".goog-te-combo option:eq(31)").prop("selected",true);
-				console.log("fa");
-            }
-			else if (trans_lang == 'pt') {
-				$(".goog-te-combo option:eq(32)").prop("selected",true);
-				console.log("pt");
-            }
-			else if (trans_lang == 'fr') {
-				$(".goog-te-combo option:eq(33)").prop("selected",true);
-				console.log("fr");
-            }
-			else if (trans_lang == 'fi') {
-				$(".goog-te-combo option:eq(34)").prop("selected",true);
-				console.log("fi");
-            }
-			else if (trans_lang == 'hu') {
-				$(".goog-te-combo option:eq(35)").prop("selected",true);
-				console.log("hu");
-            }
-			else if (trans_lang == 'hi') {
-				$(".goog-te-combo option:eq(36)").prop("selected",true);
-				console.log("hi");
-            }
-
-        }
-    } 
+	
+	setTimeout(function(){
+		if($('select').hasClass("goog-te-combo")) {
+			console.log("있음!! ")
+			$('.nav_4').css({backgroundColor: 'blue'})
+			alert("nav_4 아리요")
+			// setTimeout(function(){
+			// 	$('.nav_4').css({backgroundColor: 'red'})
+			// 	alert("nav_4 납시오오오오오오ㅗ오오ㅗㅇ")
+			// }, 600)
+	
+			if (trans == 'el') {
+				//*[@id=":0.targetLanguage"]/select/option[3]
+				$(".goog-te-combo").val('el').trigger('change');
+				alert("el");
+			}
+			else if (trans == 'nl') {
+				$(".goog-te-combo").val('nl').trigger('change');
+				alert("nl");
+			}
+			else if (trans == 'no') {
+				$(".goog-te-combo").val('no').trigger('change');
+				alert("no");
+			}
+			else if (trans == 'da') {
+				$(".goog-te-combo").val('da').trigger('change');
+				alert("da");
+			}
+			else if (trans == 'de') {
+				$(".goog-te-combo").val('de').trigger('change');
+				alert("de");
+			}
+			else if (trans == 'ru') {
+				$(".goog-te-combo").val('ru').trigger('change');
+				alert("ru");
+			}
+			else if (trans == 'ro') {
+				$(".goog-te-combo").val('ro').trigger('change');
+				alert("ro");
+			}
+			else if (trans == 'mk') {
+				$(".goog-te-combo").val('mk').trigger('change');
+				alert("mk");
+			}
+			else if (trans == 'ms') {
+				$(".goog-te-combo").val('ms').trigger('change');
+				alert("ms");
+			}
+			else if (trans == 'mn') {
+				$(".goog-te-combo").val('mn').trigger('change');
+				alert("mn");
+			}
+			 else if (trans == 'vi') {
+				$(".goog-te-combo").val('vi').trigger('change');
+				alert("vi");
+			} else if (trans == 'bg') {
+				$(".goog-te-combo").val('bg').trigger('change');
+				alert("bg");
+			}
+			else if (trans == 'sv') {
+				$(".goog-te-combo").val('sv').trigger('change');
+				alert("sv");
+			}
+			else if (trans == 'es') {
+				$(".goog-te-combo").val('es').trigger('change');
+				alert("es");
+			}
+			else if (trans == 'ar') {
+				$(".goog-te-combo").val('ar').trigger('change');
+				alert("ar");
+			}
+			else if (trans == 'af') {
+				$(".goog-te-combo").val('af').trigger('change');
+				alert("af");
+			}
+			else if (trans == 'sq') {
+				$(".goog-te-combo").val('sq').trigger('change');
+				alert("sq");
+			}
+			else if (trans == 'et') {
+				$(".goog-te-combo").val('et').trigger('change');
+				alert("et");
+			}
+			else if (trans == 'en') {
+				$(".goog-te-combo").val('en').trigger('change');
+				alert("en");
+			}
+			else if (trans == 'uz') {
+				$(".goog-te-combo").val('uz').trigger('change');
+				alert("uz");
+			}
+			else if (trans == 'uk') {
+				$(".goog-te-combo").val('uk').trigger('change');
+				alert("uk");
+			}
+			else if (trans == 'it') {
+				$(".goog-te-combo").val('it').trigger('change');
+				alert("it");
+			}
+			else if (trans == 'id') {
+				$(".goog-te-combo").val('id').trigger('change');
+				alert("id");
+			}
+			else if (trans == 'ja') {
+				$(".goog-te-combo").val('ja').trigger('change');
+				alert("ja");
+			}
+			else if (trans == 'zh-CN') {
+				$(".goog-te-combo").val('zh-CN').trigger('change');
+				alert("zh-CN");
+			}
+			else if (trans == 'zh-TW') {
+				$(".goog-te-combo").val('zh-TW').trigger('change');
+				alert("zh-TW");
+			}
+			else if (trans == 'cs') {
+				$(".goog-te-combo").val('cs').trigger('change');
+				alert("cs");
+			}
+			else if (trans == 'hr') {
+				$(".goog-te-combo").val('hr').trigger('change');
+				alert("hr");
+			}
+			else if (trans == 'th') {
+				$(".goog-te-combo").val('th').trigger('change');
+				alert("th");
+			}
+			else if (trans == 'fa') {
+				$(".goog-te-combo").val('fa').trigger('change');
+				alert("fa");
+			}
+			else if (trans == 'pt') {
+				$(".goog-te-combo").val('pt').trigger('change');
+				alert("pt");
+			}
+			else if (trans == 'fr') {
+				$(".goog-te-combo").val('fr').trigger('change');
+				alert("fr");
+			}
+			else if (trans == 'fi') {
+				$(".goog-te-combo").val('fi').trigger('change');
+				alert("fi");
+			}
+			else if (trans == 'hu') {
+				$(".goog-te-combo").val('hu').trigger('change');
+				alert("hu");
+			}
+			else if (trans == 'hi') {
+				$(".goog-te-combo").val('hi').trigger('change');
+				alert("hi");
+			}
+	
+		}
+	}, 1000)
 
 	// const urlParams = new URL(location.href).searchParams;
 	//   const trans = urlParams.get('trans');

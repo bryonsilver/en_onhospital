@@ -102,7 +102,7 @@ table * {
     background-color: #ee791c;
     position: absolute;
     left: 0;
-    top: 44.5%;
+    top: 42.5%;
 }
 .st_th_1::after {
     content: "";
@@ -111,7 +111,7 @@ table * {
     background-color: #ee791c;
     position: absolute;
     left: 50%;
-    top: 42%;
+    top: 40%;
 }
 .one::after {
     content: '';
@@ -127,7 +127,7 @@ table * {
 .two::after {
     content: '';
     left: 49.5%;
-    bottom: -63px;
+    bottom: -83px;
     width: 1px;
     height: 24px;
     border-right: 1px solid;
@@ -142,7 +142,7 @@ table * {
 .three::after {
     content: "";
     left: 50%;
-    bottom: -86px;
+    bottom: -83px;
     width: 1px;
     height: 24px;
     border-right: 1px solid;
@@ -307,8 +307,8 @@ svg:not(:root).svg-inline--fa {
     height: 20px;
     background-color: #ee791c;
     position: absolute;
-    left: 17%;
-    top: -39%;
+    left: 26%;
+    top: -27%;
 }
 .st_t_left::after {
     content: "";
@@ -316,8 +316,8 @@ svg:not(:root).svg-inline--fa {
     height: 20px;
     background-color: #ee791c;
     position: absolute;
-    left: 17%;
-    bottom: -9%;
+    left: 26%;
+    bottom: -6%;
 }
 .st_t_right::before {
     content: "";
@@ -326,16 +326,16 @@ svg:not(:root).svg-inline--fa {
     background-color: #ee791c;
     position: absolute;
     left: 92%;
-    top: -39%;
+    top: -27%;
 }
 .st_t_right::after {
     content: "";
     width: 1px;
-    height: 20px;
+    height: 60px;
     background-color: #ee791c;
     position: absolute;
     left: 92%;
-    bottom: -9%;
+    bottom: -26%;
 }
 
 
@@ -530,7 +530,7 @@ svg:not(:root).svg-inline--fa {
         margin-top: 20px;
     }
     .st_th_1 {
-        margin-top: 198px !important;
+        margin-top: 228px !important;
     }
 
     .second_table_line {
@@ -632,39 +632,44 @@ svg:not(:root).svg-inline--fa {
 @media (max-width:385px) {
     .po_1 {
         height: 285px;
-        bottom: -153%;
+        bottom: -164%;
     }
     .po_5 {
         left: 46%;
-        height: 60px;
+        height: 97px;
+        top: 90px;
     }
     .po_8 {
         height: 60px;
-        top: 320px;
+        top: 440px;
     }
     .po_7 {
-        left: 75%;
-        top: 147px;
+        left: 74%;
+        top: 167px;
     }
     .po_10 {
-        height: 30px;
-        top: 430px;
+        height: 43px;
+        top: 558px;
     }
     .po_12 {
         height: 30px;
-        top: 510px;
+        top: 560px;
     }
     .po_11 {
-       top: 483px
+       top: 560px
     }
     .po_9 {
-        top: 420px;
+        top: 250px;
+        height: 230px;
+        left: 74%;
     }
     .po_6 {
         width: 100%;
-        max-width: 82px !important;
-        top: 160px;
+        max-width: 112px !important;
+        top: 186px;
     }
+    .po_11 {left: 77%; height: 63px; top: 620px;}
+    .po_12 {top: 660px;}
 }
 @media (max-width:280px) {
     .po_6 {

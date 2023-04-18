@@ -481,7 +481,7 @@ $(document).ready(function(){
                                                                         <a href="${v.a_link}">
                                                                         <img src="${v.img_link}" alt="">
                                                                         <img src="${v.img_hover_link}" alt="" class="orange_img">
-                                                                        <h5 class="rt2_h5" style="font-size:17px">${v.name}<span class="hidden">/</span></h5>
+                                                                        <h5 class="rt2_h5" style="font-size:15px">${v.name}<span class="hidden">/</span></h5>
                                                                         <input type="hidden" name="h5_text" v="${v.name}" id="h5_text_input">
                                                                         </a>
                                                                 </div>
@@ -817,7 +817,7 @@ $(document).ready(function(){
                                                                                 <a href="${v.a_link}">
                                                                                 <img src="${v.img_link}" alt="">
                                                                                 <img src="${v.img_hover_link}" alt="" class="orange_img">
-                                                                                <h5 class="rt2_h5" style="font-size:17px">${v.name}<span class="hidden">/</span></h5>
+                                                                                <h5 class="rt2_h5" style="font-size:15px">${v.name}<span class="hidden">/</span></h5>
                                                                                 <input type="hidden" name="h5_text" v="${v.name}" id="h5_text_input">
                                                                                 </a>
                                                                         </div>
@@ -1801,7 +1801,7 @@ $(document).ready(function(){
                                                         <a href="${v.a_link}">
                                                         <img src="${v.img_link}" alt="">
                                                         <img src="${v.img_hover_link}" alt="" class="orange_img">
-                                                        <h5 class="rt2_h5" style="font-size:17px">${v.name}<span class="hidden">/</span></h5>
+                                                        <h5 class="rt2_h5" style="font-size:15px">${v.name}<span class="hidden">/</span></h5>
                                                         <input type="hidden" name="h5_text" v="${v.name}" id="h5_text_input">
                                                         </a>
                                                 </div>
@@ -2779,7 +2779,7 @@ $(document).ready(function(){
                                                                 <a href="${v.a_link}">
                                                                 <img src="${v.img_link}" alt="">
                                                                 <img src="${v.img_hover_link}" alt="" class="orange_img">
-                                                                <h5 class="rt2_h5" style="font-size:17px">${v.name}<span class="hidden">/</span></h5>
+                                                                <h5 class="rt2_h5" style="font-size:15px">${v.name}<span class="hidden">/</span></h5>
                                                                 <input type="hidden" name="h5_text" v="${v.name}" id="h5_text_input">
                                                                 </a>
                                                         </div>
