@@ -5,118 +5,276 @@
 
 	  // 한국어판에서 번역기 클릭 시 영어판으로 와서 클릭한 언어로 번역기 돌리기!
 
-	  const urlParams = new URL(location.href).searchParams;
-	  const trans = urlParams.get('trans');
-	  console.log('trans',trans)
+	  
+	
+	  
+	
+	  
+$(document).ready(function(){
 
-	  if (trans == 'el') {
-		$('#google_translate_element').val('el').trigger('change');
-		console.log("el");
-	  }else if (trans == 'nl') {
-		$('#google_translate_element').val('nl').trigger('change');
-		console.log("nl");
-	  }else if (trans == 'no') {
-		$('#google_translate_element').val('no').trigger('change');
-		console.log("no");
-	  }else if (trans == 'da') {
-		$('#google_translate_element').val('da').trigger('change');
-		console.log("da");
-	  }else if (trans == 'de') {
-		$('#google_translate_element').val('de').trigger('change');
-		console.log("de");
-	  }else if (trans == 'ru') {
-		$('#google_translate_element').val('ru').trigger('change');
-		console.log("ru");
-	  }else if (trans == 'ro') {
-		$('#google_translate_element').val('ro').trigger('change');
-		console.log("ro");
-	  }else if (trans == 'mk') {
-		$('#google_translate_element').val('mk').trigger('change');
-		console.log("mk");
-	  }else if (trans == 'ms') {
-		$('#google_translate_element').val('ms').trigger('change');
-		console.log("ms");
-	  }else if (trans == 'mn') {
-		$('#google_translate_element').val('mn').trigger('change');
-		console.log("mn");
-	  }else if (trans == 'vi') {
-		$('#google_translate_element').val('vi').trigger('change');
-		console.log("vi");
-	  }else if (trans == 'bg') {
-		$('#google_translate_element').val('bg').trigger('change');
-		console.log("bg");
-	  }else if (trans == 'sv') {
-		$('#google_translate_element').val('sv').trigger('change');
-		console.log("sv");
-	  }else if (trans == 'es') {
-		$('#google_translate_element').val('es').trigger('change');
-		console.log("es");
-	  }else if (trans == 'ar') {
-		$('#google_translate_element').val('ar').trigger('change');
-		console.log("ar");
-	  }else if (trans == 'af') {
-		$('#google_translate_element').val('af').trigger('change');
-		console.log("af");
-	  }else if (trans == 'sq') {
-		$('#google_translate_element').val('sq').trigger('change');
-		console.log("sq");
-	  }else if (trans == 'et') {
-		$('#google_translate_element').val('et').trigger('change');
-		console.log("et");
-	  }else if (trans == 'en') {
-		$('#google_translate_element').val('en').trigger('change');
-		console.log("en");
-	  }else if (trans == 'uz') {
-		$('#google_translate_element').val('uz').trigger('change');
-		console.log("uz");
-	  }else if (trans == 'uk') {
-		$('#google_translate_element').val('uk').trigger('change');
-		console.log("uk");
-	  }else if (trans == 'it') {
-		$('#google_translate_element').val('it').trigger('change');
-		console.log("it");
-	  }else if (trans == 'id') {
-		$('#google_translate_element').val('id').trigger('change');
-		console.log("id");
-	  }else if (trans == 'ja') {
-		$('#google_translate_element').val('ja').trigger('change');
-		console.log("ja");
-	  }else if (trans == 'zh-CN') {
-		$('#google_translate_element').val('zh-CN').trigger('change');
-		console.log("zh-CN");
-	  }else if (trans == 'zh-TW') {
-		$('#google_translate_element').val('zh-TW').trigger('change');
-		console.log("zh-TW");
-	  }else if (trans == 'cs') {
-		$('#google_translate_element').val('cs').trigger('change');
-		console.log("cs");
-	  }else if (trans == 'hr') {
-		$('#google_translate_element').val('hr').trigger('change');
-		console.log("hr");
-	  }else if (trans == 'th') {
-		$('#google_translate_element').val('th').trigger('change');
-		console.log("th");
-	  }else if (trans == 'fa') {
-		$('#google_translate_element').val('fa').trigger('change');
-		console.log("fa");
-	  }else if (trans == 'pt') {
-		$('#google_translate_element').val('pt').trigger('change');
-		console.log("pt");
-	  }else if (trans == 'fr') {
-		$('#google_translate_element').val('fr').trigger('change');
-		console.log("fr");
-	  }else if (trans == 'fi') {
-		$('#google_translate_element').val('fi').trigger('change');
-		console.log("fi");
-	  }else if (trans == 'hu') {
-		$('#google_translate_element').val('hu').trigger('change');
-		console.log("hu");
-	  }else if (trans == 'hi') {
-		$('#google_translate_element').val('hi').trigger('change');
-		console.log("hi");
-	  }else if (trans == 'ko') {
-		$(location).attr("href",'https://bryonsilver.github.io/ON_Hospital/on_hospital/index.html?trans=ko');	
-	  }
+
+
+	const searchParams = new URLSearchParams(location.search);
+
+    for (const param of searchParams) {
+        if(param[0] == 'trans') {
+            var trans_lang = param[1]  // param[1] = 23.5  Number(param[1])
+
+            if (trans_lang == 'el') {
+				$(".goog-te-combo option:eq(2)").prop("selected",true);
+				console.log("el");
+            }
+            else if (trans_lang == 'nl') {
+				$(".goog-te-combo option:eq(3)").prop("selected",true);
+				console.log("nl");
+            }
+			else if (trans_lang == 'no') {
+				$(".goog-te-combo option:eq(4)").prop("selected",true);
+				console.log("no");
+            }
+			else if (trans_lang == 'da') {
+				$(".goog-te-combo option:eq(5)").prop("selected",true);
+				console.log("da");
+            }
+			else if (trans_lang == 'de') {
+				$(".goog-te-combo option:eq(6)").prop("selected",true);
+				console.log("de");
+            }
+			else if (trans_lang == 'ru') {
+				$(".goog-te-combo option:eq(7)").prop("selected",true);
+				console.log("ru");
+            }
+			else if (trans_lang == 'ro') {
+				$(".goog-te-combo option:eq(8)").prop("selected",true);
+				console.log("ro");
+            }
+			else if (trans_lang == 'mk') {
+				$(".goog-te-combo option:eq(9)").prop("selected",true);
+				console.log("mk");
+            }
+			else if (trans_lang == 'ms') {
+				$(".goog-te-combo option:eq(10)").prop("selected",true);
+				console.log("ms");
+            }
+			else if (trans_lang == 'mn') {
+				$(".goog-te-combo option:eq(11)").prop("selected",true);
+				console.log("mn");
+            }
+			 else if (trans_lang == 'vi') {
+				$(".goog-te-combo option:eq(12)").prop("selected",true);
+				console.log("vi");
+            } else if (trans_lang == 'bg') {
+				$(".goog-te-combo option:eq(13)").prop("selected",true);
+				console.log("bg");
+            }
+			else if (trans_lang == 'sv') {
+				$(".goog-te-combo option:eq(14)").prop("selected",true);
+				console.log("sv");
+            }
+			else if (trans_lang == 'es') {
+				$(".goog-te-combo option:eq(15)").prop("selected",true);
+				console.log("es");
+            }
+			else if (trans_lang == 'ar') {
+				$(".goog-te-combo option:eq(16)").prop("selected",true);
+				console.log("ar");
+            }
+			else if (trans_lang == 'af') {
+				$(".goog-te-combo option:eq(17)").prop("selected",true);
+				console.log("af");
+            }
+			else if (trans_lang == 'sq') {
+				$(".goog-te-combo option:eq(18)").prop("selected",true);
+				console.log("sq");
+            }
+			else if (trans_lang == 'et') {
+				$(".goog-te-combo option:eq(19)").prop("selected",true);
+				console.log("et");
+            }
+			else if (trans_lang == 'en') {
+				$(".goog-te-combo option:eq(20)").prop("selected",true);
+				console.log("en");
+            }
+			else if (trans_lang == 'uz') {
+				$(".goog-te-combo option:eq(21)").prop("selected",true);
+				console.log("uz");
+            }
+			else if (trans_lang == 'uk') {
+				$(".goog-te-combo option:eq(22)").prop("selected",true);
+				console.log("uk");
+            }
+			else if (trans_lang == 'it') {
+				$(".goog-te-combo option:eq(23)").prop("selected",true);
+				console.log("it");
+            }
+			else if (trans_lang == 'id') {
+				$(".goog-te-combo option:eq(24)").prop("selected",true);
+				console.log("id");
+            }
+			else if (trans_lang == 'ja') {
+				$(".goog-te-combo option:eq(25)").prop("selected",true);
+				console.log("ja");
+            }
+			else if (trans_lang == 'zh-CN') {
+				$(".goog-te-combo option:eq(26)").prop("selected",true);
+				console.log("zh-CN");
+            }
+			else if (trans_lang == 'zh-TW') {
+				$(".goog-te-combo option:eq(27)").prop("selected",true);
+				console.log("zh-TW");
+            }
+			else if (trans_lang == 'cs') {
+				$(".goog-te-combo option:eq(28)").prop("selected",true);
+				console.log("cs");
+            }
+			else if (trans_lang == 'hr') {
+				$(".goog-te-combo option:eq(29)").prop("selected",true);
+				console.log("hr");
+            }
+			else if (trans_lang == 'th') {
+				$(".goog-te-combo option:eq(30)").prop("selected",true);
+				console.log("th");
+            }
+			else if (trans_lang == 'fa') {
+				$(".goog-te-combo option:eq(31)").prop("selected",true);
+				console.log("fa");
+            }
+			else if (trans_lang == 'pt') {
+				$(".goog-te-combo option:eq(32)").prop("selected",true);
+				console.log("pt");
+            }
+			else if (trans_lang == 'fr') {
+				$(".goog-te-combo option:eq(33)").prop("selected",true);
+				console.log("fr");
+            }
+			else if (trans_lang == 'fi') {
+				$(".goog-te-combo option:eq(34)").prop("selected",true);
+				console.log("fi");
+            }
+			else if (trans_lang == 'hu') {
+				$(".goog-te-combo option:eq(35)").prop("selected",true);
+				console.log("hu");
+            }
+			else if (trans_lang == 'hi') {
+				$(".goog-te-combo option:eq(36)").prop("selected",true);
+				console.log("hi");
+            }
+
+        }
+    } 
+
+	// const urlParams = new URL(location.href).searchParams;
+	//   const trans = urlParams.get('trans');
+	//   console.log('trans',trans)
+
+	//   if (trans == 'el') {
+	// 	$('#google_translate_element').val('el').trigger('change');
+	// 	console.log("el");
+	//   }else if (trans == 'nl') {
+	// 	$('#google_translate_element').val('nl').trigger('change');
+	// 	console.log("nl");
+	//   }else if (trans == 'no') {
+	// 	$('#google_translate_element').val('no').trigger('change');
+	// 	console.log("no");
+	//   }else if (trans == 'da') {
+	// 	$('#google_translate_element').val('da').trigger('change');
+	// 	console.log("da");
+	//   }else if (trans == 'de') {
+	// 	$('#google_translate_element').val('de').trigger('change');
+	// 	console.log("de");
+	//   }else if (trans == 'ru') {
+	// 	$('#google_translate_element').val('ru').trigger('change');
+	// 	console.log("ru");
+	//   }else if (trans == 'ro') {
+	// 	$('#google_translate_element').val('ro').trigger('change');
+	// 	console.log("ro");
+	//   }else if (trans == 'mk') {
+	// 	$('#google_translate_element').val('mk').trigger('change');
+	// 	console.log("mk");
+	//   }else if (trans == 'ms') {
+	// 	$('#google_translate_element').val('ms').trigger('change');
+	// 	console.log("ms");
+	//   }else if (trans == 'mn') {
+	// 	$('#google_translate_element').val('mn').trigger('change');
+	// 	console.log("mn");
+	//   }else if (trans == 'vi') {
+	// 	$('#google_translate_element').val('vi').trigger('change');
+	// 	console.log("vi");
+	//   }else if (trans == 'bg') {
+	// 	$('#google_translate_element').val('bg').trigger('change');
+	// 	console.log("bg");
+	//   }else if (trans == 'sv') {
+	// 	$('#google_translate_element').val('sv').trigger('change');
+	// 	console.log("sv");
+	//   }else if (trans == 'es') {
+	// 	$('#google_translate_element').val('es').trigger('change');
+	// 	console.log("es");
+	//   }else if (trans == 'ar') {
+	// 	$('#google_translate_element').val('ar').trigger('change');
+	// 	console.log("ar");
+	//   }else if (trans == 'af') {
+	// 	$('#google_translate_element').val('af').trigger('change');
+	// 	console.log("af");
+	//   }else if (trans == 'sq') {
+	// 	$('#google_translate_element').val('sq').trigger('change');
+	// 	console.log("sq");
+	//   }else if (trans == 'et') {
+	// 	$('#google_translate_element').val('et').trigger('change');
+	// 	console.log("et");
+	//   }else if (trans == 'en') {
+	// 	$('#google_translate_element').val('en').trigger('change');
+	// 	console.log("en");
+	//   }else if (trans == 'uz') {
+	// 	$('#google_translate_element').val('uz').trigger('change');
+	// 	console.log("uz");
+	//   }else if (trans == 'uk') {
+	// 	$('#google_translate_element').val('uk').trigger('change');
+	// 	console.log("uk");
+	//   }else if (trans == 'it') {
+	// 	$('#google_translate_element').val('it').trigger('change');
+	// 	console.log("it");
+	//   }else if (trans == 'id') {
+	// 	$('#google_translate_element').val('id').trigger('change');
+	// 	console.log("id");
+	//   }else if (trans == 'ja') {
+	// 	$('#google_translate_element').val('ja').trigger('change');
+	// 	console.log("ja");
+	//   }else if (trans == 'zh-CN') {
+	// 	$('#google_translate_element').val('zh-CN').trigger('change');
+	// 	console.log("zh-CN");
+	//   }else if (trans == 'zh-TW') {
+	// 	$('#google_translate_element').val('zh-TW').trigger('change');
+	// 	console.log("zh-TW");
+	//   }else if (trans == 'cs') {
+	// 	$('#google_translate_element').val('cs').trigger('change');
+	// 	console.log("cs");
+	//   }else if (trans == 'hr') {
+	// 	$('#google_translate_element').val('hr').trigger('change');
+	// 	console.log("hr");
+	//   }else if (trans == 'th') {
+	// 	$('#google_translate_element').val('th').trigger('change');
+	// 	console.log("th");
+	//   }else if (trans == 'fa') {
+	// 	$('#google_translate_element').val('fa').trigger('change');
+	// 	console.log("fa");
+	//   }else if (trans == 'pt') {
+	// 	$('#google_translate_element').val('pt').trigger('change');
+	// 	console.log("pt");
+	//   }else if (trans == 'fr') {
+	// 	$('#google_translate_element').val('fr').trigger('change');
+	// 	console.log("fr");
+	//   }else if (trans == 'fi') {
+	// 	$('#google_translate_element').val('fi').trigger('change');
+	// 	console.log("fi");
+	//   }else if (trans == 'hu') {
+	// 	$('#google_translate_element').val('hu').trigger('change');
+	// 	console.log("hu");
+	//   }else if (trans == 'hi') {
+	// 	$('#google_translate_element').val('hi').trigger('change');
+	// 	console.log("hi");
+	//   }else if (trans == 'ko') {
+	// 	$(location).attr("href",'https://bryonsilver.github.io/ON_Hospital/on_hospital/index.html?trans=ko');	
+	//   }
 
 	$('#google_translate_element').off("change").on('change' , function(){
 		if (document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'ko') {
@@ -124,11 +282,8 @@
 			$(location).attr("href",'https://bryonsilver.github.io/ON_Hospital/on_hospital/index.html?trans=ko');	
 		}
 	});
-	
-	  
-	
-	  
-$(document).ready(function(){
+
+
 	
    
 	// nav
