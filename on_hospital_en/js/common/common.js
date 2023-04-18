@@ -5,6 +5,7 @@
 
 	  // 한국어판에서 번역기 클릭 시 영어판으로 와서 클릭한 언어로 번역기 돌리기!
 
+	  $(".goog-te-combo").val('en').trigger('change');
 	  
 	
 	  
