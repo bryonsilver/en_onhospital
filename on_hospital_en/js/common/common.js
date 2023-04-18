@@ -44,9 +44,9 @@ $(document).ready(function(){
 	
 	setTimeout(function(){
 		if($('select').hasClass("goog-te-combo")) {
-			console.log("있음!! ")
-			$('.nav_4').css({backgroundColor: 'blue'})
-			alert("nav_4 아리요")
+			// console.log("있음!! ")
+			// $('.nav_4').css({backgroundColor: 'blue'})
+			// alert("nav_4 아리요")
 			// setTimeout(function(){
 			// 	$('.nav_4').css({backgroundColor: 'red'})
 			// 	alert("nav_4 납시오오오오오오ㅗ오오ㅗㅇ")
@@ -192,6 +192,12 @@ $(document).ready(function(){
 				$(".goog-te-combo").val('hi').trigger('change');
 				alert("hi");
 			}
+			else if (trans == 'ko') {
+				$(location).attr("href",'https://bryonsilver.github.io/ON_Hospital/on_hospital/index.html?trans=ko');
+				$(".goog-te-combo").val('ko').trigger('change');
+				alert("ko");
+			}
+			
 	
 		}
 	}, 1000)
