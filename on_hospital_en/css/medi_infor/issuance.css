@@ -294,6 +294,19 @@ th {border-bottom: 1px solid #999;}
     .moblie_download {
         display: inline-block;
     }
+    .spec h4 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .title_icon_box h4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 @media (max-width: 400px) {
     .btn-download {
@@ -306,11 +319,7 @@ th {border-bottom: 1px solid #999;}
         white-space: nowrap;
         text-align: left;
     }
+    .icon_title {display: none;}
     
     .down_text_box h4:nth-of-type(1) {display: none;}
-}
-@media (max-width: 280px) {
-    .spec h4 {
-        width: 180px;
-    }
 }
