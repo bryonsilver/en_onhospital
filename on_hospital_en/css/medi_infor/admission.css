@@ -7,7 +7,7 @@ body{font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple 
 .text-justify h4 {
     color: #007dd6;
     font-size: 23px;
-    font-weight: 600;
+    font-weight: 800;
 }
 .text-justify {
     font-size: 16px;
@@ -27,4 +27,9 @@ body{font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple 
 ol {margin: 0 !important;}
 .margin_span {
     margin-top: 20px;
+}
+
+@media (max-width: 280px) {
+    .icon_title {display: none;}
+    .title_icon_box h4 {text-align: center; width: 100%;}    
 }

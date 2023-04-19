@@ -1998,6 +1998,7 @@ body {
     .moblie_logo img {
         max-width: 80% !important;
     }
+    .width {transform: translateX(0px);}
 }
 @media (max-width: 210px) {
     .header {height: 70px !important;}

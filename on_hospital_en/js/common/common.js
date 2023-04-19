@@ -55,147 +55,147 @@ $(document).ready(function(){
 			if (trans == 'el') {
 				//*[@id=":0.targetLanguage"]/select/option[3]
 				$(".goog-te-combo").val('el').trigger('change');
-				alert("el");
+				// alert("el");
 			}
 			else if (trans == 'nl') {
 				$(".goog-te-combo").val('nl').trigger('change');
-				alert("nl");
+				// alert("nl");
 			}
 			else if (trans == 'no') {
 				$(".goog-te-combo").val('no').trigger('change');
-				alert("no");
+				// alert("no");
 			}
 			else if (trans == 'da') {
 				$(".goog-te-combo").val('da').trigger('change');
-				alert("da");
+				// alert("da");
 			}
 			else if (trans == 'de') {
 				$(".goog-te-combo").val('de').trigger('change');
-				alert("de");
+				// alert("de");
 			}
 			else if (trans == 'ru') {
 				$(".goog-te-combo").val('ru').trigger('change');
-				alert("ru");
+				// alert("ru");
 			}
 			else if (trans == 'ro') {
 				$(".goog-te-combo").val('ro').trigger('change');
-				alert("ro");
+				// alert("ro");
 			}
 			else if (trans == 'mk') {
 				$(".goog-te-combo").val('mk').trigger('change');
-				alert("mk");
+				// alert("mk");
 			}
 			else if (trans == 'ms') {
 				$(".goog-te-combo").val('ms').trigger('change');
-				alert("ms");
+				// alert("ms");
 			}
 			else if (trans == 'mn') {
 				$(".goog-te-combo").val('mn').trigger('change');
-				alert("mn");
+				// alert("mn");
 			}
 			 else if (trans == 'vi') {
 				$(".goog-te-combo").val('vi').trigger('change');
-				alert("vi");
+				// alert("vi");
 			} else if (trans == 'bg') {
 				$(".goog-te-combo").val('bg').trigger('change');
-				alert("bg");
+				// alert("bg");
 			}
 			else if (trans == 'sv') {
 				$(".goog-te-combo").val('sv').trigger('change');
-				alert("sv");
+				// alert("sv");
 			}
 			else if (trans == 'es') {
 				$(".goog-te-combo").val('es').trigger('change');
-				alert("es");
+				// alert("es");
 			}
 			else if (trans == 'ar') {
 				$(".goog-te-combo").val('ar').trigger('change');
-				alert("ar");
+				// alert("ar");
 			}
 			else if (trans == 'af') {
 				$(".goog-te-combo").val('af').trigger('change');
-				alert("af");
+				// alert("af");
 			}
 			else if (trans == 'sq') {
 				$(".goog-te-combo").val('sq').trigger('change');
-				alert("sq");
+				// alert("sq");
 			}
 			else if (trans == 'et') {
 				$(".goog-te-combo").val('et').trigger('change');
-				alert("et");
+				// alert("et");
 			}
 			else if (trans == 'en') {
 				$(".goog-te-combo").val('en').trigger('change');
-				alert("en");
+				// alert("en");
 			}
 			else if (trans == 'uz') {
 				$(".goog-te-combo").val('uz').trigger('change');
-				alert("uz");
+				// alert("uz");
 			}
 			else if (trans == 'uk') {
 				$(".goog-te-combo").val('uk').trigger('change');
-				alert("uk");
+				// alert("uk");
 			}
 			else if (trans == 'it') {
 				$(".goog-te-combo").val('it').trigger('change');
-				alert("it");
+				// alert("it");
 			}
 			else if (trans == 'id') {
 				$(".goog-te-combo").val('id').trigger('change');
-				alert("id");
+				// alert("id");
 			}
 			else if (trans == 'ja') {
 				$(".goog-te-combo").val('ja').trigger('change');
-				alert("ja");
+				// alert("ja");
 			}
 			else if (trans == 'zh-CN') {
 				$(".goog-te-combo").val('zh-CN').trigger('change');
-				alert("zh-CN");
+				// alert("zh-CN");
 			}
 			else if (trans == 'zh-TW') {
 				$(".goog-te-combo").val('zh-TW').trigger('change');
-				alert("zh-TW");
+				// alert("zh-TW");
 			}
 			else if (trans == 'cs') {
 				$(".goog-te-combo").val('cs').trigger('change');
-				alert("cs");
+				// alert("cs");
 			}
 			else if (trans == 'hr') {
 				$(".goog-te-combo").val('hr').trigger('change');
-				alert("hr");
+				// alert("hr");
 			}
 			else if (trans == 'th') {
 				$(".goog-te-combo").val('th').trigger('change');
-				alert("th");
+				// alert("th");
 			}
 			else if (trans == 'fa') {
 				$(".goog-te-combo").val('fa').trigger('change');
-				alert("fa");
+				// alert("fa");
 			}
 			else if (trans == 'pt') {
 				$(".goog-te-combo").val('pt').trigger('change');
-				alert("pt");
+				// alert("pt");
 			}
 			else if (trans == 'fr') {
 				$(".goog-te-combo").val('fr').trigger('change');
-				alert("fr");
+				// alert("fr");
 			}
 			else if (trans == 'fi') {
 				$(".goog-te-combo").val('fi').trigger('change');
-				alert("fi");
+				// alert("fi");
 			}
 			else if (trans == 'hu') {
 				$(".goog-te-combo").val('hu').trigger('change');
-				alert("hu");
+				// alert("hu");
 			}
 			else if (trans == 'hi') {
 				$(".goog-te-combo").val('hi').trigger('change');
-				alert("hi");
+				// alert("hi");
 			}
 			else if (trans == 'ko') {
 				$(location).attr("href",'https://bryonsilver.github.io/ON_Hospital/on_hospital/index.html?trans=ko');
 				$(".goog-te-combo").val('ko').trigger('change');
-				alert("ko");
+				// alert("ko");
 			}
 			
 	
@@ -565,6 +565,7 @@ $(document).ready(function(){
 			$("head").append(s);
 			$("head").append(a);
 			location.reload();
+			$(".goog-te-combo").val('en').trigger('change');
 
 			console.log('구글번역기능 가즈아!!')
 		}

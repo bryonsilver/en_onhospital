@@ -69,6 +69,7 @@ table {
     color: #777;
 }
 .span:last-child{margin-top: 0;}
+.table-phone {margin-bottom: 10px;}
 
 @media (max-width: 500px) {
     .first_table tr {
@@ -84,4 +85,15 @@ table {
         padding: 10px 0;
         text-align: center;
     }
+}
+@media (max-width: 280px) {
+    .top_title {font-size: 23px;}
+    .table-phone tbody tr:nth-of-type(2) th {display: flex; flex-direction: column;}
+    .second_table th, 
+    .first_table th,
+    .second_table td, 
+    .first_table td {font-size: 15px;}
+    .second_table th {max-width: 50px; padding: 10px 6px;}
+    .icon_title {display: none;}
+    .title_icon_box h4 {text-align: center; width: 100%;}
 }

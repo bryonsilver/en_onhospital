@@ -6,7 +6,7 @@ const CENT_LIST = [
             sub_title:['', ''], 
             icon_src:'medi_icon_15_1',
             name:'Hepatobiliary Pancreatic / Gastric / Colorectal Cancer',
-            sub_context3: ['ON Hospital은 간, 담도계 및 췌장내 악성종야에 대해 풍부한 임상경험과 전문지식을 갖춘 소화기내과, 종양내과, 간담췌외과, 방사선종양학과, 영상의학과, 병리과 전문의들이 주축이 되어 전문의들이 모여 진단에서부터 치료까지 환자중심의 유기적인 협조체계를 구축하고 상호 협력함으로서 환자의 빠른 진단 및 환자 개개인에 맞는 최장의 치료를 제공 하고 있습니다.'],
+            sub_context3: ['ON Hospital은 간, 담도계 및 췌장내 악성종야에 대해 풍부한 임상경험과 전문지식을 갖춘 DEPARTMENT OF GASTROENTEROLOGY, 종양내과, Department of Hepatobiliary and Pancreatic Surgery, Radiation Oncology Department, DEPARTMENT OF RADIOLOGY, 병리과 전문의들이 주축이 되어 전문의들이 모여 진단에서부터 치료까지 환자중심의 유기적인 협조체계를 구축하고 상호 협력함으로서 환자의 빠른 진단 및 환자 개개인에 맞는 최장의 치료를 제공 하고 있습니다.'],
             sub_context2: ['일반적으로 담도계 및 췌장내 악성종양의 예후는 타 장기악성종양에 비해 치료 결과가 좋지 않다고 합니다.','그러나 영상진단의 정확도가 증가하고, 수술 술기의 발전으로 절제율이 향상되고 있으며 수술 후 합병증의 발병율이 낮아지고 있습니다. 또한 수술 후에 여러 보조적 치료 약제의 개발과 방사선치료 방법이 향상되어 치료 결과는 느리지만 차츰 향상되고 있습니다.'],
             sub_context1: ['간암에 대한 여러 치료법이 개발되고 활용됨에 따라 최적의 치료를 받게 되면 좋은 결과를 예상할 수 있습니다.','또한 담도계 및 췌장내 악성종양들을 대상으로 진단, 수술, 수술 전후 항암화학요법, 방사선치료 등 전문적인 진단과 치료를 제공하여 환자의 치료율과 질적향상을 도모하고 있습니다.'] },
         {cate_no:0, 
@@ -16,10 +16,10 @@ const CENT_LIST = [
             icon_src:'medi_icon_15_1',
             name:'Liver',
             num:['051) 607-0350', '051) 607-0745/0257'],
-            num_bold:['Liver 외래','(3F)', 'Liver 접수/수납'],
-            table_th:['고주파열치료', '경간동맥화학요법치료', '경간동맥 화학색전술'],
-            table_td:['3cm 이하 조기간암에 천자 침을 넣어 고주파를 흘러 보내면 최소 50도 이상의 고열이 발생하여 간암세포를 없애는 간암치료', '간의 악성병변에 대한 치료법으로 다발성 암종과 거대 암종을 치료대상으로 삼아 완치를 목표로 합니다. 간 동맥을 통하여 간까지 도관을 넣어 항암제를 천천히 주입하는 방법입니다.', '간 동맥을 통해 항암제와 함께 색전 물질을 넣어 종양이 필요로 하는 혈관을 막는 시술입니다. 항암제와 종양이 필요로 하는 혈관을 막는 수술입니다.'],
-            sub_context1: ['간암으로 고생하시는 분들에게 치료율 60%로 새희망을!', '대학교수출신 간전문 의료진 구성', '부산,경남 최초 흉강경이용 폐엽절제술 성공'] },
+            num_bold:['Liver Center Outpatient Clinic','(3F)', 'Liver Center Reception/Payment'],
+            table_th:['High-frequency ablation therapy', 'Transarterial chemoembolization (TACE)', 'Transarterial chemoinfusion'],
+            table_td:['A treatment for liver cancer in which a needle is inserted into the cancerous lesion and high-frequency energy is delivered through the needle. This results in the generation of heat at a temperature of at least 50°C, destroying liver cancer cells', 'A treatment for malignant liver tumors aimed at curing multiple or giant tumors. It involves injecting anticancer drugs slowly through a catheter inserted into the hepatic artery to reach the liver.', 'A procedure that involves delivering anticancer drugs and embolic agents into the artery that supplies the tumor through a catheter, blocking the blood supply to the tumor and destroying it.'],
+            sub_context1: ['Offering new hope with a treatment success rate of 60% for those suffering from liver cancer!', 'The medical team is composed of liver specialists with university professor backgrounds', 'Successful thoracoscopic lung lobectomy, the first of its kind in Busan and Gyeongnam'] },
         {cate_no:0, 
             item_no:3, 
             img_src:'', 
@@ -32,9 +32,9 @@ const CENT_LIST = [
         {cate_no:0, 
             item_no:4, 
             img_src:'4_.jpg', 
-            sub_title:['소개', '전문클리닉'], 
+            sub_title:['INTRODUCTION', 'SPECIALIZED CLINICS'], 
             sub_context5: ['치핵, 치열, 치루 및 항문통, 항문소양증, 항문성병','변비나 배변장애, 과민성 대장증후군, 염증성 장질환',],
-            sub_context4: ['온 종합병원 Proctology는 최소침습수술을 비롯하여 다양한 방법을 통하여 환자들에게 치료의 기회를 제공하고 있습니다.','또한 전문화된 세부 진료과 등의 협진을 통하여 전문적인 치료를 제공하고 있습니다.','특히 고난이도의 수술을 요하는 대장암에서부터 항문질환 등에 이르기까지 빠르고 편안한 진료가 될 수 있도록 노력하고 있습니다. 해당 특수 클리닉과 연계, 치료하여 항문질환 뿐 아니라 항문 질환의 원인에 대한 적절한 치료가 이루어질 수 있도록 하는 역할을 담당하고 있습니다.',],
+            sub_context4: ['온 종합병원 Proctology는 최소침습수술을 비롯하여 다양한 방법을 통하여 환자들에게 치료의 기회를 제공하고 있습니다.','또한 전문화된 세부 DEPARTMENT 등의 협진을 통하여 전문적인 치료를 제공하고 있습니다.','특히 고난이도의 수술을 요하는 대장암에서부터 항문질환 등에 이르기까지 빠르고 편안한 진료가 될 수 있도록 노력하고 있습니다. 해당 특수 클리닉과 연계, 치료하여 항문질환 뿐 아니라 항문 질환의 원인에 대한 적절한 치료가 이루어질 수 있도록 하는 역할을 담당하고 있습니다.',],
             sub_context3: ['또한 여러 기능적 직장항문질환도 급격히 그 빈도가 증가하고 있습니다.','이런 상황에서 온 종합병원 Proctology는 우수한 대장항문 전문 의료진을 모시고 최첨단 의료장비를 활용하여 최고 수준의 진료를 제공합니다. 같은 질병이라도 환자의 상태에 따라서, 또 같은 환자에게라도 질병의 진행에 따라서 최적의 진료가 다를 수 있습니다.',],
             sub_context2: ['현대화와 서구화가 계속 될수록 대장항문 질환은 늘어 갈 것으로 예상됩니다. 대장암은 지난 10년간 가장 많이 증가된 암으로 우리나라 발생 암 중 4번째에 해당되고, 앞으로도 지속적으로 증가하고 있습니다.',],
             sub_context1: ['온 종합병원 Proctology는 대장항문질환에 대한 정확한 지식을 전달하고, 상담하며, 환자에 대해서는 최적의 치료를 시행하려고 노력하고 있습니다.',] },
@@ -47,7 +47,7 @@ const CENT_LIST = [
             sub_context8:['이외에도 뉴로피드백 치료와 심리검사 등을 시행하며 소아청소년뿐만 아니라 성인 정신건강 상담 및 치료도 진행된다.'],
             sub_context7: ['높은 지능과 독특한 분야에 흥미를 가진 아동임에도 불구하고 가족 또는 학교생활에 적응하지 못해 상당한 장애를 겪는다. 하지만 나중에 대학교수나 예술가가 되는 경우도 있는 것으로 보고되고 있다. 근본적으로 상태를 완치할 수 있는 방법은 현재로선 없다. ', '다만 특수교육을 통해 사회적응능력을 키워주고 반복적인 좌절로 인한 우울 증세를 치료하는 것이 필요하다.'],
             sub_context6: ['사물의 판단 및 언어구사 능력은 충분함에도 불구하고 사회적 상호작용과 감정교류에 실패하는 사람들이 이에 속한다.','분위기 파악을 제대로 못해 또래 친구들로부터 따돌림을 당하는 ‘왕따’ 현상이 일어난다. 얼굴표정이나 제스처 등을 사용한 의사표현의 장애를 보이며 상황에 맞게 음량 조절을 못하기도 한다.'],
-            sub_context5: ['심하게 분리불안이 있을 때에는 강제로 혼자 가게 하는 것보다는 한 달 이내의 기간 동안 아이와 함께 학교에 가서 교실 밖에서 기다리거나 수업시간에 함께 참가하는 것도 해결방법이 될 수 있다. 그래도 호전되지 않으면 소아정신과를 찾아 상담하는 것이 좋다. 소아청소년 정신건강의학과에서 심리검사를 통해 원인을 파악한 후 놀이치료 미술치료 부모교육을 실시하며 약물치료도 할 수 있다.'],
+            sub_context5: ['심하게 분리불안이 있을 때에는 강제로 혼자 가게 하는 것보다는 한 달 이내의 기간 동안 아이와 함께 학교에 가서 교실 밖에서 기다리거나 수업시간에 함께 참가하는 것도 해결방법이 될 수 있다. 그래도 호전되지 않으면 소아정신과를 찾아 상담하는 것이 좋다. 소아청소년 DEPARTMENT OF PSYCHIATRY에서 심리검사를 통해 원인을 파악한 후 놀이치료 미술치료 부모교육을 실시하며 약물치료도 할 수 있다.'],
             sub_context4: ['학교공포증은 아이가 반복적으로 학교 가기를 싫어하고 억지로 가도록 하면 불안해지거나 공황상태에 빠지는 경우를 말한다.','학교를 두려워하기보다는 어머니와 헤어지는 것을 두려워하는 것이라 할 수 있다. 아침이나 주말 저녁이 되면 배가 아프다거나 머리가 아프다고 하는 등 신체증상을 호소한다. 억지로 가도록 하면 불안해지거나 과격한 저항행동을 보이기도 하고 숨거나 도망을 가기도 한다. 이럴 경우 아이가 어떤 핑계를 대더라도 꼭 학교에 가는 것을 원칙으로 할 필요가 있다.',],
             sub_context3: ['학습장애는 원인이 다양하기 때문에 실제로 아이가 어떤 어려움을 겪고 있는지 원인을 먼저 찾는 것이 중요하다. 주의력결핍 과잉행동장애를 제외하고는 약물치료는 일차적인 치료가 아니다. 적절한 교육적 접근과 환경·정서적인 지원 등이 중요하다.','간혹 학습장애가 아닌데도 학습장애로 여기는 부모들이 있다. 대개 한두 명의 자녀를 키우는 요즘, 부모들의 기대심리가 커 아이들을 조급하게 몰아세우는 경우도 흔하다는 얘기다.'],
             sub_context2: ['정상 또는 정상보다 높은 지능지수를 가졌으나 뇌와 신경계통의 기능이상으로 학습 성취도가 떨어지는 경우를 말한다.','뇌신경계통의 발달과정에서 생기는 일종의 발달장애다. 학습장애는 듣기, 생각하기, 말하기, 읽기, 철자, 수학적 계산 등에서 나타날 수 있다. 학습문제는 이 외에도 지능지수가 70 이하로 낮거나 기질적인 뇌손상을 가진 어린이에서 학습 성취도가 떨어지는 ‘학습지체’, 지능지수가 75∼85 정도로 신경계의 이상은 없는데 정서적인 문제나 환경적인 문제로 인한 ‘학습부진’ 등도 있다.',],
@@ -55,21 +55,29 @@ const CENT_LIST = [
         {cate_no:0, 
             item_no:6, 
             img_src:'6_.jpg', 
-            sub_title:['소개', '전문클리닉'], 
+            sub_title:['INTRODUCTION', 'SPECIALIZED CLINICS'], 
             sub_context2:[
-                '소화기질환(위,식도), 위염, 위궤양, 역류성식도염 등', 
-                '췌ㆍ담도질환, 간질환 전문', 
-                '위, 대자애시경.용종절제술/소화기 내시경 클리닉'
+                'Digestive system diseases (stomach, esophagus), gastritis, gastric ulcers, reflux esophagitis, etc', 
+                'Pancreatic and biliary tract diseases, liver diseases', 
+                'Gastrointestinal endoscopy, polypectomy, endoscopic submucosal dissection (ESD) clinic'
             ] , 
-            sub_context1: ['한국인의 식습관이 서구화되는 현실에 발맞추어 소화기질환 환자가 급증하는 추세에 있습니다.','이에 온 종합병원에서는 보다 질 높은 의료서비스를 제공하기 위하여 소화기내과, 외과, 영상의학과 등 소화기질환 관련 진료 과들의 유기적인 협진 시스템을 바탕으로 소화기내시경센터를 개설하였습니다.','온 종합병원의 소화기내시경센터는 높은 수준의 진료를 신속하고 편안하게 받으실 수 있도록 최고의 의료진, 첨단 의료장비, 선진 진료체계를 갖추고 있습니다.', '또한, 소화기질환 환자의 병원 방문의 증가에 비례하여 증가하는 내시경검사의 적체를 해소하기 위하여 내시경 검사 전담 의료진을 육성 배치하고 첨단 의료장비를 다수 보유, 인원 및 장비의 효율적 관리를 통하여 차별화된 내시경 검사가 이루어지도록 하였습니다.', '각 분야 초괴 수준의 임상 경험 및 선진 기술을 바탕으로 세계적인 수준의 진료를 지향하고 있습니다.',' 이에 온 종합병원 소화기내시경센터는 환자들이 좀 더 편리하게 최상의 진료를 받을 수 있도록 끊임없이 노력하겠습니다.'], },
+            sub_context1: [
+                'IN LINE WITH THE REALITY OF KOREAN DIETARY HABITS BECOMING MORE WESTERNIZED, THERE IS A TREND OF A RAPID INCREASE IN PATIENTS WITH DIGESTIVE SYSTEM DISEASES.',
+                'To provide high-quality medical services, ON Hospital has established a digestive endoscopy center based on an organic collaboration system among medical departments related to digestive system diseases, such as gastroenterology, surgery, and radiology.',
+                'The digestive endoscopy center at ON Hospital is equipped with top medical professionals, state-of-the-art medical equipment, and advanced medical systems, so that you can receive high-level treatment quickly and comfortably.', 
+                'In addition, to address the increasing backlog of endoscopic examinations that correspond to the increase in hospital visits by patients with digestive system diseases, we have trained and deployed specialized endoscopy medical staff and possess advanced medical equipment. We manage personnel and equipment efficiently to conduct differentiated endoscopic examinations.', 
+                'We strive for world-class medical treatment based on the highest level of clinical experience and advanced technology in each field.',
+                ' 이에 온 종합병원 소화기내시경센터는 환자들이 좀 더 편리하게 최상의 진료를 받을 수 있도록 끊임없이 노력하겠습니다.'
+            ], 
+            },
         {cate_no:0, 
             item_no:7, 
             img_src:'page-img1.jpg', 
-            sub_title:['간·담·췌외과','외과', '소화기내과 내시경센터'], 
-            black_bold:['위·대장내시경클리닉', '간·췌담도클리닉'],
+            sub_title:['Hepatopancreatobiliary Surgery','Surgery', 'Gastroenterology and Endoscopy Center'], 
+            black_bold:['Upper and lower gastrointestinal endoscopy clinics', 'HEPATOPANCREATOBILIARY ENDOSCOPY CLINIC'],
             small_phone:['051) 607-0707', '051) 607-0230', '051) 607-0244,0257'],
-            chk_text:['대학병원급 최고 의료·첨단시설', '용종발견 즉시, 수술·입원 원스톱서비스', '위·대장내시경 원하는 날짜에 예약가능', ' 검사 즉시 결과 설명', '간·췌담도(ERCP) 전문시술', ' 내시경장비 초음파 미세소독'],
-            sub_context1: ['외과영역중 가장 어려운 분야인 간, 담도계, 쓸개, 췌장 및 비장등의 장기에 발생하는 질환을 치료', '박광민 교수 간·담·췌 수술 "1만례 성공"', '위암, 대장암, 직장, 항문 대장질환 전문 진료', '가장 높은 사양 선명한 화질을 자랑하는 올림푸츠 CV290장비 사용'] },
+            chk_text:['TOP-NOTCH MEDICAL AND ADVANCED FACILITIES LIKE UNIVERSITY HOSPITALS', 'ONE-STOP SURGERY AND HOSPITALIZATION SERVICES IMMEDIATELY UPON DISCOVERING THE DISEASE', 'RESERVATIONS FOR UPPER AND LOWER GASTROINTESTINAL ENDOSCOPY AVAILABLE ON DESIRED DATES', ' 검사 즉시 결과 설명', 'SPECIALIZATION IN HEPATOPANCREATOBILIARY ENDOSCOPY (ERCP)', ' ENDOSCOPE EQUIPMENT WITH ULTRASOUND MICRODISINFECTION'],
+            sub_context1: ['The most difficult field in the field of surgery, which treats diseases that occur in organs such as the liver, bile duct system, spleen, pancreas, and other organs', 'Professor Park Kwang-min has a success rate of "10,000 surgeries" in hepatopancreatobiliary surgery', 'Specializes in the treatment of gastric cancer, colorectal cancer, rectal cancer, and other intestinal diseases', 'USING THE STATE-OF-THE-ART OLYMPUS CV290 EQUIPMENT, WITH HIGH-RESOLUTION AND CLEAR IMAGE QUALITY'] },
         {cate_no:0, 
             item_no:8, 
             img_src:'8_.jpg', 
@@ -81,15 +89,15 @@ const CENT_LIST = [
             item_no:9, 
             img_src:'9_.jpg', 
             sub_title:['',''], 
-            sub_context9: ['부산 최대 도심 서면에 위치한 ON Hospital은 24시간 대기하는 Cardiocerebrovascular 운영을 통해 골든타임을 다투는 응급환자를 신속하고 편리하게 양질의 응급의료 서비스를 제공하도록 노력하겠습니다.'],
-            sub_context8: ['또한, 뇌혈관 질환 조기 발견과 체계적인 관리를 위해 뇌혈관시술 전문의와 심장혈관전문의 최고의 전문수술팀의 협진체제를 구성하여 함께 센터를 운영하고 있습니다.'],
-            sub_context7: ['ON Hospital Cardiocerebrovascular는 미래형 최첨단 혈관수술장비인 필립스사의 바이플랜 안지오(Biplane Angio)를 도입하여 3차원 영상을 통해 미세한 정맥 혈관까지 선명하게 파악할 수 있으며, 검사시간이 짧아 환자에게 투여되는 방사선량도 줄여준다. 팔다리 혈관, 척추 및 척수 혈관 질환, 척추 종양 같은 중추신경계와 두부경 질환까지 치료가 가능합니다.'],
-            sub_context6: ['치료 못지않게 중요한 심장 및 뇌, 혈관 등의 관리방법은 본인에게 맞는 꾸준한 운동을 하고, 짜고, 기름진 음식 등은 조절하시고 과음 및 금연을 삼가하며, 특히 고혈압, 당뇨병, 고지혈증 등의 만성질환이 있는 경우 항상 건강수치를 체크하는 것을 생활화 하는 것이 가장 중요합니다.'],
-            sub_context5: ['Cardiocerebrovascular에서는 내과와 협진을 통해 고혈압, 당뇨병, 흡연 등 뇌졸중의 위험인자를 적극적으로 관리하고, 자기공명영상(MRI)와 자기공명뇌혈관촬영(MRA)등 검사가 이루어지며, 대퇴동맥을 통해 뇌혈관을 검사하는 뇌혈관조영술로 혈관상태를 아주 정확하고 정밀하게 검사하고 중재적 방사선 시술을 통해 치료합니다.'],
-            sub_context4: ['또한, 뇌졸중은 뇌혈관이 막히거나 터져서 영양분과 산소를 공급하는 피가 뇌에 통하지 않아 뇌세포가 망가진 상태를 말하며, 뇌에 혈액을 공급하고 있는 혈관이 막히거나 터짐으로써 그 부분이 손상되어 나타나는 뇌졸중(중풍)을 전문적으로 예방하고 치료합니다.'],
-            sub_context3: ['심근경색은 주로 죽상동맥경화가 원인이며 가슴의 흉통으로 시작되고 수분이상 지속 경우가 해당됩니다. Cardiocerebrovascular는 흉통을 호소하는 경위는 심전도, 24시간 심전도, 심장초음파, 운동부하검사, CT, MRI 검사 등이 이루어지고 있으며, 관상동맥조영술을 통해 협착 혈관이 발견되면 관상동맥 중재술로 시술이 가능합니다. 급성 응급상황에서는 골든타임(혈관 막힘 후 2시간)내에 막힌 혈관을 뚫는 심혈관성형술, 스텐트삽입술 등 중재술의 빠른 시행이 매우 중요합니다.'],
-            sub_context2: ['심뇌혈관의 대표적 관상동맥질환의 심근경색, 협심증, 뇌혈관질환의 뇌졸중 등은 조기 사망의 80%는 고혈압, 당뇨병, 고지혈증 등의 만성질환과의 합병증으로 인한 발병 또는 환경적, 직업적 위험인자로부터도 직·간접 영향을 많이 받습니다.'],
-            sub_context1: ['최근 질환 사망원인 상위 10위 중 7개가 만성질환이며, 그 중에서도 심뇌혈관질환이 발생 빈도가 가장 높습니다. 고령화는 발생률이 계속 증가되고 있으며, 치료술의 많은 발달로 대조적으로 치명률은 감소되고 있습니다. 하지만 질환 후유로 인한 장애율 또한 증가 추세입니다. 적절한 관리와 치료는 질환 발생률을 낮추며 급성(심근경색, 뇌졸중 등) 발병 경우 빠른 조기대응이 중요하며 적절한 시술과 치료는 장애율을 낮출 수 있습니다.'] },
+            sub_context9: ['Located in the heart of Busan`s Seomyeon district, ON Hospital strives to provide high-quality emergency medical services to patients competing for the golden time by operating a Heart and Brain Vascular Center that is available 24 hours a day, seven days a week.'],
+            sub_context8: ['In addition, to facilitate early detection and systematic management of cerebrovascular diseases, the center operates in collaboration with the best teams of cerebrovascular specialists and cardiovascular surgeons.'],
+            sub_context7: ['The Heart and Brain Vascular Center at ON Hospital has introduced the cutting-edge vascular surgery equipment, Philips` Biplane Angio, which can accurately identify even tiny veins through 3D imaging and reduce radiation exposure to patients by shortening examination times. It is capable of treating central nervous system and cranial nerve diseases such as vascular diseases of the arms and legs, spinal and spinal cord vessels, and spinal tumors.'],
+            sub_context6: ['Managing important organs such as the heart, brain, and blood vessels is as crucial as treatment, and involves exercising regularly, moderating salt, oily food, and alcohol intake, avoiding overeating and smoking, and always monitoring health parameters, especially in the case of chronic diseases such as hypertension, diabetes, and hyperlipidemia.'],
+            sub_context5: ['The Cardiocerebrovascular Center actively manages risk factors for strokes such as hypertension, diabetes, and smoking in cooperation with internal medicine, and conducts tests such as magnetic resonance imaging (MRI) and magnetic resonance angiography (MRA) to accurately and precisely examine the condition of blood vessels through cerebral angiography, which examines brain blood vessels through the femoral artery, and performs interventional radiation treatment.'],
+            sub_context4: ['In addition, a stroke refers to a state in which brain cells are damaged because blood carrying nutrients and oxygen does not flow to the brain due to the obstruction or rupture of cerebral blood vessels. The Cardiocerebrovascular Center specializes in preventing and treating strokes caused by the obstruction or rupture of blood vessels that supply blood to the brain.'],
+            sub_context3: ['Myocardial infarction is mainly caused by coronary artery sclerosis and is indicated by chest pain that lasts longer than a few minutes. The Cardiocerebrovascular Center conducts various tests such as electrocardiograms, 24-hour electrocardiograms, echocardiograms, exercise stress tests, CT scans, and MRI scans, to investigate complaints of chest pain, and when a narrowed blood vessel is found through coronary artery angiography, an intervention procedure such as coronary artery stenting can be performed. In cases of acute emergencies, it is essential to perform prompt intervention procedures such as percutaneous coronary intervention or stent insertion to open the occluded blood vessels within the golden time (within 2 hours after vessel occlusion).'],
+            sub_context2: ['Representative coronary artery diseases of the cardiovascular system, such as myocardial infarction and angina pectoris, and cerebral vascular diseases, such as stroke, account for 80% of early deaths, which are caused by complications with chronic diseases such as hypertension, diabetes, and hyperlipidemia, or are heavily influenced by environmental and occupational risk factors.'],
+            sub_context1: ['Of the top 10 causes of death from illness, 7 are chronic diseases, with cerebrovascular diseases being the most frequent. Aging is continuing to increase the incidence rate, but the fatality rate is decreasing in contrast due to the development of various treatments. However, the disability rate caused by the aftermath of the disease is also on the rise. Appropriate management and treatment can lower the incidence rate of the disease, and in cases of acute onset (such as myocardial infarction or stroke), early intervention is crucial, and appropriate procedures and treatments can reduce the disability rate.'] },
         {cate_no:0, 
             item_no:10,
              img_src:'10_.jpg', 
@@ -109,11 +117,20 @@ const CENT_LIST = [
         {cate_no:0, 
             item_no:13,
              img_src:'13_.jpg', 
-             sub_title:['소개', '전문클리닉'],
-             sub_context4:['유방암, 유방내시경수술 클리닉'], 
-             sub_context3:['이와 같은 우수한 진료 수준을 유기하기 위해 유방암 집단회, 간호사 집단회 등을 통한 꾸준한 교육활동에도 만전을 기하고 있습니다.'],
-             sub_context2:['온 종합병원 유방센터의 가장 큰 특징은 유방암수술 후 가장 아름다운 유방을 보존하는 치료법들입니다.', '최고 수준의 유방보존률과 최소침습적 수술로서 감시림프절 생검을 통한 불필요한 액와림프절 청소술의 예발, 최소의 절개만으로 시행하는 내시경 유방암수술을 비롯하여 광범위절제나 유방절제가 불가피한경우에도 최선의 미용적 결과를 위해 광배근 피판술이나 인조 보형물 시술을 시행하고 있습니다.'],
-             sub_context1: ['온 종합병원의 유방센터는 전 세계 여성에서는 가장 흔한 암이며, 우리나라 여성에서도 가장 많이 발생하는 유방암과 기타 유방질환을 전담하는 곳입니다.', '유방암은 조기 발견이 가능하며, 조기에 진단되면 완치율이 90%에 육박하여, 무엇보다도 조기검진이 중요합니다.', '우리 센터는 센터 내 에 조기검진에 필수적인 최신의 유방촬영기와 초음파기를 갖추고 있으며, 외과적 수술 없이도 손쉽게 조직검사를 할 수 있는 여러 기구 및 장비를 보유하고 있습니다.', '뿐만 아니라 Breast Cancer 전문 간호사가 유방암 환자의 심리 교육 및 재활 교육을 통해 유방암 환자의 삶의 질 향상을 돕고 있습니다.'] },
+             sub_title:['INTRODUCTION', 'SPECIALIZED CLINICS'],
+             sub_context4:['Breast Cancer Clinic, Endoscopic Breast Surgery Clinic'], 
+             sub_context3:['To maintain our excellent level of care, we consistently conduct educational activities, including breast cancer support groups and nurse meetings.'],
+             sub_context2:[
+                'The Breast Center at ON Hospital`s most significant feature is its treatment methods that preserve the most beautiful breast after breast cancer surgery.', 
+                'We perform minimally invasive surgeries with the highest level of breast conservation and minimal lymph node surgery using sentinel lymph node biopsy, endoscopic breast cancer surgery, and wide or breast resection when necessary. In addition, we perform cosmetic surgeries such as latissimus dorsi flap surgery or prosthetic implant surgery to achieve the best possible aesthetic outcome.'
+            ],
+             sub_context1: [
+                'The Breast Center at ON Hospital specializes in the diagnosis and treatment of breast cancer and other breast diseases, which are the most common cancer among women worldwide and also the most prevalent cancer in women in Korea.', 
+                'Breast cancer can be detected early, and if diagnosed early, the cure rate is up to 90%, making early screening crucial.', 
+                'Our center is equipped with the latest breast imaging and ultrasound machines, essential for early screening. ', 
+                'We also have various tools and equipment for tissue testing without surgery. Additionally, specialized nurses in the Breast Cancer Center provide psychological and rehabilitation education to improve the quality of life for breast cancer patients..'
+            ] 
+        },
         {cate_no:0, 
             item_no:14,
              img_src:'women_.png', 
@@ -131,7 +148,7 @@ const CENT_LIST = [
             item_no:16,
              img_src:'16_.jpg', 
              sub_title:['최신 혈액투석기기 도입! 높은 만족도!',''], 
-             phone_num:['신장내과','(2F)', '인공신장외과','(13F)'],
+             phone_num:['NEPHROLOGY','(2F)', '인공신장SURGERY','(13F)'],
              phone_text:['051) 607-0209', '051) 607-0128,0020'],
              chk_text: ['부산 최고 쾌적한 호텔형 시설', '최첨단 투석장비 60대 도입!', '독일 FMC社 5008S 4.5V'] },
         {cate_no:0, 
@@ -156,7 +173,7 @@ const CENT_LIST = [
         {cate_no:0, 
             item_no:20,
              img_src:'20_.jpg', 
-             sub_title:['소개','전문클리닉'], 
+             sub_title:['INTRODUCTION','SPECIALIZED CLINICS'], 
              sub_context3: ['요로 종양클리닉, 요로결석클리닉, 배뇨장애클리닉, 소아비뇨기클리닉', '방광수술, 복강경수술, 내시경수술 , 요로손상클리닉, 요로감염클리닉'],
              sub_context2: ['온 종합병원 남성센터는 대학병원 임상교수 출신의 전문 의료진을 주축으로 진료 팀을 구성하여 각종 특수 클리닉을 운영하고 있으며 각 분야에서 선도적인 역할을 하고, 국제수준의 진료를 제공하고자 각 분야에서 선도적인 역할을 하고, 진료를 제공하고자 최선을 다하고 있습니다.'],
              sub_context1: ['온 종합병원의 전립선ㆍ배뇨장애센터는 남성 요로계통과 생식계통의 질환을 전문적으로 진단하고 치료하기 위해 설립되었습니다.','요로 종양, 요로결석, 내비뇨기, 소아비뇨기, 신경비뇨기, 배뇨장애, 남성의학, 요로손상, 요로감염 등의 질환을 다루고 있습니다.']  },
@@ -171,10 +188,10 @@ const CENT_LIST = [
         {cate_no:0, 
             item_no:22,
              img_src:'22_.jpg', 
-             sub_title:['정형외과, 신경외과, 재활의학과, 마취통증의학과의 협동치료로', '환자의 진료과 선택의 어려움 해결 수술과 재활종합치료의', '와벽한 협동치료 진단 수술 재활이 하나로 이루어지는 토탈케어'], 
+             sub_title:['Collaborative treatment with orthopedics, neurosurgery, rehabilitation medicine, and pain management anesthesia department', 'Total care where surgery and rehabilitation are integrated into one through seamless collaboration between', 'different medical departments to resolve patients’ difficulty in choosing a treatment option'], 
              circle_num:['01','02','03','04','05','06','07','08','09'],
-             circle_text:['최소침습 내시경적 현미경수술 시행', '최소침습 관절경 무혈수술 시행', '짧은 수술시간, 빠른 회복', '국소마취를 통한 마취 후유증 최소화', '최신식 척추 관절재활운동센터', '최신장비를 이용한 과학적 운동처방 프로그램', '전문가의 1:1 맞춤식 운동처방', '척추 관절 강화 프로그램', '수술 후 재발 방지 프로그램'],
-             sub_context1: ['관절경내시경 수술은 해당 관절 주위에 작은 구멍 3~4개만을 만들어서, 초소형 현미경을 통해 직접 관찰 시술하기 때문에 정확한 진단과 시술이 가능합니다.', '또한, 미용상 보기 흉한 흉터를 거의 남기지 않으며, 빠르게 일상생활에 복귀할 수 있습니다. 어깨 관절탈구, 오십견, 석회성 건염, 관절순 손상, 회전근개의 부분 파열 뿐만 아니라, 고도 회전근개파열인 경우에도 관절내시경을 이용한 최소침습수술이 가능합니다.'] },
+             circle_text:['Minimally invasive endoscopic microscopic surgery', 'Minimally invasive arthroscopic surgery', 'Short surgical time, fast recovery', 'Minimizing post-anesthesia effects through local anesthesia', 'State-of-the-art spine joint rehabilitation center', 'Scientific exercise prescription program using the latest equipment', 'Personalized 1:1 exercise prescription by experts', 'Spine joint strengthening program', 'Post-surgery relapse prevention program'],
+             sub_context1: ['Arthroscopic surgery allows for precise diagnosis and treatment by observing the joint through a miniature microscope inserted into only three to four small holes made around the joint.', 'It also leaves almost no visible scarring and enables a rapid return to daily life. It can be used for not only partial tears of the rotator cuff, shoulder joint dislocation, frozen shoulder, calcific tendinitis, and ligament injuries but also for severe rotator cuff tears.'] },
         {cate_no:0, 
             item_no:23,
              img_src:'23_.jpg', 
@@ -194,28 +211,28 @@ const CENT_LIST = [
         {cate_no:0, 
             item_no:25,
              img_src:'page-img10.jpg', 
-             sub_title:['소개', '전문클리닉'], 
-             pro_context5:'교정발치, 빠른 교정을 위한 피질골절단술, 구개확장, 매복치의 외과적노출, 골신장술',
+             sub_title:['INTRODUCTION', 'SPECIALIZED CLINICS'], 
+             pro_context5:'교정발치, 빠른 교정을 위한 피질골절단술, 구개확장, 매복치의 SURGERY적노출, 골신장술',
              pro_context4:'구순구개열, 안면기형',
              pro_context3:'안면골절, 외상 후 부정교합, 외상 후 치아/치조골 재건술(임플란트)',
              pro_context2:'사각턱, 돌출입수술, 무턱, 귀족수술, 턱끝성형술',
              pro_context1:['양악수술, 하악수술, 주걱턱, 안면비대칭, 긴얼굴, 잇몸노출증, 개교합, 무턱','(술전교정수술, 최소교정수술, 선수술, 무교정수술)'],
-             pro_title:['턱교정(악교정)클리닉','얼굴윤곽클리닉','악안면외상클리닉','안면기형클리닉','구강악안면외과'],
+             pro_title:['턱교정(악교정)클리닉','얼굴윤곽클리닉','악안면외상클리닉','안면기형클리닉','구강악안면SURGERY'],
              sub_context5:['기존의 술전교정(1년이상)/ 수술/술후 교정(6개월)으로 이루어지던 약 2년의 치료기간이 걸리던 것과 달리 선수술은 수술을 먼저 시행하고 수술 후 교정을 시행하는 것으로 그 치료기간이 6개월에서 1년 정도 단축되는 것이 가장 큰 장점이라 할 수 있습니다.'],
              sub_context4:['정확한 치아와 골격의 분석을 통하여 선수술이 가능한 환자는 수술을 먼저 시행하거나 최소교정 후 수술을 시행하여 술전교정 기간 중 교정으로 인한 불편감과 전체치료기간을 줄였습니다. 기존의 치료가 약 2년의 치료기간(술전교정[1년이상] / 수술 / 술후 교정[6개월])인 것과 달리 선수술은은 수술을 먼저 시행하고 수술 후 교정을 시행하는 것으로 그 치료기간이 6개월에서 1년 정도 단축되는 것이 가장 큰 장점이라 할 수 있습니다.'],
              sub_context3:['ON Hospital 턱ㆍ얼굴(악안면)수술센터는 최신의 장비를 이용하여 수술전 분석(2D cephalometry/3D CT/model 분석)을 시행하여 환자 개인에 맞는 최상의 수술계획을 수립하고 있습니다.'],
              sub_context2:['환자중심의 CENTERS One-stop/ One-way(외래/수술준비/입원/수술)시스템 및 턱ㆍ얼굴(악안면)수술환자을 위한 1인실/2인실 입원시스템 그리고 복잡한 과정(접수/대기/반복내원)을 줄여 불편감을 최소로 하였습니다.'],
-             sub_context1: ['ON Hospital 턱얼굴수술센터는 최고 수준의 진료를 제공하기 위하여 구강악안면외과 의료진을 중심으로 이비인후과 전문의, 마취통증 의학과 전문의 등 체계화된 협진체제로 구성되어 정확한 평가와 치료와 수술 후 최상의 결과를 제공하고 있다.']},
+             sub_context1: ['ON Hospital MAXILLOFACIAL SURGERY는 최고 수준의 진료를 제공하기 위하여 구강악안면SURGERY 의료진을 중심으로 OTOLARYNGOLOGY 전문의, 마취통증 의학과 전문의 등 체계화된 협진체제로 구성되어 정확한 평가와 치료와 수술 후 최상의 결과를 제공하고 있다.']},
         {cate_no:0, 
             item_no:26,
              img_src:'26_.jpg', 
-             sub_title:['', '전문분야'], 
+             sub_title:['', 'SPECIALTY'], 
              sub_context2: ['암수술/폐·흉부종양의 흉강 내시경 수술','다한증(손발겨드랑이 다한증 및 겨드랑이 땀냄새)의 수술 및 비수술적 치료','기흉/하지 정맥류/누두흉(오목가슴)등의 흉벽기형'],
              sub_context1: ['심장, 폐 기관, 식도, 대동맥 등 생명 유지에 기본이 되는 중요 장기의 질환 진단 및 수술', '부산.경남 최초 흉강경이용 폐엽절제술 성공']},
         {cate_no:0, 
             item_no:27,
              img_src:'27_.jpg', 
-             sub_title:['소개', '전문클리닉'], 
+             sub_title:['INTRODUCTION', 'SPECIALIZED CLINICS'], 
              bold:'항암 방사선 치료',
              sub_context5: ['- ON Hospital 방사선 치료 안내.pdf', '다운로드'],
              sub_context4: ['단순히 방사선을 쬐는 것만으로는 방사선 치료가 이루어지는 것은 아닙니다.','종양의 크기, 퍼진 정도, 형태와 분화도 및 종양의 방사선에 대한 민감도 등을 모두 감안하여 방사선량, 치료기간 등이 결정되며, 여기에 환자의 건강상태 등도 고려되어야 합니다.', '따라서 방사선 치료를 위해서는 숙련된 의료진과 진단장비 및 첨단 방사선치료기기가 필수적이며, 아울러 질환에 적합한 치료 기법을 선택할 수 있도록 다양한 치료기법을 시행 할 수 있는지도 고려 되어져야하고, 정상세포에 대한 영향을 최소화 하기 위해 고도의 기술적 축적이 요구 됩니다.'],
@@ -242,7 +259,7 @@ const CENT_LIST = [
              circle_border:'교수출신 호흡기·알레르기·결핵',
              circle_text:['폐렴', '폐암', '만성 폐쇄성 폐질환 COPD'],
              sub_context3:['주요 진료 분야는 만성 폐쇄성 폐질환, 기관지 천식, 폐암, 폐렴, 폐결핵, 만성기침, 기관지 확장증, 간질성 폐 질환, 호흡부전, 흉막 질환(기흉, 흉막염, 흉수, 농흉), 식도암, 종격동 종양, 다한증, 오목가슴, 기관 협착 등이며 폐암 진단 시 정기적이고 지속적인 관리를 해드립니다. 저희 Respiratory 의료진 모두는 환자분들 편에 서서 여러분의 고통을 해결해 드리기 위해 최선을 다할 것으로 약속드립니다.'],
-             sub_context2:['Respiratory는 호흡기내과와 흉부외과로 구서오디어 있어 질병의 정확한 진단, 치료 및 수술까지 빠르고 정확하게 진료할 수 있습니다.', '또한 관련 진료과와 협진을 통해 여러 분야의 전문의들이 모여 환자 중심의 진료를 받을 수 있습니다.'],
+             sub_context2:['Respiratory는 DEPARTMENT OF <SPAN>RESPIRATORY MEDICINE</SPAN>와 THORACIC SURGERY로 구서오디어 있어 질병의 정확한 진단, 치료 및 수술까지 빠르고 정확하게 진료할 수 있습니다.', '또한 관련 DEPARTMENT와 협진을 통해 여러 분야의 전문의들이 모여 환자 중심의 진료를 받을 수 있습니다.'],
              sub_context1: ['우리 사회의 고령화 추세가 높아지면서 호흡기계 중증 질환자의 수가 급격하게 증가하고 있습니다.','이처럼 호흡기계 질환자의 증가에 따라 효율적인 진료를 위해 Respiratory를 개설, 운영하고 있습니다.'] },
     ]
 ]
@@ -260,7 +277,7 @@ const CENT_TITLE = [
         {cate_no:0, item_no:9, title:'Cardiocerebrovascular', icon_src:'medi_w_cetner_9',},
         {cate_no:0, item_no:10, title:'Allergy', icon_src:'medi_w_cetner_10',},
         {cate_no:0, item_no:11, title:'Cancer Rehab Program', icon_src:'medi_w_cetner_11',},
-        {cate_no:0, item_no:12, title:'Women's Cancer', icon_src:'medi_w_cetner_12',},
+        {cate_no:0, item_no:12, title:'Women`s Cancer', icon_src:'medi_w_cetner_12',},
         {cate_no:0, item_no:13, title:'Breast/Thyroid Cancer', icon_src:'medi_w_cetner_14',},
         {cate_no:0, item_no:14, title:'Breast Cancer', icon_src:'medi_w_cetner_14',},
         {cate_no:0, item_no:15, title:'Emergency Center', icon_src:'medi_w_cetner_15',},
@@ -284,7 +301,7 @@ const HOSPI_TITLE = [
     [
         {cate_no:0, item_no:1, title:'Liver'},
         {cate_no:0, item_no:5, title:'Gastrointestinal Cancer Surgery'},
-        {cate_no:0, item_no:10, title:'Women's Cancer'},
+        {cate_no:0, item_no:10, title:'Women`s Cancer'},
         {cate_no:0, item_no:11, title:'Breast/Thyroid Cancer'},
         {cate_no:0, item_no:15, title:'Intreventional Surgery'},
         {cate_no:0, item_no:18, title:'Prostate Cancer'},
@@ -344,7 +361,7 @@ const CENT_BANNER = [
 //             ''
 //         ], 
 //             sub_context1: [
-//                 'ON Hospital은 간, 담도계 및 췌장내 악성종야에 대해 풍부한 임상경험과 전문지식을 갖춘 소화기내과, 종양내과, 간담췌외과, 방사선종양학과, 영상의학과, 병리과 전문의들이 주축이 되어 전문의들이 모여 진단에서부터 치료까지 환자중심의 유기적인 협조체계를 구축하고 상호 협력함으로서 환자의 빠른 진단 및 환자 개개인에 맞는 최장의 치료를 제공 하고 있습니다.',
+//                 'ON Hospital은 간, 담도계 및 췌장내 악성종야에 대해 풍부한 임상경험과 전문지식을 갖춘 DEPARTMENT OF GASTROENTEROLOGY, 종양내과, Department of Hepatobiliary and Pancreatic Surgery, Radiation Oncology Department, DEPARTMENT OF RADIOLOGY, 병리과 전문의들이 주축이 되어 전문의들이 모여 진단에서부터 치료까지 환자중심의 유기적인 협조체계를 구축하고 상호 협력함으로서 환자의 빠른 진단 및 환자 개개인에 맞는 최장의 치료를 제공 하고 있습니다.',
 //                 '일반적으로 담도계 및 췌장내 악성종양의 예후는 타 장기악성종양에 비해 치료 결과가 좋지 않다고 합니다.',
 //                 '그러나 영상진단의 정확도가 증가하고, 수술 술기의 발전으로 절제율이 향상되고 있으며 수술 후 합병증의 발병율이 낮아지고 있습니다. 또한 수술 후에 여러 보조적 치료 약제의 개발과 방사선치료 방법이 향상되어 치료 결과는 느리지만 차츰 향상되고 있습니다.',
 //                 '간암에 대한 여러 치료법이 개발되고 활용됨에 따라 최적의 치료를 받게 되면 좋은 결과를 예상할 수 있습니다.',
@@ -366,24 +383,24 @@ const CENT_BANNER = [
 //             '051)607-0745/0257'
 //         ],
 //             num_bold:[
-//              'Liver 외래',
+//              'Liver Center Outpatient Clinic',
 //             '(3F)', 
-//             'Liver 접수/수납'
+//             'Liver Center Reception/Payment'
 //         ],
 //             table_th:[
-//              '고주파열치료', 
-//             '경간동맥화학요법치료', 
-//             '경간동맥 화학색전술'
+//              'High-frequency ablation therapy', 
+//             'Transarterial chemoembolization (TACE)', 
+//             'Transarterial chemoinfusion'
 //         ],
 //             table_td:[
-//                 '3cm 이하 조기간암에 천자 침을 넣어 고주파를 흘러 보내면 최소 50도 이상의 고열이 발생하여 간암세포를 없애는 간암치료', 
-//                 '간의 악성병변에 대한 치료법으로 다발성 암종과 거대 암종을 치료대상으로 삼아 완치를 목표로 합니다. 간 동맥을 통하여 간까지 도관을 넣어 항암제를 천천히 주입하는 방법입니다.', 
-//                 '간 동맥을 통해 항암제와 함께 색전 물질을 넣어 종양이 필요로 하는 혈관을 막는 시술입니다. 항암제와 종양이 필요로 하는 혈관을 막는 수술입니다.'
+//                 'A treatment for liver cancer in which a needle is inserted into the cancerous lesion and high-frequency energy is delivered through the needle. This results in the generation of heat at a temperature of at least 50°C, destroying liver cancer cells', 
+//                 'A treatment for malignant liver tumors aimed at curing multiple or giant tumors. It involves injecting anticancer drugs slowly through a catheter inserted into the hepatic artery to reach the liver.', 
+//                 'A procedure that involves delivering anticancer drugs and embolic agents into the artery that supplies the tumor through a catheter, blocking the blood supply to the tumor and destroying it.'
 //             ],
 //             sub_context1: [
-//                 '간암으로 고생하시는 분들에게 치료율 60%로 새희망을!', 
-//                 '대학교수출신 간전문 의료진 구성', 
-//                 '부산,경남 최초 흉강경이용 폐엽절제술 성공'
+//                 'Offering new hope with a treatment success rate of 60% for those suffering from liver cancer!', 
+//                 'The medical team is composed of liver specialists with university professor backgrounds', 
+//                 'Successful thoracoscopic lung lobectomy, the first of its kind in Busan and Gyeongnam'
             
 //             ] },
 //         {cate_no:0, 
@@ -413,14 +430,14 @@ const CENT_BANNER = [
 //             item_no:4, 
 //             img_src:'4_.jpg', 
 //             sub_title:[
-//              '소개', 
-//             '전문클리닉'
+//              'INTRODUCTION', 
+//             'SPECIALIZED CLINICS'
 //         ], 
 //             sub_context1: [
 //                 '치핵, 치열, 치루 및 항문통, 항문소양증, 항문성병',
 //                 '변비나 배변장애, 과민성 대장증후군, 염증성 장질환',
 //                 '온 종합병원 Proctology는 최소침습수술을 비롯하여 다양한 방법을 통하여 환자들에게 치료의 기회를 제공하고 있습니다.',
-//                 '또한 전문화된 세부 진료과 등의 협진을 통하여 전문적인 치료를 제공하고 있습니다.',
+//                 '또한 전문화된 세부 DEPARTMENT 등의 협진을 통하여 전문적인 치료를 제공하고 있습니다.',
 //                 '특히 고난이도의 수술을 요하는 대장암에서부터 항문질환 등에 이르기까지 빠르고 편안한 진료가 될 수 있도록 노력하고 있습니다. 해당 특수 클리닉과 연계, 치료하여 항문질환 뿐 아니라 항문 질환의 원인에 대한 적절한 치료가 이루어질 수 있도록 하는 역할을 담당하고 있습니다.',
 //                 '또한 여러 기능적 직장항문질환도 급격히 그 빈도가 증가하고 있습니다.',
 //                 '이런 상황에서 온 종합병원 Proctology는 우수한 대장항문 전문 의료진을 모시고 최첨단 의료장비를 활용하여 최고 수준의 진료를 제공합니다. 같은 질병이라도 환자의 상태에 따라서, 또 같은 환자에게라도 질병의 진행에 따라서 최적의 진료가 다를 수 있습니다.',
@@ -451,7 +468,7 @@ const CENT_BANNER = [
 //                 '다만 특수교육을 통해 사회적응능력을 키워주고 반복적인 좌절로 인한 우울 증세를 치료하는 것이 필요하다.',
 //                 '사물의 판단 및 언어구사 능력은 충분함에도 불구하고 사회적 상호작용과 감정교류에 실패하는 사람들이 이에 속한다.',
 //                 '분위기 파악을 제대로 못해 또래 친구들로부터 따돌림을 당하는 ‘왕따’ 현상이 일어난다. 얼굴표정이나 제스처 등을 사용한 의사표현의 장애를 보이며 상황에 맞게 음량 조절을 못하기도 한다.',
-//                 '심하게 분리불안이 있을 때에는 강제로 혼자 가게 하는 것보다는 한 달 이내의 기간 동안 아이와 함께 학교에 가서 교실 밖에서 기다리거나 수업시간에 함께 참가하는 것도 해결방법이 될 수 있다. 그래도 호전되지 않으면 소아정신과를 찾아 상담하는 것이 좋다. 소아청소년 정신건강의학과에서 심리검사를 통해 원인을 파악한 후 놀이치료 미술치료 부모교육을 실시하며 약물치료도 할 수 있다.',
+//                 '심하게 분리불안이 있을 때에는 강제로 혼자 가게 하는 것보다는 한 달 이내의 기간 동안 아이와 함께 학교에 가서 교실 밖에서 기다리거나 수업시간에 함께 참가하는 것도 해결방법이 될 수 있다. 그래도 호전되지 않으면 소아정신과를 찾아 상담하는 것이 좋다. 소아청소년 DEPARTMENT OF PSYCHIATRY에서 심리검사를 통해 원인을 파악한 후 놀이치료 미술치료 부모교육을 실시하며 약물치료도 할 수 있다.',
 //                 '학교공포증은 아이가 반복적으로 학교 가기를 싫어하고 억지로 가도록 하면 불안해지거나 공황상태에 빠지는 경우를 말한다.',
 //                 '학교를 두려워하기보다는 어머니와 헤어지는 것을 두려워하는 것이라 할 수 있다. 아침이나 주말 저녁이 되면 배가 아프다거나 머리가 아프다고 하는 등 신체증상을 호소한다. 억지로 가도록 하면 불안해지거나 과격한 저항행동을 보이기도 하고 숨거나 도망을 가기도 한다. 이럴 경우 아이가 어떤 핑계를 대더라도 꼭 학교에 가는 것을 원칙으로 할 필요가 있다.',
 //                 '학습장애는 원인이 다양하기 때문에 실제로 아이가 어떤 어려움을 겪고 있는지 원인을 먼저 찾는 것이 중요하다. 주의력결핍 과잉행동장애를 제외하고는 약물치료는 일차적인 치료가 아니다. 적절한 교육적 접근과 환경·정서적인 지원 등이 중요하다.',
@@ -466,8 +483,8 @@ const CENT_BANNER = [
 //             item_no:6, 
 //             img_src:'6_.jpg', 
 //             sub_title:[
-//              '소개', 
-//             '전문클리닉'
+//              'INTRODUCTION', 
+//             'SPECIALIZED CLINICS'
 //         ], 
 //             sub_context2:[
 //                 '소화기질환(위,식도), 위염, 위궤양, 역류성식도염 등', 
@@ -475,8 +492,8 @@ const CENT_BANNER = [
 //                 '위, 대자애시경.용종절제술/소화기 내시경 클리닉'
 //             ] , 
 //             sub_context1: [
-//                 '한국인의 식습관이 서구화되는 현실에 발맞추어 소화기질환 환자가 급증하는 추세에 있습니다.',
-//                 '이에 온 종합병원에서는 보다 질 높은 의료서비스를 제공하기 위하여 소화기내과, 외과, 영상의학과 등 소화기질환 관련 진료 과들의 유기적인 협진 시스템을 바탕으로 소화기내시경센터를 개설하였습니다.',
+//                 'IN LINE WITH THE REALITY OF KOREAN DIETARY HABITS BECOMING MORE WESTERNIZED, THERE IS A TREND OF A RAPID INCREASE IN PATIENTS WITH DIGESTIVE SYSTEM DISEASES.',
+//                 '이에 온 종합병원에서는 보다 질 높은 의료서비스를 제공하기 위하여 DEPARTMENT OF GASTROENTEROLOGY, SURGERY, DEPARTMENT OF RADIOLOGY 등 소화기질환 관련 진료 과들의 유기적인 협진 시스템을 바탕으로 소화기내시경센터를 개설하였습니다.',
 //                 '온 종합병원의 소화기내시경센터는 높은 수준의 진료를 신속하고 편안하게 받으실 수 있도록 최고의 의료진, 첨단 의료장비, 선진 진료체계를 갖추고 있습니다.', 
 //                 '또한, 소화기질환 환자의 병원 방문의 증가에 비례하여 증가하는 내시경검사의 적체를 해소하기 위하여 내시경 검사 전담 의료진을 육성 배치하고 첨단 의료장비를 다수 보유, 인원 및 장비의 효율적 관리를 통하여 차별화된 내시경 검사가 이루어지도록 하였습니다.', 
 //                 '각 분야 초괴 수준의 임상 경험 및 선진 기술을 바탕으로 세계적인 수준의 진료를 지향하고 있습니다.',
@@ -486,13 +503,13 @@ const CENT_BANNER = [
 //             item_no:7, 
 //             img_src:'page-img1.jpg', 
 //             sub_title:[
-//              '간·담·췌외과',
-//             '외과', 
-//             '소화기내과 내시경센터'
+//              'Hepatopancreatobiliary Surgery',
+//             'SURGERY', 
+//             'Gastroenterology and Endoscopy Center'
 //         ], 
 //             black_bold:[
-//              '위·대장내시경클리닉', 
-//             '간·췌담도클리닉'
+//              'Upper and lower gastrointestinal endoscopy clinics', 
+//             'HEPATOPANCREATOBILIARY ENDOSCOPY CLINIC'
 //         ],
 //             small_phone:[
 //              '051)607-0707', 
@@ -500,18 +517,18 @@ const CENT_BANNER = [
 //             '051)607-0244,0257'
 //         ],
 //             chk_text:[
-//                 '대학병원급 최고 의료·첨단시설', 
-//                 '용종발견 즉시, 수술·입원 원스톱서비스', 
-//                 '위·대장내시경 원하는 날짜에 예약가능', 
+//                 'TOP-NOTCH MEDICAL AND ADVANCED FACILITIES LIKE UNIVERSITY HOSPITALS', 
+//                 'ONE-STOP SURGERY AND HOSPITALIZATION SERVICES IMMEDIATELY UPON DISCOVERING THE DISEASE', 
+//                 'RESERVATIONS FOR UPPER AND LOWER GASTROINTESTINAL ENDOSCOPY AVAILABLE ON DESIRED DATES', 
 //                 ' 검사 즉시 결과 설명', 
-//                 '간·췌담도(ERCP) 전문시술', 
-//                 ' 내시경장비 초음파 미세소독'
+//                 'SPECIALIZATION IN HEPATOPANCREATOBILIARY ENDOSCOPY (ERCP)', 
+//                 ' ENDOSCOPE EQUIPMENT WITH ULTRASOUND MICRODISINFECTION'
 //             ],
 //             sub_context1: [
-//                 '외과영역중 가장 어려운 분야인 간, 담도계, 쓸개, 췌장 및 비장등의 장기에 발생하는 질환을 치료', 
-//                 '박광민 교수 간·담·췌 수술 "1만례 성공"', 
-//                 '위암, 대장암, 직장, 항문 대장질환 전문 진료', 
-//                 '가장 높은 사양 선명한 화질을 자랑하는 올림푸츠 CV290장비 사용'
+//                 'The most difficult field in the field of surgery, which treats diseases that occur in organs such as the liver, bile duct system, spleen, pancreas, and other organs', 
+//                 'Professor Park Kwang-min has a success rate of "10,000 surgeries" in hepatopancreatobiliary surgery', 
+//                 'Specializes in the treatment of gastric cancer, colorectal cancer, rectal cancer, and other intestinal diseases', 
+//                 'USING THE STATE-OF-THE-ART OLYMPUS CV290 EQUIPMENT, WITH HIGH-RESOLUTION AND CLEAR IMAGE QUALITY'
             
 //             ] },
 //         {cate_no:0, 
@@ -627,8 +644,8 @@ const CENT_BANNER = [
 //             item_no:13,
 //              img_src:'13_.jpg', 
 //              sub_title:[
-//              '소개', 
-//              '전문클리닉'
+//              'INTRODUCTION', 
+//              'SPECIALIZED CLINICS'
 //             ],
 //              sub_context1:[
 //              '유방암, 유방내시경수술 클리닉',
@@ -637,7 +654,7 @@ const CENT_BANNER = [
 //              '최고 수준의 유방보존률과 최소침습적 수술로서 감시림프절 생검을 통한 불필요한 액와림프절 청소술의 예발, 최소의 절개만으로 시행하는 내시경 유방암수술을 비롯하여 광범위절제나 유방절제가 불가피한경우에도 최선의 미용적 결과를 위해 광배근 피판술이나 인조 보형물 시술을 시행하고 있습니다.',
 //              '온 종합병원의 유방센터는 전 세계 여성에서는 가장 흔한 암이며, 우리나라 여성에서도 가장 많이 발생하는 유방암과 기타 유방질환을 전담하는 곳입니다.', 
 //              '유방암은 조기 발견이 가능하며, 조기에 진단되면 완치율이 90%에 육박하여, 무엇보다도 조기검진이 중요합니다.', 
-//              '우리 센터는 센터 내 에 조기검진에 필수적인 최신의 유방촬영기와 초음파기를 갖추고 있으며, 외과적 수술 없이도 손쉽게 조직검사를 할 수 있는 여러 기구 및 장비를 보유하고 있습니다.', 
+//              '우리 센터는 센터 내 에 조기검진에 필수적인 최신의 유방촬영기와 초음파기를 갖추고 있으며, SURGERY적 수술 없이도 손쉽게 조직검사를 할 수 있는 여러 기구 및 장비를 보유하고 있습니다.', 
 //              '뿐만 아니라 Breast Cancer 전문 간호사가 유방암 환자의 심리 교육 및 재활 교육을 통해 유방암 환자의 삶의 질 향상을 돕고 있습니다.'
 //             ] },
 //         {cate_no:0, 
@@ -681,9 +698,9 @@ const CENT_BANNER = [
 //              ''
 //             ], 
 //              phone_num:[
-//              '신장내과',
+//              'NEPHROLOGY',
 //              '(2F)', 
-//              '인공신장외과',
+//              '인공신장SURGERY',
 //              '(13F)'
 //             ],
 //              phone_text:[
@@ -751,8 +768,8 @@ const CENT_BANNER = [
 //             item_no:20,
 //              img_src:'20_.jpg', 
 //              sub_title:[
-//              '소개',
-//              '전문클리닉'
+//              'INTRODUCTION',
+//              'SPECIALIZED CLINICS'
 //             ], 
 //              sub_context1: [
 //              '요로 종양클리닉, 요로결석클리닉, 배뇨장애클리닉, 소아비뇨기클리닉', 
@@ -786,9 +803,9 @@ const CENT_BANNER = [
 //             item_no:22,
 //              img_src:'22_.jpg', 
 //              sub_title:[
-//              '정형외과, 신경외과, 재활의학과, 마취통증의학과의 협동치료로', 
-//              '환자의 진료과 선택의 어려움 해결 수술과 재활종합치료의', 
-//              '와벽한 협동치료 진단 수술 재활이 하나로 이루어지는 토탈케어'
+//              'Collaborative treatment with orthopedics, neurosurgery, rehabilitation medicine, and pain management anesthesia department', 
+//              'Total care where surgery and rehabilitation are integrated into one through seamless collaboration between', 
+//              'different medical departments to resolve patients’ difficulty in choosing a treatment option'
 //             ], 
 //              circle_num:[
 //              '01',
@@ -802,19 +819,19 @@ const CENT_BANNER = [
 //              '09'
 //             ],
 //              circle_text:[
-//              '최소침습 내시경적 현미경수술 시행', 
-//              '최소침습 관절경 무혈수술 시행', 
-//              '짧은 수술시간, 빠른 회복', 
-//              '국소마취를 통한 마취 후유증 최소화', 
-//              '최신식 척추 관절재활운동센터', 
-//              '최신장비를 이용한 과학적 운동처방 프로그램', 
-//              '전문가의 1:1 맞춤식 운동처방', 
-//              '척추 관절 강화 프로그램', 
-//              '수술 후 재발 방지 프로그램'
+//              'Minimally invasive endoscopic microscopic surgery', 
+//              'Minimally invasive arthroscopic surgery', 
+//              'Short surgical time, fast recovery', 
+//              'Minimizing post-anesthesia effects through local anesthesia', 
+//              'State-of-the-art spine joint rehabilitation center', 
+//              'Scientific exercise prescription program using the latest equipment', 
+//              'Personalized 1:1 exercise prescription by experts', 
+//              'Spine joint strengthening program', 
+//              'Post-surgery relapse prevention program'
 //             ],
 //              sub_context1: [
-//              '관절경내시경 수술은 해당 관절 주위에 작은 구멍 3~4개만을 만들어서, 초소형 현미경을 통해 직접 관찰 시술하기 때문에 정확한 진단과 시술이 가능합니다.', 
-//              '또한, 미용상 보기 흉한 흉터를 거의 남기지 않으며, 빠르게 일상생활에 복귀할 수 있습니다. 어깨 관절탈구, 오십견, 석회성 건염, 관절순 손상, 회전근개의 부분 파열 뿐만 아니라, 고도 회전근개파열인 경우에도 관절내시경을 이용한 최소침습수술이 가능합니다.'
+//              'Arthroscopic surgery allows for precise diagnosis and treatment by observing the joint through a miniature microscope inserted into only three to four small holes made around the joint.', 
+//              'It also leaves almost no visible scarring and enables a rapid return to daily life. It can be used for not only partial tears of the rotator cuff, shoulder joint dislocation, frozen shoulder, calcific tendinitis, and ligament injuries but also for severe rotator cuff tears.'
 //             ] },
 //         {cate_no:0, 
 //             item_no:23,
@@ -868,11 +885,11 @@ const CENT_BANNER = [
 //             item_no:25,
 //              img_src:'page-img10.jpg', 
 //              sub_title:[
-//              '소개', 
-//              '전문클리닉'
+//              'INTRODUCTION', 
+//              'SPECIALIZED CLINICS'
 //             ], 
 //             pro_context1:[
-//              '교정발치, 빠른 교정을 위한 피질골절단술, 구개확장, 매복치의 외과적노출, 골신장술',
+//              '교정발치, 빠른 교정을 위한 피질골절단술, 구개확장, 매복치의 SURGERY적노출, 골신장술',
 //              '구순구개열, 안면기형',
 //              '안면골절, 외상 후 부정교합, 외상 후 치아/치조골 재건술(임플란트)',
 //              '사각턱, 돌출입수술, 무턱, 귀족수술, 턱끝성형술',
@@ -884,21 +901,21 @@ const CENT_BANNER = [
 //              '얼굴윤곽클리닉',
 //              '악안면외상클리닉',
 //              '안면기형클리닉',
-//              '구강악안면외과'
+//              '구강악안면SURGERY'
 //             ],
 //             sub_context1:[
 //              '기존의 술전교정(1년이상)/ 수술/술후 교정(6개월)으로 이루어지던 약 2년의 치료기간이 걸리던 것과 달리 선수술은 수술을 먼저 시행하고 수술 후 교정을 시행하는 것으로 그 치료기간이 6개월에서 1년 정도 단축되는 것이 가장 큰 장점이라 할 수 있습니다.',
 //              '정확한 치아와 골격의 분석을 통하여 선수술이 가능한 환자는 수술을 먼저 시행하거나 최소교정 후 수술을 시행하여 술전교정 기간 중 교정으로 인한 불편감과 전체치료기간을 줄였습니다. 기존의 치료가 약 2년의 치료기간(술전교정[1년이상] / 수술 / 술후 교정[6개월])인 것과 달리 선수술은은 수술을 먼저 시행하고 수술 후 교정을 시행하는 것으로 그 치료기간이 6개월에서 1년 정도 단축되는 것이 가장 큰 장점이라 할 수 있습니다.',
 //              'ON Hospital 턱ㆍ얼굴(악안면)수술센터는 최신의 장비를 이용하여 수술전 분석(2D cephalometry/3D CT/model 분석)을 시행하여 환자 개인에 맞는 최상의 수술계획을 수립하고 있습니다.',
 //              '환자중심의 CENTERS One-stop/ One-way(외래/수술준비/입원/수술)시스템 및 턱ㆍ얼굴(악안면)수술환자을 위한 1인실/2인실 입원시스템 그리고 복잡한 과정(접수/대기/반복내원)을 줄여 불편감을 최소로 하였습니다.',
-//              'ON Hospital 턱얼굴수술센터는 최고 수준의 진료를 제공하기 위하여 구강악안면외과 의료진을 중심으로 이비인후과 전문의, 마취통증 의학과 전문의 등 체계화된 협진체제로 구성되어 정확한 평가와 치료와 수술 후 최상의 결과를 제공하고 있다.',
+//              'ON Hospital MAXILLOFACIAL SURGERY는 최고 수준의 진료를 제공하기 위하여 구강악안면SURGERY 의료진을 중심으로 OTOLARYNGOLOGY 전문의, 마취통증 의학과 전문의 등 체계화된 협진체제로 구성되어 정확한 평가와 치료와 수술 후 최상의 결과를 제공하고 있다.',
 //             ]},
 //         {cate_no:0, 
 //             item_no:26,
 //              img_src:'26_.jpg', 
 //              sub_title:[
 //              '', 
-//              '전문분야'
+//              'SPECIALTY'
 //             ], 
 //             sub_context1: [
 //              '암수술/폐·흉부종양의 흉강 내시경 수술',
@@ -910,8 +927,8 @@ const CENT_BANNER = [
 //             item_no:27,
 //              img_src:'27_.jpg', 
 //              sub_title:[
-//              '소개', 
-//              '전문클리닉'
+//              'INTRODUCTION', 
+//              'SPECIALIZED CLINICS'
 //             ], 
 //              bold:'항암 방사선 치료',
 //              sub_context5: [
@@ -977,8 +994,8 @@ const CENT_BANNER = [
 //             ],
 //             sub_context1:[
 //              '주요 진료 분야는 만성 폐쇄성 폐질환, 기관지 천식, 폐암, 폐렴, 폐결핵, 만성기침, 기관지 확장증, 간질성 폐 질환, 호흡부전, 흉막 질환(기흉, 흉막염, 흉수, 농흉), 식도암, 종격동 종양, 다한증, 오목가슴, 기관 협착 등이며 폐암 진단 시 정기적이고 지속적인 관리를 해드립니다. 저희 Respiratory 의료진 모두는 환자분들 편에 서서 여러분의 고통을 해결해 드리기 위해 최선을 다할 것으로 약속드립니다.',
-//              'Respiratory는 호흡기내과와 흉부외과로 구서오디어 있어 질병의 정확한 진단, 치료 및 수술까지 빠르고 정확하게 진료할 수 있습니다.', 
-//              '또한 관련 진료과와 협진을 통해 여러 분야의 전문의들이 모여 환자 중심의 진료를 받을 수 있습니다.',
+//              'Respiratory는 DEPARTMENT OF <SPAN>RESPIRATORY MEDICINE</SPAN>와 THORACIC SURGERY로 구서오디어 있어 질병의 정확한 진단, 치료 및 수술까지 빠르고 정확하게 진료할 수 있습니다.', 
+//              '또한 관련 DEPARTMENT와 협진을 통해 여러 분야의 전문의들이 모여 환자 중심의 진료를 받을 수 있습니다.',
 //              '우리 사회의 고령화 추세가 높아지면서 호흡기계 중증 질환자의 수가 급격하게 증가하고 있습니다.',
 //              '이처럼 호흡기계 질환자의 증가에 따라 효율적인 진료를 위해 Respiratory를 개설, 운영하고 있습니다.'
 //             ] },

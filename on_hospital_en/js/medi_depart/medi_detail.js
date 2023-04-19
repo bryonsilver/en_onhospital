@@ -78,15 +78,15 @@ $(document).ready(function(){
                                                     <span class="name_li">${DOCTOR[value][i].name}</span>
                                                 </li>
                                                 <li class="list_li">
-                                                    <span>진료과</span>
+                                                    <span>Department</span>
                                                     <span class="li_span">${DOCTOR[value][i].medi_con}</span>
                                                 </li>
                                                 <li class="list_li">
-                                                    <span>대표약력</span>
+                                                    <span>Main Career</span>
                                                     <span class="li_span">${DOCTOR[value][i].medi_his_con}</span>
                                                 </li>
                                                 <li class="list_li">
-                                                    <span>전문분야</span>
+                                                    <span>Specialty</span>
                                                     <span class="li_span">${DOCTOR[value][i].one_speci_con}</span>
                                                 </li>
                                             </ul>
@@ -97,16 +97,16 @@ $(document).ready(function(){
                                                 <table class="bottom_table">
                                                     <thead class="t_bg_light">
                                                         <th></th>
-                                                        <th>월</th>
-                                                        <th>화</th>
-                                                        <th>수</th>
-                                                        <th>목</th>
-                                                        <th>금</th>
-                                                        <th>토</th>
+                                                        <th>Mon</th>
+                                                        <th>Tue</th>
+                                                        <th>Wed</th>
+                                                        <th>Thur</th>
+                                                        <th>Fri</th>
+                                                        <th>Sat</th>
                                                     </thead>
                                                     <tbody>
                                                         <tr>
-                                                            <th class="t_bg_light">오전</th>`
+                                                            <th class="t_bg_light">AM</th>`
                                                         for(let j=0; j<DOCTOR[value][i].morn_schedule.length; j++) {
                                                         list +=`<td>
                                                                 <div><span class="text_circle ${DOCTOR[value][i].morn_color[j]}"></span></div>
@@ -115,7 +115,7 @@ $(document).ready(function(){
                                                     list +=`</td>
                                                         </tr>
                                                         <tr>
-                                                            <th class="t_bg_light">오후</th>`
+                                                            <th class="t_bg_light">PM</th>`
                                                         for(let j=0; j<DOCTOR[value][i].morn_schedule.length; j++) {
                                                         list +=`<td>
                                                                 <div><span class="text_circle ${DOCTOR[value][i].afte_color[j]}"></span></div>
@@ -124,7 +124,7 @@ $(document).ready(function(){
                                                     list +=`</td>
                                                         </tr>
                                                         <tr>
-                                                            <th class="t_bg_light">비고</th>`
+                                                            <th class="t_bg_light">Note</th>`
                                                             if(DOCTOR[value][i].note != null) {
                                                             list +=`<td class="text_left" colspan="6">${DOCTOR[value][i].note}</td>`
                                                             } else{
@@ -137,20 +137,24 @@ $(document).ready(function(){
                                             <div class="text_ex_box">
                                                 <span>
                                                     <div class="circle cir_primary"></div>
-                                                    <span class="text_primary">진료</span>
+                                                    <span class="text_primary">Medical Treatment</span>
                                                 </span>
                                                 <span>
                                                     <div class="circle cir_danger"></div>
-                                                    <span class="text_danger">수술/검사</span>
+                                                    <span class="text_danger">Surgery/Test</span>
+                                                </span>
+                                                <span>
+                                                    <div class="circle cir_intensive_care_unit"></div>
+                                                    <span class="text_success">Intensive Care Unit (ICU)</span>
                                                 </span>
                                                 <span>
                                                     <div class="circle cir_success"></div>
-                                                    <span class="text_success">문의</span>
+                                                    <span class="text_success">Inquiry</span>
                                                 </span>
                                             </div>
                                         </div>
                                         <div class="l_more_btn">
-                                            <a href="./medi_more.html?cate=${DOCTOR[value][i].cate_no}&item=${DOCTOR[value][i].item_no}" class="more_btn">자세히보기</a> 
+                                            <a href="./medi_more.html?cate=${DOCTOR[value][i].cate_no}&item=${DOCTOR[value][i].item_no}" class="more_btn">See More</a> 
                                         </div>
                                     </div>
                                 </div>

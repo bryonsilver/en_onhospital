@@ -43,7 +43,7 @@ $(document).ready(function(){
                                                     </div>
                                                     
                                                     <div class="doctor_field_box">
-                                                        <div>전문분야</div>
+                                                        <div>SPECIALTY</div>
                                                         <div class="doc_field_text">`
                                                         for(let j=0; j<DOCTOR[cate][i].professional.length; j++) {
                                                             list +=`<span>${DOCTOR[cate][i].professional[j]}</span>`
@@ -64,7 +64,7 @@ $(document).ready(function(){
                                                                 </thead>
                                                                 <tbody>
                                                                     <tr>
-                                                                        <th class="t_bg_light">오전</th>`
+                                                                        <th class="t_bg_light">AM</th>`
                                                                     for(let j=0; j<DOCTOR[cate][item_n].morn_schedule.length; j++) {
                                                                     list +=`<td>
                                                                             <div><span class="text_circle ${DOCTOR[cate][item_n].morn_color[j]}"></span></div>
@@ -126,7 +126,7 @@ $(document).ready(function(){
                                                 </div>
                                             </div>
                                             <div class="doctor_field_box">
-                                                <div>전문분야</div>
+                                                <div>SPECIALTY</div>
                                                 <div class="doc_field_text doc_f_t">`
                                                 for(let j=0; j<DOCTOR[cate][i].professional.length; j++) {
                                                     list +=`<span><span class="doc_comma"></span>${DOCTOR[cate][i].professional[j]}</span>`
@@ -148,7 +148,7 @@ $(document).ready(function(){
                                                         </thead>
                                                         <tbody>
                                                             <tr>
-                                                                <th class="t_bg_light">오전</th>`
+                                                                <th class="t_bg_light">AM</th>`
                                                             for(let j=0; j<DOCTOR[cate][item_n].morn_schedule.length; j++) {
                                                             list +=`<td>
                                                                     <div><span class="text_circle ${DOCTOR[cate][item_n].morn_color[j]}"></span></div>
@@ -196,7 +196,7 @@ $(document).ready(function(){
                                 list += `<div class="c_top_btn_box">
                                             <span class="ct_introduce_btn c_top_btn_active">
                                                 <span class="ct_top_after"></span>
-                                                <span>소개</span>
+                                                <span>INTRODUCTION</span>
                                             </span>
                                             <span class="ct_tv_box">
                                                 <span class="ct_top_after"></span>
@@ -208,7 +208,7 @@ $(document).ready(function(){
                                 list += `<div class="c_top_btn_box none_span_iframe">
                                             <span class="ct_introduce_btn c_top_btn_active">
                                                 <span class="ct_top_after"></span>
-                                                <span>소개</span>
+                                                <span>INTRODUCTION</span>
                                             </span>
                                         </div>`
                                     }
@@ -314,7 +314,7 @@ $(document).ready(function(){
                                         <div class="cr_top_box">
                                             <dl class="top_dl">
                                                 <div class="cr_dd">
-                                                    <dt class="top_first"><b>진료과</b></dt>
+                                                    <dt class="top_first"><b>DEPARTMENT</b></dt>
                                                     <dd class="top_con">${DOCTOR[cate][item_n].medi_con}</dd>
 
                                                     <dt class="top_first"><b>대표약력</b></dt>
@@ -322,7 +322,7 @@ $(document).ready(function(){
                                                 </div>
 
                                                 <div class="cr_dd2">
-                                                    <dt class="top_first"><b>전문분야</b></dt>
+                                                    <dt class="top_first"><b>SPECIALTY</b></dt>
                                                     <dd class="top_con width">${DOCTOR[cate][item_n].one_speci_con}</dd>
                                                 </div>
                                             </dl>
@@ -349,7 +349,7 @@ $(document).ready(function(){
                                                     </thead>
                                                     <tbody>
                                                         <tr>
-                                                            <th class="t_bg_light">오전</th>`
+                                                            <th class="t_bg_light">AM</th>`
                                                         for(let j=0; j<DOCTOR[cate][item_n].morn_schedule.length; j++) {
                                                         list +=`<td>
                                                                 <div><span class="text_circle ${DOCTOR[cate][item_n].morn_color[j]}"></span></div>
@@ -407,31 +407,31 @@ $(document).ready(function(){
                         <ul class="mv_ul">
                             <li class="mv_li active"><a href="#home" id="home_tab" class="mv_link">약력</a></li>
                             <li class="mv_li"><a href="#profile" id="profile_tab" class="mv_link">학회활동</a></li>
-                            <li class="mv_li"><a href="#contact" id="contact_tab" class="mv_link">전문분야</a></li>
+                            <li class="mv_li"><a href="#contact" id="contact_tab" class="mv_link">SPECIALTY</a></li>
                         </ul>
                         <div class="mv_content_box">
                             <div class="tab_pan pan1">
                                 <span>- 한양대학교 의과대학 졸업</span>
                                 <span>- 연세대학교 의과대학 의학박사</span>
-                                <span>- 서울아산병원 전임의</span>
+                                <span>- Former Medical Specialist, Seoul Asan Hospital</span>
                                 <span>- 미국 피츠버그대학병원 연수의</span>
                                 <span>- 미국 메이요병원 연수의</span>
-                                <span>- 서울아산병원 간담도췌외과 교수</span>
-                                <span>- 외과전문의고시출제위원</span>
+                                <span>- 서울아산병원 간담도췌SURGERY 교수</span>
+                                <span>- SURGERY전문의고시출제위원</span>
                                 <span>- 마르퀴즈후즈후 세계인명사전 등재</span>
                                 <span>- 서울아산병원 이메디팀 담당교수</span>
                                 <span>- 서울아산병원 국제진료센터 외국인진료 담당교수</span>
-                                <span>- 서울아산병원 간담도췌장외과 과장</span>
-                                <span>- 누적외과수술 1만례 달성</span>
+                                <span>- 서울아산병원 간담도췌장SURGERY 과장</span>
+                                <span>- 누적SURGERY수술 1만례 달성</span>
                             </div>
                             <div class="tab_pan pan2">
                                 <span>- SCI급 국제학술지 147편 저자 및 공저자</span>
-                                <span>- 외과술기교과서 공저자</span>
+                                <span>- SURGERY술기교과서 공저자</span>
                                 <span>- NECROX 신약개발/공동개발자(LG생명과학)</span>
                             </div>
                             <div class="tab_pan pan3">
-                                <span>- 간담도췌장외과</span>
-                                <span>- 외과영역 중 가장 어려운 분야인 간, 담도계, 쓸개, 췌장 및 비장등의 장기에 발생하는 질환을 치료</span>
+                                <span>- 간담도췌장SURGERY</span>
+                                <span>- SURGERY영역 중 가장 어려운 분야인 간, 담도계, 쓸개, 췌장 및 비장등의 장기에 발생하는 질환을 치료</span>
                             </div>
                         </div>
                     </div>`;
@@ -452,7 +452,7 @@ $(document).ready(function(){
                             <ul class="mv_ul">
                                 <li class="mv_li active m1"><a href="#home" id="home_tab" class="mv_link">약력</a></li>
                                 <li class="mv_li m2"><a href="#profile" id="profile_tab" class="mv_link">학회활동</a></li>
-                                <li class="mv_li m3"><a href="#contact" id="contact_tab" class="mv_link">전문분야</a></li>
+                                <li class="mv_li m3"><a href="#contact" id="contact_tab" class="mv_link">SPECIALTY</a></li>
                             </ul>
                             <div class="mv_content_box">
                                 <div class="tab_pan pan1">`

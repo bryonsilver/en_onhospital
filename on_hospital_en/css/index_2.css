@@ -857,6 +857,17 @@ html { scroll-behavior: smooth;}
 .a_box:hover .a_left {background-color: #fff;}
 .a_box:hover .a_right {background-color: #fff;}
 
+.indi_6 span:nth-of-type(2){
+    color: #fff !important;
+    padding: 8px 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #ee791c;
+}
+.indi_6:hover span:nth-of-type(2) {
+    background-color: #0f3157 !important;
+}
+
 
 
 
