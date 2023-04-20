@@ -557,7 +557,7 @@ body {font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple
     .c_right_box {width: 50%;}
     .top_first  {width: 17%;}
     .bottom_table > tbody th {width: 70px;}
-    .text_ex_box {padding: 10px 0;}
+    .text_ex_box {padding: 10px 0; flex-wrap: wrap;}
     .center_banner a {display: flex; justify-content: center;}
     .medi_banner {width: 80%;}
     .bottom_table > tbody th, .bottom_table > thead th, .bottom_table > tbody td {padding: 12px 5px;}

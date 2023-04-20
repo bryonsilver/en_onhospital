@@ -931,6 +931,7 @@ span {display: inline-block;}
 	-ms-word-break: normal;
 	word-break: normal;
 	outline: none;
+    max-width: 134px !important;
 }
 #google_translate_element > div > div {
 	position: relative;

@@ -209,6 +209,7 @@ th {border-bottom: 1px solid #999;}
     color: #777;
 }
 .moblie_download {display: none;}
+.two th {min-width: 120px;}
 
 
 @media (max-width:971px) {

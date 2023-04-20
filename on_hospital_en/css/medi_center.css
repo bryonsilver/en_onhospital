@@ -78,8 +78,10 @@ body {font-family:'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple 
     font-size: 20px;
     width: 100%;
     font-weight: 500;
-    line-height: 35px;
+    line-height: 25px;
     color: #333;
+
+    margin-bottom: 20px;
 }
 .mr_ul {
     list-style: disc;
@@ -792,17 +794,19 @@ img {
     background-size: contain;
 }
 .circle_s_box {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     border: 10px solid #ee791c;
     background-color: #fff;
     text-align: center;
-    line-height: 98px;
+    line-height: 25px;
     font-size: 20px;
     color: #333;
     font-weight: 500;
 }
+.circle_s_box span {transform: translateY(85%);}
+.circle_s_box:nth-of-type(1) span {transform: translateY(230%);}
 .chk_box {margin-top: 0px; width: 100%;}
 .chk_box_2 {
     padding-bottom: 20px;
@@ -819,8 +823,8 @@ img {
     color: #333;
     font-weight: 500;
     font-size: 20px;
-    line-height: 35px;
-    margin-bottom: 5px;
+    line-height: 30px;
+    margin-bottom: 15px;
 }
 .chk_text img {
     width: 100%;
@@ -875,8 +879,8 @@ img {
     margin: 0 auto;
     margin-bottom: 1.5rem;
     text-align: center;
-    width: 180px;
-    height: 180px;
+    width: 250px;
+    height: 250px;
     background-color: #7f79c1;
     border-radius: 50%;
     box-shadow: 0px 5px 12px 0px rgb(0 0 0 / 20%);
@@ -970,6 +974,17 @@ img {
 
 .cent_24_span:nth-of-type(1) {padding-top: 0;}
 
+/* 장례식장 */
+.best_re .color1 {
+    display: block;
+}
+.margin_b h3 {
+    display: block;
+}
+.row .img-fluid {
+    max-width: 300px;
+}
+
 
 @media (max-width: 1150px) {
     .title_box_onn {font-size: 40px;}
@@ -1058,8 +1073,8 @@ img {
         width: auto;
     }
     .cir_box {
-        width: 150px;
-        height: 150px;
+        width: 220px;
+        height: 220px;
     }
     .cir_span>h6 {
         font-size: 15px;
@@ -1118,6 +1133,10 @@ img {
     }
 }
 @media (max-width: 800px) {
+    .call_box {
+        display: flex;
+        flex-direction: column;
+    }
     .cent_24_span {gap: 20px; flex-direction: column;}
     .con,.bold {width: 100%; text-align: center;}
     .title_box_onn {font-size: 40px;}
@@ -1141,6 +1160,12 @@ img {
     /* .cent_box {margin-top: 12px;} */
 }
 @media (max-width: 700px) {
+    .cen2_9 {
+        background: url(../img/medi_center/10_.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
     .icon_box_center {
         max-width: 9%;
         max-height: 44px;
@@ -1161,8 +1186,17 @@ img {
     }
     .c_26 {flex-direction: column;}
     .c_26 span:nth-of-type(1) {align-self: flex-start;}
+    .ft_box {font-size: 18px; line-height: 30px;}
+    .f_box {margin-bottom: 15px;}
 }
 @media (max-width: 576px) {
+    /* 장례식장 */
+    .best_re .color1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .c_title {text-align: center;}
     .top_text {line-height: 35px;}
     .top_text {line-height: 30px;}
     .title_box_onn {font-size: 42px;}
@@ -1237,6 +1271,13 @@ img {
     .f_right_box {width: 100%;}
     .text_box {text-align: center;}
     .num_box {justify-content: center;}
+    .table_line td {text-align: center;}
+    .mr_c_title {text-align: center;}
+    .black_bold {
+        font-size: 18px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
 }
 @media (max-width: 450px) {
     .circle_box {
@@ -1256,9 +1297,12 @@ img {
         border-bottom: 1px solid #ddd;
     }
     .mr_ul2 {margin-left: 20px; line-height: 26px;}
+    .mr_ul {line-height: 23px;}
+    .mr_li {margin-bottom: 20px;}
     .c_27 {margin-top: 0 !important;}
     .border_box {font-size: 14px;}
-    .mr_c_title {font-size: 22px;}
+    .mr_c_title {font-size: 22px; justify-content: center;}
+    .table_text div {text-align: center;}
 }
 @media (max-width:400px) {
     .title_box_onn {font-size: 30px;}
@@ -1275,6 +1319,11 @@ img {
     .mr_img {height: 200px;}
     .top_small_text  {margin-bottom: 20px;}
     .cent_box {font-size: 16px;}
+    .title_box_onn h4 {
+        margin: 0;
+        line-height: 30px;
+        font-size: 18px;
+    }
 }
 @media (max-width: 300px)  {
     .mr_c_content {font-size: 16px;}

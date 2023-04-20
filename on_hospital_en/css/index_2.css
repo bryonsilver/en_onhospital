@@ -3,6 +3,10 @@ html { scroll-behavior: smooth;}
 #alpha_img {
     display: none !important;
 }
+
+.noto_sans {
+    font-family: 'Noto Sans KR' !important;
+}
 .m_text_small {font-family: 'Noto Sans KR';}
 .lang_input{display: none;}
 

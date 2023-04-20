@@ -55,728 +55,272 @@ $(document).ready(function(){
 			if (trans == 'el') {
 				//*[@id=":0.targetLanguage"]/select/option[3]
 				$(".goog-te-combo").val('el').prop("selected", true);
-				setTimeout(function(){
-                    $(".goog-te-combo").val('el');
-					alert("선택쓰!")
-				},1000)
-
-
-				function googleTranslateElementInit() {
-                    //setCookie('googtrans', '/en',1);
-                    new google.translate.TranslateElement({
-                        pageLanguage: 'el',
-                        autoDisplay: false,
-                        multilanguagePage: true,
-
-                    }, 'google_translate_element');
-                }
-				googleTranslateElementInit()
-				// alert("el");
+				if(document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'el') {
+					console.log("el")
+					$(".goog-te-combo").val('el').click();
+				}
 			}
 			else if (trans == 'nl') {
 				$(".goog-te-combo").val('nl').prop("selected", true);
-				setTimeout(function(){
-                    $(".goog-te-combo").val('nl');
-					alert("선택쓰!")
-				},1000)
-
-
-				function googleTranslateElementInit() {
-                    //setCookie('googtrans', '/en',1);
-                    new google.translate.TranslateElement({
-                        pageLanguage: 'nl',
-                        autoDisplay: false,
-                        multilanguagePage: true,
-
-                    }, 'google_translate_element');
-                }
-				googleTranslateElementInit()
-				// alert("nl");
+				if(document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'nl') {
+					console.log("nl")
+					$(".goog-te-combo").val('nl').click();
+				}
 			}
 			else if (trans == 'no') {
 				$(".goog-te-combo").val('no').prop("selected", true);
-				setTimeout(function(){
-                    $(".goog-te-combo").val('no');
-					alert("선택쓰!")
-				},1000)
-
-
-				function googleTranslateElementInit() {
-                    //setCookie('googtrans', '/en',1);
-                    new google.translate.TranslateElement({
-                        pageLanguage: 'no',
-                        autoDisplay: false,
-                        multilanguagePage: true,
-
-                    }, 'google_translate_element');
-                }
-				googleTranslateElementInit()
-				// alert("no");
+				if(document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'no') {
+					console.log("no")
+					$(".goog-te-combo").val('no').click();
+				}
 			}
 			else if (trans == 'da') {
 				$(".goog-te-combo").val('da').prop("selected", true);
-				setTimeout(function(){
-                    $(".goog-te-combo").val('da');
-					alert("선택쓰!")
-				},1000)
-
-
-				function googleTranslateElementInit() {
-                    //setCookie('googtrans', '/en',1);
-                    new google.translate.TranslateElement({
-                        pageLanguage: 'da',
-                        autoDisplay: false,
-                        multilanguagePage: true,
-
-                    }, 'google_translate_element');
-                }
-				googleTranslateElementInit()
-				// alert("da");
+				if(document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'da') {
+					console.log("da")
+					$(".goog-te-combo").val('da').click();
+				}
 			}
 			else if (trans == 'de') {
 				$(".goog-te-combo").val('de').prop("selected", true);
-				setTimeout(function(){
-                    $(".goog-te-combo").val('de');
-					alert("선택쓰!")
-				},1000)
-
-
-				function googleTranslateElementInit() {
-                    //setCookie('googtrans', '/en',1);
-                    new google.translate.TranslateElement({
-                        pageLanguage: 'de',
-                        autoDisplay: false,
-                        multilanguagePage: true,
-
-                    }, 'google_translate_element');
-                }
-				googleTranslateElementInit()
-				// alert("de");
+				if(document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'de') {
+					console.log("de")
+					$(".goog-te-combo").val('de').click();
+				}
 			}
 			else if (trans == 'ru') {
 				$(".goog-te-combo").val('ru').prop("selected", true);
-				setTimeout(function(){
-                    $(".goog-te-combo").val('ru');
-					alert("선택쓰!")
-				},1000)
-
-
-				function googleTranslateElementInit() {
-                    //setCookie('googtrans', '/en',1);
-                    new google.translate.TranslateElement({
-                        pageLanguage: 'ru',
-                        autoDisplay: false,
-                        multilanguagePage: true,
-
-                    }, 'google_translate_element');
-                }
-				googleTranslateElementInit()
-				// alert("ru");
+				if(document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'ru') {
+					console.log("ru")
+					$(".goog-te-combo").val('ru').click();
+				}
 			}
 			else if (trans == 'ro') {
 				$(".goog-te-combo").val('ro').prop("selected", true);
-				setTimeout(function(){
-                    $(".goog-te-combo").val('ro');
-					alert("선택쓰!")
-				},1000)
-
-
-				function googleTranslateElementInit() {
-                    //setCookie('googtrans', '/en',1);
-                    new google.translate.TranslateElement({
-                        pageLanguage: 'ro',
-                        autoDisplay: false,
-                        multilanguagePage: true,
-
-                    }, 'google_translate_element');
-                }
-				googleTranslateElementInit()
-				// alert("ro");
+				if(document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'ro') {
+					console.log("ro")
+					$(".goog-te-combo").val('ro').click();
+				}
 			}
 			else if (trans == 'mk') {
 				$(".goog-te-combo").val('mk').prop("selected", true);
-				setTimeout(function(){
-                    $(".goog-te-combo").val('mk');
-					alert("선택쓰!")
-				},1000)
-
-
-				function googleTranslateElementInit() {
-                    //setCookie('googtrans', '/en',1);
-                    new google.translate.TranslateElement({
-                        pageLanguage: 'mk',
-                        autoDisplay: false,
-                        multilanguagePage: true,
-
-                    }, 'google_translate_element');
-                }
-				googleTranslateElementInit()
-				// alert("mk");
+				if(document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'mk') {
+					console.log("mk")
+					$(".goog-te-combo").val('mk').click();
+				}
 			}
 			else if (trans == 'ms') {
 				$(".goog-te-combo").val('ms').prop("selected", true);
-				setTimeout(function(){
-                    $(".goog-te-combo").val('ms');
-					alert("선택쓰!")
-				},1000)
-
-
-				function googleTranslateElementInit() {
-                    //setCookie('googtrans', '/en',1);
-                    new google.translate.TranslateElement({
-                        pageLanguage: 'ms',
-                        autoDisplay: false,
-                        multilanguagePage: true,
-
-                    }, 'google_translate_element');
-                }
-				googleTranslateElementInit()
-				// alert("ms");
+				if(document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'ms') {
+					console.log("ms")
+					$(".goog-te-combo").val('ms').click();
+				}
 			}
 			else if (trans == 'mn') {
 				$(".goog-te-combo").val('mn').prop("selected", true);
-				setTimeout(function(){
-                    $(".goog-te-combo").val('mn');
-					alert("선택쓰!")
-				},1000)
-
-
-				function googleTranslateElementInit() {
-                    //setCookie('googtrans', '/en',1);
-                    new google.translate.TranslateElement({
-                        pageLanguage: 'mn',
-                        autoDisplay: false,
-                        multilanguagePage: true,
-
-                    }, 'google_translate_element');
-                }
-				googleTranslateElementInit()
-				// alert("mn");
+				if(document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'mn') {
+					console.log("mn")
+					$(".goog-te-combo").val('mn').click();
+				}
 			}
 			 else if (trans == 'vi') {
 				$(".goog-te-combo").val('vi').prop("selected", true);
-				setTimeout(function(){
-                    $(".goog-te-combo").val('vi');
-					alert("선택쓰!")
-				},1000)
-
-
-				function googleTranslateElementInit() {
-                    //setCookie('googtrans', '/en',1);
-                    new google.translate.TranslateElement({
-                        pageLanguage: 'vi',
-                        autoDisplay: false,
-                        multilanguagePage: true,
-
-                    }, 'google_translate_element');
-                }
-				googleTranslateElementInit()
-				// alert("vi");
+				if(document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'vi') {
+					console.log("vi")
+					$(".goog-te-combo").val('vi').click();
+				}
 			} else if (trans == 'bg') {
 				$(".goog-te-combo").val('bg').prop("selected", true);
-				setTimeout(function(){
-                    $(".goog-te-combo").val('bg');
-					alert("선택쓰!")
-				},1000)
-
-
-				function googleTranslateElementInit() {
-                    //setCookie('googtrans', '/en',1);
-                    new google.translate.TranslateElement({
-                        pageLanguage: 'bg',
-                        autoDisplay: false,
-                        multilanguagePage: true,
-
-                    }, 'google_translate_element');
-                }
-				googleTranslateElementInit()
-				// alert("bg");
+				if(document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'bg') {
+					console.log("bg")
+					$(".goog-te-combo").val('bg').click();
+				}
 			}
 			else if (trans == 'sv') {
 				$(".goog-te-combo").val('sv').prop("selected", true);
-				setTimeout(function(){
-                    $(".goog-te-combo").val('sv');
-					alert("선택쓰!")
-				},1000)
-
-
-				function googleTranslateElementInit() {
-                    //setCookie('googtrans', '/en',1);
-                    new google.translate.TranslateElement({
-                        pageLanguage: 'sv',
-                        autoDisplay: false,
-                        multilanguagePage: true,
-
-                    }, 'google_translate_element');
-                }
-				googleTranslateElementInit()
-				// alert("sv");
+				if(document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'sv') {
+					console.log("sv")
+					$(".goog-te-combo").val('sv').click();
+				}
 			}
 			else if (trans == 'es') {
 				$(".goog-te-combo").val('es').prop("selected", true);
-				setTimeout(function(){
-                    $(".goog-te-combo").val('es');
-					alert("선택쓰!")
-				},1000)
-
-
-				function googleTranslateElementInit() {
-                    //setCookie('googtrans', '/en',1);
-                    new google.translate.TranslateElement({
-                        pageLanguage: 'es',
-                        autoDisplay: false,
-                        multilanguagePage: true,
-
-                    }, 'google_translate_element');
-                }
-				googleTranslateElementInit()
-				// alert("es");
+				if(document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'es') {
+					console.log("es")
+					$(".goog-te-combo").val('es').click();
+				}
 			}
 			else if (trans == 'ar') {
 				$(".goog-te-combo").val('ar').prop("selected", true);
-				setTimeout(function(){
-                    $(".goog-te-combo").val('ar');
-					alert("선택쓰!")
-				},1000)
-
-
-				function googleTranslateElementInit() {
-                    //setCookie('googtrans', '/en',1);
-                    new google.translate.TranslateElement({
-                        pageLanguage: 'ar',
-                        autoDisplay: false,
-                        multilanguagePage: true,
-
-                    }, 'google_translate_element');
-                }
-				googleTranslateElementInit()
-				// alert("ar");
+				if(document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'ar') {
+					console.log("ar")
+					$(".goog-te-combo").val('ar').click();
+				}
 			}
 			else if (trans == 'af') {
 				$(".goog-te-combo").val('af').prop("selected", true);
-				setTimeout(function(){
-                    $(".goog-te-combo").val('af');
-					alert("선택쓰!")
-				},1000)
-
-
-				function googleTranslateElementInit() {
-                    //setCookie('googtrans', '/en',1);
-                    new google.translate.TranslateElement({
-                        pageLanguage: 'af',
-                        autoDisplay: false,
-                        multilanguagePage: true,
-
-                    }, 'google_translate_element');
-                }
-				googleTranslateElementInit()
-				// alert("af");
+				if(document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'af') {
+					console.log("af")
+					$(".goog-te-combo").val('af').click();
+				}
 			}
 			else if (trans == 'sq') {
 				$(".goog-te-combo").val('sq').prop("selected", true);
-				setTimeout(function(){
-                    $(".goog-te-combo").val('sq');
-					alert("선택쓰!")
-				},1000)
-
-
-				function googleTranslateElementInit() {
-                    //setCookie('googtrans', '/en',1);
-                    new google.translate.TranslateElement({
-                        pageLanguage: 'sq',
-                        autoDisplay: false,
-                        multilanguagePage: true,
-
-                    }, 'google_translate_element');
-                }
-				googleTranslateElementInit()
-				// alert("sq");
+				if(document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'sq') {
+					console.log("sq")
+					$(".goog-te-combo").val('sq').click();
+				}
 			}
 			else if (trans == 'et') {
 				$(".goog-te-combo").val('et').prop("selected", true);
-				setTimeout(function(){
-                    $(".goog-te-combo").val('et');
-					alert("선택쓰!")
-				},1000)
-
-
-				function googleTranslateElementInit() {
-                    //setCookie('googtrans', '/en',1);
-                    new google.translate.TranslateElement({
-                        pageLanguage: 'et',
-                        autoDisplay: false,
-                        multilanguagePage: true,
-
-                    }, 'google_translate_element');
-                }
-				googleTranslateElementInit()
-				// alert("et");
+				if(document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'et') {
+					console.log("et")
+					$(".goog-te-combo").val('et').click();
+				}
 			}
 			else if (trans == 'en') {
 				$(".goog-te-combo").val('en').prop("selected", true);
-				setTimeout(function(){
-                    $(".goog-te-combo").val('en');
-					alert("선택쓰!")
-				},1000)
-
-
-				function googleTranslateElementInit() {
-                    //setCookie('googtrans', '/en',1);
-                    new google.translate.TranslateElement({
-                        pageLanguage: 'en',
-                        autoDisplay: false,
-                        multilanguagePage: true,
-
-                    }, 'google_translate_element');
-                }
-				googleTranslateElementInit()
-				// alert("en");
+				if(document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'en') {
+					console.log("en")
+					$(".goog-te-combo").val('en').click();
+				}
 			}
 			else if (trans == 'uz') {
 				$(".goog-te-combo").val('uz').prop("selected", true);
-				setTimeout(function(){
-                    $(".goog-te-combo").val('uz');
-					alert("선택쓰!")
-				},1000)
-
-
-				function googleTranslateElementInit() {
-                    //setCookie('googtrans', '/en',1);
-                    new google.translate.TranslateElement({
-                        pageLanguage: 'uz',
-                        autoDisplay: false,
-                        multilanguagePage: true,
-
-                    }, 'google_translate_element');
-                }
-				googleTranslateElementInit()
-				// alert("uz");
+				if(document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'uz') {
+					console.log("uz")
+					$(".goog-te-combo").val('uz').click();
+				}
 			}
 			else if (trans == 'uk') {
 				$(".goog-te-combo").val('uk').prop("selected", true);
-				setTimeout(function(){
-                    $(".goog-te-combo").val('uk');
-					alert("선택쓰!")
-				},1000)
-
-
-				function googleTranslateElementInit() {
-                    //setCookie('googtrans', '/en',1);
-                    new google.translate.TranslateElement({
-                        pageLanguage: 'uk',
-                        autoDisplay: false,
-                        multilanguagePage: true,
-
-                    }, 'google_translate_element');
-                }
-				googleTranslateElementInit()
-				// alert("uk");
+				if(document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'uk') {
+					console.log("uk")
+					$(".goog-te-combo").val('uk').click();
+				}
 			}
 			else if (trans == 'it') {
 				$(".goog-te-combo").val('it').prop("selected", true);
-				setTimeout(function(){
-                    $(".goog-te-combo").val('it');
-					alert("선택쓰!")
-				},1000)
-
-
-				function googleTranslateElementInit() {
-                    //setCookie('googtrans', '/en',1);
-                    new google.translate.TranslateElement({
-                        pageLanguage: 'it',
-                        autoDisplay: false,
-                        multilanguagePage: true,
-
-                    }, 'google_translate_element');
-                }
-				googleTranslateElementInit()
-				// alert("it");
+				if(document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'it') {
+					console.log("it")
+					$(".goog-te-combo").val('it').click();
+				}
 			}
 			else if (trans == 'id') {
 				$(".goog-te-combo").val('id').prop("selected", true);
-				setTimeout(function(){
-                    $(".goog-te-combo").val('id');
-					alert("선택쓰!")
-				},1000)
-
-
-				function googleTranslateElementInit() {
-                    //setCookie('googtrans', '/en',1);
-                    new google.translate.TranslateElement({
-                        pageLanguage: 'id',
-                        autoDisplay: false,
-                        multilanguagePage: true,
-
-                    }, 'google_translate_element');
-                }
-				googleTranslateElementInit()
-				// alert("id");
+				if(document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'id') {
+					console.log("id")
+					$(".goog-te-combo").val('id').click();
+				}
 			}
 			else if (trans == 'ja') {
 				$(".goog-te-combo").val('ja').prop("selected", true);
-				setTimeout(function(){
-                    $(".goog-te-combo").val('ja');
-					alert("선택쓰!")
-				},1000)
-
-
-				function googleTranslateElementInit() {
-                    //setCookie('googtrans', '/en',1);
-                    new google.translate.TranslateElement({
-                        pageLanguage: 'ja',
-                        autoDisplay: false,
-                        multilanguagePage: true,
-
-                    }, 'google_translate_element');
-                }
-				googleTranslateElementInit()
-				// alert("ja");
+				if(document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'ja') {
+					console.log("ja")
+					$(".goog-te-combo").val('ja').click();
+				}
 			}
 			else if (trans == 'zh-CN') {
 				$(".goog-te-combo").val('zh-CN').prop("selected", true);
-				setTimeout(function(){
-                    $(".goog-te-combo").val('zh-CN');
-					alert("선택쓰!")
-				},1000)
-
-
-				function googleTranslateElementInit() {
-                    //setCookie('googtrans', '/en',1);
-                    new google.translate.TranslateElement({
-                        pageLanguage: 'zh-CN',
-                        autoDisplay: false,
-                        multilanguagePage: true,
-
-                    }, 'google_translate_element');
-                }
-				googleTranslateElementInit()
-				// alert("zh-CN");
+				if(document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'zh-CN') {
+					console.log("zh-CN")
+					$(".goog-te-combo").val('zh-CN').click();
+				}
 			}
 			else if (trans == 'zh-TW') {
 				$(".goog-te-combo").val('zh-TW').prop("selected", true);
-				setTimeout(function(){
-                    $(".goog-te-combo").val('zh-TW');
-					alert("선택쓰!")
-				},1000)
-
-
-				function googleTranslateElementInit() {
-                    //setCookie('googtrans', '/en',1);
-                    new google.translate.TranslateElement({
-                        pageLanguage: 'zh-TW',
-                        autoDisplay: false,
-                        multilanguagePage: true,
-
-                    }, 'google_translate_element');
-                }
-				googleTranslateElementInit()
-				// alert("zh-TW");
+				if(document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'zh-TW') {
+					console.log("zh-TW")
+					$(".goog-te-combo").val('zh-TW').click();
+				}
 			}
 			else if (trans == 'cs') {
 				$(".goog-te-combo").val('cs').prop("selected", true);
-				setTimeout(function(){
-                    $(".goog-te-combo").val('cs');
-					alert("선택쓰!")
-				},1000)
-
-
-				function googleTranslateElementInit() {
-                    //setCookie('googtrans', '/en',1);
-                    new google.translate.TranslateElement({
-                        pageLanguage: 'cs',
-                        autoDisplay: false,
-                        multilanguagePage: true,
-
-                    }, 'google_translate_element');
-                }
-				googleTranslateElementInit()
-				// alert("cs");
+				if(document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'cs') {
+					console.log("cs")
+					$(".goog-te-combo").val('cs').click();
+				}
 			}
 			else if (trans == 'hr') {
 				$(".goog-te-combo").val('hr').prop("selected", true);
-				setTimeout(function(){
-                    $(".goog-te-combo").val('hr');
-					alert("선택쓰!")
-				},1000)
-
-
-				function googleTranslateElementInit() {
-                    //setCookie('googtrans', '/en',1);
-                    new google.translate.TranslateElement({
-                        pageLanguage: 'hr',
-                        autoDisplay: false,
-                        multilanguagePage: true,
-
-                    }, 'google_translate_element');
-                }
-				googleTranslateElementInit()
-				// alert("hr");
+				if(document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'hr') {
+					console.log("hr")
+					$(".goog-te-combo").val('hr').click();
+				}
 			}
 			else if (trans == 'th') {
 				$(".goog-te-combo").val('th').prop("selected", true);
-				setTimeout(function(){
-                    $(".goog-te-combo").val('th');
-					alert("선택쓰!")
-				},1000)
-
-
-				function googleTranslateElementInit() {
-                    //setCookie('googtrans', '/en',1);
-                    new google.translate.TranslateElement({
-                        pageLanguage: 'th',
-                        autoDisplay: false,
-                        multilanguagePage: true,
-
-                    }, 'google_translate_element');
-                }
-				googleTranslateElementInit()
-				// alert("th");
+				if(document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'th') {
+					console.log("th")
+					$(".goog-te-combo").val('th').click();
+				}
 			}
 			else if (trans == 'fa') {
 				$(".goog-te-combo").val('fa').prop("selected", true);
-				setTimeout(function(){
-                    $(".goog-te-combo").val('fa');
-					alert("선택쓰!")
-				},1000)
-
-
-				function googleTranslateElementInit() {
-                    //setCookie('googtrans', '/en',1);
-                    new google.translate.TranslateElement({
-                        pageLanguage: 'fa',
-                        autoDisplay: false,
-                        multilanguagePage: true,
-
-                    }, 'google_translate_element');
-                }
-				googleTranslateElementInit()
-				// alert("fa");
+				if(document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'fa') {
+					console.log("fa")
+					$(".goog-te-combo").val('fa').click();
+				}
 			}
 			else if (trans == 'pt') {
 				$(".goog-te-combo").val('pt').prop("selected", true);
-				setTimeout(function(){
-                    $(".goog-te-combo").val('pt');
-					alert("선택쓰!")
-				},1000)
-
-
-				function googleTranslateElementInit() {
-                    //setCookie('googtrans', '/en',1);
-                    new google.translate.TranslateElement({
-                        pageLanguage: 'pt',
-                        autoDisplay: false,
-                        multilanguagePage: true,
-
-                    }, 'google_translate_element');
-                }
-				googleTranslateElementInit()
-				// alert("pt");
+				if(document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'pt') {
+					console.log("pt")
+					$(".goog-te-combo").val('pt').click();
+				}
 			}
 			else if (trans == 'fr') {
 				$(".goog-te-combo").val('fr').prop("selected", true);
-				setTimeout(function(){
-                    $(".goog-te-combo").val('fr');
-					alert("선택쓰!")
-				},1000)
-
-
-				function googleTranslateElementInit() {
-                    //setCookie('googtrans', '/en',1);
-                    new google.translate.TranslateElement({
-                        pageLanguage: 'fr',
-                        autoDisplay: false,
-                        multilanguagePage: true,
-
-                    }, 'google_translate_element');
-                }
-				googleTranslateElementInit()
-				// alert("fr");
+				if(document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'fr') {
+					console.log("fr")
+					$(".goog-te-combo").val('fr').click();
+				}
 			}
 			else if (trans == 'fi') {
 				$(".goog-te-combo").val('fi').prop("selected", true);
-				setTimeout(function(){
-                    $(".goog-te-combo").val('fi');
-					alert("선택쓰!")
-				},1000)
-
-
-				function googleTranslateElementInit() {
-                    //setCookie('googtrans', '/en',1);
-                    new google.translate.TranslateElement({
-                        pageLanguage: 'fi',
-                        autoDisplay: false,
-                        multilanguagePage: true,
-
-                    }, 'google_translate_element');
-                }
-				googleTranslateElementInit()
-				// alert("fi");
+				if(document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'fi') {
+					console.log("fi")
+					$(".goog-te-combo").val('fi').click();
+				}
 			}
 			else if (trans == 'hu') {
 				$(".goog-te-combo").val('hu').prop("selected", true);
-				setTimeout(function(){
-                    $(".goog-te-combo").val('hu');
-					alert("선택쓰!")
-				},1000)
-
-
-				function googleTranslateElementInit() {
-                    //setCookie('googtrans', '/en',1);
-                    new google.translate.TranslateElement({
-                        pageLanguage: 'hu',
-                        autoDisplay: false,
-                        multilanguagePage: true,
-
-                    }, 'google_translate_element');
-                }
-				googleTranslateElementInit()
-				// alert("hu");
+				if(document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'hu') {
+					console.log("hu")
+					$(".goog-te-combo").val('hu').click();
+				}
 			}
 			else if (trans == 'hi') {
 				$(".goog-te-combo").val('hi').prop("selected", true);
-				setTimeout(function(){
-                    $(".goog-te-combo").val('hi');
-					alert("선택쓰!")
-				},1000)
-
-
-				function googleTranslateElementInit() {
-                    //setCookie('googtrans', '/en',1);
-                    new google.translate.TranslateElement({
-                        pageLanguage: 'hi',
-                        autoDisplay: false,
-                        multilanguagePage: true,
-
-                    }, 'google_translate_element');
-                }
-				googleTranslateElementInit()
-				// alert("hi");
+				if(document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'hi') {
+					console.log("hi")
+					$(".goog-te-combo").val('hi').click();
+				}
 			}
 			else if (trans == 'ko') {
 				$(location).attr("href",'https://bryonsilver.github.io/ON_Hospital/on_hospital/index.html?trans=ko');
 				$(".goog-te-combo").val('ko').prop("selected", true);
-				setTimeout(function(){
-                    $(".goog-te-combo").val('ko');
-					alert("선택쓰!")
-				},1000)
-
-
-				function googleTranslateElementInit() {
-                    //setCookie('googtrans', '/en',1);
-                    new google.translate.TranslateElement({
-                        pageLanguage: 'ko',
-                        autoDisplay: false,
-                        multilanguagePage: true,
-
-                    }, 'google_translate_element');
-                }
-				googleTranslateElementInit()
-				// alert("ko");
+				if(document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'ko') {
+					console.log("ko")
+					$(".goog-te-combo").val('ko').click();
+				}
 			}
 			
 	
 		}
 	}, 1000)
+
+
+	// translator.translate("Hello", "kr", "en") { text, error in
+	// 	guard let text = text, error == nil else {
+	// 		self.alertError(error?.localDescription)
+	// 		return
+	// 	}
+		
+	// 	self.translatedTextLabel.text = text
+	// }
+
+
 
 	// const urlParams = new URL(location.href).searchParams;
 	//   const trans = urlParams.get('trans');
