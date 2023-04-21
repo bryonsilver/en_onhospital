@@ -137,14 +137,14 @@ $(document).ready(function(){
                                             <div class="box_2 box"> 
                                                 <p class="blue_bold_t">${data[d_num].con_title[1]}</p>`
                                                 for(let j=0; j<data[d_num].con2.length;j++) {
-                                                    if (de_num == 1 == 3) {
+                                                    if (de_num == 1 ) {
                                                         list +=  `<p>${data[d_num].con2[j]}</p>`
                                                     } 
                                                     else if (de_num == 4) {
                                                         list +=  `<p class="bold">${data[d_num].con2[j]}</p>`
                                                     }
                                                 } 
-                                                if (de_num == 2) {
+                                                if (de_num == 2 || de_num == 3 ) {
                                                     list +=  `<p class="bold">${data[d_num].con2[0]}</p>
                                                             <p class="left3">${data[d_num].con2[1]}</p>
                                                             <p class="left4">${data[d_num].con2[2]}</p>
@@ -170,7 +170,8 @@ $(document).ready(function(){
                                                     <p class="small_left">${data[d_num].con5[2]}</p>
                                                     <p class="small_left">${data[d_num].con5[3]}</p>
                                                     <p class="small_left">${data[d_num].con5[4]}</p>
-                                                    <p class="small_left">${data[d_num].con5[5]}</p>`
+                                                    <p class="small_left">${data[d_num].con5[5]}</p>
+                                                    <p class="small_left">${data[d_num].con5[6]}</p>`
                                                 } else if (de_num == 4) [
                                                     list+=   `<p>${data[d_num].con5[0]}</p>
                                                     <p class="small">${data[d_num].con5[1]}</p>

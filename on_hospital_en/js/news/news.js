@@ -57,16 +57,16 @@ $(document).ready(function(){
     for(let i=0; i<NEWS_LIST[num].length; i++) {
         let list = `
                         <tr>
-                            <td class="d_none t_td">${NEWS_LIST[num][i].num}</td>
+                            <td class="d_none t_td notranslate">${NEWS_LIST[num][i].num}</td>
                             <td class="t_td">
-                                <a href="./news_detail.html?num=${num}&de_num=${NEWS_LIST[num][i].item_no}" class="color">${NEWS_LIST[num][i].title}</a>
+                                <a href="./news_detail.html?num=${num}&de_num=${NEWS_LIST[num][i].item_no}" style="max-width: 300px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;" class="color">${NEWS_LIST[num][i].title}</a>
                                 <span class="label_icon"></span>
                             </td>
                             <td class="d_none t_td t_centerv">
-                                <a href="#" class="member_1" title="${NEWS_LIST[num][i].writer}">${NEWS_LIST[num][i].writer}</a>
+                                <a href="#" class="member_1" style="max-width: 300px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;" title="${NEWS_LIST[num][i].writer}">${NEWS_LIST[num][i].writer}</a>
                             </td>
-                            <td class="t_td right">${NEWS_LIST[num][i].date}</td>
-                            <td class="d_none t_td t_center">15497</td>
+                            <td class="t_td right notranslate">${NEWS_LIST[num][i].date}</td>
+                            <td class="d_none t_td t_center notranslate">15497</td>
                         </tr>`
         $('.tbody').append(list);
     }
@@ -140,7 +140,7 @@ $(document).ready(function(){
 
         /* 페이지네이션 li를 생성 반복문 */
         for(var i=1; i<= pageCount; i++) {
-            numbers.append('<li><a href="">'+i+'</a></li>')
+            numbers.append('<li><a class="notranslate" href="">'+i+'</a></li>')
         }
         /*  1번 1~ 20
                 2번 21 ~ 40

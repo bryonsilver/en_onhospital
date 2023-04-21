@@ -352,55 +352,104 @@ const CENT_LIST = [
             item_no:25,
              img_src:'page-img10.jpg', 
              sub_title:['INTRODUCTION', 'SPECIALIZED CLINICS'], 
-             pro_context5:'교정발치, 빠른 교정을 위한 피질골절단술, 구개확장, 매복치의 SURGERY적노출, 골신장술',
-             pro_context4:'구순구개열, 안면기형',
-             pro_context3:'안면골절, 외상 후 부정교합, 외상 후 치아/치조골 재건술(임플란트)',
-             pro_context2:'사각턱, 돌출입수술, 무턱, 귀족수술, 턱끝성형술',
-             pro_context1:['양악수술, 하악수술, 주걱턱, 안면비대칭, 긴얼굴, 잇몸노출증, 개교합, 무턱','(술전교정수술, 최소교정수술, 선수술, 무교정수술)'],
-             pro_title:['턱교정(악교정)클리닉','얼굴윤곽클리닉','악안면외상클리닉','안면기형클리닉','구강악안면SURGERY'],
-             sub_context5:['기존의 술전교정(1년이상)/ 수술/술후 교정(6개월)으로 이루어지던 약 2년의 치료기간이 걸리던 것과 달리 선수술은 수술을 먼저 시행하고 수술 후 교정을 시행하는 것으로 그 치료기간이 6개월에서 1년 정도 단축되는 것이 가장 큰 장점이라 할 수 있습니다.'],
-             sub_context4:['정확한 치아와 골격의 분석을 통하여 선수술이 가능한 환자는 수술을 먼저 시행하거나 최소교정 후 수술을 시행하여 술전교정 기간 중 교정으로 인한 불편감과 전체치료기간을 줄였습니다. 기존의 치료가 약 2년의 치료기간(술전교정[1년이상] / 수술 / 술후 교정[6개월])인 것과 달리 선수술은은 수술을 먼저 시행하고 수술 후 교정을 시행하는 것으로 그 치료기간이 6개월에서 1년 정도 단축되는 것이 가장 큰 장점이라 할 수 있습니다.'],
-             sub_context3:['ON Hospital 턱ㆍ얼굴(악안면)수술센터는 최신의 장비를 이용하여 수술전 분석(2D cephalometry/3D CT/model 분석)을 시행하여 환자 개인에 맞는 최상의 수술계획을 수립하고 있습니다.'],
-             sub_context2:['환자중심의 CENTERS One-stop/ One-way(외래/수술준비/입원/수술)시스템 및 턱ㆍ얼굴(악안면)수술환자을 위한 1인실/2인실 입원시스템 그리고 복잡한 과정(접수/대기/반복내원)을 줄여 불편감을 최소로 하였습니다.'],
-             sub_context1: ['ON Hospital MAXILLOFACIAL SURGERY는 최고 수준의 진료를 제공하기 위하여 구강악안면SURGERY 의료진을 중심으로 OTOLARYNGOLOGY 전문의, 마취통증 의학과 전문의 등 체계화된 협진체제로 구성되어 정확한 평가와 치료와 수술 후 최상의 결과를 제공하고 있다.']},
+             pro_context5:'Orthodontic extraction, corticotomy for accelerated orthodontics, palate expansion, surgical exposure of impacted teeth, bone augmentation surgery',
+             pro_context4:'Cleft lip and palate, craniofacial deformity',
+             pro_context3:'Facial fracture, malocclusion after trauma, tooth/jawbone reconstruction surgery after trauma (implants)',
+             pro_context2:'Square jaw, protruding mouth surgery, no chin, aristocratic surgery, chin tip surgery',
+             pro_context1:['Upper and lower jaw surgery, chin augmentation, facial asymmetry, long face, gum exposure, open bite, no chin (orthodontic correction surgery, minimal correction surgery, presurgical correction surgery, non-correction surgery)'],
+             pro_title:[
+                'Jaw correction (Maxillofacial correction) Clinic',
+                'Facial Contouring Clinic',
+                'Maxillofacial Trauma Clinic',
+                'Craniofacial Deformity Clinic',
+                'Oral and Maxillofacial Surgery'
+            ],
+             sub_context5:['Unlike the conventional treatment process which consisted of pre-surgical orthodontic treatment (over 1 year), surgery, and post-surgical orthodontic treatment (6 months), the pre-surgical orthodontic treatment can be minimized or avoided by analyzing the teeth and bones accurately to determine if surgical correction is possible. This approach, known as pre-surgical orthodontic treatment, enables surgery to be performed first, followed by post-surgical orthodontic treatment, resulting in a significant reduction of the overall treatment period to approximately 6 months to 1 year, compared to the previous treatment period of around 2 years.'],
+             sub_context4:['According to precise analysis of teeth and skeletal structure, patients who are suitable for orthognathic surgery can undergo surgery first or undergo minimal orthodontic correction before surgery, which reduces the discomfort and overall treatment period during pre-surgical orthodontic correction of more than 1 year, surgery, and post-surgical orthodontic correction of 6 months, which was the conventional treatment. The biggest advantage of orthognathic surgery is that the treatment period can be shortened from 2 years to about 6 months to 1 year by performing surgery first and then orthodontic correction after surgery.'],
+             sub_context3:['Using state-of-the-art equipment, Facial Contouring Center at ON Hospital performs preoperative analyses (2D cephalometry/3D CT/model analysis) to establish the best surgical plan tailored to each patient.'],
+             sub_context2:['The patient-centered center utilizes a one-stop/one-way (outpatient/preoperative preparation/inpatient/surgery) system and offers single and double occupancy rooms for patients undergoing jaw and facial (maxillofacial) surgery, minimizing discomfort by reducing complex processes such as admission/waiting/repeated visits.'],
+             sub_context1: ['Facial Contouring Center at ON Hospital is composed of an oral and maxillofacial surgical team, as well as a team of otolaryngologists and anesthesiologists, working together in a systematic approach to provide the highest level of care and deliver precise evaluations, treatments, and surgical outcomes.']},
         {cate_no:0, 
             item_no:26,
              img_src:'26_.jpg', 
              sub_title:['', 'SPECIALTY'], 
-             sub_context2: ['암수술/폐·흉부종양의 흉강 내시경 수술','다한증(손발겨드랑이 다한증 및 겨드랑이 땀냄새)의 수술 및 비수술적 치료','기흉/하지 정맥류/누두흉(오목가슴)등의 흉벽기형'],
-             sub_context1: ['심장, 폐 기관, 식도, 대동맥 등 생명 유지에 기본이 되는 중요 장기의 질환 진단 및 수술', '부산.경남 최초 흉강경이용 폐엽절제술 성공']},
+             sub_context2: [
+                'Surgery for cancer and thoracic endoscopic surgery for lung and chest tumors',
+                'Surgical and non-surgical treatment of hyperhidrosis (excessive sweating in the hands, feet, and armpits)',
+                'Thoracic wall deformities such as pneumothorax, varicose veins in the lower extremities, and pectus excavatum (sunken chest)'
+            ],
+             sub_context1: [
+                'We diagnose and perform surgeries on important organs that are essential to life, such as the heart, lungs, esophagus, and aorta in Busan and Gyeongnam', 
+                'We have succeeded in performing the first thoracoscopic lobectomy surgery in the region'
+            ]},
         {cate_no:0, 
             item_no:27,
              img_src:'27_.jpg', 
              sub_title:['INTRODUCTION', 'SPECIALIZED CLINICS'], 
-             bold:'항암 방사선 치료',
-             sub_context5: ['- ON Hospital 방사선 치료 안내.pdf', '다운로드'],
-             sub_context4: ['단순히 방사선을 쬐는 것만으로는 방사선 치료가 이루어지는 것은 아닙니다.','종양의 크기, 퍼진 정도, 형태와 분화도 및 종양의 방사선에 대한 민감도 등을 모두 감안하여 방사선량, 치료기간 등이 결정되며, 여기에 환자의 건강상태 등도 고려되어야 합니다.', '따라서 방사선 치료를 위해서는 숙련된 의료진과 진단장비 및 첨단 방사선치료기기가 필수적이며, 아울러 질환에 적합한 치료 기법을 선택할 수 있도록 다양한 치료기법을 시행 할 수 있는지도 고려 되어져야하고, 정상세포에 대한 영향을 최소화 하기 위해 고도의 기술적 축적이 요구 됩니다.'],
-             sub_context3: ['방사선치료기법의 발전으로 인체 암에 대해 방사선을 조사할 때 과거에 비하여 종양주변 정상조직에는 방사선을 크게 줄이고, 종양조직에만 고선량의 방사선을 조사 할 수 있게 되었으며, 이로 인하여 방사선치료와 연관 된 합병증은 낮게 유지하면서 종양에 대한 제어율을 크게 높아졌습니다. ',' 이와 같은 방사선 치료 선진국에서 전체 암 환자의 60%가 방사선치료를 받을 정도로 방사선치료가 암 치료에 지대한 역할을 담당하고 있습니다.'],
-             sub_context2: ['방사선 치료는 방사선이 발생되는 장치(라이낙 치료기)혹은 방사선 동위원소를 이용하여 고에너지 방사선을 조사하여 암세포를 죽이는 치료법입니다.','방사선 치료에 사용되는 방사선은 파장이 매우 짧고 높은 에너지를 갖고 있으며, 인체에 조사될 경우 핵산에 변성을 초래하여 종양 세포를 죽이게 되며, 암세포에 집중적으로 방사선을 조사하면 암세포를 파괴하고 더 이상 증식되는 것을 막아줍니다.','이 경우 주변의 정상 세포도 방사선의 영향을 받지만 정상세포는 종양세포보다 빠르게 회복되는 잇점과 대부분의 손상이 빠르게 회복되어 영향을 최소화 할 수 있습니다. 방사선은 암세포처럼 빠르게 증식하는 조직에 대하여 파괴 효과가 높기 때문입니다.'],
-             sub_context1: ['항암 방사선 치료센터는 방사선을 이용하여 환자를 치료하는 임상의학의 한 방법으로, 수술, 항암 화학 요법과 더불어 3대 암 치료 중 하나입니다.']  },
+             bold:'Cancer Radiation Treatment',
+             sub_context5: ['- Comprehensive Hospital Radiation Therapy Guide.pdf', 'Download'],
+             sub_context4: [
+                'Simply exposing radiation does not constitute radiation therapy.',
+                'The radiation dose and treatment period are determined by considering factors such as the size of the tumor, the degree of spread, the shape and differentiation degree of the tumor, and the sensitivity of the tumor to radiation. In addition, the patient`s health status must also be taken into account.',
+                'Therefore, for radiation therapy, skilled medical staff, diagnostic equipment, and advanced radiation therapy equipment are essential. Moreover, it is necessary to consider whether various treatment techniques can be performed to choose an appropriate treatment technique for the disease, and advanced technical skills are required to minimize the impact on normal cells.'
+            ],
+             sub_context3: [
+                'With the development of radiation therapy techniques, the amount of radiation that is given to normal tissue around the tumor has been greatly reduced compared to the past, and high doses of radiation can now be applied only to the tumor tissue, greatly increasing the control rate of the tumor while keeping the complications associated with radiation therapy low. ',
+                ' 이와 같은 방사선 치료 선진국에서 전체 암 환자의 60%가 방사선치료를 받을 정도로 방사선치료가 암 치료에 지대한 역할을 담당하고 있습니다.'
+            ],
+             sub_context2: [
+                'Radiation therapy is a treatment that kills cancer cells by irradiating high-energy radiation through a radiation-emitting device (linac therapy machine) or a radioactive isotope.',
+                'The radiation used in radiation therapy has a very short wavelength and high energy, and when it is irradiated into the human body, it causes degeneration of nucleic acids, killing tumor cells. When radiation is focused on cancer cells, it destroys them and prevents them from multiplying any further.',
+                'In this case, normal cells surrounding the cancer cells are also affected by radiation, but normal cells have the advantage of recovering faster than tumor cells, and most of the damage can be quickly recovered, minimizing the impact. Radiation is more effective in destroying tissues that grow rapidly, such as cancer cells.'
+            ],
+             sub_context1: ['Cancer radiation therapy is one of the three major cancer treatments, along with surgery and chemotherapy, which uses radiation to treat patients as a clinical medicine method.']  },
         {cate_no:0, 
             item_no:28,
              img_src:'28_.jpg', 
-             sub_title:['"ON Hospital 호스피스 완화의료병동은 이렇게 운영 됩니다."', '호스피스 완화의료에 대한 오해와 진실'], 
-             top_small:'호스피스 완화의료 서비스는 `포기`가 아닌 적극적인 `치료와 돌봄`으로 말기 암 환자의 신체적 증상을 조절하고 환자와 가족의 심리사회적, 영적 어려움을 도와 삶의 질을 향상시키는 것을 목표로 하는 의료서비스입니다.',
-             top_li:['보건복지부 지정 호스피스 완화의료 병동 운영', '말기 암 환자를 대상으로 입원형 호스피스 운영', '본인부담 5%으로 최저비용, 최고효율 효과! 의료도우미 제공!', '최고의 시설, 쾌적한 환경의 임원병동 운영'],
-             main_title:['호스피스 완화의료는 삶을 포기하고, 죽음을 기다리는 것이다?', '호스피스 완화의료 기관에서는 아무것도 하는 게 없다?', '호스피스 완화의료 기관에서는 가족과 함께 지낼 수 없다?', '호스피스 완화의료는 비용이 비싸다?'],
+             sub_title:[
+                '"This is how ON Hospital`s hospice palliative care ward operates."',
+                'Misconceptions and Truths about Hospice Palliative Care'
+            ], 
+             top_small:'Hospice palliative care services aim to improve the quality of life for terminally ill cancer patients by actively treating and caring for their physical symptoms, as well as helping with their psychological, social, and spiritual difficulties, rather than giving up on them.',
+             top_li:[
+                'Designated by the Ministry of Health and Welfare for hospice palliative care ward operations', 
+                'Providing medical helpers at a minimum cost of 5% self-payment for maximum efficiency', 
+                'Providing medical helpers at a minimum cost of 5% self-payment for maximum efficiency!', 
+                'Operating the best facilities and comfortable environments for hospice care'
+            ],
+             main_title:[
+                'Hospice palliative care is about giving up on life and waiting for death?', 
+                'There is nothing to do at hospice palliative care facilities?', 
+                'Families cannot stay with patients at hospice palliative care facilities?', 
+                'Hospice palliative care is expensive?'
+            ],
              main_num:['1', '2', '3', '4'],
-             main_red_text:'NO! 아닙니다!',
-             sub_context4: ['건강보험이 적용되어 암환자는 본인 부담 5%만 적용됩니다.', '다만, 상급병실료나 특진비 등 Billing and Insurance 항목은 일부의 비용을 부담할 수 있습니다.'] ,
-             sub_context3: ['가족이 함께 지낼 수 있으며, 가족의 심리적, 사회적 어려움에 대해서도 도움을 받으실 수 있습니다.'] ,
-             sub_context2: ['환자가 겪고 있는 통증, 섬망 등의 증상에 대해 완화전문 의료진으로 부터 통증관리 및 증상을 조절하고 삶을 의미 있게 보내실 수 있도록 심리치료, 마사지, 음악요법, 미술요법 등 다양한 프로그램을 제공하고 있습니다.'] ,
-             sub_context1: ['통증, 구토, 호흡곤란, 복수 등의 신체적 증상을 적극적으로 치료하고 심리적, 사회적, 영적인 어려움을 도와드리기 위해 각 분야의 전문가가 팀을 이루어 삶의 질 향상을 목표로 하는 의료서비스입니다.', '증상조절이 되면 퇴원 후 일상생활을 할 수 있습니다.'] },
+             main_red_text:'NO! That is not true!',
+             sub_context4: [
+                'Health insurance is applicable, and cancer patients are only responsible for 5% of the cost.', 
+                'However, non-insured items, such as higher room rates or additional fees, may require some additional cost.'
+            ] ,
+             sub_context3: ['Families can stay together, and can also receive help with their psychological and social difficulties.'] ,
+             sub_context2: ['Hospice palliative care specialists manage pain and symptoms related to the patient`s suffering, and offer a variety of programs, such as psychotherapy, massage therapy, music therapy, and art therapy, to help patients lead meaningful lives.'] ,
+             sub_context1: [
+                'This medical service aims to improve the quality of life by actively treating physical symptoms, such as pain, vomiting, respiratory distress, and other psychological, social, and spiritual difficulties through a team of specialists in each field.', 
+                'When the symptoms are controlled, patients can return to their daily lives.'
+            ] },
         {cate_no:0, 
             item_no:29,
              img_src:'', 
-             sub_title:['#안전한 병원치료#음압시스템#유기적인 협진시스템'], 
-             circle_border:'교수출신 호흡기·알레르기·결핵',
-             circle_text:['폐렴', '폐암', '만성 폐쇄성 폐질환 COPD'],
-             sub_context3:['주요 진료 분야는 만성 폐쇄성 폐질환, 기관지 천식, 폐암, 폐렴, 폐결핵, 만성기침, 기관지 확장증, 간질성 폐 질환, 호흡부전, 흉막 질환(기흉, 흉막염, 흉수, 농흉), 식도암, 종격동 종양, 다한증, 오목가슴, 기관 협착 등이며 폐암 진단 시 정기적이고 지속적인 관리를 해드립니다. 저희 Respiratory 의료진 모두는 환자분들 편에 서서 여러분의 고통을 해결해 드리기 위해 최선을 다할 것으로 약속드립니다.'],
-             sub_context2:['Respiratory는 DEPARTMENT OF <SPAN>RESPIRATORY MEDICINE</SPAN>와 THORACIC SURGERY로 구서오디어 있어 질병의 정확한 진단, 치료 및 수술까지 빠르고 정확하게 진료할 수 있습니다.', '또한 관련 DEPARTMENT와 협진을 통해 여러 분야의 전문의들이 모여 환자 중심의 진료를 받을 수 있습니다.'],
-             sub_context1: ['우리 사회의 고령화 추세가 높아지면서 호흡기계 중증 질환자의 수가 급격하게 증가하고 있습니다.','이처럼 호흡기계 질환자의 증가에 따라 효율적인 진료를 위해 Respiratory를 개설, 운영하고 있습니다.'] },
+             sub_title:['#Safe Hospital Treatment #Negative Pressure System #Organic Collaboration System'], 
+             circle_border:'Respiratory, Allergy, and Tuberculosis specialist from a professorial background',
+             circle_text:['Pneumonia', 'Lung cancer', 'Chronic obstructive pulmonary disease COPD'],
+             sub_context3:['The main areas of treatment are chronic obstructive pulmonary disease (COPD), bronchial asthma, lung cancer, pneumonia, pulmonary tuberculosis, chronic cough, bronchiectasis, interstitial lung disease, respiratory failure, pleural diseases (pneumothorax, pleurisy, pleural effusion, empyema), esophageal cancer, mediastinal tumors, bronchiolitis obliterans, flail chest, and airway obstruction. In the case of lung cancer diagnosis, we provide regular and continuous management. All of our respiratory center medical staff promise to do our best to relieve your pain and solve your problems for the benefit of our patients.'],
+             sub_context2:[
+                'Respiratory centers consist of departments of respiratory medicine and thoracic surgery, enabling accurate diagnosis, treatment, and surgery of diseases in a timely and accurate manner.', 
+                '또한 관련 DEPARTMENT와 협진을 통해 여러 분야의 전문의들이 모여 환자 중심의 진료를 받을 수 있습니다.'
+            ],
+             sub_context1: [
+                'As our society ages, the number of patients with severe respiratory diseases is rapidly increasing.',
+                'In response to this trend, respiratory centers are being established and operated to provide efficient medical care.'
+            ] },
     ]
 ]
 
@@ -431,10 +480,10 @@ const CENT_TITLE = [
         {cate_no:0, item_no:23, title:'Ultrasound Diagnostic Center', icon_src:'medi_w_cetner_23', name:'초음파진단센터'},
         {cate_no:0, item_no:24, title:'Pancreatic Duct Center', icon_src:'medi_w_cetner_24', name:'췌장담도센터'},
         {cate_no:0, item_no:25, title:'Maxillofacial Surgery', icon_src:'medi_w_cetner_25', name:'턱얼굴수술센터'},
-        {cate_no:0, item_no:26, title:'Lung Cancer', icon_src:'medi_w_cetner_26', name:'폐암수술센터'},
-        {cate_no:0, item_no:27, title:'Chemotherapy Radiation', icon_src:'medi_w_cetner_27', name:'항암방사선치료센터'},
-        {cate_no:0, item_no:28, title:'Hospice & Palliative Care', icon_src:'medi_w_cetner_28', name:'호스피스완화의료병동'},
-        {cate_no:0, item_no:29, title:'Respiratory', icon_src:'medi_w_cetner_29', name:'호흡기센터'},
+        {cate_no:0, item_no:26, title:'Lung Cancer Surgery Center', icon_src:'medi_w_cetner_26', name:'폐암수술센터'},
+        {cate_no:0, item_no:27, title:'Cancer Radiation Treatment Center', icon_src:'medi_w_cetner_27', name:'항암방사선치료센터'},
+        {cate_no:0, item_no:28, title:'Hospice Palliative Care Ward', icon_src:'medi_w_cetner_28', name:'호스피스완화의료병동'},
+        {cate_no:0, item_no:29, title:'Respiratory Center', icon_src:'medi_w_cetner_29', name:'호흡기센터'},
     ]
 ]
 const HOSPI_TITLE = [
@@ -445,8 +494,8 @@ const HOSPI_TITLE = [
         {cate_no:0, item_no:11, title:'Breast/Thyroid Cancer'},
         {cate_no:0, item_no:15, title:'Intreventional Surgery'},
         {cate_no:0, item_no:18, title:'Prostate Cancer'},
-        {cate_no:0, item_no:24, title:'Lung Cancer'},
-        {cate_no:0, item_no:25, title:'Chemotherapy Radiation'},
+        {cate_no:0, item_no:24, title:'Lung Cancer Surgery Center'},
+        {cate_no:0, item_no:25, title:'Cancer Radiation Treatment Center'},
     ]
 ]
 const LIST_N = [

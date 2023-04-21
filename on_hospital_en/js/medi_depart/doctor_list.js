@@ -12,8 +12,12 @@ const DOCTOR = [
             afte_schedule:['Medical Treatment','','Medical Treatment','','Medical Treatment',''], 
             morn_color:['cir_danger','cir_danger','cir_danger','cir_danger','cir_danger','cir_danger',], 
             afte_color: ['cir_primary','','cir_primary','','cir_primary',''],
-            phamacology: ['부산대학교 의학전문대학원 석사','부산대학교병원 Department of Family Medicine 전공의', '한국의학연구소 내시경센터 진료 과장'],
-            activity: ['대한가정의학회 정회원'],
+            phamacology: [
+                'Pusan ​​National University, Graduate School of Medicine, M.A.',
+                'Pusan ​​National University Hospital Department of Family Medicine Resident', 
+                'Korea Medical Research Institute Endoscopy Center Clinical Manager'
+            ],
+            activity: ['Regular member of the Korean Academy of Family Medicine'],
             professional: ['Comprehensive health check-up / Gastrointestinal Nerve Center / Health consultation'],
         },
         {   cate_no:0,
@@ -27,8 +31,19 @@ const DOCTOR = [
             afte_schedule:['Medical Treatment','','Medical Treatment','Medical Treatment','',''], 
             morn_color: ['cir_danger','cir_danger','cir_danger','cir_danger','cir_danger','cir_danger',], 
             afte_color: ['cir_primary','','cir_primary','cir_primary','',''],
-            phamacology:['동아대학교병원 Department of Family Medicine 전공의', '동아대학교병원 Department of Family Medicine 교수(전임의)','Department of Family Medicine 전문의','Adjunct Professor of Department of Family Medicine, Dong-A University Hospital','현, 온 종합병원 종합MEDICAL CHECK-UP CENTER장'],
-            activity: ['대한 가정의학회 정회원','대한 위대장내시경학회 인증의','대한 노인병학회 정회원','대한 임상초음파학회 정회원'],
+            phamacology:[
+                'Dong-A University Hospital Department of Family Medicine Specialist', 
+                'Dong-A University Hospital Department of Family Medicine Professor (full-time doctor)',
+                'Specialist in Department of Family Medicine',
+                'Adjunct Professor of Department of Family Medicine, Dong-A University Hospital',
+                'Currently, head of general MEDICAL CHECK-UP CENTER of Onn General Hospital'
+            ],
+            activity: [
+                'Regular member of the Korean Academy of Family Medicine',
+                'Certified by the Korean Society of Gastrointestinal Endoscopy',
+                'Regular member of the Korean Society of Geriatrics',
+                'Regular member of the Korean Society of Clinical Ultrasound'
+            ],
             professional: ['Comprehensive health check-up / Gastrointestinal Nerve Center / Obesity clinic (metabolic syndrome) / Health consultation'],
         },
         {   cate_no:0,
@@ -42,8 +57,21 @@ const DOCTOR = [
             afte_schedule:['Medical Treatment','Medical Treatment','','Medical Treatment','Medical Treatment',''], 
             morn_color: ['cir_danger','cir_danger','cir_danger','cir_danger','cir_danger','cir_danger'], 
             afte_color: ['cir_primary','cir_primary','','cir_primary','cir_primary',''],
-            phamacology:['포항공과대학교 생명과학과 졸업', '가천대학교 의학전문대학원 석사', '가천대길병원 Department of Family Medicine 전공의','근로복지공단 정선병원 DEPARTMENT장','서울아산병원 Department of Family Medicine 전임의','Department of Family Medicine 지도전문의'],
-            activity: ['대한가정의학회 정회원','대한위대장내시경학회 정회원','대한노인병학회 정회원','노인병 인정의', '대한통증학회 TPI 인증의'],
+            phamacology:[
+                'Graduated from the Department of Life Sciences, Pohang University of Science and Technology', 
+                'Gachon University Medical School Master`s', 
+                'Gachon University Gil Hospital Department of Family Medicine Resident',
+                'Labor Welfare Corporation Jeongseon Hospital Department Director',
+                'Seoul Asan Medical Center Department of Family Medicine full-time',
+                'Department of Family Medicine supervising specialist'
+            ],
+            activity: [
+                'Regular member of the Korean Academy of Family Medicine',
+                'Regular member of the Korean Society of Gastrointestinal Endoscopy',
+                'Regular member of the Korean Society of Geriatrics',
+                'geriatric', 
+                'Korean Pain Society TPI Certification'
+            ],
             professional: ['Comprehensive health check-up / Gastrointestinal Nerve Center / Ultrasonography / Management of chronic diseases / Obesity clinic / Metabolic syndrome'],
         }
     ],
@@ -60,8 +88,19 @@ const DOCTOR = [
             afte_schedule:['Medical Treatment','Medical Treatment','Medical Treatment','Medical Treatment','',''], 
             morn_color: ['cir_danger','cir_danger','cir_danger','cir_danger','cir_danger','cir_danger',], 
             afte_color: ['cir_primary','cir_primary','cir_primary','cir_primary','',''],
-            phamacology:['동아대학교병원 Department of Family Medicine 전공의', '동아대학교병원 Department of Family Medicine 교수(전임의)','Department of Family Medicine 전문의','Adjunct Professor of Department of Family Medicine, Dong-A University Hospital','현, 온 종합병원 종합MEDICAL CHECK-UP CENTER장'],
-            activity: ['대한 가정의학회 정회원','대한 위대장내시경학회 인증의','대한 노인병학회 정회원','대한 임상초음파학회 정회원'],
+            phamacology:[
+                'Dong-A University Hospital Department of Family Medicine Specialist', 
+                'Dong-A University Hospital Department of Family Medicine Professor (full-time doctor)',
+                'Specialist in Department of Family Medicine',
+                'Adjunct Professor of Department of Family Medicine, Dong-A University Hospital',
+                'Currently, head of general MEDICAL CHECK-UP CENTER of Onn General Hospital'
+            ],
+            activity: [
+                'Regular member of the Korean Academy of Family Medicine',
+                'Certified by the Korean Society of Gastrointestinal Endoscopy',
+                'Regular member of the Korean Society of Geriatrics',
+                'Regular member of the Korean Society of Clinical Ultrasound'
+            ],
             professional: ['Comprehensive health check-up / Gastrointestinal Nerve Center / Obesity clinic (metabolic syndrome) / Health consultation'],
         },
         {   cate_no:1,
@@ -75,8 +114,12 @@ const DOCTOR = [
             afte_schedule:['Medical Treatment','','Medical Treatment','','Medical Treatment',''], 
             morn_color:['','','','','','',], 
             afte_color: ['cir_primary','','cir_primary','','cir_primary',''],
-            phamacology: ['부산대학교 의학전문대학원 석사','부산대학교병원 Department of Family Medicine 전공의', '한국의학연구소 내시경센터 진료 과장'],
-            activity: ['대한가정의학회 정회원'],
+            phamacology: [
+                'Pusan ​​National University, Graduate School of Medicine, M.A.',
+                'Pusan ​​National University Hospital Department of Family Medicine Resident', 
+                'Korea Medical Research Institute Endoscopy Center Clinical Manager'],
+            activity: ['Regular member of the Korean Academy of Family Medicine'
+        ],
             professional: ['Comprehensive health check-up / Gastrointestinal Nerve Center / Health consultation'],
         },
         
@@ -91,10 +134,14 @@ const DOCTOR = [
             medi_his_con:'Former Medical Specialist, Seoul Asan Hospital', 
             one_speci_con:'Department of Hepatobiliary and Pancreatic Surgery', 
             morn_schedule:['Surgery / Test','Surgery / Test','Surgery / Test','Surgery / Test','Surgery / Test','Inquiry'], 
-            afte_schedule:['중환자실','','중환자실','중환자실','중환자실','Inquiry'], 
+            afte_schedule:['Intensive Care Unit (ICU)','','Intensive Care Unit (ICU)','Intensive Care Unit (ICU)','Intensive Care Unit (ICU)','Inquiry'], 
             morn_color:['cir_danger','cir_danger','cir_danger','cir_danger','cir_danger','cir_success',], 
             afte_color: ['cir_intensive_care_unit','','cir_intensive_care_unit','cir_intensive_care_unit','cir_intensive_care_unit','cir_success'],
-            phamacology:['동국대학교 의학과 졸업','원자력병원 전공의','Former Medical Specialist, Seoul Asan Hospital',],
+            phamacology:[
+                'Graduated from Dongguk University, Department of Medicine',
+                'nuclear power hospital specialist',
+                'Former Medical Specialist, Seoul Asan Hospital',
+            ],
             activity: [''],
             professional: [''],
         },
@@ -109,9 +156,24 @@ const DOCTOR = [
             afte_schedule:['Surgery / Test','Surgery / Test','Surgery / Test','Surgery / Test','',''], 
             morn_color:['cir_primary','cir_primary','cir_primary','cir_primary','cir_danger','cir_success',], 
             afte_color: ['cir_primary','cir_primary','cir_primary','cir_primary','',''],
-            phamacology:['국립 경상대 의과대학 학사','울산대학교 일반대학원 의학과 석·박사','서울아산병원 간담췌 및 이식 전임의','(간담췌 SURGERY, 혈관 이식 SURGERY, 외상 SURGERY 및 중환자 의학)','양산부산대학교 SURGERY 교수 장기이식센터장','빈멕 병원 SURGERY, 하노이, 베트남'],
-            activity: ['대한SURGERY학회 평생회원','한국Department of Hepatobiliary and Pancreatic Surgery학회 정회원','대한내분비SURGERY학회 정회원','대한중환자의학회 정회원','대한외상중환자SURGERY학회 정회원','대한내시경복강경학회 정회원','대한이식학회/대한간학회/간암연구회/대한췌담도학회/췌장수술연구회'],
-            professional: ['간담췌 SURGERY/혈관 이식 SURGERY/중환자 및 외상 SURGERY/유방 및 갑상선 SURGERY'],
+            phamacology:[
+                'Bachelor of Medicine, Gyeongsang National University',
+                'University of Ulsan, Graduate School of Medicine, Master`s and Doctorate',
+                'Hepatobiliary pancreas and transplantation full-time doctor at Asan Medical Center',
+                '(Hepatobiliary SURGERY, Vascular Transplant SURGERY, Trauma SURGERY and Critical Care Medicine)',
+                'Yangsan Pusan ​​National University SURGERY Professor Organ Transplantation Center Director',
+                'Vinmec Hospital SURGERY, Hanoi, Vietnam'
+            ],
+            activity: [
+                'Lifetime member of the Korean Surgery Society',
+                'Regular member of the Korean Department of Hepatobiliary and Pancreatic Surgery',
+                'Regular member of the Korean Society of Endocrine Surgery',
+                'Regular member of the Korean Society of Critical Care Medicine',
+                'Regular member of the Korean Society of Trauma Surgery',
+                'Regular member of the Korean Society of Endoscopy and Laparoscopy',
+                'The Korean Transplantation Society/The Korean Liver Society/The Liver Cancer Research Society/The Korean Pancreaticobiliary Society/The Pancreatic Surgery Research Society'
+            ],
+            professional: ['Hepatobiliary and Pancreatic Surgery / Vascular Transplantation Surgery / Intensive Care and Trauma Surgery / Breast and Thyroid Surgery'],
         },
         {   cate_no:2,
             item_no:3,
@@ -125,9 +187,28 @@ const DOCTOR = [
             afte_schedule:['Surgery / Test','Medical Treatment','Surgery / Test','Medical Treatment','Surgery / Test',''], 
             morn_color: ['cir_danger','cir_primary','cir_danger','cir_primary','cir_danger','cir_success',], 
             afte_color: ['cir_danger','cir_primary','cir_danger','cir_primary','cir_danger',''],
-            phamacology:['한양대학교 의과대학 졸업','연세대학교 의과대학 의학박사','Former Medical Specialist, Seoul Asan Hospital','미국 피츠버그대학병원 연수의','미국 메이요병원 연수의','서울아산병원 간담도췌SURGERY 교수','SURGERY전문의고시출제위원','마르퀴즈후즈후 세계인명사전 등재','서울아산병원 이메디팀 담당교수','서울아산병원 국제진료센터 외국인진료 담당교수','서울아산병원 간담도췌장SURGERY 과장','누적SURGERY수술 1만례 달성'],
-            activity: ['SCI급 국제학술지 147편 저자 및 공저자','SURGERY술기교과서 공저자','NECROX 신약개발/공동개발자(LG생명과학)'],
-            professional: ['간담도췌장SURGERY','SURGERY영역 중 가장 어려운 분야인 간, 담도계, 쓸개, 췌장 및 비장등의 장기에 발생하는 질환을 치료'],
+            phamacology:[
+                'Graduated from Hanyang University College of Medicine',
+                'Doctor of Medicine, Yonsei University College of Medicine',
+                'Former Medical Specialist, Seoul Asan Hospital',
+                'Former Medical Specialist, Seoul Asan Hospital',
+                'Trainee at University of Pittsburgh Hospital, USA',
+                'Professor of Hepatobiliary and Pancreatic SURGERY at Asan Medical Center in Seoul',
+                'Member of the SURGERY Specialist Examination Committee',
+                'Listed in Marquis Who`s Who World Biographical Dictionary',
+                'Seoul Asan Medical Center E-Medi Team Professor',
+                'Seoul Asan Medical Center International Medical Center Professor in charge of foreign medical treatment',
+                'Seoul Asan Medical Center Hepatobiliary Pancreatic Surgery Manager',
+                'Achieved 10,000 cumulative surgeries'
+            ],
+            activity: [
+                'Author and co-author of 147 SCI-level international journals',
+                'Co-author of SURGERY Skills Textbook',
+                'NECROX new drug development/co-developer (LG Life Science)'
+            ],
+            professional: [
+                'Surgery for Hepatobiliary-Pancreatic Cancer / Gallbladder Disease / Laparoscopic Surgery (Single-Incision Laparoscopic Cholecystectomy) / Liver Transplantation'
+            ],
         },
         {   cate_no:2,
             item_no:4,
@@ -140,8 +221,19 @@ const DOCTOR = [
             afte_schedule:['Surgery / Test','Surgery / Test','','Surgery / Test','Medical Treatment',''], 
             morn_color: ['cir_primary','cir_danger','cir_primary','cir_danger','cir_primary','cir_success'], 
             afte_color: ['cir_danger','cir_danger','','cir_danger','cir_primary',''],
-            phamacology:['서울아산병원 Department of Hepatobiliary and Pancreatic Surgery 전문의','서울아산병원 Department of Hepatobiliary and Pancreatic Surgery 임상강사','대구계명대학교 의과대학 졸업','대구계명대학교 동산의료원 SURGERY전문의','대구드림병원 SURGERY 과장, 응급실 센터장'],
-            activity: ['대한 SURGERY 학회 정회원','한국 Department of Hepatobiliary and Pancreatic Surgery 학회 정회원','대한 내시경복강경 SURGERY 학회 정회원','대한 췌담도 학회 정회원'],
+            phamacology:[
+                'Asan Medical Center Department of Hepatobiliary and Pancreatic Surgery specialist',
+                'Clinical Instructor, Department of Hepatobiliary and Pancreatic Surgery, Asan Medical Center',
+                'Graduated from Daegu Keimyung University Medical College',
+                'Daegu Keimyung University Dongsan Medical Center SURGERY specialist',
+                'Daegu Dream Hospital SURGERY Manager, Emergency Room Center Manager'
+            ],
+            activity: [
+                'Regular member of the Korean Surgery Society',
+                'Regular member of the Korean Department of Hepatobiliary and Pancreatic Surgery Society',
+                'Regular member of the Korean Endoscopic Laparoscopy Society',
+                'Regular member of the Korean Pancreatobiliary Society'
+            ],
             professional: ['Hepatobiliary and Pancreatic Surgery / Abdominal Wall Surgery / Treatment of Bile Duct Stones using ERCP (Endoscopic Retrograde Cholangiopancreatography)'],
         },
         {   cate_no:2,
@@ -155,8 +247,26 @@ const DOCTOR = [
             afte_schedule:['Medical Treatment','Medical Treatment','Medical Treatment','','Surgery / Test',''], 
             morn_color: ['cir_danger','cir_danger','cir_danger','cir_primary','cir_danger','cir_success'], 
             afte_color: ['cir_primary','cir_primary','cir_primary','','cir_danger',''],
-            phamacology:['부산대학교 의과대학 학사','울산대학교 일반대학원 의학과 석·박사','Former Medical Specialist, Seoul Asan Hospital','인제대학교해운대백병원 조교수','한림대학교성심병원 조교수','인제대부산백병원 조교수','SURGERY전문의 및 간담췌세부분과 전문의'],
-            activity: ['대학SURGERY학회 평생회원','대한내시경복강경학회 평생회원','대한이식학회 정회원','한국Department of Hepatobiliary and Pancreatic Surgery학회 정회원','대한간학회 정회원','간암연구회 회원','세계생체간이식학회 회원','췌장수술연구회 회원','부산지방검찰청 자문의사'],
+            phamacology:[
+                'Bachelor of Medicine, Pusan ​​National University',
+                'University of Ulsan, Graduate School of Medicine, Master`s and Doctorate',
+                'Former Medical Specialist, Seoul Asan Hospital',
+                'Inje University Haeundae Paik Hospital Assistant Professor',
+                'Hallym University Sacred Heart Hospital Assistant Professor',
+                'Inje University Busan Paik Hospital Assistant Professor',
+                'Surgery Specialist and Hepatobiliary Pancreatic Division Specialist'
+            ],
+            activity: [
+                'Lifetime member of University Surgery Society',
+                'Lifetime member of the Korean Society of Endoscopy and Laparoscopy',
+                'Regular member of the Korean Society of Transplantation',
+                'Regular member of the Korean Department of Hepatobiliary and Pancreatic Surgery',
+                'Regular member of the Korean Society of Liver',
+                'Member of the Liver Cancer Research Society',
+                'Member of the World Living Liver Transplant Society',
+                'Member of the Pancreatic Surgery Research Society',
+                'Busan District Prosecutor`s Office Advisory Doctor'
+            ],
             professional: ['Cancer of the Liver, Bile Duct, Gallbladder, Pancreas, Cholecystitis, Gallbladder Polyps, Laparoscopic Surgery, Cholecystectomy, Liver Transplantation'],
         }
     ],
@@ -175,8 +285,28 @@ const DOCTOR = [
             note: '▶ Outpatient inquiries are available on Saturdays (051-607-0247)', 
             morn_color:['cir_danger','cir_primary','cir_primary','cir_danger','cir_primary','cir_success',], 
             afte_color: ['cir_primary','','cir_danger','cir_primary','',''],
-            phamacology:['부산대학교 의과대학 졸업','부산대학교 의학대학원 석사, 박사','부산대학교병원 내과 전공의 수련','부산대학교병원 순환기내과 전임의사','메리놀병원 CARDIOLOGY DEPARTMENT 과장','내과전문의','순환기내과 분과 전문의','심혈관중재시술 인증의','심장초음파 인증의','지도전문의','현)부산대학교 의학전문대학원 내과학 겸임교수','현)온종합병원 심혈관센터 센터장 및 내과부장'],
-            activity: ['대한내과학회 정회원','대한고혈압학회 정회원','대한심장학회 정회원','한국심초음파학회 정회원','대한부정맥학회 정회원','대한심혈관중재학회 정회원'],
+            phamacology:[
+                'Graduated from Pusan ​​National University School of Medicine',
+                'Pusan ​​National University Graduate School of Medicine Master`s, Ph.D.',
+                'Pusan ​​National University Hospital internal medicine specialist training',
+                'Pusan ​​National University Hospital Cardiology Department Full-time Doctor',
+                'Merinoll Hospital CARDIOLOGY DEPARTMENT Manager',
+                'internal medicine specialist',
+                'cardiology department specialist',
+                'Cardiovascular interventional procedure certification',
+                'echocardiography certification',
+                'cartographer',
+                'C) Adjunct Professor of Internal Medicine, Pusan ​​National University School of Medicine',
+                'C) On General Hospital Cardiovascular Center Center Director and Internal Medicine Department Director'
+            ],
+            activity: [
+                'Regular member of the Korean Society of Internal Medicine',
+                'Regular member of the Korean Society of Hypertension',
+                'Regular member of Korean Society of Cardiology',
+                'Regular member of the Korean Society of Echocardiography',
+                'Regular member of the Korean Arrhythmia Society',
+                'Regular member of the Korean Society of Interventional Cardiovascular Interventions'
+            ],
             professional: ['Coronary artery disease, acute myocardial infarction (percutaneous coronary intervention), hypertension, hyperlipidemia, heart failure, valvular heart disease (echocardiography)','부정맥, 동서맥 및 동정지 (심박동기시술)'],
         },
         {   cate_no:3,
@@ -187,11 +317,22 @@ const DOCTOR = [
             medi_his_con:'Director of Liver Center at Dong-A University Hospital', 
             one_speci_con:'Liver cancer, transarterial chemoembolization (TACE), and radiofrequency ablation (RFA) therapy for liver disease', 
             morn_schedule:['Medical Treatment','Medical Treatment','Medical Treatment','Medical Treatment','Medical Treatment',''], 
-            afte_schedule:['Medical Treatment','잔료','','Medical Treatment','',''], 
+            afte_schedule:['Medical Treatment','Medical Treatment','','Medical Treatment','',''], 
             morn_color:['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary','',], 
             afte_color: ['cir_primary','cir_primary','','cir_primary','',''],
-            phamacology:['부산대학교 의과대학 졸업','동아대학교병원 내과 주임교수, 과장, 진료부장','동아대학교병원 내시경실장','동아대학교병원 간센터 소장','미국 샌프란시스코 VA HOSPITAL 연수'],
-            activity: ['대한간학회 부울경 회장','부산경남 내과학회 이사장','대한내과학회 부회장','미국·유럽·국제간암학회 정회원'],
+            phamacology:[
+                'Graduated from Pusan ​​National University School of Medicine',
+                'Department of Internal Medicine, Dong-A University Hospital',
+                'Head of Endoscopy Department, Dong-A University Hospital',
+                'Dong-A University Hospital Liver Center Director',
+                'Training at VA HOSPITAL in San Francisco, USA'
+            ],
+            activity: [
+                'Ulkyung Boo, President of the Korean Association for the Liver',
+                'Chairman of the Busan-Gyeongnam Internal Medicine Association',
+                'Vice President of the Korean Society of Internal Medicine',
+                'Regular member of the American, European, and International Liver Cancer Society'
+            ],
             professional: ['Liver cancer, transarterial chemoembolization (TACE), and radiofrequency ablation (RFA) therapy for liver disease'],
         },
         {   cate_no:3,
@@ -206,14 +347,23 @@ const DOCTOR = [
             note: '▶ Available for consultation on Saturdays, every 2nd and 4th week', 
             morn_color:['cir_primary','cir_primary','cir_danger','cir_primary','cir_danger','cir_success',], 
             afte_color: ['cir_danger','','cir_primary','cir_danger','cir_primary',''],
-            phamacology:['부산대학교 의학전문대학원 졸업','동아대학교병원 내과 전공의','Clinical Professor of Gastroenterology, Dong-A University Hospital'],
-            activity: ['대한내과 학회 평생회원','대한 소화기학회 정회원','대한소화기내시경학회 정회원','대한간학회 회원'],
+            phamacology:[
+                'Graduated from Pusan ​​National University Medical School',
+                'Department of Internal Medicine, Dong-A University Hospital',
+                'Clinical Professor of Gastroenterology, Dong-A University Hospital'
+            ],
+            activity: [
+                'Lifetime member of the Korean Society of Internal Medicine',
+                'Regular member of the Korean Society of Gastroenterology',
+                'Regular member of the Korean Society of Gastrointestinal Endoscopy',
+                'Member of the Korean Society of Liver'
+            ],
             professional: ['Endoscopy of digestive system, therapeutic endoscopy, polypectomy, gastric and colonic diseases, liver diseases, pancreatic and biliary tract (gallbladder) diseases'],
         },
         {   cate_no:3,
             item_no:4,
             img_src:'department_of_gastroenterology2', 
-            name:'Head of Gastroenterology Dept', 
+            name:'Park Cheol-woo, Head of Gastroenterology Dept', 
             medi_con:'Internal Medicine', 
             medi_his_con:'Internal medicine specialist at Dongui Medical Center', 
             one_speci_con:'Endoscopy of digestive system, therapeutic endoscopy, polypectomy, esophageal diseases, gastric diseases, colonic diseases, liver diseases, pancreatic and biliary tract (gallbladder) diseases', 
@@ -221,8 +371,17 @@ const DOCTOR = [
             afte_schedule:['Medical Treatment','Medical Treatment','','Medical Treatment','Surgery / Test',''], 
             morn_color: ['cir_danger','cir_danger','cir_primary','cir_danger','','cir_success',], 
             afte_color: ['cir_primary','cir_primary','','cir_primary','cir_danger',''],
-            phamacology:['경상대학교 의과대학 졸업','Internal medicine specialist at Dongui Medical Center','명은병원 소화기 내시경센터/내과 과장','메트로병원 소화기 내시경센터/내과 원장'],
-            activity: ['대한위대장내시경학회 평생회원','대한내과학회 평생회원','대한심초음파학회 정회원'],
+            phamacology:[
+                'Graduated from Gyeongsang National University College of Medicine',
+                'Internal medicine specialist at Dongui Medical Center',
+                'Myeongeun Hospital Gastrointestinal Endoscopy Center/Chief of Internal Medicine',
+                'Metro Hospital Gastrointestinal Endoscopy Center/Director of Internal Medicine'
+            ],
+            activity: [
+                'Lifetime member of the Korean Society of Gastrointestinal Endoscopy',
+                'Lifetime member of the Korean Society of Internal Medicine',
+                'Regular member of the Korean Society of Echocardiography'
+            ],
             professional: ['Endoscopy of digestive system, therapeutic endoscopy, polypectomy, esophageal diseases, gastric diseases, colonic diseases, liver diseases, pancreatic and biliary tract (gallbladder) diseases'],
         },
         {   cate_no:3,
@@ -230,15 +389,27 @@ const DOCTOR = [
             img_src:'department_of_gastroenterology3', 
             name:'Eun Myeong, Head of Gastroenterology Dept', 
             medi_con:'Department of Gastroenterology', 
-            medi_his_con:'UN 기구 의료연구원장', 
-            one_speci_con:'위대장내시경 / 치료내시경 / 용종절제술 / 위대장암진단 / 역류성식도염 / 소화성궤양 / 과민성대장증후군 / 췌장담도질환 / 췌장담도암진단/간질환', 
+            medi_his_con:'Director of the UN Organization Medical Research Institute', 
+            one_speci_con:'Gastrointestinal endoscopy / therapeutic endoscopy / polypectomy / gastric and colorectal cancer diagnosis / reflux esophagitis / peptic ulcer / irritable bowel syndrome / pancreatic biliary disease / pancreatic biliary cancer diagnosis / liver disease', 
             ifram_src: 'https://www.youtube.com/embed/qE40EoPjz3c',  
             morn_schedule:['Surgery / Test','Surgery / Test','Surgery / Test','Surgery / Test','Surgery / Test','Inquiry'], 
             afte_schedule:['Surgery / Test','Surgery / Test','Surgery / Test','','Surgery / Test',''], 
             morn_color: ['cir_danger','cir_danger','cir_danger','cir_danger','cir_danger','cir_success'], 
             afte_color: ['cir_danger','cir_danger','cir_danger','','cir_danger',''],
-            phamacology:['연세대학교 의학과 졸업','세브란스병원 DEPARTMENT OF GASTROENTEROLOGY 수련','아주대의과대학 부속 교육병원 DEPARTMENT OF GASTROENTEROLOGY 과장','경의의료원 교육협력 중앙병원 통합의학과 암치료 센터장','삼성의료원 종합MEDICAL CHECK-UP CENTER VIP내시경실 전담의','UN기구 의료연구원장'],
-            activity: ['대한통합암학회 학술이사','양자에너지 파동치료 국책연구의','UN기구 의료연구원 코로나 치료제 개발 총괄의','유럽 치매진단 및 치료프로그램 개발 전담의'],
+            phamacology:[
+                'Graduated from Yonsei University Department of Medicine',
+                'Severance Hospital Gastroenterology training',
+                'Director, Department of Gastroenterology, Ajou University Medical School Affiliated Education Hospital',
+                'Gyeongui Medical Center Educational Cooperation Central Hospital Department of Integrated Medicine Cancer Treatment Center Director',
+                'Samsung Medical Center Comprehensive Examination Center VIP endoscopy room doctor',
+                'Director of the UN Organization Medical Research Institute'
+            ],
+            activity: [
+                'Academic Director, Korean Integrative Cancer Society',
+                'Quantum Energy Wave Therapy National Research Center',
+                'Head of development of COVID-19 treatment at UN Organization Medical Research Institute',
+                'European Dementia Diagnosis and Treatment Program Development Specialist'
+            ],
             professional: ['Endoscopy of digestive system, therapeutic endoscopy, polypectomy, diagnosis of gastric and colonic cancers, reflux esophagitis, peptic ulcer disease'],
         },
         {   cate_no:3,
@@ -253,8 +424,16 @@ const DOCTOR = [
             afte_schedule:['Medical Treatment','Medical Treatment','Medical Treatment','Medical Treatment','Medical Treatment',''], 
             morn_color:['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary','cir_success',], 
             afte_color: ['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary',''],
-            phamacology:['부산의대졸 의학박사','Specialist in internal medicine at Kosin University Hospital'],
-            activity: ['대한소화기내시경 학회 정회원','한국초음파학회 정회원','한국심초음파학회 정회원','대한검진의학회 정회원'],
+            phamacology:[
+                'Graduated from Busan College of Medicine, Doctor of Medicine',
+                'Internal medicine specialist at Kosin University Hospital'
+            ],
+            activity: [
+                'Regular member of the Korean Society of Gastrointestinal Endoscopy',
+                'Regular member of the Korean Society of Ultrasound',
+                'Regular member of the Korean Society of Echocardiography',
+                'Regular member of the Korean Society of Medical Examination'
+            ],
             professional: ['Chronic diseases (hypertension, diabetes, hyperlipidemia), infectious diseases, upper Gastrointestinal Nerve Center, upper abdominal ultrasound, carotid artery ultrasound, osteoporosis'],
         },
         {   cate_no:3,
@@ -270,8 +449,20 @@ const DOCTOR = [
             note: '▶ Saturdays: Appointments available only for 2nd and 4th weeks. No online reservations, please call for inquiries.', 
             morn_color:['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary','cir_success',], 
             afte_color: ['cir_primary','cir_primary','cir_primary','cir_primary','',''],
-            phamacology:['부산대학교 의과대학 졸업','Professor at Pusan National University School of Medicine','부산대학교 의과대학 내과학교실 주임교수','부산대학교병원 내과 과장 역임'],
-            activity: ['대한신장학회 회장','대한고혈압학회 부회장','대한내과학학회 이사 및 신장분과위원장','신장학연구재단이사','세계 3대 인명사전 마르퀴즈 후즈후 등재','국외논문 66편 / 국내논문 106편'],
+            phamacology:[
+                'Graduated from Pusan ​​National University School of Medicine',
+                'Professor, Pusan ​​National University School of Medicine',
+                'Pusan ​​National University School of Medicine, Department of Internal Medicine, Head Professor',
+                'Pusan ​​National University Hospital Internal Medicine Director'
+            ],
+            activity: [
+                'President of the Korean Society of Nephrology',
+                'Vice President of the Korean Society of Hypertension',
+                'Director of the Korean Society of Internal Medicine and Chairman of the Kidney Subcommittee',
+                'Director of Nephrology Research Foundation',
+                'Listed in Marquis Who`s Who, one of the world`s three major biographical dictionaries',
+                '66 foreign papers / 106 domestic papers'
+            ],
             professional: ['Hemodialysis / Kidney Disease / Hypertension / Diabetes'],
         },
         {   cate_no:3,
@@ -283,11 +474,16 @@ const DOCTOR = [
             one_speci_con:'Glomerulonephritis (hematuria, proteinuria), acute and chronic kidney failure, diabetic kidney disease, hypertension, hemodialysis', 
             morn_schedule:['Medical Treatment','Medical Treatment','Medical Treatment','Medical Treatment','Medical Treatment','Inquiry'], 
             afte_schedule:['Medical Treatment','Medical Treatment','Medical Treatment','','Medical Treatment',''], 
-            note: '▶ 토요일 : 1, 3주 진료', 
+            note: '▶ Saturday: 1st, 3rd week treatment', 
             morn_color: ['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary','cir_success',], 
             afte_color: ['cir_primary','cir_primary','cir_primary','','cir_primary',''],
-            phamacology:['부산대학교병원 NEPHROLOGY 외래교수','부산대학교병원 NEPHROLOGY 전임의 역임','부산대학교 의학전문대학원 의학석사','내과전문의'],
-            activity: ['대한내과학회 정회원'],
+            phamacology:[
+                'Pusan ​​National University Hospital Nephrology Department Outpatient Professor',
+                'Full-time director of the Department of Nephrology at Pusan ​​National University Hospital',
+                'Pusan ​​National University Medical School Master of Medicine',
+                'internal medicine specialist'
+            ],
+            activity: ['Regular member of the Korean Society of Internal Medicine'],
             professional: ['Glomerulonephritis (hematuria, proteinuria), acute and chronic kidney failure, diabetic kidney disease, hypertension, hemodialysis'],
         },
         {   cate_no:3,
@@ -298,11 +494,20 @@ const DOCTOR = [
             medi_his_con:'Professor of Internal Medicine, Pusan National University School of Medicine', 
             one_speci_con:'Specializing in diabetes, thyroid disease, osteoporosis, hyperlipidemia, adrenal gland disease, and pituitary gland disease', 
             morn_schedule:['Medical Treatment','Medical Treatment','Medical Treatment','Medical Treatment','Medical Treatment',''], 
-            afte_schedule:['Medical Treatment','잔료','','Medical Treatment','','Inquiry'], 
+            afte_schedule:['Medical Treatment','Medical Treatment','','Medical Treatment','','Inquiry'], 
             morn_color:['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary','',], 
             afte_color: ['cir_primary','cir_primary','','cir_primary','','cir_success'],
-            phamacology:['부산대학교 의과대학 졸업, 의학박사','Professor of Internal Medicine, Pusan National University School of Medicine','부산대병원 ENDOCRINOLOGY DEPARTMENT 전임의'],
-            activity: ['대한 내과학회 정회원','대한 당뇨병학회 정회원','대한 내분비학회 정회원','대한 갑상선학회 정회원'],
+            phamacology:[
+                'Graduated from Pusan ​​National University College of Medicine, Doctor of Medicine',
+                'Adjunct Professor of Internal Medicine, College of Medicine, Pusan ​​National University',
+                'Pusan ​​National University Hospital, Department of Endocrinology, full-time'
+            ],
+            activity: [
+                'Regular member of the Korean Society of Internal Medicine',
+                'Regular member of the Korean Diabetes Association',
+                'Regular member of the Korean Endocrinology Society',
+                'Regular member of the Korean Thyroid Society'
+            ],
             professional: ['Specializing in diabetes, thyroid disease, osteoporosis, hyperlipidemia, adrenal gland disease, and pituitary gland disease'],
         },
         {   cate_no:3,
@@ -317,8 +522,24 @@ const DOCTOR = [
             note: '▶ Saturday: alternate-week treatment', 
             morn_color:['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary','cir_success',], 
             afte_color: ['cir_primary','cir_primary','','cir_primary','cir_primary',''],
-            phamacology:['동아대학교 의과대학 졸업','동아대학교 대학원 의학과 의학박사','Associate Professor, School of Medicine, Dong-A University','미국 베일러의대 교환교수','미국 국립보건원/국립암연구소 펠로','ECFMG 자격증 취득','USMLE step 1,2,3 합격'],
-            activity: ['미국암학회 회원','유럽종양내과학회 회원','대한암학회 회원' ,'대한위암학회 회원','한국유방암학회 회원','대한종양내과학회 학술위원','대한항암요법연구회 학술위원'],
+            phamacology:[
+                'Graduated from Dong-A University School of Medicine',
+                'Dong-A University Graduate School of Medicine, Doctor of Medicine',
+                'Dong-A University School of Medicine Associate Professor',
+                'Associate Professor, Baylor Medical School, USA',
+                'National Institutes of Health/National Cancer Institute Fellow',
+                'Obtain ECFMG Certification',
+                'Passed USMLE step 1,2,3'
+            ],
+            activity: [
+                'Fellow of the American Cancer Society',
+                'Member of the European Society of Oncology',
+                'Member of the Korean Cancer Society' ,
+                'Member of the Korean Gastric Cancer Society',
+                'Member of the Korean Breast Cancer Society',
+                'Academician, Korean Society of Oncology',
+                'Academician, Korean Anticancer Therapy Research Association'
+            ],
             professional: ['Solid tumors (breast cancer, gastric cancer, colorectal cancer, lung cancer, various solid tumors), hematological malignancies'],
         },
         {   cate_no:3,
@@ -332,8 +553,16 @@ const DOCTOR = [
             afte_schedule:['Medical Treatment','Medical Treatment','Medical Treatment','','Medical Treatment',''], 
             morn_color:['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary','cir_success',], 
             afte_color: ['cir_primary','cir_primary','cir_primary','','cir_primary',''],
-            phamacology:['동아대학교 의과대학 졸업','동아대학교 인턴/ 레지던트'],
-            activity: ['국제간암학회(ILCA)정회원','대한임상초음파학회 평생회원','대한간학회 / 대한간암학회 평생회원','유럽간학회(EASL)정회원'],
+            phamacology:[
+                'Graduated from Dong-A University School of Medicine',
+                'Dong-A University Intern / Resident'
+            ],
+            activity: [
+                'Regular member of the International Liver Cancer Society (ILCA)',
+                'Lifetime member of the Korean Society of Clinical Ultrasound',
+                'Lifetime member of the Korean Liver Society / Korean Liver Cancer Society',
+                'Regular member of the European Association for the Study of the Liver (EASL)'
+            ],
             professional: ['Upper abdominal ultrasonography / Interventional ultrasound / Liver fibrosis and steatosis assessment / Liver cancer / Cirrhosis / Alcoholic liver disease / Non-alcoholic fatty liver disease'],
         },
     ],
@@ -350,9 +579,18 @@ const DOCTOR = [
             afte_schedule:['Medical Treatment','잔료','','Medical Treatment','','Inquiry'], 
             morn_color:['cir_primary','cir_primary','cir_success','cir_primary','cir_primary','cir_success',], 
             afte_color: ['cir_primary','cir_primary','','cir_primary','','cir_success'],
-            phamacology:['부산대학교 의과대학 졸업, 의학박사','Professor of Internal Medicine, Pusan National University School of Medicine','부산대병원 ENDOCRINOLOGY DEPARTMENT 전임의'],
-            activity: ['대한 내과학회 정회원','대한 당뇨병학회 정회원','대한 내분비학회 정회원','대한 갑상선학회 정회원'],
-            professional: ['당뇨병 / 갑상선질환 / 골다공증','고지혈증 / 부신질환 / 뇌하수체질환'],
+            phamacology:[
+                'Graduated from Pusan ​​National University College of Medicine, Doctor of Medicine',
+                'Professor of Internal Medicine, Pusan National University School of Medicine',
+                'Pusan ​​National University Hospital ENDOCRINOLOGY DEPARTMENT full-time'
+            ],
+            activity: [
+                'Regular member of the Korean Society of Internal Medicine',
+                'Regular member of the Korean Diabetes Association',
+                'Regular member of the Korean Endocrinology Society',
+                'Regular member of the Korean Thyroid Society'
+            ],
+            professional: ['Specializing in diabetes, thyroid disease, osteoporosis, hyperlipidemia, adrenal gland disease, and pituitary gland disease'],
             note: '▶ Closed on Saturdays, every 2nd and 4th week' , 
         },
     ],
@@ -369,8 +607,13 @@ const DOCTOR = [
             afte_schedule:['Medical Treatment','Medical Treatment','Medical Treatment','Medical Treatment','Medical Treatment',''], 
             morn_color:['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary','cir_success',], 
             afte_color: ['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary',''],
-            phamacology:['경북대학교 의과대학 졸업','경북대학병원 Department of Anesthesiology and Pain Medicine 전문의','안동병원 Department of Anesthesiology and Pain Medicine 과장','구포성심병원 Department of Anesthesiology and Pain Medicine 과장'],
-            activity: ['대한마취통의학과 학회 정회원'],
+            phamacology:[
+                'Graduated from Kyungpook National University College of Medicine',
+                'Kyungpook National University Hospital Department of Anesthesiology and Pain Medicine Specialist',
+                'Department of Anesthesiology and Pain Medicine, Andong Hospital',
+                'Director, Department of Anesthesiology and Pain Medicine, Gupo Sacred Heart Hospital'
+            ],
+            activity: ['Regular member of the Korean Society of Anesthesiology and Pain Medicine'],
             professional: ['Anesthesia Clinic: General anesthesia, pediatric anesthesia, geriatric anesthesia, organ transplantation anesthesia'],
         },
         {   cate_no:5,
@@ -384,9 +627,9 @@ const DOCTOR = [
             afte_schedule:['Medical Treatment','Medical Treatment','Medical Treatment','Medical Treatment','Medical Treatment',''], 
             morn_color: ['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary','cir_success',], 
             afte_color: ['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary',''],
-            phamacology:['Graduated from the Graduate School of Medicine at Pusan National University','부산대학교병원 Department of Anesthesiology and Pain Medicine 레지던트'],
+            phamacology:['Graduated from the Graduate School of Medicine at Pusan National University','Resident of Busan National University Hospital Department of Anesthesiology and Pain Medicine'],
             activity: [''],
-            professional: ['TPI 교육이수','신경통증 클리닉 / 마취 클리닉','심폐마취 / 소아마취 / 노인마취 / 장기이식마취'],
+            professional: ['Education on TPI and clinics for neuropathic pain, anesthesia clinic for cardiac and pulmonary anesthesia, pediatric anesthesia, geriatric anesthesia, and organ transplantation anesthesia'],
         },
         {   cate_no:5,
             item_no:3,
@@ -399,9 +642,9 @@ const DOCTOR = [
             afte_schedule:['Medical Treatment','Medical Treatment','Medical Treatment','Medical Treatment','Medical Treatment',''], 
             morn_color: ['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary','cir_success'], 
             afte_color: ['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary',''],
-            phamacology:['Graduated from the Graduate School of Medicine at Pusan National University','부산대학교병원 Department of Anesthesiology and Pain Medicine 레지던트'],
-            activity: ['TPI 교육이수','대한마취통증의학회 정회원'],
-            professional: ['신경통 클리닉 / 마취 클리닉','일반마취 / 소아마취 / 노인마취','심폐마취 / 장기이식마취'],
+            phamacology:['Graduated from the Graduate School of Medicine at Pusan National University','Resident of Busan National University Hospital Department of Anesthesiology and Pain Medicine'],
+            activity: ['Regular member of the Korean Society of Anesthesiology and Pain Medicine'],
+            professional: ['Clinics for neuropathic pain, anesthesia clinic for cardiac and pulmonary anesthesia, pediatric anesthesia, geriatric anesthesia, and organ transplantation anesthesia'],
         }
     ],
     [
@@ -417,8 +660,24 @@ const DOCTOR = [
             afte_schedule:['Medical Treatment','Medical Treatment','','Medical Treatment','Medical Treatment',''], 
             morn_color:['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary','cir_success',], 
             afte_color: ['cir_primary','cir_primary','','cir_primary','cir_primary',''],
-            phamacology:['부산대학교 의과대학 졸업','서울대학교 대학원 의학박사','서울대학교 전공의, 방사선과','이화여자대학교 교수, 방사선과','한국원자력의학원 Radiation Oncology Department 부장','사이버나이프센터 원장','건양대 의대 Radiation Oncology Department 석좌교수','하버드의대, 하이델베르그의대 연수','대한방사선종양학회 등 학회장 다수 역임','서울의대, 중앙의대, 서울시립대 등 외래 및 겸임교수'],
-            activity: ['대한방사선종양학회 회장','대한암학회 부회장','대한방사선생명과학회 창설 및 회장','대한방사선수술학회 회장'],
+            phamacology:[
+                'Pusan ​​Milliy universiteti tibbiyot fakultetini tamomlagan',
+                'Tibbiyot fanlari doktori, Seul Milliy Universiteti Oliy maktabi',
+                'Seul milliy universiteti rezidenti, radiologiya',
+                'Ewha Womans universiteti professori, radiologiya kafedrasi',
+                'Koreya yadro tibbiyoti instituti radiatsion onkologiya boʻlimi direktori',
+                'Kiber pichoq markazi direktori',
+                'Konyang universiteti tibbiyot kolleji radiatsion onkologiya kafedrasi professori',
+                'Garvard tibbiyot maktabi, Heidelberg tibbiyot universiteti stajyori',
+                'Koreya radiatsion onkologiya jamiyati kabi ko`plab akademik jamiyatlarning prezidenti bo`lib ishlagan',
+                'Seul milliy universiteti tibbiyot kolleji, Chung-Ang universiteti tibbiyot kolleji, Seul universiteti va boshqalar ambulator va adyunkt professorlari'
+            ],
+            activity: [
+                'Koreya radiatsion onkologiya jamiyati prezidenti',
+                'Koreya saraton jamiyati vitse-prezidenti',
+                'Koreya radiatsiyaviy hayot fanlari jamiyati asoschisi va prezidenti',
+                'Koreya radioxirurgiya jamiyati prezidenti'
+            ],
             professional: ['Radiation Oncology / Nuclear Medicine / PET-CT'],
         },
         {   cate_no:6,
@@ -432,8 +691,21 @@ const DOCTOR = [
             afte_schedule:['','','','','',''], 
             morn_color: ['','','','','','',], 
             afte_color: ['','','','','',''],
-            phamacology:['서울대학교 졸업','Ph.D. in Physics, Seoul National University','서울대학교 의과대 · 서울대학교병원 Radiation Oncology Department 의학물리교수','미국 미네소타대학교병원 연수','미국 워싱턴대학교병원 연수','한국의학물리학회 회장'],
-            activity: ['미국의학물리학회 회장','대한방사선방어학회 회원','한국물리학괴 회원','세계 의학물리 · 의공학 학술대회 유치위원장','한국전력 전자파 자문위원'],
+            phamacology:[
+                'Graduated from Seoul National University',
+                'Ph.D. in Physics, Seoul National University',
+                'Professor of Medical Physics, Radiation Oncology Department, Seoul National University College of Medicine, Seoul National University Hospital',
+                'Training at the University of Minnesota Hospital in the United States',
+                'Training at University of Washington Hospital, USA',
+                'President of the Korean Society of Medical Physics'
+            ],
+            activity: [
+                'President of the American Medical Physics Society',
+                'Member of the Korean Society of Radiation Protection',
+                'Member of the Korean Institute of Physics',
+                'Chairman of the World Medical Physics and Biomedical Engineering Conference',
+                'KEPCO electromagnetic wave advisory committee member'
+            ],
             professional: [''],
         },
     ],
@@ -452,9 +724,18 @@ const DOCTOR = [
             note: '▶ Saturday appointments are available every 2nd and 4th week' , 
             morn_color:['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary','cir_success',], 
             afte_color: ['cir_primary','cir_danger','cir_primary','cir_danger','',''],
-            phamacology:['부산대학교 의과대학 졸업 비뇨기과학 박사','나고야 의대 비뇨기과 복강경 연수','가톨릭의대 인천성모병원 비뇨기과 부교수','가톨릭 중안의료원 운영 국립교통재활병원','비뇨기과장 및 협력진료센터장','원광의대 산본병원 비뇨기과 임상부교수'],
+            phamacology:[
+                'Graduated from Pusan ​​National University College of Medicine, Doctor of Urology',
+                'Nagoya Medical University Urology Laparoscopic Training',
+                'Associate Professor, Department of Urology, Incheon St. Mary`s Hospital, The Catholic University of Korea',
+                'National Transportation Rehabilitation Hospital operated by Catholic Central Medical Center',
+                'Head of Urology and Collaborative Medical Center',
+                'Clinical Associate Professor, Department of Urology, Wonkwang University Sanbon Hospital'
+            ],
             activity: [''],
-            professional: ['비뇨기 암(전립선 암, 방광암, 신장암) 수술 및 최소침습치료','혈뇨 / 음낭수종 / 요로감염 (신우신염, 방광염, 전립선염, 부고환염)','전립선비대증 (내시경수술) / 전립선염 / 요로결석 (내시경수술, 충격파쇄석술)','여성 배뇨장애 (요실금, 과민성방광) / 발기부전 /불임 / 소아 야뇨증','신경인성 방광 (척수 및 뇌손상, 치매, 뇌출혈 및 뇌졸중, 당뇨)'],
+            professional: [
+                'Specialties: Surgery and minimally invasive treatment of genitourinary cancers (prostate cancer, bladder cancer, kidney cancer), hematuria, and bladder diverticulum'
+            ],
         },
     ],
     [
@@ -482,15 +763,29 @@ const DOCTOR = [
             name:'Kim Ji-yeon, Head of Obstetrics and Gynecology Dept', 
             medi_con:'Obstetrics and Gynecology', 
             medi_his_con:'Doctor of Medicine, Pusan National University', 
-            one_speci_con:'Gynecological endoscopic surgery (single port, hysterectomy) / Gynecologic tumors, urinary incontinence, and urinary dysfunction / 골반염증질환 산전질환 / 월경장애 / 폐경기관리 골반이완 교정수술 / 여성 외음부 성형 및 재건수술', 
+            one_speci_con:'Gynecological endoscopic surgery (single port, hysterectomy) / Gynecologic tumors, urinary incontinence, and urinary dysfunction / Pelvic inflammatory disease prenatal disease / menstrual disorder / menopause care pelvic relaxation correction surgery / female vulva plastic surgery and reconstruction surgery', 
             morn_schedule:['Medical Treatment','Medical Treatment','Medical Treatment','Medical Treatment','Medical Treatment','Inquiry'], 
             afte_schedule:['Medical Treatment','Medical Treatment','Medical Treatment','','Medical Treatment',''], 
             note: '▶ Saturday clinic available on the 2nd and 4th Saturdays of the month (closed on 1st and 3rd Saturdays)', 
             morn_color: ['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary','cir_success',], 
             afte_color: ['cir_primary','cir_primary','cir_primary','','cir_primary',''],
-            phamacology:['부산대학교 의과대학','부산대학교 의학과 석,박사','좋은강안병원 OBSTETRICS AND GYNECOLOGY','미래로병원 OBSTETRICS AND GYNECOLOGY','부산대학교 OBSTETRICS AND GYNECOLOGY 외래교수'],
-            activity: ['대한OBSTETRICS AND GYNECOLOGY학회','대한폐경학괴','대한OBSTETRICS AND GYNECOLOGY내시경학회'],
-            professional: ['Gynecological endoscopic surgery (single port, hysterectomy) / Gynecologic tumors, urinary incontinence, and urinary dysfunction / 골반염증질환','산전질환 / 월경장애 / 폐경기관리','골반이완 교정수술 / 여성 외음부 성형 및 재건수술'],
+            phamacology:[
+                'Pusan ​​National University School of Medicine',
+                'Pusan ​​National University Department of Medicine M.S., Ph.D.',
+                'Good Gangan Hospital OBSTETRICS AND GYNECOLOGY',
+                'Miraro Hospital OBSTETRICS AND GYNECOLOGY',
+                'Adjunct Professor of OBSTETRICS AND GYNECOLOGY, Pusan ​​National University'
+            ],
+            activity: [
+                'Korean OBSTETRICS AND GYNECOLOGY Society',
+                'Korean menopausal mass',
+                'The Korean OBSTETRICS AND GYNECOLOGY Endoscopy Society'
+            ],
+            professional: [
+                'Gynecological endoscopic surgery (single port, hysterectomy) / Gynecologic tumors, urinary incontinence, and urinary dysfunction / Pelvic inflammatory',
+                'prenatal disease / Menstrual disorder / Menopausal management Pelvic relaxation',
+                'corrective surgery / Female vulvar plastic and reconstructive surgery'
+            ],
         },
     ],
     [
@@ -501,14 +796,33 @@ const DOCTOR = [
             name:'Dr. Kim Seok-kwon, Director of Plastic Surgery Center', 
             medi_con:'Plastic Surgery Center', 
             medi_his_con:'Associate Professor of Plastic Surgery, Dong-A University College of Medicine', 
-            one_speci_con:'Facial contouring, breast augmentation, wrinkle correction of eyes, nose and eyelids, and cleft lip and palate repair / 모발이식 무질증 재건 / 소이증 수술 . 트렌스젠드 수술', 
+            one_speci_con:'Facial contouring, breast augmentation, wrinkle correction of eyes, nose and eyelids, and cleft lip and palate repair / hair transplant aphrodisiac reconstruction / microbiosis surgery. transgenic surgery', 
             morn_schedule:['Medical Treatment','Surgery / Test','Medical Treatment','Surgery / Test','Medical Treatment','Inquiry'], 
             afte_schedule:['Medical Treatment','Surgery / Test','Medical Treatment','','Surgery / Test',''], 
             morn_color:['cir_primary','cir_danger','cir_primary','cir_danger','cir_primary','cir_success',], 
             afte_color: ['cir_primary','cir_danger','cir_primary','','cir_danger',''],
-            phamacology:['부산대 의과대학 졸업 및 의학 석사','충남대 의학 박사','부산대병원 PLASTIC SURGERY  전공의','부산대학교 의과대학 전임강사·조교수','동아대학교 의과대학 PLASTIC SURGERY  주임교수','동아대학교 의료원 PLASTIC SURGERY  과장','동아대학교 의과대학장','UC Davis 의과대학 객원교수 및 Medical center 두개안면성형술 연구','하버드대학교 의과대학 객원교수, Children’s Hospital 두개안면성형술 및 구순구개열 연수','뉴욕대학교 의과대학 PLASTIC SURGERY  연구원','세계 3대 인명사전 마르퀴스 후즈후 등재'],
-            activity: ['구순구개열 환아를 위한 스마일회 창립','대한PLASTIC SURGERY  학회 이사 (국제협력 위원장, 수련교육 위원장 2002~2006, 무임소 이사 2006~2008)','대한 두개안면PLASTIC SURGERY  학회 회장','대한민국 의학한림원 정회원','대한PLASTIC SURGERY  영호남 지역학회 이사장 및 회장','제 5회 아시아 태평양 두개안면PLASTIC SURGERY  학술대회 공동회장'],
-            professional: ['Facial contouring, breast augmentation, wrinkle correction of eyes, nose and eyelids, and cleft lip and palate repair / 모발이식','무질증 재건 / 소이증 수술 / 트렌스젠드 수술'],
+            phamacology:[
+                'Graduated from Pusan ​​National University College of Medicine and Master of Medicine',
+                'Doctor of Medicine, Chungnam National University',
+                'Pusan ​​National University Hospital PLASTIC SURGERY major',
+                'Pusan ​​National University School of Medicine Full-time lecturer/assistant professor',
+                'Head Professor of Plastic Surgery, College of Medicine, Dong-A University',
+                'Dong-A University Medical Center PLASTIC SURGERY Manager',
+                'Dong-A University School of Medicine',
+                'Visiting professor at UC Davis School of Medicine and research on craniofacial plastic surgery at the Medical Center',
+                'Visiting professor at Harvard University School of Medicine, Children`s Hospital craniofacial surgery and cleft lip and palate training',
+                'New York University School of Medicine PLASTIC SURGERY Researcher',
+                'Listed in Marquis Who`s Who, one of the world`s three major biographical dictionaries'
+            ],
+            activity: [
+                'Founding of Smile Society for children with cleft lip and palate',
+                'Director of the Korea Plastic Surgery Society (Chairman of International Cooperation, Chairman of Training Education 2002~2006, Director without appointment 2006~2008)',
+                'President of the Korean Craniofacial Plastic Surgery Society',
+                'Regular member of the National Academy of Medicine of Korea',
+                'Korea PLASTIC SURGERY Yeong-Ho-Nam Regional Society Chairman and Chairman',
+                'Co-president of the 5th Asia Pacific Craniofacial Plastic Surgery Conference'
+            ],
+            professional: ['Facial contouring, breast augmentation, wrinkle correction of eyes, nose and eyelids, and cleft lip and palate repair / hair transplant','agenesis reconstruction / microtia surgery'],
         },
         {   cate_no:9,
             item_no:2,
@@ -521,9 +835,9 @@ const DOCTOR = [
             afte_schedule:['Surgery / Test','Medical Treatment','Inquiry','Medical Treatment','Medical Treatment',''], 
             morn_color: ['cir_danger','cir_primary','cir_danger','cir_primary','cir_danger','cir_success',], 
             afte_color: ['cir_danger','cir_primary','cir_success','cir_primary','cir_primary',''],
-            phamacology:['경희대 의과대학 졸업','Visiting Professor of Plastic Surgery, Inje University College of Medicine','자연미PLASTIC SURGERY  대표원장'],
-            activity: ['부울경 대한PLASTIC SURGERY  학회 회장 및 이사장','부산PLASTIC SURGERY  개원의협의회 회장'],
-            professional: ['눈·코 지방이식수술 욕창'],
+            phamacology:['Graduated from Kyung Hee University Medical School','Visiting Professor of Plastic Surgery, Inje University College of Medicine','CEO of Natural Beauty PLASTIC SURGERY'],
+            activity: ['Kyung-Woo Boo President and Chairman of the Korea Plastic Surgery Society','Busan PLASTIC SURGERY Practitioner Council President'],
+            professional: ['Fat transplantation for eyes and nose, pressure sore treatment'],
         },
     ],
     [
@@ -532,29 +846,65 @@ const DOCTOR = [
         name:'Director O Mu-Young', 
         medi_con:'Pediatrics', 
         medi_his_con:'Professor of Pediatrics at Inje University Busan Paik Hospital', 
-        one_speci_con:'Pediatric respiratory diseases / Allergies (asthma, allergic rhinitis, hives, atopic dermatitis) / Immune disorders / 결핵 . 감염질환 / 피부질환', 
+        one_speci_con:'Pediatric respiratory diseases / Allergies (asthma, allergic rhinitis, hives, atopic dermatitis) / Immune disorders / tuberculosis, infectious diseases/skin diseases', 
         morn_schedule:['Medical Treatment','','Medical Treatment','','Medical Treatment','Inquiry'], 
         afte_schedule:['Medical Treatment','Medical Treatment','Medical Treatment','Medical Treatment','Medical Treatment',''], 
         note: '▶ Consultation available on the first and third Saturdays', 
         morn_color:['cir_primary','','cir_primary','','cir_primary','cir_success',], 
         afte_color: ['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary',''],
-        phamacology:['한양대학교 의과대학 졸업','부산대학교 의과대학 의학석사','한양대학교 의과대학 의학박사','소아청소년 호흡기·알레르기 분과 전문의','소아청소년 호흡기·알레르기 분과 지도 전문의','인제대 부산백병원 소아 호흡기·알레르기 교수','미국 EMORY대학 호흡기·알레르기학 FELLOW','(교육부 해외파견 교수)','온종합병원 호흡기·알레르기 센터장'],
-        activity: ['대한천식알레르기학회 부산·경남 지회장','대한소아알레르기호흡기학회 부산·경남 지회장',"대한소아알레르기호흡기학회 학회장",'부산광역시 의사회 부회장','의료 NGO 그린닥터스 수석부회장','','[주요저서]','감기를 달고사는 아이들 (1995년)','어린이 알레르기를 이겨내는 101가지 지혜 (1999년)','어린이 청소년 천식 바로 알고 바로 치료하자 (2003년)','천식과 알레르기질환 (2012년)','소아 알레르기 호흡기학 (2013년)','홍창의 소아과학 (2016년)'],
-        professional: ['Pediatric respiratory diseases / Allergies (asthma, allergic rhinitis, hives, atopic dermatitis) / Immune disorders / 결핵 . 감염질환 / 피부질환'],
+        phamacology:[
+            'Graduated from Hanyang University College of Medicine',
+            'Pusan ​​National University School of Medicine, M.D.',
+            'Doctor of Medicine, Hanyang University College of Medicine',
+            'Pediatric Respiratory & Allergy Specialist',
+            'Child and Adolescent Respiratory and Allergy Division Guidance Specialist',
+            'Professor of Pediatric Respiratory and Allergy at Inje University Busan Paik Hospital',
+            'Fellow of Respiratory and Allergy, EMORY University, USA',
+            '(Professor dispatched abroad by the Ministry of Education)',
+            'Director of Respiratory and Allergy Center at On General Hospital'
+        ],
+        activity: [
+            'Korean Asthma and Allergy Society Busan/Gyeongnam Branch President',
+            'Korean Society of Pediatric Allergy and Respiratory Medicine Busan/Gyeongnam Branch President',
+            "President of the Korean Society of Pediatric Allergy and Respiratory Disease",
+            'Vice President of Busan Metropolitan City Medical Association',
+            'Senior Vice President of Medical NGO Green Doctors',
+            '',
+            '[Main publications]',
+            'Children living with a cold (1995)',
+            '101 Wisdom for Overcoming Children`s Allergies (1999)',
+            'Let`s know and treat asthma in children and adolescents right away (2003)',
+            'Asthma and allergic diseases (2012)',
+            'Pediatric Allergy and Respirology (2013))',
+            'Hong Chang-ui Pediatrics (2016)'
+        ],
+        professional: ['Pediatric respiratory diseases / Allergies (asthma, allergic rhinitis, hives, atopic dermatitis) / Immune disorders / tuberculosis, infectious diseases/skin diseases'],
     },
         {cate_no:10, item_no:2, img_src:'children_adolescents2', 
         name:'Song Jeong-yun, Head of Pediatrics Dept', 
         medi_con:'Pediatrics', 
         medi_his_con:'Pediatrician at Keimyung University Dongsan Medical Center', 
-        one_speci_con:'Newborn and Infant Clinic (diagnosis and prevention of newborn diseases, immunization, parenting advice, infant development) / Pediatric respiratory diseases / 소아 소화기 및 영양상담 / 소아 알레르기 및 피부질환', 
+        one_speci_con:'Newborn and Infant Clinic (diagnosis and prevention of newborn diseases, immunization, parenting advice, infant development) / Pediatric respiratory diseases / Childhood digestive and nutritional counseling / Child allergies and skin diseases', 
         morn_schedule:['Medical Treatment','Medical Treatment','Medical Treatment','Medical Treatment','Medical Treatment','Inquiry'], 
         afte_schedule:['Medical Treatment','Medical Treatment','','Medical Treatment','Medical Treatment',''], 
         note: '▶ Consultation available on the second and fourth Saturdays', 
         morn_color: ['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary','cir_success',], 
         afte_color: ['cir_primary','cir_primary','','cir_primary','cir_primary',''],
-        phamacology:['계명대학교 의과대학 졸업',"PEDIATRICS 전문의",'계명대학교 동산의료원 PEDIATRICS 전공의','남울산보람병원 PEDIATRICS 과장','대한PEDIATRICS학회 정회원','대한소아소화기영양학회 정회원','대한소아알레르기호흡기학과 정회원'],
-        activity: ['대한PEDIATRICS학회 정회원','대한소아소화기영양학회 정회원','대한소아알레르기호흡기학과 정회원'],
-        professional: ['Newborn and Infant Clinic (diagnosis and prevention of newborn diseases, immunization, parenting advice, infant development) / Pediatric respiratory diseases / 소아 소화기 및 영양상담 / 소아 알레르기 및 피부질환'],
+        phamacology:[
+            'Graduated from Keimyung University College of Medicine',
+            "PEDIATRICS specialist",
+            'Keimyung University Dongsan Medical Center PEDIATRICS major',
+            'Director of PEDIATRICS at Namulsan Boram Hospital',
+            'Regular member of the Korean PEDIATRICS Society',
+            'Regular member of the Korean Society of Pediatric Gastroenterology and Nutrition',
+            'Regular member of the Department of Pediatric Allergy and Respiratory Medicine'
+        ],
+        activity: [
+            'Regular member of the Korean PEDIATRICS Society',
+            'Regular member of the Korean Society of Pediatric Gastroenterology and Nutrition',
+            'Regular member of the Department of Pediatric Allergy and Respiratory Medicine'
+        ],
+        professional: ['Newborn and Infant Clinic (diagnosis and prevention of newborn diseases, immunization, parenting advice, infant development) / Pediatric respiratory diseases / Childhood digestive and nutritional counseling / Child allergies and skin diseases'],
     },
     ],
     [
@@ -569,12 +919,21 @@ const DOCTOR = [
         note: '▶ Available for consultation on Saturdays, every 2nd and 4th week', 
         morn_color:['cir_primary','cir_primary','cir_danger','cir_primary','cir_danger','cir_success',], 
         afte_color: ['cir_danger','','cir_primary','cir_danger','cir_primary',''],
-        phamacology:['부산대학교 의학전문대학원 졸업','동아대학교병원 내과 전공의','Clinical Professor of Gastroenterology, Dong-A University Hospital'],
-        activity: ['대한내과 학회 평생회원','대한 소화기학회 정회원','대한소화기내시경학회 정회원','대한간학회 회원'],
+        phamacology:[
+            'Graduated from Pusan ​​National University Medical School',
+            'Department of Internal Medicine, Dong-A University Hospital',
+            'Clinical Professor of Gastroenterology, Dong-A University Hospital'
+        ],
+        activity: [
+            'Lifetime member of the Korean Society of Internal Medicine',
+            'Regular member of the Korean Society of Gastroenterology',
+            'Regular member of the Korean Society of Gastrointestinal Endoscopy',
+            'Member of the Korean Society of Liver'
+        ],
         professional: ['Endoscopy of digestive system, therapeutic endoscopy, polypectomy, gastric and colonic diseases, liver diseases, pancreatic and biliary tract (gallbladder) diseases'],
     },
         {cate_no:11, item_no:2, img_src:'department_of_gastroenterology2', 
-        name:'Head of Gastroenterology Dept', 
+        name:'Park Cheol-woo, Head of Gastroenterology Dept', 
         medi_con:'Department of Gastroenterology', 
         medi_his_con:'Internal medicine specialist at Dongui Medical Center', 
         one_speci_con:'Endoscopy of digestive system, therapeutic endoscopy, polypectomy, esophageal diseases, gastric diseases, colonic diseases, liver diseases, pancreatic and biliary tract (gallbladder) diseases', 
@@ -582,22 +941,43 @@ const DOCTOR = [
         afte_schedule:['Medical Treatment','Medical Treatment','','Medical Treatment','Surgery / Test',''], 
         morn_color: ['cir_danger','cir_danger','cir_primary','cir_danger','','cir_success',], 
         afte_color: ['cir_primary','cir_primary','','cir_primary','cir_danger',''],
-        phamacology:['경상대학교 의과대학 졸업','Internal medicine specialist at Dongui Medical Center','명은병원 소화기 내시경센터/내과 과장','메트로병원 소화기 내시경센터/내과 원장'],
-        activity: ['대한위대장내시경학회 평생회원','대한내과학회 평생회원','대한심초음파학회 정회원'],
+        phamacology:[
+            'Graduated from Gyeongsang National University College of Medicine',
+            'Internal medicine specialist at Dongui Medical Center',
+            'Myeongeun Hospital Gastrointestinal Endoscopy Center/Chief of Internal Medicine',
+            'Metro Hospital Gastrointestinal Endoscopy Center/Director of Internal Medicine'
+        ],
+        activity: [
+            'Lifetime member of the Korean Society of Gastrointestinal Endoscopy',
+            'Lifetime member of the Korean Society of Internal Medicine',
+            'Regular member of the Korean Society of Echocardiography'
+        ],
         professional: ['Endoscopy of digestive system, therapeutic endoscopy, polypectomy, esophageal diseases, gastric diseases, colonic diseases, liver diseases, pancreatic and biliary tract (gallbladder) diseases'],
     },
         {cate_no:11, item_no:3, img_src:'department_of_gastroenterology3', 
         name:'Eun Myeong, Head of Gastroenterology Dept', 
         medi_con:'Department of Gastroenterology', 
         medi_his_con:'Trained at Harvard Medical School', 
-        one_speci_con:'위대장내시경/치료내시경/용종절제술/위대장암진단/역류성식도염/소화성궤양/과민성대장증후군/췌장담도질환/췌장담도암진단/간질환', 
+        one_speci_con:'Gastric colonoscopy/treatment endoscopy/polypectomy/diagnosis of gastric bowel cancer/reverse esophagitis/digestive ulcer/hypersensitive colon syndrome/pancreatic biliary tract cancer diagnosis/liver disease', 
         ifram_src: 'https://www.youtube.com/embed/qE40EoPjz3c',  
         morn_schedule:['Medical Treatment','Medical Treatment','Medical Treatment','Medical Treatment','Medical Treatment','Inquiry'], 
         afte_schedule:['Medical Treatment','Medical Treatment','Medical Treatment','','Medical Treatment',''], 
         morn_color: ['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary','cir_success'], 
         afte_color: ['cir_primary','cir_primary','cir_primary','','cir_primary',''],
-        phamacology:['연세대학교 의학과 졸업','세브란스병원 DEPARTMENT OF GASTROENTEROLOGY 수련','아주대의과대학 부속 교육병원 DEPARTMENT OF GASTROENTEROLOGY 과장','경의의료원 교육협력 중앙병원 통합의학과 암치료 센터장','삼성의료원 종합MEDICAL CHECK-UP CENTER VIP내시경실 전담의','UN기구 의료연구원장'],
-        activity: ['대한통합암학회 학술이사','양자에너지 파동치료 국책연구의','UN기구 의료연구원 코로나 치료제 개발 총괄의','유럽 치매진단 및 치료프로그램 개발 전담의'],
+        phamacology:[
+            'Graduated from Yonsei University Department of Medicine',
+            'Severance Hospital DEPARTMENT OF GASTROENTEROLOGY training',
+            'Department of GASTROENTEROLOGY, Department of Education Hospital affiliated with Ajou University Medical School',
+            'Gyeongui Medical Center Educational Cooperation Central Hospital Department of Integrated Medicine Cancer Treatment Center Director',
+            'Samsung Medical Center Comprehensive MEDICAL CHECK-UP CENTER VIP endoscopy doctor',
+            'Director of the UN Organization Medical Research Institute'
+        ],
+        activity: [
+            'Academic Director, Korean Integrative Cancer Society',
+            'Quantum Energy Wave Therapy National Research Center',
+            'Head of development of COVID-19 treatment at UN Organization Medical Research Institute',
+            'European Dementia Diagnosis and Treatment Program Development Specialist'
+        ],
         professional: ['Endoscopy of digestive system, therapeutic endoscopy, polypectomy, diagnosis of gastric and colonic cancers, reflux esophagitis, peptic ulcer disease'],
     }
     ],
@@ -613,9 +993,16 @@ const DOCTOR = [
         note: '▶ Saturday appointments are available on the 2nd and 4th weeks', 
         morn_color:['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary','cir_success',], 
         afte_color: ['cir_primary','','cir_primary','','cir_primary',''],
-        phamacology:['부산대학교 의과대학 졸업','부산대학교병원 인턴, 레지던트 수련','부산대학교 의과대학원 의학박사','미국 존스 홉킨스병원 (Johns Hospkins Hospital)  간질센터(Epliepsy center) Postdoc Epilepsy Fellow 수료','봉생병원 NEUROLOGY 주임 과장','현, 온 종합병원 부원장 / 신경센터장'],
+        phamacology:[
+            'Graduated from Pusan ​​National University School of Medicine',
+            'Pusan ​​National University Hospital intern, resident training',
+            'Pusan ​​National University School of Medicine, Doctor of Medicine',
+            'Postdoc Epilepsy Fellow, Epilepsy Center, Johns Hospkins Hospital, USA',
+            'Bongsaeng Hospital NEUROLOGY Chief Manager',
+            'Current, Vice President of On General Hospital / Director of Nerve Center'
+        ],
         activity: [''],
-        professional: ['뇌파학 및 간질 / 두통','난치성 간질의 약물 치료 및 수술전 검사 등'],
+        professional: ['Dizziness, headache, dementia, Parkinson`s disease, numbness in hands and feet, stroke and other brain disorders, EEG, and epilepsy'],
     },
         {cate_no:12, item_no:2, img_src:'department_of_neurology2', 
         name:'Dr. Sang-uk Ha, , Head of Neurology Dept', 
@@ -628,8 +1015,17 @@ const DOCTOR = [
         note: '▶ Saturday appointments are available on the 1st, 3rd, and 5th weeks', 
         morn_color: ['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary','cir_success',], 
         afte_color: ['cir_primary','cir_primary','','cir_primary','cir_primary',''],
-        phamacology:['고신대학교 의과대학 졸업','Neurology specialist at Kosin University Gospel Hospital','밀양한솔병원 NEUROLOGY 과장','새롬재활요양병원 NEUROLOGY 과장'],
-        activity: ['대한NEUROLOGY학회 정회원','대한임상신경생리학회 정회원','대한뇌졸중학회 정회원'],
+        phamacology:[
+            'Graduated from Kosin University Medical College',
+            'Neurology specialist at Kosin University Gospel Hospital',
+            'Manager of NEUROLOGY at Miryang Hansol Hospital',
+            'Director of NEUROLOGY at Saerom Rehabilitation and Nursing Hospital'
+        ],
+        activity: [
+            'Regular member of the Korean Neurology Society',
+            'Regular member of the Korean Society of Clinical Neurophysiology',
+            'Regular member of the Korean Stroke Society'
+        ],
         professional: ['Stroke and other cerebrovascular diseases, dizziness, headache, dementia, epilepsy, peripheral nerve diseases, and muscle diseases'],
     },
     ],
@@ -639,28 +1035,62 @@ const DOCTOR = [
         name:'Professor Myung-Ki Lee', 
         medi_con:'Department of Neurosurgery', 
         medi_his_con:'Associate Professor of Neurosurgery at the Catholic University of Korea Medical Center', 
-        one_speci_con:'Brain nerves (stroke, tremors, strabismus, Parkinson`s disease, trigeminal neuralgia, dystonia), neuralgia pain, botulinum toxin injections, and corrective surgery / 방사선수술', 
+        one_speci_con:'Brain nerves (stroke, tremors, strabismus, Parkinson`s disease, trigeminal neuralgia, dystonia), neuralgia pain, botulinum toxin injections, and corrective surgery / radiation surgery', 
         ifram_src: 'https://www.youtube.com/embed/kXHpoLgOODQ', 
         morn_schedule:['Medical Treatment','Medical Treatment','Surgery / Test','Medical Treatment','Surgery / Test','Inquiry'], 
         afte_schedule:['Medical Treatment','Medical Treatment','Surgery / Test','Medical Treatment','Surgery / Test',''], 
         morn_color:['cir_primary','cir_primary','cir_danger','cir_primary','cir_danger','cir_success',], 
         afte_color: ['cir_primary','cir_primary','cir_danger','cir_primary','cir_danger',''],
-        phamacology:['인제대학교 의과대학 졸업 및 석사','가톨릭의과대학 박사','군국부산병원 군의관','서울성모병원 전임강사','봉생병원 주임과장','메리놀병원 주임과장','가톨릭의과대학 DEPARTMENT OF NEUROSURGERY 외래교수','세계 3대 인명사전 마르퀴스 후즈후 등재','국민연금공단 장애 판정 전문의','런던대학 연수','동경여자의과대학 연수','베를린흄볼트의대 연수'],
-        activity: ['대한DEPARTMENT OF NEUROSURGERY학회 부산·울산· 경남지회 회장','대한정위기능DEPARTMENT OF NEUROSURGERY학회 이사','대한신경통증학회 이사','','<저서>','통증의 중재적 및 수술적 치료(2005)','근긴장이상증(디스토니아)의 수술적 치료(2010)(2017)'],
-        professional: ['Brain nerves (stroke, tremors, strabismus, Parkinson`s disease, trigeminal neuralgia, dystonia), neuralgia pain, botulinum toxin injections, and corrective surgery / 방사선수술'],
+        phamacology:[
+            'Graduated from Inje University College of Medicine and master`s degree',
+            'Catholic University of Medicine Ph.D.',
+            'Military surgeon at Busan Military Hospital',
+            'Full-time lecturer at Seoul St. Mary`s Hospital',
+            'Chief of Bongsaeng Hospital',
+            'Chief of Merinoll Hospital',
+            'Adjunct Professor, Department of Neurosurgery, Catholic University of Medicine',
+            'Listed in Marquis Who`s Who, one of the world`s three major biographical dictionaries',
+            'National Pension Service disability judgment specialist',
+            'University of London training',
+            'Tokyo Women`s Medical University Training',
+            'Training at the Humboldt Medical University in Berlin'
+        ],
+        activity: [
+            'Korea DEPARTMENT OF NEUROSURGERY Association Busan/Ulsan/Gyeongnam Branch President',
+            'Korean Stereotactic Function Department of Neurosurgery Director',
+            'Director of the Korean Neuropathy Society',
+            '',
+            '<Book>',
+            'Interventional and surgical treatment of pain (2005)',
+            'Surgical treatment of dystonia (dystonia)(2010)(2017)'
+        ],
+        professional: ['Brain nerves (stroke, tremors, strabismus, Parkinson`s disease, trigeminal neuralgia, dystonia), neuralgia pain, botulinum toxin injections, and corrective surgery / radiation surgery'],
     },
         {cate_no:13, item_no:2, img_src:'neurosurgery2', 
         name:'Jae-Young Choi, Chief of Neurosurgery Center', 
         medi_con:'Department of Neurosurgery', 
         medi_his_con:'Assistant Professor at Kosin University Gospel Hospital', 
-        one_speci_con:'Interventional treatment for cerebrovascular diseases (arteriovenous malformations, cerebral arteriovenous malformations), strokes (cerebral hemorrhage, cerebral infarction), and pediatric neurosurgery (moyamoya disease) 두부외상 척추질환', 
+        one_speci_con:'Interventional treatment for cerebrovascular diseases (arteriovenous malformations, cerebral arteriovenous malformations), strokes (cerebral hemorrhage, cerebral infarction), and pediatric neurosurgery (moyamoya disease) head trauma spinal disease', 
         morn_schedule:['Medical Treatment','Surgery / Test','Medical Treatment','Surgery / Test','Medical Treatment','Inquiry'], 
         afte_schedule:['Surgery / Test','Medical Treatment','Surgery / Test','Surgery / Test','Medical Treatment',''], 
         morn_color: ['cir_primary','cir_danger','cir_primary','cir_danger','cir_primary','cir_success',], 
         afte_color: ['cir_danger','cir_primary','cir_danger','cir_danger','cir_primary',''],
-        phamacology:['부산대학교 의학 전문대학 졸업','부산대학교 의학 박사','부산대학교병원 DEPARTMENT OF NEUROSURGERY 전공의 수료','부산대학교병원 DEPARTMENT OF RADIOLOGY 뇌혈관 중재적 시술 전임의','부산대학교병원 진료교수','고신대학교복음병원 DEPARTMENT OF NEUROSURGERY 조교수','대한 뇌혈관내수술학회 인증의'],
-        activity: ['대한뇌혈관내수술학회 정회원','대한신경중재치료의학회 정회원','대한DEPARTMENT OF NEUROSURGERY학회 정회원','대한뇌혈관SURGERY 학회 정회원'],
-        professional: ['Interventional treatment for cerebrovascular diseases (arteriovenous malformations, cerebral arteriovenous malformations), strokes (cerebral hemorrhage, cerebral infarction), and pediatric neurosurgery (moyamoya disease)','두부외상','척추질환'],
+        phamacology:[
+            'Graduated from Pusan ​​National University College of Medicine',
+            'Doctor of Medicine, Pusan ​​National University',
+            'Pusan ​​National University Hospital DEPARTMENT OF NEUROSURGERY major completion',
+            'Pusan ​​National University Hospital DEPARTMENT OF RADIOLOGY full-time cerebrovascular interventional procedure',
+            'Professor at Pusan ​​National University Hospital',
+            'Kosin University Gospel Hospital DEPARTMENT OF NEUROSURGERY Assistant Professor',
+            'Certified by the Korean Society of Cerebrovascular Surgery'
+        ],
+        activity: [
+            'Regular member of the Korean Society of Endovascular Surgery',
+            'Regular member of the Korean Society of Interventional Neurology',
+            'Regular member of the Korean Department of Neurosurgery Society',
+            'Regular member of the Korean Society of Cerebrovascular Surgery'
+        ],
+        professional: ['Interventional treatment for cerebrovascular diseases (arteriovenous malformations, cerebral arteriovenous malformations), strokes (cerebral hemorrhage, cerebral infarction), and pediatric neurosurgery (moyamoya disease)','head trauma','spinal disease'],
     },
         {cate_no:13, item_no:3, img_src:'neurosurgery5', 
         name:'Seung-Ryul Jung, Head of Neurosurgery Dept', 
@@ -671,7 +1101,12 @@ const DOCTOR = [
         afte_schedule:['Medical Treatment','Surgery / Test','Medical Treatment','Medical Treatment','Surgery / Test',''], 
         morn_color: ['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary','cir_success'], 
         afte_color: ['cir_primary','cir_danger','cir_primary','cir_primary','cir_danger',''],
-        phamacology:['인제대학교 의과대학 졸업','좋은삼선병원 원장', '좋은강안병원 원장', '서부산센텀병원 원장'],
+        phamacology:[
+            'Graduated from Inje University College of Medicine',
+            'Director of Good Samsun Hospital', 
+            'Director of Good Gangan Hospital', 
+            'Director of Seobu San Centum Hospital'
+        ],
         activity: [''],
         professional: ['Cervical, lumbar, and brain diseases'],
     },
@@ -684,8 +1119,17 @@ const DOCTOR = [
         afte_schedule:['Medical Treatment','Surgery / Test','Medical Treatment','Medical Treatment','Medical Treatment',''], 
         morn_color: ['cir_danger','cir_danger','cir_primary','cir_danger','cir_danger','cir_success'], 
         afte_color: ['cir_primary','cir_danger','cir_primary','cir_primary','cir_primary',''],
-        phamacology:['부산대학교 의학전문대학원 의학과 졸업','부산대학교병원 인턴 및 레지던트 수료','부산대학교병원 DEPARTMENT OF NEUROSURGERY(뇌혈관)전임의','부산대학교병원 DEPARTMENT OF NEUROSURGERY(뇌혈관) 진료교수'],
-        activity: ['대한뇌혈관수술학회 뇌혈관내 수술인증의','대한뇌혈관SURGERY학회 정회원','대한뇌혈관내수술학회 정회원'],
+        phamacology:[
+            'Graduated from Pusan ​​National University Medical School, Department of Medicine',
+            'Completion of internship and residency at Pusan ​​National University Hospital',
+            'Pusan ​​National University Hospital DEPARTMENT OF NEUROSURGERY (cerebrovascular) full-time',
+            'Pusan ​​National University Hospital DEPARTMENT OF NEUROSURGERY (cerebrovascular) clinical professor'
+        ],
+        activity: [
+            'Korean Society of Cerebrovascular Surgery Certified Doctor of Cerebrovascular Endovascular Surgery',
+            'Regular member of the Korean Society of Cerebrovascular Surgery',
+            'Regular member of the Korean Society of Endovascular Surgery'
+        ],
         professional: ['Cerebral arteriovenous malformations, cerebral atherosclerosis, strokes (cerebral infarction, cerebral hemorrhage), cerebrovascular surgery, and endovascular surgery (neuro-interventional therapy)'],
     }
     ],
@@ -702,8 +1146,20 @@ const DOCTOR = [
         note: '▶ Saturdays: Appointments available only for 2nd and 4th weeks. No online reservations, please call for inquiries.', 
         morn_color:['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary','cir_success',], 
         afte_color: ['cir_primary','cir_primary','cir_primary','cir_primary','',''],
-        phamacology:['부산대학교 의과대학 졸업','Professor at Pusan National University School of Medicine','부산대학교 의과대학 내과학교실 주임교수','부산대학교병원 내과 과장 역임'],
-        activity: ['대한신장학회 회장','대한고혈압학회 부회장','대한내과학학회 이사 및 신장분과위원장','신장학연구재단이사','세계 3대 인명사전 마르퀴즈 후즈후 등재','국외논문 66편 / 국내논문 106편'],
+        phamacology:[
+            'Graduated from Pusan ​​National University School of Medicine',
+            'Professor at Pusan National University School of Medicine',
+            'Pusan ​​National University School of Medicine, Department of Internal Medicine, Head Professor',
+            'Pusan ​​National University Hospital Internal Medicine Director'
+        ],
+        activity: [
+            'President of the Korean Society of Nephrology',
+            'Vice President of the Korean Society of Hypertension',
+            'Director of the Korean Society of Internal Medicine and Chairman of the Kidney Subcommittee',
+            'Director of Nephrology Research Foundation',
+            'Listed in Marquis Who`s Who, one of the world`s three major biographical dictionaries',
+            '66 foreign papers / 106 domestic papers'
+        ],
         professional: ['Hemodialysis / Kidney Disease / Hypertension / Diabetes'],
     },
         {cate_no:14, item_no:2, img_src:'department_of_renal_medicine2', 
@@ -716,8 +1172,13 @@ const DOCTOR = [
         note: '▶ Saturdays: Appointments available only for 1st and 3rd weeks', 
         morn_color: ['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary','cir_success',], 
         afte_color: ['cir_primary','cir_primary','cir_primary','','cir_primary',''],
-        phamacology:['부산대학교병원 NEPHROLOGY 외래교수','부산대학교병원 NEPHROLOGY 전임의 역임','부산대학교 의학전문대학원 의학석사','내과전문의'],
-        activity: ['대한내과학회 정회원'],
+        phamacology:[
+            'Pusan ​​National University Hospital NEPHROLOGY Adjunct Professor',
+            'Full-time NEPHROLOGY at Pusan ​​National University Hospital',
+            'Pusan ​​National University Medical School Master of Medicine',
+            'internal medicine specialist'
+        ],
+        activity: ['Regular member of the Korean Society of Internal Medicine'],
         professional: ['Glomerulonephritis (hematuria, proteinuria), acute and chronic kidney failure, diabetic kidney disease, hypertension, hemodialysis'],
     },
     ],
@@ -727,16 +1188,36 @@ const DOCTOR = [
         name:'Hyun-Kook Lee, Director of Internal Medicine', 
         medi_con:'Cardiology Department', 
         medi_his_con:'Adjunct Professor of Internal Medicine, School of Medicine, Pusan National University', 
-        one_speci_con:'Coronary artery disease, acute myocardial infarction (percutaneous coronary intervention), hypertension, hyperlipidemia, heart failure, valvular heart disease (echocardiography), 부정맥, 동서맥 및 동정지 (심박동기시술)', 
+        one_speci_con:'Coronary artery disease, acute myocardial infarction (percutaneous coronary intervention), hypertension, hyperlipidemia, heart failure, valvular heart disease (echocardiography), Arrhythmia, East-West pulse and dynamic stop (heartbeat procedure)', 
         ifram_src: 'https://www.youtube.com/embed/3nIsp2JoLMc', 
         morn_schedule:['Surgery / Test','Medical Treatment','Medical Treatment','Surgery / Test','Medical Treatment','Inquiry'], 
         afte_schedule:['Medical Treatment','','Surgery / Test','Medical Treatment','',''], 
         note: '▶ Outpatient inquiries are available on Saturdays (051-607-0247)', 
         morn_color:['cir_danger','cir_primary','cir_primary','cir_danger','cir_primary','cir_success',], 
         afte_color: ['cir_primary','','cir_danger','cir_primary','',''],
-        phamacology:['부산대학교 의과대학 졸업','부산대학교 의학대학원 석사, 박사','부산대학교병원 내과 전공의 수련','부산대학교병원 순환기내과 전임의사','메리놀병원 CARDIOLOGY DEPARTMENT 과장','내과전문의','순환기내과 분과 전문의','심혈관중재시술 인증의','심장초음파 인증의','지도전문의','현)부산대학교 의학전문대학원 내과학 겸임교수','현)온종합병원 심혈관센터 센터장 및 내과부장'],
-        activity: ['대한내과학회 정회원','대한고혈압학회 정회원','대한심장학회 정회원','한국심초음파학회 정회원','대한부정맥학회 정회원','대한심혈관중재학회 정회원'],
-        professional: ['Coronary artery disease, acute myocardial infarction (percutaneous coronary intervention), hypertension, hyperlipidemia, heart failure, valvular heart disease (echocardiography)','부정맥, 동서맥 및 동정지 (심박동기시술)'],
+        phamacology:[
+            'Graduated from Pusan ​​National University School of Medicine',
+            'Pusan ​​National University Graduate School of Medicine Master`s, Ph.D.',
+            'Pusan ​​National University Hospital internal medicine specialist training',
+            'Pusan ​​National University Hospital Cardiology Department Full-time Doctor',
+            'Merinoll Hospital CARDIOLOGY DEPARTMENT Manager',
+            'internal medicine specialist',
+            'cardiology department specialist',
+            'Cardiovascular interventional procedure certification',
+            'echocardiography certification',
+            'cartographer',
+            'C) Adjunct Professor of Internal Medicine, Pusan ​​National University School of Medicine',
+            'C) On General Hospital Cardiovascular Center Center Director and Internal Medicine Department Director'
+        ],
+        activity: [
+            'Regular member of the Korean Society of Internal Medicine',
+            'Regular member of the Korean Society of Hypertension',
+            'Regular member of Korean Society of Cardiology',
+            'Regular member of the Korean Society of Echocardiography',
+            'Regular member of the Korean Arrhythmia Society',
+            'Regular member of the Korean Society of Interventional Cardiovascular Interventions'
+        ],
+        professional: ['Coronary artery disease, acute myocardial infarction (percutaneous coronary intervention), hypertension, hyperlipidemia, heart failure, valvular heart disease (echocardiography)','Arrhythmia, East-West pulse and dynamic stop (heartbeat procedure)'],
         },
         {cate_no:15, item_no:2, img_src:'cardiology_department_2', 
         name:'Yoon Sung Jo, Head of Cardiology Dept', 
@@ -747,7 +1228,12 @@ const DOCTOR = [
         afte_schedule:['','Medical Treatment','Medical Treatment','','Medical Treatment',''], 
         morn_color:['cir_primary','cir_danger','cir_danger','cir_primary','cir_danger','cir_success',], 
         afte_color: ['','cir_primary','cir_primary','','cir_primary',''],
-        phamacology:['동아대학교 의과대학 졸업','동아대학교병원 레지던트','동아대학교병원 펠로우','Clinical Professor, Busan Baek Hospital'],
+        phamacology:[
+            'Graduated from Dong-A University School of Medicine',
+            'Dong-A University Hospital Resident',
+            'Dong-A University Hospital Fellow',
+            'Clinical Professor, Busan Baek Hospital'
+        ],
         activity: [''],
         professional: ['Coronary artery disease, acute myocardial infarction (percutaneous coronary intervention), hypertension, hyperlipidemia, heart failure, valvular heart disease (echocardiography)'],
         },
@@ -763,41 +1249,77 @@ const DOCTOR = [
         afte_schedule:['','','','Medical Treatment','',''], 
         morn_color:['','','','','','',], 
         afte_color: ['','','','cir_primary','',''],
-        phamacology:['동국대학교 의과대학졸업','동대학원 안과학 석사학위 취득','동국대학교병원 안과 전문의 자격 취득','경남 창녕군 보건소 안과과장 역임','마산김안과병원 녹내장 전문 DEPARTMENT장 역임','부산경남 장기요양보험공단 의료자문위원 역임'],
-        activity: ['미국안과학회(AAO)회원','미국 백내장 굴절수술학회(ASCRS)회원','대한안과학회 회원','한국 백내장 굴절수술학회(KSCRS)회원','한국 콘택트렌즈학회 회원'],
+        phamacology:[
+            'Graduated from Dongguk University College of Medicine',
+            'Obtained a master`s degree in ophthalmology from the same graduate school',
+            'Dongguk University Hospital ophthalmology specialist qualification',
+            'Served as chief ophthalmologist at Changnyeong-gun Public Health Center in Gyeongsangnam-do',
+            'Masan Kim Eye Hospital, glaucoma specialist department chief',
+            'Former member of the medical advisory committee at the Busan-Gyeongnam Long-Term Care Insurance Corporation'
+        ],
+        activity: [
+            'Member of the American Academy of Ophthalmology (AAO)',
+            'Member of the American Society for Cataract and Refractive Surgery (ASCRS)',
+            'Member of the Korean Ophthalmological Society',
+            'Member of the Korean Society of Cataract and Refractive Surgery (KSCRS)',
+            'Member of the Korean Contact Lens Society'
+        ],
         professional: ['Cataracts, glaucoma, and LASIK surgery'],
     },
     ],
     [
         // 17번 묵음 : OTOLARYNGOLOGY
         {cate_no:17, item_no:1, img_src:'otolaryngology1', 
-        name:'이일우 과장', 
+        name:'Lee Il-woo, Head of Otolaryngology Dept', 
         medi_con:'OTOLARYNGOLOGY', 
-        medi_his_con:'부산대학교 OTOLARYNGOLOGY 전임의사', 
-        one_speci_con:'비염, 부비동염, 비골골절, 중이염, 외이도염, 어지러움, 난청, 이명, 편도, 아데노이드, 후두질환', 
+        medi_his_con:'Attending physician in the Department of Otolaryngology, Pusan National University', 
+        one_speci_con:'Sinusitis, rhinosinusitis, nasal bone fracture, otitis media, otitis externa, dizziness, hearing loss, tinnitus, tonsillectomy, adenoidectomy, laryngeal diseases', 
         ifram_src: 'https://www.youtube.com/embed/auagcELsIng', 
         morn_schedule:['Medical Treatment','Medical Treatment','Medical Treatment','Surgery / Test','Medical Treatment','Inquiry'], 
         afte_schedule:['Medical Treatment','Surgery / Test','Medical Treatment','Medical Treatment','',''], 
-        note: '▶ 토요일 : 1, 3주 진료', 
+        note: '▶ Consultation available on 1st and 3rd Saturdays', 
         morn_color:['cir_primary','cir_primary','cir_primary','cir_danger','cir_primary','cir_success',], 
         afte_color: ['cir_primary','cir_danger','cir_primary','cir_primary','',''],
-        phamacology:['부산대학교 의학전문대학원 졸업','부산대학교 OTOLARYNGOLOGY 전공의','부산대학교 OTOLARYNGOLOGY 전임의사','좋은삼선병원 OTOLARYNGOLOGY 주임과장'],
-        activity: ['대한 OTOLARYNGOLOGY학회 회원','대한 이과학회 회원','대한 비과학회 회원','대한 청각학회 회원','대한 소아OTOLARYNGOLOGY학회 회원','대한 후두음성의학회 회원'],
-        professional: ['비염, 부비동염, 비골골절, 중이염, 외이도염, 어지러움, 난청, 이명, 편도, 아데노이드, 후두질환'],
+        phamacology:[
+            'Graduated from Pusan ​​National University Medical School',
+            'Pusan ​​National University OTOLARYNGOLOGY major',
+            'Attending physician in the Department of Otolaryngology, Pusan National University',
+            'Director of OTOLARYNGOLOGY at Good Samsun Hospital'
+        ],
+        activity: [
+            'Member of the Korean Society of OTOLARYNGOLOGY',
+            'Member of the Korean Society of Science',
+            'Member of the Korean Society for Rhinoplasty',
+            'Member of the Korean Audiology Society',
+            'Member of the Korean Pediatric OTOLARYNGOLOGY Society',
+            'Member of the Korean Society of Laryngeal Speech'
+        ],
+        professional: ['Sinusitis, rhinosinusitis, nasal bone fracture, otitis media, otitis externa, dizziness, hearing loss, tinnitus, tonsillectomy, adenoidectomy, laryngeal diseases'],
     },
         {cate_no:17, item_no:2, img_src:'otolaryngology2', 
-        name:'이봉희 과장', 
+        name:'Lee Bong-hee, Head of Otolaryngology Dept', 
         medi_con:'OTOLARYNGOLOGY', 
-        medi_his_con:'인제대학교 부산백병원 OTOLARYNGOLOGY 의학박사', 
-        one_speci_con:'코골이 및 수면무호흡증, 코:알레르기 비염 및 부비동염/귀:어지러움, 이명, 난청, 중이염/목:편도염, 인후두 질환', 
+        medi_his_con:'Doctor of Medicine in Otolaryngology, Inje University Busan Paik Hospital', 
+        one_speci_con:'Snoring and sleep apnea, nose: allergic rhinitis and sinusitis/ear: dizziness, tinnitus, hearing loss, otitis media/Throat: tonsillitis, throat disease', 
         ifram_src: 'https://www.youtube.com/embed/eYEW2NAgcfI', 
         morn_schedule:['Medical Treatment','Surgery / Test','Surgery / Test','Medical Treatment','Medical Treatment','Inquiry'], 
         afte_schedule:['Medical Treatment','Medical Treatment','Medical Treatment','','Medical Treatment',''], 
         morn_color: ['cir_primary','cir_danger','cir_danger','cir_primary','cir_primary','cir_success',], 
         afte_color: ['cir_primary','cir_primary','cir_primary','','cir_primary',''],
-        phamacology:['고신대학교 의과대학 졸업','인제대학교 부산백병원 OTOLARYNGOLOGY 의학박사','고신대병원 부교수','미국 UTMB 교환 교수','고신대학교 이사 역임','열린OTOLARYNGOLOGY 대표원장'],
-        activity: ['대한OTOLARYNGOLOGY 비과 학회 회원','대한OTOLARYNGOLOGY 수면호흡학회 회원','수면다원검사 교육이수 수료'],
-        professional: ['코골이 및 수면무호흡증','코:알레르기 비염 및 부비동염','귀:어지러움, 이명, 난청, 중이염','목:편도염, 인후두 질환'],
+        phamacology:[
+            'Graduated from Kosin University Medical College',
+            'Doctor of Medicine in Otolaryngology, Inje University Busan Paik Hospital',
+            'Kosin University Hospital Associate Professor',
+            'American UTMB Exchange Professor',
+            'Director of Kosin University',
+            'CEO of Open OTOLARYNGOLOGY'
+        ],
+        activity: [
+            'Member of Korean OTOLARYNGOLOGY Academy of Rhinology',
+            'Member of the Korean OTOLARYNGOLOGY Sleep Respiration Society',
+            'Completion of polysomnography training'
+        ],
+        professional: ['Snoring and sleep apnea, nose: allergic rhinitis and sinusitis/ear: dizziness, tinnitus, hearing loss, otitis media','Throat: tonsillitis, throat disease'],
     },
     ],
     [
@@ -813,9 +1335,22 @@ const DOCTOR = [
         afte_schedule:['Medical Treatment','Medical Treatment','Medical Treatment','Medical Treatment','Medical Treatment',''], 
         morn_color: ['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary','cir_primary',], 
         afte_color: ['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary',''],
-        phamacology:['부산대학교 의과대학 졸업','부산 백병원 DEPARTMENT OF RADIOLOGY 전공의','서울아산병원 임상강사(인터벤션 분야)','해운대백병원 부교수(인터벤션 분야)','Dotter interventional institute, USA 연수'],
-        activity: ['대한영상의학회 정회원','대한인터벤션영상의학회 정회원','유럽심혈관인터벤션의학회 정회원','미국인터벤션의학회 정회원'],
-        professional: ['인터벤션 영상의학','-경피적 동맥색전술(간암·자궁근종·전립선비대증·동맥류)','-경피적 사지혈관 성형술(투석혈관·당뇨병혈관·동맥경화증)','-경피적 정맥질환 치료(하지정맥류·정계정맥류·골반울혈증후군)','-경피적 낭종 경화술(신낭종·간낭종)','-중심정맥삽관술(PICC)'],
+        phamacology:[
+            'Graduated from Pusan ​​National University School of Medicine',
+            'Busan Paik Hospital DEPARTMENT OF RADIOLOGY Resident',
+            'Clinical Instructor at Seoul Asan Medical Center (intervention field)',
+            'Haeundae Paik Hospital Associate Professor (intervention field)',
+            'Dotter interventional institute, USA training'
+        ],
+        activity: [
+            'Regular member of the Korean Society of Radiology',
+            'Regular member of the Korean Society of Interventional Radiology',
+            'Regular member of the European Society of Cardiovascular and Interventional Medicine',
+            'Regular member of the American Society of Interventional Medicine'
+        ],
+        professional: [
+            'Interventional Radiology'
+        ],
         },
         {cate_no:18, item_no:2, img_src:'department_of_imaging3', 
         name:'Moon Tae-yong, Professor', 
@@ -826,7 +1361,7 @@ const DOCTOR = [
         afte_schedule:['','','','','',''], 
         morn_color: ['','','','','',''], 
         afte_color: ['','','','','',''],
-        phamacology:['Professor of Radiology at Pusan National University Hospital','양산부산대학병원 건강증진센터','목표대우병원 방사선사 과장'],
+        phamacology:['Professor of Radiology at Pusan National University Hospital','Yangsan Pusan National University Hospital Health Promotion Center', 'Director of Radiologists at Target Daewoo Hospital'],
         activity: [''],
         professional: [''],
         },
@@ -839,7 +1374,12 @@ const DOCTOR = [
         afte_schedule:['Medical Treatment','Medical Treatment','Medical Treatment','Medical Treatment','Medical Treatment',''], 
         morn_color: ['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary','cir_primary',], 
         afte_color: ['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary',''],
-        phamacology:['서울의료원 DEPARTMENT OF RADIOLOGY 전공의','거창적십자병원 DEPARTMENT장(공중보건의)','통영서울병원 진료부장','갑을장유병원 DEPARTMENT장'],
+        phamacology:[
+            'Seoul Medical Center DEPARTMENT OF RADIOLOGY major',
+            'Geochang Red Cross Hospital DEPARTMENT Director (Public Health Doctor)',
+            'Head of Tongyeong Seoul Hospital',
+            'Head of Department of Kabul Jangyu Hospital'
+        ],
         activity: [''],
         professional: [''],
         },
@@ -852,8 +1392,16 @@ const DOCTOR = [
         afte_schedule:['Medical Treatment','Medical Treatment','Medical Treatment','Medical Treatment','Medical Treatment',''], 
         morn_color: ['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary','cir_primary'], 
         afte_color: ['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary',''],
-        phamacology:['일산 백병원 인턴 / 레지던트 수료','김해중앙병원 DEPARTMENT OF RADIOLOGY  과장','스마트 병원 DEPARTMENT OF RADIOLOGY 과장','새부산병원 DEPARTMENT OF RADIOLOGY 과장'],
-        activity: ['대한심장혈관영상의학회 심장CT 인증의','대한초음파의학회 초음파검사 인증의'],
+        phamacology:[
+            'Ilsan Paik Hospital Intern/Residency Completion',
+            'Gimhae Joongang Hospital Department of Radiology Manager',
+            'Smart Hospital DEPARTMENT OF RADIOLOGY Manager',
+            'New Busan Hospital Department of Radiology Manager'
+        ],
+        activity: [
+            'Cardiac CT certified by the Korean Society of Cardiovascular Imaging',
+            'Ultrasonography certified by the Korean Society of Ultrasound Medicine'
+        ],
         professional: ['MRI / CT / ultrasound / X-ray imaging of the abdomen, ultrasound-guided interventional procedures for the abdomen'],
         },
         {cate_no:18, item_no:5, img_src:'department_of_imaging1', 
@@ -865,8 +1413,19 @@ const DOCTOR = [
         afte_schedule:['Medical Treatment','Medical Treatment','','Medical Treatment','Medical Treatment',''], 
         morn_color:['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary','cir_primary',], 
         afte_color: ['cir_primary','cir_primary','','cir_primary','cir_primary',''],
-        phamacology:['부산대학교 의과대학 졸업','동아대학교 대학원 졸업','Professor of Radiology at Dong-A University College of Medicine','미국 캘리포니아 주립대학 DEPARTMENT OF RADIOLOGY 교환교수'],
-        activity: ['대한영상의학회 평생회원','대한 초음파학회 평생회원','소화기영상연구회 정회원','간암연구회 평생회원','2006년도 세계초음파학회 실습강의 강사'],
+        phamacology:[
+            'Graduated from Pusan ​​National University School of Medicine',
+            'Graduated from Donga University Graduate School',
+            'Professor of Radiology at Dong-A University College of Medicine',
+            'Associate professor at California State University, DEPARTMENT OF RADIOLOGY'
+        ],
+        activity: [
+            'Lifetime member of the Korean Society of Radiology',
+            'Lifetime member of the Korean Society of Ultrasound',
+            'Regular member of the Digestive Organ Imaging Research Society',
+            'Lifetime member of the Liver Cancer Research Society',
+            '2006 World Ultrasonic Society Practical Instructor'
+        ],
         professional: [''],
         },
     ],
@@ -881,8 +1440,23 @@ const DOCTOR = [
         afte_schedule:['Surgery / Test','Surgery / Test','Surgery / Test','Surgery / Test','',''], 
         morn_color:['cir_primary','cir_primary','cir_primary','cir_primary','cir_danger','cir_success',], 
         afte_color: ['cir_danger','cir_danger','cir_danger','cir_danger','',''],
-        phamacology:['국립 경상대 의과대학 학사','울산대학교 일반대학원 의학과 석·박사','서울아산병원 간담췌 및 이식 전임의','(간담췌 SURGERY, 혈관 이식 SURGERY, 외상 SURGERY 및 중환자 의학)','양산부산대학교 SURGERY 교수 장기이식센터장','빈멕 병원 SURGERY, 하노이, 베트남'],
-        activity: ['대한SURGERY학회 평생회원','한국Department of Hepatobiliary and Pancreatic Surgery학회 정회원','대한내분비SURGERY학회 정회원','대한중환자의학회 정회원','대한외상중환자SURGERY학회 정회원','대한내시경복강경학회 정회원','대한이식학회/대한간학회/간암연구회/대한췌담도학회/췌장수술연구회'],
+        phamacology:[
+            'Bachelor of Medicine, Gyeongsang National University',
+            'University of Ulsan, Graduate School of Medicine, Master`s and Doctorate',
+            'Hepatobiliary pancreas and transplantation full-time doctor at Asan Medical Center',
+            '(Hepatobiliary SURGERY, Vascular Transplant SURGERY, Trauma SURGERY and Critical Care Medicine)',
+            'Yangsan Pusan ​​National University SURGERY Professor Organ Transplantation Center Director',
+            'Vinmec Hospital SURGERY, Hanoi, Vietnam'
+        ],
+        activity: [
+            'Lifetime member of the Korean Surgery Society',
+            'Regular member of the Korean Department of Hepatobiliary and Pancreatic Surgery',
+            'Regular member of the Korean Society of Endocrine Surgery',
+            'Regular member of the Korean Society of Critical Care Medicine',
+            'Regular member of the Korean Society of Trauma Surgery',
+            'Regular member of the Korean Society of Endoscopy and Laparoscopy',
+            'The Korean Transplantation Society/The Korean Liver Society/The Liver Cancer Research Society/The Korean Pancreaticobiliary Society/The Pancreatic Surgery Research Society'
+        ],
         professional: ['Hepatobiliary and pancreatic surgery / vascular transplantation surgery / critical care and trauma surgery / breast and thyroid surgery'],
     },
         {cate_no:19, item_no:2, img_src:'surgrey2', 
@@ -895,9 +1469,26 @@ const DOCTOR = [
         afte_schedule:['Surgery / Test','Medical Treatment','Surgery / Test','Medical Treatment','Surgery / Test',''], 
         morn_color: ['cir_danger','cir_primary','cir_danger','cir_primary','cir_danger','cir_success',], 
         afte_color: ['cir_danger','cir_primary','cir_danger','cir_primary','cir_danger',''],
-        phamacology:['한양대학교 의과대학 졸업','연세대학교 의과대학 의학박사','Former Medical Specialist, Seoul Asan Hospital','미국 피츠버그대학병원 연수의','미국 메이요병원 연수의','서울아산병원 간담도췌SURGERY 교수','SURGERY전문의고시출제위원','마르퀴즈후즈후 세계인명사전 등재','서울아산병원 이메디팀 담당교수','서울아산병원 국제진료센터 외국인진료 담당교수','서울아산병원 간담도췌장SURGERY 과장','누적SURGERY수술 1만례 달성'],
-        activity: ['SCI급 국제학술지 147편 저자 및 공저자','SURGERY술기교과서 공저자','NECROX 신약개발/공동개발자(LG생명과학)'],
-        professional: ['간담도췌장SURGERY','SURGERY영역 중 가장 어려운 분야인 간, 담도계, 쓸개, 췌장 및 비장등의 장기에 발생하는 질환을 치료'],
+        phamacology:[
+            'Graduated from Hanyang University College of Medicine',
+            'Doctor of Medicine, Yonsei University College of Medicine',
+            'Former Medical Specialist, Seoul Asan Hospital',
+            'Trainee at University of Pittsburgh Hospital, USA',
+            'U.S. Mayo Hospital Trainee',
+            'Professor of Hepatobiliary and Pancreatic SURGERY at Asan Medical Center in Seoul',
+            'Member of the SURGERY Specialist Examination Committee',
+            'Listed in Marquis Who`s Who World Biographical Dictionary',
+            'Seoul Asan Medical Center E-Medi Team Professor',
+            'Seoul Asan Medical Center International Medical Center Professor in charge of foreign medical treatment',
+            'Seoul Asan Medical Center Hepatobiliary Pancreatic Surgery Manager',
+            'Achieved 10,000 cumulative surgeries'
+        ],
+        activity: [
+            'Author and co-author of 147 SCI-level international journals',
+            'Co-author of SURGERY Skills Textbook',
+            'NECROX new drug development/co-developer (LG Life Science)'
+        ],
+        professional: ['Surgery for biliary tract and pancreatic cancer / gallbladder disease / laparoscopic surgery (single-port laparoscopic cholecystectomy) / liver transplantation'],
     },
         {cate_no:19, item_no:3, img_src:'surgical1', 
         name:'Ko Sang-hwa, Head of Surgery Dept', 
@@ -909,8 +1500,18 @@ const DOCTOR = [
         afte_schedule:['Medical Treatment','Medical Treatment','Medical Treatment','','Medical Treatment',''], 
         morn_color: ['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary','cir_success'], 
         afte_color: ['cir_primary','cir_primary','cir_primary','','cir_primary',''],
-        phamacology:['부산대학교 의과대학 졸업','부산대학교 대학원 의학과 석사','부산대학교병원 전임의','부산대학교병원 조교수','부산의료원 SURGERY 과장'],
-        activity: ['대한SURGERY학회 평생회원','대한대장항문학회 평생회원','대한종양SURGERY학회 정회원'],
+        phamacology:[
+            'Graduated from Pusan ​​National University School of Medicine',
+            'Master of Medicine, Pusan ​​National University Graduate School',
+            'Full-time doctor at Pusan ​​National University Hospital',
+            'Pusan ​​National University Hospital Assistant Professor',
+            'Busan Medical Center SURGERY Manager'
+        ],
+        activity: [
+            'Lifetime member of the Korean Surgery Society',
+            'Lifetime member of the Korean Society of Colon and Anus',
+            'Regular member of the Korean Society of Oncology Surgery'
+        ],
         professional: ['Colon cancer / rectal cancer / hernia / gallstone / anal disease / laparoscopic surgery'],
     },
         {cate_no:19, item_no:4, img_src:'hep_pan2', 
@@ -922,22 +1523,51 @@ const DOCTOR = [
         afte_schedule:['Medical Treatment','Medical Treatment','Medical Treatment','','Surgery / Test',''], 
         morn_color: ['cir_danger','cir_danger','cir_danger','cir_primary','cir_danger','cir_success'], 
         afte_color: ['cir_primary','cir_primary','cir_primary','','cir_danger',''],
-        phamacology:['부산대학교 의과대학 학사','울산대학교 일반대학원 의학과 석·박사','Fellow at Seoul Asan Hospital','인제대학교해운대백병원 조교수','한림대학교성심병원 조교수','인제대부산백병원 조교수','SURGERY전문의 및 간담췌세부분과 전문의'],
-        activity: ['대학SURGERY학회 평생회원','대한내시경복강경학회 평생회원','대한이식학회 정회원','한국Department of Hepatobiliary and Pancreatic Surgery학회 정회원','대한간학회 정회원','간암연구회 회원','세계생체간이식학회 회원','췌장수술연구회 회원','부산지방검찰청 자문의사'],
+        phamacology:[
+            'Bachelor of Medicine, Pusan ​​National University',
+            'University of Ulsan, Graduate School of Medicine, Master`s and Doctorate',
+            'Fellow at Seoul Asan Hospital',
+            'Inje University Haeundae Paik Hospital Assistant Professor',
+            'Hallym University Sacred Heart Hospital Assistant Professor',
+            'Inje University Busan Paik Hospital Assistant Professor',
+            'Surgery Specialist and Hepatobiliary Pancreatic Division Specialist'
+        ],
+        activity: [
+            'Lifetime member of University Surgery Society',
+            'Lifetime member of the Korean Society of Endoscopy and Laparoscopy',
+            'Regular member of the Korean Society of Transplantation',
+            'Regular member of the Korean Department of Hepatobiliary and Pancreatic Surgery',
+            'Regular member of the Korean Society of Liver',
+            'Member of the Liver Cancer Research Society',
+            'Member of the World Living Liver Transplant Society',
+            'Member of the Pancreatic Surgery Research Society',
+            'Busan District Prosecutor`s Office Advisory Doctor'
+        ],
         professional: ['Treatment of liver and biliary tract cancer, gallbladder cancer, pancreatic cancer, cholelithiasis, gallbladder polyps, laparoscopy, gallbladder surgery, liver transplantation'],
     },
         {cate_no:19, item_no:5, img_src:'hep_pan1', 
         name:'Lee Sang-yeop, Head of Hepatobiliary and Pancreatic Surgery Dept', 
         medi_con:'Hepatobiliary and Pancreatic Surgery', 
         medi_his_con:'Specialist in hepatobiliary and pancreatic surgery at Seoul Asan Hospital', 
-        one_speci_con:'Hepatobiliary and pancreatic surgery / abdominal wall surgery / treatment of biliary tract obstruction ERCP (endoscopic retrograde cholangiopancreatography) / 담도 결석 치료 복강경 담관 결석 제거', 
+        one_speci_con:'Hepatobiliary and pancreatic surgery / abdominal wall surgery / treatment of biliary tract obstruction ERCP (endoscopic retrograde cholangiopancreatography) / Treatment of biliary stones Removal of laparoscopic bile duct stones', 
         morn_schedule:['Medical Treatment','Surgery / Test','Medical Treatment','Surgery / Test','Medical Treatment','Inquiry'], 
         afte_schedule:['Medical Treatment','Surgery / Test','','Surgery / Test','Medical Treatment',''], 
         morn_color: ['cir_primary','cir_danger','cir_primary','cir_danger','cir_primary','cir_success'], 
         afte_color: ['cir_primary','cir_danger','','cir_danger','cir_primary',''],
-        phamacology:['서울아산병원 Hepatobiliary and Pancreatic Surgery 전문의','서울아산병원 Hepatobiliary and Pancreatic Surgery 임상강사','대구계명대학교 의과대학 졸업','대구계명대학교 동산의료원 SURGERY전문의','대구드림병원 SURGERY 과장, 응급실 센터장'],
-        activity: ['대한 SURGERY 학회 정회원','한국 Hepatobiliary and Pancreatic Surgery 학회 정회원','대한 내시경복강경 SURGERY 학회 정회원','대한 췌담도 학회 정회원'],
-        professional: ['Hepatobiliary and pancreatic surgery / abdominal wall surgery / treatment of biliary tract obstruction ERCP (endoscopic retrograde cholangiopancreatography) / 담도결석 치료 복강경 담관 결석 제거'],
+        phamacology:[
+            'Specialist in Hepatobiliary and Pancreatic Surgery, Asan Medical Center',
+            'Clinical Instructor of Hepatobiliary and Pancreatic Surgery, Asan Medical Center',
+            'Graduated from Daegu Keimyung University Medical College',
+            'Daegu Keimyung University Dongsan Medical Center SURGERY specialist',
+            'Daegu Dream Hospital SURGERY Manager, Emergency Room Center Manager'
+        ],
+        activity: [
+            'Regular member of the Korean Surgery Society',
+            'Regular member of the Korean Society of Hepatobiliary and Pancreatic Surgery',
+            'Regular member of the Korean Endoscopic Laparoscopy Society',
+            'Regular member of the Korean Pancreatobiliary Society'
+        ],
+        professional: ['Hepatobiliary and pancreatic surgery / abdominal wall surgery / treatment of biliary tract obstruction ERCP (endoscopic retrograde cholangiopancreatography) / Treatment of biliary stones Removal of laparoscopic bile duct stones'],
     },
         {cate_no:19, item_no:6, img_src:'surgical2', 
         name:'Kim Dong-heon, Hospital Chief', 
@@ -948,7 +1578,7 @@ const DOCTOR = [
         afte_schedule:['','','','Medical Treatment','',''], 
         morn_color: ['','','','','',''], 
         afte_color: ['','','','cir_primary','',''],
-        phamacology:['22nd Chief of Busan National University Hospital','14th Medical Chief of Busan Metropolitan Medical Center ','12th Chief of Busan Veterans Hospital','부산대학교 의과대학졸업 및 석·박사','부산대학교 SURGERY전공의·전문의','부산대학교 의학전문대학원 SURGERY학교실 교수','홍콩대학교 Queen Mary병원 CMB fellow','부산대학교 암연구소 운영위원','University of California, SanDiego Medical School','Scripps Clinic ＆  Marcy Hospital 미세수술 및 간이식 파견근무','부산대학교 SURGERY 과장 및 제 6대 주임교수'],
+        phamacology:['22nd Chief of Busan National University Hospital','14th Medical Chief of Busan Metropolitan Medical Center ','12th Chief of Busan Veterans Hospital','Graduated from Pusan National University Medical School and Master`s and Doctor`s degree, Pusan National University SURGERY Medical School SURGERY School Room Professor, Queen Mary Hospital CMB Fellow, Pusan National University, University of California, San Diego Medical School, Scripps Clinic & Marine'],
         activity: [''],
         professional: ['Surgical oncology / gastrointestinal surgery / gastric cancer / gastric tumors'],
     },
@@ -956,14 +1586,28 @@ const DOCTOR = [
         name:'Choi Pil-jo, Center Director', 
         medi_con:'Thoracic Surgery', 
         medi_his_con:'Assistant professor of thoracic surgery at Dong-A University College of Medicine', 
-        one_speci_con:'Lung cancer surgery / thoracoscopic surgery for lung and thoracic tumors / surgery and non-surgical treatment of empyema / pneumothorax / 하지 정맥류 누두흉(오목가슴) 등의 흉벽기형', 
+        one_speci_con:'Lung cancer surgery / thoracoscopic surgery for lung and thoracic tumors / surgery and non-surgical treatment of empyema / pneumothorax / A chest wall shape such as a vein flow (Omok gas)', 
         morn_schedule:['Medical Treatment','Surgery / Test','Medical Treatment','Surgery / Test','Surgery / Test','Inquiry'], 
         afte_schedule:['Medical Treatment','Surgery / Test','','Surgery / Test','Medical Treatment',''], 
         morn_color: ['cir_primary','cir_danger','cir_primary','cir_danger','cir_danger','cir_success'], 
         afte_color: ['cir_primary','cir_danger','','cir_danger','cir_primary',''],
-        phamacology:['부산대 의과대학 졸업','부산대 의학 석사, 박사','동아대학교 의과 대학 THORACIC SURGERY 주임교수 역임','동아대학교 의료원 THORACIC SURGERY 과장 역임','일본 동경 국립암센타 연수','미국 워싱턴 의과대학 및 Siteman 암센타 교환교수','미국 Intuitive Surgical 본사 로봇수술 연수','의사가 추천하는 THORACIC SURGERY 명의 선정 (부산일보, Best Doctor in Busan)'],
-        activity: ['대한 심장혈관 THORACIC SURGERY 학회 정회원','대한 심장혈관 THORACIC SURGERY 학회 상임이사','부산 울산 경남 지방 THORACIC SURGERY 학회 회장','흉부 종양학회 회원/ 대한 폐암학회 회원/ 대한 정맥학회 회원','국제흉벽질환연구회(chest wall international group) 회원'],
-        professional: ['Lung cancer surgery / thoracoscopic surgery for lung and thoracic tumors / surgery and non-surgical treatment of empyema / pneumothorax / 하지 정맥류 누두흉(오목가슴) 등의 흉벽기형'],
+        phamacology:[
+            'Graduated from Pusan ​​National University College of Medicine',
+            'Pusan ​​National University, Master of Medicine, Ph.D.',
+            'Dong-A University School of Medicine, THORACIC SURGERY Head Professor',
+            'Dong-A University Medical Center THORACIC SURGERY Manager',
+            'Visiting Professor at University of Washington Medical School and Siteman Cancer Center, USA',
+            'Robotic surgery training at Intuitive Surgical headquarters in the U.S.',
+            'Selection of THORACIC SURGERY names recommended by doctors (Busan Ilbo, Best Doctor in Busan)'
+        ],
+        activity: [
+            'Regular member of the Korean Cardiovascular Thoracic Surgery Society',
+            'Executive Director of the Korean Cardiovascular Thoracic Surgery Society',
+            'President of the THORACIC SURGERY Society in Busan, Ulsan and Gyeongnam Province',
+            'Member of the Thoracic Oncology Society/ Member of the Korean Lung Cancer Society/ Member of the Korean Vein Society',
+            'Member of Chest Wall International Group'
+        ],
+        professional: ['Lung cancer surgery / thoracoscopic surgery for lung and thoracic tumors / surgery and non-surgical treatment of empyema / pneumothorax / A chest wall shape such as a vein flow (Omok gas)'],
     },
         {cate_no:19, item_no:8, img_src:'surgical4', 
         name:'Ju Jae-woo, Head of Surgery Dept', 
@@ -974,9 +1618,20 @@ const DOCTOR = [
         afte_schedule:['Medical Treatment','Medical Treatment','','Medical Treatment','Medical Treatment',''], 
         morn_color: ['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary','cir_success'], 
         afte_color: ['cir_primary','cir_primary','','cir_primary','cir_primary',''],
-        phamacology:['동아대학교 의과대학 졸업','동아대학교 의학대학원 졸업','김해중앙병원 , 김해복음병원','세웅종합병원, 부산위생병원 SURGERY 과장','통영 서울병원 SURGERY 부원장 ','세웅병원 SURGERY 진료부장'],
+        phamacology:[
+            'Graduated from Dong-A University School of Medicine',
+            'Graduated from Donga University Medical School',
+            'Gimhae Joongang Hospital, Gimhae Gospel Hospital',
+            'Sewoong General Hospital, Busan Hygiene Hospital SURGERY Manager',
+            'Tongyeong Seoul Hospital SURGERY Vice President ',
+            'Sewoong Hospital SURGERY Director'
+        ],
         activity: [''],
-        professional: ['대장암 / 직장암','대장, 직장, 항문 질환','복강경수술'],
+        professional: [
+            'Gastric cancer / colorectal cancer /',
+            'laparoscopic endoscopic surgery /',
+            'burns'
+        ],
     }
     ],
     [
@@ -985,13 +1640,17 @@ const DOCTOR = [
         name:'Dr. Shin Woo-sung, Head of Center', 
         medi_con:'Department of Emergency Medicine', 
         medi_his_con:'Specialist in emergency medicine at Inje University Busan Paik Hospital', 
-        one_speci_con:'Resuscitation, disaster response, trauma, poisoning, and the treatment of critically ill patients with a wide range of emergency conditions반', 
+        one_speci_con:'Resuscitation, disaster response, trauma, poisoning, and the treatment of critically ill patients with a wide range of emergency conditions', 
         morn_schedule:['','','','','',''], 
         afte_schedule:['','','','','',''], 
         morn_color:['','','','','','',], 
         afte_color: ['','','','','',''],
-        phamacology:['인제대학교 의과대학 졸업','인제대학교 부산백병원 DEPARTMENT OF EMERGENCY MEDICINE 전공의','인제대학교 부산백병원 DEPARTMENT OF EMERGENCY MEDICINE 임상 교수'],
-        activity: ['대한응급의학회 정회원','대한손방예방협회 상임고문'],
+        phamacology:[
+            'Graduated from Inje University College of Medicine',
+            'Inje University Busan Paik Hospital DEPARTMENT OF EMERGENCY MEDICINE Resident',
+            'Inje University Busan Paik Hospital DEPARTMENT OF EMERGENCY MEDICINE Clinical Professor'
+        ],
+        activity: ['Regular member of the Korean Society of Emergency Medicine','Standing advisor of the Korea Loss Prevention Association'],
         professional: ['Resuscitation, disaster response, trauma, poisoning, and the treatment of critically ill patients with a wide range of emergency conditions'],
         },
         {cate_no:20, item_no:2, img_src:'emergency2', 
@@ -1003,7 +1662,14 @@ const DOCTOR = [
         afte_schedule:['','','','','',''], 
         morn_color: ['','','','','','',], 
         afte_color: ['','','','','',''],
-        phamacology:['·경상대학교 의과대학 졸업','·동아대학교 의학대학원 졸업','·우리들병원 SURGERY 과장','·베스티안병원 SURGERY 과장','·홍제병원 SURGERY 과장','·갑을녹산병원 SURGERY 과장'],
+        phamacology:[
+            'Graduated from Gyeongsang National University College of Medicine',
+            'Graduated from Dong-A University Medical School',
+            'Wooridul Hospital SURGERY Manager',
+            'Bestian Hospital SURGERY Manager',
+            'Hongje Hospital SURGERY Manager',
+            'Chief of SURGERY at Kabul Noksan Hospital'
+        ],
         activity: [''],
         professional: ['·Provides emergency care and surgery 24 hours a day as a local emergency medical institution'],
         },
@@ -1016,8 +1682,17 @@ const DOCTOR = [
         afte_schedule:['','','','','',''], 
         morn_color: ['','','','','',''], 
         afte_color: ['','','','','',''],
-        phamacology:['전북대학교 의과대학 졸업','Specialist in Surgery, Seoul Asan Hospital','용인서울병원 응급과장','독일의원 원장','의료법인 거붕백병원 DEPARTMENT OF EMERGENCY MEDICINE DEPARTMENT장','보스톤대학 단기연수','거북백병원 항암웰빙클리닉 과장','서울지인 항암웰빙센터장'],
-        activity: ['대한SURGERY학회 정회원','대한정주의학회 정회원','대한 정맥학회 정회원'],
+        phamacology:[
+            'Graduated from Chonbuk National University College of Medicine',
+            'Specialist in Surgery, Seoul Asan Hospital',
+            'Yongin Seoul Hospital Emergency Department',
+            'Director of the German House of Representatives',
+            'Head of Department of EMERGENCY MEDICINE DEPARTMENT at Geobung Paik Hospital, a medical corporation',
+            'Boston University short-term training',
+            'Head of Cancer Wellness Clinic at Turtle Paik Hospital',
+            'Head of Seoul Ji-in Cancer Wellness Center'
+        ],
+        activity: ['Regular member of the Korean Surgery Society','Regular member of the Korean Society of Sedentary Medicine','Regular member of the Korean Vein Society'],
         professional: [''],
         },
         {cate_no:20, item_no:4, img_src:'emergency3', 
@@ -1029,7 +1704,15 @@ const DOCTOR = [
         afte_schedule:['','','','','',''], 
         morn_color: ['','','','','',''], 
         afte_color: ['','','','','',''],
-        phamacology:['원광대학교 의과대학 졸업','부산대학교 대학원 의학 석사','부산대학교병원 전공의','부산대학교병원 DEPARTMENT OF EMERGENCY MEDICINE 전임의','좋은선린병원 DEPARTMENT OF EMERGENCY MEDICINE 과장','구포성심병원 DEPARTMENT OF EMERGENCY MEDICINE 과장','부산 소방본부 119 구급상황관리센터 의료지도 의사'],
+        phamacology:[
+            'Graduated from Wonkwang University School of Medicine',
+            'Master of Medicine, Pusan ​​National University Graduate School',
+            'Pusan ​​National University Hospital Resident',
+            'Pusan ​​National University Hospital DEPARTMENT OF EMERGENCY MEDICINE full-time',
+            'Good Sunlin Hospital Department of EMERGENCY MEDICINE Manager',
+            'Gupo Sacred Heart Hospital Department of EMERGENCY MEDICINE Manager',
+            'Busan Fire Headquarters 119 Emergency Management Center Medical guidance doctor'
+        ],
         activity: [''],
         professional: ['Department of Emergency Medicine(internal medicine department)'],
         },
@@ -1043,7 +1726,12 @@ const DOCTOR = [
         afte_schedule:['','','','','',''], 
         morn_color: ['','','','','',''], 
         afte_color: ['','','','','',''],
-        phamacology:['Graduated from the Graduate School of Medicine at Pusan National University','양산부산대학교병원 DEPARTMENT OF EMERGENCY MEDICINE 전공의','부산소방본부 119 구급상황관리센터 의료지도 의사','구포성심병원 DEPARTMENT OF EMERGENCY MEDICINE 과장'],
+        phamacology:[
+            'Graduated from the Graduate School of Medicine at Pusan National University',
+            'Yangsan Pusan ​​National University Hospital DEPARTMENT OF EMERGENCY MEDICINE Resident',
+            'Busan Fire Headquarters 119 Emergency Management Center Medical guidance doctor',
+            'Gupo Sacred Heart Hospital Department of EMERGENCY MEDICINE Manager'
+        ],
         activity: [''],
         professional: [''],
         },
@@ -1056,7 +1744,7 @@ const DOCTOR = [
         afte_schedule:['','','','','',''], 
         morn_color: ['','','','','',''], 
         afte_color: ['','','','','',''],
-        phamacology:['Graduated from the Graduate School of Medicine at Pusan National University','울산중앙병원 DEPARTMENT OF EMERGENCY MEDICINE 과장'],
+        phamacology:['Graduated from the Graduate School of Medicine at Pusan National University','Ulsan Central Hospital Department of Emergency Medicine Manager'],
         activity: [''],
         professional: [''],
         }
@@ -1067,31 +1755,47 @@ const DOCTOR = [
         name:'Kim Sang-yeop, Director', 
         medi_con:'Department of Psychiatry', 
         medi_his_con:'Samsung Seoul Hospital  Clinical Professor of Child and Adolescent Psychiatry', 
-        one_speci_con:'Learning disabilities/developmental disorders/emotional disorders/tourette`s disorder/attention deficit hyperactivity disorder (ADHD) / 스트레스 청소년클리닉 / 가정상담클리닉', 
+        one_speci_con:'Learning disabilities/developmental disorders/emotional disorders/tourette`s disorder/attention deficit hyperactivity disorder (ADHD) / Stress / Youth Clinic / Home Counseling Clinic', 
         ifram_src: 'https://www.youtube.com/embed/IQkuPqWsIUo', 
         morn_schedule:['Medical Treatment','Medical Treatment','','','Medical Treatment','Inquiry'], 
         afte_schedule:['Medical Treatment','Medical Treatment','Medical Treatment','','Medical Treatment',''], 
         note: '▶ Saturdays - treatment is provided on the 2nd and 4th weeks', 
         morn_color:['cir_primary','cir_primary','','','cir_primary','cir_success',], 
         afte_color: ['cir_primary','cir_primary','cir_primary','','cir_primary',''],
-        phamacology:['부산대학교 의과대학 졸업','삼성서울병원 소아청소년 정신과 임상교수','미국남플로리다대학병원소아청소년정신과 임상 교수','동아대학교병원 Department of Psychiatry 외래 교수','부산대학교병원 Department of Psychiatry 외래 교수','고신대학교 복음병원 Department of Psychiatry 외래교수'],
+        phamacology:[
+            'Graduated from Pusan ​​National University School of Medicine',
+            'Samsung Seoul Hospital Child and Adolescent Psychiatry Clinical Professor',
+            'Clinical Professor, Department of Child and Adolescent Psychiatry, University of Southern Florida Hospital',
+            'Dong-A University Hospital Department of Psychiatry Outpatient Professor',
+            'Pusan ​​National University Hospital Department of Psychiatry Outpatient Professor',
+            'Kosin University Gospel Hospital Department of Psychiatry Adjunct Professor'
+        ],
         activity: [''],
-        professional: ['Learning disabilities/developmental disorders/emotional disorders/tourette`s disorder/attention deficit hyperactivity disorder (ADHD) / 스트레스','청소년클리닉 / 가정상담클리닉'],
+        professional: ['Learning disabilities/developmental disorders/emotional disorders/tourette`s disorder/attention deficit hyperactivity disorder (ADHD) / Stress ','Youth Clinic / Home Counseling Clinic'],
     },
         {cate_no:21, item_no:2, img_src:'mental_health2', 
         name:'Lee Soo-jin, Head of Dept', 
         medi_con:'Department of Psychiatry', 
         medi_his_con:'Maryknoll Hospital Chief of Department of Psychiatry', 
-        one_speci_con:'Emotional disorders in old age/panic disorder/mood disorder/sleep disorder/depression/bipolar disorder/anxiety disorder / 정신증 스트레스 소아기 정서 행동발달문제 / 청소년기 우울증 / 소아청소년 정신질환', 
+        one_speci_con:'Emotional disorders in old age/panic disorder/mood disorder/sleep disorder/depression/bipolar disorder/anxiety disorder / Psychological Stress Childhood Emotional Behavior Development Problem / Adolescent Depression / Childhood and Adolescent Mental Illness', 
         ifram_src: 'https://www.youtube.com/embed/HYng79HGTxw', 
         morn_schedule:['Medical Treatment','Medical Treatment','Medical Treatment','Medical Treatment','Medical Treatment','Inquiry'], 
         afte_schedule:['Medical Treatment','Medical Treatment','Medical Treatment','Medical Treatment','',''], 
         note: '▶ Saturdays - treatment is provided on the 1st and 3rd weeks', 
         morn_color: ['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary','cir_success',], 
         afte_color: ['cir_primary','cir_primary','cir_primary','cir_primary','',''],
-        phamacology:['부산대학교 의과대학 졸업','메리놀병원 DEPARTMENT OF PSYCHIATRY 전공의 수료','메리놀병원 DEPARTMENT OF PSYCHIATRY DEPARTMENT장','아하브병원 DEPARTMENT OF PSYCHIATRY 진료부장'],
-        activity: ['대한신경정신의학회 정회원','대한노인정신의학회 정회원 (노인정신건강인증의)','대한불안의학회 정회원 (심층치료연수과정 수료)'],
-        professional: ['Emotional disorders in old age/panic disorder/mood disorder/sleep disorder/depression/bipolar disorder/anxiety disorder / 정신증 스트레스','소아기 정서 행동발달문제 / 청소년기 우울증 / 소아청소년 정신질환'],
+        phamacology:[
+            'Graduated from Pusan ​​National University School of Medicine',
+            'Merinoll Hospital DEPARTMENT OF PSYCHIATRY major completion',
+            'Head of Department of PSYCHIATRY Department at Merinoll Hospital',
+            'AHAV Hospital DEPARTMENT OF PSYCHIATRY Director'
+        ],
+        activity: [
+            'Regular member of the Korean Neuropsychiatric Association',
+            'Regular member of the Korean Society of Geriatric Psychiatry (certified senior mental health doctor)',
+            'Regular member of the Korean Society of Anxiety Medicine (Completion of in-depth treatment training course)'
+        ],
+        professional: ['Emotional disorders in old age/panic disorder/mood disorder/sleep disorder/depression/bipolar disorder/anxiety disorder / Psychological Stress Childhood Emotional Behavior Development Problem / Adolescent Depression / Childhood and Adolescent Mental Illness'],
     },
     ],
     [
@@ -1100,14 +1804,25 @@ const DOCTOR = [
         name:'Yoon Sung-hoon, Vice Chief of Orthopedics Dept', 
         medi_con:'Department of Orthopedics', 
         medi_his_con:'Associate Professor of Orthopedics, Kosin University College of Medicine', 
-        one_speci_con:'Arthroscopic surgery and artificial joint surgery (shoulder, hip, knee, ankle), fractures, and sports injuries, 허리 디스크 및 협착증', 
+        one_speci_con:'Arthroscopic surgery and artificial joint surgery (shoulder, hip, knee, ankle), fractures, and sports injuries, Lumbar disc and stenosis', 
         morn_schedule:['Medical Treatment','Medical Treatment','Medical Treatment','Surgery / Test','Medical Treatment','Inquiry'], 
         afte_schedule:['Surgery / Test','Surgery / Test','','Medical Treatment','Surgery / Test',''], 
         morn_color:['cir_primary','cir_primary','cir_primary','cir_danger','cir_primary','cir_success',], 
         afte_color: ['cir_danger','cir_danger','','cir_primary','cir_danger',''],
-        phamacology:['고신대학원 의과대학 DEPARTMENT OF ORTHOPEDICS 외래 정교수','강동병원 진료부장','동래봉생병원 DEPARTMENT OF ORTHOPEDICS 주임과장'],
-        activity: ['대한 DEPARTMENT OF ORTHOPEDICS 학회 정회원','대한 슬관절 학회 정회원','대한 골절 학회 정회원','대한 운동계 줄기세포 재생의학회 정회원','아시아 태평양 최소 침습 척추 수술 학회 정회원','대한 척추SURGERY 학회 정회원'],
-        professional: ['Arthroscopic surgery and artificial joint surgery (shoulder, hip, knee, ankle), fractures, and sports injuries','허리 디스크 및 협착증','관절 통증 클리닉'],
+        phamacology:[
+            'Kosin Graduate School of Medicine DEPARTMENT OF ORTHOPEDICS Outpatient Full Professor',
+            'Gangdong Hospital Clinic Director',
+            'Dongrae Bongsaeng Hospital DEPARTMENT OF ORTHOPEDICS Director'
+        ],
+        activity: [
+            'Regular member of the Korean Society of DEPARTMENT OF ORTHOPEDICS',
+            'Regular member of the Korean Knee Society',
+            'Regular member of the Korean Fracture Society',
+            'Regular member of the Korean Society of Movement Stem Cell Regenerative Medicine',
+            'Full member of Asia Pacific Society of Minimally Invasive Spine Surgery',
+            'Regular member of the Korean Spine Surgery Society'
+        ],
+        professional: ['Arthroscopic surgery and artificial joint surgery (shoulder, hip, knee, ankle), fractures, and sports injuries','Lumbar disc and stenosis','A joint pain clinic'],
     },
         {cate_no:22, item_no:2, img_src:'orthopedics2', 
         name:'Kim Yoon-joon, Medical Director of Orthopedics Dept', 
@@ -1119,8 +1834,22 @@ const DOCTOR = [
         afte_schedule:['Surgery / Test','Medical Treatment','Surgery / Test','','Medical Treatment',''], 
         morn_color: ['cir_primary','cir_danger','cir_primary','cir_primary','cir_danger','cir_success',], 
         afte_color: ['cir_danger','cir_primary','cir_danger','','cir_primary',''],
-        phamacology:['인제대학교 의과대학 졸업','인제대학교 부산백병원 DEPARTMENT OF ORTHOPEDICS 전공의','국군광주통합병원 DEPARTMENT OF ORTHOPEDICS 과장, SURGERY 처장','인제대학교 부산백병원 DEPARTMENT OF ORTHOPEDICS 전임교수','건국대학교 외래부교수','분당서울대학교병원 견관절센터 연수','네이버 지식 상담의 회원 선정','근로복지공단 산재 자문의'],
-        activity: ['대한DEPARTMENT OF ORTHOPEDICS학회 정회원','대한슬관절학회 정회원','대한견관절학회 정회원','대한통증(TPI), 근육비자극치료(IMS) 정회원'],
+        phamacology:[
+            'Graduated from Inje University College of Medicine',
+            'Inje University Busan Paik Hospital Department of Orthopedic Specialist',
+            'Armed Forces Gwangju Combined Hospital Department of Orthopedic Division Manager, SURGERY Director',
+            'Full-time professor at Inje University Busan Paik Hospital DEPARTMENT OF ORTHOPEDICS',
+            'Konkuk University External Associate Professor',
+            'Training at Seoul National University Bundang Hospital Shoulder Joint Center',
+            'Selected as a member of Naver Knowledge Counseling',
+            'Workers` Compensation & Welfare Corporation Industrial Accident Advisor'
+        ],
+        activity: [
+            'Full member of the Korean Department of Orthopedic Society',
+            'Regular member of the Korean Knee Society',
+            'Regular member of the Korean Shoulder Society',
+            'Regular member of Korea Pain (TPI), Non-Muscular Stimulation Therapy (IMS)'
+        ],
         professional: ['Sports injuries of the hip joint/shoulder joint/knee joint/ankle joint and arthroscopic surgery'],
     },
         {cate_no:22, item_no:3, img_src:'orthopedics3', 
@@ -1132,8 +1861,19 @@ const DOCTOR = [
         afte_schedule:['Medical Treatment','','Surgery / Test','Surgery / Test','Surgery / Test',''], 
         morn_color: ['cir_danger','cir_primary','cir_danger','cir_primary','cir_primary','cir_success'], 
         afte_color: ['cir_primary','','cir_primary','cir_danger','cir_danger',''],
-        phamacology:['인제대학교 의과대학 졸업','부산백병원 인턴','부산백병원 DEPARTMENT OF ORTHOPEDICS 레지던트'],
-        activity: ['대한DEPARTMENT OF ORTHOPEDICS학괴 정회원','AO trauma 정회원','Bangkok Chulalongkorn대학교병원 8th ZMTC 연수','AO trauma principles course 이수','영국 라이팅턴병원 DEPARTMENT OF ORTHOPEDICS센터 연수','대한의사협회 네이버 지식인 우수답변의'],
+        phamacology:[
+            'Graduated from Inje University College of Medicine',
+            'Busan Paik Hospital Intern',
+            'Busan Paik Hospital DEPARTMENT OF ORTHOPEDICS Resident'
+        ],
+        activity: [
+            'Korean DEPARTMENT OF ORTHOPEDICS regular member',
+            'Full member of AO trauma',
+            'Bangkok Chulalongkorn University Hospital 8th ZMTC Training',
+            'Completion of AO trauma principles course',
+            'Training at the Department of Orthopedic Center at Leitington Hospital in England',
+            'Korean Medical Association Naver Intellectual Excellence Award'
+        ],
         professional: ['Shoulder/elbow/joint pain clinic and sports injury arthroscopic surgery'],
     }
     ],
@@ -1148,8 +1888,19 @@ const DOCTOR = [
         afte_schedule:['Inquiry','Inquiry','Inquiry','Inquiry','Inquiry',''], 
         morn_color:['cir_success','cir_success','cir_success','cir_success','cir_success','cir_success',], 
         afte_color: ['cir_success','cir_success','cir_success','cir_success','cir_success',''],
-        phamacology:['고신대학교 의과대학 졸업','동아대학교병원 인턴 수련','Inje University Busan Paik Hospital, Department of Laboratory Medicine','인제대학교 의학대학원 석사 과정 수료','갑을장유병원 진단검사의학과 과장'],
-        activity: ['대한진단검사의학회 정회원','대한진단혈액학회 정회원','대한수혈학회 정회원','대한유전분자진단학회 정회원'],
+        phamacology:[
+            'Graduated from Kosin University Medical College',
+            'Donga University Hospital intern training',
+            'Inje University Busan Paik Hospital, Department of Laboratory Medicine',
+            'Inje University Graduate School of Medicine Master`s Course Completion',
+            'Chief of Laboratory Medicine, Kabul Jangyu Hospital'
+        ],
+        activity: [
+            'Regular member of the Korean Society of Laboratory Medicine',
+            'Regular member of the Korean Society of Diagnostic Hematology',
+            'Regular member of the Korean Society of Blood Transfusion',
+            'Regular member of the Korean Society for Genetic and Molecular Diagnostics'
+        ],
         professional: ['Clinical Microbiology, Diagnostic Hematology, Diagnostic Immunology, Clinical Chemistry, Transfusion Medicine'],
     },
     ],
@@ -1159,15 +1910,21 @@ const DOCTOR = [
         name:'Eun-Taek Park, Director of Center', 
         medi_con:'Pancreatic and Biliary Tract Department', 
         medi_his_con:'Professor at Kosin University Gospel Hospital', 
-        one_speci_con:'Acute and chronic pancreatitis, pancreatic cancer, and pancreatic cysts, gallstone disease, cholecystitis, and cholangitis, 담관암', 
+        one_speci_con:'Acute and chronic pancreatitis, pancreatic cancer, and pancreatic cysts, gallstone disease, cholecystitis, and cholangitis, Bile duct cancer', 
         ifram_src: 'https://www.youtube.com/embed/sTjsy4YbNrk', 
         morn_schedule:['Surgery / Test','Surgery / Test','Medical Treatment','Surgery / Test','Medical Treatment','Inquiry'], 
         afte_schedule:['Medical Treatment','Medical Treatment','Surgery / Test','Medical Treatment','',''], 
         morn_color:['cir_danger','cir_danger','cir_primary','cir_danger','cir_primary','cir_success',], 
         afte_color: ['cir_primary','cir_primary','cir_danger','cir_primary','',''],
-        phamacology:['Professor at Kosin University Gospel Hospital','미국University of California,San Francisco(UCSF)소화기병 센터 Research Fellow-ship','인제대 부산백병원 DEPARTMENT OF GASTROENTEROLOGY 교수','울산대병원 DEPARTMENT OF GASTROENTEROLOGY 교수','서울 아산병원 DEPARTMENT OF GASTROENTEROLOGY 전임의'],
+        phamacology:[
+            'Professor at Kosin University Gospel Hospital',
+            'University of California, San Francisco (UCSF) Gastroenterology Center Research Fellow-ship',
+            'Inje University Busan Paik Hospital DEPARTMENT OF GASTROENTEROLOGY Professor',
+            'Professor, DEPARTMENT OF GASTROENTEROLOGY, University of Ulsan Hospital',
+            'Seoul Asan Medical Center DEPARTMENT OF GASTROENTEROLOGY full-time'
+        ],
         activity: ['2010. 02.','Clevudine demonstrates potent antiviral activity in naive chronic hepatitis B patients.','Intervirology.2010;53(2):83-6. Lee JS (23)','','2008.09.','Effects of pegylated interferon and ribavirin in Korean patients with chronic hepatitis C virus infection','Korean.J. Hepatol. 2008.Sep;14(3):318-30. Kang MJ(10)','','2008.03.','Aberrant expression of SOX2 upregulates MUC5AC gastric foveolar mucin in mucinous cancers of the colorectum and related lesions.','Int. J Cancer. 2008.Mar 15;122(6) :1253-60. Park ET제1저자(6)','','2008.03','Biliary-duodenal fistula following radiofrequency ablation therapy for hepatocellular carcinoma','Korean. J. Gastroenterol. 2008. Mar;51(3):199-203. Park SG (8)','','2008.03','Tumor histology helps to identify Lynch syndrome among colorectal cancer patients.','Fam. Cancer. 2008;Mar;7(3):267-74. Truta B(12)','','2007.09','Short-term therapy with pegylated interferon plus ribavirin for the chronic hepatitis C genotype 2 patients','Korean.J. Hepatol. 2007 Sep;13(3):341-8. Jung EU(10)','','2007.02','Human monoclonal antibody inhibiting reverse transcriptase activity of hepatitis B virus polymerase protein','Korean.J. Gastroenterol. 2007 Feb;49(2):85-92. Park SJ(11)','','2006.09','박은택 교육/학력','HATH1 expression in mucinous cancers of the colorectum and related lesions.','Clin Cancer Res. 2006 Sep 15;12(18):5403-10. Park ET 제1저자(9)','','2006.05','A case of secondary amyloidosis presenting as massive gastrointestinal bleeding','Korean J Gastroenterol. 2006 May;47(5):397-401. Kim H (10)'],
-        professional: ['Acute and chronic pancreatitis, pancreatic cancer, and pancreatic cysts, gallstone disease, cholecystitis, and cholangitis, 담관암'],
+        professional: ['Acute and chronic pancreatitis, pancreatic cancer, and pancreatic cysts, gallstone disease, cholecystitis, and cholangitis, Bile duct cancer'],
     },
     ],
     [
@@ -1182,8 +1939,17 @@ const DOCTOR = [
         morn_color: ['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary','cir_primary',], 
         afte_color: ['cir_primary','cir_success','cir_primary','cir_primary','cir_primary',''],
         note: 'Available for appointments on the 1st, 3rd, and 5th Tuesday of each month. (Closed on 2nd and 4th Tuesdays)', 
-        phamacology:['Graduated from Pusan National University, School of Dentistry','해운대백병원 DENTISTRY 인턴 및 레지던트','대한악안면성형재건SURGERY학회 인정의','좋은문화병원 DENTISTRY 과정'],
-        activity: ['대한악안면성형재건SURGERY학회 정회','대한통합DENTISTRY학회 정회원','대한DENTISTRY보철학회 정회원'],
+        phamacology:[
+            'Graduated from Pusan National University, School of Dentistry',
+            'Haeundae Paik Hospital DENTISTRY Intern and Resident',
+            'Korean Society of Maxillofacial Reconstruction Surgery Recognized Doctor',
+            'Good Culture Hospital DENTISTRY Course'
+        ],
+        activity: [
+            'Regular meeting of the Korean Society of Maxillofacial Reconstruction Surgery',
+            'Regular member of the Korean Integrated Dentistry Society',
+            'Full member of the Korean Dentistry Prosthodontics Society'
+        ],
         professional: ['Endodontic and Restorative Therapy / General Prosthetic Therapy / Wisdom Tooth Extraction / Periodontal Treatment'],
         },
     ],
@@ -1198,7 +1964,12 @@ const DOCTOR = [
         afte_schedule:['Medical Treatment','Medical Treatment','','Medical Treatment','Medical Treatment',''], 
         morn_color:['cir_primary','cir_primary','','cir_primary','cir_primary','',], 
         afte_color: ['cir_primary','cir_primary','','cir_primary','cir_primary',''],
-        phamacology:['부산대학교 의과대학 졸업 및 의학박사','부산대학교병원 내과 전공의','부산대학교병원 내과 과장 및 주임교수','부산대학교병원 DEPARTMENT OF HEMATO-ONCOLOGY 과장'],
+        phamacology:[
+            'Graduated from Pusan ​​National University College of Medicine and Doctor of Medicine',
+            'Department of Internal Medicine, Pusan ​​National University Hospital',
+            'Department of Internal Medicine, Pusan ​​National University Hospital, Chief Professor',
+            'Director, Department of HEMATO-ONCOLOGY, Pusan ​​National University Hospital'
+        ],
         activity: [''],
         professional: ['Hematological malignancies'],
         },
@@ -1212,8 +1983,24 @@ const DOCTOR = [
         note: '▶ Saturday: alternate-week treatment', 
         morn_color:['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary','cir_success',], 
         afte_color: ['cir_primary','cir_primary','cir_primary','cir_primary','',''],
-        phamacology:['동아대학교 의과대학 졸업','동아대학교 대학원 의학과 의학박사','Associate Professor, School of Medicine, Dong-A University','미국 베일러의대 교환교수','미국 국립보건원/국립암연구소 펠로','ECFMG 자격증 취득','USMLE step 1,2,3 합격'],
-        activity: ['미국암학회 회원','유럽종양내과학회 회원','대한암학회 회원' ,'대한위암학회 회원','한국유방암학회 회원','대한종양내과학회 학술위원','대한항암요법연구회 학술위원'],
+        phamacology:[
+            'Graduated from Dong-A University School of Medicine',
+            'Dong-A University Graduate School of Medicine, Doctor of Medicine',
+            'Associate Professor, School of Medicine, Dong-A University',
+            'Associate Professor, Baylor Medical School, USA',
+            'National Institutes of Health/National Cancer Institute Fellow',
+            'Obtain ECFMG Certification',
+            'Passed USMLE step 1,2,3'
+        ],
+        activity: [
+            'Fellow of the American Cancer Society',
+            'Member of the European Society of Oncology',
+            'Member of the Korean Cancer Society' ,
+            'Member of the Korean Gastric Cancer Society',
+            'Member of the Korean Breast Cancer Society',
+            'Academician, Korean Society of Oncology',
+            'Academician, Korean Anticancer Therapy Research Association'
+        ],
         professional: ['Solid tumors (breast cancer, gastric cancer, colorectal cancer, lung cancer, various solid tumors), hematological malignancies'],
         },
     ],
@@ -1223,15 +2010,23 @@ const DOCTOR = [
         name:'Yoo Heung, Director of VIP Health Screening Center', 
         medi_con:'Department of Respiratory Medicine', 
         medi_his_con:'Specialist in internal medicine at Kosin University Hospital', 
-        one_speci_con:'Chronic diseases (hypertension, diabetes, hyperlipidemia), infectious diseases, upper Gastrointestinal Nerve Center, upper abdominal ultrasound, carotid artery ultrasound, osteoporosis, B,C형간염, 갑상선질환', 
+        one_speci_con:'Chronic diseases (hypertension, diabetes, hyperlipidemia), infectious diseases, upper Gastrointestinal Nerve Center, upper abdominal ultrasound, carotid artery ultrasound, osteoporosis, Hepatitis B, C, thyroid disease', 
         ifram_src: 'https://www.youtube.com/embed/TwL--bpEov4', 
         morn_schedule:['Medical Treatment','Medical Treatment','Medical Treatment','Medical Treatment','Medical Treatment','Inquiry'], 
         afte_schedule:['Medical Treatment','Medical Treatment','','Medical Treatment','Medical Treatment',''], 
         morn_color:['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary','cir_success',], 
         afte_color: ['cir_primary','cir_primary','','cir_primary','cir_primary',''],
-        phamacology:['부산의대졸 의학박사','Specialist in internal medicine at Kosin University Hospital'],
-        activity: ['대한소화기내시경 학회 정회원','한국초음파학회 정회원','한국심초음파학회 정회원','대한검진의학회 정회원'],
-        professional: ['Chronic diseases (hypertension, diabetes, hyperlipidemia), infectious diseases, upper Gastrointestinal Nerve Center, upper abdominal ultrasound, carotid artery ultrasound, osteoporosis, B,C형간염, 갑상선질환'],
+        phamacology:[
+            'Graduated from Busan College of Medicine, Doctor of Medicine',
+            'Specialist in internal medicine at Kosin University Hospital'
+        ],
+        activity: [
+            'Regular member of the Korean Society of Gastrointestinal Endoscopy',
+            'Regular member of the Korean Society of Ultrasound',
+            'Regular member of the Korean Society of Echocardiography',
+            'Regular member of the Korean Society of Medical Examination'
+        ],
+        professional: ['Chronic diseases (hypertension, diabetes, hyperlipidemia), infectious diseases, upper Gastrointestinal Nerve Center, upper abdominal ultrasound, carotid artery ultrasound, osteoporosis, Hepatitis B, C, thyroid disease'],
     },
     ],
     [
@@ -1240,15 +2035,30 @@ const DOCTOR = [
         name:'Choi Pil-Jo, Head of Thoracic Surgery Center', 
         medi_con:'Dept. of Thoracic Surgery', 
         medi_his_con:'Associate Professor, Department of Thoracic Surgery, Dong-A University School of Medicine', 
-        one_speci_con:'Pulmonary cancer surgery / Thoracoscopic surgery for lung and chest tumors / Decortication surgery and nonsurgical treatments for empyema / Pneumothorax / 하지 정맥류 누두흉(오목가슴) 등의 흉벽기형', 
+        one_speci_con:'Pulmonary cancer surgery / Thoracoscopic surgery for lung and chest tumors / Decortication surgery and nonsurgical treatments for empyema / Pneumothorax / Chest wall types such as varicose veins (concave chest)', 
         morn_schedule:['Medical Treatment','Surgery / Test','Medical Treatment','Surgery / Test','Surgery / Test','Inquiry'], 
         afte_schedule:['Medical Treatment','Surgery / Test','','Surgery / Test','Medical Treatment',''], 
         note: '▶ Please call for inquiries on Saturdays.', 
         morn_color: ['cir_primary','cir_danger','cir_primary','cir_danger','cir_danger','cir_success'], 
         afte_color: ['cir_primary','cir_danger','','cir_danger','cir_primary',''],
-        phamacology:['부산대 의과대학 졸업','부산대 의학 석사, 박사','동아대학교 의과 대학 THORACIC SURGERY 주임교수 역임','동아대학교 의료원 THORACIC SURGERY 과장 역임','일본 동경 국립암센타 연수','미국 워싱턴 의과대학 및 Siteman 암센타 교환교수','미국 Intuitive Surgical 본사 로봇수술 연수','의사가 추천하는 THORACIC SURGERY 명의 선정 (부산일보, Best Doctor in Busan)'],
-        activity: ['대한 심장혈관 THORACIC SURGERY 학회 정회원','대한 심장혈관 THORACIC SURGERY 학회 상임이사','부산 울산 경남 지방 THORACIC SURGERY 학회 회장','흉부 종양학회 회원/ 대한 폐암학회 회원/ 대한 정맥학회 회원','국제흉벽질환연구회(chest wall international group) 회원'],
-        professional: ['Pulmonary cancer surgery / Thoracoscopic surgery for lung and chest tumors / Decortication surgery and nonsurgical treatments for empyema / Pneumothorax / 하지 정맥류 누두흉(오목가슴) 등의 흉벽기형'],
+        phamacology:[
+            'Graduated from Pusan ​​National University College of Medicine',
+            'Pusan ​​National University, Master of Medicine, Ph.D.',
+            'Dong-A University School of Medicine, THORACIC SURGERY Head Professor',
+            'Dong-A University Medical Center THORACIC SURGERY Manager',
+            'Training at the National Cancer Center in Tokyo, Japan',
+            'Visiting Professor at University of Washington Medical School and Siteman Cancer Center, USA',
+            'Robotic surgery training at Intuitive Surgical headquarters in the U.S.',
+            'Selection of THORACIC SURGERY names recommended by doctors (Busan Ilbo, Best Doctor in Busan)'
+        ],
+        activity: [
+            'Regular member of the Korean Cardiovascular Thoracic Surgery Society',
+            'Executive Director of the Korean Cardiovascular Thoracic Surgery Society',
+            'President of the THORACIC SURGERY Society in Busan, Ulsan and Gyeongnam Province',
+            'Member of the Thoracic Oncology Society/ Member of the Korean Lung Cancer Society/ Member of the Korean Vein Society',
+            'Member of Chest Wall International Group'
+        ],
+        professional: ['Pulmonary cancer surgery / Thoracoscopic surgery for lung and chest tumors / Decortication surgery and nonsurgical treatments for empyema / Pneumothorax / Chest wall types such as varicose veins (concave chest)'],
     },
     ],
     [
@@ -1262,9 +2072,16 @@ const DOCTOR = [
         afte_schedule:['Surgery / Test','Medical Treatment','Inquiry','Medical Treatment','Medical Treatment',''], 
         morn_color: ['cir_danger','cir_primary','cir_danger','cir_primary','cir_danger','cir_success',], 
         afte_color: ['cir_danger','cir_primary','cir_success','cir_primary','cir_primary',''],
-        phamacology:['경희대 의과대학 졸업','Visiting Professor of Plastic Surgery, Inje University College of Medicine','자연미PLASTIC SURGERY  대표원장'],
-        activity: ['부울경 대한PLASTIC SURGERY  학회 회장 및 이사장','부산PLASTIC SURGERY  개원의협의회 회장'],
-        professional: ['눈·코 지방이식수술 욕창'],
+        phamacology:[
+            'Graduated from Kyung Hee University Medical College',
+            'Visiting Professor of Plastic Surgery, Inje University College of Medicine',
+            'Jayeonmi PLASTIC SURGERY Representative Director'
+        ],
+        activity: [
+            'Kyung-Woo Boo President and Chairman of the Korea Plastic Surgery Society',
+            'Busan PLASTIC SURGERY Practitioner Council President'
+        ],
+        professional: ['Fat transplantation for eyes and nose, pressure sore treatment'],
     },
     ],
     [
@@ -1276,12 +2093,22 @@ const DOCTOR = [
             one_speci_con:'Rehabilitation for stroke and traumatic brain injury / Rehabilitation for spinal cord injury / Musculoskeletal disorders / Electromyography / Nerve conduction studies', 
             morn_schedule:['Medical Treatment','Medical Treatment','Medical Treatment','Medical Treatment','Medical Treatment','Inquiry'], 
             afte_schedule:['Medical Treatment','Surgery / Test','Medical Treatment','Surgery / Test','Medical Treatment',''], 
-            note: '▶ 토요일: 2, 4주 진료 (5주째 토요일 격월 정기휴진,☎문의) ', 
+            note: '▶ Saturday: 2nd, 4th week treatment (5th week Saturday, bimonthly closed, ☎ Inquire) ', 
             morn_color: ['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary','cir_success',], 
             afte_color: ['cir_primary','cir_danger','cir_primary','cir_danger','cir_primary',''],
-            phamacology:['성균관대학교 의과대학 졸업','성균관대학교 일반대학원 의학과 석사','Specialist in Rehabilitation Medicine, Samsung Seoul Hospital','울산시티병원 DEPARTMENT OF REHABILITATION MEDICINE 과장','침례병원 DEPARTMENT OF REHABILITATION MEDICINE 과장'],
-            activity: ['대한DEPARTMENT OF REHABILITATION MEDICINE 정회원','대한뇌신경재활학회 정회원','대한신경근골격초음파학회 정회원'],
-            professional: ['뇌졸중 및 외상성 뇌손상 재활 / 파킨슨병','척수손상질환 전문재활 / 암환자 재활','근골격계질환 재활 및 도수치료','근전도검사 / 연하검사 / 언어검사 / 인지검사'],
+            phamacology:[
+                'Graduated from Sungkyunkwan University School of Medicine',
+                'Sungkyunkwan University Graduate School of Medicine, M.A.',
+                'Specialist in Rehabilitation Medicine, Samsung Seoul Hospital',
+                'Ulsan City Hospital DEPARTMENT OF REHABILITATION MEDICINE Manager',
+                'Baptist Hospital DEPARTMENT OF REHABILITATION MEDICINE Manager'
+            ],
+            activity: [
+                'Full member of DEPARTMENT OF REHABILITATION MEDICINE',
+                'Regular member of the Korean Society for Neurological Rehabilitation',
+                'Regular member of the Korean Society of Neuromusculoskeletal Ultrasound'
+            ],
+            professional: ['Rehabilitation for stroke and traumatic brain injury / Rehabilitation for spinal cord injury / Musculoskeletal disorders / Electromyography / Nerve conduction studies'],
         },
     ],
     
@@ -1299,8 +2126,14 @@ const DOCTOR = [
             note: '7th floor of Seomyeon Examination Center', 
             morn_color: ['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary','cir_primary',], 
             afte_color: ['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary',''],
-            phamacology:['부산대학교 의과대학 졸업','공군 항공우주의료원', '양산부산대학교병원 직업환경의학과 교수(전임의)','고신대학교 족음병원 직업환경의학과 교수(전임의)','좋은삼선병원 직업환경의학과 과장'],
-            activity: ['대학직업환경의학회 정회원'],
+            phamacology:[
+                'Graduated from Pusan ​​National University School of Medicine',
+                'Air Force Aerospace Medical Center', 
+                'Yangsan Pusan ​​National University Hospital Department of Occupational and Environmental Medicine Professor (full-time doctor)',
+                'Kosin University Jokeum Hospital Department of Occupational Environmental Medicine Professor (full-time doctor)',
+                'Good Samsun Hospital, Department of Occupational and Environmental Medicine'
+            ],
+            activity: ['Regular member of the College of Occupational and Environmental Medicine'],
             professional: ['Special Examination / Industrial Health / Health Education (Lifestyle Diseases, Cancer, Smoking, Occupational Diseases, etc.)'],
         },
         {
@@ -1316,9 +2149,17 @@ const DOCTOR = [
             note: '7th floor of Seomyeon Examination Center', 
             morn_color: ['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary','cir_primary',], 
             afte_color: ['cir_primary','cir_primary','cir_primary','cir_primary','cir_primary',''],
-            phamacology:['순천향대학교 의과대학 졸업','순천향대학교 천안병원 직업환경의학과 전공의','순천향대학교 대학원 의학과 석사'],
-            activity: ['대한직업환경의학과 정회원','대한직업환경의학과외래협회의원 정회원','대한수면학회 정회원'],
-            professional: ['특수건강검진 / 직업성질환 / 환경성질환'], 
+            phamacology:[
+                'Graduated from Soonchunhyang University School of Medicine',
+                'Soonchunhyang University Cheonan Hospital Department of Occupational and Environmental Medicine Resident',
+                'Master of Medicine, Soonchunhyang University Graduate School'
+            ],
+            activity: [
+                'Regular member of the Department of Occupational and Environmental Medicine',
+                'Regular member of the Korean Association of Occupational and Environmental Medicine Outpatients',
+                'Regular member of the Korean Sleep Society'
+            ],
+            professional: ['Special Examination / Industrial Health / Health Education'], 
         },
         {
             cate_no:31,
@@ -1333,7 +2174,17 @@ const DOCTOR = [
             note: '12th floor of Seomyeon Examination Center', 
             morn_color: ['','','','','','',], 
             afte_color: ['','','','','',''],
-            phamacology:['순천향대학교 의과대학 졸업','제주도 남제주군 보건소 관리의사','삼성전자 기흥공장 부석의원 관리의사','경기도 안산시 보건소 외국인 진료센터 소장','부산지방고용노동청 산업안전과 보건사무관','대전지방고용노동청 산업안전과 보건사무관','거제대우병원 보건대행 과장','창원병원 보건대행 과장','대한산업보건협회 천안센터 원장'],
+            phamacology:[
+                'Graduated from Soonchunhyang University School of Medicine',
+                'Jejudo Namjeju County Public Health Center Supervisory Doctor',
+                'Samsung Electronics Giheung Plant Buseok Clinic Managing Doctor',
+                'Director of Foreign Medical Center, Public Health Center, Ansan-si, Gyeonggi-do',
+                'Busan Regional Employment and Labor Administration Occupational Safety Division Health Officer',
+                'Daejeon Regional Employment and Labor Administration Occupational Safety Division Health Officer',
+                'Geoje Daewoo Hospital Health Acting Manager',
+                'Changwon Hospital Health Acting Manager',
+                'Korea Occupational Health Association Cheonan Center Director'
+            ],
             activity: [''],
             professional: ['Health Diagnosis Post-Management Counseling / Occupational Cardiovascular Disease / Work Stress and Job Suitability Evaluation'], 
         },
@@ -1605,6 +2456,7 @@ const onn_list = [
             item_no:1,
             title_icon: 'medi_w_2_1',
             medi_name:'Department of Family Medicine',
+            koran_name: '가정의학과',
             con: 0,
         }
     ],
@@ -1614,13 +2466,14 @@ const onn_list = [
             cate_no:1,
             item_no:1,
             title_icon: 'medi_w_15',
+            koran_name: '간담췌외과',
             con: 1,
             num: ['1'],
             running_time:['1:17'],
             thum_img_src:['on_18_1'],
-            explanation: ['20대 간혈관종 환자 간 절제술로 간세포선종 제거'],
+            explanation: ['Removal of hepatocellular adenoma by liver resection in a patient with hepatic hemangioma in his 20s'],
             medi_name:'Department of Hepatobiliary and Pancreatic Surgery',
-            ifrma_name:['ONN뉴스 7편 / 20대 간혈관종 환자 간 절제술로 간세포선종 제거',],
+            ifrma_name:['ONN News Episode 7 / Liver hemangioma patient in his 20s removed hepatocellular adenoma through liver resection',],
             ifram_src:['https://www.youtube.com/embed/FxGwggzensQ',],
         }
     ],
@@ -1630,22 +2483,23 @@ const onn_list = [
             cate_no:2,
             item_no:1,
             title_icon: 'medi_w_1',
+            koran_name: '내과',
             con: 4,
             num: ['1', '2', '3', '4'],
             running_time:['16:16','1:39','6:59','13:06'],
             thum_img_src:['on_14_1','on_10_1','on_26_1','on_13_1'],
             explanation: [
-                '온종합병원 전문의가 알려드리는 고혈압의 모든 것',
-                '전파 차단기간으로 격리 해제 후에도 후유증 증상 동반 가능성이 있어 주의가 필요합니다',
-                '유흥 센터장님께서 알려주시는 위내시경',
-                '온종합병원 NEPHROLOGY 곽임수 교수님께서 알려주시는 신장(콩팥)'
+                'All about hypertension from a specialist at On General Hospital',
+                'Due to the radio wave blocking period, caution is required as there is a possibility of having side effects even after being released from quarantine.',
+                'Gastroscopy from the head of entertainment center',
+                'On General Hospital NEPHROLOGY Professor Kwak Im-soo tells you about kidneys (kidneys)'
             ],
-            medi_name:'내과',
+            medi_name:'Internal Medicine',
             ifrma_name:[
-                '[병원장TV] 고혈압, 우리는 안전할까요? 고혈압 전문의가 직접 알려드립니다!',
-                '온종합병원 "코로나후유증 회복치료센터" 개설',
-                '[병원장TV] "암조기 발견 치료"를 위해 적극적인 검진이 필요합니다!',
-                '[병원장TV] 한번 망가지면 돌이킬 수 없는 콩팥!! 신장(콩팥)과 투석에 대해 알아봅시다~!!',
+                '[Hospital Director TV] High blood pressure, are we safe? !',
+                'On General Hospital "Corona sequelae recovery treatment center" opened',
+                '[Hospital Director TV] Active checkup is necessary for "early detection and treatment of cancer!',
+                '[Hospital Director TV] Once broken, irreversible kidney!! Let`s learn about kidney (kidney) and dialysis ~!!',
             ],
             ifram_src:[
                 'https://www.youtube.com/embed/3nIsp2JoLMc',
@@ -1660,6 +2514,7 @@ const onn_list = [
         {
             cate_no:3,
             item_no:1,
+            koran_name: '내분비내과',
             con: 0,
             title_icon: 'medi_w_17',
             medi_name:'Endocrinology Department',
@@ -1671,6 +2526,7 @@ const onn_list = [
             cate_no:4,
             item_no:1,
             con: 0,
+            koran_name: '마취통증의학과',
             title_icon: 'medi_w_23',
             medi_name:'Department of Anesthesiology and Pain Medicine',
         }
@@ -1681,6 +2537,7 @@ const onn_list = [
             cate_no:5,
             item_no:1,
             con: 0,
+            koran_name: '방사선종양학과',
             title_icon: 'medi_w_24',
             medi_name:'Radiation Oncology Department',
         }
@@ -1692,12 +2549,13 @@ const onn_list = [
             item_no:1,
             title_icon: 'medi_w_11',
             con: 1,
+            koran_name: '비뇨의학과',
             num: ['1'],
             running_time:['8:19'],
             thum_img_src:['on_7_1'],
-            explanation: ['Professor Jae-Sik Kim님께서 알려주시는 전립선비대증'],
+            explanation: ['Professor Jae-Sik Kim`s Prostate Hyperplasia'],
             medi_name:'Urology Department',
-            ifrma_name:['60대60%전립선비대증All'],
+            ifrma_name:['60`s 60% Prostate hyperplasia All'],
             ifram_src:['https://www.youtube.com/embed/KW9I4W7xKlU'],
         }
     ],
@@ -1707,18 +2565,9 @@ const onn_list = [
             cate_no:7,
             item_no:1,
             con: 0,
+            koran_name: '산부인과',
             title_icon: 'medi_w_12',
             medi_name:'OBSTETRICS AND GYNECOLOGY',
-        }
-    ],
-    // 28
-    [
-        {
-            cate_no:31,
-            item_no:1,
-            con: 0,
-            title_icon: 'medi_w_47',
-            medi_name:'INDUSTRIAL HEALTH CENTER',
         }
     ],
     // 9
@@ -1728,6 +2577,7 @@ const onn_list = [
             item_no:1,
             con: 0,
             title_icon: 'medi_w_3',
+            koran_name: '소아청소년과',
             medi_name:'PEDIATRICS',
         }
     ],
@@ -1739,11 +2589,12 @@ const onn_list = [
             con: 1,
             title_icon: 'medi_w_18',
             num: ['1'],
+            koran_name: '소화기 내과',
             running_time:['1:39'],
             thum_img_src:['on_10_1'],
-            explanation:['전파 차단기간으로 격리 해제 후에도 후유증 증상 동반 가능성이 있어 주의가 필요합니다'],
-            medi_name:'소화기 내과',
-            ifrma_name:['온종합병원 "코로나후유증 회복치료센터" 개설',],
+            explanation:['Due to the radio wave blocking period, caution is required as there is a possibility of having side effects even after being released from quarantine.'],
+            medi_name:'Digestive System Cancer Surgery Center',
+            ifrma_name:['On General Hospital "Corona sequelae recovery treatment center" opened',],
             ifram_src:['https://www.youtube.com/embed/qE40EoPjz3c',],
         }
     ],
@@ -1755,11 +2606,12 @@ const onn_list = [
             con: 1,
             title_icon: 'medi_w_4_1',
             num: ['1'],
+            koran_name: '신경과',
             running_time:['4:46'],
             thum_img_src:['on_11_1'],
-            explanation:['추석 연휴에 부모님의 이상행동을 살펴서 치매 조기 발견! 치매는 조기진단되면 약물치료 등으로 완치도 가능하다'],
+            explanation:['Early detection of dementia by looking at parents` abnormal behavior during the Chuseok holiday! '],
             medi_name:'NEUROLOGY',
-            ifrma_name:['온종합병원 NEUROLOGY 하상욱 과장의 치매이야기'],
+            ifrma_name:['On General Hospital NEUROLOGY Manager Ha Sang-wook`s story of dementia'],
             ifram_src:['https://www.youtube.com/embed/yUtjCyD5cn4'],
         }
     ],
@@ -1771,16 +2623,17 @@ const onn_list = [
             con: 2,
             title_icon: 'medi_w_8',
             num: ['1', '2'],
+            koran_name: '신경외과',
             running_time:['2:04','5:02'],
             thum_img_src:['on_12_1','on_12_2'],
             explanation:[
-                '근육긴장이상증에 대해 (DEPARTMENT OF NEUROSURGERY)', 
-                '온종합병원 DEPARTMENT OF NEUROSURGERY 김종열 척추센터장님께서 알려주시는 철추관협착증'
+                'About Muscle Tension Abnormalities (DEPARTMENT OF NEUROSURGERY)', 
+                'On General Hospital DEPARTMENT OF NEUROSURGERY Spine Stenosis'
             ],
             medi_name:'DEPARTMENT OF NEUROSURGERY',
             ifrma_name:[
-                'ONN뉴스 8편 / 근육긴장이상증_DEPARTMENT OF NEUROSURGERY',
-                '[병원장TV] "꼬부랑 할머니 병"? 누구에게나 올 수 있는 "척추관협착증"에 대해 알아봅시다~!!',
+                'ONN News Episode 8 / Dystonia_DEPARTMENT OF NEUROSURGERY',
+                '[Hospital Director TV] "Squirtle and grandmother`s disease`? Let`s learn about "spinal stenosis" that can come to anyone~!!',
             ],
             ifram_src:[
                 'https://www.youtube.com/embed/kXHpoLgOODQ',
@@ -1796,11 +2649,12 @@ const onn_list = [
             con: 1,
             title_icon: 'medi_w_19',
             num: ['1'],
+            koran_name: '신장내과',
             running_time:['13:06'],
             thum_img_src:['on_13_1'],
-            explanation:['온종합병원 NEPHROLOGY 곽임수 교수님께서 알려주시는 신장(콩팥)'],
+            explanation:['On General Hospital NEPHROLOGY Professor Kwak Im-soo tells you about kidneys (kidneys)'],
             medi_name:'NEPHROLOGY',
-            ifrma_name:['[병원장TV] 한번 망가지면 돌이킬 수 없는 콩팥!! 신장(콩팥)과 투석에 대해 알아봅시다~!!',],
+            ifrma_name:['[Hospital Director TV] Once broken, irreversible kidney!! Let`s learn about kidney (kidney) and dialysis~!!',],
             ifram_src:['https://www.youtube.com/embed/GNatfOtZugo',],
         }
     ],
@@ -1812,11 +2666,12 @@ const onn_list = [
             con: 1,
             title_icon: 'medi_w_20',
             num: ['1'],
+            koran_name: '심장내과',
             running_time:['16:16'],
             thum_img_src:['on_14_1'],
-            explanation: ['온종합병원 전문의가 알려드리는 고혈압의 모든 것'],
+            explanation: ['All about hypertension from a specialist at On General Hospital'],
             medi_name:'CARDIOLOGY DEPARTMENT',
-            ifrma_name:['[병원장TV] 고혈압, 우리는 안전할까요? 고혈압 전문의가 직접 알려드립니다!',],
+            ifrma_name:['[Hospital Director TV] High blood pressure, are we safe? A high blood pressure specialist will tell you directly!',],
             ifram_src:['https://www.youtube.com/embed/3nIsp2JoLMc',],
         }
     ],
@@ -1827,7 +2682,8 @@ const onn_list = [
             item_no:1,
             con: 0,
             title_icon: 'medi_w_abc_24',
-            medi_name:'안과',
+            medi_name:'Ophthalmology',
+            koran_name: '심장내과',
         }
     ],
     
@@ -1839,16 +2695,17 @@ const onn_list = [
             con: 2,
             title_icon: 'medi_w_14',
             num: ['1', '2'],
+            koran_name: '이비인후과',
             running_time:['8:23','13:37'],
             thum_img_src:['on_16_1','on_16_2'],
             explanation:[
-                '온종합병원 OTOLARYNGOLOGY 이일우 과장님께서 알려주시는 부비동염',
-                '온종합병원 OTOLARYNGOLOGY 이봉희 과장님께서 알려주시는 코골이와 수면무호흡증'
+                'Sinusitis from On General Hospital OTOLARYNGOLOGY Manager Lee Il-woo',
+                'On General Hospital OTOLARYNGOLOGY Manager Lee Bong-hee tells you about snoring and sleep apnea'
             ],
             medi_name:'OTOLARYNGOLOGY',
             ifrma_name:[
-                '[병원장TV] "쉬면 괜찮겠지~" 생각했던 겨울철 감기, 10일 이상 지속되면 부비동염을 의심해보세요~',
-                '[병원장TV] 방치하다 사망할 수도 있다고?! 코골이와 수면무호흡증은 단순한 증상이 아닌 질병입니다~!!'
+                '[Hospital Director TV] "If you rest, you`ll be fine~" A winter cold you thought, if it lasts more than 10 days, suspect sinusitis~',
+                '[Hospital Director TV] You could die while neglecting it?! Snoring and sleep apnea are diseases, not just symptoms~!!'
             ],
             ifram_src:[
                 'https://www.youtube.com/embed/auagcELsIng',
@@ -1864,11 +2721,12 @@ const onn_list = [
             con: 1,
             title_icon: 'medi_w_25',
             num: ['1'],
+            koran_name: '영상의학과',
             running_time:['27:18'],
             thum_img_src:['on_17_1'],
-            explanation: ['온종합병원 혈액투석환자 인터벤션센터 DEPARTMENT OF RADIOLOGY 최기복소장님의 신장투석환자 강의'],
+            explanation: ['On General Hospital Hemodialysis Patient Intervention Center DEPARTMENT OF RADIOLOGY Director Ki-Bok Choi lectures on renal dialysis patients'],
             medi_name:'DEPARTMENT OF RADIOLOGY',
-            ifrma_name:['혈액투석환자 인터벤션치료 온종합병원 신장투석환자 최기복소장 강의'],
+            ifrma_name:['Lecture on the interventional treatment of hemodialysis patients by Director Choi Ki-bok of renal dialysis patients at On General Hospital'],
             ifram_src:['https://www.youtube.com/embed/iFIAHT7xbWI'],
         }
     ],
@@ -1883,15 +2741,16 @@ const onn_list = [
             running_time:['1:17','9:52','5:24'],
             thum_img_src:['on_18_1','on_18_2','on_18_3'],
             medi_name:'SURGERY',
+            koran_name: '외과',
             explanation: [
-                '20대 간혈관종 환자 간 절제술로 간세포선종 제거',
-                'SURGERY 고상의 과장님께서 알려주시는 대장암',
-                '지난 5월, 고난도 복강경 수술에 관한 비하인드 스토리'
+                'Removal of hepatocellular adenoma by liver resection in a patient with hepatic hemangioma in his 20s',
+                'Colorectal cancer from SURGERY Manager Koh Sang',
+                'A behind-the-scenes story about high-level laparoscopic surgery last May'
             ],
             ifrma_name:[
-                'ONN뉴스 7편 / 20대 간혈관종 환자 간 절제술로 간세포선종 제거',
-                '[병원장TV] 대변으로 대장암을 "자가진단" 할 수 있다, 없다? - 암 발병률 1위 "대장암"에 대한 모든 것!!',
-                '[병원장TV] 신장암, 개복을 하지 않고 수술하는 방법!?'
+                'ONN News Episode 7 / Liver hemangioma patient in his 20s removed hepatocellular adenoma through liver resection',
+                '[Hospital Director TV] Colon cancer can be "self-diagnosed" with feces, or not? - Everything about "colon cancer", the number 1 cancer incidence!!',
+                '[Hospital Director TV] Kidney cancer, how to operate without laparotomy!?'
             ],
             ifram_src:[
                 'https://www.youtube.com/embed/FxGwggzensQ',
@@ -1908,6 +2767,7 @@ const onn_list = [
             con: 0,
             title_icon: 'medi_w_26',
             medi_name:'DEPARTMENT OF EMERGENCY MEDICINE',
+            koran_name: '응급의학과',
         }
     ],
     // 20
@@ -1918,16 +2778,17 @@ const onn_list = [
             con: 2,
             title_icon: 'medi_w_6',
             num: ['1', '2'],
+            koran_name: '정신건강의학과',
             running_time:['17:10','13:54'],
             thum_img_src:['on_20_1','on_20_2'],
             explanation: [
-                '우크라이나 의료봉사에 다녀오신 DEPARTMENT OF PSYCHIATRY 김상엽 박사님께서 느끼신 난민들의 불안한 정신적 상태에 대해...',
-                '이수진 과장님께서 알려주시는 우울증',
+                'Dr. Kim Sang-yeop of DEPARTMENT OF PSYCHIATRY, who has been to medical service in Ukraine, felt about the unstable mental state of refugees...',
+                'Depression as told by Manager Sujin Lee',
             ],
             medi_name:'DEPARTMENT OF PSYCHIATRY',
             ifrma_name:[
-                '우크라이나 의료봉사 특집 - 외상 후 스트레스 장애 PTSD',
-                '[병원장TV] 우울증은 정말 "마음의 감기"일까? 우울증은 여러분의 잘못이 아닙니다!!'
+                'Ukraine Medical Volunteer Special - Post Traumatic Stress Disorder PTSD',
+                '[Hospital Director TV] Is depression really a "cold of the mind"? Depression is not your fault!!'
             ],
             ifram_src:[
                 'https://www.youtube.com/embed/IQkuPqWsIUo',
@@ -1943,16 +2804,17 @@ const onn_list = [
             con: 2,
             title_icon: 'medi_w_9',
             num: ['1', '2'],
+            koran_name: '정형외과',
             running_time:['13:54','5:21'],
             thum_img_src:['on_21_1','on_21_2'],
             explanation: [
-                '온그룹 정근 원장님과 온종합병원 DEPARTMENT OF ORTHOPEDICS 구인회 부원장님, 재활병원 구자원 원장님께서 알려주시는 손목터널증후군',
-                '김윤준 진료부원장님께서 알려주시는 스포츠 손상',
+                'Carpal Tunnel Syndrome from Ongroup Director Jeong Geun, On General Hospital Department of Orthopedic Vice President Koo In-hoe, and Rehabilitation Hospital Director Koo Ja-won',
+                'Sports injuries reported by Kim Yoon-joon, deputy director',
             ],
             medi_name:'DEPARTMENT OF ORTHOPEDICS',
             ifrma_name:[
-                '[병원장TV] 혹시 나도 손목터널증후군?!',
-                '[병원장TV] 스포츠 손상! 어떻게 해야 할까요?'
+                '[Hospital Director TV] Do you have Carpal Tunnel Syndrome?!',
+                '[Hospital Director TV] Sports damage! What should I do?'
             ],
             ifram_src:[
                 'https://www.youtube.com/embed/XZo0Oqmep4Q',
@@ -1967,7 +2829,8 @@ const onn_list = [
             item_no:1,
             con: 0,
             title_icon: 'medi_w_27',
-            medi_name:'진단검사의학과',
+            medi_name:'Department of Laboratory Medicine',
+            koran_name: '진단검사의학과',
         }
     ],
     // 23
@@ -1978,11 +2841,12 @@ const onn_list = [
             con: 1,
             title_icon: 'medi_w_16',
             num: ['1'],
+            koran_name: '췌장담도내과',
             running_time:['5:02'],
             thum_img_src:['on_23_1'],
-            explanation: ['췌장담도 `명의` 고신대 박은택 교수 초빙, 코로나 19 재택치료 협력병원 지정 외 2가지 등의 의료소식을 빠르게 전달해드리는 ONN뉴스',],
+            explanation: ['ONN News quickly delivers medical news, including the invitation of professor Park Eun-taek of Kosin University, designated as a cooperating hospital for covid-19 home treatment, and two others for pancreatic biliary tract disease.',],
             medi_name:'PANCREATIC AND BILIARY TRACT DEPARTMENT',
-            ifrma_name:['온병원그룹 "ONN뉴스" 11편 "온종합병원, 췌장담도 ‘명의’ 고신대 박은택 교수 초빙, 췌장담도센터 개소식"'],
+            ifrma_name:['On Hospital Group "ONN News" Episode 11 "On General Hospital invites Professor Park Eun-taek of Kosin University, Pancreatic Biliary Center opening ceremony"'],
             ifram_src:['https://www.youtube.com/embed/sTjsy4YbNrk'],
         }
     ],
@@ -1994,11 +2858,12 @@ const onn_list = [
             con: 1,
             title_icon: 'medi_w_28_1',
             num: ['1'],
+            koran_name: '치과',
             running_time:['11:02'],
             thum_img_src:['on_24_1'],
-            explanation: ['온종합병원 DENTISTRY 전문의 이의정 과장님께서 알려주시는 치주질환',],
+            explanation: ['Periodontal disease informed by Dr. Uijeong Lee, a dentistry specialist at On General Hospital',],
             medi_name:'DENTISTRY',
-            ifrma_name:['[병원장TV] 잇몸이 무너지면 온몸이 무너진다..? 치주질환의 모든것!'],
+            ifrma_name:['[Hospital Director TV] If the gums collapse, the whole body collapses..? All about periodontal disease!'],
             ifram_src:['https://www.youtube.com/embed/msOZ-7lgPmc'],
         }
     ],
@@ -2010,6 +2875,7 @@ const onn_list = [
             con: 0,
             title_icon: 'medi_w_21',
             medi_name:'DEPARTMENT OF HEMATO-ONCOLOGY',
+            koran_name: '혈액종양내과',
         }
     ],
     // 26
@@ -2020,11 +2886,12 @@ const onn_list = [
             con: 1,
             title_icon: 'medi_w_22',
             num: ['1'],
+            koran_name: '호흡기내과',
             running_time:['6:59'],
             thum_img_src:['on_26_1'],
-            explanation:['온종합병원 유흥 센터장님께서 알려주시는 위내시경'],
+            explanation:['Gastroscopy from the director of entertainment center at On General Hospital'],
             medi_name:'호흡기 내과',
-            ifrma_name:['[병원장TV] "암조기 발견 치료"를 위해 적극적인 검진이 필요합니다!'],
+            ifrma_name:['[Hospital Director TV] Active checkup is necessary for "early detection and treatment of cancer"!'],
             ifram_src:['https://www.youtube.com/embed/TwL--bpEov4'],
         }
     ],
@@ -2036,6 +2903,19 @@ const onn_list = [
             con: 0,
             title_icon: 'medi_w_10',
             medi_name:'THORACIC SURGERY',
+            koran_name: '흉부외과',
+        }
+    ],
+    
+    // 28
+    [
+        {
+            cate_no:28,
+            item_no:1,
+            con: 0,
+            title_icon: 'medi_w_4+',
+            medi_name:'INDUSTRIAL HEALTH CENTER',
+            koran_name: '산업보건센터',
         }
     ],
 

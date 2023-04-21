@@ -352,7 +352,7 @@ html { scroll-behavior: smooth;}
     border-bottom: 1px solid #959595;
 }
 
-.notice_ul {position: absolute; top: -5px; left: 50%; transform: translateX(-50%); opacity: 0;}
+.notice_ul {position: absolute; top: -5px; left: 50%; transform: translateX(-50%); }
 .n_circle_img_box {position: relative; cursor: pointer;}
 .nc_4 .n_circle_img_box {margin: 15px 0;}
 

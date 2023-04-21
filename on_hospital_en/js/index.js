@@ -284,13 +284,13 @@ $(document).ready(function(){
     $('.n_1').click(function(){
         console.log("1번 Announcements 클릭했수")
         // 클릭시 가운데 내용 나옴
-        $('#no_1').css('opacity', '1')
+        $('#no_1').css('display', 'inline-block')
 
-        $('#no_2').css('opacity', '0')
-        $('#no_3').css('opacity', '0')
-        $('#no_4').css('opacity', '0')
-        $('#no_5').css('opacity', '0')
-        $('#no_6').css('opacity', '0')
+        $('#no_2').css('display', 'none')
+        $('#no_3').css('display', 'none')
+        $('#no_4').css('display', 'none')
+        $('#no_5').css('display', 'none')
+        $('#no_6').css('display', 'none')
 
 
         // 클릭시 가운데 타이틀 나옴
@@ -359,13 +359,13 @@ $(document).ready(function(){
     $('.n_2').click(function(){
         console.log("2번 More News 클릭했수")
                 // 클릭시 가운데 내용 나옴
-        $('#no_2').css('opacity', '1')
+        $('#no_2').css('display', 'inline-block')
 
-        $('#no_1').css('opacity', '0')
-        $('#no_3').css('opacity', '0')
-        $('#no_4').css('opacity', '0')
-        $('#no_5').css('opacity', '0')
-        $('#no_6').css('opacity', '0')
+        $('#no_1').css('display', 'none')
+        $('#no_3').css('display', 'none')
+        $('#no_4').css('display', 'none')
+        $('#no_5').css('display', 'none')
+        $('#no_6').css('display', 'none')
 
         // 클릭시 가운데 타이틀 나옴
         $('#nc_t_2').css('display', 'block')
@@ -428,13 +428,13 @@ $(document).ready(function(){
     })
     $('.n_3').click(function(){
         console.log("3번 질문 클릭했수")
-        $('#no_6').css('opacity', '1')
+        $('#no_6').css('display', 'inline-block')
 
-        $('#no_1').css('opacity', '0')
-        $('#no_3').css('opacity', '0')
-        $('#no_4').css('opacity', '0')
-        $('#no_5').css('opacity', '0')
-        $('#no_2').css('opacity', '0')
+        $('#no_1').css('display', 'none')
+        $('#no_3').css('display', 'none')
+        $('#no_4').css('display', 'none')
+        $('#no_5').css('display', 'none')
+        $('#no_2').css('display', 'none')
 
         $('#nc_t_6').css('display', 'block')
 
@@ -496,13 +496,13 @@ $(document).ready(function(){
     })
     $('.n_7').click(function(){
         console.log("4번 채용 클릭했수")
-        $('#no_4').css('opacity', '1')
+        $('#no_4').css('display', 'inline-block')
 
-        $('#no_1').css('opacity', '0')
-        $('#no_3').css('opacity', '0')
-        $('#no_2').css('opacity', '0')
-        $('#no_5').css('opacity', '0')
-        $('#no_6').css('opacity', '0')
+        $('#no_1').css('display', 'none')
+        $('#no_3').css('display', 'none')
+        $('#no_2').css('display', 'none')
+        $('#no_5').css('display', 'none')
+        $('#no_6').css('display', 'none')
 
         $('#nc_t_4').css('display', 'block')
 
@@ -564,13 +564,13 @@ $(document).ready(function(){
     })
     $('.n_5').click(function(){
         console.log("5번 식단 클릭했수")
-        $('#no_5').css('opacity', '1')
+        $('#no_5').css('display', 'inline-block')
 
-        $('#no_1').css('opacity', '0')
-        $('#no_3').css('opacity', '0')
-        $('#no_2').css('opacity', '0')
-        $('#no_4').css('opacity', '0')
-        $('#no_6').css('opacity', '0')
+        $('#no_1').css('display', 'none')
+        $('#no_3').css('display', 'none')
+        $('#no_2').css('display', 'none')
+        $('#no_4').css('display', 'none')
+        $('#no_6').css('display', 'none')
 
         $('#nc_t_5').css('display', 'block')
 
@@ -632,13 +632,13 @@ $(document).ready(function(){
     })
     $('.n_6').click(function(){
         console.log("6번 News & Publications 클릭했수")
-        $('#no_3').css('opacity', '1')
+        $('#no_3').css('display', 'inline-block')
 
-        $('#no_1').css('opacity', '0')
-        $('#no_2').css('opacity', '0')
-        $('#no_4').css('opacity', '0')
-        $('#no_5').css('opacity', '0')
-        $('#no_6').css('opacity', '0')
+        $('#no_1').css('display', 'none')
+        $('#no_2').css('display', 'none')
+        $('#no_4').css('display', 'none')
+        $('#no_5').css('display', 'none')
+        $('#no_6').css('display', 'none')
 
         $('#nc_t_3').css('display', 'block')
 

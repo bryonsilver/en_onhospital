@@ -36,7 +36,7 @@ $(document).ready(function(){
                                                         <div class="doctoer_field">${DOCTOR[cate][item_n].medi_con}</div>
                                                     </div>
                                                     <div class="doctor_field_box">
-                                                        <div>진료분야</div>
+                                                        <div>Medical Field</div>
                                                         <div class="doc_field_text">
                                                             <span>${DOCTOR[cate][item_n].one_speci_con}</span>
                                                         </div>
@@ -55,12 +55,12 @@ $(document).ready(function(){
                                                             <table class="bottom_table">
                                                                 <thead class="t_bg_light">
                                                                     <th></th>
-                                                                    <th>월</th>
-                                                                    <th>화</th>
-                                                                    <th>수</th>
-                                                                    <th>목</th>
-                                                                    <th>금</th>
-                                                                    <th>토</th>
+                                                                    <th>Mon</th>
+                                                                    <th>Tue</th>
+                                                                    <th>Wed</th>
+                                                                    <th>Thur</th>
+                                                                    <th>Fri</th>
+                                                                    <th>Sat</th>
                                                                 </thead>
                                                                 <tbody>
                                                                     <tr>
@@ -73,7 +73,7 @@ $(document).ready(function(){
                                                                 list +=`</td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <th class="t_bg_light">오후</th>`
+                                                                        <th class="t_bg_light">PM</th>`
                                                                     for(let j=0; j<DOCTOR[cate][item_n].morn_schedule.length; j++) {
                                                                     list +=`<td>
                                                                             <div><span class="text_circle ${DOCTOR[cate][item_n].afte_color[j]}"></span></div>
@@ -82,7 +82,7 @@ $(document).ready(function(){
                                                                 list +=`</td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <th class="t_bg_light">비고</th>`
+                                                                        <th class="t_bg_light">Note</th>`
                                                                         if(DOCTOR[cate][item_n].note != null) {
                                                                         list +=`<td class="text_left" colspan="6">${DOCTOR[cate][item_n].note}</td>`
                                                                         } else{
@@ -95,15 +95,15 @@ $(document).ready(function(){
                                                         <div class="text_ex_box">
                                                             <span>
                                                                 <div class="circle cir_primary"></div>
-                                                                <span class="text_primary">진료</span>
+                                                                <span class="text_primary">Medical Treatment</span>
                                                             </span>
                                                             <span>
                                                                 <div class="circle cir_danger"></div>
-                                                                <span class="text_danger">수술/검사</span>
+                                                                <span class="text_danger">Surgery/Test</span>
                                                             </span>
                                                             <span>
                                                                 <div class="circle cir_success"></div>
-                                                                <span class="text_success">문의</span>
+                                                                <span class="text_success">Inquiry</span>
                                                             </span>
                                                         </div>
                                                     </div>
@@ -120,7 +120,7 @@ $(document).ready(function(){
                                                 <div class="doctoer_field">${DOCTOR[cate][item_n].medi_con}</div>
                                             </div>
                                             <div class="doctor_field_box">
-                                                <div>진료분야</div>
+                                                <div>Medical Field</div>
                                                 <div class="doc_field_text">
                                                     <span>${DOCTOR[cate][item_n].one_speci_con}</span>
                                                 </div>
@@ -139,12 +139,12 @@ $(document).ready(function(){
                                                     <table class="bottom_table">
                                                         <thead class="t_bg_light">
                                                             <th></th>
-                                                            <th>월</th>
-                                                            <th>화</th>
-                                                            <th>수</th>
-                                                            <th>목</th>
-                                                            <th>금</th>
-                                                            <th>토</th>
+                                                            <th>Mon</th>
+                                                            <th>Tue</th>
+                                                            <th>Wed</th>
+                                                            <th>Thur</th>
+                                                            <th>Fri</th>
+                                                            <th>Sat</th>
                                                         </thead>
                                                         <tbody>
                                                             <tr>
@@ -157,7 +157,7 @@ $(document).ready(function(){
                                                         list +=`</td>
                                                             </tr>
                                                             <tr>
-                                                                <th class="t_bg_light">오후</th>`
+                                                                <th class="t_bg_light">PM</th>`
                                                             for(let j=0; j<DOCTOR[cate][item_n].morn_schedule.length; j++) {
                                                             list +=`<td>
                                                                     <div><span class="text_circle ${DOCTOR[cate][item_n].afte_color[j]}"></span></div>
@@ -166,7 +166,7 @@ $(document).ready(function(){
                                                         list +=`</td>
                                                             </tr>
                                                             <tr>
-                                                                <th class="t_bg_light">비고</th>`
+                                                                <th class="t_bg_light">Note</th>`
                                                                 if(DOCTOR[cate][item_n].note != null) {
                                                                 list +=`<td class="text_left" colspan="6">${DOCTOR[cate][item_n].note}</td>`
                                                                 } else{
@@ -179,15 +179,19 @@ $(document).ready(function(){
                                                 <div class="text_ex_box">
                                                     <span>
                                                         <div class="circle cir_primary"></div>
-                                                        <span class="text_primary">진료</span>
+                                                        <span class="text_primary">Medical Treatment</span>
                                                     </span>
                                                     <span>
                                                         <div class="circle cir_danger"></div>
-                                                        <span class="text_danger">수술/검사</span>
+                                                        <span class="text_danger">Surgery/Test</span>
+                                                    </span>
+                                                    <span>
+                                                    <div class="circle cir_intensive_care_unit"></div>
+                                                        <span class="text_intensive_care_unit">Intensive Care Unit (ICU)</span>
                                                     </span>
                                                     <span>
                                                         <div class="circle cir_success"></div>
-                                                        <span class="text_success">문의</span>
+                                                        <span class="text_success">Inquiry</span>
                                                     </span>
                                                 </div>
                                             </div>
@@ -200,7 +204,7 @@ $(document).ready(function(){
                                             </span>
                                             <span class="ct_tv_box">
                                                 <span class="ct_top_after"></span>
-                                                <span>TV영상</span>
+                                                <span>TV Video</span>
                                             </span>
                                         </div>`
                                     }
@@ -222,12 +226,12 @@ $(document).ready(function(){
                                                         <span>
                                                             <img src="./img/medi_details/icon/medi_more_3.png" alt="">
                                                         </span>
-                                                        <span>학회활동</span>
+                                                        <span>Society Activities</span>
                                                     </div>
                                                     <div class="cbc_con_box">
                                                         <div class="cbc_pan">`
-                                                            for(let j=0; j<DOCTOR[cate][i].activity.length; j++) {
-                                                                list +=`<span>${DOCTOR[cate][i].activity[j]}</span>`
+                                                            for(let j=0; j<DOCTOR[cate][item_n].activity.length; j++) {
+                                                                list +=`<span>${DOCTOR[cate][item_n].activity[j]}</span>`
                                                             }
                                                 list += `</div>
                                                     </div>
@@ -237,12 +241,12 @@ $(document).ready(function(){
                                                         <span>
                                                             <img src="./img/medi_details/icon/medi_more_4.png" alt="">
                                                         </span>
-                                                        <span>약력</span>
+                                                        <span>Brief History</span>
                                                     </div>
                                                     <div class="cbc_con_box">
                                                         <div class="cbc_pan pan1">`
-                                                            for(let j=0; j<DOCTOR[cate][i].phamacology.length; j++) {
-                                                                list +=`<span>${DOCTOR[cate][i].phamacology[j]}</span>`
+                                                            for(let j=0; j<DOCTOR[cate][item_n].phamacology.length; j++) {
+                                                                list +=`<span>${DOCTOR[cate][item_n].phamacology[j]}</span>`
                                                             }
                                                 list += `</div>
                                                     </div>

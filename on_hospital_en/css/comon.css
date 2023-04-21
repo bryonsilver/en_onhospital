@@ -1583,6 +1583,8 @@ body {
     }
 }
 @media (max-width: 1400px) {
+    .ft_logo_box {padding: 20px 0 0;}
+    .footer_top_box {flex-direction: column; gap: 5px;}
     .container {
         max-width: 1250px;
         justify-content: center !important;

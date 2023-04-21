@@ -291,6 +291,9 @@ div.oe_cc_ext_text > span {
     .title_box_onn h4 {
         font-size: 40px;
     }
+    .oe_cc_ext_text_box { flex-direction: column;}
+    .oe_cc_tem {display: none;}
+    .oe_cc_ext_text {border-top:  1px solid #ddd;}
 }
 @media (max-width: 1100px) {
     iframe {height: 500px !important;}

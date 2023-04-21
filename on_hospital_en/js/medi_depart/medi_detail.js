@@ -145,7 +145,7 @@ $(document).ready(function(){
                                                 </span>
                                                 <span>
                                                     <div class="circle cir_intensive_care_unit"></div>
-                                                    <span class="text_success">Intensive Care Unit (ICU)</span>
+                                                    <span class="text_intensive_care_unit">Intensive Care Unit (ICU)</span>
                                                 </span>
                                                 <span>
                                                     <div class="circle cir_success"></div>
@@ -178,7 +178,7 @@ $(document).ready(function(){
                                         <div class="odb_name">${DOCTOR[value][i].name}</div>
                                         <div class="odb_pro">
                                             <span>${DOCTOR[value][i].one_speci_con}</span>
-                                            <span class="more_btn">더보기</span>
+                                            <span class="more_btn">more</span>
                                         </div>
                                     </div>
                                 </div>
@@ -195,7 +195,7 @@ $(document).ready(function(){
                                     <div class="ob_in_but_box">
                                         <a href="./medi_more.html?cate=${DOCTOR[value][i].cate_no}&item=${DOCTOR[value][i].item_no}">
                                             <img src="./img/medi_details/doctor_w.png" alt="">
-                                            <span>의료진소개</span>
+                                            <span>Introduction of medical staff</span>
                                         </a>
                                     </div>
                                 </div>

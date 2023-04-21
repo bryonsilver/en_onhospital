@@ -21,6 +21,7 @@ body {font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple
 .cir_primary {background-color: #0d6efd;}
 .cir_success {background-color: #198754;}
 .cir_intensive_care_unit {background-color: #ffc107;}
+.text_intensive_care_unit {color: #ffc107;}
 
 
 .top_title{

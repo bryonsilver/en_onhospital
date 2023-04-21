@@ -33,7 +33,7 @@ $(document).ready(function(){
                                 for(let j=0; j<onn_list[cate][0].ifrma_name.length; j++) {
                                 list += ` <div class="video">
                                                 <div class="video_box yol_${onn_list[cate][0].cate_no}_on_${onn_list[cate][0].num[j]}">
-                                                <span class="oe_num_box"><span>${onn_list[cate][0].num[j]}</span></span>
+                                                <span class="oe_num_box notranslate"><span>${onn_list[cate][0].num[j]}</span></span>
                                                     <span class="oe_content_box">
                                                         <div class="oe_c_thum_box">
                                                             <div class="oe_ct_img_box"><img src="./img/onn/${onn_list[cate][0].thum_img_src[j]}.webp" alt=""></div>
@@ -288,6 +288,10 @@ $(document).ready(function(){
     } else if (cate == 28) {
         $('#selec28').prop("selected", true);
         $('.medi_onn_29').addClass('nav_active')
+    } 
+    else if (cate == 29) {
+        $('#selec29').prop("selected", true);
+        $('.medi_onn_30').addClass('nav_active')
     } 
 
 

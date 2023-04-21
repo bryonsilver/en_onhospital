@@ -574,7 +574,7 @@ svg:not(:root).svg-inline--fa {
 }
 
 .mr_c_title {
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 700;
     color: #ee791c;
 
@@ -1089,7 +1089,7 @@ img {
         margin-bottom: 5px;
     }
     .mr_c_title {
-        font-size: 24px;
+        font-size: 22px;
     }
     .text_4 {
         text-align: left;
@@ -1301,7 +1301,7 @@ img {
     .mr_li {margin-bottom: 20px;}
     .c_27 {margin-top: 0 !important;}
     .border_box {font-size: 14px;}
-    .mr_c_title {font-size: 22px; justify-content: center;}
+    .mr_c_title {font-size: 20px; justify-content: center;}
     .table_text div {text-align: center;}
 }
 @media (max-width:400px) {
