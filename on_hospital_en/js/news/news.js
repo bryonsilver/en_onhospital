@@ -65,7 +65,7 @@ $(document).ready(function(){
                             <td class="d_none t_td t_centerv">
                                 <a href="#" class="member_1" style="max-width: 300px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;" title="${NEWS_LIST[num][i].writer}">${NEWS_LIST[num][i].writer}</a>
                             </td>
-                            <td class="t_td right notranslate">${NEWS_LIST[num][i].date}</td>
+                            <td class="t_td right notranslate"><span class="t_td_desk">${NEWS_LIST[num][i].date}</span> <span class="t_td_mobile">${NEWS_LIST[num][i].date2}</span></td>
                             <td class="d_none t_td t_center notranslate">15497</td>
                         </tr>`
         $('.tbody').append(list);

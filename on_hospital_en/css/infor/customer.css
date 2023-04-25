@@ -98,6 +98,13 @@ table {
     border-bottom-width: 1px;
     box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
 }
+
+
+@media (max-width: 1200px) {
+    .icon_title {display: none;}
+    .col-lg-12 h4 {width: 100%;}
+    .btn-kso {margin-bottom: 10px;}
+}
 @media (max-width: 770px) {
     .main > .container {
         max-width: 600px !important;

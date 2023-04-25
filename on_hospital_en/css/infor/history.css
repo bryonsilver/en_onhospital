@@ -327,6 +327,15 @@ body {font-family: 'Noto Sans KR';}
         align-items: center;
     }
 }
+@media (max-width: 1300px) {
+    .his_shorts_button {
+        gap: 5px;
+    }
+    .his_right_box {margin: auto;}
+    .icon_title {
+        display: none;
+    }
+}
 @media only screen and (max-width: 1150px) {
     .his_total_box {width: 100% !important;}
     .his_box {align-items: center;}

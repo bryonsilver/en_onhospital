@@ -18,49 +18,49 @@ $(document).ready(function(){
 
     if (cen_v2 == 1) {
         $('#selec1').prop("selected", true);
-        $('.m2').addClass('active');
+        $('.m3').addClass('active');
         $('.spe_cen_2').addClass('nav_active')
         
         $('.dc_2_1').css({color: '#ee791c'})
     } else if (cen_v2 == 6) {
         $('#selec6').prop("selected", true);
-        $('.m7').addClass('active');
+        $('.m6').addClass('active');
         $('.spe_cen_7').addClass('nav_active')
         
         $('.dc_2_2').css({color: '#ee791c'})
     } else if (cen_v2 == 11) {
         $('#selec11').prop("selected", true);
-        $('.m12').addClass('active');
+        $('.m11').addClass('active');
         $('.spe_cen_12').addClass('nav_active')
         
         $('.dc_2_3').css({color: '#ee791c'})
     } else if (cen_v2 == 12) {
         $('#selec12').prop("selected", true);
-        $('.m13').addClass('active');
+        $('.m12').addClass('active');
         $('.spe_cen_13').addClass('nav_active')
         
         $('.dc_2_4').css({color: '#ee791c'})
     } else if (cen_v2 == 16) {
         $('#selec16').prop("selected", true);
-        $('.m17').addClass('active');
+        $('.m16').addClass('active');
         $('.spe_cen_17').addClass('nav_active')
         
         $('.dc_2_5').css({color: '#ee791c'})
     }  else if (cen_v2 == 20) {
         $('#selec20').prop("selected", true);
-        $('.m21').addClass('active');
+        $('.m20').addClass('active');
         $('.spe_cen_21').addClass('nav_active')
         
         $('.dc_2_6').css({color: '#ee791c'})
     } else if (cen_v2 == 25) {
         $('#selec25').prop("selected", true);
-        $('.m26').addClass('active');
+        $('.m25').addClass('active');
         $('.spe_cen_26').addClass('nav_active')
         
         $('.dc_2_7').css({color: '#ee791c'})
     } else if (cen_v2 == 26) {
         $('#selec26').prop("selected", true);
-        $('.m27').addClass('active');
+        $('.m26').addClass('active');
         $('.spe_cen_27').addClass('nav_active')
         
         $('.dc_2_8').css({color: '#ee791c'})
@@ -136,16 +136,16 @@ cent_list+= `<div class="mr_content">`
                                             <table class="table_line">
                                                 <tbody>
                                                     <tr>
-                                                        <th class="bold table_th">${CENT_LIST[0][cen_v2].table_th[0]}</th>
-                                                        <td class="table_td">${CENT_LIST[0][cen_v2].table_td[0]}</td>
+                                                        <th class="bold table_th th_cen_1">${CENT_LIST[0][cen_v2].table_th[0]}</th>
+                                                        <td class="table_td td_cen_1">${CENT_LIST[0][cen_v2].table_td[0]}</td>
                                                     </tr>
                                                     <tr>
-                                                        <th class="bold table_th">${CENT_LIST[0][cen_v2].table_th[1]}</th>
-                                                        <td class="table_td">${CENT_LIST[0][cen_v2].table_td[1]}</td>
+                                                        <th class="bold table_th th_cen_1">${CENT_LIST[0][cen_v2].table_th[1]}</th>
+                                                        <td class="table_td td_cen_1">${CENT_LIST[0][cen_v2].table_td[1]}</td>
                                                     </tr>
                                                     <tr>
-                                                        <th class="bold table_th">${CENT_LIST[0][cen_v2].table_th[2]}</th>
-                                                        <td class="table_td">${CENT_LIST[0][cen_v2].table_td[2]}</td>
+                                                        <th class="bold table_th th_cen_1">${CENT_LIST[0][cen_v2].table_th[2]}</th>
+                                                        <td class="table_td td_cen_1">${CENT_LIST[0][cen_v2].table_td[2]}</td>
                                                     </tr>
                                                 </tbody>
                                             </table>

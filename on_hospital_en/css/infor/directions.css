@@ -248,6 +248,10 @@ body {font-family: 'Noto Sans KR';}
     }
     .k_way_box > a, .n_way_box > a {width: auto !important;}
 }
+@media (max-width: 1200px) {
+    .icon_title {display: none;}
+    .title_icon_box h4 {width: 100%;}
+}
 @media (max-width: 900px) {
     .direc_total_box,
     .direc_total_box,

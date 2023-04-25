@@ -26,7 +26,7 @@ $(document).ready(function(){
         $('#selec1').prop("selected", true);
         $('.m2').addClass('active');
         $('.spe_cen_2').addClass('nav_active')
-        
+
         $('.dc_2').css({color: '#ee791c'})
     } else if (cen_v == 2) {
         $('#selec2').prop("selected", true);
@@ -413,16 +413,16 @@ cent_list+= `<div class="mr_content">`
                                             <table class="table_line">
                                                 <tbody>
                                                     <tr>
-                                                        <th class="bold table_th">${CENT_LIST[0][cen_v].table_th[0]}</th>
-                                                        <td class="table_td">${CENT_LIST[0][cen_v].table_td[0]}</td>
+                                                        <th class="bold table_th th_cen_1">${CENT_LIST[0][cen_v].table_th[0]}</th>
+                                                        <td class="table_td td_cen_1">${CENT_LIST[0][cen_v].table_td[0]}</td>
                                                     </tr>
                                                     <tr>
-                                                        <th class="bold table_th">${CENT_LIST[0][cen_v].table_th[1]}</th>
-                                                        <td class="table_td">${CENT_LIST[0][cen_v].table_td[1]}</td>
+                                                        <th class="bold table_th th_cen_1">${CENT_LIST[0][cen_v].table_th[1]}</th>
+                                                        <td class="table_td td_cen_1">${CENT_LIST[0][cen_v].table_td[1]}</td>
                                                     </tr>
                                                     <tr>
-                                                        <th class="bold table_th">${CENT_LIST[0][cen_v].table_th[2]}</th>
-                                                        <td class="table_td">${CENT_LIST[0][cen_v].table_td[2]}</td>
+                                                        <th class="bold table_th th_cen_1">${CENT_LIST[0][cen_v].table_th[2]}</th>
+                                                        <td class="table_td td_cen_1">${CENT_LIST[0][cen_v].table_td[2]}</td>
                                                     </tr>
                                                 </tbody>
                                             </table>

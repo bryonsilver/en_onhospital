@@ -467,7 +467,7 @@ $(document).ready(function(){
 			$('.nav_pan_box').css({height: "0px"})
 		})
 		$('.nav_5').hover(function(){
-			$('.nav_pan_box').css({height: "200px"})
+			$('.nav_pan_box').css({height: "150px"})
 		})
 
 

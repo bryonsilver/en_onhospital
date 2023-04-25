@@ -988,6 +988,13 @@ html { scroll-behavior: smooth;}
 }
 
 
+.sidi_active_x_btn {
+    left: -190px;
+}
+.sidi_active_arrow_btn {
+    left: 50px ;
+}
+
 
 
 
@@ -1072,9 +1079,16 @@ html { scroll-behavior: smooth;}
 }
 @media (max-width: 1346px) {
     .so_inner_box a {
-        width: 192px;
+        width: 179px;
     }
     .h_nav_li {padding: 30px 15px;}
+    .s_inner_box {
+        max-width: 160px;
+    }
+    .si_icon {
+        max-width: 20px;
+        min-width: 20px;
+    }
 }
 @media (max-width:1200px) {
     .mb_img_text {left: 9%;}
@@ -1096,14 +1110,6 @@ html { scroll-behavior: smooth;}
     }
     .moblie_logo img {
         width: 100%;
-    }
-    .bur_pan_box {
-        overflow-y: scroll;
-    }
-    .b_pan_box {
-        height: 130vh;
-        background-position: left;
-        background-origin: bottom;
     }
     .cent_bur_ul {
         width: 50%;
@@ -1439,8 +1445,6 @@ html { scroll-behavior: smooth;}
     }
     .li_2 {width: 100%;}
     .li_1 {width: 48%;}
-    .b_pan_box {padding: 0 10px; box-sizing: border-box;  background-attachment: fixed;    height: 150vh;}
-    .bur_box {padding: 30px 0; box-sizing: border-box;}
     #sec2 .swiper-pagination {
         bottom: -35px !important;
     }
@@ -1557,9 +1561,6 @@ html { scroll-behavior: smooth;}
     .cent_bur_ul {
         width: 100%;
     }
-    
-    .b_pan_box {padding: 0 10px; box-sizing: border-box;  background-attachment: fixed;    height: 100vh !important;}
-    .bur_u_li {color: #fff !important;}
     .swiper_box2 .swiper-slide-active .on_s_item_box {
         box-shadow: 0 0 20px #93939380 !important;
       }

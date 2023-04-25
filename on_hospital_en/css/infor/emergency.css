@@ -93,13 +93,14 @@ table {
     display: none !important;
 }
 
+
 @media (max-width: 767px) {
     .table-responsive-lg {
         overflow-x: scroll;
     }
     .d-lg-none  {display: block;}
     table {text-align: left; min-width: 300px;}
-    .table>:not(caption)>*>* {padding: 0 0.5rem;}
+    .table>:not(caption)>*>* {padding: 10px 0.5rem;}
     .text-left h5 {margin: 10px;}
 }
 @media (max-width:770px) {

@@ -60,8 +60,8 @@ $(document).ready(function(){
                                 <div class="mr_main_comment">
                                     <p><img src="./img/news/${data[d_num].img_src}" alt="${data[d_num].img_src}" class="news_de_img"></p>
                                     <p><span class="red_text2" style="display:block">${data[d_num].red}</span>${data[d_num].const}</p>
-                                    <p>단,<span class="red_text2">ON Hospital Emergency Center는 365일 24시간 언제든 이용 가능합니다.</span></p>
-                                    <p>[※ 응급실: 051) 607-0119]</p>
+                                    <p>step,<span class="red_text2">ON Hospital Emergency Center is available 24 hours a day, 365 days a year.</span></p>
+                                    <p>[※ Emergency room: 051) 607-0119]</p>
                                 </div>`
                         } else if (num == 1) {
                             list += `<div class="mr_coment_box">

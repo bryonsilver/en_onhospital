@@ -131,6 +131,8 @@ svg:not(:root).svg-inline--fa {
 .small {
     font-weight: 300;
 }
+.td_cen_1 {padding-left: 40px !important;}
+.th_cen_1 {width: 200px;}
 
 .table_line {
     width: 100%;
@@ -986,6 +988,9 @@ img {
 }
 
 
+.icon_title {display: none;}
+
+
 @media (max-width: 1150px) {
     .title_box_onn {font-size: 40px;}
     .icon_box_center {max-height: 56px; max-width: 5%; min-width: 49px;}
@@ -1133,6 +1138,7 @@ img {
     }
 }
 @media (max-width: 800px) {
+    .td_cen_1 {padding-left: 0 !important;}
     .call_box {
         display: flex;
         flex-direction: column;
@@ -1171,6 +1177,8 @@ img {
         max-height: 44px;
     }
     .img_medi_center_box  {height: 200px;}
+    .flex_box {flex-direction: column; align-items: center; gap: 30px;}
+    .block {display: block;}
 }
 @media (max-width: 600px) {
     .line_circle {

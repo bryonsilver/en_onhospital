@@ -7,7 +7,7 @@ $(document).ready(function(){
     console.log(value)
     const item = urlParams.get('item');
     console.log(item)
-    
+
     
      var $el = $('#quick');
         var $window = $(window);

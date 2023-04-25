@@ -197,6 +197,8 @@ body {font-family: 'Noto Sans KR';}
 }
 
 @media (max-width: 1200px) {
+    .icon_title {display: none;}
+    .col-lg-12 h4 {width: 100%;}
     .mission_text_2 {
         left: 14.5%;
     }

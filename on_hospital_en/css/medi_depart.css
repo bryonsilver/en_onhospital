@@ -396,6 +396,7 @@ body {font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple
     gap: 8px;
 
     padding: 5px 10px;
+    box-sizing: border-box;
 }
 
 .rt_box_2 {
@@ -462,12 +463,14 @@ body {font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple
 .rt2 {
     color: #4f4f4f;
     background-color: #f1f1f1;
+    text-align: center;
 }
 #rt_4_box {display: none;}
 
 .rt_active {
     background-color: #ee791c !important;
     color: #fff !important;   
+    text-align: center;
 }
 .rt_box_active {
     display: inline-block !important;
@@ -552,7 +555,8 @@ body {font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple
         box-sizing: border-box;
     }
     .rt_abc_box h5, .rt_basic_box h5 {
-        /* font-size: 14px; */
+        font-size: 13px !important;
+        line-height: 1.2;
          padding: 7px 0;
          box-sizing: border-box;
     }

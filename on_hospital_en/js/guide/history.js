@@ -1,56 +1,6 @@
 $(document).ready(function(){
  $('#selec1').prop("selected", true);
 
-    var h_1 = $('#h_1').offset().top - 180;
-    var h_2 = $('#h_2').offset().top - 160;
-    var h_3 = $('#h_3').offset().top - 140;
-    var h_4 = $('#h_4').offset().top - 130;
-    var h_5 = $('#h_5').offset().top - 120;
-    var h_6 = $('#h_6').offset().top - 110;
-    var h_7 = $('#h_7').offset().top - 100;
-    var h_8 = $('#h_8').offset().top - 0;
-    var h_9 = $('#h_9').offset().top - 40;
-    var h_10 = $('#h_10').offset().top - 40;
-    var h_11 = $('#h_11').offset().top - 40;
-    var h_12 = $('#h_12').offset().top - 40;
-    var h_13 = $('#h_13').offset().top - -40;
-
-
-    let h_1_bot = h_1 + $('#h_1').outerHeight();
-    let h_2_bot = h_2 + $('#h_2').outerHeight();
-    let h_3_bot = h_3 + $('#h_3').outerHeight();
-    let h_4_bot = h_4 + $('#h_4').outerHeight();
-    let h_5_bot = h_5 + $('#h_5').outerHeight();
-    let h_6_bot = h_6 + $('#h_6').outerHeight();
-    let h_7_bot = h_7 + $('#h_7').outerHeight();
-    let h_8_bot = h_8 + $('#h_8').outerHeight();
-    let h_9_bot = h_9 + $('#h_9').outerHeight();
-    let h_10_bot = h_10 + $('#h_10').outerHeight();
-    let h_11_bot = h_11 + $('#h_11').outerHeight();
-    let h_12_bot = h_12 + $('#h_12').outerHeight();
-    let h_13_bot = h_13 + $('#h_13').outerHeight();
-
-
-
-    let his_1 = 0;
-    let his_2 = 50;
-    let his_3 = 90;
-    let his_4 = 130;
-    let his_5 = 170;
-    let his_6 = 210;
-    let his_7 = 250;
-    let his_8 = 290;
-    let his_9 = 330;
-    let his_10 = 370;
-    let his_11 = 410;
-    let his_12 = 450;
-    let his_13 = 490;
-
-
-    var innerHeight = $(this).innerHeight();
-    var scrollHeight = $(this).prop('scrollHeight');
-
-
 
 $('.every_btn').on("click", function(){
     $('.his_box').css({display: 'flex'})
@@ -573,6 +523,9 @@ $('.every_m_btn').on("click", function(){
         
         }
         else if (width < 380)  {
+            window.addEventListener('scroll', function(){
+                
+            });
             console.log("이건 380보다 작음")
             $('.every_m_btn').trigger("click")
             $('.every_m_btn').on("click", function(){
@@ -637,7 +590,7 @@ $('.every_m_btn').on("click", function(){
                 
                 $('.every_m_btn').css({backgroundColor: '#ddd', color: '#999'})
                 
-                $(".his_shorts_button").scrollLeft(260);
+                $(".his_shorts_button").scrollLeft(190);
                 console.log("이건 380보다 작음 - 2017")
             })
             $('.hs_5').click(function(){
@@ -678,6 +631,7 @@ $('.every_m_btn').on("click", function(){
                 $('.his_box').not('#h_7').removeClass("m_active_display");
                 
                 $('.every_m_btn').css({backgroundColor: '#ddd', color: '#999'})
+                $(".his_shorts_button").scrollLeft(380);
             })
             $('.hs_8').click(function(){
                 $('.hs_8').css('color', '#ee791c')
@@ -692,7 +646,6 @@ $('.every_m_btn').on("click", function(){
                 
                 $('.every_m_btn').css({backgroundColor: '#ddd', color: '#999'})
                 
-                $(".his_shorts_button").scrollLeft(460);
             })
             $('.hs_9').click(function(){
                 $('.hs_9').css('color', '#ee791c')
@@ -719,6 +672,7 @@ $('.every_m_btn').on("click", function(){
                 $('.his_box').not('#h_10').removeClass("m_active_display");
                 
                 $('.every_m_btn').css({backgroundColor: '#ddd', color: '#999'})
+                $(".his_shorts_button").scrollLeft(830);
             })
             $('.hs_11').click(function(){
                 $('.hs_11').css('color', '#ee791c')
@@ -733,7 +687,6 @@ $('.every_m_btn').on("click", function(){
                 
                 $('.every_m_btn').css({backgroundColor: '#ddd', color: '#999'})
                 
-                $(".his_shorts_button").scrollLeft(800);
             })
             $('.hs_12').click(function(){
                 $('.hs_12').css('color', '#ee791c')

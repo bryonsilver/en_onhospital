@@ -548,7 +548,7 @@ body {font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple
     .mobile_onn {display: inline-block;}
     .desk_onn, .mobile_onn2 {display: none;}
     .back_btn {display: flex;}
-    .title_box_onn {font-size: 40px;}
+    .title_box_onn {font-size: 35px;}
     #mid {max-width: 960px;}
     .content_box {
         display: flex;
@@ -598,13 +598,14 @@ body {font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple
     .top_dl {margin: 0;}
     .cr_dd2, .cr_dd {flex-wrap: wrap;}
     .top_title_box_2, .medi_banner {width: 100%;}
-    .title_box_onn {font-size: 40px;}
+    .title_box_onn {font-size: 35px;}
 }
 @media (max-width:600px) {
+    .name_li {font-size: 20px;}
     .icon_title {max-width: 7%; max-height: 40px;}
-    .title_box_onn {font-size: 35px; gap: 10px;}
+    .title_box_onn {font-size: 30px; gap: 10px;}
     .top_title_box_2, .medi_banner {width: 100%;}
-    .title_box_onn, .onn_desk_title {width: 100%;}
+    .title_box_onn, .onn_desk_title {width: 100%; padding: 0 20px; box-sizing: border-box;}
 }
 @media (max-width: 575px) {
     #mid {
@@ -662,8 +663,9 @@ body {font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple
 
 
 @media (max-width:400px) {
+    .name_li {font-size: 17px;}
     .icon_title {max-width: 13%; height: 33px;}
-    .title_box_onn {font-size: 30px; gap: 10px;}
+    .title_box_onn {font-size: 25px; gap: 10px;}
     .icon_title {
         max-width: 9%;
         height: 33px;
@@ -674,7 +676,7 @@ body {font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple
         height: 200px;
     }
     .title_box_onn {
-        font-size: 25px;
+        font-size: 20px;
         gap: 10px;
     }
     .icon_title {
