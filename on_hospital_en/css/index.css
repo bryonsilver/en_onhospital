@@ -12,7 +12,7 @@ p,h1,h2,h3 {margin: 0;}
 }
 
 /* .swiper_box3, .swiper_box2 {overflow: hidden !important;} */
-.img_box {margin: 0 !important;}
+.img_box {margin: 0 !important; cursor: auto;}
 .item_caption {
     width: 100%;
     height: 100%;

@@ -107,19 +107,17 @@ $(document).ready(function(){
                                                     <tbody>
                                                         <tr>
                                                             <th class="t_bg_light">AM</th>`
-                                                        for(let j=0; j<DOCTOR[value][i].morn_schedule.length; j++) {
+                                                        for(let j=0; j<DOCTOR[value][i].morn_color.length; j++) {
                                                         list +=`<td>
-                                                                <div><span class="text_circle ${DOCTOR[value][i].morn_color[j]}"></span></div>
-                                                                <div>${DOCTOR[value][i].morn_schedule[j]}</div>`
+                                                                <div><span class="text_circle ${DOCTOR[value][i].morn_color[j]}"></span></div>`
                                                         }
                                                     list +=`</td>
                                                         </tr>
                                                         <tr>
                                                             <th class="t_bg_light">PM</th>`
-                                                        for(let j=0; j<DOCTOR[value][i].morn_schedule.length; j++) {
+                                                        for(let j=0; j<DOCTOR[value][i].afte_color.length; j++) {
                                                         list +=`<td>
-                                                                <div><span class="text_circle ${DOCTOR[value][i].afte_color[j]}"></span></div>
-                                                                <div>${DOCTOR[value][i].afte_schedule[j]}</div>`
+                                                                <div><span class="text_circle ${DOCTOR[value][i].afte_color[j]}"></span></div>`
                                                         }
                                                     list +=`</td>
                                                         </tr>

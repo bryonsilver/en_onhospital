@@ -20,8 +20,8 @@ body {
   background: var(--bg);
 }
 .btn-container:nth-child(1) {
-  --btn-bg: #da0000;
-  --bg: #f22c3a;
+  --btn-bg: #ee791c;
+  --bg: translate;
 }
 .btn-container:nth-child(2) {
   --btn-bg: #fac300;
