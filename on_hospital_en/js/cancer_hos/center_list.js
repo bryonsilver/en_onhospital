@@ -45,7 +45,7 @@ const CENT_LIST = [
             bold_top:['"Every morning, I don`t want to go to school"', '"I think I`m smart, but my grades are not good"', '"I feel like I`m being bullied by my peers at school."'],
             small_top:['For children who step out of the family fence and enter into another world, school life can be a challenge and an adventure. The Child and Adolescent Mental Health Center specializes in the diagnosis and treatment of common mental health disorders in children and adolescents, such as conduct disorder, learning disabilities, Asperger`s syndrome, and separation anxiety disorder.'],
             sub_context8:['In addition, neurofeedback therapy and psychological testing are conducted, and counseling and treatment for adult mental health are also available, not only for children and adolescents.'],
-            sub_context7: ['Despite their high intelligence and unique interests, they often struggle to adapt to family or school life and experience significant disabilities. However, there have been cases where they later became university professors or artists. ', '다만 특수교육을 통해 사회적응능력을 키워주고 반복적인 좌절로 인한 우울 증세를 치료하는 것이 필요하다.'],
+            sub_context7: ['Despite their high intelligence and unique interests, they often struggle to adapt to family or school life and experience significant disabilities. ', 'However, there have been cases where they later became university professors or artists.'],
             sub_context6: ['People with Aspergers syndrome have sufficient judgment and language skills, but they often fail in social interaction and emotional communication.','There is no fundamental cure for this condition currently, but it is necessary to improve their social adaptation skills and treat depression caused by repeated frustration through special education.'],
             sub_context5: ['If the separation anxiety is severe, it may be a solution to go to school with the child and wait outside the classroom or attend classes together for up to one month, rather than forcing them to go alone. If there is no improvement, it is recommended to seek counseling from a pediatric psychiatrist. Play therapy, art therapy, and parent education can be provided after identifying the cause through psychological tests, and medication therapy can also be applied.'],
             sub_context4: ['School phobia refers to cases where a child repeatedly refuses to go to school and becomes anxious or experiences panic attacks when forced to go.','Rather than fearing school itself, it can be said that the child is afraid of being separated from their mother. They may complain of physical symptoms such as stomach aches or headaches when it`s time for school in the morning or on weekends. If forced to go, they may become anxious, exhibit extreme resistance, or even try to hide or run away. In such cases, it is necessary to make going to school a rule for the child, regardless of what excuses they come up with.',],
@@ -456,7 +456,7 @@ const CENT_LIST = [
 const CENT_TITLE = [
     [
         {cate_no:0, item_no:1, title:'Hepatobiliary Pancreatic/Gastric/Colorectal Cancer', icon_src:'medi_w_cetner_1', name:'간담췌외과 위 대장암'},
-        {cate_no:0, item_no:2, title:'Liver', icon_src:'medi_w_cetner_2', name:'간센터'},
+        {cate_no:0, item_no:2, title:'Liver Center', icon_src:'medi_w_cetner_2', name:'간센터'},
         {cate_no:0, item_no:3, title:'Infection', icon_src:'medi_w_cetner_3', name:'감염센터'},
         {cate_no:0, item_no:4, title:'Proctology', icon_src:'medi_w_cetner_4', name:'대장항문센터'},
         {cate_no:0, item_no:5, title:'Pediatrics & Adolescent Mental Health', icon_src:'medi_w_cetner_5', name:'소아청소년 정신건강센터'},
@@ -488,7 +488,7 @@ const CENT_TITLE = [
 ]
 const HOSPI_TITLE = [
     [
-        {cate_no:0, item_no:1, title:'Liver'},
+        {cate_no:0, item_no:1, title:'Liver Center'},
         {cate_no:0, item_no:5, title:'Gastrointestinal Cancer Surgery'},
         {cate_no:0, item_no:10, title:'Women`s Cancer'},
         {cate_no:0, item_no:11, title:'Breast/Thyroid Cancer'},

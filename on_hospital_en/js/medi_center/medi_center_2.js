@@ -9,7 +9,7 @@ $(document).ready(function(){
         }
     });   
 
-
+    
     const urlParams = new URL(location.href).searchParams;
     const cen_v2 = urlParams.get('cen_v2');
     const selec = urlParams.get('selec');
@@ -415,7 +415,7 @@ cent_list+= `<div class="mr_content">`
                                                     </div>
                                                     <div class="text_18 c_26">
                                                         <div>${CENT_LIST[0][cen_v2].sub_context5[0]}</div>
-                                                        <div class="c_26_pad"> <a href="#" target="_black">${CENT_LIST[0][cen_v2].sub_context5[1]}</a></div>
+                                                        <div class="c_26_pad"> <a href="http://www.onhospital.org/down/%EB%B0%A9%EC%82%AC%EC%84%A0%20%EC%B9%98%EB%A3%8C%20%EC%95%88%EB%82%B4%EC%B1%85%EC%B0%A8.pdf" target="_black">${CENT_LIST[0][cen_v2].sub_context5[1]}</a></div>
                                                     </div>
                                                 </span>
                                             </div>

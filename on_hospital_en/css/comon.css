@@ -1719,7 +1719,7 @@ body {
     .b_pan_box {
         background-position: left;
         background-origin: bottom;
-        padding: 20px 0 30px 0;
+        padding: 20px 20px 30px 20px;
     }
     .cent_bur_ul {
         width: 50%;
@@ -1805,6 +1805,14 @@ body {
         height: 30px;
         gap: 5px;
     }
+    .bur_ul {flex-direction: column;}
+    .bur_li_text_box2 {
+        max-width: 100%;
+    }
+    .bur_li_text_box2, .li_2, .li_1 {width: 100% !important;}
+}
+@media (max-width: 908px) {
+    .li_2 .bur_title{margin-top: 34px;}
 }
 @media (max-width: 850px) {
     .f_nav_ul {flex-wrap: wrap; gap: 10px;}
@@ -1931,6 +1939,8 @@ body {
     #google_translate_element > div > div:after {right: 13px !important;}
 }
 @media (max-width: 400px) {
+    .li_2 .bur_title {margin-top: 21px;}
+    .bur_title a {font-size: 20px;}
     .logo_box img {width: 80%; min-width: 100px;}
     .first_box {gap: 0;}
     #google_translate_element > div > div > select {

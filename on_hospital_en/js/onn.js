@@ -324,4 +324,11 @@ $(document).ready(function(){
 			console.log('구글번역기능 가즈아!!')
 		}
 	}
+
+
+
+
+
+
+    
 })

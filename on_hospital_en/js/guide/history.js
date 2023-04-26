@@ -19,6 +19,7 @@ $('.every_m_btn').on("click", function(){
     console.log('전체보기 모바일 클릭 확인 되었습니다.')
 })
 
+
     $(window).resize(function(){ 
         var width = window.innerWidth;
         if(width > 1650) { // 다바이스 크기가 1400이상일때 

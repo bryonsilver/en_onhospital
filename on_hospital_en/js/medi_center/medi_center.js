@@ -21,13 +21,13 @@ $(document).ready(function(){
         $('.m1').addClass('active');
         $('.spe_cen_1').addClass('nav_active')
         
-        $('.dc_1').css({color: '#ee791c'})
+        $('.dc_12').css({color: '#ee791c'})
     } else if (cen_v == 1) {
         $('#selec1').prop("selected", true);
         $('.m2').addClass('active');
         $('.spe_cen_2').addClass('nav_active')
 
-        $('.dc_2').css({color: '#ee791c'})
+        $('.dc_16').css({color: '#ee791c'})
     } else if (cen_v == 2) {
         $('#selec2').prop("selected", true);
         $('.m3').addClass('active');
@@ -39,157 +39,157 @@ $(document).ready(function(){
         $('.m4').addClass('active');
         $('.spe_cen_4').addClass('nav_active')
         
-        $('.dc_4').css({color: '#ee791c'})
+        $('.dc_22').css({color: '#ee791c'})
     } else if (cen_v == 4) {
         $('#selec4').prop("selected", true);
         $('.m5').addClass('active');
         $('.spe_cen_5').addClass('nav_active')
         
-        $('.dc_5').css({color: '#ee791c'})
+        $('.dc_21').css({color: '#ee791c'})
     } else if (cen_v == 5) {
         $('#selec5').prop("selected", true);
         $('.m6').addClass('active');
         $('.spe_cen_6').addClass('nav_active')
         
-        $('.dc_6').css({color: '#ee791c'})
+        $('.dc_11').css({color: '#ee791c'})
     } else if (cen_v == 6) {
         $('#selec6').prop("selected", true);
         $('.m7').addClass('active');
         $('.spe_cen_7').addClass('nav_active')
         
-        $('.dc_7').css({color: '#ee791c'})
+        $('.dc_10').css({color: '#ee791c'})
     } else if (cen_v == 7) {
         $('#selec7').prop("selected", true);
         $('.m8').addClass('active');
         $('.spe_cen_8').addClass('nav_active')
         
-        $('.dc_8').css({color: '#ee791c'})
+        $('.dc_19').css({color: '#ee791c'})
     } else if (cen_v == 8) {
         $('#selec8').prop("selected", true);
         $('.m9').addClass('active');
         $('.spe_cen_9').addClass('nav_active')
         
-        $('.dc_9').css({color: '#ee791c'})
+        $('.dc_6').css({color: '#ee791c'})
     } else if (cen_v == 9) {
         $('#selec9').prop("selected", true);
         $('.m10').addClass('active');
         $('.spe_cen_10').addClass('nav_active')
         
-        $('.dc_10').css({color: '#ee791c'})
+        $('.dc_1').css({color: '#ee791c'})
     } else if (cen_v == 10) {
         $('#selec10').prop("selected", true);
         $('.m11').addClass('active');
         $('.spe_cen_11').addClass('nav_active')
         
-        $('.dc_11').css({color: '#ee791c'})
+        $('.dc_5').css({color: '#ee791c'})
     } else if (cen_v == 11) {
         $('#selec11').prop("selected", true);
         $('.m12').addClass('active');
         $('.spe_cen_12').addClass('nav_active')
         
-        $('.dc_12').css({color: '#ee791c'})
+        $('.dc_29').css({color: '#ee791c'})
     } else if (cen_v == 12) {
         $('#selec12').prop("selected", true);
         $('.m13').addClass('active');
-        $('.spe_cen_13').addClass('nav_active')
+        $('.spe_cen_4').addClass('nav_active')
         
-        $('.dc_13').css({color: '#ee791c'})
+        $('.dc_4').css({color: '#ee791c'})
     } else if (cen_v == 13) {
         $('#selec13').prop("selected", true);
         $('.m14').addClass('active');
         $('.spe_cen_14').addClass('nav_active')
         
-        $('.dc_14').css({color: '#ee791c'})
+        $('.dc_3').css({color: '#ee791c'})
     } else if (cen_v == 14) {
         $('#selec14').prop("selected", true);
         $('.m15').addClass('active');
         $('.spe_cen_15').addClass('nav_active')
         
-        $('.dc_15').css({color: '#ee791c'})
+        $('.dc_8').css({color: '#ee791c'})
     } else if (cen_v == 15) {
         $('#selec15').prop("selected", true);
         $('.m16').addClass('active');
         $('.spe_cen_16').addClass('nav_active')
         
-        $('.dc_16').css({color: '#ee791c'})
+        $('.dc_2').css({color: '#ee791c'})
     } else if (cen_v == 16) {
         $('#selec16').prop("selected", true);
         $('.m17').addClass('active');
         $('.spe_cen_17').addClass('nav_active')
         
-        $('.dc_17').css({color: '#ee791c'})
+        $('.dc_15').css({color: '#ee791c'})
     } else if (cen_v == 17) {
         $('#selec17').prop("selected", true);
         $('.m18').addClass('active');
         $('.spe_cen_18').addClass('nav_active');
         
-        $('.dc_18').css({color: '#ee791c'})
+        $('.dc_9').css({color: '#ee791c'})
     } else if (cen_v == 18) {
         $('#selec18').prop("selected", true);
         $('.m19').addClass('active');
         $('.spe_cen_19').addClass('nav_active')
         
-        $('.dc_19').css({color: '#ee791c'})
+        $('.dc_25').css({color: '#ee791c'})
     } else if (cen_v == 19) {
         $('#selec19').prop("selected", true);
         $('.m20').addClass('active');
         $('.spe_cen_20').addClass('nav_active')
         
-        $('.dc_20').css({color: '#ee791c'})
+        $('.dc_23').css({color: '#ee791c'})
     } else if (cen_v == 20) {
         $('#selec20').prop("selected", true);
         $('.m21').addClass('active');
         $('.spe_cen_21').addClass('nav_active')
         
-        $('.dc_21').css({color: '#ee791c'})
+        $('.dc_24').css({color: '#ee791c'})
     } else if (cen_v == 21) {
         $('#selec21').prop("selected", true);
         $('.m22').addClass('active');
         $('.spe_cen_22').addClass('nav_active')
         
-        $('.dc_22').css({color: '#ee791c'})
+        $('.dc_27').css({color: '#ee791c'})
     } else if (cen_v == 22) {
         $('#selec22').prop("selected", true);
         $('.m23').addClass('active');
         $('.spe_cen_23').addClass('nav_active')
         
-        $('.dc_23').css({color: '#ee791c'})
+        $('.dc_28').css({color: '#ee791c'})
     } else if (cen_v == 23) {
         $('#selec23').prop("selected", true);
         $('.m24').addClass('active');
         $('.spe_cen_24').addClass('nav_active')
         
-        $('.dc_24').css({color: '#ee791c'})
+        $('.dc_20').css({color: '#ee791c'})
     } else if (cen_v == 24) {
         $('#selec24').prop("selected", true);
         $('.m25').addClass('active');
         $('.spe_cen_25').addClass('nav_active')
         
-        $('.dc_25').css({color: '#ee791c'})
+        $('.dc_18').css({color: '#ee791c'})
     } else if (cen_v == 25) {
         $('#selec25').prop("selected", true);
         $('.m26').addClass('active');
         $('.spe_cen_26').addClass('nav_active')
         
-        $('.dc_26').css({color: '#ee791c'})
+        $('.dc_17').css({color: '#ee791c'})
     } else if (cen_v == 26) {
         $('#selec26').prop("selected", true);
         $('.m27').addClass('active');
         $('.spe_cen_27').addClass('nav_active')
         
-        $('.dc_27').css({color: '#ee791c'})
+        $('.dc_7').css({color: '#ee791c'})
     } else if (cen_v == 27) {
         $('#selec27').prop("selected", true);
         $('.m28').addClass('active');
         $('.spe_cen_28').addClass('nav_active')
         
-        $('.dc_28').css({color: '#ee791c'})
+        $('.dc_13').css({color: '#ee791c'})
     } else if (cen_v == 28) {
         $('#selec28').prop("selected", true);
         $('.m29').addClass('active');
         $('.spe_cen_29').addClass('nav_active')
         
-        $('.dc_29').css({color: '#ee791c'})
+        $('.dc_26').css({color: '#ee791c'})
     } 
 
     let cen_sub_context1 = CENT_LIST[0][cen_v].sub_context1;
@@ -202,6 +202,15 @@ cent_list += `<div class="m_r_content_box c_25">`
             cent_list += `<div class="m_r_content_box">`
         }
 cent_list += `<div class="mr_title">
+                    <div class="row mb-4"> 
+                        <div class="col-lg-12">
+                            <h1 class="top_title">
+                                <span class="icon"></span>
+                                ${CENT_TITLE[0][cen_v].title}
+                            </h1>
+                        </div>
+                    </div>
+
                 </div>
             <div class="mr_img">`
                 for(let j=0; j<1; j++) {
@@ -768,15 +777,7 @@ cent_list+= `<div class="mr_content">`
                                         `
                     }
                      else if (cen_v == 17) {
-                        cent_list+= `<div class="m_flex_box">
-                                        <div class="row mb-4"> 
-                                            <div class="col-lg-12">
-                                                <h1 class="top_title">
-                                                    <span class="icon"></span>
-                                                    Funeral Home/Mortuary
-                                                </h1>
-                                            </div>
-                                        </div>
+                        cent_list+= `
                                         <div class="row mb-5">
                                             <div class="col-lg-12 top_banner">
                                                 <div class="top">
@@ -1612,7 +1613,7 @@ cent_list+= `<div class="mr_content">`
                                                     </div>
                                                     <div class="text_18 c_26">
                                                         <div>${CENT_LIST[0][cen_v].sub_context5[0]}</div>
-                                                        <div class="c_26_pad"> <a href="#" target="_black">${CENT_LIST[0][cen_v].sub_context5[1]}</a></div>
+                                                        <div class="c_26_pad"> <a href="http://www.onhospital.org/down/%EB%B0%A9%EC%82%AC%EC%84%A0%20%EC%B9%98%EB%A3%8C%20%EC%95%88%EB%82%B4%EC%B1%85%EC%B0%A8.pdf" target="_black">${CENT_LIST[0][cen_v].sub_context5[1]}</a></div>
                                                     </div>
                                                 </span>
                                             </div>

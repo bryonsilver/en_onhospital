@@ -17,11 +17,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background: var(--bg); */
+  background: var(--bg);
 }
 .btn-container:nth-child(1) {
-  --btn-bg: #ee791c;
-  --bg: #fc6100;
+  --btn-bg: #da0000;
+  --bg: #f22c3a;
 }
 .btn-container:nth-child(2) {
   --btn-bg: #fac300;
