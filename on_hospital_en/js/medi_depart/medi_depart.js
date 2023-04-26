@@ -81,7 +81,7 @@ $(document).ready(function(){
     //     console.log("클리닉 체크 해주셔서 감사합니다")
     // }
 
-    // medi_depart DEPARTMENT 센터 클리닉 클릭 시
+    // medi_depart 센터 클리닉 클릭 시
     var medi_depart_val = $('.input[id=medi_de]:checked').val();
     var medi_center_val = $('.input[id=medi_ce]:checked').val();
     var medi_clinic_val = $('.input[id=medi_cl]:checked').val();
@@ -168,7 +168,7 @@ $(document).ready(function(){
 
         $('#google_translate_element').off("change").on('change' , function(){
                 if (document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'en') {
-                        console.log('영어 맞고 DEPARTMENT 눌름')
+                        console.log('영어 맞고 눌름')
                         if ($('.rt1').hasClass('rt_active') === true) {
                                 $('.rt2').addClass('rt_active')
                                 // 가나다순 
@@ -185,7 +185,7 @@ $(document).ready(function(){
                                 $('#rt_2_box .rt_abc_box').remove();
                                 var medi_depart_en = [
                                         {
-                                                name : 'Department of Family Medicine',
+                                                name : 'Family Medicine',
                                                 a_link :'./medi_detail.html?value=0&item=1',
                                                 img_link :'./img/medi_details/icon/medi_icon_2_1.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_2.png',
@@ -197,7 +197,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_29.png',
                                         },
                                         {
-                                                name : 'Department of Hepatobiliary and Pancreatic Surgery',
+                                                name : 'Hepatobiliary and <span> Pancreatic Surgery</span>',
                                                 a_link :'./medi_detail.html?value=2&item=15',
                                                 img_link :'./img/medi_details/icon/medi_icon_16.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_16.png',
@@ -215,7 +215,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_30.png',
                                         },
                                         {
-                                                name : 'Memory Improvement <span>Dementia Clinic</span>',
+                                                name : 'Memory Improvement <span> Dementia Clinic</span>',
                                                 a_link :'./medi_detail.html?cen_v=102&item=41',
                                                 img_link :'./img/medi_details/icon/medi_icon_42.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_42.png',
@@ -227,7 +227,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
                                         },
                                         {
-                                                name : 'Endocrinology Department',
+                                                name : 'Endocrinology',
                                                 a_link :'./medi_detail.html?value=4&item=0',
                                                 img_link :'./img/medi_details/icon/medi_icon_1.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
@@ -239,19 +239,19 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_6.png',
                                         },
                                         {
-                                                name : 'Department of Anesthesiology <span>and Pain Medicine</span>',
+                                                name : 'Anesthesiology <span> and Pain Medicine</span>',
                                                 a_link :'./medi_detail.html?value=5&item=22',
                                                 img_link :'./img/medi_details/icon/medi_icon_23.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_23.png',
                                         },
                                         {
-                                                name : 'Radiation Oncology Department',
+                                                name : 'Radiation Oncology',
                                                 a_link :'./medi_detail.html?value=6&item=23',
                                                 img_link :'./img/medi_details/icon/medi_icon_24.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_24.png',
                                         },
                                         {
-                                                name : 'Urology Department',
+                                                name : 'Urology',
                                                 a_link :'./medi_detail.html?value=7&item=10',
                                                 img_link :'./img/medi_details/icon/medi_icon_11.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
@@ -275,19 +275,19 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_3.png',
                                         },
                                         {    
-                                                name : 'Department of Gastroenterology',    
+                                                name : 'Gastroenterology',    
                                                 a_link: './medi_detail.html?value=11&item=0',
                                                 img_link : './img/medi_details/icon/medi_icon_1.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
                                         },
                                         {
-                                                name : 'Gastrointestinal <span>Cancer Surgery</span>',
+                                                name : 'Gastrointestinal <span> Cancer Surgery</span>',
                                                 a_link: './medi_center_2.html?cen_v2=6&item=45',
                                                 img_link : './img/medi_details/icon/medi_icon_abc_17.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_abc_17.png',
                                         },
                                         {    
-                                                name : 'Department Of Gastroenterology<span>Endoscopic Center</span>',    
+                                                name : 'Gastroenterology <span> Endoscopic Center</span>',    
                                                 a_link: './medi_center.html?cen_v=5&item=31',
                                                 img_link : './img/medi_details/icon/medi_icon_32.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_32.png',
@@ -299,7 +299,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_4.png',
                                         },
                                         {    
-                                                name : 'Department of Neurosurgery',    
+                                                name : 'Neurosurgery',    
                                                 a_link: './medi_detail.html?value=13&item=7',
                                                 img_link : './img/medi_details/icon/medi_icon_8.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_8.png',
@@ -311,13 +311,13 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
                                         },
                                         {
-                                                name : 'Cardiocere<span>brovascular</span>',
+                                                name : 'Cardio <span>Cardiocerebrovascular</span>',
                                                 a_link: './medi_center.html?cen_v=8&item=32',
                                                 img_link : './img/medi_details/icon/medi_icon_33.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_33.png',
                                         },
                                         {    
-                                                name : 'Cardiology Department',    
+                                                name : 'Cardiology',    
                                                 a_link: './medi_detail.html?value=15&item=19',
                                                 img_link : './img/medi_details/icon/medi_icon_20.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_20.png',
@@ -341,7 +341,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
                                         },
                                         {    
-                                                name : 'Department of Radiology',    
+                                                name : 'Radiology',    
                                                 a_link: './medi_detail.html?value=18&item=24',
                                                 img_link : './img/medi_details/icon/medi_icon_25.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_25.png',
@@ -365,7 +365,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_12.png',
                                         },
                                         {    
-                                                name : 'Department of Emergency Medicine',    
+                                                name : 'Emergency Medicine',    
                                                 a_link: './medi_detail.html?value=20&item=25',
                                                 img_link : './img/medi_details/icon/medi_icon_26_1.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_26.png',
@@ -383,13 +383,13 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_37.png',
                                         },
                                         {    
-                                                name : 'rehabilitation <span>treatment center</span>',    
+                                                name : 'Rehabilitation <span>Treatment Center</span>',    
                                                 a_link: './medi_detail.html?cen_v=18&item=18',
                                                 img_link : './img/medi_details/icon/medi_icon_5_1.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_5.png',
                                         },
                                         {    
-                                                name : 'Department of Rehabilitation Medicine',    
+                                                name : 'Rehabilitation Medicine',    
                                                 a_link: './medi_center.html?cen_v=18',
                                                 img_link : './img/medi_details/icon/medi_icon_5_1.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_5.png',
@@ -401,25 +401,25 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_38.png',
                                         },
                                         {    
-                                                name : 'Department <span>of Psychiatry</span>',    
+                                                name : 'Psychiatry',    
                                                 a_link: './medi_detail.html?value=21&item=23',
                                                 img_link : './img/medi_details/icon/medi_icon_24.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_24.png',
                                         },
                                         {
-                                                name : 'Department <span>of Orthopedics</span>',
+                                                name : 'Orthopedics',
                                                 a_link: './medi_detail.html?value=22&item=8',
                                                 img_link : './img/medi_details/icon/medi_icon_9.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_9.png"',
                                         },
                                                 {
-                                                name : 'Department of <span>Laboratory Medicine</span>',
+                                                name : 'Laboratory Medicine',
                                                 a_link: './medi_detail.html?value=23&item=28',
                                                 img_link : './img/medi_details/icon/medi_icon_29_1.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_29.png',
                                         },
                                         {    
-                                                name : 'Pancreatic and <span>Biliary Tract Department</span>',    
+                                                name : 'Pancreatic  and <span>Biliary Tract</span>',    
                                                 a_link: './medi_detail.html?value=24&item=15',
                                                 img_link : './img/medi_details/icon/medi_icon_16.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_16.png',
@@ -443,13 +443,13 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_40.png',
                                         },
                                         {
-                                                name : 'Department of <span>Hemato-oncology</span>',
+                                                name : 'Hemato-oncology',
                                                 a_link: './medi_detail.html?value=26&item=20',
                                                 img_link : './img/medi_details/icon/medi_icon_21.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_21.png',
                                         },
                                         {
-                                                name : 'Department of <span>Respiratory Medicine</span>',        
+                                                name : 'Respiratory Medicine',        
                                                 a_link: './medi_detail.html?value=27&item=21',
                                                 img_link : './img/medi_details/icon/medi_icon_22.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_22.png',
@@ -521,7 +521,7 @@ $(document).ready(function(){
                                         $('.radio_tab_box1').removeClass('rt_box_active')
                                         var medi_depart_en = [
                                                 {
-                                                        name : 'Department of Family Medicine',
+                                                        name : 'Family Medicine',
                                                         a_link :'./medi_detail.html?value=0&item=1',
                                                         img_link :'./img/medi_details/icon/medi_icon_2_1.png',
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_2.png',
@@ -533,7 +533,7 @@ $(document).ready(function(){
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_29.png',
                                                 },
                                                 {
-                                                        name : 'Department of Hepatobiliary and Pancreatic Surgery',
+                                                        name : 'Hepatobiliary and <span> Pancreatic Surgery</span>',
                                                         a_link :'./medi_detail.html?value=2&item=15',
                                                         img_link :'./img/medi_details/icon/medi_icon_16.png',
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_16.png',
@@ -551,7 +551,7 @@ $(document).ready(function(){
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_30.png',
                                                 },
                                                 {
-                                                        name : 'Memory Improvement <span>Dementia Clinic</span>',
+                                                        name : 'Memory Improvement <span> Dementia Clinic</span>',
                                                         a_link :'./medi_detail.html?cen_v=102&item=41',
                                                         img_link :'./img/medi_details/icon/medi_icon_42.png',
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_42.png',
@@ -563,7 +563,7 @@ $(document).ready(function(){
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
                                                 },
                                                 {
-                                                        name : 'Endocrinology Department',
+                                                        name : 'Endocrinology',
                                                         a_link :'./medi_detail.html?value=4&item=0',
                                                         img_link :'./img/medi_details/icon/medi_icon_1.png',
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
@@ -575,19 +575,19 @@ $(document).ready(function(){
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_6.png',
                                                 },
                                                 {
-                                                        name : 'Department of Anesthesiology <span>and Pain Medicine</span>',
+                                                        name : 'Anesthesiology <span> and Pain Medicine</span>',
                                                         a_link :'./medi_detail.html?value=5&item=22',
                                                         img_link :'./img/medi_details/icon/medi_icon_23.png',
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_23.png',
                                                 },
                                                 {
-                                                        name : 'Radiation Oncology Department',
+                                                        name : 'Radiation Oncology',
                                                         a_link :'./medi_detail.html?value=6&item=23',
                                                         img_link :'./img/medi_details/icon/medi_icon_24.png',
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_24.png',
                                                 },
                                                 {
-                                                        name : 'Urology Department',
+                                                        name : 'Urology',
                                                         a_link :'./medi_detail.html?value=7&item=10',
                                                         img_link :'./img/medi_details/icon/medi_icon_11.png',
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
@@ -611,19 +611,19 @@ $(document).ready(function(){
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_3.png',
                                                 },
                                                 {    
-                                                        name : 'Department of Gastroenterology',    
+                                                        name : 'Gastroenterology',    
                                                         a_link: './medi_detail.html?value=11&item=0',
                                                         img_link : './img/medi_details/icon/medi_icon_1.png',
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
                                                 },
                                                 {
-                                                        name : 'Gastrointestinal <span>Cancer Surgery</span>',
+                                                        name : 'Gastrointestinal <span> Cancer Surgery</span>',
                                                         a_link: './medi_center_2.html?cen_v2=6&item=45',
                                                         img_link : './img/medi_details/icon/medi_icon_abc_17.png',
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_abc_17.png',
                                                 },
                                                 {    
-                                                        name : 'Department Of Gastroenterology<span>endoscopic Center</span>',    
+                                                        name : 'Gastroenterology <span> endoscopic Center</span>',    
                                                         a_link: './medi_center.html?cen_v=5&item=31',
                                                         img_link : './img/medi_details/icon/medi_icon_32.png',
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_32.png',
@@ -635,7 +635,7 @@ $(document).ready(function(){
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_4.png',
                                                 },
                                                 {    
-                                                        name : 'Department of Neurosurgery',    
+                                                        name : 'Neurosurgery',    
                                                         a_link: './medi_detail.html?value=13&item=7',
                                                         img_link : './img/medi_details/icon/medi_icon_8.png',
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_8.png',
@@ -647,13 +647,13 @@ $(document).ready(function(){
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
                                                 },
                                                 {
-                                                        name : 'Cardiocere<span>brovascular</span>',
+                                                        name : 'Cardio <span>Cardiocerebrovascular</span>',
                                                         a_link: './medi_center.html?cen_v=8&item=32',
                                                         img_link : './img/medi_details/icon/medi_icon_33.png',
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_33.png',
                                                 },
                                                 {    
-                                                        name : 'Cardiology Department',    
+                                                        name : 'Cardiology',    
                                                         a_link: './medi_detail.html?value=15&item=19',
                                                         img_link : './img/medi_details/icon/medi_icon_20.png',
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_20.png',
@@ -677,7 +677,7 @@ $(document).ready(function(){
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
                                                 },
                                                 {    
-                                                        name : 'Department of Radiology',    
+                                                        name : 'Radiology',    
                                                         a_link: './medi_detail.html?value=18&item=24',
                                                         img_link : './img/medi_details/icon/medi_icon_25.png',
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_25.png',
@@ -701,7 +701,7 @@ $(document).ready(function(){
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_12.png',
                                                 },
                                                 {    
-                                                        name : 'Department of Emergency Medicine',    
+                                                        name : 'Emergency Medicine',    
                                                         a_link: './medi_detail.html?value=20&item=25',
                                                         img_link : './img/medi_details/icon/medi_icon_26_1.png',
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_26.png',
@@ -719,13 +719,13 @@ $(document).ready(function(){
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_37.png',
                                                 },
                                                 {    
-                                                        name : 'rehabilitation <span>treatment center</span>',    
+                                                        name : 'Rehabilitation <span>Treatment Center</span>',    
                                                         a_link: './medi_detail.html?cen_v=18&item=18',
                                                         img_link : './img/medi_details/icon/medi_icon_5_1.png',
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_5.png',
                                                 },
                                                 {    
-                                                        name : 'Department of Rehabilitation Medicine',    
+                                                        name : 'Rehabilitation Medicine',    
                                                         a_link: './medi_center.html?cen_v=18',
                                                         img_link : './img/medi_details/icon/medi_icon_5_1.png',
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_5.png',
@@ -737,25 +737,25 @@ $(document).ready(function(){
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_38.png',
                                                 },
                                                 {    
-                                                        name : 'Department <span>of Psychiatry</span>',    
+                                                        name : 'Psychiatry',    
                                                         a_link: './medi_detail.html?value=21&item=23',
                                                         img_link : './img/medi_details/icon/medi_icon_24.png',
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_24.png',
                                                 },
                                                 {
-                                                        name : 'Department <span>of Orthopedics</span>',
+                                                        name : 'Orthopedics',
                                                         a_link: './medi_detail.html?value=22&item=8',
                                                         img_link : './img/medi_details/icon/medi_icon_9.png',
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_9.png"',
                                                 },
                                                         {
-                                                        name : 'Department of <span>Laboratory Medicine</span>',
+                                                        name : 'Laboratory Medicine',
                                                         a_link: './medi_detail.html?value=23&item=28',
                                                         img_link : './img/medi_details/icon/medi_icon_29_1.png',
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_29.png',
                                                 },
                                                 {    
-                                                        name : 'Pancreatic and <span>Biliary Tract Department</span>',    
+                                                        name : 'Pancreatic  and <span>Biliary Tract</span>',    
                                                         a_link: './medi_detail.html?value=24&item=15',
                                                         img_link : './img/medi_details/icon/medi_icon_16.png',
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_16.png',
@@ -779,13 +779,13 @@ $(document).ready(function(){
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_40.png',
                                                 },
                                                 {
-                                                        name : 'Department of <span>Hemato-oncology</span>',
+                                                        name : 'Hemato-oncology',
                                                         a_link: './medi_detail.html?value=26&item=20',
                                                         img_link : './img/medi_details/icon/medi_icon_21.png',
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_21.png',
                                                 },
                                                 {
-                                                        name : 'Department of <span>Respiratory Medicine</span>',        
+                                                        name : 'Respiratory Medicine',        
                                                         a_link: './medi_detail.html?value=27&item=21',
                                                         img_link : './img/medi_details/icon/medi_icon_22.png',
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_22.png',
@@ -860,7 +860,7 @@ $(document).ready(function(){
                         console.log('!! 영어가 아닐때 의료진 클릭!!!')
                         var medi_depart_kor = [
                                 {
-                                        name : 'Department of Family Medicine',
+                                        name : 'Family Medicine',
                                         a_link :'./medi_detail.html?value=0&item=1',
                                         img_link :'./img/medi_details/icon/medi_icon_2_1.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_2.png',
@@ -872,7 +872,7 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_29.png',
                                 },
                                 {
-                                        name : 'Department of Hepatobiliary and Pancreatic Surgery',
+                                        name : 'Hepatobiliary and <span> Pancreatic Surgery</span>',
                                         a_link :'./medi_detail.html?value=2&item=15',
                                         img_link :'./img/medi_details/icon/medi_icon_16.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_16.png',
@@ -890,7 +890,7 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_30.png',
                                 },
                                 {
-                                        name : 'Memory Improvement <span>Dementia Clinic</span>',
+                                        name : 'Memory Improvement <span> Dementia Clinic</span>',
                                         a_link :'./medi_detail.html?cen_v=102&item=41',
                                         img_link :'./img/medi_details/icon/medi_icon_42.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_42.png',
@@ -902,7 +902,7 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
                                 },
                                 {
-                                        name : 'Endocrinology Department',
+                                        name : 'Endocrinology',
                                         a_link :'./medi_detail.html?value=4&item=0',
                                         img_link :'./img/medi_details/icon/medi_icon_1.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
@@ -914,19 +914,19 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_6.png',
                                 },
                                 {
-                                        name : 'Department of Anesthesiology <span>and Pain Medicine</span>',
+                                        name : 'Anesthesiology <span> and Pain Medicine</span>',
                                         a_link :'./medi_detail.html?value=5&item=22',
                                         img_link :'./img/medi_details/icon/medi_icon_23.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_23.png',
                                 },
                                 {
-                                        name : 'Radiation Oncology Department',
+                                        name : 'Radiation Oncology',
                                         a_link :'./medi_detail.html?value=6&item=23',
                                         img_link :'./img/medi_details/icon/medi_icon_24.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_24.png',
                                 },
                                 {
-                                        name : 'Urology Department',
+                                        name : 'Urology',
                                         a_link :'./medi_detail.html?value=7&item=10',
                                         img_link :'./img/medi_details/icon/medi_icon_11.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
@@ -950,19 +950,19 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_3.png',
                                 },
                                 {    
-                                        name : 'Department of Gastroenterology',    
+                                        name : 'Gastroenterology',    
                                         a_link: './medi_detail.html?value=11&item=0',
                                         img_link : './img/medi_details/icon/medi_icon_1.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
                                 },
                                 {
-                                        name : 'Gastrointestinal <span>Cancer Surgery</span>',
+                                        name : 'Gastrointestinal <span> Cancer Surgery</span>',
                                         a_link: './medi_center_2.html?cen_v2=6&item=45',
                                         img_link : './img/medi_details/icon/medi_icon_abc_17.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_abc_17.png',
                                 },
                                 {    
-                                        name : 'Department Of Gastroenterology<span>Endoscopic Center</span>',    
+                                        name : 'Gastroenterology <span> Endoscopic Center</span>',    
                                         a_link: './medi_center.html?cen_v=5&item=31',
                                         img_link : './img/medi_details/icon/medi_icon_32.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_32.png',
@@ -974,7 +974,7 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_4.png',
                                 },
                                 {    
-                                        name : 'Department of Neurosurgery',    
+                                        name : 'Neurosurgery',    
                                         a_link: './medi_detail.html?value=13&item=7',
                                         img_link : './img/medi_details/icon/medi_icon_8.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_8.png',
@@ -986,13 +986,13 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
                                 },
                                 {
-                                        name : 'Cardiocere<span>brovascular</span>',
+                                        name : 'Cardio <span>Cardiocerebrovascular</span>',
                                         a_link: './medi_center.html?cen_v=8&item=32',
                                         img_link : './img/medi_details/icon/medi_icon_33.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_33.png',
                                 },
                                 {    
-                                        name : 'Cardiology Department',    
+                                        name : 'Cardiology',    
                                         a_link: './medi_detail.html?value=15&item=19',
                                         img_link : './img/medi_details/icon/medi_icon_20.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_20.png',
@@ -1016,7 +1016,7 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
                                 },
                                 {    
-                                        name : 'Department of Radiology',    
+                                        name : 'Radiology',    
                                         a_link: './medi_detail.html?value=18&item=24',
                                         img_link : './img/medi_details/icon/medi_icon_25.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_25.png',
@@ -1040,7 +1040,7 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_12.png',
                                 },
                                 {    
-                                        name : 'Department of Emergency Medicine',    
+                                        name : 'Emergency Medicine',    
                                         a_link: './medi_detail.html?value=20&item=25',
                                         img_link : './img/medi_details/icon/medi_icon_26_1.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_26.png',
@@ -1058,13 +1058,13 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_37.png',
                                 },
                                 {    
-                                        name : 'rehabilitation <span>treatment center</span>',    
+                                        name : 'Rehabilitation <span>Treatment Center</span>',    
                                         a_link: './medi_detail.html?cen_v=18&item=18',
                                         img_link : './img/medi_details/icon/medi_icon_5_1.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_5.png',
                                 },
                                 {    
-                                        name : 'Department of Rehabilitation Medicine',    
+                                        name : 'Rehabilitation Medicine',    
                                         a_link: './medi_center.html?cen_v=18',
                                         img_link : './img/medi_details/icon/medi_icon_5_1.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_5.png',
@@ -1076,25 +1076,25 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_38.png',
                                 },
                                 {    
-                                        name : 'Department <span>of Psychiatry</span>',    
+                                        name : 'Psychiatry',    
                                         a_link: './medi_detail.html?value=21&item=23',
                                         img_link : './img/medi_details/icon/medi_icon_24.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_24.png',
                                 },
                                 {
-                                        name : 'Department <span>of Orthopedics</span>',
+                                        name : 'Orthopedics',
                                         a_link: './medi_detail.html?value=22&item=8',
                                         img_link : './img/medi_details/icon/medi_icon_9.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_9.png"',
                                 },
                                         {
-                                        name : 'Department of <span>Laboratory Medicine</span>',
+                                        name : 'Laboratory Medicine',
                                         a_link: './medi_detail.html?value=23&item=28',
                                         img_link : './img/medi_details/icon/medi_icon_29_1.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_29.png',
                                 },
                                 {    
-                                        name : 'Pancreatic and <span>Biliary Tract Department</span>',    
+                                        name : 'Pancreatic  and <span>Biliary Tract</span>',    
                                         a_link: './medi_detail.html?value=24&item=15',
                                         img_link : './img/medi_details/icon/medi_icon_16.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_16.png',
@@ -1118,13 +1118,13 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_40.png',
                                 },
                                 {
-                                        name : 'Department of <span>Hemato-oncology</span>',
+                                        name : 'Hemato-oncology',
                                         a_link: './medi_detail.html?value=26&item=20',
                                         img_link : './img/medi_details/icon/medi_icon_21.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_21.png',
                                 },
                                 {
-                                        name : 'Department of <span>Respiratory Medicine</span>',        
+                                        name : 'Respiratory Medicine',        
                                         a_link: './medi_detail.html?value=27&item=21',
                                         img_link : './img/medi_details/icon/medi_icon_22.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_22.png',
@@ -1185,7 +1185,7 @@ $(document).ready(function(){
                                 console.log('!! 영어가 아닐때 의료진 클릭!!!')
                                 var medi_depart_kor = [
                                         {
-                                                name : 'Department of Family Medicine',
+                                                name : 'Family Medicine',
                                                 a_link :'./medi_detail.html?value=0&item=1',
                                                 img_link :'./img/medi_details/icon/medi_icon_2_1.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_2.png',
@@ -1197,7 +1197,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_29.png',
                                         },
                                         {
-                                                name : 'Department of Hepatobiliary and Pancreatic Surgery',
+                                                name : 'Hepatobiliary and <span> Pancreatic Surgery</span>',
                                                 a_link :'./medi_detail.html?value=2&item=15',
                                                 img_link :'./img/medi_details/icon/medi_icon_16.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_16.png',
@@ -1215,7 +1215,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_30.png',
                                         },
                                         {
-                                                name : 'Memory Improvement <span>Dementia Clinic</span>',
+                                                name : 'Memory Improvement <span> Dementia Clinic</span>',
                                                 a_link :'./medi_detail.html?cen_v=102&item=41',
                                                 img_link :'./img/medi_details/icon/medi_icon_42.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_42.png',
@@ -1227,7 +1227,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
                                         },
                                         {
-                                                name : 'Endocrinology Department',
+                                                name : 'Endocrinology',
                                                 a_link :'./medi_detail.html?value=4&item=0',
                                                 img_link :'./img/medi_details/icon/medi_icon_1.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
@@ -1239,19 +1239,19 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_6.png',
                                         },
                                         {
-                                                name : 'Department of Anesthesiology <span>and Pain Medicine</span>',
+                                                name : 'Anesthesiology <span> and Pain Medicine</span>',
                                                 a_link :'./medi_detail.html?value=5&item=22',
                                                 img_link :'./img/medi_details/icon/medi_icon_23.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_23.png',
                                         },
                                         {
-                                                name : 'Radiation Oncology Department',
+                                                name : 'Radiation Oncology',
                                                 a_link :'./medi_detail.html?value=6&item=23',
                                                 img_link :'./img/medi_details/icon/medi_icon_24.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_24.png',
                                         },
                                         {
-                                                name : 'Urology Department',
+                                                name : 'Urology',
                                                 a_link :'./medi_detail.html?value=7&item=10',
                                                 img_link :'./img/medi_details/icon/medi_icon_11.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
@@ -1275,19 +1275,19 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_3.png',
                                         },
                                         {    
-                                                name : 'Department of Gastroenterology',    
+                                                name : 'Gastroenterology',    
                                                 a_link: './medi_detail.html?value=11&item=0',
                                                 img_link : './img/medi_details/icon/medi_icon_1.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
                                         },
                                         {
-                                                name : 'Gastrointestinal <span>Cancer Surgery</span>',
+                                                name : 'Gastrointestinal <span> Cancer Surgery</span>',
                                                 a_link: './medi_center_2.html?cen_v2=6&item=45',
                                                 img_link : './img/medi_details/icon/medi_icon_abc_17.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_abc_17.png',
                                         },
                                         {    
-                                                name : 'Department Of Gastroenterology<span>Endoscopic Center</span>',    
+                                                name : 'Gastroenterology <span> Endoscopic Center</span>',    
                                                 a_link: './medi_center.html?cen_v=5&item=31',
                                                 img_link : './img/medi_details/icon/medi_icon_32.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_32.png',
@@ -1299,7 +1299,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_4.png',
                                         },
                                         {    
-                                                name : 'Department of Neurosurgery',    
+                                                name : 'Neurosurgery',    
                                                 a_link: './medi_detail.html?value=13&item=7',
                                                 img_link : './img/medi_details/icon/medi_icon_8.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_8.png',
@@ -1311,13 +1311,13 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
                                         },
                                         {
-                                                name : 'Cardiocere<span>brovascular</span>',
+                                                name : 'Cardio <span>Cardiocerebrovascular</span>',
                                                 a_link: './medi_center.html?cen_v=8&item=32',
                                                 img_link : './img/medi_details/icon/medi_icon_33.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_33.png',
                                         },
                                         {    
-                                                name : 'Cardiology Department',    
+                                                name : 'Cardiology',    
                                                 a_link: './medi_detail.html?value=15&item=19',
                                                 img_link : './img/medi_details/icon/medi_icon_20.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_20.png',
@@ -1341,7 +1341,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
                                         },
                                         {    
-                                                name : 'Department of Radiology',    
+                                                name : 'Radiology',    
                                                 a_link: './medi_detail.html?value=18&item=24',
                                                 img_link : './img/medi_details/icon/medi_icon_25.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_25.png',
@@ -1365,7 +1365,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_12.png',
                                         },
                                         {    
-                                                name : 'Department of Emergency Medicine',    
+                                                name : 'Emergency Medicine',    
                                                 a_link: './medi_detail.html?value=20&item=25',
                                                 img_link : './img/medi_details/icon/medi_icon_26_1.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_26.png',
@@ -1383,13 +1383,13 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_37.png',
                                         },
                                         {    
-                                                name : 'rehabilitation <span>treatment center</span>',    
+                                                name : 'Rehabilitation <span>Treatment Center</span>',    
                                                 a_link: './medi_detail.html?cen_v=18&item=18',
                                                 img_link : './img/medi_details/icon/medi_icon_5_1.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_5.png',
                                         },
                                         {    
-                                                name : 'Department of Rehabilitation Medicine',    
+                                                name : 'Rehabilitation Medicine',    
                                                 a_link: './medi_center.html?cen_v=18',
                                                 img_link : './img/medi_details/icon/medi_icon_5_1.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_5.png',
@@ -1401,25 +1401,25 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_38.png',
                                         },
                                         {    
-                                                name : 'Department <span>of Psychiatry</span>',    
+                                                name : 'Psychiatry',    
                                                 a_link: './medi_detail.html?value=21&item=23',
                                                 img_link : './img/medi_details/icon/medi_icon_24.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_24.png',
                                         },
                                         {
-                                                name : 'Department <span>of Orthopedics</span>',
+                                                name : 'Orthopedics',
                                                 a_link: './medi_detail.html?value=22&item=8',
                                                 img_link : './img/medi_details/icon/medi_icon_9.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_9.png"',
                                         },
                                                 {
-                                                name : 'Department of <span>Laboratory Medicine</span>',
+                                                name : 'Laboratory Medicine',
                                                 a_link: './medi_detail.html?value=23&item=28',
                                                 img_link : './img/medi_details/icon/medi_icon_29_1.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_29.png',
                                         },
                                         {    
-                                                name : 'Pancreatic and <span>Biliary Tract Department</span>',    
+                                                name : 'Pancreatic  and <span>Biliary Tract</span>',    
                                                 a_link: './medi_detail.html?value=24&item=15',
                                                 img_link : './img/medi_details/icon/medi_icon_16.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_16.png',
@@ -1443,13 +1443,13 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_40.png',
                                         },
                                         {
-                                                name : 'Department of <span>Hemato-oncology</span>',
+                                                name : 'Hemato-oncology',
                                                 a_link: './medi_detail.html?value=26&item=20',
                                                 img_link : './img/medi_details/icon/medi_icon_21.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_21.png',
                                         },
                                         {
-                                                name : 'Department of <span>Respiratory Medicine</span>',        
+                                                name : 'Respiratory Medicine',        
                                                 a_link: './medi_detail.html?value=27&item=21',
                                                 img_link : './img/medi_details/icon/medi_icon_22.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_22.png',
@@ -1535,7 +1535,7 @@ $(document).ready(function(){
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_30.png',
                 },
                 {
-                        name : 'Memory Improvement <span>Dementia Clinic</span>',
+                        name : 'Memory Improvement <span> Dementia Clinic</span>',
                         a_link :'./medi_detail.html?cen_v=102&item=41',
                         img_link :'./img/medi_details/icon/medi_icon_42.png',
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_42.png',
@@ -1547,7 +1547,7 @@ $(document).ready(function(){
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
                 },
                 {
-                        name : 'endocrine medicine',
+                        name : 'Endocrine Medicine',
                         a_link :'./medi_detail.html?value=4&item=0',
                         img_link :'./img/medi_details/icon/medi_icon_1.png',
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
@@ -1559,19 +1559,19 @@ $(document).ready(function(){
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_6.png',
                 },
                 {
-                        name : 'Anesthesiology <span>and Pain Medicine</span>',
+                        name : 'Anesthesiology <span> and Pain Medicine</span>',
                         a_link :'./medi_detail.html?value=5&item=22',
                         img_link :'./img/medi_details/icon/medi_icon_23.png',
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_23.png',
                 },
                 {
-                        name : 'Department of <span>Radiation Oncology</span>',
+                        name : 'Radiation Oncology',
                         a_link :'./medi_detail.html?value=6&item=23',
                         img_link :'./img/medi_details/icon/medi_icon_24.png',
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_24.png',
                 },
                 {
-                        name : 'Department of <span>Urology</span>',
+                        name : 'Urology',
                         a_link :'./medi_detail.html?value=7&item=10',
                         img_link :'./img/medi_details/icon/medi_icon_11.png',
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
@@ -1583,19 +1583,19 @@ $(document).ready(function(){
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_abc_12.png',
                 },
                 {    
-                        name : 'Obstetrics <span>and gynecology</span>',    
+                        name : 'Obstetrics <span> and Gynecology</span>',    
                         a_link: './medi_detail.html?value=8&item=11',
                         img_link : './img/medi_details/icon/medi_icon_12.png',
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_12.png',
                 },
                 {
-                        name : 'plastic <span>surgery center</span>',
+                        name : 'Plastic <span>Surgery Center</span>',
                         a_link: './medi_detail.html?value=9&item=12',
                         img_link : './img/medi_details/icon/medi_icon_13.png',
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_13.png',
                 },
                 {    
-                        name : 'Department <span>of Pediatrics</span>',    
+                        name : 'Pediatrics</span>',    
                         a_link: './medi_detail.html?value=10&item=2',
                         img_link : './img/medi_details/icon/medi_icon_3.png',
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_3.png',
@@ -1619,13 +1619,13 @@ $(document).ready(function(){
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_32.png',
                 },
                 {    
-                        name : 'neurology',    
+                        name : 'Neurology',    
                         a_link: './medi_detail.html?value=12&item=3',
                         img_link : './img/medi_details/icon/medi_icon_4_1.png',
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_4.png',
                 },
                 {    
-                        name : 'neurosurgery',    
+                        name : 'Neurosurgery',    
                         a_link: './medi_detail.html?value=13&item=7',
                         img_link : './img/medi_details/icon/medi_icon_8.png',
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_8.png',
@@ -1637,13 +1637,13 @@ $(document).ready(function(){
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
                 },
                 {
-                        name : 'Cardiocere<span>brovascular <span>Center</span></span>',
+                        name : 'Cardio <span> Cardiocerebrovascular</span>',
                         a_link: './medi_center.html?cen_v=8&item=32',
                         img_link : './img/medi_details/icon/medi_icon_33.png',
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_33.png',
                 },
                 {    
-                        name : 'cardiology',    
+                        name : 'Cardiology',    
                         a_link: './medi_detail.html?value=15&item=19',
                         img_link : './img/medi_details/icon/medi_icon_20.png',
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_20.png',
@@ -1667,13 +1667,13 @@ $(document).ready(function(){
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
                 },
                 {    
-                        name : 'Department <span>of Radiology</span>',    
+                        name : 'Radiology</span>',    
                         a_link: './medi_detail.html?value=18&item=24',
                         img_link : './img/medi_details/icon/medi_icon_25.png',
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_25.png',
                 },
                 {
-                        name : 'surgery',
+                        name : 'Surgery',
                         a_link: './medi_detail.html?value=19&item=6',
                         img_link : './img/medi_details/icon/medi_icon_7.png',
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_7.png',
@@ -1691,13 +1691,13 @@ $(document).ready(function(){
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_12.png',
                 },
                 {    
-                        name : 'Department of <span>Emergency Medicine</span>',    
+                        name : 'Emergency Medicine',    
                         a_link: './medi_detail.html?value=20&item=25',
                         img_link : './img/medi_details/icon/medi_icon_26_1.png',
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_26.png',
                 },
                 {            
-                        name : 'artificial nephrology',
+                        name : 'Artificial Nephrology',
                         a_link: './medi_detail.html?cen_v=110&item=35',
                         img_link : './img/medi_details/icon/medi_icon_36_1.png',
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_36.png',
@@ -1709,13 +1709,13 @@ $(document).ready(function(){
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_37.png',
                 },
                 {    
-                        name : 'rehabilitation <span>treatment center</span>',    
+                        name : 'Rehabilitation <span>Treatment Center</span>',    
                         a_link: './medi_detail.html?cen_v=18&item=18',
                         img_link : './img/medi_details/icon/medi_icon_5_1.png',
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_5.png',
                 },
                 {    
-                        name : 'Department of Rehabilitation Medicine',    
+                        name : 'Rehabilitation Medicine',    
                         a_link: './medi_center.html?cen_v=18',
                         img_link : './img/medi_details/icon/medi_icon_5_1.png',
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_5.png',
@@ -1727,7 +1727,7 @@ $(document).ready(function(){
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_38.png',
                 },
                 {    
-                        name : 'Department of <span>Mental Health</span>',    
+                        name : 'Mental Health',    
                         a_link: './medi_detail.html?value=21&item=23',
                         img_link : './img/medi_details/icon/medi_icon_24.png',
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_24.png',
@@ -1739,13 +1739,13 @@ $(document).ready(function(){
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_9.png"',
                 },
                         {
-                        name : 'Department of <span>Laboratory Medicine</span>',
+                        name : 'Laboratory Medicine',
                         a_link: './medi_detail.html?value=23&item=28',
                         img_link : './img/medi_details/icon/medi_icon_29_1.png',
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_29.png',
                 },
                 {    
-                        name : 'Pancreatic and <span>Biliary Medicine</span>',    
+                        name : 'Pancreatic  and <span>Biliary Medicine</span>',    
                         a_link: './medi_detail.html?value=24&item=15',
                         img_link : './img/medi_details/icon/medi_icon_16.png',
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_16.png',
@@ -1757,7 +1757,7 @@ $(document).ready(function(){
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_28.png',
                 },
                 {
-                        name : 'Corona aftermath <span>recovery center</span>',
+                        name : 'Corona Aftermath <span>Recovery Center</span>',
                         a_link: '#',
                         img_link : './img/medi_details/icon/medi_icon_39.png',
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_39.png',
@@ -1781,13 +1781,13 @@ $(document).ready(function(){
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_21.png',
                 },
                 {
-                        name : 'respiratory medicine',        
+                        name : 'Respiratory Medicine',        
                         a_link: './medi_detail.html?value=27&item=21',
                         img_link : './img/medi_details/icon/medi_icon_22.png',
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_22.png',
                 },
                 {
-                        name : 'burn clinic',        
+                        name : 'Burn Clinic',        
                         a_link: './medi_detail.html?cen_v=116&item=44',
                         img_link : './img/medi_details/icon/medi_icon_45_1.png',
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_45.png',
@@ -1842,12 +1842,12 @@ $(document).ready(function(){
                         }
                 }).resize();
         }
-        // DEPARTMENT 의료진 페이지에서 가나다순 버튼을 클릭했을때 가나다 순으로 배열 바꾸기
+        // 의료진 페이지에서 가나다순 버튼을 클릭했을때 가나다 순으로 배열 바꾸기
         $('#rt2').on("click", function(){
                 $('#rt_2_box .rt_abc_box').remove();
                 var medi_depart_kor = [
                         {
-                                name : 'Department of Family Medicine',
+                                name : 'Family Medicine',
                                 a_link :'./medi_detail.html?value=0&item=1',
                                 img_link :'./img/medi_details/icon/medi_icon_2_1.png',
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_2.png',
@@ -1859,7 +1859,7 @@ $(document).ready(function(){
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_29.png',
                         },
                         {
-                                name : 'Department of Hepatobiliary and Pancreatic Surgery',
+                                name : 'Hepatobiliary and <span> Pancreatic Surgery</span>',
                                 a_link :'./medi_detail.html?value=2&item=15',
                                 img_link :'./img/medi_details/icon/medi_icon_16.png',
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_16.png',
@@ -1877,7 +1877,7 @@ $(document).ready(function(){
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_30.png',
                         },
                         {
-                                name : 'Memory Improvement <span>Dementia Clinic</span>',
+                                name : 'Memory Improvement <span> Dementia Clinic</span>',
                                 a_link :'./medi_detail.html?cen_v=102&item=41',
                                 img_link :'./img/medi_details/icon/medi_icon_42.png',
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_42.png',
@@ -1889,7 +1889,7 @@ $(document).ready(function(){
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
                         },
                         {
-                                name : 'Endocrinology Department',
+                                name : 'Endocrinology',
                                 a_link :'./medi_detail.html?value=4&item=0',
                                 img_link :'./img/medi_details/icon/medi_icon_1.png',
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
@@ -1901,19 +1901,19 @@ $(document).ready(function(){
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_6.png',
                         },
                         {
-                                name : 'Department of Anesthesiology <span>and Pain Medicine</span>',
+                                name : 'Anesthesiology <span> and Pain Medicine</span>',
                                 a_link :'./medi_detail.html?value=5&item=22',
                                 img_link :'./img/medi_details/icon/medi_icon_23.png',
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_23.png',
                         },
                         {
-                                name : 'Radiation Oncology Department',
+                                name : 'Radiation Oncology',
                                 a_link :'./medi_detail.html?value=6&item=23',
                                 img_link :'./img/medi_details/icon/medi_icon_24.png',
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_24.png',
                         },
                         {
-                                name : 'Urology Department',
+                                name : 'Urology',
                                 a_link :'./medi_detail.html?value=7&item=10',
                                 img_link :'./img/medi_details/icon/medi_icon_11.png',
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
@@ -1937,19 +1937,19 @@ $(document).ready(function(){
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_3.png',
                         },
                         {    
-                                name : 'Department of Gastroenterology',    
+                                name : 'Gastroenterology',    
                                 a_link: './medi_detail.html?value=11&item=0',
                                 img_link : './img/medi_details/icon/medi_icon_1.png',
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
                         },
                         {
-                                name : 'Gastrointestinal <span>Cancer Surgery</span>',
+                                name : 'Gastrointestinal <span> Cancer Surgery</span>',
                                 a_link: './medi_center_2.html?cen_v2=6&item=45',
                                 img_link : './img/medi_details/icon/medi_icon_abc_17.png',
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_abc_17.png',
                         },
                         {    
-                                name : 'Department Of Gastroenterology<span>Endoscopic Center</span>',    
+                                name : 'Gastroenterology <span> Endoscopic Center</span>',    
                                 a_link: './medi_center.html?cen_v=5&item=31',
                                 img_link : './img/medi_details/icon/medi_icon_32.png',
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_32.png',
@@ -1961,7 +1961,7 @@ $(document).ready(function(){
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_4.png',
                         },
                         {    
-                                name : 'Department of Neurosurgery',    
+                                name : 'Neurosurgery',    
                                 a_link: './medi_detail.html?value=13&item=7',
                                 img_link : './img/medi_details/icon/medi_icon_8.png',
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_8.png',
@@ -1973,13 +1973,13 @@ $(document).ready(function(){
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
                         },
                         {
-                                name : 'Cardiocere<span>brovascular</span>',
+                                name : 'Cardio <span>Cardiocerebrovascular</span>',
                                 a_link: './medi_center.html?cen_v=8&item=32',
                                 img_link : './img/medi_details/icon/medi_icon_33.png',
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_33.png',
                         },
                         {    
-                                name : 'Cardiology Department',    
+                                name : 'Cardiology',    
                                 a_link: './medi_detail.html?value=15&item=19',
                                 img_link : './img/medi_details/icon/medi_icon_20.png',
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_20.png',
@@ -2003,7 +2003,7 @@ $(document).ready(function(){
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
                         },
                         {    
-                                name : 'Department of Radiology',    
+                                name : 'Radiology',    
                                 a_link: './medi_detail.html?value=18&item=24',
                                 img_link : './img/medi_details/icon/medi_icon_25.png',
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_25.png',
@@ -2027,7 +2027,7 @@ $(document).ready(function(){
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_12.png',
                         },
                         {    
-                                name : 'Department of Emergency Medicine',    
+                                name : 'Emergency Medicine',    
                                 a_link: './medi_detail.html?value=20&item=25',
                                 img_link : './img/medi_details/icon/medi_icon_26_1.png',
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_26.png',
@@ -2045,13 +2045,13 @@ $(document).ready(function(){
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_37.png',
                         },
                         {    
-                                name : 'rehabilitation <span>treatment center</span>',    
+                                name : 'Rehabilitation <span>Treatment Center</span>',    
                                 a_link: './medi_detail.html?cen_v=18&item=18',
                                 img_link : './img/medi_details/icon/medi_icon_5_1.png',
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_5.png',
                         },
                         {    
-                                name : 'Department of Rehabilitation Medicine',    
+                                name : 'Rehabilitation Medicine',    
                                 a_link: './medi_center.html?cen_v=18',
                                 img_link : './img/medi_details/icon/medi_icon_5_1.png',
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_5.png',
@@ -2063,25 +2063,25 @@ $(document).ready(function(){
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_38.png',
                         },
                         {    
-                                name : 'Department <span>of Psychiatry</span>',    
+                                name : 'Psychiatry',    
                                 a_link: './medi_detail.html?value=21&item=23',
                                 img_link : './img/medi_details/icon/medi_icon_24.png',
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_24.png',
                         },
                         {
-                                name : 'Department <span>of Orthopedics</span>',
+                                name : 'Orthopedics',
                                 a_link: './medi_detail.html?value=22&item=8',
                                 img_link : './img/medi_details/icon/medi_icon_9.png',
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_9.png"',
                         },
                                 {
-                                name : 'Department of <span>Laboratory Medicine</span>',
+                                name : 'Laboratory Medicine',
                                 a_link: './medi_detail.html?value=23&item=28',
                                 img_link : './img/medi_details/icon/medi_icon_29_1.png',
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_29.png',
                         },
                         {    
-                                name : 'Pancreatic and <span>Biliary Tract Department</span>',    
+                                name : 'Pancreatic  and <span>Biliary Tract</span>',    
                                 a_link: './medi_detail.html?value=24&item=15',
                                 img_link : './img/medi_details/icon/medi_icon_16.png',
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_16.png',
@@ -2105,13 +2105,13 @@ $(document).ready(function(){
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_40.png',
                         },
                         {
-                                name : 'Department of <span>Hemato-oncology</span>',
+                                name : 'Hemato-oncology',
                                 a_link: './medi_detail.html?value=26&item=20',
                                 img_link : './img/medi_details/icon/medi_icon_21.png',
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_21.png',
                         },
                         {
-                                name : 'Department of <span>Respiratory Medicine</span>',        
+                                name : 'Respiratory Medicine',        
                                 a_link: './medi_detail.html?value=27&item=21',
                                 img_link : './img/medi_details/icon/medi_icon_22.png',
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_22.png',
@@ -2174,7 +2174,7 @@ $(document).ready(function(){
                                 console.log('!! 영어가 아닐때 의료진 클릭!!!')
                                 var medi_depart_kor = [
                                         {
-                                                name : 'Department of Family Medicine',
+                                                name : 'Family Medicine',
                                                 a_link :'./medi_detail.html?value=0&item=1',
                                                 img_link :'./img/medi_details/icon/medi_icon_2_1.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_2.png',
@@ -2186,7 +2186,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_29.png',
                                         },
                                         {
-                                                name : 'Department of Hepatobiliary and Pancreatic Surgery',
+                                                name : 'Hepatobiliary and <span> Pancreatic Surgery</span>',
                                                 a_link :'./medi_detail.html?value=2&item=15',
                                                 img_link :'./img/medi_details/icon/medi_icon_16.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_16.png',
@@ -2204,7 +2204,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_30.png',
                                         },
                                         {
-                                                name : 'Memory Improvement <span>Dementia Clinic</span>',
+                                                name : 'Memory Improvement <span> Dementia Clinic</span>',
                                                 a_link :'./medi_detail.html?cen_v=102&item=41',
                                                 img_link :'./img/medi_details/icon/medi_icon_42.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_42.png',
@@ -2216,7 +2216,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
                                         },
                                         {
-                                                name : 'Endocrinology Department',
+                                                name : 'Endocrinology',
                                                 a_link :'./medi_detail.html?value=4&item=0',
                                                 img_link :'./img/medi_details/icon/medi_icon_1.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
@@ -2228,19 +2228,19 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_6.png',
                                         },
                                         {
-                                                name : 'Department of Anesthesiology <span>and Pain Medicine</span>',
+                                                name : 'Anesthesiology <span> and Pain Medicine</span>',
                                                 a_link :'./medi_detail.html?value=5&item=22',
                                                 img_link :'./img/medi_details/icon/medi_icon_23.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_23.png',
                                         },
                                         {
-                                                name : 'Radiation Oncology Department',
+                                                name : 'Radiation Oncology',
                                                 a_link :'./medi_detail.html?value=6&item=23',
                                                 img_link :'./img/medi_details/icon/medi_icon_24.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_24.png',
                                         },
                                         {
-                                                name : 'Urology Department',
+                                                name : 'Urology',
                                                 a_link :'./medi_detail.html?value=7&item=10',
                                                 img_link :'./img/medi_details/icon/medi_icon_11.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
@@ -2264,19 +2264,19 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_3.png',
                                         },
                                         {    
-                                                name : 'Department of Gastroenterology',    
+                                                name : 'Gastroenterology',    
                                                 a_link: './medi_detail.html?value=11&item=0',
                                                 img_link : './img/medi_details/icon/medi_icon_1.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
                                         },
                                         {
-                                                name : 'Gastrointestinal <span>Cancer Surgery</span>',
+                                                name : 'Gastrointestinal <span> Cancer Surgery</span>',
                                                 a_link: './medi_center_2.html?cen_v2=6&item=45',
                                                 img_link : './img/medi_details/icon/medi_icon_abc_17.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_abc_17.png',
                                         },
                                         {    
-                                                name : 'Department Of Gastroenterology<span>Endoscopic Center</span>',    
+                                                name : 'Gastroenterology <span> Endoscopic Center</span>',    
                                                 a_link: './medi_center.html?cen_v=5&item=31',
                                                 img_link : './img/medi_details/icon/medi_icon_32.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_32.png',
@@ -2288,7 +2288,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_4.png',
                                         },
                                         {    
-                                                name : 'Department of Neurosurgery',    
+                                                name : 'Neurosurgery',    
                                                 a_link: './medi_detail.html?value=13&item=7',
                                                 img_link : './img/medi_details/icon/medi_icon_8.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_8.png',
@@ -2300,13 +2300,13 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
                                         },
                                         {
-                                                name : 'Cardiocere<span>brovascular</span>',
+                                                name : 'Cardio <span>Cardiocerebrovascular</span>',
                                                 a_link: './medi_center.html?cen_v=8&item=32',
                                                 img_link : './img/medi_details/icon/medi_icon_33.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_33.png',
                                         },
                                         {    
-                                                name : 'Cardiology Department',    
+                                                name : 'Cardiology',    
                                                 a_link: './medi_detail.html?value=15&item=19',
                                                 img_link : './img/medi_details/icon/medi_icon_20.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_20.png',
@@ -2330,7 +2330,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
                                         },
                                         {    
-                                                name : 'Department of Radiology',    
+                                                name : 'Radiology',    
                                                 a_link: './medi_detail.html?value=18&item=24',
                                                 img_link : './img/medi_details/icon/medi_icon_25.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_25.png',
@@ -2354,7 +2354,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_12.png',
                                         },
                                         {    
-                                                name : 'Department of Emergency Medicine',    
+                                                name : 'Emergency Medicine',    
                                                 a_link: './medi_detail.html?value=20&item=25',
                                                 img_link : './img/medi_details/icon/medi_icon_26_1.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_26.png',
@@ -2372,13 +2372,13 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_37.png',
                                         },
                                         {    
-                                                name : 'rehabilitation <span>treatment center</span>',    
+                                                name : 'Rehabilitation <span>Treatment Center</span>',    
                                                 a_link: './medi_detail.html?cen_v=18&item=18',
                                                 img_link : './img/medi_details/icon/medi_icon_5_1.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_5.png',
                                         },
                                         {    
-                                                name : 'Department of Rehabilitation Medicine',    
+                                                name : 'Rehabilitation Medicine',    
                                                 a_link: './medi_center.html?cen_v=18',
                                                 img_link : './img/medi_details/icon/medi_icon_5_1.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_5.png',
@@ -2390,25 +2390,25 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_38.png',
                                         },
                                         {    
-                                                name : 'Department <span>of Psychiatry</span>',    
+                                                name : 'Psychiatry',    
                                                 a_link: './medi_detail.html?value=21&item=23',
                                                 img_link : './img/medi_details/icon/medi_icon_24.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_24.png',
                                         },
                                         {
-                                                name : 'Department <span>of Orthopedics</span>',
+                                                name : 'Orthopedics',
                                                 a_link: './medi_detail.html?value=22&item=8',
                                                 img_link : './img/medi_details/icon/medi_icon_9.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_9.png"',
                                         },
                                                 {
-                                                name : 'Department of <span>Laboratory Medicine</span>',
+                                                name : 'Laboratory Medicine',
                                                 a_link: './medi_detail.html?value=23&item=28',
                                                 img_link : './img/medi_details/icon/medi_icon_29_1.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_29.png',
                                         },
                                         {    
-                                                name : 'Pancreatic and <span>Biliary Tract Department</span>',    
+                                                name : 'Pancreatic  and <span>Biliary Tract</span>',    
                                                 a_link: './medi_detail.html?value=24&item=15',
                                                 img_link : './img/medi_details/icon/medi_icon_16.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_16.png',
@@ -2432,13 +2432,13 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_40.png',
                                         },
                                         {
-                                                name : 'Department of <span>Hemato-oncology</span>',
+                                                name : 'Hemato-oncology',
                                                 a_link: './medi_detail.html?value=26&item=20',
                                                 img_link : './img/medi_details/icon/medi_icon_21.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_21.png',
                                         },
                                         {
-                                                name : 'Department of <span>Respiratory Medicine</span>',        
+                                                name : 'Respiratory Medicine',        
                                                 a_link: './medi_detail.html?value=27&item=21',
                                                 img_link : './img/medi_details/icon/medi_icon_22.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_22.png',
@@ -2501,7 +2501,7 @@ $(document).ready(function(){
                         $('#rt_2_box .rt_abc_box').remove();
                         var medi_depart_en = [
                                 {
-                                        name : 'Department of Family Medicine',
+                                        name : 'Family Medicine',
                                         a_link :'./medi_detail.html?value=0&item=1',
                                         img_link :'./img/medi_details/icon/medi_icon_2_1.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_2.png',
@@ -2513,7 +2513,7 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_29.png',
                                 },
                                 {
-                                        name : 'Department of Hepatobiliary and Pancreatic Surgery',
+                                        name : 'Hepatobiliary and <span> Pancreatic Surgery</span>',
                                         a_link :'./medi_detail.html?value=2&item=15',
                                         img_link :'./img/medi_details/icon/medi_icon_16.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_16.png',
@@ -2531,7 +2531,7 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_30.png',
                                 },
                                 {
-                                        name : 'Memory Improvement <span>Dementia Clinic</span>',
+                                        name : 'Memory Improvement <span> Dementia Clinic</span>',
                                         a_link :'./medi_detail.html?cen_v=102&item=41',
                                         img_link :'./img/medi_details/icon/medi_icon_42.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_42.png',
@@ -2543,7 +2543,7 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
                                 },
                                 {
-                                        name : 'Endocrinology Department',
+                                        name : 'Endocrinology',
                                         a_link :'./medi_detail.html?value=4&item=0',
                                         img_link :'./img/medi_details/icon/medi_icon_1.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
@@ -2555,19 +2555,19 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_6.png',
                                 },
                                 {
-                                        name : 'Department of Anesthesiology <span>and Pain Medicine</span>',
+                                        name : 'Anesthesiology <span> and Pain Medicine</span>',
                                         a_link :'./medi_detail.html?value=5&item=22',
                                         img_link :'./img/medi_details/icon/medi_icon_23.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_23.png',
                                 },
                                 {
-                                        name : 'Radiation Oncology Department',
+                                        name : 'Radiation Oncology',
                                         a_link :'./medi_detail.html?value=6&item=23',
                                         img_link :'./img/medi_details/icon/medi_icon_24.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_24.png',
                                 },
                                 {
-                                        name : 'Urology Department',
+                                        name : 'Urology',
                                         a_link :'./medi_detail.html?value=7&item=10',
                                         img_link :'./img/medi_details/icon/medi_icon_11.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
@@ -2591,19 +2591,19 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_3.png',
                                 },
                                 {    
-                                        name : 'Department of Gastroenterology',    
+                                        name : 'Gastroenterology',    
                                         a_link: './medi_detail.html?value=11&item=0',
                                         img_link : './img/medi_details/icon/medi_icon_1.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
                                 },
                                 {
-                                        name : 'Gastrointestinal <span>Cancer Surgery</span>',
+                                        name : 'Gastrointestinal <span> Cancer Surgery</span>',
                                         a_link: './medi_center_2.html?cen_v2=6&item=45',
                                         img_link : './img/medi_details/icon/medi_icon_abc_17.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_abc_17.png',
                                 },
                                 {    
-                                        name : 'Department Of Gastroenterology<span>Endoscopic Center</span>',    
+                                        name : 'Gastroenterology <span> Endoscopic Center</span>',    
                                         a_link: './medi_center.html?cen_v=5&item=31',
                                         img_link : './img/medi_details/icon/medi_icon_32.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_32.png',
@@ -2615,7 +2615,7 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_4.png',
                                 },
                                 {    
-                                        name : 'Department of Neurosurgery',    
+                                        name : 'Neurosurgery',    
                                         a_link: './medi_detail.html?value=13&item=7',
                                         img_link : './img/medi_details/icon/medi_icon_8.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_8.png',
@@ -2627,13 +2627,13 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
                                 },
                                 {
-                                        name : 'Cardiocere<span>brovascular</span>',
+                                        name : 'Cardio <span>Cardiocerebrovascular</span>',
                                         a_link: './medi_center.html?cen_v=8&item=32',
                                         img_link : './img/medi_details/icon/medi_icon_33.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_33.png',
                                 },
                                 {    
-                                        name : 'Cardiology Department',    
+                                        name : 'Cardiology',    
                                         a_link: './medi_detail.html?value=15&item=19',
                                         img_link : './img/medi_details/icon/medi_icon_20.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_20.png',
@@ -2657,7 +2657,7 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
                                 },
                                 {    
-                                        name : 'Department of Radiology',    
+                                        name : 'Radiology',    
                                         a_link: './medi_detail.html?value=18&item=24',
                                         img_link : './img/medi_details/icon/medi_icon_25.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_25.png',
@@ -2681,7 +2681,7 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_12.png',
                                 },
                                 {    
-                                        name : 'Department of Emergency Medicine',    
+                                        name : 'Emergency Medicine',    
                                         a_link: './medi_detail.html?value=20&item=25',
                                         img_link : './img/medi_details/icon/medi_icon_26_1.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_26.png',
@@ -2699,13 +2699,13 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_37.png',
                                 },
                                 {    
-                                        name : 'rehabilitation <span>treatment center</span>',    
+                                        name : 'Rehabilitation <span>Treatment Center</span>',    
                                         a_link: './medi_detail.html?cen_v=18&item=18',
                                         img_link : './img/medi_details/icon/medi_icon_5_1.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_5.png',
                                 },
                                 {    
-                                        name : 'Department of Rehabilitation Medicine',    
+                                        name : 'Rehabilitation Medicine',    
                                         a_link: './medi_center.html?cen_v=18',
                                         img_link : './img/medi_details/icon/medi_icon_5_1.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_5.png',
@@ -2717,25 +2717,25 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_38.png',
                                 },
                                 {    
-                                        name : 'Department <span>of Psychiatry</span>',    
+                                        name : 'Psychiatry',    
                                         a_link: './medi_detail.html?value=21&item=23',
                                         img_link : './img/medi_details/icon/medi_icon_24.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_24.png',
                                 },
                                 {
-                                        name : 'Department <span>of Orthopedics</span>',
+                                        name : 'Orthopedics',
                                         a_link: './medi_detail.html?value=22&item=8',
                                         img_link : './img/medi_details/icon/medi_icon_9.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_9.png"',
                                 },
                                         {
-                                        name : 'Department of <span>Laboratory Medicine</span>',
+                                        name : 'Laboratory Medicine',
                                         a_link: './medi_detail.html?value=23&item=28',
                                         img_link : './img/medi_details/icon/medi_icon_29_1.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_29.png',
                                 },
                                 {    
-                                        name : 'Pancreatic and <span>Biliary Tract Department</span>',    
+                                        name : 'Pancreatic  and <span>Biliary Tract</span>',    
                                         a_link: './medi_detail.html?value=24&item=15',
                                         img_link : './img/medi_details/icon/medi_icon_16.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_16.png',
@@ -2759,13 +2759,13 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_40.png',
                                 },
                                 {
-                                        name : 'Department of <span>Hemato-oncology</span>',
+                                        name : 'Hemato-oncology',
                                         a_link: './medi_detail.html?value=26&item=20',
                                         img_link : './img/medi_details/icon/medi_icon_21.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_21.png',
                                 },
                                 {
-                                        name : 'Department of <span>Respiratory Medicine</span>',        
+                                        name : 'Respiratory Medicine',        
                                         a_link: './medi_detail.html?value=27&item=21',
                                         img_link : './img/medi_details/icon/medi_icon_22.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_22.png',

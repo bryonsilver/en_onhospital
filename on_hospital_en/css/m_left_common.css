@@ -306,7 +306,7 @@
     .title_icon_box h4, .col-lg-12 h4, .d_mb_title {font-size: 19px !important; text-align: left;}
     .title_icon_box h4 {margin: 5px 0 !important; width: 100%; text-align: center;}
     .title_icon_box {gap: 10px !important;}
-    .top_title {text-align: left;}
+    .top_title {text-align: center;}
     .icon_title {display: none;}
 }
 

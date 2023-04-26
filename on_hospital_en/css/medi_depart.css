@@ -447,6 +447,7 @@ body {font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple
     font-weight: 500;
     margin-top: 22px;
     box-sizing: border-box;
+    justify-content: center;
 }
 .rt_btn{
     padding: 10px 15px;
@@ -459,6 +460,7 @@ body {font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple
 .rt1 {
     background: #f1f1f1;
     color: #4f4f4f;
+    text-align: center;
 }
 .rt2 {
     color: #4f4f4f;
