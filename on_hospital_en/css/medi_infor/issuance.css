@@ -292,9 +292,12 @@ th {border-bottom: 1px solid #999;}
     .three tr:nth-of-type(1) th {border-top: 2px solid #555 !important;}
 }
 @media (max-width: 600px) {
+    .icon_title {display: none;}
     .moblie_download {
         display: inline-block;
     }
+    .icon_title img {display: none;}
+    .title_icon_box h4:nth-of-type(1) {display: none;}
     .spec h4 {
         width: 100%;
         display: flex;
