@@ -135,3 +135,6 @@
     }
   
   }
+  @media (max-width: 767px) {
+    button {--height: 40px;}
+  }

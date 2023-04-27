@@ -285,7 +285,7 @@ const DOCTOR = [
                 'Regular member of the Korean Arrhythmia Society',
                 'Regular member of the Korean Society of Interventional Cardiovascular Interventions'
             ],
-            professional: ['Coronary artery disease, acute myocardial infarction (percutaneous coronary intervention), hypertension, hyperlipidemia, heart failure, valvular heart disease (echocardiography)','부정맥, 동서맥 및 동정지 (심박동기시술)'],
+            professional: ['Coronary artery disease, acute myocardial infarction (percutaneous coronary intervention), hypertension, hyperlipidemia, heart failure, valvular heart disease (echocardiography)',],
         },
         {   cate_no:3,
             item_no:2,

@@ -455,7 +455,7 @@ const CENT_LIST = [
 
 const CENT_TITLE = [
     [
-        {cate_no:0, item_no:1, title:'Hepatobiliary Pancreatic/Gastric/Colorectal Cancer', icon_src:'medi_w_cetner_1', name:'간담췌외과 위 대장암'},
+        {cate_no:0, item_no:1, title:'Hepatobiliary Pancreatic / Gastric / Colorectal Cancer', icon_src:'medi_w_cetner_1', name:'간담췌외과 위 대장암'},
         {cate_no:0, item_no:2, title:'Liver Center', icon_src:'medi_w_cetner_2', name:'간센터'},
         {cate_no:0, item_no:3, title:'Infection', icon_src:'medi_w_cetner_3', name:'감염센터'},
         {cate_no:0, item_no:4, title:'Proctology', icon_src:'medi_w_cetner_4', name:'대장항문센터'},

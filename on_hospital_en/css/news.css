@@ -10,7 +10,7 @@ table a {white-space: nowrap !important;}
     font-weight: 500;
     margin-bottom: 20px;
 }
-
+.t_td_mobile {display: none;}
 .pagination .active {
     background: #ee791c;
     color: #fff;
@@ -157,7 +157,7 @@ table a {white-space: nowrap !important;}
     .t_td a {
         max-width: 100px !important;
     }
-    .t_td_moblie {display: inline-block !important;}
+    .t_td_mobile {display: inline-block !important;}
     .t_td_desk {display: none;}
 }
 

@@ -288,29 +288,56 @@ div.oe_cc_ext_text > span {
         display: none;
     }
     .title_box_onn, .onn_desk_title {width: 100%;}
-    .icon_title {max-height: 46px; max-width: 4%;}
-    .img_box {
-        background: url(../img/common/medi_bg_m.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
     .title_box_onn h4 {
-        font-size: 40px;
+        font-size: 25px;
     }
     .oe_cc_ext_text_box { flex-direction: column;}
     .oe_cc_tem {display: none;}
     .oe_cc_ext_text {border-top:  1px solid #ddd;}
+
+
+    .title_box_onn {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+    .img_box {
+        background: url(../img/common/medi_bg_m_2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 220px;
+    }
+    .icon_title {
+        max-width: 7%;
+        max-height: 37px;
+    }
 }
 @media (max-width: 1100px) {
     iframe {height: 500px !important;}
     .onn_v_li {margin-bottom: 100px;}
-    
+
+    .title_box_onn {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+    .img_box {
+        background: url(../img/common/medi_bg_m_2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 220px;
+    }
+    .icon_title {
+        max-width: 9%;
+        max-height: 37px;
+    }    
 }
-@media (max-width: 100px) {
+@media (max-width: 1000px) {
     .icon_title {
         max-height: 46px;
-        max-width: 5%;
+        max-width: 9%;
     }
 }
 @media (max-width: 900px) {
@@ -322,6 +349,11 @@ div.oe_cc_ext_text > span {
     .icon_title {
         max-height: 62px;
     }
+    .title_box_onn {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
 }
 @media (max-width: 767px) {
     .oe_cc_tem,
@@ -330,11 +362,16 @@ div.oe_cc_ext_text > span {
     }
     .oe_num_box {padding: 0;}
     .title_box_onn h4 {
-        font-size: 40px;
+        font-size: 24px;
     }
     .icon_title {
         max-height: 43px;
-        max-width: 7%;
+        max-width: 9%;
+    }
+    .title_box_onn {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
     }
     
     
@@ -345,7 +382,7 @@ div.oe_cc_ext_text > span {
     div.oe_cc_ext_text > span {
         max-width: 400px;
     }
-    .title_box_onn {gap: 10px;}
+    .title_box_onn {gap: 30px;}
 }
 @media (max-width:600px) {
     .ov_li_title_box {font-size: 18px;}
@@ -359,29 +396,25 @@ div.oe_cc_ext_text > span {
         border-radius: 13px;
     }
     .title_box_onn h4 {
-        font-size: 42px ;
-        gap: 10px;
+        font-size: 24px ;
+        gap: 30px;
     }
     .icon_title {
-        max-width: 9%;
+        max-width: 12%;
         max-height: 52px;
     }
     
 }
 @media (max-width: 576px) {
     .title_box_onn h4 {
-        font-size: 32px !important;
+        font-size: 25px !important;
         gap: 10px;
     }
+    div.oe_cc_ext_text > span {max-width: 280px;}
+    .oe_cc_title {max-width: 300px;}
 }
 @media (max-width: 500px) {
-    .img_box {
-        background: url(../img/common/medi_bg_m_2.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 150px;
-    }
+    
     .m_top_2 {display: block;}
     
 
@@ -419,9 +452,11 @@ div.oe_cc_ext_text > span {
         max-width: 200px;
         width: 100%;
     }
+}
+@media (max-width: 430px) {
     .icon_title {
-        max-width: 9%;
-        max-height: 37px;
+        max-width: 15%;
+        max-height: 52px;
     }
 }
 @media (max-width:400px) {
@@ -433,17 +468,9 @@ div.oe_cc_ext_text > span {
         font-size: 25px !important;
         gap: 10px;
     }
-}
-@media (max-width:360px) {
-    div.oe_cc_ext_text > span {
-        max-width: 250px;
-    }
-}
-@media (max-width: 300px) {
-    .icon_title {
-        max-width: 10%;
-        height: 28px;
-    }
+    .img_box {height: 140px;}
+
+
     iframe {height: 150px !important;}
     .ov_li_title_box {font-size: 16px;}
     .onn_v_li {margin-bottom: 50px;}
@@ -479,4 +506,17 @@ div.oe_cc_ext_text > span {
         width: 100%;
         max-width: 100%;
     }
+}
+@media (max-width:360px) {
+    div.oe_cc_ext_text > span {
+        max-width: 160px;
+    }
+    
+}
+@media (max-width: 300px) {
+    .icon_title {
+        max-width: 10%;
+        height: 28px;
+    }
+   
 }

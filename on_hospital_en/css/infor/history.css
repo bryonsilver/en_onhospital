@@ -8,6 +8,7 @@ body {font-family: 'Noto Sans KR';}
 .m_flex_box{
     gap: 50px !important;
 }
+.m_flex_box > .mb-4 {margin-bottom: 20px;}
 .his_li span:nth-of-type(3) {
     text-align: left;
     color: #444;
@@ -410,6 +411,11 @@ body {font-family: 'Noto Sans KR';}
         gap: 10px !important;
     }
     .year_bar {flex-direction: column; gap: 0 !important;}
+    .m_flex_box{
+        gap: 20px !important;
+    }
+    .his_right_box {padding-bottom: 30px;}
+    
 }
 @media only screen and (max-width: 380px) {
     .his_total_box {height: 700px;}

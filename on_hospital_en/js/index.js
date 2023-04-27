@@ -936,6 +936,14 @@ $(document).ready(function(){
     })
 
 
+// news_ 모바일 이미지 height 수정 (height 크기 똑같이 하게)
+    $(window).resize(function(){
+        var width = window.innerWidth;
+        var ns_3_img_h = $('#ns_3 > a > img').height();
+        $('.n_sw_m > a > img').not('#ns_3 > a > img ').css('height', ns_3_img_h)
+        // console.log("height 맞게 news 움직임", ns_3_img_h)
+
+    }).resize();
 
 
     var header_top = $('.header').offset().top - 100;

@@ -121,9 +121,9 @@ table {
 }
 @media (max-width: 400px) {
     .col-lg-12 h4 {
-        text-align: left !important;
+        text-align: center !important;
         width: 100%;
-        max-width: 85% !important;
+        max-width: 100% !important;
     }
     .float-right {text-align: center !important;}
 }

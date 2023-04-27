@@ -898,19 +898,20 @@ html { scroll-behavior: smooth;}
     flex-direction: column;
     gap: 10px;
 
-    font-size: 20px;
     font-weight: 500;
     color: #333;
 }
+.two_line {font-size: 18px;}
+.o_line {font-size: 20px;}
 .n_swiper_m {
     width: 85%;
     margin:  auto;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     align-items: flex-start;
 }
 .n_sw_m {
-    width: calc(100% / 3);
+    width: 100%;
     margin-bottom: 40px;
 }
 .news_m_text {
@@ -919,12 +920,6 @@ html { scroll-behavior: smooth;}
     align-items: center;
     vertical-align: text-top;
 }
-#ns_4 .news_m_text {
-    margin-top: 10px;
-}
-#ns_1 .news_m_text {margin-top: 14px;}
-#ns_2 .news_m_text {margin-top: 10px;}
-#ns_3 .news_m_text {margin-top: 4px;}
 
 
 .news_c_title_box {
@@ -1413,7 +1408,7 @@ html { scroll-behavior: smooth;}
     .on_color {display: block;}
     .m_text_small {font-size: 23px;}
     
-    .contain {
+    .c_group_tv_box .contain {
         margin-bottom: 50px;}
 }
 
@@ -1465,6 +1460,13 @@ html { scroll-behavior: smooth;}
     }
     .news_box {display: none;}
     .short_mb {width: 100%; box-sizing: border-box;}
+
+
+    .semi_black_content {display: none;}
+    button {height: 40px;}
+    .semi_2 {height: 35vh !important;}
+    .semi_black_box {min-height: 40vh;}
+    .semi_text_box {gap: 30px;}
 }
 @media (max-width: 700px) {
     .mb_img_text {left: 60px;}
@@ -1567,9 +1569,9 @@ html { scroll-behavior: smooth;}
       .swiper_box3 .swiper-slide-active .tv_swiper_slide {
         box-shadow: 0 0 20px #93939380 !important;
       }
-      .news_m_a {
-        font-size: 17px;
-      }
+      
+    .two_line {font-size: 15px;}
+    .o_line {font-size: 17px;}
       .c_group_tv_box {padding-bottom: 50px;}
       .mb_text_medi_moblie {
         padding: 0 20px;
@@ -1629,9 +1631,6 @@ html { scroll-behavior: smooth;}
         margin-left: -45px;
         margin-right: -45px;
     }
-    #ns_4 .news_m_text {margin-top: 13px;}
-    #ns_5 .news_m_text {margin-top: 7px;}
-    #ns_6 .news_m_text {margin-top: 6px;}
 
     .s_m_a {font-size: 13px !important;}
     .short_mb .s_m_div {height: 50px !important;}
@@ -1673,7 +1672,9 @@ html { scroll-behavior: smooth;}
     
 }
 @media (max-width: 300px) {
-    .news_m_a {font-size: 14px;}
+    .two_line {font-size: 12px;}
+    .o_line {font-size: 13px;}
+
     .width {transform: translateX(0px);}
     .semi_black_title  {font-size: 16px !important; font-weight: 700;}
     .semi_black_content {font-size: 13px !important;}

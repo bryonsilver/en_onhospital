@@ -5,7 +5,7 @@ body {font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple
     flex-wrap: wrap;
     /* border-bottom: 1px solid #dee2e6; */
 }
-
+.doctor_name {display: flex; flex-direction: column; text-align: center; justify-content: center; align-items: center;}
 .none {display: none !important;}
 .l_img {
     font-size: 0 !important;

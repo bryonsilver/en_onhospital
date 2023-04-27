@@ -1,5 +1,7 @@
 body {font-family:'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple SD Gothic Neo','나눔고딕',NanumGothic,ng,sans-serif ; box-sizing: border-box;}
 
+
+.title_box_onn h4 {text-align: center;}
 .cent_5 span {
     margin-bottom: 5px !important;
 }
