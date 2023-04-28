@@ -233,12 +233,6 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
                                         },
                                         {
-                                                name : 'Headache Clinic',
-                                                a_link :'./medi_detail.html?cen_v=103&item=5',
-                                                img_link :'./img/medi_details/icon/medi_icon_6.png',
-                                                img_hover_link : './img/medi_details/icon/medi_icon_orange_6.png',
-                                        },
-                                        {
                                                 name : 'Anesthesiology <span> and Pain Medicine</span>',
                                                 a_link :'./medi_detail.html?value=5&item=22',
                                                 img_link :'./img/medi_details/icon/medi_icon_23.png',
@@ -567,12 +561,6 @@ $(document).ready(function(){
                                                         a_link :'./medi_detail.html?value=4&item=0',
                                                         img_link :'./img/medi_details/icon/medi_icon_1.png',
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
-                                                },
-                                                {
-                                                        name : 'Headache Clinic',
-                                                        a_link :'./medi_detail.html?cen_v=103&item=5',
-                                                        img_link :'./img/medi_details/icon/medi_icon_6.png',
-                                                        img_hover_link : './img/medi_details/icon/medi_icon_orange_6.png',
                                                 },
                                                 {
                                                         name : 'Anesthesiology <span> and Pain Medicine</span>',
@@ -908,12 +896,6 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
                                 },
                                 {
-                                        name : 'Headache Clinic',
-                                        a_link :'./medi_detail.html?cen_v=103&item=5',
-                                        img_link :'./img/medi_details/icon/medi_icon_6.png',
-                                        img_hover_link : './img/medi_details/icon/medi_icon_orange_6.png',
-                                },
-                                {
                                         name : 'Anesthesiology <span> and Pain Medicine</span>',
                                         a_link :'./medi_detail.html?value=5&item=22',
                                         img_link :'./img/medi_details/icon/medi_icon_23.png',
@@ -1233,12 +1215,6 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
                                         },
                                         {
-                                                name : 'Headache Clinic',
-                                                a_link :'./medi_detail.html?cen_v=103&item=5',
-                                                img_link :'./img/medi_details/icon/medi_icon_6.png',
-                                                img_hover_link : './img/medi_details/icon/medi_icon_orange_6.png',
-                                        },
-                                        {
                                                 name : 'Anesthesiology <span> and Pain Medicine</span>',
                                                 a_link :'./medi_detail.html?value=5&item=22',
                                                 img_link :'./img/medi_details/icon/medi_icon_23.png',
@@ -1551,12 +1527,6 @@ $(document).ready(function(){
                         a_link :'./medi_detail.html?value=4&item=0',
                         img_link :'./img/medi_details/icon/medi_icon_1.png',
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
-                },
-                {
-                        name : 'Headache Clinic',
-                        a_link :'./medi_detail.html?cen_v=103&item=5',
-                        img_link :'./img/medi_details/icon/medi_icon_6.png',
-                        img_hover_link : './img/medi_details/icon/medi_icon_orange_6.png',
                 },
                 {
                         name : 'Anesthesiology <span> and Pain Medicine</span>',
@@ -1895,12 +1865,6 @@ $(document).ready(function(){
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
                         },
                         {
-                                name : 'Headache Clinic',
-                                a_link :'./medi_detail.html?cen_v=103&item=5',
-                                img_link :'./img/medi_details/icon/medi_icon_6.png',
-                                img_hover_link : './img/medi_details/icon/medi_icon_orange_6.png',
-                        },
-                        {
                                 name : 'Anesthesiology <span> and Pain Medicine</span>',
                                 a_link :'./medi_detail.html?value=5&item=22',
                                 img_link :'./img/medi_details/icon/medi_icon_23.png',
@@ -2222,12 +2186,6 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
                                         },
                                         {
-                                                name : 'Headache Clinic',
-                                                a_link :'./medi_detail.html?cen_v=103&item=5',
-                                                img_link :'./img/medi_details/icon/medi_icon_6.png',
-                                                img_hover_link : './img/medi_details/icon/medi_icon_orange_6.png',
-                                        },
-                                        {
                                                 name : 'Anesthesiology <span> and Pain Medicine</span>',
                                                 a_link :'./medi_detail.html?value=5&item=22',
                                                 img_link :'./img/medi_details/icon/medi_icon_23.png',
@@ -2547,12 +2505,6 @@ $(document).ready(function(){
                                         a_link :'./medi_detail.html?value=4&item=0',
                                         img_link :'./img/medi_details/icon/medi_icon_1.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
-                                },
-                                {
-                                        name : 'Headache Clinic',
-                                        a_link :'./medi_detail.html?cen_v=103&item=5',
-                                        img_link :'./img/medi_details/icon/medi_icon_6.png',
-                                        img_hover_link : './img/medi_details/icon/medi_icon_orange_6.png',
                                 },
                                 {
                                         name : 'Anesthesiology <span> and Pain Medicine</span>',

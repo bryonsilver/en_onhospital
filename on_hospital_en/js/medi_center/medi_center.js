@@ -201,17 +201,7 @@ cent_list += `<div class="m_r_content_box c_25">`
         } else {
             cent_list += `<div class="m_r_content_box">`
         }
-cent_list += `<div class="mr_title">
-                    <div class="row mb-4"> 
-                        <div class="col-lg-12">
-                            <h1 class="top_title">
-                                <span class="icon"></span>
-                                ${CENT_TITLE[0][cen_v].title}
-                            </h1>
-                        </div>
-                    </div>
-
-                </div>
+cent_list += `
             <div class="mr_img">`
                 for(let j=0; j<1; j++) {
         cent_list += `<div class="box_img cen2_${LIST_N[0][cen_v].item_no}"></div>`
