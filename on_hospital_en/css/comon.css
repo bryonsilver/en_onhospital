@@ -1857,7 +1857,7 @@ body {
         display: none !important;
     }
     .h_min_box .moblie_logo {
-        max-width: 80px;
+        max-width: 60px;
     }
 }
 @media (max-width: 550px) {
