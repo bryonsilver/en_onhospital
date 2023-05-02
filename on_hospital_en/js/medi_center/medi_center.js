@@ -327,7 +327,7 @@ cent_list+= `<div class="mr_content">`
                 }
                 else {
                     cent_list += `  <div class="mr_c_title">
-                                        <span class="icon_title"><img src="./img/common/chk_2.png" alt=""></span>
+                                        <span class="icon_title"><img src="../img/common/chk_2.png" alt=""></span>
                                         ${CENT_LIST[0][cen_v].sub_title[0]}
                                     </div>`
                 }
@@ -808,7 +808,7 @@ cent_list+= `<div class="mr_content">`
                                         </div>
                                         <div class="row mb-4 context_top col-lg-12 text-justify">
                                             <div class="title_icon_box">
-                                                <span class="icon_title"><img src="./img/common/chk_2.png" alt=""></span>
+                                                <span class="icon_title"><img src="../img/common/chk_2.png" alt=""></span>
                                                 <h4>Funeral Homes</h4>
                                             </div>
                                         </div>
@@ -843,7 +843,7 @@ cent_list+= `<div class="mr_content">`
                                         </div>
                                         <div class="row mb-4 context_top col-lg-12 text-justify">
                                             <div class="title_icon_box">
-                                                <span class="icon_title"><img src="./img/common/chk_2.png" alt=""></span>
+                                                <span class="icon_title"><img src="../img/common/chk_2.png" alt=""></span>
                                                 <h4>Directions</h4>
                                             </div>
                                         </div>
@@ -892,7 +892,7 @@ cent_list+= `<div class="mr_content">`
                                         </div>
                                         <div class="row mb-4 context_top col-lg-12 text-justify">
                                             <div class="title_icon_box">
-                                                <span class="icon_title"><img src="./img/common/chk_2.png" alt=""></span>
+                                                <span class="icon_title"><img src="../img/common/chk_2.png" alt=""></span>
                                                 <h4>Facilities</h4>
                                             </div>
                                         </div>
@@ -1316,13 +1316,13 @@ cent_list+= `<div class="mr_content">`
                             }
                             else if (cen_v == 24) {
                                 cent_list +=  ` <div class="mr_c_title margin${CENT_LIST[0][cen_v].item_no}">
-                                                    <span class="icon_title"><img src="./img/common/chk_2.png" alt=""></span>
+                                                    <span class="icon_title"><img src="../img/common/chk_2.png" alt=""></span>
                                                     ${CENT_LIST[0][cen_v].sub_title[1]}
                                                 </div>`
                             }
                             else {
                                 cent_list +=  ` <div class="mr_c_title margin2 margin${CENT_LIST[0][cen_v].item_no}">
-                                                    <span class="icon_title"><img src="./img/common/chk_2.png" alt=""></span>
+                                                    <span class="icon_title"><img src="../img/common/chk_2.png" alt=""></span>
                                                     ${CENT_LIST[0][cen_v].sub_title[1]}
                                                 </div>`
                             }
@@ -1401,7 +1401,7 @@ cent_list+= `<div class="mr_content">`
                                             <div class="line"></div>
 
                                             <div class="mr_c_title margin2">
-                                                <span class="icon_title"><img src="./img/common/chk_2.png" alt=""></span>
+                                                <span class="icon_title"><img src="../img/common/chk_2.png" alt=""></span>
                                                 ${CENT_LIST[0][cen_v].sub_title[2]}
                                             </div>
 
@@ -1415,7 +1415,7 @@ cent_list+= `<div class="mr_content">`
                                             <div class="line"></div>
 
                                             <div class="mr_c_title margin2">
-                                                <span class="icon_title"><img src="./img/common/chk_2.png" alt=""></span>
+                                                <span class="icon_title"><img src="../img/common/chk_2.png" alt=""></span>
                                                 ${CENT_LIST[0][cen_v].sub_title[3]}
                                             </div>
 
@@ -1445,7 +1445,7 @@ cent_list+= `<div class="mr_content">`
                                             </div>
                                             <div class="line"></div>
                                             <div class="mr_c_title margin2">
-                                                <span class="icon_title"><img src="./img/common/chk_2.png" alt=""></span>
+                                                <span class="icon_title"><img src="../img/common/chk_2.png" alt=""></span>
                                                 ${CENT_LIST[0][cen_v].sub_title[2]}
                                             </div>
                                             <div class="margin_bottom_30">

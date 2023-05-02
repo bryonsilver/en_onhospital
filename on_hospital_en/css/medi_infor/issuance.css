@@ -312,6 +312,10 @@ th {border-bottom: 1px solid #999;}
         align-items: center;
     }
 }
+@media (max-width: 534px) {
+    .flex_span {display: flex; flex-direction: column;}
+    .moblie_none {display: none;}
+}
 @media (max-width: 400px) {
     .btn-download {
         width: 100%;

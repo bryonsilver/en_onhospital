@@ -1541,8 +1541,17 @@ body {
     padding: 20px 0;
     color: #fff;
     box-sizing: border-box;
-    display: inline-block;
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
+.footer_img_check_span {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 15px;
+}
+.footer_img_check_span img {width: 100%; max-width: 40px;}
 .ft_detail_box {
     box-sizing: border-box;
     color: rgba(255,255,255,.5);
@@ -1929,6 +1938,14 @@ body {
         padding: 0 !important;
     }
     .f_text_box, .f_nav_ul {padding: 0 !important;}
+
+
+
+    .ft_logo_box {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .footer_img_check_span {font-size: 13px;}
 }
 @media (max-width: 450px) {
     .h_flex {padding: 0 10px;}

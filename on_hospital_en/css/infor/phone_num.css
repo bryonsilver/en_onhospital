@@ -130,6 +130,7 @@ svg:not(:root).svg-inline--fa {
         overflow-x: scroll;
         -webkit-overflow-scrolling: touch;
     }
+    .flex_span {display: flex; flex-direction: column;}
 }
 @media (max-width: 770px) {
     .main > .container {

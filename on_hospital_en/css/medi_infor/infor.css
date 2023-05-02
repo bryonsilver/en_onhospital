@@ -127,7 +127,7 @@ table * {
 .two::after {
     content: '';
     left: 49.5%;
-    bottom: -83px;
+    bottom: -61px;
     width: 1px;
     height: 24px;
     border-right: 1px solid;
@@ -634,10 +634,10 @@ svg:not(:root).svg-inline--fa {
        height: 50px;
     }
     .po_9 {
-        top: 320px;
+        top: 420px;
         height: 50px;
         left: 77%;
-        opacity: 0 !important;
+        opacity: 1 !important;
     }
     .po_6 {
         width: 100%;
@@ -676,7 +676,7 @@ svg:not(:root).svg-inline--fa {
     }
     .po_8 {
         height: 50px;
-        top: 350px;
+        top: 390px;
     }
     .po_7 {
         left: 77%;
@@ -685,14 +685,14 @@ svg:not(:root).svg-inline--fa {
     }
     .po_10 {
         height: 50px;
-        top: 435px;
+        top: 475px;
     }
     .po_12 {
         height: 30px;
-        top: 530px ;
+        top: 570px ;
     }
     .po_11 {
-       top: 450px;
+       top: 490px;
        height: 100px;
     }
     .po_9 {

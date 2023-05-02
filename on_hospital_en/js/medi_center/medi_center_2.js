@@ -110,7 +110,7 @@ cent_list+= `<div class="mr_content">`
                     cent_list += `<div class="mr_c_title"></div>`
                 } else {
                     cent_list += `<div class="mr_c_title">
-                                        <span class="icon_title"><img src="./img/common/chk_2.png" alt=""></span>
+                                        <span class="icon_title"><img src="../img/common/chk_2.png" alt=""></span>
                                         ${CENT_LIST[0][cen_v2].sub_title[0]}
                                     </div>`
                 }
@@ -321,7 +321,7 @@ cent_list+= `<div class="mr_content">`
                             if (cen_v2 == 20 || cen_v2 == 16 || cen_v2 == 1 || cen_v2 == 11) {
                                 cent_list += `<div class="mr_c_title"></div>`
                             } else {
-                                cent_list +=  `<div class="mr_c_title margin2 margin${CENT_LIST[0][cen_v2].item_no}"><span class="icon_title"><img src="./img/common/chk_2.png" alt=""></span>${CENT_LIST[0][cen_v2].sub_title[1]}</div>`
+                                cent_list +=  `<div class="mr_c_title margin2 margin${CENT_LIST[0][cen_v2].item_no}"><span class="icon_title"><img src="../img/common/chk_2.png" alt=""></span>${CENT_LIST[0][cen_v2].sub_title[1]}</div>`
                             }
                     if (cen_v2 == 12) {
                         cent_list += `<div class="mr_c_content cent_13">
