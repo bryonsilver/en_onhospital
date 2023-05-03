@@ -74,6 +74,9 @@ body {font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple
     display: none;
 }
 
+.desk_more_btn {}
+.mobile_more_btn {display: none;}
+
 
 
 

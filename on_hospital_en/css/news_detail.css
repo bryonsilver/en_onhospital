@@ -217,4 +217,11 @@ body {font-family:'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple 
 
 @media (max-width:600px) {
     .mr_t_date {flex-direction: column;}
+    .mr_t_title {font-size: 17px;}
+    .mr_t_date {font-size: 12px;}
+    .img_text {font-size: 10px;}
+    .center_con {font-size: 15px; margin-bottom: 15px !important;}
+    .sources_box div {font-size: 12px;}
+    .blue_bold_t  {font-size: 14px;}
+    .mr_main_comment {font-size: 13px;}
 }

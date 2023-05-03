@@ -710,6 +710,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $(window).scroll(function(){
         var scroll = $(window).scrollTop();
+        console.log('scroll :', scroll)
 
         if (scroll == 0) {
             $(".indi_1").trigger('click');
@@ -730,7 +731,8 @@ $(document).ready(function(){
             $(".indi_5").trigger('click');
         }
     })
-  })
+})
+  
 
   var swiper = new Swiper(".mySwiper6", {
     slidesPerView: 3,

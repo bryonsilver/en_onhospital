@@ -155,7 +155,7 @@ const NEWS_DETAIL = [
                 'Manager Lee Il-woo emphasized, “The cause of tinnitus is unclear, so there are few people who persistently go to the hospital.”.'
             ],
             editor:'Reporter Ahn Do-il doit0805@getnews.co.kr',
-            sources:'Source: Global Economic Daily (https://www.getnews.co.kr/news/articleView.html?idxno=621452)' ,
+            sources:'Source: Global Economic Daily (https://www.getnews.co.kr/news<span>/articleView.html?idxno=621452)</span>' ,
             a_link:'https://www.getnews.co.kr/news/articleView.html?idxno=621452',
             img_src:'media/돌발성_난청_이명.jpg'},
         {cate_no:2, 
@@ -175,7 +175,7 @@ const NEWS_DETAIL = [
                 'Kim Dong-heon, director of the hospital, said, "We will work harder and support the hospice ward patients and their families so that they can receive comfort and lead meaningful lives every day.'
             ],
             editor:'Reporter Jeongheon Park, Busan/Gyeongnam, ilyo33@ilyo.co.kr',
-            sources:'Source: Sunday Newspaper (https://ilyo.co.kr/?ac=article_view&entry_id=449016)' ,
+            sources:'Source: Sunday Newspaper (https://ilyo.co.kr/?ac=<span>article_view&entry_id=449016)</span>' ,
             a_link:'https://ilyo.co.kr/?ac=article_view&entry_id=449016',
             img_src:'media/호스피스환자_가족에_팬지꽃_멍게_비빔밥.png'},
         {cate_no:2, 
@@ -203,7 +203,7 @@ const NEWS_DETAIL = [
                 'Jeong-geun, chairman of the Green Doctors Foundation, said, “Director Oh, who has a spirit of volunteerism, did not inform his colleagues about his illness. At the end of the (volunteer schedule), all 15 crew members who knew this were anxiously taking care of the victims throughout the rest of the schedule. It is enough to become an example for many people, regardless of nationality or religion.'
             ],
             editor:'Reporter Hyewon Lee hyewon@donga.com',
-            sources:'Source: Donga.com(https://www.donga.com/news/Society/article/all/20230320/118435491/2)',
+            sources:'Source: Donga.com(https://www.donga.com/news/<span>Society/article/all/20230320/118435491/2)</span>',
             a_link:'https://www.donga.com/news/Society/article/all/20230320/118435491/2',
             img_src:'media/튀르키예_의료지원_절실_2.jpg'},
         // {cate_no:2, 

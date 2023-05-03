@@ -49,16 +49,27 @@ body {font-family: 'Noto Sans KR';}
     display: inline-block;
 }
 .dm_ul td {
-    font-weight: 500;
+    font-weight: 300;
     width: 100%;
     margin-bottom: 10px;
 }
 .dm_ul tr {
     display: flex;
     gap: 10px;
-    align-items: flex-start;
+    /* align-items: flex-start; */
+
+    /* 한글버전에서 가져온 것 */
+    align-items: center;
 }
 
+ /* 한글버전에서 가져온 것 */
+.dm_ul tr:nth-of-type(1) {
+    align-items: flex-start !important;
+}
+.dm_ul tr:nth-of-type(1) th {
+    margin-top: 10px;
+}
+/* ///////////////////////////////////////// */
 
 .address_copy img {
     width: 86%;
@@ -70,6 +81,11 @@ body {font-family: 'Noto Sans KR';}
     margin-left: 10px;
     font-size: 12px;
     color: #ee791c;
+}
+.address_span {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    gap: 10px;
 }
 .bold2 {font-weight: 500 !important;}
 .address_m img,
@@ -238,6 +254,11 @@ body {font-family: 'Noto Sans KR';}
 .d_main_b .bus_box {margin-bottom: 60px;}
 
 
+/* 한글버전에서 가져온 것 */
+
+.d_mb_mobile {display: none;}
+
+/* //////////////////////////////////////// */
 
 @media (max-width:1400px) {
     .w {flex-direction: column;}
@@ -263,6 +284,7 @@ body {font-family: 'Noto Sans KR';}
     .dm_ul {
         align-items: center;
         margin: 10px 0 46px 0;
+        gap: 10px;
     }
     .d_mb_title {padding: 10px 0;}
     .none_com {align-items: center !important;}
@@ -272,7 +294,7 @@ body {font-family: 'Noto Sans KR';}
     .d_main_b,
     .d_question,
     .address_box {
-        margin-top: 26px;
+        margin-top: 0px;
         /* border-bottom: 1px solid #efefef; */
     }
     .direction_main {margin-bottom: 50px;}
@@ -283,6 +305,13 @@ body {font-family: 'Noto Sans KR';}
     .bus_box {margin-bottom: 40px;}
 
     .w {flex-direction: row;}
+
+
+
+    .dm_ul {gap: 10px; align-items: flex-start;}
+    .m_right {margin-bottom: 60px;}
+    .d_main_b .bus_box {margin-bottom: 30px;}
+    .direction_main {margin-bottom: 0;}
 }
 @media (max-width:800px) {
     .dm_ul {gap: 20px;}
@@ -301,6 +330,13 @@ body {font-family: 'Noto Sans KR';}
 @media (max-width: 600px) {
     .text {font-size: 16px; text-align: center;}
     .w {flex-direction: column;}
+    .direc_total_box, .direc_total_box, .sns_ul { gap:  20px;}
+    .address_box .margin_0 {margin: 0 !important;}
+    .dm_ul  {margin: 5px 0px;}
+    .title_icon_box h4 {margin: 0 !important;}
+    .d_main_b .subway_box {margin-bottom: 20px;}
+    .title_icon_box {margin: 0 !important;}
+    .address_box, .d_main_b, .d_center {margin-top: 50px;}
 }
 @media (max-width: 500px) {
     .bus_box {margin-bottom: 20px;}
@@ -326,6 +362,28 @@ body {font-family: 'Noto Sans KR';}
         
         border-radius: 5px;
     }
+    .dm_ul th {
+        margin-top: 15px;
+    }
+
+
+
+    .address_span, .add_span {
+        display: grid;
+        gap: 5px;
+    }
+    .dm_ul div:nth-of-type(2) .add_span {grid-template-columns: 85px 1fr;}
+    .dm_ul div:nth-of-type(3) .add_span {grid-template-columns: 50px 1fr;}
+
+    /* 한글버전에서 가져온 거 */
+    .dm_ul tr {align-items: flex-start;}
+    .dm_ul th {margin-top: 14px;}
+    .d_main_b .bus_box {margin-bottom: 15px;}
+    .d_main_b .subway_box, .bus_box {margin-bottom: 0;}
+    .direc_total_box {gap: 20px;}
+    .address_box .margin_0 {margin: 0 !important;}
+    .d_mb_mobile {display: inline-block;}
+    .d_mb_desk {display: none;}
 }
 @media (max-width: 450px) {
     .direc_total_box {
@@ -334,7 +392,6 @@ body {font-family: 'Noto Sans KR';}
     .direc_total_box .dm_ul {
         margin: 10px 10px !important;
     }
-    .dm_ul {margin: 20px 10px;}
     .address_copy {
         width: 55px;
         height: 44px;
@@ -351,7 +408,7 @@ body {font-family: 'Noto Sans KR';}
         margin-top: 5px;
         margin-bottom: 13px;
     } */
-    .sns_ul {margin-top: 0 !important;}   
+    .sns_ul {margin-top: 30px !important;}   
     .wrap_map {height: 200px !important;} 
 }
 @media (max-width: 400px) {
@@ -365,7 +422,6 @@ body {font-family: 'Noto Sans KR';}
         box-sizing: border-box;
         padding: 10px 10px;
         max-width: 112px;
-        margin-top: 24px;
         border-radius: 5px;
     }
 }
