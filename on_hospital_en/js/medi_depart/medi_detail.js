@@ -7,7 +7,7 @@ $(document).ready(function(){
     console.log(value)
     const item = urlParams.get('item');
     console.log(item)
-
+    
     
      var $el = $('#quick');
         var $window = $(window);
@@ -69,7 +69,10 @@ $(document).ready(function(){
                             <div>
                                 <div class="content_box">
                                     <div class="c_left_box">
-                                        <div class="l_img_box"><img src="./img/medi_details/${DOCTOR[value][i].img_src}.jpg" alt="d_${DOCTOR[value][i].img_src}_img" class="l_img"></div>
+                                        <div class="l_img_box">
+                                            <img src="./img/medi_details/${DOCTOR[value][i].img_src}.jpg" alt="d_${DOCTOR[value][i].img_src}_img" class="l_img">
+                                            <a href="./medi_more.html?cate=${DOCTOR[value][i].cate_no}&item=${DOCTOR[value][i].item_no}" class="more_btn desk_more_btn">자세히보기</a> 
+                                        </div>
                                     </div>
                                     <div class="c_right_box">
                                         <div class="list_div cr_top_box">
@@ -78,15 +81,15 @@ $(document).ready(function(){
                                                     <span class="name_li">${DOCTOR[value][i].name}</span>
                                                 </li>
                                                 <li class="list_li">
-                                                    <span>Department</span>
+                                                    <span>진료과</span>
                                                     <span class="li_span">${DOCTOR[value][i].medi_con}</span>
                                                 </li>
                                                 <li class="list_li">
-                                                    <span>Main Career</span>
-                                                    <span class="li_span">${DOCTOR[value][i].medi_his_con}</span>
+                                                    <span>대표약력</span>
+                                                    <span class="li_span" style="color:#dc3545">${DOCTOR[value][i].medi_his_con}</span>
                                                 </li>
                                                 <li class="list_li">
-                                                    <span>Specialty</span>
+                                                    <span>전문분야</span>
                                                     <span class="li_span">${DOCTOR[value][i].one_speci_con}</span>
                                                 </li>
                                             </ul>
@@ -97,16 +100,16 @@ $(document).ready(function(){
                                                 <table class="bottom_table">
                                                     <thead class="t_bg_light">
                                                         <th></th>
-                                                        <th>Mon</th>
-                                                        <th>Tue</th>
-                                                        <th>Wed</th>
-                                                        <th>Thur</th>
-                                                        <th>Fri</th>
-                                                        <th>Sat</th>
+                                                        <th>월</th>
+                                                        <th>화</th>
+                                                        <th>수</th>
+                                                        <th>목</th>
+                                                        <th>금</th>
+                                                        <th>토</th>
                                                     </thead>
                                                     <tbody>
                                                         <tr>
-                                                            <th class="t_bg_light">AM</th>`
+                                                            <th class="t_bg_light">오전</th>`
                                                         for(let j=0; j<DOCTOR[value][i].morn_color.length; j++) {
                                                         list +=`<td>
                                                                 <div><span class="text_circle ${DOCTOR[value][i].morn_color[j]}"></span></div>`
@@ -114,7 +117,7 @@ $(document).ready(function(){
                                                     list +=`</td>
                                                         </tr>
                                                         <tr>
-                                                            <th class="t_bg_light">PM</th>`
+                                                            <th class="t_bg_light">오후</th>`
                                                         for(let j=0; j<DOCTOR[value][i].afte_color.length; j++) {
                                                         list +=`<td>
                                                                 <div><span class="text_circle ${DOCTOR[value][i].afte_color[j]}"></span></div>`
@@ -122,7 +125,7 @@ $(document).ready(function(){
                                                     list +=`</td>
                                                         </tr>
                                                         <tr>
-                                                            <th class="t_bg_light">Note</th>`
+                                                            <th class="t_bg_light">비고</th>`
                                                             if(DOCTOR[value][i].note != null) {
                                                             list +=`<td class="text_left" colspan="6">${DOCTOR[value][i].note}</td>`
                                                             } else{
@@ -135,24 +138,24 @@ $(document).ready(function(){
                                             <div class="text_ex_box">
                                                 <span>
                                                     <div class="circle cir_primary"></div>
-                                                    <span class="text_primary">Medical Treatment</span>
+                                                    <span class="text_primary">진료</span>
                                                 </span>
                                                 <span>
                                                     <div class="circle cir_danger"></div>
-                                                    <span class="text_danger">Surgery/Test</span>
+                                                    <span class="text_danger">수술/검사</span>
                                                 </span>
                                                 <span>
                                                     <div class="circle cir_intensive_care_unit"></div>
-                                                    <span class="text_intensive_care_unit">Intensive Care Unit (ICU)</span>
+                                                    <span class="text_intensive_care_unit">중환자실</span>
                                                 </span>
                                                 <span>
                                                     <div class="circle cir_success"></div>
-                                                    <span class="text_success">Inquiry</span>
+                                                    <span class="text_success">문의</span>
                                                 </span>
                                             </div>
                                         </div>
                                         <div class="l_more_btn">
-                                            <a href="./medi_more.html?cate=${DOCTOR[value][i].cate_no}&item=${DOCTOR[value][i].item_no}" class="more_btn">See More</a> 
+                                            <a href="./medi_more.html?cate=${DOCTOR[value][i].cate_no}&item=${DOCTOR[value][i].item_no}" class="more_btn mobile_more_btn">자세히보기</a> 
                                         </div>
                                     </div>
                                 </div>
@@ -164,46 +167,6 @@ $(document).ready(function(){
             console.log(10)
         }
        
-    
-        for(let i=0; i<DOCTOR[value].length; i++) {
-                list_2 = `  
-                            <div class="odb_box">
-                                <div class="odb_outbox out_${DOCTOR[value][i].img_src}">
-                                    <span class="odb_img_box">
-                                        <img src="./img/medi_details/${DOCTOR[value][i].img_src}.jpg" alt="odb_img d_${DOCTOR[value][i].img_src}_img" class="odb_img">
-                                    </span>
-                                    <div class="odb_text_box">
-                                        <div class="odb_name">${DOCTOR[value][i].name}</div>
-                                        <div class="odb_pro">
-                                            <span>${DOCTOR[value][i].one_speci_con}</span>
-                                            <span class="more_btn">more</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="odb_innerbox in_${DOCTOR[value][i].img_src}">
-                                    <div class="ob_in_text_box">
-                                        <span class="obin_x">X</span>
-                                        <div class="ob_in_flex">
-                                            <div class="ob_in_name">${DOCTOR[value][i].name}</div>
-                                            <div class="ob_in_pro">
-                                            ${DOCTOR[value][i].one_speci_con}
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ob_in_but_box">
-                                        <a href="./medi_more.html?cate=${DOCTOR[value][i].cate_no}&item=${DOCTOR[value][i].item_no}">
-                                            <img src="./img/medi_details/doctor_w.png" alt="">
-                                            <span>Introduction of medical staff</span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            
-                            `;
-                            
-            // $('.one_doc_box_grid').append(list_2);
-        }
     
 
         // $(document).on('click','.more_btn', function(e){   
@@ -238,30 +201,5 @@ $(document).ready(function(){
             history.go(-1);
             //뒤로 가는 기능 , 전페이지로 이동
         })
-
-
-
-        // 구글번역 뒤로갔다가 돌아왔을때 번역기능 사라지는 것 제압
-	 var s = document.createElement("script");
-	 var a = document.createElement("script");
-
-	window.onpageshow = function(event) {
-		if ( event.persisted || (window.performance && window.performance.navigation.type == 2)) {
-			console.log('되고 있나요? onpageshow')
-	// Back Forward Cache로 브라우저가 로딩될 경우 혹은 브라우저 뒤로가기 했을 경우
-			$('.reloding').remove();
-			$('.google_lang_box').prepend("<div id='google_translate_element' class='back'></div>")
-			
-			s.type = "text/javascript";
-			s.src = "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
-			a.type = "text/javascript";
-			a.src = "./js/common/google.js";
-			$("head").append(s);
-			$("head").append(a);
-			location.reload();
-
-			console.log('구글번역기능 가즈아!!')
-		}
-	}
     
     })

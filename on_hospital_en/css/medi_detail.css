@@ -3,6 +3,9 @@ body {font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple
     padding: 15px 0;
 }
 
+.l_more_btn {display: none;}
+
+
 .top_title_box_2 > img,
 .top_title_box > img {
     width: 100%;
@@ -17,11 +20,12 @@ body {font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple
 .text_danger {color: #dc3545;}
 .text_primary {color: #0d6efd;}
 .text_success {color: #198754;}
+.text_intensive_care_unit {color: #ffc107;}
+
 .cir_danger {background-color: #dc3545;}
 .cir_primary {background-color: #0d6efd;}
 .cir_success {background-color: #198754;}
 .cir_intensive_care_unit {background-color: #ffc107;}
-.text_intensive_care_unit {color: #ffc107;}
 
 
 .top_title{
@@ -59,6 +63,7 @@ body {font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple
     margin-top: 40px !important;
     color: #fff;
     text-align: center;
+    gap: 20px;
 }
 .mobile_onn{
     display: none;
@@ -74,8 +79,7 @@ body {font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple
     display: none;
 }
 
-.desk_more_btn {}
-.mobile_more_btn {display: none;}
+
 
 
 
@@ -120,11 +124,12 @@ body {font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple
 .one_doctor_box {
     width: 100%;
     /* border-bottom: 1px solid #eee; */
-    padding: 15px 0;
+    padding: 0 15px;
     box-sizing: border-box;
 }
 .content_box {
     display: flex;
+    gap: 20px;
 }
 .l_img_box {
     position: relative;
@@ -150,7 +155,7 @@ body {font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple
 }
 
 .c_left_box {
-    width: 50%;
+    width: 25%;
 }
 .l_more_btn {
     width: 100%;
@@ -501,7 +506,7 @@ body {font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple
 }
 .list_li {
     display: grid;
-    grid-template-columns: 150px 1fr;
+    grid-template-columns: 80px 1fr;
 
     font-size: 16px;
     font-weight: 400;
@@ -522,11 +527,6 @@ body {font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple
     font-size: 22px;
     font-weight: 600 !important;
     color: #333;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 .list_li:nth-of-type(1) {grid-template-columns: 1fr; text-align: center;}
 
@@ -556,7 +556,7 @@ body {font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple
     .mobile_onn {display: inline-block;}
     .desk_onn, .mobile_onn2 {display: none;}
     .back_btn {display: flex;}
-    .title_box_onn {font-size: 35px;}
+    .title_box_onn {font-size: 40px;}
     #mid {max-width: 960px;}
     .content_box {
         display: flex;
@@ -566,7 +566,7 @@ body {font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple
     .c_right_box {width: 50%;}
     .top_first  {width: 17%;}
     .bottom_table > tbody th {width: 70px;}
-    .text_ex_box {padding: 10px 0; flex-wrap: wrap;}
+    .text_ex_box {padding: 10px 0;}
     .center_banner a {display: flex; justify-content: center;}
     .medi_banner {width: 80%;}
     .bottom_table > tbody th, .bottom_table > thead th, .bottom_table > tbody td {padding: 12px 5px;}
@@ -585,13 +585,6 @@ body {font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple
     
 }
 @media (max-width: 800px) {
-    .list_li {
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-        text-align: center;
-        margin-bottom: 10px;
-    }
     .c_left_box {width: 35%;}
     .icon_title {max-height: 68px;}
     .c_right_box {width: 55%;}
@@ -613,17 +606,22 @@ body {font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple
     .top_dl {margin: 0;}
     .cr_dd2, .cr_dd {flex-wrap: wrap;}
     .top_title_box_2, .medi_banner {width: 100%;}
-    .title_box_onn {font-size: 35px;}
+    .title_box_onn {font-size: 40px;}
+
+
+
+    .mobile_more_btn {display: inline-block;}
+    .desk_more_btn {display: none;}
+    .l_more_btn {display: inline-block;}
+    .content_box {gap: 0;}
 }
 @media (max-width:600px) {
-    .name_li {font-size: 20px;}
     .icon_title {max-width: 7%; max-height: 40px;}
-    .title_box_onn {font-size: 30px; gap: 10px;}
+    .title_box_onn {font-size: 35px; gap: 10px;}
     .top_title_box_2, .medi_banner {width: 100%;}
-    .title_box_onn, .onn_desk_title {width: 100%; padding: 0 20px; box-sizing: border-box;}
+    .title_box_onn, .onn_desk_title {width: 100%;}
 }
 @media (max-width: 575px) {
-    .li_span {font-size: 12px;}
     #mid {
         width: 100%; 
         max-width: 100%; 
@@ -644,18 +642,6 @@ body {font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple
     .top_title {font-size: 25px; font-weight: 600; margin-bottom: 20px; margin-top: 40px;}
 }
 @media (max-width: 530px) {
-    .top_title_box_2,
-    .top_title_box {
-        background: url(../img/common/medi_bg_m_2.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 150px;
-    }
-    .top_title_box_2 > img, .top_title_box > img {display: none;}
-    .title_box_onn {flex-direction: column; gap: 20px;}
-    .icon_title {max-width: 19% !important;}
-
     .cr_bot {width: 100%; overflow: auto;}
     .bottom_table {white-space: nowrap; border-collapse: collapse;}
     .cr_bot::-webkit-scrollbar {
@@ -684,30 +670,47 @@ body {font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple
     .top_title_box_2 {display: block;}
     .top_title_box {display: none;}
     .icon_title {
-        /* max-width: 9%; */
+        max-width: 9%;
         max-height: 37px;
     }
 }
 
 
 @media (max-width:400px) {
-    .name_li {font-size: 17px;}
-    .title_box_onn {font-size: 25px;}
+    .icon_title {max-width: 13%; height: 33px;}
+    .title_box_onn {font-size: 30px; gap: 10px;}
     .icon_title {
-        /* max-width: 9%; */
+        max-width: 9%;
         height: 33px;
     }
+
+
+
+    /* 진료과 상세 설명 */
+    .list_li {font-size: 13px;  grid-template-columns: 60px 1fr;}
+    .name_li {font-size: 19px;}
+    .bottom_table > thead th, 
+    .bottom_table > tbody td {font-size: 11px;}
+    .bottom_table > tbody th {width: 30px;}
+    .bottom_table > tbody th, .bottom_table > thead th, .bottom_table > tbody td {padding: 5px 4px;}
+
+    .text_circle {width: 10px; height: 10px;}
+    .circle {width: 8px; height: 8px;}
+    .text_ex_box span {font-size: 10px;}
+    .text_ex_box span {gap: 3px;}
+    .text_ex_box {gap: 11px;}
+    body {font-size: 11px;}
 }
 @media (max-width: 300px) {
     .cr_center_box > iframe {
         height: 200px;
     }
     .title_box_onn {
-        font-size: 20px;
+        font-size: 25px;
+        gap: 10px;
     }
     .icon_title {
-        /* max-width: 10%; */
+        max-width: 10%;
         height: 28px;
     }
-    .list_li {grid-template-columns: 120px 1fr;}
 }
