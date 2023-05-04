@@ -22,7 +22,10 @@ body {
     font-size: 16px;
     opacity: 0;
     margin-bottom: 80px;
+    width: 100%;
+    text-align: center;
 }
+
 
 @media (max-width: 1260px) {
     .main .container {
@@ -41,6 +44,12 @@ body {
     .Info_wrap {
         max-width: 600px;
     } */
+}
+@media (max-width: 1150px) {
+    .iframe_desk {
+        display: none;
+    }
+    
 }
 @media (max-width: 1160px) {
     .main .container {
