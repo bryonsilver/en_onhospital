@@ -621,7 +621,7 @@ html { scroll-behavior: smooth;}
 }
 
 .mySwiper .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
-    bottom: 30px !important;
+    bottom: 12px !important;
 }
 .mySwiper .swiper-pagination-bullet-active {
     background-color: #ff7b00;
@@ -902,7 +902,7 @@ html { scroll-behavior: smooth;}
     color: #333;
 }
 .two_line {font-size: 18px;}
-.o_line {font-size: 20px;}
+.o_line {font-size: 18px;}
 .n_swiper_m {
     width: 85%;
     margin:  auto;
@@ -1571,7 +1571,7 @@ html { scroll-behavior: smooth;}
       }
       
     .two_line {font-size: 15px;}
-    .o_line {font-size: 17px;}
+    .o_line {font-size: 15px;}
       .c_group_tv_box {padding-bottom: 50px;}
       .mb_text_medi_moblie {
         padding: 0 20px;
@@ -1673,7 +1673,7 @@ html { scroll-behavior: smooth;}
 }
 @media (max-width: 300px) {
     .two_line {font-size: 12px;}
-    .o_line {font-size: 13px;}
+    .o_line {font-size: 12px;}
 
     .width {transform: translateX(0px);}
     .semi_black_title  {font-size: 16px !important; font-weight: 700;}

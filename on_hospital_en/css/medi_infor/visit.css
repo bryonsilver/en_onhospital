@@ -95,7 +95,6 @@ table {
     }
 }
 @media (max-width: 280px) {
-    .top_title {font-size: 23px;}
     .table-phone tbody tr:nth-of-type(2) th {display: flex; flex-direction: column;}
     .second_table th, 
     .first_table th,

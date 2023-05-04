@@ -197,6 +197,14 @@ margin: 0 !important;
 .call_box .mr-4 {
 margin-bottom: 3px;
 }
+
+
+.call_box span:nth-of-type(1) {
+  display: flex;
+  align-items: center;
+}
+
+
 .call_svg {
 width: 60%;
 }
@@ -279,7 +287,7 @@ color: #6A3907;
 }
 
 .context_top {
-margin-top: 56px !important;
+margin-top: 30px !important;
 }
 
 .cont {
@@ -324,7 +332,7 @@ vertical-align: -0.125em;
 display: flex;
 align-items: center;
 }
-.call_box {gap: 10px;}
+.call_box {gap: 5px;}
 .call_box span:last-of-type {margin-bottom: 2px;}
 
 
@@ -335,23 +343,27 @@ gap: 20px;
 grid-template-columns: repeat(2, 1fr);
 }
 .best_re {
-width: 100%;
-/* background-color: #FBF8F1; */
-border: 10px solid #FBF8F1;
-border-radius: 10px;
-padding: 20px 20px;
-box-sizing: border-box;
-text-align: center;
+  width: 100%;
+  /* background-color: #FBF8F1; */
+  border: 10px solid #FBF8F1;
+  border-radius: 10px;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.best_re:nth-of-type(1) h5 {
+  display: flex;
+  flex-direction: column;
 }
 .pl-5 {
-font-size: 18px;
-font-weight: 500;
+  font-size: 18px;
+  font-weight: 500;
 }
 .pl-5 b {
 font-weight: 900;
 }
 .section1 {
-margin: 36px 0;
+margin: 36px 0 0;
 }
 .section1_span {
 color: #ee791c !important;
@@ -529,23 +541,44 @@ justify-content: center;
 
 }
 @media (max-width: 800px) {
+  .mySwiper2 {width: 100% !important;}
+  .mySwiper2 .swiper-slide img {
+    width: 120%;
+    transform: translateX(-10%);
+  }
+  .mySwiper2 .swiper-pagination-bullets.swiper-pagination-horizontal {bottom: -20px  !important;}
+  .swiper {overflow: inherit !important;}
 .best_box {
   grid-template-columns: repeat(1, 1fr);
 }
 .table_b {flex-direction: column;}
 .font-myeongjo {font-size: 18px;}
 }
-@media (max-width: 600px) {
 
-.mySwiper2 .swiper-slide img {
-  width: 100%;
-  transform: translateX(0);
+
+@media (max-width: 700px) {
+  .call_box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
+
+@media (max-width: 600px) {
 .mySwiper_1 {max-width: 100px !important;}
 .cont h5 {font-size: 16px;}
 .font-myeongjo {font-size: 16px;}
 }
 @media (max-width: 450px) {
+  .section2 .mb-4,
+  .col-lg-10 h6, 
+  .col-lg-10 .mb-3, .col-lg-10 
+  {font-size: 13px !important;}
+  .call_box span:nth-of-type(1) {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
 
 .call_box {flex-wrap: wrap !important;}
 .img_box_call {width: 25px; height: 25px; padding-right: 5px;}
@@ -556,28 +589,10 @@ justify-content: center;
 }
 .cont .title2 {font-size: 24px;}
 .best_re {padding: 10px 10px;}
-.section2 .mb-3, .section1 .mb-3, .section1 .mb-4 {font-size: 17px;}
+.section2 .mb-3, .section1 .mb-3, .section1 .mb-4 {font-size: 14px;}
 .font-myeongjo {font-size: 14px;}
 /* .swiper {overflow: inherit !important;} */
 
-
-
-.mySwiper2 .swiper-pagination-fraction, 
-.mySwiper2 .swiper-pagination-custom, 
-.mySwiper2 .swiper-horizontal > .mySwiper2 .swiper-pagination-bullets, 
-.mySwiper2 .swiper-pagination-bullets.swiper-pagination-horizontal,
-.mySwiper1 .swiper-pagination-fraction, 
-.mySwiper1 .swiper-pagination-custom, 
-.mySwiper1 .swiper-horizontal > .mySwiper1 .swiper-pagination-bullets, 
-.mySwiper1 .swiper-pagination-bullets.swiper-pagination-horizontal {
-  bottom: -00px !important;
-  right: 110px !important;
-}
-.best_re:nth-of-type(4) h5 {
-  display: flex;
-  flex-direction: column;
-}
-.context_top {margin-top: 46px !important;}
 .section1 {
   margin-top: 16px;
 }
@@ -593,7 +608,6 @@ justify-content: center;
 .mySwiper_1  {width: 100%; max-width: 100% ;}
 .mySwiper3 {margin-left: 10px !important;}
 .box {height: calc(20% / 3);}
-.div { margin-bottom: 66px;}
 .line_box,
 .border .bg-color1 {line-height: 60px !important;}
 .table_b {font-size: 20px;}
@@ -604,7 +618,7 @@ justify-content: center;
 .no-gutters, .swiper_flex {flex-direction: column;}
 .mySwiper3 .swiper-slide {width: 50px !important;}
 .mySwiper_1 {max-width: 100% !important;}
-.margin_b {margin-top: 16px !important;}
+.margin_b {margin-top: 46px !important;}
 .mySwiper_1 .swiper-slide {width: 50px !important;}
 
 

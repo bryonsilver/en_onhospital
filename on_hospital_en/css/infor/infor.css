@@ -52,16 +52,6 @@ body {font-family: 'Noto Sans KR'; }
     align-items: flex-start;
     gap: 5px;
 }
-.list {
-    width: 5px;
-    height: 5px;
-    min-width: 5px;
-    max-width: 5px;
-    background-color: #ffffff;
-    border-radius: 50%;
-    border: 5px solid #ff7c00;
-    margin-top: 5px;
-}
 .doc_n_box {
     display: flex;
     flex-direction: column;
@@ -125,6 +115,10 @@ body {font-family: 'Noto Sans KR'; }
 .img_box_text div {
     font-size: 16px;
 }
+.img_box_text:nth-of-type(2) h3.ext_n,
+.img_box_text:nth-of-type(3) h3.ext_n {
+    line-height: 50px;
+}
 
 
 .big_quo_m {
@@ -182,6 +176,7 @@ body {font-family: 'Noto Sans KR'; }
 }
 
 @media (max-width: 777px) {
+    .img_box_text:nth-of-type(2) h3.ext_n, .img_box_text:nth-of-type(3) h3.ext_n {line-height: normal;}
     /* .img_box_text div {font-size: 15px;}
     .ext_n {font-size: 17px;}
     .name_d {font-size: 22px;}
@@ -219,9 +214,9 @@ body {font-family: 'Noto Sans KR'; }
     .box_line_infor {
         margin: 0.5rem auto !important;
     }
-    .list {min-width: 5px;}
 }
 @media (max-width: 400px) {
+    .list_b {font-size: 13px;}
     .frist_line {
         gap: 20px; 
         flex-direction: column; 
@@ -236,17 +231,10 @@ body {font-family: 'Noto Sans KR'; }
     .col-lg-12 h4 .small_font {font-size: 15px;}
     .img_box_text div {
         font-size: 14px;
+        text-align: center;
     }
 }
 @media (max-width:300px) {
     .img_box_text {flex-direction: column; align-items: center;}
     .img_box_text img {width: 50%;}
-    .list {
-        min-width: 5px;
-        max-width: 5px;
-    }
-    .moblie_ext_n span:nth-of-type(2) {
-        border-top: 1px solid #ddd;
-        margin-top: 5px;
-    }
 }

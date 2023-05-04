@@ -448,6 +448,13 @@ body {font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple
     margin-top: 22px;
     box-sizing: border-box;
     justify-content: center;
+    align-items: center;
+}
+.btn_rt {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
 }
 .rt_btn{
     padding: 10px 15px;
@@ -557,7 +564,7 @@ body {font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple
         box-sizing: border-box;
     }
     .rt_abc_box h5, .rt_basic_box h5 {
-        font-size: 13px !important;
+        font-size: 12px !important;
         line-height: 1.2;
          padding: 7px 0;
          box-sizing: border-box;
@@ -586,6 +593,9 @@ body {font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple
 @media (max-width:540px) {
     .sec_scroll {
         max-width: 96.1%;
+    }
+    .btn_medi {
+        flex-direction: column;
     }
 }
 @media (max-width:500px) {
@@ -618,8 +628,8 @@ body {font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple
     .main .container {padding: 0 10px !important;}
     .m_right {padding: 0 0 !important;}
     .radio_tab_box4, .radio_tab_box2, .rt_box {
-        grid-template-columns: repeat(1, 1fr) ;
+        grid-template-columns: repeat(2, 1fr) ;
     }
-    .rt_a_box, .rt_b_box {height: 150px !important;}
+    .rt_a_box, .rt_b_box {height: 110px !important;}
     .rt_basic_box a, .rt_abc_box a {gap: 3px !important;}
 }

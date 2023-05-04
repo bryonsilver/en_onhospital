@@ -197,7 +197,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_29.png',
                                         },
                                         {
-                                                name : 'Hepatobiliary and <span> Pancreatic Surgery</span>',
+                                                name : 'Hepatobiliary & <span> Pancreatic Surgery</span>',
                                                 a_link :'./medi_detail.html?value=2&item=15',
                                                 img_link :'./img/medi_details/icon/medi_icon_16.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_16.png',
@@ -209,13 +209,13 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_15.png',
                                         },
                                         {
-                                                name : 'Joint and Spine ',
+                                                name : 'Joint & Spine ',
                                                 a_link :'./medi_center.html?cen_v=21&item=29',
                                                 img_link :'./img/medi_details/icon/medi_icon_30.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_30.png',
                                         },
                                         {
-                                                name : 'Memory Improvement <span> Dementia Clinic</span>',
+                                                name : 'Dementia Clinic',
                                                 a_link :'./medi_detail.html?cen_v=102&item=41',
                                                 img_link :'./img/medi_details/icon/medi_icon_42.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_42.png',
@@ -233,7 +233,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
                                         },
                                         {
-                                                name : 'Anesthesiology <span> and Pain Medicine</span>',
+                                                name : 'Anesthesio<span>logy & Pain</span> <span> Medicine</span>',
                                                 a_link :'./medi_detail.html?value=5&item=22',
                                                 img_link :'./img/medi_details/icon/medi_icon_23.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_23.png',
@@ -251,7 +251,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
                                         },
                                         {    
-                                                name : 'Obstetrics and Gynecology',    
+                                                name : 'Obstetrics & Gynecology',    
                                                 a_link: './medi_detail.html?value=8&item=11',
                                                 img_link : './img/medi_details/icon/medi_icon_12.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_12.png',
@@ -269,19 +269,19 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_3.png',
                                         },
                                         {    
-                                                name : 'Gastroenterology',    
+                                                name : 'Gastro<span>enterology</span>',    
                                                 a_link: './medi_detail.html?value=11&item=0',
                                                 img_link : './img/medi_details/icon/medi_icon_1.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
                                         },
                                         {
-                                                name : 'Gastrointestinal <span> Cancer Surgery</span>',
+                                                name : 'Gastroi<span>ntestinal</span> <span> Cancer Surgery</span>',
                                                 a_link: './medi_center_2.html?cen_v2=6&item=45',
                                                 img_link : './img/medi_details/icon/medi_icon_abc_17.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_abc_17.png',
                                         },
                                         {    
-                                                name : 'Gastroenterology <span> Endoscopic Center</span>',    
+                                                name : 'GE <span> Endoscopic Center</span>',    
                                                 a_link: './medi_center.html?cen_v=5&item=31',
                                                 img_link : './img/medi_details/icon/medi_icon_32.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_32.png',
@@ -293,7 +293,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_4.png',
                                         },
                                         {    
-                                                name : 'Neurosurgery',    
+                                                name : 'Neuro<span>surgery</span>',    
                                                 a_link: './medi_detail.html?value=13&item=7',
                                                 img_link : './img/medi_details/icon/medi_icon_8.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_8.png',
@@ -305,7 +305,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
                                         },
                                         {
-                                                name : 'Cardio <span>Cardiocerebrovascular</span>',
+                                                name : 'Cardio <span>cerebro</span><span>vascular</span>',
                                                 a_link: './medi_center.html?cen_v=8&item=32',
                                                 img_link : './img/medi_details/icon/medi_icon_33.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_33.png',
@@ -323,7 +323,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_abc_24.png',
                                         },
                                         {    
-                                                name : 'Otolaryngology',    
+                                                name : 'Otolaryng<span>ology</span>',    
                                                 a_link: './medi_detail.html?value=17&item=13',
                                                 img_link : './img/medi_details/icon/medi_icon_14.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_14.png',
@@ -413,7 +413,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_29.png',
                                         },
                                         {    
-                                                name : 'Pancreatic  and <span>Biliary Tract</span>',    
+                                                name : 'Pancreatic  & <span>Biliary Tract</span>',    
                                                 a_link: './medi_detail.html?value=24&item=15',
                                                 img_link : './img/medi_details/icon/medi_icon_16.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_16.png',
@@ -527,7 +527,7 @@ $(document).ready(function(){
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_29.png',
                                                 },
                                                 {
-                                                        name : 'Hepatobiliary and <span> Pancreatic Surgery</span>',
+                                                        name : 'Hepatobiliary & <span> Pancreatic Surgery</span>',
                                                         a_link :'./medi_detail.html?value=2&item=15',
                                                         img_link :'./img/medi_details/icon/medi_icon_16.png',
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_16.png',
@@ -539,13 +539,13 @@ $(document).ready(function(){
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_15.png',
                                                 },
                                                 {
-                                                        name : 'Joint and Spine ',
+                                                        name : 'Joint & Spine ',
                                                         a_link :'./medi_center.html?cen_v=21&item=29',
                                                         img_link :'./img/medi_details/icon/medi_icon_30.png',
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_30.png',
                                                 },
                                                 {
-                                                        name : 'Memory Improvement <span> Dementia Clinic</span>',
+                                                        name : 'Dementia Clinic',
                                                         a_link :'./medi_detail.html?cen_v=102&item=41',
                                                         img_link :'./img/medi_details/icon/medi_icon_42.png',
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_42.png',
@@ -563,7 +563,7 @@ $(document).ready(function(){
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
                                                 },
                                                 {
-                                                        name : 'Anesthesiology <span> and Pain Medicine</span>',
+                                                        name : 'Anesthesio<span>logy & Pain</span> <span> Medicine</span>',
                                                         a_link :'./medi_detail.html?value=5&item=22',
                                                         img_link :'./img/medi_details/icon/medi_icon_23.png',
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_23.png',
@@ -581,7 +581,7 @@ $(document).ready(function(){
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
                                                 },
                                                 {    
-                                                        name : 'Obstetrics and Gynecology',    
+                                                        name : 'Obstetrics & Gynecology',    
                                                         a_link: './medi_detail.html?value=8&item=11',
                                                         img_link : './img/medi_details/icon/medi_icon_12.png',
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_12.png',
@@ -599,19 +599,19 @@ $(document).ready(function(){
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_3.png',
                                                 },
                                                 {    
-                                                        name : 'Gastroenterology',    
+                                                        name : 'Gastro<span>enterology</span>',    
                                                         a_link: './medi_detail.html?value=11&item=0',
                                                         img_link : './img/medi_details/icon/medi_icon_1.png',
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
                                                 },
                                                 {
-                                                        name : 'Gastrointestinal <span> Cancer Surgery</span>',
+                                                        name : 'Gastroi<span>ntestinal</span> <span> Cancer Surgery</span>',
                                                         a_link: './medi_center_2.html?cen_v2=6&item=45',
                                                         img_link : './img/medi_details/icon/medi_icon_abc_17.png',
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_abc_17.png',
                                                 },
                                                 {    
-                                                        name : 'Gastroenterology <span> endoscopic Center</span>',    
+                                                        name : 'GE <span> endoscopic Center</span>',    
                                                         a_link: './medi_center.html?cen_v=5&item=31',
                                                         img_link : './img/medi_details/icon/medi_icon_32.png',
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_32.png',
@@ -623,7 +623,7 @@ $(document).ready(function(){
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_4.png',
                                                 },
                                                 {    
-                                                        name : 'Neurosurgery',    
+                                                        name : 'Neuro<span>surgery</span>',    
                                                         a_link: './medi_detail.html?value=13&item=7',
                                                         img_link : './img/medi_details/icon/medi_icon_8.png',
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_8.png',
@@ -635,7 +635,7 @@ $(document).ready(function(){
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
                                                 },
                                                 {
-                                                        name : 'Cardio <span>Cardiocerebrovascular</span>',
+                                                        name : 'Cardio <span>cerebro</span><span>vascular</span>',
                                                         a_link: './medi_center.html?cen_v=8&item=32',
                                                         img_link : './img/medi_details/icon/medi_icon_33.png',
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_33.png',
@@ -653,7 +653,7 @@ $(document).ready(function(){
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_abc_24.png',
                                                 },
                                                 {    
-                                                        name : 'Otolaryngology',    
+                                                        name : 'Otolaryng<span>ology</span>',    
                                                         a_link: './medi_detail.html?value=17&item=13',
                                                         img_link : './img/medi_details/icon/medi_icon_14.png',
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_14.png',
@@ -743,7 +743,7 @@ $(document).ready(function(){
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_29.png',
                                                 },
                                                 {    
-                                                        name : 'Pancreatic  and <span>Biliary Tract</span>',    
+                                                        name : 'Pancreatic  & <span>Biliary Tract</span>',    
                                                         a_link: './medi_detail.html?value=24&item=15',
                                                         img_link : './img/medi_details/icon/medi_icon_16.png',
                                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_16.png',
@@ -860,7 +860,7 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_29.png',
                                 },
                                 {
-                                        name : 'Hepatobiliary and <span> Pancreatic Surgery</span>',
+                                        name : 'Hepatobiliary & <span> Pancreatic Surgery</span>',
                                         a_link :'./medi_detail.html?value=2&item=15',
                                         img_link :'./img/medi_details/icon/medi_icon_16.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_16.png',
@@ -872,13 +872,13 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_15.png',
                                 },
                                 {
-                                        name : 'Joint and Spine ',
+                                        name : 'Joint & Spine ',
                                         a_link :'./medi_center.html?cen_v=21&item=29',
                                         img_link :'./img/medi_details/icon/medi_icon_30.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_30.png',
                                 },
                                 {
-                                        name : 'Memory Improvement <span> Dementia Clinic</span>',
+                                        name : 'Dementia Clinic',
                                         a_link :'./medi_detail.html?cen_v=102&item=41',
                                         img_link :'./img/medi_details/icon/medi_icon_42.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_42.png',
@@ -896,7 +896,7 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
                                 },
                                 {
-                                        name : 'Anesthesiology <span> and Pain Medicine</span>',
+                                        name : 'Anesthesio<span>logy & Pain</span> <span> Medicine</span>',
                                         a_link :'./medi_detail.html?value=5&item=22',
                                         img_link :'./img/medi_details/icon/medi_icon_23.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_23.png',
@@ -914,7 +914,7 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
                                 },
                                 {    
-                                        name : 'Obstetrics and Gynecology',    
+                                        name : 'Obstetrics & Gynecology',    
                                         a_link: './medi_detail.html?value=8&item=11',
                                         img_link : './img/medi_details/icon/medi_icon_12.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_12.png',
@@ -932,19 +932,19 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_3.png',
                                 },
                                 {    
-                                        name : 'Gastroenterology',    
+                                        name : 'Gastro<span>enterology</span>',    
                                         a_link: './medi_detail.html?value=11&item=0',
                                         img_link : './img/medi_details/icon/medi_icon_1.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
                                 },
                                 {
-                                        name : 'Gastrointestinal <span> Cancer Surgery</span>',
+                                        name : 'Gastroi<span>ntestinal</span> <span> Cancer Surgery</span>',
                                         a_link: './medi_center_2.html?cen_v2=6&item=45',
                                         img_link : './img/medi_details/icon/medi_icon_abc_17.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_abc_17.png',
                                 },
                                 {    
-                                        name : 'Gastroenterology <span> Endoscopic Center</span>',    
+                                        name : 'GE <span> Endoscopic Center</span>',    
                                         a_link: './medi_center.html?cen_v=5&item=31',
                                         img_link : './img/medi_details/icon/medi_icon_32.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_32.png',
@@ -956,7 +956,7 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_4.png',
                                 },
                                 {    
-                                        name : 'Neurosurgery',    
+                                        name : 'Neuro<span>surgery</span>',    
                                         a_link: './medi_detail.html?value=13&item=7',
                                         img_link : './img/medi_details/icon/medi_icon_8.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_8.png',
@@ -968,7 +968,7 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
                                 },
                                 {
-                                        name : 'Cardio <span>Cardiocerebrovascular</span>',
+                                        name : 'Cardio <span>cerebro</span><span>vascular</span>',
                                         a_link: './medi_center.html?cen_v=8&item=32',
                                         img_link : './img/medi_details/icon/medi_icon_33.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_33.png',
@@ -986,7 +986,7 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_abc_24.png',
                                 },
                                 {    
-                                        name : 'Otolaryngology',    
+                                        name : 'Otolaryng<span>ology</span>',    
                                         a_link: './medi_detail.html?value=17&item=13',
                                         img_link : './img/medi_details/icon/medi_icon_14.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_14.png',
@@ -1076,7 +1076,7 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_29.png',
                                 },
                                 {    
-                                        name : 'Pancreatic  and <span>Biliary Tract</span>',    
+                                        name : 'Pancreatic  & <span>Biliary Tract</span>',    
                                         a_link: './medi_detail.html?value=24&item=15',
                                         img_link : './img/medi_details/icon/medi_icon_16.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_16.png',
@@ -1179,7 +1179,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_29.png',
                                         },
                                         {
-                                                name : 'Hepatobiliary and <span> Pancreatic Surgery</span>',
+                                                name : 'Hepatobiliary & <span> Pancreatic Surgery</span>',
                                                 a_link :'./medi_detail.html?value=2&item=15',
                                                 img_link :'./img/medi_details/icon/medi_icon_16.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_16.png',
@@ -1191,13 +1191,13 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_15.png',
                                         },
                                         {
-                                                name : 'Joint and Spine ',
+                                                name : 'Joint & Spine ',
                                                 a_link :'./medi_center.html?cen_v=21&item=29',
                                                 img_link :'./img/medi_details/icon/medi_icon_30.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_30.png',
                                         },
                                         {
-                                                name : 'Memory Improvement <span> Dementia Clinic</span>',
+                                                name : 'Dementia Clinic',
                                                 a_link :'./medi_detail.html?cen_v=102&item=41',
                                                 img_link :'./img/medi_details/icon/medi_icon_42.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_42.png',
@@ -1215,7 +1215,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
                                         },
                                         {
-                                                name : 'Anesthesiology <span> and Pain Medicine</span>',
+                                                name : 'Anesthesio<span>logy & Pain</span> <span> Medicine</span>',
                                                 a_link :'./medi_detail.html?value=5&item=22',
                                                 img_link :'./img/medi_details/icon/medi_icon_23.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_23.png',
@@ -1233,7 +1233,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
                                         },
                                         {    
-                                                name : 'Obstetrics and Gynecology',    
+                                                name : 'Obstetrics & Gynecology',    
                                                 a_link: './medi_detail.html?value=8&item=11',
                                                 img_link : './img/medi_details/icon/medi_icon_12.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_12.png',
@@ -1251,19 +1251,19 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_3.png',
                                         },
                                         {    
-                                                name : 'Gastroenterology',    
+                                                name : 'Gastro<span>enterology</span>',    
                                                 a_link: './medi_detail.html?value=11&item=0',
                                                 img_link : './img/medi_details/icon/medi_icon_1.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
                                         },
                                         {
-                                                name : 'Gastrointestinal <span> Cancer Surgery</span>',
+                                                name : 'Gastroi<span>ntestinal</span> <span> Cancer Surgery</span>',
                                                 a_link: './medi_center_2.html?cen_v2=6&item=45',
                                                 img_link : './img/medi_details/icon/medi_icon_abc_17.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_abc_17.png',
                                         },
                                         {    
-                                                name : 'Gastroenterology <span> Endoscopic Center</span>',    
+                                                name : 'GE <span> Endoscopic Center</span>',    
                                                 a_link: './medi_center.html?cen_v=5&item=31',
                                                 img_link : './img/medi_details/icon/medi_icon_32.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_32.png',
@@ -1275,7 +1275,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_4.png',
                                         },
                                         {    
-                                                name : 'Neurosurgery',    
+                                                name : 'Neuro<span>surgery</span>',    
                                                 a_link: './medi_detail.html?value=13&item=7',
                                                 img_link : './img/medi_details/icon/medi_icon_8.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_8.png',
@@ -1287,7 +1287,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
                                         },
                                         {
-                                                name : 'Cardio <span>Cardiocerebrovascular</span>',
+                                                name : 'Cardio <span>cerebro</span><span>vascular</span>',
                                                 a_link: './medi_center.html?cen_v=8&item=32',
                                                 img_link : './img/medi_details/icon/medi_icon_33.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_33.png',
@@ -1305,7 +1305,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_abc_24.png',
                                         },
                                         {    
-                                                name : 'Otolaryngology',    
+                                                name : 'Otolaryng<span>ology</span>',    
                                                 a_link: './medi_detail.html?value=17&item=13',
                                                 img_link : './img/medi_details/icon/medi_icon_14.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_14.png',
@@ -1395,7 +1395,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_29.png',
                                         },
                                         {    
-                                                name : 'Pancreatic  and <span>Biliary Tract</span>',    
+                                                name : 'Pancreatic  & <span>Biliary Tract</span>',    
                                                 a_link: './medi_detail.html?value=24&item=15',
                                                 img_link : './img/medi_details/icon/medi_icon_16.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_16.png',
@@ -1511,7 +1511,7 @@ $(document).ready(function(){
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_30.png',
                 },
                 {
-                        name : 'Memory Improvement <span> Dementia Clinic</span>',
+                        name : 'Dementia Clinic',
                         a_link :'./medi_detail.html?cen_v=102&item=41',
                         img_link :'./img/medi_details/icon/medi_icon_42.png',
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_42.png',
@@ -1529,7 +1529,7 @@ $(document).ready(function(){
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
                 },
                 {
-                        name : 'Anesthesiology <span> and Pain Medicine</span>',
+                        name : 'Anesthesio<span>logy & Pain</span> <span> Medicine</span>',
                         a_link :'./medi_detail.html?value=5&item=22',
                         img_link :'./img/medi_details/icon/medi_icon_23.png',
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_23.png',
@@ -1553,7 +1553,7 @@ $(document).ready(function(){
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_abc_12.png',
                 },
                 {    
-                        name : 'Obstetrics <span> and Gynecology</span>',    
+                        name : 'Obstetrics <span> & Gynecology</span>',    
                         a_link: './medi_detail.html?value=8&item=11',
                         img_link : './img/medi_details/icon/medi_icon_12.png',
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_12.png',
@@ -1571,7 +1571,7 @@ $(document).ready(function(){
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_3.png',
                 },
                 {    
-                        name : 'Gastroenterology',    
+                        name : 'Gastro<span>enterology</span>',    
                         a_link: './medi_detail.html?value=11&item=0',
                         img_link : './img/medi_details/icon/medi_icon_1.png',
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
@@ -1583,7 +1583,7 @@ $(document).ready(function(){
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_abc_17.png',
                 },
                 {    
-                        name : 'Gastroenterology <span>Endoscopy Center</span>',    
+                        name : 'GE <span>Endoscopy Center</span>',    
                         a_link: './medi_center.html?cen_v=5&item=31',
                         img_link : './img/medi_details/icon/medi_icon_32.png',
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_32.png',
@@ -1595,7 +1595,7 @@ $(document).ready(function(){
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_4.png',
                 },
                 {    
-                        name : 'Neurosurgery',    
+                        name : 'Neuro<span>surgery</span>',    
                         a_link: './medi_detail.html?value=13&item=7',
                         img_link : './img/medi_details/icon/medi_icon_8.png',
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_8.png',
@@ -1715,7 +1715,7 @@ $(document).ready(function(){
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_29.png',
                 },
                 {    
-                        name : 'Pancreatic  and <span>Biliary Medicine</span>',    
+                        name : 'Pancreatic  & <span>Biliary Medicine</span>',    
                         a_link: './medi_detail.html?value=24&item=15',
                         img_link : './img/medi_details/icon/medi_icon_16.png',
                         img_hover_link : './img/medi_details/icon/medi_icon_orange_16.png',
@@ -1829,7 +1829,7 @@ $(document).ready(function(){
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_29.png',
                         },
                         {
-                                name : 'Hepatobiliary and <span> Pancreatic Surgery</span>',
+                                name : 'Hepatobiliary & <span> Pancreatic Surgery</span>',
                                 a_link :'./medi_detail.html?value=2&item=15',
                                 img_link :'./img/medi_details/icon/medi_icon_16.png',
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_16.png',
@@ -1841,13 +1841,13 @@ $(document).ready(function(){
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_15.png',
                         },
                         {
-                                name : 'Joint and Spine ',
+                                name : 'Joint & Spine ',
                                 a_link :'./medi_center.html?cen_v=21&item=29',
                                 img_link :'./img/medi_details/icon/medi_icon_30.png',
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_30.png',
                         },
                         {
-                                name : 'Memory Improvement <span> Dementia Clinic</span>',
+                                name : 'Dementia Clinic',
                                 a_link :'./medi_detail.html?cen_v=102&item=41',
                                 img_link :'./img/medi_details/icon/medi_icon_42.png',
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_42.png',
@@ -1865,7 +1865,7 @@ $(document).ready(function(){
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
                         },
                         {
-                                name : 'Anesthesiology <span> and Pain Medicine</span>',
+                                name : 'Anesthesio<span>logy & Pain</span> <span> Medicine</span>',
                                 a_link :'./medi_detail.html?value=5&item=22',
                                 img_link :'./img/medi_details/icon/medi_icon_23.png',
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_23.png',
@@ -1883,7 +1883,7 @@ $(document).ready(function(){
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
                         },
                         {    
-                                name : 'Obstetrics and Gynecology',    
+                                name : 'Obstetrics & Gynecology',    
                                 a_link: './medi_detail.html?value=8&item=11',
                                 img_link : './img/medi_details/icon/medi_icon_12.png',
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_12.png',
@@ -1901,19 +1901,19 @@ $(document).ready(function(){
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_3.png',
                         },
                         {    
-                                name : 'Gastroenterology',    
+                                name : 'Gastro<span>enterology</span>',    
                                 a_link: './medi_detail.html?value=11&item=0',
                                 img_link : './img/medi_details/icon/medi_icon_1.png',
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
                         },
                         {
-                                name : 'Gastrointestinal <span> Cancer Surgery</span>',
+                                name : 'Gastroi<span>ntestinal</span> <span> Cancer Surgery</span>',
                                 a_link: './medi_center_2.html?cen_v2=6&item=45',
                                 img_link : './img/medi_details/icon/medi_icon_abc_17.png',
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_abc_17.png',
                         },
                         {    
-                                name : 'Gastroenterology <span> Endoscopic Center</span>',    
+                                name : 'GE <span> Endoscopic Center</span>',    
                                 a_link: './medi_center.html?cen_v=5&item=31',
                                 img_link : './img/medi_details/icon/medi_icon_32.png',
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_32.png',
@@ -1925,7 +1925,7 @@ $(document).ready(function(){
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_4.png',
                         },
                         {    
-                                name : 'Neurosurgery',    
+                                name : 'Neuro<span>surgery</span>',    
                                 a_link: './medi_detail.html?value=13&item=7',
                                 img_link : './img/medi_details/icon/medi_icon_8.png',
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_8.png',
@@ -1937,7 +1937,7 @@ $(document).ready(function(){
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
                         },
                         {
-                                name : 'Cardio <span>Cardiocerebrovascular</span>',
+                                name : 'Cardio <span>cerebro</span><span>vascular</span>',
                                 a_link: './medi_center.html?cen_v=8&item=32',
                                 img_link : './img/medi_details/icon/medi_icon_33.png',
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_33.png',
@@ -1955,7 +1955,7 @@ $(document).ready(function(){
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_abc_24.png',
                         },
                         {    
-                                name : 'Otolaryngology',    
+                                name : 'Otolaryng<span>ology</span>',    
                                 a_link: './medi_detail.html?value=17&item=13',
                                 img_link : './img/medi_details/icon/medi_icon_14.png',
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_14.png',
@@ -2045,7 +2045,7 @@ $(document).ready(function(){
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_29.png',
                         },
                         {    
-                                name : 'Pancreatic  and <span>Biliary Tract</span>',    
+                                name : 'Pancreatic  & <span>Biliary Tract</span>',    
                                 a_link: './medi_detail.html?value=24&item=15',
                                 img_link : './img/medi_details/icon/medi_icon_16.png',
                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_16.png',
@@ -2150,7 +2150,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_29.png',
                                         },
                                         {
-                                                name : 'Hepatobiliary and <span> Pancreatic Surgery</span>',
+                                                name : 'Hepatobiliary & <span> Pancreatic Surgery</span>',
                                                 a_link :'./medi_detail.html?value=2&item=15',
                                                 img_link :'./img/medi_details/icon/medi_icon_16.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_16.png',
@@ -2162,13 +2162,13 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_15.png',
                                         },
                                         {
-                                                name : 'Joint and Spine ',
+                                                name : 'Joint & Spine ',
                                                 a_link :'./medi_center.html?cen_v=21&item=29',
                                                 img_link :'./img/medi_details/icon/medi_icon_30.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_30.png',
                                         },
                                         {
-                                                name : 'Memory Improvement <span> Dementia Clinic</span>',
+                                                name : 'Dementia Clinic',
                                                 a_link :'./medi_detail.html?cen_v=102&item=41',
                                                 img_link :'./img/medi_details/icon/medi_icon_42.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_42.png',
@@ -2186,7 +2186,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
                                         },
                                         {
-                                                name : 'Anesthesiology <span> and Pain Medicine</span>',
+                                                name : 'Anesthesio<span>logy & Pain</span> <span> Medicine</span>',
                                                 a_link :'./medi_detail.html?value=5&item=22',
                                                 img_link :'./img/medi_details/icon/medi_icon_23.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_23.png',
@@ -2204,7 +2204,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
                                         },
                                         {    
-                                                name : 'Obstetrics and Gynecology',    
+                                                name : 'Obstetrics & Gynecology',    
                                                 a_link: './medi_detail.html?value=8&item=11',
                                                 img_link : './img/medi_details/icon/medi_icon_12.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_12.png',
@@ -2222,19 +2222,19 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_3.png',
                                         },
                                         {    
-                                                name : 'Gastroenterology',    
+                                                name : 'Gastro<span>enterology</span>',    
                                                 a_link: './medi_detail.html?value=11&item=0',
                                                 img_link : './img/medi_details/icon/medi_icon_1.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
                                         },
                                         {
-                                                name : 'Gastrointestinal <span> Cancer Surgery</span>',
+                                                name : 'Gastroi<span>ntestinal</span> <span> Cancer Surgery</span>',
                                                 a_link: './medi_center_2.html?cen_v2=6&item=45',
                                                 img_link : './img/medi_details/icon/medi_icon_abc_17.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_abc_17.png',
                                         },
                                         {    
-                                                name : 'Gastroenterology <span> Endoscopic Center</span>',    
+                                                name : 'GE <span> Endoscopic Center</span>',    
                                                 a_link: './medi_center.html?cen_v=5&item=31',
                                                 img_link : './img/medi_details/icon/medi_icon_32.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_32.png',
@@ -2246,7 +2246,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_4.png',
                                         },
                                         {    
-                                                name : 'Neurosurgery',    
+                                                name : 'Neuro<span>surgery</span>',    
                                                 a_link: './medi_detail.html?value=13&item=7',
                                                 img_link : './img/medi_details/icon/medi_icon_8.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_8.png',
@@ -2258,7 +2258,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
                                         },
                                         {
-                                                name : 'Cardio <span>Cardiocerebrovascular</span>',
+                                                name : 'Cardio <span>cerebro</span><span>vascular</span>',
                                                 a_link: './medi_center.html?cen_v=8&item=32',
                                                 img_link : './img/medi_details/icon/medi_icon_33.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_33.png',
@@ -2276,7 +2276,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_abc_24.png',
                                         },
                                         {    
-                                                name : 'Otolaryngology',    
+                                                name : 'Otolaryng<span>ology</span>',    
                                                 a_link: './medi_detail.html?value=17&item=13',
                                                 img_link : './img/medi_details/icon/medi_icon_14.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_14.png',
@@ -2366,7 +2366,7 @@ $(document).ready(function(){
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_29.png',
                                         },
                                         {    
-                                                name : 'Pancreatic  and <span>Biliary Tract</span>',    
+                                                name : 'Pancreatic  & <span>Biliary Tract</span>',    
                                                 a_link: './medi_detail.html?value=24&item=15',
                                                 img_link : './img/medi_details/icon/medi_icon_16.png',
                                                 img_hover_link : './img/medi_details/icon/medi_icon_orange_16.png',
@@ -2471,7 +2471,7 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_29.png',
                                 },
                                 {
-                                        name : 'Hepatobiliary and <span> Pancreatic Surgery</span>',
+                                        name : 'Hepatobiliary & <span> Pancreatic Surgery</span>',
                                         a_link :'./medi_detail.html?value=2&item=15',
                                         img_link :'./img/medi_details/icon/medi_icon_16.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_16.png',
@@ -2483,13 +2483,13 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_15.png',
                                 },
                                 {
-                                        name : 'Joint and Spine ',
+                                        name : 'Joint & Spine ',
                                         a_link :'./medi_center.html?cen_v=21&item=29',
                                         img_link :'./img/medi_details/icon/medi_icon_30.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_30.png',
                                 },
                                 {
-                                        name : 'Memory Improvement <span> Dementia Clinic</span>',
+                                        name : 'Dementia Clinic',
                                         a_link :'./medi_detail.html?cen_v=102&item=41',
                                         img_link :'./img/medi_details/icon/medi_icon_42.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_42.png',
@@ -2507,7 +2507,7 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
                                 },
                                 {
-                                        name : 'Anesthesiology <span> and Pain Medicine</span>',
+                                        name : 'Anesthesio<span>logy & Pain</span> <span> Medicine</span>',
                                         a_link :'./medi_detail.html?value=5&item=22',
                                         img_link :'./img/medi_details/icon/medi_icon_23.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_23.png',
@@ -2525,7 +2525,7 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
                                 },
                                 {    
-                                        name : 'Obstetrics and Gynecology',    
+                                        name : 'Obstetrics & Gynecology',    
                                         a_link: './medi_detail.html?value=8&item=11',
                                         img_link : './img/medi_details/icon/medi_icon_12.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_12.png',
@@ -2543,19 +2543,19 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_3.png',
                                 },
                                 {    
-                                        name : 'Gastroenterology',    
+                                        name : 'Gastro<span>enterology</span>',    
                                         a_link: './medi_detail.html?value=11&item=0',
                                         img_link : './img/medi_details/icon/medi_icon_1.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_1.png',
                                 },
                                 {
-                                        name : 'Gastrointestinal <span> Cancer Surgery</span>',
+                                        name : 'Gastroi<span>ntestinal</span> <span> Cancer Surgery</span>',
                                         a_link: './medi_center_2.html?cen_v2=6&item=45',
                                         img_link : './img/medi_details/icon/medi_icon_abc_17.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_abc_17.png',
                                 },
                                 {    
-                                        name : 'Gastroenterology <span> Endoscopic Center</span>',    
+                                        name : 'GE <span> Endoscopic Center</span>',    
                                         a_link: './medi_center.html?cen_v=5&item=31',
                                         img_link : './img/medi_details/icon/medi_icon_32.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_32.png',
@@ -2567,7 +2567,7 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_4.png',
                                 },
                                 {    
-                                        name : 'Neurosurgery',    
+                                        name : 'Neuro<span>surgery</span>',    
                                         a_link: './medi_detail.html?value=13&item=7',
                                         img_link : './img/medi_details/icon/medi_icon_8.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_8.png',
@@ -2579,7 +2579,7 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_11.png',
                                 },
                                 {
-                                        name : 'Cardio <span>Cardiocerebrovascular</span>',
+                                        name : 'Cardio <span>cerebro</span><span>vascular</span>',
                                         a_link: './medi_center.html?cen_v=8&item=32',
                                         img_link : './img/medi_details/icon/medi_icon_33.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_33.png',
@@ -2597,7 +2597,7 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_abc_24.png',
                                 },
                                 {    
-                                        name : 'Otolaryngology',    
+                                        name : 'Otolaryng<span>ology</span>',    
                                         a_link: './medi_detail.html?value=17&item=13',
                                         img_link : './img/medi_details/icon/medi_icon_14.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_14.png',
@@ -2687,7 +2687,7 @@ $(document).ready(function(){
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_29.png',
                                 },
                                 {    
-                                        name : 'Pancreatic  and <span>Biliary Tract</span>',    
+                                        name : 'Pancreatic  & <span>Biliary Tract</span>',    
                                         a_link: './medi_detail.html?value=24&item=15',
                                         img_link : './img/medi_details/icon/medi_icon_16.png',
                                         img_hover_link : './img/medi_details/icon/medi_icon_orange_16.png',
