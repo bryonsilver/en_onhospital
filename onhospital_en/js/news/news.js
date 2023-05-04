@@ -56,21 +56,41 @@ $(document).ready(function(){
 
     for(let i=0; i<NEWS_LIST[num].length; i++) {
         let list = `
-                        <tr>
-                            <td class="d_none t_td notranslate">${NEWS_LIST[num][i].num}</td>
-                            <td class="t_td">
-                                <a href="./news_detail.html?num=${num}&de_num=${NEWS_LIST[num][i].item_no}" style="max-width: 300px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;" class="color">${NEWS_LIST[num][i].title}</a>
-                                <span class="label_icon"></span>
-                            </td>
-                            <td class="d_none t_td t_centerv">
-                                <a href="#" class="member_1" style="max-width: 300px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;" title="${NEWS_LIST[num][i].writer}">${NEWS_LIST[num][i].writer}</a>
-                            </td>
-                            <td class="t_td right notranslate"><span class="t_td_desk">${NEWS_LIST[num][i].date}</span> <span class="t_td_mobile">${NEWS_LIST[num][i].date2}</span></td>
-                            <td class="d_none t_td t_center notranslate">15497</td>
-                        </tr>`
-        $('.tbody').append(list);
+
+                        <li class="t_li">
+                            <a href="./news_detail.html?num=${num}&de_num=${NEWS_LIST[num][i].item_no}" style=" overflow: hidden; white-space: nowrap; text-overflow: ellipsis;" class="color" >
+                                <p class="t_text_p">
+                                    <strong class="t_title">${NEWS_LIST[num][i].title}</strong>
+                                    <span class="t_inner_text">
+                                        <span class="name" style="max-width: 300px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;" title="${NEWS_LIST[num][i].writer}">
+                                            ${NEWS_LIST[num][i].writer}
+                                            <span class="date notranslate mobile_da_vi">${NEWS_LIST[num][i].date}</span>
+                                            <span class="view notranslate mobile_da_vi">15497</span>
+                                        </span>
+                                        <span class="date notranslate desk_da_vi">${NEWS_LIST[num][i].date}</span>
+                                        <span class="view notranslate desk_da_vi">15497</span>
+                                    </span>
+                                </p>
+                            </a>
+                        </li>`
+        $('.t_box').append(list);
     }
 
+
+    
+                        
+//     <tr>
+//     <td class="d_none t_td notranslate">${NEWS_LIST[num][i].num}</td>
+//     <td class="t_td">
+//         <a href="./news_detail.html?num=${num}&de_num=${NEWS_LIST[num][i].item_no}" style="max-width: 300px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;" class="color">${NEWS_LIST[num][i].title}</a>
+//         <span class="label_icon"></span>
+//     </td>
+//     <td class="d_none t_td t_centerv">
+//         <a href="#" class="member_1" style="max-width: 300px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;" title="${NEWS_LIST[num][i].writer}">${NEWS_LIST[num][i].writer}</a>
+//     </td>
+//     <td class="t_td right notranslate"><span class="t_td_desk">${NEWS_LIST[num][i].date}</span> <span class="t_td_mobile">${NEWS_LIST[num][i].date2}</span></td>
+//     <td class="d_none t_td t_center notranslate">15497</td>
+// </tr>
     // let tr_length = $('.table > tbody tr').length;  // 총개수
     // let dataPerPage;  //한 페이지에 나타낼 글 수
     // let pageCount  = 10; //페이징에 나타낼 페이지 수

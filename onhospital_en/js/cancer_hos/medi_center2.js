@@ -79,7 +79,8 @@ $(document).ready(function(){
 
         $('.m_right').append(cent2_list);
     }
-
+    $('.cen2_25').addClass('center_2_25');
+    $('.cen2_26').addClass('center_2_27');
 
 
     // 구글번역 뒤로갔다가 돌아왔을때 번역기능 사라지는 것 제압

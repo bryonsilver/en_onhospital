@@ -605,7 +605,7 @@ const DOCTOR = [
         {   cate_no:6,
             item_no:1,
             img_src:'raditation_tumor1', 
-            name:'Ryu Sung-yeol <span>Cancer <span></span></span>', 
+            name:'Ryu Sung-yeol <span>Cancer <span>', 
             medi_con:'Radiation Oncology', 
             medi_his_con:'Director of Radiation Oncology, Korea Atomic Energy Research Institute', 
             one_speci_con:'Radiation Oncology / Nuclear Medicine / PET-CT', 

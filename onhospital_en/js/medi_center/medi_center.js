@@ -324,7 +324,7 @@ cent_list+= `<div class="mr_content">`
                     cen_v == 25
                     ) {
                     cent_list += `<div class="mr_c_title"></div>`
-                } else if (cen_v == 28 || cen_v == 9 || cen_V == 27) {
+                } else if (cen_v == 28 || cen_v == 9 || cen_v == 27) {
                     cent_list += `<div class="mr_c_title">${CENT_LIST[0][cen_v].sub_title[0]}</div>`
                 }
                 else {
@@ -1659,8 +1659,25 @@ cent_list+= `<div class="mr_content">`
                                         </div>
                                         `
                     }
-    cent_list +=  `</div>
+       
+    cent_list +=  `<div class="center_box_doc">`
+            if (CENT_TITLE[0][cen_v].doctors_name != null) {
+                for(let i=0; i<CENT_TITLE[0][cen_v].doctors_name.length; i++)  { 
+            cent_list +=  ` 
+                    <div class="center_big_box">
+                            <div class="center_mid_box">
+                                <a href="./medi_more.html?${CENT_TITLE[0][cen_v].doctors_link[i]}">
+                                    <span class="center_text">${CENT_TITLE[0][cen_v].doctors_name[i]}</span>
+                                </a>
+                            </div>
+                        </div>`
+                }
+            cent_list +=  `</div>
+                    </div>
                 </div>`
+            } else {
+    cent_list +=  `<div class="center_big_box not_center_big_box"></div>`
+            }
 // cent_list += `</div>
 //             <div class="mr_content">
 //                 <div class="mr_c_box">
@@ -1874,7 +1891,12 @@ cent_list+= `<div class="mr_content">`
   
   
   
-  
+      /* 전문센터 호스피스 디자인 */ 
+      $('.m28').children('.medi_c_select').stop().slideToggle(300);
+      $('.m28').click(function(){
+          $(this).children('.medi_c_select').stop().slideToggle(300);
+          $(this).children('.medi_c_select').siblings(".medi_c_select").slideUp(300);
+      })
   
   
   
@@ -1963,5 +1985,20 @@ cent_list+= `<div class="mr_content">`
          console.log('구글번역기능 가즈아!!')
      }
  }
+
+    if (cen_v == 9) {
+        $(window).resize(function(){
+            var width = window.innerWidth;
+            if (width > 1000) {
+                $('.mr_img').css({height:'300px'})
+            }
+            else if (1000 > width && 600 < width) {
+                $('.mr_img').css({height:'200px'})
+            }
+            else if (600 > width && 400 < width) {
+                $('.mr_img').css({height:'100px'})
+            }
+        })
+    }
 
 })

@@ -122,6 +122,59 @@ table a {white-space: nowrap !important;}
 
 .t_td_moblie {display: none !important;}
 
+
+
+
+
+
+/* 새로운 table이 아닌 리스트 디자인 */
+
+.t_box {
+    border-bottom: .5px solid #ddd;
+}
+.t_li:first-of-type {
+    border-top: 3px solid #ee791c;
+}
+.t_li {
+    padding: 5px 0;
+    box-sizing: border-box;
+    border-top: 1px solid #222;
+    transition: all .15s linear;
+}
+.t_li:hover {
+    background-color: #f5f5f5;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 10px #ddd;
+}
+.t_li a {
+    padding: 0 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.t_text_p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.t_title {
+    width: 100%;
+    max-width: 500px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+}
+.t_inner_text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+.mobile_da_vi {display: none;}
+
+
 @media (max-width: 1150px) {
     .m_right {
         width: 100% !important;
@@ -137,6 +190,22 @@ table a {white-space: nowrap !important;}
     .right {
         text-align: left;
     }
+
+    /* 새로운 table이 아닌 리스트 디자인 */
+    .t_text_p {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    .t_title {font-size: 14px; max-width: 100%;}
+    .t_inner_text {
+        font-size: 12px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 5px;
+    }
+
+
 }
 @media (max-width: 767px) {
     .main_center > .container {
@@ -145,6 +214,34 @@ table a {white-space: nowrap !important;}
     .t_td a {
         max-width: 200px !important;
     }
+}
+@media (max-width: 540px) {
+    .t_title {
+        width: 100%;
+        max-width: 500px;
+        /* white-space: nowrap; */
+        max-width: 210px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 16px;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        word-break: break-all;
+    }
+    .name {
+        max-width: 300px;
+        overflow: hidden;
+        white-space: normal !important;
+        text-overflow: ellipsis;
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+    .desk_da_vi {display: none;}
+    .mobile_da_vi {display: inline-block;}
 }
 @media (max-width: 500px) {
     .last, .first {display: none !important;}

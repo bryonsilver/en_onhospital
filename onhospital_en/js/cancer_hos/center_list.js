@@ -456,35 +456,476 @@ const CENT_LIST = [
 
 const CENT_TITLE = [
     [
-        {cate_no:0, item_no:1, title:'Hepatobiliary Pancreatic / Gastric / Colorectal Cancer', icon_src:'medi_w_cetner_1', name:'간담췌외과 위 대장암'},
-        {cate_no:0, item_no:2, title:'Liver Center', icon_src:'medi_w_cetner_2', name:'간센터'},
-        {cate_no:0, item_no:3, title:'Infection', icon_src:'medi_w_cetner_3', name:'감염센터'},
-        {cate_no:0, item_no:4, title:'Proctology', icon_src:'medi_w_cetner_4', name:'대장항문센터'},
-        {cate_no:0, item_no:5, title:'Pediatrics & Adolescent Mental Health', icon_src:'medi_w_cetner_5', name:'소아청소년 정신건강센터'},
-        {cate_no:0, item_no:6, title:'Gastrointestinal <br>Nerve Center', icon_src:'medi_w_cetner_6', name:'소화내시경센터'},
-        {cate_no:0, item_no:7, title:'Gastrointestinal Cancer Surgery', icon_src:'medi_w_cetner_7', name:'소화기암수술센터'},
-        {cate_no:0, item_no:8, title:'Neurology', icon_src:'medi_w_cetner_8', name:'신경센터'},
-        {cate_no:0, item_no:9, title:'Cardiocerebrovascular', icon_src:'medi_w_cetner_9', name:'심뇌혈관센터'},
-        {cate_no:0, item_no:10, title:'Allergy', icon_src:'medi_w_cetner_10', name:'알레르기 센터'},
-        {cate_no:0, item_no:11, title:'Cancer Rehab Program', icon_src:'medi_w_cetner_11', name:'암재활프로그램'},
-        {cate_no:0, item_no:12, title:'Women`s Cancer', icon_src:'medi_w_cetner_12', name:'여성암센터'},
-        {cate_no:0, item_no:13, title:'Breast/Thyroid Cancer', icon_src:'medi_w_cetner_14', name:'유방 갑상선암 센터'},
-        {cate_no:0, item_no:14, title:'Breast Cancer', icon_src:'medi_w_cetner_14', name:'유방암센터'},
-        {cate_no:0, item_no:15, title:'Emergency Medical', icon_src:'medi_w_cetner_15', name:'응급의료센터'},
-        {cate_no:0, item_no:16, title:'Bioartificial Kidney', icon_src:'medi_w_cetner_16', name:'인공신장센터'},
-        {cate_no:0, item_no:17, title:'Intreventional Surgery', icon_src:'medi_w_cetner_17', name:'인터벤션센터'},
-        {cate_no:0, item_no:18, title:'Funeral Home/Mortuary', icon_src:'medi_w_cetner_18', name:'장례식장'},
-        {cate_no:0, item_no:19, title:'Rehabilitation Therapy ', icon_src:'medi_w_cetner_19', name:'재활치료센터'},
-        {cate_no:0, item_no:20, title:'Prostate & Dysuria', icon_src:'medi_w_cetner_20', name:'전립선 배뇨장애 센터'},
-        {cate_no:0, item_no:21, title:'Prostate Cancer', icon_src:'medi_w_cetner_21', name:'전립선암센터'},
-        {cate_no:0, item_no:22, title:'Spondyloarthropathy', icon_src:'medi_w_cetner_22', name:'척추관절센터'},
-        {cate_no:0, item_no:23, title:'Ultrasonic diagnosis', icon_src:'medi_w_cetner_23', name:'초음파진단센터'},
-        {cate_no:0, item_no:24, title:'Pancreatobiliary Cancer', icon_src:'medi_w_cetner_24', name:'췌장담도센터'},
-        {cate_no:0, item_no:25, title:'Maxillofacial Surgery', icon_src:'medi_w_cetner_25', name:'턱얼굴수술센터'},
-        {cate_no:0, item_no:26, title:'Lung Cancer', icon_src:'medi_w_cetner_26', name:'폐암수술센터'},
-        {cate_no:0, item_no:27, title:'Chemotherapy Radiation', icon_src:'medi_w_cetner_27', name:'항암방사선치료센터'},
-        {cate_no:0, item_no:28, title:'Hospice & Palliative Care', icon_src:'medi_w_cetner_28', name:'호스피스완화의료병동'},
-        {cate_no:0, item_no:29, title:'Respiratory', icon_src:'medi_w_cetner_29', name:'호흡기센터'},
+        {
+            cate_no:0, 
+            item_no:1, 
+            title:'Hepatobiliary Pancreatic / Gastric / Colorectal Cancer', 
+            icon_src:'medi_w_cetner_1', 
+            name:'간담췌외과 위 대장암',
+            doctors_name:[
+                'Park Kwang-min, <span>Professor</span>',
+                'Kim Dong-heon, <span>Professor</span>',
+                'Lee Sang-yeop, <span>Professor</span>',
+                'Moon Ki-myung, <span>Professor</span>',
+                'Park Yo-han, <span>Professor</span>',
+                'Lee Kangho, <span>Professor</span>',
+                'Ko Sang-hwa, <span>Professor</span>',
+                'Ju Jae-woo, <span>Director</span>',
+            ],
+            doctors_link:[
+                'cate=2&item=1',
+                'cate=19&item=6',
+                'cate=2&item=3',
+                'cate=2&item=5',
+                'cate=19&item=3',
+                'cate=20&item=3',
+                'cate=19&item=5',
+                'cate=19&item=8',
+            ],
+        },
+        {
+            cate_no:0, 
+            item_no:2, 
+            title:'Liver Center', 
+            icon_src:'medi_w_cetner_2', 
+            name:'간센터',
+            doctors_name:[
+                'Han Sang-Young, Chief of Liver Center',
+                'Choi Jong-cheol, Professor',
+            ],
+            doctors_link:[
+                'cate=3&item=2',
+                'cate=18&item=4'
+            ],
+        },
+        {
+            cate_no:0, 
+            item_no:3, 
+            title:'Infection', 
+            icon_src:'medi_w_cetner_3', 
+            name:'감염센터',
+            doctors_name:[
+                'O Mu-Young, Director',
+                'Im Soo Kwak, Professor',
+                'Jong-Ae Son, Head of Dept.',
+                'Eun Myoung, Head of Dept.'
+            ],
+            doctors_link:[
+                'cate=10&item=1',
+                'cate=14&item=1',
+                'cate=23&item=1',
+                'cate=3&item=5'
+            ],
+        },
+        {
+            cate_no:0, 
+            item_no:4, 
+            title:'Proctology', 
+            icon_src:'medi_w_cetner_4', 
+            name:'대장항문센터',
+            doctors_name:[
+                'Ko Sang-hwa, Head of Dept.',
+                'Ju Jae-woo, Head of Dept.'
+            ],
+            doctors_link:[
+                'cate=19&item=5',
+                'cate=19&item=8'
+            ],
+        },
+        {
+            cate_no:0, 
+            item_no:5, 
+            title:'Pediatrics & Adolescent Mental Health', 
+            icon_src:'medi_w_cetner_5', 
+            name:'소아청소년 정신건강센터',
+            doctors_name:[
+                'Kim Sang-yeop, Director',
+                'Lee Soo-jin, Head of Dept.'
+            ],
+            doctors_link:[
+                'cate=21&item=1',
+                'cate=21&item=2'
+            ],
+        },
+        {
+            cate_no:0, 
+            item_no:6, 
+            title:'Gastrointestinal <br>Nerve Center', 
+            icon_src:'medi_w_cetner_6', 
+            name:'소화내시경센터',
+            doctors_name:[
+                'Eun-Taek Park, Director of Center',
+                'Han Sang-Young, Director of Center',
+                'Eun Myoung, Head of Dept.',
+                'Kim Yeon-woo, Head of Dept.',
+                'Park Cheol-woo, Head of Dept.',
+                'Kim Dong-heon, Professor',
+                'Choi Jong-cheol, Professor',
+                'Yoo Heung, Ph.D.',
+                'Ko Guihan, Head of Dept.'
+            ],
+            doctors_link:[
+                'cate=24&item=1',
+                'cate=3&item=2',
+                'cate=3&item=5',
+                'cate=3&item=3',
+                'cate=3&item=4',
+                'cate=19&item=6',
+                'cate=18&item=4',
+                'cate=3&item=6',
+                'cate=0&item=1',
+            ],
+        },
+        {
+            cate_no:0, 
+            item_no:7, 
+            title:'Gastrointestinal Cancer Surgery', 
+            icon_src:'medi_w_cetner_7', 
+            name:'소화기암수술센터',
+            doctors_name:[
+                'Kim Dong-heon, Professor',
+                'Park Kwang-min, Professor',
+                'Lee Sang-yeop, Professor',
+                'Kim Yeon-woo, Head of Dept.',
+                'Park Cheol-woo, Head of Dept.',
+                'Eun Myoung, Head of Dept.',
+                'Ju Jae-woo, Head of Dept.',
+                'Ko Sang-hwa, Head of Dept.',
+                'Eun-Taek Park, Director of Center',
+                'Han Sang-Young, Director of Center'
+            ],
+            doctors_link:[
+                'cate=19&item=6',
+                'cate=2&item=1',
+                'cate=2&item=3',
+                'cate=3&item=3',
+                'cate=3&item=4',
+                'cate=3&item=5',
+                'cate=19&item=8',
+                'cate=19&item=5',
+                'cate=24&item=1',
+                'cate=3&item=2',
+            ],
+        },
+        {
+            cate_no:0, 
+            item_no:8, 
+            title:'Neurology', 
+            icon_src:'medi_w_cetner_8', 
+            name:'신경센터',
+            doctors_name:[
+                'Sohn-gi Roh, Vice Chief of Neurology',
+                'Sang-uk Ha, Head of Dept.'
+            ],
+            doctors_link:[
+                'cate=12&item=1',
+                'cate=12&item=2'
+            ],
+        },
+        {
+            cate_no:0, 
+            item_no:9, 
+            title:'Cardiocerebrovascular', 
+            icon_src:'medi_w_cetner_9', 
+            name:'심뇌혈관센터',
+            doctors_name:[
+                'Jae-Young Choi, Chief of Neurosurgery Center',
+                'Myung-Ki Lee, Head of Dept.',
+                'Hyun-Kook Lee, Director of Internal Medicine',
+                'Kim Soo-hee, Head of Dept.',
+                'Yoon Sung Jo, Head of Dept.',
+                'Seung-Ryul Jung, Head of Dept.',
+            ],
+            doctors_link:[
+                'cate=13&item=2',
+                'cate=13&item=1',
+                'cate=15&item=1',
+                'cate=13&item=4',
+                'cate=15&item=2',
+                'cate=13&item=3',
+            ],
+        },
+        {
+            cate_no:0, 
+            item_no:10, 
+            title:'Allergy', 
+            icon_src:'medi_w_cetner_10', 
+            name:'알레르기 센터',
+        },
+        {
+            cate_no:0, 
+            item_no:11, 
+            title:'Cancer Rehab Program', 
+            icon_src:'medi_w_cetner_11', 
+            name:'암재활프로그램',
+            doctors_name:[
+                'Kwon Hyuk-chan, Director of the Anti-cancer Center',
+                'Eun Myoung, Head of Dept.',
+                'Lee Kangho, Head of Dept.',
+            ],
+            doctors_link:[
+                'cate=26&item=2',
+                'cate=3&item=5',
+                'cate=20&item=3'
+            ],
+        },
+        {
+            cate_no:0, 
+            item_no:12, 
+            title:'Women`s Cancer', 
+            icon_src:'medi_w_cetner_12', 
+            name:'여성암센터',
+            doctors_name:[
+                'Kim Ji-yeon, Head of Dept.',
+                'Kim Seok-kwon, Director',
+                'Han Bong-joo, Head of Dept.'
+            ],
+            doctors_link:[
+                'cate=8&item=1',
+                'cate=9&item=1',
+                'cate=9&item=2'
+            ],
+        },
+        {
+            cate_no:0, 
+            item_no:13, 
+            title:'Breast/Thyroid Cancer', 
+            icon_src:'medi_w_cetner_14', 
+            name:'유방 갑상선암 센터',
+            doctors_name:[
+                'Kim Seok-kwon, Director',
+                'Ryu Sung-yeol, Cancer',
+                'Kim Mikyung, Head of Dept.',
+                'Kim Ji-yeon, Head of Dept.',
+                'Jong-Ae Son, Head of Dept.',
+                'Choi Ki-bok, Director',
+                'Kwon Hyuk-chan, Prof.',
+            ],
+            doctors_link:[
+                'cate=9&item=1',
+                'cate=6&item=1',
+                'cate=3&item=9',
+                'cate=26&item=2',
+                'cate=23&item=1',
+                'cate=26&item=2'
+            ],
+        },
+        {
+            cate_no:0, 
+            item_no:14, 
+            title:'Breast Cancer', 
+            icon_src:'medi_w_cetner_14', 
+            name:'유방암센터',
+        },
+        {
+            cate_no:0, 
+            item_no:15, 
+            title:'Emergency Medical', 
+            icon_src:'medi_w_cetner_15', 
+            name:'응급의료센터',
+        },
+        {
+            cate_no:0, 
+            item_no:16, 
+            title:'Bioartificial Kidney', 
+            icon_src:'medi_w_cetner_16', 
+            name:'인공신장센터',
+            doctors_name:[
+                'Im Soo Kwak, Professor',
+                'Ha Kyung Jeon, Professor'
+            ],
+            doctors_link:[
+                'cate=14&item=1',
+                'cate=3&item=8'
+            ],
+        },
+        {
+            cate_no:0, 
+            item_no:17, 
+            title:'Intreventional Surgery', 
+            icon_src:'medi_w_cetner_17', 
+            name:'인터벤션센터',
+            doctors_name:[
+                'Choi Ki-bok, Director'
+            ],
+            doctors_link:[
+                'cate=23&item=1',
+            ],
+        },
+        {
+            cate_no:0, 
+            item_no:18, 
+            title:'Funeral Home/Mortuary', 
+            icon_src:'medi_w_cetner_18', 
+            name:'장례식장',
+        },
+        {
+            cate_no:0, 
+            item_no:19, 
+            title:'Rehabilitation Therapy ', 
+            icon_src:'medi_w_cetner_19', 
+            name:'재활치료센터',
+            doctors_name:[
+                'Gu Ja-won, Hospital director',
+                'Kim Tae-hee, Head of Dept.',
+                'Jae-Young Choi, Director of Center',
+                'Myung-Ki Lee, Professor',
+                'Sohn-gi Roh, Vice Chief of Neurology',
+                'Jung Mi Cho, Head of Dept.',
+                'Lee Dae-hee, Team manager',
+            ],
+            doctors_link:[
+                'http://standon.co.kr/board_dUOF52/767',
+                'http://standon.co.kr/board_dUOF52/237',
+                'cate=13&item=2',
+                'cate=13&item=1',
+                'cate=12&item=1',
+                'cate=30&item=1',
+                '#',
+            ],
+        },
+        {
+            cate_no:0, 
+            item_no:20, 
+            title:'Prostate & Dysuria', 
+            icon_src:'medi_w_cetner_20', 
+            name:'전립선 배뇨장애 센터',
+            doctors_name:[
+                'Jae-Sik Kim, Head of Dept.'
+            ],
+            doctors_link:[
+                'cate=7&item=1',
+            ],
+        },
+        {
+            cate_no:0, 
+            item_no:21, 
+            title:'Prostate Cancer', 
+            icon_src:'medi_w_cetner_21', 
+            name:'전립선암센터',
+        },
+        {
+            cate_no:0, 
+            item_no:22, 
+            title:'Spondyloarthropathy', 
+            icon_src:'medi_w_cetner_22', 
+            name:'척추관절센터',
+            doctors_name:[
+                'Kim Yoon-joon, Medical Director of Orthopedics Dept.',
+                'Kim Dong-jun, Head of Dept.',
+                'Yoon Sung-hoon, Vice Chief of Orthopedics Dept.'
+            ],
+            doctors_link:[
+                'cate=22&item=2',
+                'cate=22&item=3',
+                'cate=22&item=1',
+            ],
+        },
+        {
+            cate_no:0, 
+            item_no:23, 
+            title:'Ultrasonic diagnosis', 
+            icon_src:'medi_w_cetner_23', 
+            name:'초음파진단센터',
+            doctors_name:[
+                'Choi Ki-bok, Director',
+                'Choi Jong-cheol, Head of Dept.',
+                'Kim Eun-mi, Head of Dept.',
+                'Choi Jeong-hyeon, Head of Dept.',
+                'Yoo Heung, PH.D.'
+            ],
+            doctors_link:[
+                'cate=23&item=1',
+                'cate=18&item=4',
+                'cate=18&item=3',
+                'cate=18&item=2',
+                'cate=3&item=6',
+            ],
+        },
+        {
+            cate_no:0, 
+            item_no:24, 
+            title:'Pancreatobiliary Cancer', 
+            icon_src:'medi_w_cetner_24', 
+            name:'췌장담도센터',
+            doctors_name:[
+                'Eun-Taek Park, Director of Center'
+            ],
+            doctors_link:[
+                'cate=24&item=1',
+            ],
+        },
+        {
+            cate_no:0, 
+            item_no:25, 
+            title:'Maxillofacial Surgery', 
+            icon_src:'medi_w_cetner_25', 
+            name:'턱얼굴수술센터',
+            doctors_name:[
+                'Eui Jeong Lee, Head of Dept.'
+            ],
+            doctors_link:[
+                'cate=25&item=1',
+            ],
+        },
+        {
+            cate_no:0, 
+            item_no:26, 
+            title:'Lung Cancer', 
+            icon_src:'medi_w_cetner_26', 
+            name:'폐암수술센터',
+        },
+        {
+            cate_no:0, 
+            item_no:27, 
+            title:'Chemotherapy Radiation', 
+            icon_src:'medi_w_cetner_27', 
+            name:'항암방사선치료센터',
+            doctors_name:[
+                'Ryu Sung-yeol, Director',
+                'Kwon Hyuk-chan, Director'
+            ],
+            doctors_link:[
+                'cate=9&item=1',
+                'cate=26&item=2'
+            ],
+        },
+        {
+            cate_no:0, 
+            item_no:28, 
+            title:'Hospice & Palliative Care', 
+            icon_src:'medi_w_cetner_28', 
+            name:'호스피스완화의료병동',
+            doctors_name:[
+                'Kwon Hyuk-chan, Director of the Anti-cancer Center',
+                'Song Jeong-yun, Head of Dept.',
+                'Jo Gun-je, Prof.',
+                'Myung-Ki Lee, Prof.'
+            ],
+            doctors_link:[
+                'cate=26&item=2',
+                'cate=10&item=2',
+                'cate=26&item=1',
+                'cate=13&item=1',
+            ],
+        },
+        {
+            cate_no:0, 
+            item_no:29, 
+            title:'Respiratory', 
+            icon_src:'medi_w_cetner_29', 
+            name:'호흡기센터',
+            doctors_name:[
+                'O Mu-Young, Director of Center',
+                'Choi Pil-jo, Prof.',
+                'Yoo Heung, Director of Center'
+            ],
+            doctors_link:[
+                'cate=10&item=1',
+                'cate=28&item=1',
+                'cate=3&item=6'
+            ],
+        },
     ]
 ]
 const HOSPI_TITLE = [
