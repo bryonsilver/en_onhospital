@@ -124,7 +124,7 @@ body {font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple
 .one_doctor_box {
     width: 100%;
     /* border-bottom: 1px solid #eee; */
-    padding: 0 15px;
+    /* padding: 0 15px; */
     box-sizing: border-box;
 }
 .content_box {

@@ -64,9 +64,33 @@ $(document).ready(function(){
                                     <p>[※ Emergency room: 051) 607-0119]</p>
                                 </div>`
                         } else if (num == 1) {
-                            list += `<div class="mr_coment_box">
-                                        <div class="mr_main_comment">
-                                            <p><img src="./img/news/${data[d_num].img_src}" alt="${data[d_num].img_src}" class="news_de_img"></p>`
+                            if(de_num != 4) {
+                                list += `<div class="mr_coment_box">
+                                            <div class="mr_main_comment">
+                                                <p><img src="./img/news/${data[d_num].img_src}" alt="${data[d_num].img_src}" class="news_de_img"></p>`
+                            }
+                            else if(de_num == 4) {
+                        list += `<div class="mr_coment_box">
+                                    <div class="mr_main_comment">
+                                        <p style="margin:0"><video controls="" data-file-srl="1818" src="./img/news/${data[d_num].iframe_link}">&nbsp;</video></p>
+                                        <p style="margin:0" class="mr_underline_text">${data[d_num].under_text}</p>
+                                        <p style="margin:0" class="mr_num_text margin_top">${data[d_num].num_text[0]}</p>
+                                        <p style="margin:0" class="mr_num_text">${data[d_num].num_text[1]}</p>
+                                        <p style="margin:0" class="mr_num_text">${data[d_num].num_text[2]}</p>
+                                        <p style="margin:0" class="mr_num_text">${data[d_num].num_text[3]}</p>
+                                        <p style="margin:0" class="mr_num_text">${data[d_num].num_text[4]}</p>
+                                        <p style="margin:0" class="mr_ext margin_top">${data[d_num].ext_text[0]}</p>
+                                        <p style="margin:0" class="mr_ext">${data[d_num].ext_text[1]}</p>
+                                        <hr>
+                                        <p style="margin:0" class="mr_recomm">${data[d_num].recomm_text[0]}</p>
+                                        <p style="margin:0" class="mr_recomm">${data[d_num].recomm_text[1]}</p>
+                                        <p style="margin:0" class="mr_recomm">
+                                            <a href="https://cafe.naver.com/standuphospital/54">
+                                                ${data[d_num].link_text[0]}
+                                                <img src="./img/news/${data[d_num].link_text[1]}" alt="">
+                                            </a>
+                                        </p> `
+                            }
                         } else if (num == 2) {
                             list += `<div class="mr_coment_box">
                                         <div class="mr_main_comment">
@@ -90,7 +114,15 @@ $(document).ready(function(){
                                            <p class="img_text">${data[d_num].img_text}</p>
                                            `
                                         }
-                                        else if (de_num != 10) {
+                                        else if (de_num == 4 ) {
+                                            list+= `<p class="img_p"><img src="./img/news/${data[d_num].img_src}" alt="${data[d_num].img_src}" class="news_de_img"></p>
+                                           
+                                           <p class="img_text">${data[d_num].img_text[0]}</p>
+                                           <p class="img_text">${data[d_num].img_text[1]}</p>
+                                           <p class="img_text">${data[d_num].img_text[2]}</p>
+                                           `
+                                        }
+                                        else if (de_num != 10 || de_num != 8 || de_num != 7 || de_num != 4) {
                                             list +=`<p class="img_p"><img src="./img/news/${data[d_num].img_src}" alt="${data[d_num].img_src}" class="news_de_img"></p>
                                             <p class="img_text">${data[d_num].img_text}</p>`
                                         }
@@ -130,7 +162,7 @@ $(document).ready(function(){
                                     list += `<p><img src="./img/news/${data[d_num].img_src}" alt="${data[d_num].img_src}" class="news_de_img"></p> 
                                             <div class="box_1 box">
                                                 <p class="blue_bold_t">${data[d_num].con_title[0]}</p>`
-                                                for(let j=0; j<3;j++) {
+                                                for(let j=0; j<4;j++) {
                                          list +=  `<p>${data[d_num].con1[j]}</p>`
                                                 }
                                     list+= ` </div>

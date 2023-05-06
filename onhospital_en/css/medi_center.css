@@ -1093,6 +1093,10 @@ img {
 
 
 
+
+
+
+
 @media (max-width: 1150px) {
     .title_box_onn {font-size: 40px;}
     .icon_box_center {max-height: 56px; max-width: 5%; min-width: 49px;}
@@ -1238,6 +1242,29 @@ img {
     .f_img_box img {
         max-width: 100%;
     }
+
+
+    /* medi_center2의 cen_v2 = 6의 체크 리스트  */
+    .chk_text {
+        flex-direction: column;
+        line-height: 28px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .black_bold {
+        font-size: 17px;
+    }
+    .mr_c_content {
+        font-size: 16px;
+    }
+    .icon_title {display: none;}
+    .chk_text span:nth-of-type(1) {display: none;}
+    .chk_text span:nth-of-type(2) {
+        background-color: #ee791c96;
+        padding: 5px 10px;
+        border-radius: 10px;
+    }
+
 }
 @media (max-width: 800px) {
     .cent_24_span {gap: 20px; flex-direction: column;}
@@ -1268,6 +1295,7 @@ img {
         grid-template-columns: repeat(3, 1fr);
         font-size: 16px;
     }
+    .num_box {font-size: 14px;}
 }
 @media (max-width: 700px) {
     .icon_box_center {
@@ -1277,6 +1305,7 @@ img {
     .img_medi_center_box  {height: 200px;}
 }
 @media (max-width: 600px) {
+    .c_26_ {text-align: center;}
     .line_circle {
         flex-direction: column;
         background: url(../img/guide/back_m_1.png);
@@ -1288,12 +1317,11 @@ img {
         max-width: 7%;
         max-height: 38px;
     }
-    .c_26 {flex-direction: column;}
+    .c_26 {flex-direction: column; text-align: center;}
     .c_26 span:nth-of-type(1) {align-self: flex-start;}
 }
 @media (max-width: 576px) {
     .top_text {line-height: 35px;}
-    .top_text {line-height: 30px;}
     .title_box_onn {font-size: 42px;}
     .mr_img {
         height: 300px;

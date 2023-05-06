@@ -67,7 +67,7 @@ const CENT_LIST = [
                 'The Gastrointestinal Nerve Center Center at ON Hospital has state-of-the-art medical staff, advanced medical equipment, and a sophisticated medical system in place to enable patients to receive high-level medical treatment quickly and comfortably.', 
                 'In addition, to alleviate the increasing backlog of endoscopic exams due to the rising number of hospital visits by patients with gastrointestinal disorders, specialized medical staff for endoscopic exams have been trained and dispatched, and state-of-the-art medical equipment has been acquired for efficient management of personnel and equipment, ensuring differentiated endoscopic exams.', 
                 'Based on the highest level of clinical experience and advanced technology in each field, we strive to provide world-class medical care.',
-                ' 이에 온 종합병원 소화기내시경센터는 환자들이 좀 더 편리하게 최상의 진료를 받을 수 있도록 끊임없이 노력하겠습니다.'
+                'Therefore, the Gastrointestinal Endoscopy Center at the General Hospital will continue to make efforts to make patients more convenient and receive the best treatment.'
             ], 
             },
         {cate_no:0, 
@@ -151,7 +151,7 @@ const CENT_LIST = [
                 'Risk factors that contribute to asthma exacerbation include dust mites, pets, cockroaches, mold, pollen, respiratory infections such as colds and pneumonia, direct or indirect smoking, and indoor and outdoor air pollution. Symptoms of asthma include coughing or wheezing sounds that do not easily disappear and often recur. In some cases, breathing difficulty or coughing becomes severe during exercise and cannot continue.', 
                 'To successfully manage asthma, it is essential to use prescribed medications regularly and accurately. Based on test results, each asthma patient undergoes individualized treatment such as medication and immunotherapy according to the severity and causes and triggering factors.',
                 'It is a chronic and recurrent skin inflammation that mainly occurs in infants and children, characterized by itchy and distinctive distribution and appearance of skin lesions.', 
-                '또한 악화인자를 피하기 위해 환경을 잘 관리 해야 합니다.',
+                'You also need to take good care of your environment to avoid the factors of deterioration.',
                 'Itching is the most characteristic symptom, which is severe mainly in the early evening or at night, causing the baby to scratch the bedding or bedclothes continuously, resulting in blisters and scabs on the skin, and frequent secondary bacterial infections.',
                 'Dry skin, infections, rough clothing, house dust mites, synthetic fibers and wool, and heat can exacerbate the itching of atopic dermatitis.',
                 'Bathing is necessary to prevent skin infections and provide adequate skin moisturization, and if necessary, soap with moisturizing effects should be used.',
@@ -396,7 +396,7 @@ const CENT_LIST = [
             ],
              sub_context3: [
                 'With the development of radiation therapy techniques, the amount of radiation that is given to normal tissue around the tumor has been greatly reduced compared to the past, and high doses of radiation can now be applied only to the tumor tissue, greatly increasing the control rate of the tumor while keeping the complications associated with radiation therapy low. ',
-                ' 이와 같은 방사선 치료 선진국에서 전체 암 환자의 60%가 방사선치료를 받을 정도로 방사선치료가 암 치료에 지대한 역할을 담당하고 있습니다.'
+                'Radiotherapy plays a major role in cancer treatment, with 60% of all cancer patients receiving radiation therapy in these advanced countries.'
             ],
              sub_context2: [
                 'Radiation therapy is a treatment that kills cancer cells by irradiating high-energy radiation through a radiation-emitting device (linac therapy machine) or a radioactive isotope.',
@@ -445,7 +445,7 @@ const CENT_LIST = [
              sub_context3:['The main areas of treatment are chronic obstructive pulmonary disease (COPD), bronchial asthma, lung cancer, pneumonia, pulmonary tuberculosis, chronic cough, bronchiectasis, interstitial lung disease, respiratory failure, pleural diseases (pneumothorax, pleurisy, pleural effusion, empyema), esophageal cancer, mediastinal tumors, bronchiolitis obliterans, flail chest, and airway obstruction. In the case of lung cancer diagnosis, we provide regular and continuous management. All of our respiratory center medical staff promise to do our best to relieve your pain and solve your problems for the benefit of our patients.'],
              sub_context2:[
                 'Respiratory centers consist of departments of respiratory medicine and thoracic surgery, enabling accurate diagnosis, treatment, and surgery of diseases in a timely and accurate manner.', 
-                '또한 관련 DEPARTMENT와 협진을 통해 여러 분야의 전문의들이 모여 환자 중심의 진료를 받을 수 있습니다.'
+                'In addition, through collaboration with related DEPARTMENT, specialists from various fields can gather to receive patient-centered care.'
             ],
              sub_context1: [
                 'As our society ages, the number of patients with severe respiratory diseases is rapidly increasing.',

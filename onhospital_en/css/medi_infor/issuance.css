@@ -212,6 +212,67 @@ th {border-bottom: 1px solid #999;}
 .two th {min-width: 120px;}
 
 
+
+
+
+/* 환자의 동의가 불가능한 경우 */
+.med_four {
+    text-align: right;
+    font-size: 16px;
+    color: #888;
+    margin: 0;
+    margin-bottom: 10px !important;
+}
+.mb-5 {    margin-bottom: 3rem!important;}
+.table.table-bordered {
+    border: 0;
+    border-top: 2px solid #333;
+}
+.medi_border_four {
+    border: 0;
+    border-top: 2px solid #333;
+    min-width: 750px;
+}
+
+.medi_border_four tr:nth-of-type(1) th:nth-of-type(2),
+.medi_border_four tr:nth-of-type(1) th:nth-of-type(3),
+.medi_border_four tr:nth-of-type(1) th:nth-of-type(4),
+.medi_border_four tr:nth-of-type(1) th:nth-of-type(5),
+.medi_border_four tr:nth-of-type(1) th:nth-of-type(6) {
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    font-size: 13px;
+    color: #555;
+}
+.medi_border_four tr:nth-of-type(1) th{
+    background-color: #fce6d4;
+    color: #555;
+}
+
+.medi_border_four tr:nth-of-type(2) td:nth-of-type(1) {
+    border-right: 1px solid #999;
+}
+.medi_border_four tr:nth-of-type(1) td:nth-of-type(2),
+.medi_border_four tr:nth-of-type(1) td:nth-of-type(3),
+.medi_border_four tr:nth-of-type(1) td:nth-of-type(4),
+.medi_border_four tr:nth-of-type(1) td:nth-of-type(5),
+.medi_border_four tr:nth-of-type(1) td:nth-of-type(6) {
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    font-size: 13px;
+}
+
+
+.required_li li {
+    list-style: disc;
+    padding: 5px 0;
+    color: #555;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+.required_li {padding-left: 30px;}
+
+
 @media (max-width:971px) {
     .one tr {
         display: flex;
@@ -261,9 +322,15 @@ th {border-bottom: 1px solid #999;}
     .two tr:last-child th, .two tr:last-child td:nth-of-type(1) {border-bottom: none !important; }
     
     .two tr:nth-of-type(1) th {border-top: 2px solid #555 !important;}
+    
+    .icon_title img {display: none;}
+    .title_icon_box {justify-content: center;}
 }
 @media (max-width:830px) {
     .four {overflow-x: scroll;}
+}
+@media (max-width: 800px) {
+    .medi_border_box {overflow-x: scroll;}
 }
 @media (max-width:710px) {
     .three tr {
@@ -293,11 +360,10 @@ th {border-bottom: 1px solid #999;}
 }
 @media (max-width: 600px) {
     .icon_title {display: none;}
+    .down_text_box h4:nth-of-type(1) {display: none;}
     .moblie_download {
         display: inline-block;
     }
-    .icon_title img {display: none;}
-    .title_icon_box h4:nth-of-type(1) {display: none;}
     .spec h4 {
         width: 100%;
         display: flex;

@@ -215,6 +215,39 @@ body {font-family:'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple 
 }
 
 
+
+
+/* num = 1 / de_num = 4 */
+.mr_underline_text {
+    text-decoration: underline;
+    font-size: 13px;
+}
+.mr_num_text {
+    font-size: 13px;
+    font-weight: 500;
+}
+.margin_top {margin-top: 20px !important;}
+.mr_ext {
+    font-size: 13px;
+    font-weight: 500;
+}
+hr {margin: 20px 0;}
+.mr_recomm {
+    font-size: 13px;
+    font-weight: 500;
+}
+.mr_recomm a {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+.mr_recomm a img {
+    width: 25px;
+    height: 25px;
+}
+video {width: 100%;}
+
+
 @media (max-width:600px) {
     .mr_t_date {flex-direction: column;}
     .mr_t_title {font-size: 17px;}
@@ -224,4 +257,8 @@ body {font-family:'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple 
     .sources_box div {font-size: 12px;}
     .blue_bold_t  {font-size: 14px;}
     .mr_main_comment {font-size: 13px;}
+
+
+    .mr_recomm, .mr_num_text, .mr_ext {font-size: 12px;}
+    .mr_recomm a {gap: 5px;}
 }

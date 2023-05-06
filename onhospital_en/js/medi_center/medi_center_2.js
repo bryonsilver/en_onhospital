@@ -110,7 +110,7 @@ cent_list+= `<div class="mr_content">`
                     cent_list += `<div class="mr_c_title"></div>`
                 } else {
                     cent_list += `<div class="mr_c_title">
-                                        <span class="icon_title"><img src="../img/common/chk_2.png" alt=""></span>
+                                        <span class="icon_title"><img src="./img/common/chk_2.png" alt=""></span>
                                         ${CENT_LIST[0][cen_v2].sub_title[0]}
                                     </div>`
                 }
@@ -125,7 +125,7 @@ cent_list+= `<div class="mr_content">`
                                             <div class="cent_1_text margin_bottom_15">${CENT_LIST[0][cen_v2].sub_context1[2]}</div>
                                         </span>
                                         <span class="cent_box">
-                                            <div class="img_box image_box"><img src="./img/medi_center/${CENT_LIST[0][cen_v2].img_src[1]}" alt="${CENT_LIST[0][cen_v2].img_src[1]}"></div>
+                                            
                                             <table class="table_line">
                                                 <tbody>
                                                     <tr>
@@ -259,7 +259,7 @@ cent_list+= `<div class="mr_content">`
                                                     <div class="f_box">${CENT_LIST[0][cen_v2].sub_context1[0]}</div>
                                                 </div>
                                                 <div class="chk_num_box">
-                                                    <div class="margin_bottom_30">특징</div>
+                                                    <div class="margin_bottom_30">Features</div>
                                                     <div class="chk_num">${CENT_LIST[0][cen_v2].special[0]}</div>
                                                     <div class="chk_num">${CENT_LIST[0][cen_v2].special[1]}</div>
                                                     <div class="chk_num">${CENT_LIST[0][cen_v2].special[2]}</div>
@@ -321,7 +321,7 @@ cent_list+= `<div class="mr_content">`
                             if (cen_v2 == 20 || cen_v2 == 16 || cen_v2 == 1 || cen_v2 == 11) {
                                 cent_list += `<div class="mr_c_title"></div>`
                             } else {
-                                cent_list +=  `<div class="mr_c_title margin2 margin${CENT_LIST[0][cen_v2].item_no}"><span class="icon_title"><img src="../img/common/chk_2.png" alt=""></span>${CENT_LIST[0][cen_v2].sub_title[1]}</div>`
+                                cent_list +=  `<div class="mr_c_title margin2 margin${CENT_LIST[0][cen_v2].item_no}"><span class="icon_title"><img src="./img/common/chk_2.png" alt=""></span>${CENT_LIST[0][cen_v2].sub_title[1]}</div>`
                             }
                     if (cen_v2 == 12) {
                         cent_list += `<div class="mr_c_content cent_13">
@@ -444,7 +444,7 @@ cent_list+= `<div class="mr_content">`
         $('.m_right').append(cent_list);
     }
 
-    if (cen_v2 ==1 || cen_v2 == 11 || cen_v2 == 20 || cen_v2 == 26) {
+    if (cen_v2 ==1 || cen_v2 == 11 || cen_v2 == 20 ) {
         $('.mr_img').css({display:'none'})
         $('.mr_c_box').css({paddingTop:'0',})
         $('.m_r_content_box').css({gap:'0'})
@@ -465,5 +465,9 @@ cent_list+= `<div class="mr_content">`
         `
         $('.top_banner_2').append(banner_li_2);                    
     }
+
+    
+    $('.cen2_25').addClass('center_2_25');
+    $('.cen2_26').addClass('center_2_27');
 
 })
