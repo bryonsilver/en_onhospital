@@ -312,14 +312,25 @@ $(document).ready(function(){
                                 list += `</div>`
                         }
             list += `   <div class="turn_table_box">
-                                <!--div class="pr_ne_box">
-                                    <div class="prev">
-                                        <a href="./news_detail.html" class="news_de_prev news_btn">◀ PREV</a>
-                                    </div>
-                                    <div class="next">
-                                        <a href="./news_detail.html" class="news_de_next news_btn">NEXT ▶</a>
-                                    </div>
-                                </div-->
+                            <div class="pr_ne_box">
+                                <div class="prev">`
+                                    if(de_num == 1) {
+                                        console.log('배열 마지막 de_num last : ',de_num.length - 1)
+                                list += `<a href="" class="news_de_prev news_btn" style="pointer-events: none; cursor: default">◀ PREV</a>`
+                                    } else if (de_num != 1) {
+                                list += `<a href="./news_detail.html?num=${num}&de_num=${de_num - 1}" class="news_de_prev news_btn">◀ PREV</a>`
+                                    }
+                        list += `</div>
+                                <div class="next">`
+                                    if(data.length == de_num) {
+                                        console.log('data length : ', data.length)
+                                list += `<a href="" class="news_de_next news_btn" style="pointer-events: none; cursor: default">NEXT ▶</a>`
+                                    }
+                                    else if (data.length != de_num) {
+                                list += `<a href="./news_detail.html?num=${num}&de_num=${Number(de_num) + 1}" class="news_de_next news_btn">NEXT ▶</a>`                                     
+                                    }                                        
+                        list += `</div>
+                                </div>
                                 <div class="list_return">
                                     <a href="./news.html?num=${num}" class="news_de_list news_btn">목록</a>
                                 </div>

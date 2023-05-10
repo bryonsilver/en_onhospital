@@ -205,9 +205,10 @@ body {font-family:'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple 
     border: 1px solid #ddd;
     border-radius: 2px;
     cursor: pointer;
+    border-radius: 5px;
 }
-.next,
-.prev {
+.next a,
+.prev a {
     padding: 5px 15px;
     border: 1px solid #ddd;
     border-radius: 2px;
@@ -258,7 +259,23 @@ video {width: 100%;}
     .blue_bold_t  {font-size: 14px;}
     .mr_main_comment {font-size: 13px;}
 
-
     .mr_recomm, .mr_num_text, .mr_ext {font-size: 12px;}
     .mr_recomm a {gap: 5px;}
+
+    
+    .top_small {font-size: 16px;}
+    .top_bold {font-size: 16px;}
+
+    .turn_table_box {flex-direction: column; gap: 10px;}
+    .news_de_list {
+        background-color: #333;
+        color: #fff;
+    }
+}
+@media (max-width: 400px) {
+    .next a, .prev a {
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+    .news_de_list {font-size: 10px;}
 }

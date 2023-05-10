@@ -1357,7 +1357,7 @@ h1,h2,h3,h4,h5,h6 {
 	font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple SD Gothic Neo','나눔고딕',NanumGothic,ng,sans-serif;
 	font-weight: 400;
 	letter-spacing: -.5px;
-	/* color:#666;	 */
+	color:#666;	
     margin: 0;
 }
 h1,h2,h3,h4,h5,h6 {
@@ -2080,6 +2080,7 @@ header .navik-header-overlay .burger-menu {
 .grey-box {
     margin-bottom: 20px;
 }
+.main {margin-top: 50px;}
 @media (max-width: 1350px) {
     .main .container {
         max-width: 900px !important;
@@ -2112,6 +2113,7 @@ header .navik-header-overlay .burger-menu {
         overflow-x: scroll;
     }
     .page-title {font-size: 23px !important;}
+    .main {margin-top: 30px;}
 }
 @media (max-width: 400px) {
     .table-custom table th {

@@ -1957,6 +1957,7 @@ body {
     .footer_img_check_span {font-size: 13px;}
 }
 @media (max-width: 450px) {
+    .ft_logo_box {font-size: 20px;}
     .h_flex {padding: 0 10px;}
     #google_translate_element > div > div > select {
         width: auto !important;
