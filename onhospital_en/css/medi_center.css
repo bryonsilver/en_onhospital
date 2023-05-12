@@ -830,13 +830,11 @@ img {
     border: 10px solid #ee791c;
     background-color: #fff;
     text-align: center;
-    line-height: 25px;
+    line-height: 98px;
     font-size: 20px;
     color: #333;
     font-weight: 500;
 }
-.circle_s_box:nth-of-type(1) span {margin-top: 30px;}
-.circle_s_box span {margin-top: 20px;}
 .chk_box {margin-top: 0px; width: 100%;}
 .chk_box_2 {
     padding-bottom: 20px;
@@ -931,7 +929,7 @@ img {
 }
 .cir_span>h6 {
     line-height: 1.4;
-    font-size: 14px;
+    font-size: 18px;
     width: 150px;
     font-weight: 500;
     margin-bottom: 50px;
@@ -1095,6 +1093,170 @@ img {
 
 
 
+/* 호스피스완화의료병동의 이야기 게시판 css */
+.t_box {border-bottom: 0.5px solid #ddd;}
+.t_li:first-of-type {border-top: 3px solid #ee791c;}
+.t_li {
+    padding: 5px 0;
+    box-sizing: border-box;
+    border-top: 1px solid #222;
+    transition: all .15s linear;
+}
+.t_li a {
+    padding: 0 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.t_text_p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    font-size: 14px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.t_title {
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+}
+.t_inner_text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+.t_li:hover {
+    background-color: #f5f5f5;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 10px #ddd;
+}
+.mobile_da_vi {display: none;}
+
+
+
+
+/* 호스피스완화의료병동 세부 디자인 */
+.mr_title_box {
+    display: flex;
+    flex-direction: column;
+    /* gap: 30px; */
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #444547;
+}
+.mr_t_title {
+    font-size: 23px;
+    font-weight: 500;
+    color: #333;
+    padding: 20px 0 10px 0;
+    box-sizing: border-box;
+}
+.mr_t_date {
+    display: flex;
+    justify-content: space-between;
+    color: #999;
+    font-size: 14px;
+}
+.date_box {
+    display: flex;
+    gap: 10px;
+}
+.member_1 {
+    color: #333;
+}
+.mr_main_comment {
+    padding: 30px 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 600;
+    color: #666;
+}
+.mr_main_comment p {
+    margin: 5px;
+}
+.turn_table_box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.pr_ne_box {
+    display: flex;
+    gap: 5px;
+}
+.next a, .prev a {
+    padding: 5px 15px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.news_de_list {
+    padding: 5px 15px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.mr_main_comment {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+
+    font-size: 17px;
+    line-height: 28px;
+    /* margin-bottom: 20px; */
+}
+.color_purple {
+    color: #ff99ff;
+    font-weight: 700;
+}
+.color_dark_purple {
+    color: #8e44ad;
+    font-weight: 700;
+}
+.color_orange {
+    color: #e67e22;
+    font-weight: 700;
+}
+.color_green {
+    color: #16a085;
+    font-weight: 700;
+}
+
+.bold_text {font-weight: 700;}
+.thumbs_img {
+    width: 100%;
+    max-width: 25px !important;
+}
+.img_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.img_flex img {
+    width: 100%;
+    max-width: 30% !important;
+}
+.mr_main_comment img {
+    width: 100%;
+    max-width: 50%;
+}
+.medi_num_img_5 {
+    width: 100%;
+    max-width: 40%;
+}
+
+
 
 
 
@@ -1113,6 +1275,24 @@ img {
     .mr_cb_content {flex-direction: column;}
     .mr_doc_n {width: 100%;}
     .top_banner_2 {display: inline-block;}
+
+
+/* 호스피스완화의료병동의 이야기 게시판 css */
+    .t_text_p {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    .t_title {
+        font-size: 14px !important;
+        max-width: 100%;
+    }
+    .t_inner_text {
+        font-size: 12px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 5px;
+    }
 }
 @media (max-width:991px) {
     .flex_box_11 {
@@ -1321,6 +1501,25 @@ img {
     }
     .c_26 {flex-direction: column; text-align: center;}
     .c_26 span:nth-of-type(1) {align-self: flex-start;}
+
+
+
+
+    .mr_t_title {
+        font-size: 17px;
+    }
+    .mr_t_date {
+        flex-direction: column;
+        font-size: 12px;
+    }
+    .mr_main_comment {
+        font-size: 13px;
+        gap: 10px;
+        line-height: 20px;
+    }
+
+
+    .turn_table_box {flex-direction: column; gap: 10px;}
 }
 @media (max-width: 576px) {
     .top_text {line-height: 35px;}
@@ -1372,12 +1571,39 @@ img {
     }
     .m_right {margin-bottom: 0 !important;}
     .c_title {margin-top: 0 !important;}
+
+
+    .name {max-width: 100% !important;}
+    .m_right {
+        margin-bottom: 30px !important;
+    }
     
+}
+@media (max-width: 540px) {
+    .t_title {
+        width: 100%;
+        max-width: 100%;
+        white-space: normal;
+        overflow: inherit;
+        text-overflow: ellipsis;
+        font-size: 12px;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        word-break: break-all;
+    }
+    .mobile_da_vi {
+        display: inline-block;
+    }
+    .desk_da_vi {
+        display: none;
+    }
+
+
 }
 @media (max-width: 500px) {
     .center_box_doc {
         margin-top: 20px;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: 5px;
     }
     .center_big_box {margin-bottom: 0;}
@@ -1425,6 +1651,37 @@ img {
     .c_27 {margin-top: 0 !important;}
     .border_box {font-size: 14px;}
     .mr_c_title {font-size: 22px;}
+
+
+
+    
+
+    .blue {
+        width: 20px;
+        height: 20px;
+        line-height: 20px !important;
+    }
+    .circle_num {
+        font-size: 13px;
+    }
+    .mr_c_title {
+        font-size: 16px !important;
+    }
+    .c_27_ {
+        font-size: 16px;
+    }
+    .small {
+        font-size: 15px;
+        margin: 5px 5px;
+    }
+    .cent_box {font-size: 14px;}
+    .line_height {
+        line-height: 23px;
+    }
+    .top_gray_text {
+        font-size: 16px;
+        line-height: 24px;
+    }
 }
 @media (max-width:400px) {
     .center_mid_box {border-radius: 8px;}
@@ -1446,6 +1703,32 @@ img {
     .mr_img {height: 200px;}
     .top_small_text  {margin-bottom: 20px;}
     .cent_box {font-size: 16px;}
+
+
+    .mr_main_comment img {
+        width: 100%;
+        max-width: 100%;
+    }
+    .img_flex img {
+        width: 100%;
+        max-width: 50% !important;
+    }
+    .medi_num_img_5 {
+        width: 100%;
+        max-width: 80%;
+    }
+    .mr_main_comment {font-size: 11px;}
+    .list_return a, .next a, .prev a {
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+    .name {
+        display: flex;
+        flex-wrap: wrap;
+        white-space: pre-wrap !important;
+    }
+    .name span {word-break: break-all;}
+    .date  {margin-right: 10px;}
 }
 @media (max-width: 300px)  {
     .mr_c_content {font-size: 16px;}
@@ -1455,3 +1738,4 @@ img {
     .icon_box_center {max-height: 29px; max-width: 5%; min-width: 30px;}
     
 }
+

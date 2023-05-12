@@ -450,7 +450,44 @@ const CENT_LIST = [
              sub_context1: [
                 'As our society ages, the number of patients with severe respiratory diseases is rapidly increasing.',
                 'In response to this trend, respiratory centers are being established and operated to provide efficient medical care.'
-            ] },
+            ] 
+        },
+        {
+            cate_no:0, 
+            item_no:30,
+            number: [
+                '1',
+                '2',
+                '3',
+                '4',
+                '5',
+                '6',
+            ],
+            title: [
+                '< Mailbox 5/4 > - A letter from the guardian',
+                '< Birthday Party 4/14 > - On General Hospital Hospice Ward Program',
+                '< Meal Gift 3/21 > - On General Hospital Hospice Ward Program',
+                '< Tea Ceremony 3/14 > - On General Hospital Hospice Ward Program',
+                '< Art Therapy 3/13 > - On General Hospital Hospice Program',
+                'On General Hospital Hospice Ward - Preview',
+            ],
+            writer: [
+                'ON Group Medical Foundation ON Hospital',
+                'ON Group Medical Foundation ON Hospital',
+                'ON Group Medical Foundation ON Hospital',
+                'ON Group Medical Foundation ON Hospital',
+                'ON Group Medical Foundation ON Hospital',
+                'ON Group Medical Foundation ON Hospital',
+            ],
+            date : [
+                '2023.05.05',
+                '2023.04.18',
+                '2023.04.18',
+                '2023.04.12',
+                '2023.04.12',
+                '2023.04.12',
+            ],
+        },
     ]
 ]
 
@@ -975,7 +1012,174 @@ const LIST_N = [
 ]
 
 
-const CENT_BANNER = [
-    [{}]
-]
 
+const CENT_BORAD = [
+    [
+        {
+            cate:0,
+            item_no:1,
+            title : '< Mailbox 5/4 > - A letter from the guardian',
+            writer: 'On Group Medical Foundation On General Hospital',
+            date: ['2023.05.05','23.05.05'],
+            text :[
+                '<span>Hello <br> <span class="color_purple">ON Hospice Alert</span>no see!</span>',
+                '<span>I`m back after a long time!!!!! <br> Today`s reminder <span class="bold_text">Doo!!</span></span>',
+                '<span><span class="color_purple">A letter from the guardian <br> who arrived at the ward</span><br> I`m trying to show you</span>',
+                '<span>I am so grateful to the guardians and <br> have had time to look back once again. <br> I`ll see you soon!!</span>',
+                '<span>It was a heartfelt letter with two letters.</span>',
+                '<span>It warms my heart~ <br> It was a time for all of us to read and cheer up. <br> Thank you</span>',
+            ],
+            img_src: [
+                '편지함_보호자에게서_온_편지_1.jpg',
+                '편지함_보호자에게서_온_편지_2.jpg',
+            ],
+        },
+        {
+            cate:0,
+            item_no:2,
+            title : '< Birthday Party 4/14 > - On General Hospital Hospice Ward Program',
+            writer: 'On Group Medical Foundation On General Hospital',
+            date: ['2023.04.18','23.04.18'],
+            text: [
+                '<span>Hello <br> <span class="color_purple">ON Hospice Alert</span>no see!</span>',
+                '<span>Today`s reminder is doo!!</span>',
+                '<span>In the hospice ward of On General Hospital <br> <span class="color_purple">birthday party</span> Time.</span>',
+                '<span>If the patient`s birthday is celebrated in the hospital room, <br> we prepare and hold a celebration party~~ <br> Shall we see it together??</span>',
+                '<span>Decorate the hospital room for your birthday. <br> Hang a banner with the words Happy Birthday written on the wallpaper~~ <br> Blow up balloons yourself and <br> stick them around.(Don`t burst~~)</span>',
+                '<span>Prepared cakes, flowers, and <br> delicious sweets and drinks are displayed~~ <br> Happy Birthday~~~~~~ Sing a song</span>',
+                '<span>Let`s all get together and take a picture of us~~ <br> Take a selfie too!! <img class="thumbs_img" src="./img/news/ext/thumbs_up.png"> <br> I love the way you smile so brightly~~</span>',
+                '<span>You can`t leave out your family members too~~ <br> Take a picture with your family members!! <br> I hope it will remain in your memory for a long time</span>',
+                '<span>A cocked hat also goes well with it. <br><br> I sincerely congratulate you on your birthday~~ <br> I hope you have a happy day!!</span>',
+                '<span class="bold_text">Birthday party done!! <br><br> What program will come next?? <br> Today`s notification is here!! <span class="color_purple">ON Hospice Alert</span>no see!</span>'
+            ],
+            img_src: [
+                '생일잔치_호스피스_프로그램_1.jpg',
+                '생일잔치_호스피스_프로그램_2.jpg',
+                '생일잔치_호스피스_프로그램_3.jpg',
+                '생일잔치_호스피스_프로그램_4.jpg',
+                '생일잔치_호스피스_프로그램_5.jpg',
+                '생일잔치_호스피스_프로그램_6.jpg',
+            ],
+        },
+        {
+            cate:0,
+            item_no:3,
+            title : '<Meal Gift 3/21> - On General Hospital Hospice Ward Program',
+            writer: 'On Group Medical Foundation On General Hospital',
+            date: ['2023.04.18','23.04.18'],
+            text: [
+                '<span>Hello <br> <span class="color_purple">ON Hospice Alert</span>no see!</span>',
+                '<span>Today`s reminder is doo!!</span>',
+                '<span>In the hospice ward of On General Hospital <br> <span class="bold_text">meal gift</span>Time.</span>',
+                '<span>n our ward, until now, various foods <br> have been prepared by nursing staff, palliative care workers, and social workers <br> to serve hospitalized patients and their families~~</span>',
+                '<span>What is today`s meal gift? <br> doo doo doo doo doo</span>',
+                '<span class="bold_text">as soon as!! < <span class="color_purple">new spring</span>welcome <span class="color_dark_purple">pansy flower</span> Sea squirt bibimbap>!!</span>',
+                '<span>in the last post <span class="bold_text">Benefits of Pansy</span>I found out about~</span>',
+                '<span>then <span class="color_orange">sea ​​squirt</span>Shall we find out the effect of? <br> <span class="color_orange">Sea squirt effect: </span>It contains vanadium, an indispensable trace metal component for the human body, which <br> has the effect of smoothing metabolism and improving diabetes. <br> If you have diabetes, your body becomes drowsy and fatigue comes easily. <br> Sea squirts are a very good food for diabetes with these symptoms </span>',
+                '<span><br> good~ good~ <br> Now let`s see how it`s being made step by step~</span>',
+                '<span>first!! The more good things, the better. <br> After preparing the ingredients <br> <span class="color_green">vegetable</span> and, <span class="color_dark_purple"> pansy flower </span>, <span class="color_orange"> sea ​​squirt </span>Get ready to clean up!!</span>',
+                '<span>If you put it in a bowl in turn!! <br> as soon as <span class="bold_text"> end!!!!!!!!!</span></span>',
+                '<span>Shall we bring our inpatients and guardians now? <br> We eat together in the program room~</span>',
+                '<span>And even a rocket delivery service to the hospital room!!!!!! <br> it`s possible!!!!</span>',
+                '<span>Now that we have eaten, <br> we have to take care of the after-dinner~ <br> Finish up with a cup of tea!!!! perfect~~</span>',
+                '<span>This meal gift is complete!!! <br> I hope you can heal your fatigue with a delicious mea~ <br><br>',
+                '<span class="bold_text">What program will come nex?? <br> Today`s notification is here!! <br><br>',
+                '<span class="color_purple">ON Hospice Alert</span> no see! <br> < It must be delicious ></span></span>'
+            ],
+            img_src:[
+                '식사선물_3_21__1.jpg',
+                '식사선물_3_21__2_1.jpg',
+                '식사선물_3_21__2_2.jpg',
+                '식사선물_3_21__2_3.jpg',
+                '식사선물_3_21__2_4.jpg',
+                '식사선물_3_21__3.jpg',
+                '식사선물_3_21__4_1.jpg',
+                '식사선물_3_21__4_2.jpg',
+                '식사선물_3_21__5_1.jpg',
+                '식사선물_3_21__5_2.jpg',
+                '식사선물_3_21__6.jpg',
+            ],
+        },
+        {
+            cate:0,
+            item_no:4,
+            title : '< Tea Ceremony 3/14 > - On General Hospital Hospice Ward Program',
+            writer: 'On Group Medical Foundation On General Hospital',
+            date: ['2023.04.12','23.04.12'],
+            text: [
+                '<span>Hello <br> <span class="color_purple">ON Hospice Alert</span>no see!</span>',
+                '<span>Today`s reminder is doo!!</span>',
+                '<span>A program implemented in the hospice ward of <br> On General Hospital <span class="bold_text"> It is a tea ceremony.</span></span>',
+                '<span>Smell the scent of tea with the participating guardians and <br> encourage peace and stability in the mind.</span>',
+                '<span>This tea ceremony <span class="bold_text">Flower tea.</span></span>',
+                '<span><span class="color_dark_purple">Pansy Flower Tea Benefits:</span> It is effective for lymphadenitis, jaundice, hepatitis, etc <br> It is good to drink pansy flower tea in winter when it is easy to feel drowsy and depressed. <br> It also has excellent anti-inflammatory action and <br> is said to be good for women and the elderly who have trouble sleeping due to high heat in the heart.</span>',
+                '<span>Shall we make pansy flower tea now?</span>',
+                '<span>After the flowers are thoroughly washed <br> they are fan-dried with heat. <br> Check the moisture and put it to sleep and store it in a heated glass bottle.</span>',
+                '<span>The flowers are purple, but when boiled, they turn blue!!!!</span>',
+                '<span>We all ate sweet snacks together with flower tea and <br> shared small chats~ <br> We shared time talking about life in the ward.</span>',
+                '<span>What program will come next? <br> Today`s notification is here!! <span class="color_purple">ON Hospice Alert</span> no see!</span>'
+            ],
+            img_src: [
+                '다도요법_3_14__1_1.jpg',
+                '다도요법_3_14__1_2.jpg',
+                '다도요법_3_14__2_1.jpg',
+                '다도요법_3_14__2_2.jpg',
+                '다도요법_3_14__3_1.jpg',
+                '다도요법_3_14__3_2.jpg',
+                '다도요법_3_14__3_3.jpg',
+            ],
+        },
+        {
+            cate:0,
+            item_no:5,
+            title : '< Art Therapy 3/13 > - On General Hospital Hospice Program',
+            writer: 'On Group Medical Foundation On General Hospital',
+            date: ['2023.04.12','23.04.12'],
+            text: [
+                '<span>Hello <br> <span class="color_purple">ON Hospice Alert</span>no see!</span>',
+                '<span>Today`s reminder is doo!! <br> Let`s find out about the program <br> implemented in the hospice ward of the On General Hospital~~</span>',
+                '<span>First of all <span class="bold_text">art therapy</span>!! no see.</span>',
+                '<span>Then! <br> <span class="bold_text">What is Art Therapy?? </span> <br> <span class="bold_text">Art</span>Therapy is a psychological treatment that reduces the emotional stress of the subject by expressing emotions or inner <br> world through art activities so that the subject can relax</span>',
+                '<span><span class="bold_text">ward program room</span> at <span class="bold_text">patient</span>and, <span class="bold_text">patient family</span> <br> Residing for people <span class="bold_text">social worker teacher</span>During <br> the program, you can <br> put aside miscellaneous thoughts and <br> gather together and <br> have a fun time talking in order~~</span>',
+                '<span>The art therapy conducted this time (2023.3.13) <span class="bold_text"> mini canvas - painting is for drawing</span> <br> You can freely write what you want to draw on the mini canvas and decorate it. <br> If you`re wondering what to draw, here`s an example~</span>',
+                '<span>It`s time to spend with the guardians~ <br> Concentrate! You are making your own art</span>',
+                '<span>Let`s <br> see the finished product!!</span>',
+                '<span>It has become a fun and relaxing time with <br> the guardians by drawing each one on white paper.</span>',
+                '<span>What program will come next?? <br> Today`s notification is here!! <span class="color_purple">ON Hospice Alert</span> no see!</span>'
+            ],
+            img_src: [
+                '미술치료_3_13__1.jpg',
+                '미술치료_3_13__2.jpg',
+                '미술치료_3_13__3_1.jpg',
+                '미술치료_3_13__3_2.jpg',
+            ],
+        },
+        {
+            cate:0,
+            item_no:6,
+            title : 'On General Hospital Hospice Ward - Preview',
+            writer: 'On Group Medical Foundation On General Hospital',
+            date: ['2023.04.12','23.04.12'],
+            text: [
+                '<span>Hello <br> <span class="color_purple">ON Hospice Alert</span>no see!</span>',
+                '<span>Today`s reminder is doo!!</span>',
+                '<span>I will tell you about the ward environment that <br> you can see when you come to the 13th ward of the general hospital~~</span>',
+                '<span>This is the entrance to the hospital ward~~ <br> It`s where you come out right after you get off the elevator for Units 1 and 2 <br> Goofy friends live together under bright and cheerful lights~ <br> Shall we zoom in??</span>',
+                '<span>There are many creatures with guppies <br> You can go close and examine them</span>',
+                '<span>Now let`s look at the nurse`s station and the hallways?</span>',
+                '<span>This is where the nurse teacher resides and works. <br>  You can receive guidance in situations where you need a nurse teacher, <br> such as questions or inquiries that arise during hospitalization~</span>',
+                '<span>Visiting hours are also posted <br> in front of the nurse station <br> <span class="bold_text">weekday afternoon</span>18:00~20:00 PM <br> <span class="bold_text">morning on weekends and holidays</span> 10:00~12:00 PM <span class="bold_text">afternoon</span> 08:00~20:00 PM</span>',
+                '<span>And there is a corridor all the way~ <br> You can go to the hospitalization room</span>',
+                '<span>There are paintings hanging all over the corridor of the ward <br> You can enjoy them with good words~</span>',
+                '<span>Today`s notification is here!! <br> See you on the following topics~~ <br><span class="color_purple">ON Hospice Alert</span> no see!</span>'
+            ],
+            img_src: [
+                '호스피스_병동_미리보기_1.jpg',
+                '호스피스_병동_미리보기_2.jpg',
+                '호스피스_병동_미리보기_3_1.jpg',
+                '호스피스_병동_미리보기_3_2.jpg',
+                '호스피스_병동_미리보기_4.jpg',
+            ],
+        },
+    ]
+]

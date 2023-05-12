@@ -336,7 +336,8 @@ body {font-family: 'Noto Sans KR';}
     .title_icon_box h4 {margin: 0 !important;}
     .d_main_b .subway_box {margin-bottom: 20px;}
     .title_icon_box {margin: 0 !important;}
-    .address_box, .d_main_b, .d_center {margin-top: 50px;}
+    .address_box {margin-top: 10px;}
+    .d_main_b, .d_center {margin-top: 50px;}
 }
 @media (max-width: 500px) {
     .bus_box {margin-bottom: 20px;}
