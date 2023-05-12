@@ -1093,7 +1093,7 @@ img {
 
 
 
-/* 호스피스완화의료병동의 이야기 게시판 css */
+/* 호스피스완화의료병동의 Story Board css */
 .t_box {border-bottom: 0.5px solid #ddd;}
 .t_li:first-of-type {border-top: 3px solid #ee791c;}
 .t_li {
@@ -1113,12 +1113,10 @@ img {
     gap: 10px;
     justify-content: space-between;
     font-size: 14px;
-    flex-direction: column;
-    align-items: flex-start;
 }
 .t_title {
     width: 100%;
-    max-width: 100%;
+    max-width: 500px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -1277,14 +1275,14 @@ img {
     .top_banner_2 {display: inline-block;}
 
 
-/* 호스피스완화의료병동의 이야기 게시판 css */
+/* 호스피스완화의료병동의 Story Board css */
     .t_text_p {
         flex-direction: column;
         align-items: flex-start;
         gap: 5px;
     }
     .t_title {
-        font-size: 14px !important;
+        font-size: 14px;
         max-width: 100%;
     }
     .t_inner_text {
@@ -1571,12 +1569,6 @@ img {
     }
     .m_right {margin-bottom: 0 !important;}
     .c_title {margin-top: 0 !important;}
-
-
-    .name {max-width: 100% !important;}
-    .m_right {
-        margin-bottom: 30px !important;
-    }
     
 }
 @media (max-width: 540px) {
@@ -1586,7 +1578,7 @@ img {
         white-space: normal;
         overflow: inherit;
         text-overflow: ellipsis;
-        font-size: 12px;
+        font-size: 16px;
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 2;
         word-break: break-all;
@@ -1597,13 +1589,11 @@ img {
     .desk_da_vi {
         display: none;
     }
-
-
 }
 @media (max-width: 500px) {
     .center_box_doc {
         margin-top: 20px;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 5px;
     }
     .center_big_box {margin-bottom: 0;}
@@ -1651,37 +1641,6 @@ img {
     .c_27 {margin-top: 0 !important;}
     .border_box {font-size: 14px;}
     .mr_c_title {font-size: 22px;}
-
-
-
-    
-
-    .blue {
-        width: 20px;
-        height: 20px;
-        line-height: 20px !important;
-    }
-    .circle_num {
-        font-size: 13px;
-    }
-    .mr_c_title {
-        font-size: 16px !important;
-    }
-    .c_27_ {
-        font-size: 16px;
-    }
-    .small {
-        font-size: 15px;
-        margin: 5px 5px;
-    }
-    .cent_box {font-size: 14px;}
-    .line_height {
-        line-height: 23px;
-    }
-    .top_gray_text {
-        font-size: 16px;
-        line-height: 24px;
-    }
 }
 @media (max-width:400px) {
     .center_mid_box {border-radius: 8px;}
@@ -1722,13 +1681,6 @@ img {
         font-size: 10px;
         padding: 5px 10px;
     }
-    .name {
-        display: flex;
-        flex-wrap: wrap;
-        white-space: pre-wrap !important;
-    }
-    .name span {word-break: break-all;}
-    .date  {margin-right: 10px;}
 }
 @media (max-width: 300px)  {
     .mr_c_content {font-size: 16px;}

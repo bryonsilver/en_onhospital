@@ -43,7 +43,7 @@ $(document).ready(function(){
                                                     </div>
                                                     
                                                     <div class="doctor_field_box">
-                                                        <div>SPECIALTY</div>
+                                                        <div>Specialty</div>
                                                         <div class="doc_field_text">`
                                                         for(let j=0; j<DOCTOR[cate][item_n].professional.length; j++) {
                                                             list +=`<span>${DOCTOR[cate][item_n].professional[j]}</span>`
@@ -124,7 +124,7 @@ $(document).ready(function(){
                                                 </div>
                                             </div>
                                             <div class="doctor_field_box">
-                                                <div>SPECIALTY</div>
+                                                <div>Specialty</div>
                                                 <div class="doc_field_text doc_f_t">`
                                                 for(let j=0; j<DOCTOR[cate][item_n].professional.length; j++) {
                                                     list +=`<span><span class="doc_comma"></span>${DOCTOR[cate][item_n].professional[j]}</span>`

@@ -1593,6 +1593,31 @@ body {
 
 
 
+/* nav 호스피스완화의료병동 이야기센터 */
+.dep3_inner_story {
+    position: absolute;
+    /* transform: translate(0, 88px); */
+    font-size: 16px;
+    z-index: 999999;
+    background: rgb(255, 255, 255);
+    padding: 0px;
+    right: 240px;
+    top: 115px;
+}
+.dep3_inner_story a {
+    padding: 5px 30px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #fff;
+}
+
+
+
+
+
+
+
 @media (max-width: 1500px) {
     .n_set_pan {
         transform: translateX(10%);

@@ -210,7 +210,19 @@ $(document).ready(function(){
         
         $('.dc_28').css({color: '#ee791c'})
         $(".medi_c_select").slideDown(300);
-    } 
+    } else if (medi_num) {
+        console.log("medi 이야기센터")
+
+        $('#selec29').prop("selected", true);
+        $('#select_medi_c_1').css({color: '#000'});
+        $('#select_medi_c_2').css({color: '#ee791c'});
+        $('.m28').addClass('active');
+        $('.spe_cen_28').addClass('nav_active');
+        $('.mr_img').addClass('cen_mr_img');
+        
+        $('.dc_28').css({color: '#ee791c'})
+        $(".medi_c_select").slideDown(300);
+    }
 
 
 // 호스피스완화병동의 이야기게시판 세부 디자인

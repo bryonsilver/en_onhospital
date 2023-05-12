@@ -496,6 +496,34 @@ $(document).ready(function(){
 	$('.root_daum_roughmap_landing').css({width:'100%'})
 
 
+
+
+/* nav에서 호스피스완화의료병동 hover 시 */
+$('.dep3_inner_story').css({display:'none'})
+$('.dc_13').on('mouseover', function(){
+	$('.dep3_inner_story').stop().slideToggle(200)
+	$('.dep3_inner_story').slideDown(200);
+	$('.dep3_inner_story').css({display:'inline-block'})
+})
+$('.dc_13').on('mouseout', function(){
+	$('.dep3_inner_story').stop().slideToggle(200)
+	$('.dep3_inner_story').slideUp(200);
+	$('.dep3_inner_story').css({display:'none', color: '#222'})
+})
+
+
+$('.dep3_inner_story').on('mouseover', function(){
+	$('.dep3_inner_story').stop().slideToggle(200)
+	$('.dep3_inner_story').slideDown(200);
+	$('.dep3_inner_story').css({display:'inline-block', color: '#ee791c'})
+})
+$('.dep3_inner_story').on('mouseout', function(){
+	$('.dep3_inner_story').stop().slideToggle(200)
+	$('.dep3_inner_story').slideUp(200);
+	$('.dep3_inner_story').css({display:'none', color: '#222'})
+})
+
+
 	
 	
 
