@@ -806,6 +806,7 @@ body {font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple
     }
 }
 @media (max-width: 400px) {
+    .l_img {max-width: 70% !important;}
     .icon_box_center {
         max-height: 29px;
     }
