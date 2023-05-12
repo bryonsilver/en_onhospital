@@ -314,7 +314,7 @@ span {display: inline-block;}
 
 .ham_box  {
     display: grid;
-    gap: 5px;
+    gap: 12px;
     align-items: center;
     font-size: 16px;
     grid-template-columns: 30px 30px;
@@ -329,8 +329,9 @@ span {display: inline-block;}
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    gap: 10px;
+    gap: 6px;
     cursor: pointer;
+    justify-content: center;
 }
 .line {
     width: 100% !important;
