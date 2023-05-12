@@ -1515,7 +1515,7 @@ body {
     position: relative;
 }
 .f_nav_li > a {
-    padding: 0 14px;
+    padding: 0 12px;
     box-sizing: border-box;
 }
 .f_nav_li::before {
@@ -1992,6 +1992,7 @@ body {
     #google_translate_element > div > div:after {right: 13px !important;}
 }
 @media (max-width: 400px) {
+    .footer {padding-bottom: 20px;}
     .logo_m {max-width: 70% !important;}
     .li_2 .bur_title {margin-top: 21px;}
     .bur_title a {font-size: 20px;}
