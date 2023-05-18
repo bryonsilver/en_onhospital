@@ -2312,7 +2312,7 @@ const DOC_ICON = [
         {cate:0,item:45,icon_src:'medi_w_45',},
         {cate:0,item:50,icon_src:'medi_w_47',},
         {cate:0,item:46,icon_src:'medi_w_abc_1',},
-        {cate:0,item:47,icon_src:'medi_w_abc_17',},
+        {cate:0,item:47,icon_src:'medi_w_abc_24',},
         {cate:0,item:48,icon_src:'medi_w_abc_24',},
         {cate:0,item:49,icon_src:'medi_w_abc_last',},
         {cate:0,item:50,icon_src:'medi_w_47',},

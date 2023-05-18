@@ -3,6 +3,9 @@ body{font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple 
 
 
 
+.margin_title {
+    margin-top: 50px;
+}
 .icon img {
     width: 20px;
 }
@@ -62,9 +65,9 @@ svg:not(:root).svg-inline--fa {
     align-items: center;
     margin-bottom: 46px;
 }
-.margin_bottom {
+/* .margin_bottom {
     margin-bottom: 46px;
-}
+} */
 .btn-download {
     display: inline-block;
     text-align: center;
@@ -151,7 +154,7 @@ table {
     box-sizing: border-box;
     color: #555;
     
-    border-left: 1px solid #999;
+    /* border-left: 1px solid #999; */
 }
 .td_3 {
     border-right: 1px solid #999;
@@ -159,6 +162,7 @@ table {
 .tr_2 td,
 .tr_1 td {
     border-bottom: 1px solid #999;
+    border-right: 1px solid #999;
 }
 td,
 th {border-bottom: 1px solid #999;}
@@ -203,7 +207,7 @@ th {border-bottom: 1px solid #999;}
     margin-left: 20px;
 }
 .span_text {
-    margin-top: 50px;
+    margin-top: 20px;
     font-size: 15px;
     font-weight: 400;
     color: #777;
@@ -223,7 +227,7 @@ th {border-bottom: 1px solid #999;}
     margin: 0;
     margin-bottom: 10px !important;
 }
-.mb-5 {    margin-bottom: 3rem!important;}
+.mb-5 {    margin-bottom: 0rem!important;}
 .table.table-bordered {
     border: 0;
     border-top: 2px solid #333;
@@ -234,15 +238,20 @@ th {border-bottom: 1px solid #999;}
     min-width: 750px;
 }
 
+.medi_border_four tr:nth-of-type(1) td:nth-of-type(1),
+.medi_border_four tr:nth-of-type(1) th:nth-of-type(1) {
+    border-right: 1px solid #999;
+}
 .medi_border_four tr:nth-of-type(1) th:nth-of-type(2),
 .medi_border_four tr:nth-of-type(1) th:nth-of-type(3),
 .medi_border_four tr:nth-of-type(1) th:nth-of-type(4),
 .medi_border_four tr:nth-of-type(1) th:nth-of-type(5),
 .medi_border_four tr:nth-of-type(1) th:nth-of-type(6) {
-    border-left: 1px solid #999;
+    /* border-left: 1px solid #999; */
     border-right: 1px solid #999;
     font-size: 13px;
     color: #555;
+    line-height: 22px;
 }
 .medi_border_four tr:nth-of-type(1) th{
     background-color: #fce6d4;
@@ -257,10 +266,12 @@ th {border-bottom: 1px solid #999;}
 .medi_border_four tr:nth-of-type(1) td:nth-of-type(4),
 .medi_border_four tr:nth-of-type(1) td:nth-of-type(5),
 .medi_border_four tr:nth-of-type(1) td:nth-of-type(6) {
-    border-left: 1px solid #999;
+    /* border-left: 1px solid #999; */
     border-right: 1px solid #999;
     font-size: 13px;
+    line-height: 22px;
 }
+.mobile_line{display: none;}
 
 
 .required_li li {
@@ -323,14 +334,19 @@ th {border-bottom: 1px solid #999;}
     
     .two tr:nth-of-type(1) th {border-top: 2px solid #555 !important;}
     
-    .icon_title img {display: none;}
+    .icon_title, .icon_title img {display: none;}
     .title_icon_box {justify-content: center;}
 }
 @media (max-width:830px) {
     .four {overflow-x: scroll;}
 }
 @media (max-width: 800px) {
+    .down_text_box, .text-justify {margin-top: 60px;}
+    .med_four {font-size: 14px;}
     .medi_border_box {overflow-x: scroll;}
+    .table-responsive-lg {
+        overflow: auto;
+    }
 }
 @media (max-width:710px) {
     .three tr {
@@ -359,6 +375,33 @@ th {border-bottom: 1px solid #999;}
     .three tr:nth-of-type(1) th {border-top: 2px solid #555 !important;}
 }
 @media (max-width: 600px) {
+    .mobile_line {display: inline-block;}
+    .four td {padding-left: 0; padding: 5px 10px;}
+    .table-phone ul {list-style: none; }
+    .text_1 {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .text-justify ol {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    table {line-height: 20px;}
+    .four th, .three th, .two th, .one th,
+    .four td, .three td, .two td, .one td{font-size: 14px;}
+    .margin_title {
+        margin-top: 30px;
+    }
+    
+
+
+    .span_text {margin-top: 10px;}
+    .down_text_box, .text-justify {margin-top: 40px;}
+    .down_text_box {margin-top: 40px;}
+    .med_four {font-size: 12px;}
+    .mb-5 {margin-bottom: 0.5rem !important;}
+    
+    .four td, .three td, .two td, .one td {text-align: center;}
     .icon_title {display: none;}
     .down_text_box h4:nth-of-type(1) {display: none;}
     .moblie_download {
@@ -373,7 +416,8 @@ th {border-bottom: 1px solid #999;}
     }
     .title_icon_box h4 {
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
+        gap: 5px;
         justify-content: center;
         align-items: center;
     }
@@ -382,16 +426,47 @@ th {border-bottom: 1px solid #999;}
     .flex_span {display: flex; flex-direction: column;}
     .moblie_none {display: none;}
 }
+@media (max-width: 500px) {
+    .title_icon_box h4 {
+        flex-direction: column;
+    }
+}
 @media (max-width: 400px) {
+    .text_1 {
+        font-size: 12px !important;
+        line-height: 18px;
+    }
+    .text-justify ol {
+        font-size: 12px !important;
+        line-height: 18px;
+    }
+    .span_text {font-size: 12px; line-height: 18px;}
+    table {line-height: 18px;}
+    .medi_border_four tr:nth-of-type(2) td:nth-of-type(1),
+    .medi_border_four tr:nth-of-type(2) td:nth-of-type(2) {
+        font-size: 12px !important;
+    }
+    .four th, .three th, .two th, .one th,
+    .four td, .three td, .two td, .one td{font-size: 12px !important;}
+    .medi_border_four tr:nth-of-type(1) th:nth-of-type(2), .medi_border_four tr:nth-of-type(1) th:nth-of-type(3), .medi_border_four tr:nth-of-type(1) th:nth-of-type(4), .medi_border_four tr:nth-of-type(1) th:nth-of-type(5), .medi_border_four tr:nth-of-type(1) th:nth-of-type(6) {
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 500;
+    }
+    .medi_border_four tr:nth-of-type(1) td:nth-of-type(1), .medi_border_four tr:nth-of-type(1) th:nth-of-type(1),
+    .medi_border_four tr:nth-of-type(1) td:nth-of-type(2), .medi_border_four tr:nth-of-type(1) td:nth-of-type(3), .medi_border_four tr:nth-of-type(1) td:nth-of-type(4), .medi_border_four tr:nth-of-type(1) td:nth-of-type(5), .medi_border_four tr:nth-of-type(1) td:nth-of-type(6) {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+
     .btn-download {
         width: 100%;
         padding: 15px 30px;
         box-sizing: border-box;
     }
     .title_icon_box h4, .col-lg-12 h4, .d_mb_title {
-        font-size: 18px !important;
-        white-space: nowrap;
-        text-align: left;
+        text-align: center;
     }
     .icon_title {display: none;}
     

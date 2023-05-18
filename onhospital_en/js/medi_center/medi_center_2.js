@@ -9,7 +9,7 @@ $(document).ready(function(){
         }
     });   
 
-    
+
     const urlParams = new URL(location.href).searchParams;
     const cen_v2 = urlParams.get('cen_v2');
     const selec = urlParams.get('selec');
@@ -65,6 +65,7 @@ $(document).ready(function(){
         
         $('.dc_2_8').css({color: '#ee791c'})
     }
+    
 
     for(let i=0; i<1; i++) {
         let cent_list = ``
@@ -125,20 +126,19 @@ cent_list+= `<div class="mr_content">`
                                             <div class="cent_1_text margin_bottom_15">${CENT_LIST[0][cen_v2].sub_context1[2]}</div>
                                         </span>
                                         <span class="cent_box">
-                                            
                                             <table class="table_line">
                                                 <tbody>
                                                     <tr>
-                                                        <th class="bold table_th th_cen_1">${CENT_LIST[0][cen_v2].table_th[0]}</th>
-                                                        <td class="table_td td_cen_1">${CENT_LIST[0][cen_v2].table_td[0]}</td>
+                                                        <th class="bold table_th">${CENT_LIST[0][cen_v2].table_th[0]}</th>
+                                                        <td class="table_td">${CENT_LIST[0][cen_v2].table_td[0]}</td>
                                                     </tr>
                                                     <tr>
-                                                        <th class="bold table_th th_cen_1">${CENT_LIST[0][cen_v2].table_th[1]}</th>
-                                                        <td class="table_td td_cen_1">${CENT_LIST[0][cen_v2].table_td[1]}</td>
+                                                        <th class="bold table_th">${CENT_LIST[0][cen_v2].table_th[1]}</th>
+                                                        <td class="table_td">${CENT_LIST[0][cen_v2].table_td[1]}</td>
                                                     </tr>
                                                     <tr>
-                                                        <th class="bold table_th th_cen_1">${CENT_LIST[0][cen_v2].table_th[2]}</th>
-                                                        <td class="table_td td_cen_1">${CENT_LIST[0][cen_v2].table_td[2]}</td>
+                                                        <th class="bold table_th">${CENT_LIST[0][cen_v2].table_th[2]}</th>
+                                                        <td class="table_td">${CENT_LIST[0][cen_v2].table_td[2]}</td>
                                                     </tr>
                                                 </tbody>
                                             </table>
@@ -272,7 +272,8 @@ cent_list+= `<div class="mr_content">`
                                         `
                     }
                     else if (cen_v2 == 26) {
-                        cent_list += `<div class="mr_c_content cent_13">
+                        cent_list += `
+                                    <div class="mr_c_content cent_13">
                                         <span class="cent_box">
                                             <div class="top_text_box2">
                                                 <div class="text_4">${CENT_LIST[0][cen_v2].sub_context1[0]}</div>
@@ -337,7 +338,7 @@ cent_list+= `<div class="mr_content">`
                                                     <div>${CENT_LIST[0][cen_v2].small_phone[1]}</div>
                                                 </div>
                                             </div>
-                                            <div class="line"></div>
+                                            <div class="line" style="display: inline-block"></div>
                                             <div class="mr_c_title margin2">${CENT_LIST[0][cen_v2].sub_title[2]}</div>
                                             <div class="margin_bottom_30">
                                                 <div>
@@ -350,7 +351,7 @@ cent_list+= `<div class="mr_content">`
                                                     <div>${CENT_LIST[0][cen_v2].small_phone[2]}</div>
                                                 </div>
                                             </div>
-                                            <div class="line"></div>
+                                            <div class="line" style="display: inline-block"></div>
                                             <div class="margin_bottom_30 plus_margin_30">
                                                 <div>
                                                     <div class="chk_box">
@@ -418,6 +419,133 @@ cent_list+= `<div class="mr_content">`
                     
     cent_list +=  `</div>
                 </div>`
+
+
+
+                if (cen_v2 == 11 || cen_v2 == 20 || cen_v2 == 25 ) {
+                    cent_list +=`<span></span>`
+                }
+                else if(cen_v2 == 1) {
+    cent_list +=  ` <div class="center_box_doc_mix"> 
+                        <div class="mr_c_title margin_doc">
+                            Introduction of the center's medical staff
+
+                        </div>
+                        <div class="center_box_doc">`
+                            if (CENT_TITLE[0][cen_v2 + 1].doctors_name != null) {
+                                for(let i=0; i<CENT_TITLE[0][cen_v2 + 1].doctors_name.length; i++)  { 
+                            cent_list +=  ` 
+                                    <div class="center_big_box">
+                                            <div class="center_mid_box">
+                                                <a href="./medi_more.html?${CENT_TITLE[0][cen_v2 + 1].doctors_link[i]}">
+                                                    <span class="center_text">${CENT_TITLE[0][cen_v2 + 1].doctors_name[i]}</span>
+                                                </a>
+                                            </div>
+                                        </div>`
+                                }
+                            cent_list +=  `</div>
+                                    </div>
+                                </div>
+                            </div>`
+                        } 
+                }
+                
+                else if(cen_v2 == 6) {
+                    cent_list +=  ` <div class="center_box_doc_mix"> 
+                                        <div class="mr_c_title margin_doc">
+                                            Introduction of the center's medical staff
+                
+                                        </div>
+                                        <div class="center_box_doc">`
+                                            if (CENT_TITLE[0][cen_v2].doctors_name != null) {
+                                                for(let i=0; i<CENT_TITLE[0][cen_v2].doctors_name.length; i++)  { 
+                                            cent_list +=  ` 
+                                                    <div class="center_big_box">
+                                                            <div class="center_mid_box">
+                                                                <a href="./medi_more.html?${CENT_TITLE[0][cen_v2].doctors_link[i]}">
+                                                                    <span class="center_text">${CENT_TITLE[0][cen_v2].doctors_name[i]}</span>
+                                                                </a>
+                                                            </div>
+                                                        </div>`
+                                                }
+                                            cent_list +=  `</div>
+                                                    </div>
+                                                </div>
+                                            </div>`
+                                        } 
+                }
+                else if(cen_v2 == 12) {
+                    cent_list +=  ` <div class="center_box_doc_mix"> 
+                                        <div class="mr_c_title margin_doc">
+                                            Introduction of the center's medical staff
+                
+                                        </div>
+                                        <div class="center_box_doc">`
+                                            if (CENT_TITLE[0][cen_v2].doctors_name != null) {
+                                                for(let i=0; i<CENT_TITLE[0][cen_v2].doctors_name.length; i++)  { 
+                                            cent_list +=  ` 
+                                                    <div class="center_big_box">
+                                                            <div class="center_mid_box">
+                                                                <a href="./medi_more.html?${CENT_TITLE[0][cen_v2].doctors_link[i]}">
+                                                                    <span class="center_text">${CENT_TITLE[0][cen_v2].doctors_name[i]}</span>
+                                                                </a>
+                                                            </div>
+                                                        </div>`
+                                                }
+                                            cent_list +=  `</div>
+                                                    </div>
+                                                </div>
+                                            </div>`
+                                        } 
+                }
+                else if(cen_v2 == 16) {
+                    cent_list +=  ` <div class="center_box_doc_mix"> 
+                                        <div class="mr_c_title margin_doc">
+                                            Introduction of the center's medical staff
+                
+                                        </div>
+                                        <div class="center_box_doc">`
+                                            if (CENT_TITLE[0][cen_v2].doctors_name != null) {
+                                                for(let i=0; i<CENT_TITLE[0][cen_v2].doctors_name.length; i++)  { 
+                                            cent_list +=  ` 
+                                                    <div class="center_big_box">
+                                                            <div class="center_mid_box">
+                                                                <a href="./medi_more.html?${CENT_TITLE[0][cen_v2].doctors_link[i]}">
+                                                                    <span class="center_text">${CENT_TITLE[0][cen_v2].doctors_name[i]}</span>
+                                                                </a>
+                                                            </div>
+                                                        </div>`
+                                                }
+                                            cent_list +=  `</div>
+                                                    </div>
+                                                </div>
+                                            </div>`
+                                        } 
+                }
+                else if(cen_v2 == 26) {
+                    cent_list +=  ` <div class="center_box_doc_mix"> 
+                                        <div class="mr_c_title margin_doc">
+                                            Introduction of the center's medical staff
+                
+                                        </div>
+                                        <div class="center_box_doc">`
+                                            if (CENT_TITLE[0][cen_v2].doctors_name != null) {
+                                                for(let i=0; i<CENT_TITLE[0][cen_v2].doctors_name.length; i++)  { 
+                                            cent_list +=  ` 
+                                                    <div class="center_big_box">
+                                                            <div class="center_mid_box">
+                                                                <a href="./medi_more.html?${CENT_TITLE[0][cen_v2].doctors_link[i]}">
+                                                                    <span class="center_text">${CENT_TITLE[0][cen_v2].doctors_name[i]}</span>
+                                                                </a>
+                                                            </div>
+                                                        </div>`
+                                                }
+                                            cent_list +=  `</div>
+                                                    </div>
+                                                </div>
+                                            </div>`
+                                        } 
+                }
 // cent_list += `</div>
 //             <div class="mr_content">
 //                 <div class="mr_c_box">
@@ -466,7 +594,6 @@ cent_list+= `<div class="mr_content">`
         $('.top_banner_2').append(banner_li_2);                    
     }
 
-    
     $('.cen2_25').addClass('center_2_25');
     $('.cen2_26').addClass('center_2_27');
 

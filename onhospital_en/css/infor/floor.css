@@ -9,6 +9,7 @@
     text-align: center !important;
 } */
 body {font-family: 'Noto Sans KR';}
+.m_flex_box {gap: 0;}
 .col-lg-12 h4 {width: 100%;}
 .icon_title {margin-bottom: 0 !important;}
 th {
@@ -107,6 +108,9 @@ svg:not(:root).svg-inline--fa {
 
 @media (max-width: 500px) {
     .table-floor td {max-width: 388px;}
+    .title_icon_box h4, .col-lg-12 h4 {
+        font-size: 16px !important;
+    }
 }
 
 

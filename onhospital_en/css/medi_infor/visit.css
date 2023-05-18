@@ -32,7 +32,7 @@ table {
     background-color: #ee791c30;
     white-space: nowrap;
     font-size: 17px;
-    font-weight: 600;
+    font-weight: 500;
     padding: 12px 12px;
     box-sizing: border-box;
 }
@@ -55,7 +55,7 @@ table {
     vertical-align: middle;
     white-space: nowrap;
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 400;
     padding-left: 15px;
     box-sizing: border-box;
     color: #777;
@@ -64,29 +64,32 @@ table {
 .span,
 .first_table > span {
     font-size: 17px;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 25px;
+    margin-top: 10px;
     color: #777;
 }
 .span:last-child{margin-top: 0;}
-.table-phone {margin-bottom: 10px;}
 
-
-.span_flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+@media (max-width: 800px) {
+    .second_table th, .first_table th {
+        font-size: 14px;
+        padding: 8px 8px;
+    }
+    .second_table td, .first_table td {font-size: 14px;}
+    .span, .first_table > span {font-size: 14px; line-height: 21px;}
 }
-
-
 @media (max-width: 500px) {
+    .table_first tr:nth-of-type(1) td {
+        border-top: 0;
+    }
     .first_table tr {
         display: flex;
         flex-direction: column;
     }
     .span_flex {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
     }
     .first_table td {
@@ -94,13 +97,14 @@ table {
         text-align: center;
     }
 }
-@media (max-width: 280px) {
-    .table-phone tbody tr:nth-of-type(2) th {display: flex; flex-direction: column;}
-    .second_table th, 
-    .first_table th,
-    .second_table td, 
-    .first_table td {font-size: 15px;}
-    .second_table th {max-width: 50px; padding: 10px 6px;}
-    .icon_title {display: none;}
-    .title_icon_box h4 {text-align: center; width: 100%;}
+@media (max-width: 400px) {
+    .second_table, .first_table {padding-bottom: 10px;}
+    .span {margin-top: 0;}
+    
+    .second_table th, .first_table th {
+        font-size: 12px;
+        padding: 8px 8px;
+    }
+    .second_table td, .first_table td {font-size: 12px;}
+    .span, .first_table > span {font-size: 12px; line-height: 21px;}
 }

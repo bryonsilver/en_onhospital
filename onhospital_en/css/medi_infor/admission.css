@@ -7,7 +7,7 @@ body{font-family: 'Open Sans','Noto Sans KR','Apple SD 산돌고딕 Neo','Apple 
 .text-justify h4 {
     color: #007dd6;
     font-size: 23px;
-    /* font-weight: 800; */
+    font-weight: 600;
 }
 .text-justify {
     font-size: 16px;
@@ -29,7 +29,17 @@ ol {margin: 0 !important;}
     margin-top: 20px;
 }
 
-@media (max-width: 280px) {
-    .icon_title {display: none;}
-    .title_icon_box h4 {text-align: center; width: 100%;}    
+@media (max-width: 800px) {
+    .text-justify {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+@media (max-width: 600px) {
+    .text-justify {
+        font-size: 12px;
+        line-height: 19px;
+    }
+    .top_title {margin-bottom: 20px;}
+    .text-justify h4 {margin-bottom: 10px !important;}
 }

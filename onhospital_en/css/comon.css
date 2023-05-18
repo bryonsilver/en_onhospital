@@ -1915,7 +1915,6 @@ body {
     .main_center > .container {
         width: 100%;
         max-width: 100% !important;
-        padding: 0 10px !important;
         box-sizing: border-box;
     }
 }

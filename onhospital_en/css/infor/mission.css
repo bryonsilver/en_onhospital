@@ -267,6 +267,16 @@ body {font-family: 'Noto Sans KR';}
 }
 
 @media (max-width:800px) {
+    .mb-4 {font-size: 19px;}
+    .under_line {width: 60%;}
+    .mb-4 > span {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+    .text-justify {font-size: 16px; line-height: 28px;}
+
+    
     .row2 {
         justify-items: center;
         grid-template-columns: repeat(3, 1fr);
@@ -452,26 +462,32 @@ body {font-family: 'Noto Sans KR';}
         top: 70%;
         left: 73%;
     }
+    .mb-4 {font-size: 15px;}
     .under_line {width: 60%;}
     .mb-4 > span {
         flex-direction: column;
         align-items: center;
-        gap: 5px;
+        gap: 0px;
     }
+    .text-justify {font-size: 14px; line-height: 24px;}
     .mb-4 {margin-bottom: 30px;}
 }
 @media (max-width: 380px) {
     .mission_text_1 {
-        left: 42%;
-        top: 14%;
+        left: 43%;
+        top: 15%;
     }
     .mission_text_2 {
-        top: 70%;
-        left: 9%;
+        top: 71%;
+        left: 10%;
     }
     .mission_text_3 {
-        top: 70%;
-        left: 72%;
+        top: 72%;
+        left: 73%;
+    }
+    .mi_t {
+        line-height: 17px;
+        font-size: 13px;
     }
 }
 @media (max-width: 340px) {
@@ -505,8 +521,9 @@ body {font-family: 'Noto Sans KR';}
 }
 
 @media (max-width: 280px) {
+    .mb-4 {font-size: 14px;}
     .mission_text_1 {
-        left: 40%;
+        left: 43%;
         top: 13%;
     }
     .mission_text_2 {
@@ -514,7 +531,11 @@ body {font-family: 'Noto Sans KR';}
         left: 7%;
     }
     .mission_text_3 {
-        top: 68%;
-        left: 70%;
+        top: 72%;
+        left: 72%;
+    }
+    .mi_t {
+        line-height: 14px;
+        font-size: 11px;
     }
 }

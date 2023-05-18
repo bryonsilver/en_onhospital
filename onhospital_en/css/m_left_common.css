@@ -76,6 +76,7 @@
     color: #ee791c !important;
     font-weight: 600;
     font-size: 25px !important;
+    margin-bottom: 10px;
     
     text-align: center;
 }
@@ -312,6 +313,9 @@
     
 }
 @media (max-width: 500px) {
+    .top_title {
+        font-size: 22px;
+    }
     .main .swiper_box4 .container {    padding: 10px 0 ;}
     .title_icon_box h4,.col-lg-12 h4 {font-size: 20px !important;}
     .title_icon_box {margin-bottom: 10px;}

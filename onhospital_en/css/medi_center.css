@@ -1014,7 +1014,11 @@ img {
     align-items: center;
     text-align: center;
     gap: 10px;
-    margin-top: 40px;
+    /* margin-top: 40px; */
+}
+.margin_doc {
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 .center_big_box {
     border: 3px solid transparent;
@@ -1093,7 +1097,7 @@ img {
 
 
 
-/* 호스피스완화의료병동의 Story Board css */
+/* 호스피스완화의료병동의 이야기 게시판 css */
 .t_box {border-bottom: 0.5px solid #ddd;}
 .t_li:first-of-type {border-top: 3px solid #ee791c;}
 .t_li {
@@ -1275,7 +1279,7 @@ img {
     .top_banner_2 {display: inline-block;}
 
 
-/* 호스피스완화의료병동의 Story Board css */
+/* 호스피스완화의료병동의 이야기 게시판 css */
     .t_text_p {
         flex-direction: column;
         align-items: flex-start;
@@ -1447,6 +1451,8 @@ img {
 
 }
 @media (max-width: 800px) {
+    .td_table {padding-top: 0 !important; text-align: center;}
+    .table_text div {gap: 0 !important;}
     .cent_24_span {gap: 20px; flex-direction: column;}
     .con,.bold {width: 100%; text-align: center;}
     .title_box_onn {font-size: 40px;}
@@ -1485,6 +1491,65 @@ img {
     .img_medi_center_box  {height: 200px;}
 }
 @media (max-width: 600px) {
+
+    .mr_c_box  {padding-top: 20px;}
+    .cent_24_span {
+        border-bottom: 1.5px solid #888 ;
+    }
+    .last_cent_24 {border-bottom: 0 !important;}
+    .mr_c_title {margin-bottom: 10px !important;}
+    .bolder {margin-top: 15px; margin-bottom: 5px;}
+    .margin2 {margin-bottom: 0;}
+    
+    .chk_text,
+    .flex_20 .f_box,
+    .top_gray_text,
+    .chk_num,
+    .cir_span>h6,
+    .title_21,
+    .cent_box,
+    .text_4,
+    .top_small_text,
+    .mr_c_content {font-size: 15px !important;}
+    .top_small_text,
+    .chk_text,
+    .flex_20 .f_box,
+    .top_gray_text,
+    .chk_num,
+    .title_21,
+    .cent_box,
+    .text_4,
+    .line_height,
+    .mr_ul,
+    .mr_c_content > span {line-height: 22px;}
+    .top_text_box,
+    .f_box,
+    .cent_1_text  {line-height: 26px;}
+
+    .margin_doc {margin-top: 20px;}
+    .line {display: none;}
+
+    .cent_13 > div,
+    .c_27 {text-align: center;}
+
+    .margin2 {margin-top: 10px;}
+    .chk_text {margin-bottom: 8px;}
+    .small_2 {
+        margin: 10px 0 15px 0;
+    }
+    .table_line th,
+    .circle_num,
+    .black_bold,
+    .c_27_,
+    .f_box,
+    .c_26_,
+    .chk_num_box {font-size: 17px;}
+    .margin_bottom_30 {margin-bottom: 10px;}
+
+    .chk_box_20 {gap: 5px;}
+    .mr_c_box {gap: 10px;}
+    .text_18 {margin-bottom: 15px;}
+
     .c_26_ {text-align: center;}
     .line_circle {
         flex-direction: column;
@@ -1500,7 +1565,7 @@ img {
     .c_26 {flex-direction: column; text-align: center;}
     .c_26 span:nth-of-type(1) {align-self: flex-start;}
 
-
+    .table_line td {padding: 15px 0;}
 
 
     .mr_t_title {
@@ -1520,6 +1585,12 @@ img {
     .turn_table_box {flex-direction: column; gap: 10px;}
 }
 @media (max-width: 576px) {
+    .chk_box_20 {padding: 15px 0 20px 0;}
+    .circle_icon {display: none;}
+    .chk_num_box, .f_box {text-align: center;}
+    .f_text_box2 ul {list-style: none; margin: 0; margin-bottom: 20px;}
+    .chk_box_20, .mr_c_title {justify-content: center; align-items: center;}
+    .f_text_box2 {width: 100%; text-align: center;}
     .top_text {line-height: 35px;}
     .title_box_onn {font-size: 42px;}
     .mr_img {
@@ -1591,6 +1662,10 @@ img {
     }
 }
 @media (max-width: 500px) {
+    .text_4,
+    .black_bold {text-align: center;}
+
+
     .center_box_doc {
         margin-top: 20px;
         grid-template-columns: repeat(2, 1fr);
@@ -1630,6 +1705,7 @@ img {
     .chk_text, .chk_20, .color1, .chk_t {
         flex-direction: row;
         align-items: center;
+        justify-content: center;
         /* padding: 12px 0; */
         box-sizing: border-box;
         /* border-top: 1px solid #ddd; */
@@ -1640,14 +1716,50 @@ img {
     .mr_ul2 {margin-left: 20px; line-height: 26px;}
     .c_27 {margin-top: 0 !important;}
     .border_box {font-size: 14px;}
-    .mr_c_title {font-size: 22px;}
+    .mr_c_title {font-size: 22px; text-align: center;}
 }
 @media (max-width:400px) {
+    .flex_20 .f_box,
+    .chk_num,
+    .cir_span>h6,
+    .title_21,
+    .top_gray_text,
+    .chk_text,
+    .cent_box,
+    .text_4,
+    .top_small_text,
+    .mr_c_content {font-size: 13px !important;}
+    .top_small_text,
+    .flex_20 .f_box,
+    .chk_num,
+    .top_gray_text,
+    .line_height,
+    .chk_text,
+    .title_21,
+    .cent_box,
+    .text_4,
+    .mr_ul,
+    .mr_c_content > span {line-height: 20px;}
+    .top_text_box,
+    .cent_1_text  {line-height: 24px;}
+
+    .table_line th,
+    .black_bold,
+    .circle_num,
+    .c_27_,
+    .c_26_,
+    .chk_num_box {font-size: 15px;}
+    .margin_bottom_30 {margin-bottom: 10px;}
+
     .center_mid_box {border-radius: 8px;}
     .center_mid_box a {padding: 10px 10px;}
     .center_box_doc {font-size: 14px;}
+    .mr_c_box {gap: 0px;}
+    .margin_doc {margin-top: 15px;}
 
+    .c_27 {text-align: center;}
 
+    .text_18 {margin-bottom: 10px;}
     .title_box_onn {font-size: 30px;}
     .icon_box_center {max-height: 29px;}
     .f_img_box img {
@@ -1661,7 +1773,7 @@ img {
     .cent_1_text {font-size: 16px;}
     .mr_img {height: 200px;}
     .top_small_text  {margin-bottom: 20px;}
-    .cent_box {font-size: 16px;}
+    .cent_box {font-size: 13px ;}
 
 
     .mr_main_comment img {
@@ -1683,8 +1795,6 @@ img {
     }
 }
 @media (max-width: 300px)  {
-    .mr_c_content {font-size: 16px;}
-    .mr_c_content > span {line-height: 25px;}
     .m_r_content_box {gap: 0;}
     .title_box_onn {font-size: 25px; gap: 6px;}
     .icon_box_center {max-height: 29px; max-width: 5%; min-width: 30px;}
