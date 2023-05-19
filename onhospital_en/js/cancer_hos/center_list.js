@@ -662,7 +662,7 @@ const CENT_TITLE = [
         {
             cate_no:0, 
             item_no:9, 
-            title:'Cardiocerebrovascular', 
+            title:'Cardio Cerebrovascular', 
             icon_src:'medi_w_cetner_9', 
             name:'심뇌혈관센터',
             doctors_name:[

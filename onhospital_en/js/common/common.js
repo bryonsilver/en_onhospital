@@ -18,6 +18,9 @@ $(document).ready(function(){
 	const urlParams = new URL(location.href).searchParams;
     const trans = urlParams.get('trans');
     console.log('trans',trans)
+
+	var para = document.location.href.split("/");
+	console.log(para);
 	// $(".width").append("<div style='font-size:30px; color: red; font-weight: bolder' class='width_hello'>Hello</div>");
 
 	// setTimeout(function(){
@@ -44,6 +47,8 @@ $(document).ready(function(){
 	
 	setTimeout(function(){
 		if($('select').hasClass("goog-te-combo")) {
+			
+
 			// console.log("있음!! ")
 			// $('.nav_4').css({backgroundColor: 'blue'})
 			// alert("nav_4 아리요")
