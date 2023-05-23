@@ -309,11 +309,6 @@ $(document).ready(function(){
 					$(location).attr("href",'https://bryonsilver.github.io/ON_Hospital/on_hospital/' + para[5] + '&trans=ko');
 				}
 				
-				$(".goog-te-combo").val('ko').prop("selected", true);
-				if(document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'ko') {
-					console.log("ko")
-					$(".goog-te-combo").val('ko').click();
-				}
 			}
 			
 	
