@@ -488,6 +488,27 @@ const CENT_LIST = [
                 '2023.04.12',
             ],
         },
+        {cate_no:0, 
+            item_no:31,
+             img_src:['29_1.png', '29_2.png'], 
+             sub_title: ['INTRODUCTION'],
+             bold_top:'The `COVID-19 Recovery Treatment Center`, which opened at On General Hospital for the first time in Korea, focuses on the symptoms that continue after COVID-19 is cured and focuses on the treatment of various aftereffects after vaccination or COVID-19. ', 
+             
+             sub_context4: [
+                'This center, which provides professional treatment and management for patients` COVID-19 aftereffects, supports patients` recovery and healthy return to their daily lives'
+            ] ,
+             sub_context3: [
+                'The center operates a multidisciplinary cooperative treatment system in cooperation with various professional medical staff, including surgery, pediatrics, otolaryngology, mental health medicine, neurology, neurosurgery, and rehabilitation medicine. ',
+                'The exact cause of the aftereffects of COVID-19 has not yet been identified, but we are using high-dose vitamins to improve immunity through symptomatic prescriptions focusing on the patient`s symptoms.'
+            ] ,
+             sub_context2: [
+                'There are no clear standards or guidelines, but many people are still complaining of aftereffects such as fever, persistent cough, and brain fog even after COVID-19 is confirmed.',
+                'The World Health Organization (WHO) defines the aftereffects of COVID-19 as "a symptom that appears within three months of the outbreak and lasts more than two months, and cannot be explained by other diagnoses.".'
+            ] ,
+             sub_context1: [
+                'It mainly deals with post-COVID symptoms such as muscle pain, taste and smell disorders, difficulty breathing, fatigue, cough, itching, and insomnia.',
+            ] 
+        },
     ]
 ]
 
@@ -961,6 +982,32 @@ const CENT_TITLE = [
                 'cate=10&item=1',
                 'cate=28&item=1',
                 'cate=3&item=6'
+            ],
+        },
+        {
+            cate_no:0, 
+            item_no:30,
+            title:'COVID-19 Recovery and Treatment Center', 
+            name:'코로나 후유증 회복치료센터', 
+            icon_src:'medi_w_cetner_50',
+            doctors_name:[
+                'Eun Myoung, Head of Dept.'
+            ],
+            doctors_link:[
+                'cate=3&item=5',
+            ],
+        },
+        {
+            cate_no:0, 
+            item_no:31,
+            title:'COVID-19 Recovery and Treatment Center', 
+            name:'코로나 후유증 회복치료센터', 
+            icon_src:'medi_w_cetner_50',
+            doctors_name:[
+                'Eun Myoung, Head of Dept.'
+            ],
+            doctors_link:[
+                'cate=3&item=5',
             ],
         },
     ]

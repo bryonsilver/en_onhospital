@@ -97,12 +97,12 @@ table * {
 }
 .st_th_1::before {
     content: "";
-    width: 161px;
+    width: 158px;
     height: 1px;
     background-color: #ee791c;
     position: absolute;
     left: 0;
-    top: 44.5%;
+    top: 41.5%;
 }
 .st_th_1::after {
     content: "";
@@ -111,7 +111,7 @@ table * {
     background-color: #ee791c;
     position: absolute;
     left: 50%;
-    top: 42%;
+    top: 39%;
 }
 .one::after {
     content: '';
@@ -308,7 +308,7 @@ svg:not(:root).svg-inline--fa {
     background-color: #ee791c;
     position: absolute;
     left: 17%;
-    top: -39%;
+    top: -25%;
 }
 .st_t_left::after {
     content: "";
@@ -317,21 +317,21 @@ svg:not(:root).svg-inline--fa {
     background-color: #ee791c;
     position: absolute;
     left: 17%;
-    bottom: -9%;
+    bottom: -5%;
 }
 .st_t_right::before {
     content: "";
     width: 1px;
-    height: 20px;
+    height: 40px;
     background-color: #ee791c;
     position: absolute;
     left: 92%;
-    top: -39%;
+    top: -29%;
 }
 .st_t_right::after {
     content: "";
     width: 1px;
-    height: 20px;
+    height: 50px;
     background-color: #ee791c;
     position: absolute;
     left: 92%;
@@ -435,25 +435,51 @@ svg:not(:root).svg-inline--fa {
 
 
 @media (max-width: 1400px) {
+    .two::after {left: 49.5%;}
     .st_th_1::before {
         content: "";
         width: 152px;
-        top: 42%;
+        top: 39%;
     }
     
     .st_th_1::after {
-        top: 40% !important;
+        top: 38% !important;
     }
+}
+@media (max-width: 1300px) {
+    .st_th_1::before {
+        content: "";
+        width: 148px;
+        top: 38%;
+    }
+    
+    .st_th_1::after {
+        top: 36% !important;
+    }
+}
+@media (max-width: 1250px) {
+    .two::after {bottom: -87px;}
+    .three::after {bottom: -112px;}
+    .st_th_1::before {width: 144px;}
+}
+@media (max-width: 1200px) {
+    
+    .st_th_1::before {width: 144px;}
 }
 @media (max-width:1150px) {
     .st_th_1::before {
         content: "";
-        width: 184px;
-        top: 44%;
+        width: 180px;
+        top: 45%;
     }
     .st_th_1::after {
-        top: 42% !important;
+        top: 43% !important;
     }
+    .two::after {
+        left: 50%;
+        bottom: -63px;
+    }
+    .three::after {bottom: -87px;}
 }
 @media (max-width:1100px)  {
     .line_2 {
@@ -462,11 +488,16 @@ svg:not(:root).svg-inline--fa {
     .st_th_1::before {
         content: "";
         width: 144px;
-        top: 42%;
+        top: 38%;
     }
     .st_th_1::after {
-        top: 40% !important;
+        top: 36% !important;
     }
+    .one::after{
+        left: 49%;
+    }
+    .two::after {left: 49.5%;}
+    .three::after {left: 51%;}
 }
 @media (max-width:991px) {
     .two_box,

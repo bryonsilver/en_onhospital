@@ -208,6 +208,12 @@ $(document).ready(function(){
         
         $('.dc_28').css({color: '#ee791c'})
         $(".medi_c_select").slideDown(300);
+    }  else if (cen_v == 30) {
+        $('#selec30').prop("selected", true);
+        $('.m31').addClass('active');
+        $('.spe_cen_31').addClass('nav_active')
+        
+        $('.dc_31').css({color: '#ee791c'})
     } 
 
 
@@ -658,13 +664,24 @@ for(let i=0; i<1; i++) {
             } else {
                 cent_list += `<div class="m_r_content_box">`
             }
-    cent_list += `<div class="mr_title">
-                    </div>
-                <div class="mr_img">`
-                    for(let j=0; j<1; j++) {
-            cent_list += `<div class="box_img cen2_${CENT_LIST[0][cen_v].item_no}"></div>`
-                    }
-    cent_list += `</div>`
+            if (cen_v != 30){
+                cent_list += `<div class="mr_title">
+                                        </div>
+                                    <div class="mr_img">`
+                                        for(let j=0; j<1; j++) {
+                                cent_list += `<div class="box_img cen2_${CENT_LIST[0][cen_v].item_no}"></div>`
+                                        }
+                        cent_list += `</div>`
+                } else if (cen_v == 30) {
+                    cent_list += `<div class="mr_title">
+                                        </div>
+                                    <div class="mr_img mr_cen_30" style="height: 340px">`
+                                        for(let j=0; j<1; j++) {
+                                cent_list += `<div class="img_"><img src="./img/medi_center/29_2.png" alt></div>
+                                                <!--div class="img_"><img src="./img/medi_center/29_1.png" alt></div-->`
+                                        }
+                        cent_list += `</div>`
+                }
                     if (cen_v == 4) {
                         cent_list += `
                                         <span class="cent_box">
@@ -1793,6 +1810,26 @@ for(let i=0; i<1; i++) {
                                                 </form>
                                             </div>`
                         }
+                        else if (cen_v == 30) {
+                            cent_list += `<div class="mr_c_content cent_13">
+                                            <span class="cent_box c_23_top">
+                                                <div class="top_text_box">
+                                                    <div>${CENT_LIST[0][cen_v].bold_top}</div>
+                                                </div>
+                                            </span>
+
+                                            <div>${CENT_LIST[0][cen_v].sub_context1[0]}</div>
+                                            <br>
+                                            <div>${CENT_LIST[0][cen_v].sub_context2[0]}</div>
+                                            <div>${CENT_LIST[0][cen_v].sub_context2[1]}</div>
+                                            <br>
+                                            <div>${CENT_LIST[0][cen_v].sub_context3[0]}</div>
+                                            <div>${CENT_LIST[0][cen_v].sub_context3[1]}</div>
+                                            <br>
+                                            <div>${CENT_LIST[0][cen_v].sub_context4[0]}</div>
+                                            `
+                        }
+    
     
     
               cent_list += `</div>`
@@ -1811,7 +1848,8 @@ for(let i=0; i<1; i++) {
                                     cen_v == 15 || 
                                     cen_v == 17 || 
                                     cen_v == 11 ||
-                                    cen_v == 18
+                                    cen_v == 18 ||
+                                    cen_v == 30
                                     
                                     ) {
                                     cent_list += `<div class="mr_c_title"></div>`
@@ -2162,6 +2200,32 @@ for(let i=0; i<1; i++) {
         
                         if (cen_v == 29 || cen_v == 9 || cen_v == 13 || cen_v == 14 || cen_v == 17  || cen_v == 20 || cen_v == 25 ) {
                             cent_list +=`<span></span>`
+                        }
+                        else if (cen_v == 30) {
+                            cent_list +=  ` <div class="center_box_doc_mix"> 
+                                                <div class="mr_c_title margin_doc">
+                                                Introduction of the center's medical staff
+                                                </div>
+                                                <div class="center_box_doc">`
+                                                    if (CENT_TITLE[0][cen_v - 1].doctors_name != null) {
+                                                        for(let i=0; i<CENT_TITLE[0][cen_v - 1].doctors_name.length; i++)  { 
+                                                    cent_list +=  ` 
+                                                            <div class="center_big_box">
+                                                                    <div class="center_mid_box">
+                                                                        <a href="./medi_more.html?${CENT_TITLE[0][cen_v - 1].doctors_link[i]}">
+                                                                            <span class="center_text">${CENT_TITLE[0][cen_v - 1].doctors_name[i]}</span>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>`
+                                                        }
+                                                    cent_list +=  `</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>`
+                                        } 
+                                        else {
+                                    cent_list +=  `<div class="center_big_box not_center_big_box"></div>`
+                                    }
                         }
                         else if (cen_v != 29) {
             cent_list +=  ` <div class="center_box_doc_mix"> 

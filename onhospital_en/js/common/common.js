@@ -303,7 +303,12 @@ $(document).ready(function(){
 				}
 			}
 			else if (trans == 'ko') {
-				$(location).attr("href",'https://bryonsilver.github.io/ON_Hospital/on_hospital/index.html?trans=ko');
+				if($(".en_in_per_class").hasClass("en_active") === true) {
+					$(location).attr("href",'https://bryonsilver.github.io/ON_Hospital/on_hospital/' + para[5] + '?trans=ko');
+				} else {
+					$(location).attr("href",'https://bryonsilver.github.io/ON_Hospital/on_hospital/' + para[5] + '&trans=ko');
+				}
+				
 				$(".goog-te-combo").val('ko').prop("selected", true);
 				if(document.getElementsByClassName('goog-te-combo')[0].selectedOptions[0].value === 'ko') {
 					console.log("ko")
