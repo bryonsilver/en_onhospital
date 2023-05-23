@@ -20,7 +20,7 @@ $(document).ready(function(){
     console.log('trans',trans)
 
 	var para = document.location.href.split("/");
-	console.log(para);
+	console.log('para :',para);
 	// $(".width").append("<div style='font-size:30px; color: red; font-weight: bolder' class='width_hello'>Hello</div>");
 
 	// setTimeout(function(){
@@ -48,15 +48,6 @@ $(document).ready(function(){
 	setTimeout(function(){
 		if($('select').hasClass("goog-te-combo")) {
 			
-
-			// console.log("있음!! ")
-			// $('.nav_4').css({backgroundColor: 'blue'})
-			// alert("nav_4 아리요")
-			// setTimeout(function(){
-			// 	$('.nav_4').css({backgroundColor: 'red'})
-			// 	alert("nav_4 납시오오오오오오ㅗ오오ㅗㅇ")
-			// }, 600)
-	
 			if (trans == 'el') {
 				//*[@id=":0.targetLanguage"]/select/option[3]
 				$(".goog-te-combo").val('el').prop("selected", true);
@@ -304,9 +295,9 @@ $(document).ready(function(){
 			}
 			else if (trans == 'ko') {
 				if($(".en_in_per_class").hasClass("en_active") === true) {
-					$(location).attr("href",'https://bryonsilver.github.io/ON_Hospital/on_hospital/' + para[5] + '?trans=ko');
+					$(location).attr("href",'https://bryonsilver.github.io/ON_Hospital/on_hospital/' + para[4] + '?trans=ko');
 				} else {
-					$(location).attr("href",'https://bryonsilver.github.io/ON_Hospital/on_hospital/' + para[5] + '&trans=ko');
+					$(location).attr("href",'https://bryonsilver.github.io/ON_Hospital/on_hospital/' + para[4] + '&trans=ko');
 				}
 				
 			}
