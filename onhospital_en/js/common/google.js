@@ -29,7 +29,7 @@ function googleTranslateElementInit() {
 }
 
 
-//frequently asked questions
+//FAQ
 
 /////////////////////////////////
 

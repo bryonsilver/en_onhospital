@@ -100,6 +100,10 @@ $(document).ready(function(){
                                                                 <span class="text_danger">Surgery/Test</span>
                                                             </span>
                                                             <span>
+                                                                <div class="circle cir_intensive_care_unit"></div>
+                                                                <span class="text_intensive_care_unit">Intensive Care Unit (ICU)</span>
+                                                            </span>
+                                                            <span>
                                                                 <div class="circle cir_success"></div>
                                                                 <span class="text_success">Inquiry</span>
                                                             </span>
@@ -182,7 +186,7 @@ $(document).ready(function(){
                                                         <span class="text_danger">Surgery/Test</span>
                                                     </span>
                                                     <span>
-                                                    <div class="circle cir_intensive_care_unit"></div>
+                                                        <div class="circle cir_intensive_care_unit"></div>
                                                         <span class="text_intensive_care_unit">Intensive Care Unit (ICU)</span>
                                                     </span>
                                                     <span>
@@ -196,7 +200,7 @@ $(document).ready(function(){
                                 list += `<div class="c_top_btn_box">
                                             <span class="ct_introduce_btn c_top_btn_active">
                                                 <span class="ct_top_after"></span>
-                                                <span>INTRODUCTION</span>
+                                                <span>Introduction</span>
                                             </span>
                                             <span class="ct_tv_box">
                                                 <span class="ct_top_after"></span>
@@ -208,7 +212,7 @@ $(document).ready(function(){
                                 list += `<div class="c_top_btn_box none_span_iframe">
                                             <span class="ct_introduce_btn c_top_btn_active">
                                                 <span class="ct_top_after"></span>
-                                                <span>INTRODUCTION</span>
+                                                <span>Introduction</span>
                                             </span>
                                         </div>`
                                     }

@@ -332,7 +332,7 @@ $(document).ready(function(){
                         list += `</div>
                                 </div>
                                 <div class="list_return">
-                                    <a href="./news.html?num=${num}" class="news_de_list news_btn">목록</a>
+                                    <a href="./news.html?num=${num}" class="news_de_list news_btn">List</a>
                                 </div>
                             </div>
                         </div>`

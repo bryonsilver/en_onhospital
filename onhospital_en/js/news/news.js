@@ -65,10 +65,12 @@ $(document).ready(function(){
                                         <span class="name" style="max-width: 300px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;" title="${NEWS_LIST[num][i].writer}">
                                             ${NEWS_LIST[num][i].writer}
                                             <span class="date notranslate mobile_da_vi">${NEWS_LIST[num][i].date}</span>
-                                            <span class="view notranslate mobile_da_vi">15497</span>
+                                            <span class="view notranslate mobile_da_vi">0</span>
+                                            <input type="hidden" class="view_input" value="0" name="view_input_n">
                                         </span>
                                         <span class="date notranslate desk_da_vi">${NEWS_LIST[num][i].date}</span>
-                                        <span class="view notranslate desk_da_vi">15497</span>
+                                        <span class="view notranslate desk_da_vi">0</span>
+                                        <input type="hidden" class="view_input" value="0" name="view_input_n">
                                     </span>
                                 </p>
                             </a>
@@ -76,6 +78,36 @@ $(document).ready(function(){
         $('.t_box').append(list);
     }
 
+    setTimeout(()=>
+       {
+            var count = 0;
+            var inter;
+            
+            function add(){
+                count += 1;
+            }
+        
+            // $(document).ready(function(){
+            //     $('#plus').on('mousedown',function(){
+            //         inter = setInterval(add , 70)
+            //     })
+        
+            //     $('#plus').on('mouseup',function(){
+            //         clearInterval(inter)
+            //     })
+            // })
+
+            $('.t_li').click(function(){
+                add();
+                $(this).find('.view').html(count)
+                $(this).find('.view_input').val('');
+                $(this).find('.view_input').val(count);
+                console.log("view_ add 1+ ")
+            })
+
+       }, 500
+            
+    )
 
     
                         

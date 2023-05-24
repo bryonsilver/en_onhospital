@@ -2204,7 +2204,7 @@ for(let i=0; i<1; i++) {
                         else if (cen_v == 30) {
                             cent_list +=  ` <div class="center_box_doc_mix"> 
                                                 <div class="mr_c_title margin_doc">
-                                                Introduction of the center's medical staff
+                                                Medical Staff
                                                 </div>
                                                 <div class="center_box_doc">`
                                                     if (CENT_TITLE[0][cen_v - 1].doctors_name != null) {

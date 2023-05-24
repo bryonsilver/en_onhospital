@@ -428,7 +428,7 @@ cent_list+= `<div class="mr_content">`
                 else if(cen_v2 == 1) {
     cent_list +=  ` <div class="center_box_doc_mix"> 
                         <div class="mr_c_title margin_doc">
-                            Introduction of the center's medical staff
+                            Medical Staff
 
                         </div>
                         <div class="center_box_doc">`
@@ -453,7 +453,7 @@ cent_list+= `<div class="mr_content">`
                 else if(cen_v2 == 6) {
                     cent_list +=  ` <div class="center_box_doc_mix"> 
                                         <div class="mr_c_title margin_doc">
-                                            Introduction of the center's medical staff
+                                            Medical Staff
                 
                                         </div>
                                         <div class="center_box_doc">`
@@ -477,7 +477,7 @@ cent_list+= `<div class="mr_content">`
                 else if(cen_v2 == 12) {
                     cent_list +=  ` <div class="center_box_doc_mix"> 
                                         <div class="mr_c_title margin_doc">
-                                            Introduction of the center's medical staff
+                                            Medical Staff
                 
                                         </div>
                                         <div class="center_box_doc">`
@@ -501,7 +501,7 @@ cent_list+= `<div class="mr_content">`
                 else if(cen_v2 == 16) {
                     cent_list +=  ` <div class="center_box_doc_mix"> 
                                         <div class="mr_c_title margin_doc">
-                                            Introduction of the center's medical staff
+                                            Medical Staff
                 
                                         </div>
                                         <div class="center_box_doc">`
@@ -525,7 +525,7 @@ cent_list+= `<div class="mr_content">`
                 else if(cen_v2 == 26) {
                     cent_list +=  ` <div class="center_box_doc_mix"> 
                                         <div class="mr_c_title margin_doc">
-                                            Introduction of the center's medical staff
+                                            Medical Staff
                 
                                         </div>
                                         <div class="center_box_doc">`

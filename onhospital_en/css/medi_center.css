@@ -1527,7 +1527,7 @@ img {
     .cent_1_text  {line-height: 26px;}
 
     .margin_doc {margin-top: 20px;}
-    .line {display: none;}
+    /* .line {display: none;} */
 
     .cent_13 > div,
     .c_27 {text-align: center;}

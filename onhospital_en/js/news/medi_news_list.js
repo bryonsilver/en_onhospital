@@ -62,7 +62,7 @@ const NEWS_LIST = [
         {cate_no:4, item_no:9, num:2, title:'February 20th - February 26th', writer: 'ON Group Medical Foundation ON Hospital', date:'2023.02.16', date2:'23.02.16',},
         {cate_no:4, item_no:10, num:1, title:'February 13th - February 19th', writer: 'ON Group Medical Foundation ON Hospital', date:'2023.02.08', date2:'23.02.08',},
     ],
-    //Frequently Asked Questions
+    //FAQ
     [
         {cate_no:5, item_no:1, num:3, title:'How to reissue health certificate', writer: 'ON Hospital', date:'2022.05.27', date2:'22.05.27',},
         {cate_no:5, item_no:2, num:2, title:'Hospitalization room access time for inpatient guardians', writer: 'ON Hospital', date:'2022.05.27', date2:'22.05.27',},
@@ -84,6 +84,6 @@ const NEWS_TITLE = [
         {cate_no:0, item_no:3, title:'News & Publications'},
         {cate_no:0, item_no:4, title:'Employment'},
         {cate_no:0, item_no:5, title:'Today`s Meal'},
-        {cate_no:0, item_no:6, title:'Frequently Asked Questions'},
+        {cate_no:0, item_no:6, title:'FAQ'},
     ]
 ]

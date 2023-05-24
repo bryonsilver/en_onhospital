@@ -139,19 +139,18 @@ $(document).ready(function(){
                                                     <div class="circle cir_primary"></div>
                                                     <span class="text_primary">Medical Treatment</span>
                                                 </span>
+                                                
+                                                <span>
+                                                    <div class="circle cir_danger"></div>
+                                                    <span class="text_danger">Surgery/Test</span>
+                                                </span>
                                                 <span>
                                                     <div class="circle cir_intensive_care_unit"></div>
                                                     <span class="text_intensive_care_unit">Intensive Care Unit (ICU)</span>
                                                 </span>
-                                                <span class="grid_text_ex">
-                                                    <span>
-                                                        <div class="circle cir_danger"></div>
-                                                        <span class="text_danger">Surgery/Test</span>
-                                                    </span>
-                                                    <span>
-                                                        <div class="circle cir_success"></div>
-                                                        <span class="text_success">Inquiry</span>
-                                                    </span>
+                                                <span>
+                                                    <div class="circle cir_success"></div>
+                                                    <span class="text_success">Inquiry</span>
                                                 </span>
                                             </div>
                                         </div>

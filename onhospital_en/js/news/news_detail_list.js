@@ -823,7 +823,7 @@ const NEWS_DETAIL = [
         },
 
     ],
-    // Frequently Asked Questions
+    // FAQ
     [
         {cate_no:5, 
             item_no:10, 
