@@ -548,8 +548,8 @@ const CENT_TITLE = [
             icon_src:'medi_w_cetner_2', 
             name:'간센터',
             doctors_name:[
-                'Han Sang-Young, Chief of Liver Center',
-                'Choi Jong-cheol, Professor',
+                'Han Sang-Young, <span class="long_text_small">Chief of Liver Center</span>',
+                'Choi Jong-cheol, <span>Professor</span>',
             ],
             doctors_link:[
                 'cate=3&item=2',
@@ -563,10 +563,10 @@ const CENT_TITLE = [
             icon_src:'medi_w_cetner_3', 
             name:'감염센터',
             doctors_name:[
-                'O Mu-Young, Director',
-                'Im Soo Kwak, Professor',
-                'Jong-Ae Son, Head of Dept.',
-                'Eun Myoung, Head of Dept.'
+                'O Mu-Young, <span>Director</span>',
+                'Im Soo Kwak, <span>Professor</span>',
+                'Jong-Ae Son, <span>Head of Dept.</span>',
+                'Eun Myoung, <span>Head of Dept.</span>'
             ],
             doctors_link:[
                 'cate=10&item=1',
@@ -582,8 +582,8 @@ const CENT_TITLE = [
             icon_src:'medi_w_cetner_4', 
             name:'대장항문센터',
             doctors_name:[
-                'Ko Sang-hwa, Head of Dept.',
-                'Ju Jae-woo, Head of Dept.'
+                'Ko Sang-hwa, <span>Head of Dept.</span>',
+                'Ju Jae-woo, <span>Head of Dept.</span>'
             ],
             doctors_link:[
                 'cate=19&item=5',
@@ -597,8 +597,8 @@ const CENT_TITLE = [
             icon_src:'medi_w_cetner_5', 
             name:'소아청소년 정신건강센터',
             doctors_name:[
-                'Kim Sang-yeop, Director',
-                'Lee Soo-jin, Head of Dept.'
+                'Kim Sang-yeop, <span>Director</span>',
+                'Lee Soo-jin, <span>Head of Dept.</span>'
             ],
             doctors_link:[
                 'cate=21&item=1',
@@ -612,15 +612,15 @@ const CENT_TITLE = [
             icon_src:'medi_w_cetner_6', 
             name:'소화내시경센터',
             doctors_name:[
-                'Eun-Taek Park, Director of Center',
-                'Han Sang-Young, Director of Center',
-                'Eun Myoung, Head of Dept.',
-                'Kim Yeon-woo, Head of Dept.',
-                'Park Cheol-woo, Head of Dept.',
-                'Kim Dong-heon, Professor',
-                'Choi Jong-cheol, Professor',
-                'Yoo Heung, Ph.D.',
-                'Ko Guihan, Head of Dept.'
+                'Eun-Taek Park, <span>Director of Center</span>',
+                'Han Sang-Young, <span>Director of Center</span>',
+                'Eun Myoung, <span>Head of Dept.</span>',
+                'Kim Yeon-woo, <span>Head of Dept.</span>',
+                'Park Cheol-woo, <span>Head of Dept.</span>',
+                'Kim Dong-heon, <span>Professor</span>',
+                'Choi Jong-cheol, <span>Professor</span>',
+                'Yoo Heung, <span>Ph.D.</span>',
+                'Ko Guihan, <span>Head of Dept.</span>'
             ],
             doctors_link:[
                 'cate=24&item=1',
@@ -641,16 +641,16 @@ const CENT_TITLE = [
             icon_src:'medi_w_cetner_7', 
             name:'소화기암수술센터',
             doctors_name:[
-                'Kim Dong-heon, Professor',
-                'Park Kwang-min, Professor',
-                'Lee Sang-yeop, Professor',
-                'Kim Yeon-woo, Head of Dept.',
-                'Park Cheol-woo, Head of Dept.',
-                'Eun Myoung, Head of Dept.',
-                'Ju Jae-woo, Head of Dept.',
-                'Ko Sang-hwa, Head of Dept.',
-                'Eun-Taek Park, Director of Center',
-                'Han Sang-Young, Director of Center'
+                'Kim Dong-heon, <span>Professor</span>',
+                'Park Kwang-min, <span>Professor</span>',
+                'Lee Sang-yeop, <span>Professor</span>',
+                'Kim Yeon-woo, <span>Head of Dept.</span>',
+                'Park Cheol-woo, <span>Head of Dept.</span>',
+                'Eun Myoung, <span>Head of Dept.</span>',
+                'Ju Jae-woo, <span>Head of Dept.</span>',
+                'Ko Sang-hwa, <span>Head of Dept.</span>',
+                'Eun-Taek Park, <span>Director of Center</span>',
+                'Han Sang-Young, <span>Director of Center</span>'
             ],
             doctors_link:[
                 'cate=19&item=6',
@@ -672,8 +672,8 @@ const CENT_TITLE = [
             icon_src:'medi_w_cetner_8', 
             name:'신경센터',
             doctors_name:[
-                'Sohn-gi Roh, Vice Chief of Neurology',
-                'Sang-uk Ha, Head of Dept.'
+                'Sohn-gi Roh, <span class="long_text_small">Vice Chief of Neurology</span>',
+                'Sang-uk Ha, <span>Head of Dept.</span>'
             ],
             doctors_link:[
                 'cate=12&item=1',
@@ -687,12 +687,12 @@ const CENT_TITLE = [
             icon_src:'medi_w_cetner_9', 
             name:'심뇌혈관센터',
             doctors_name:[
-                'Jae-Young Choi, Chief of Neurosurgery Center',
-                'Myung-Ki Lee, Head of Dept.',
-                'Hyun-Kook Lee, Director of Internal Medicine',
-                'Kim Soo-hee, Head of Dept.',
-                'Yoon Sung Jo, Head of Dept.',
-                'Seung-Ryul Jung, Head of Dept.',
+                'Jae-Young Choi, <span class="long_text_small">Chief of Neurosurgery Center</span>',
+                'Myung-Ki Lee, <span>Head of Dept.</span>',
+                'Hyun-Kook Lee, <span class="long_text_small">Director of Internal Medicine</span>',
+                'Kim Soo-hee, <span>Head of Dept.</span>',
+                'Yoon Sung Jo, <span>Head of Dept.</span>',
+                'Seung-Ryul Jung, <span>Head of Dept.</span>',
             ],
             doctors_link:[
                 'cate=13&item=2',
@@ -717,9 +717,9 @@ const CENT_TITLE = [
             icon_src:'medi_w_cetner_11', 
             name:'암재활프로그램',
             doctors_name:[
-                'Kwon Hyuk-chan, Director of the Anti-cancer Center',
-                'Eun Myoung, Head of Dept.',
-                'Lee Kangho, Head of Dept.',
+                'Kwon Hyuk-chan, <span class="long_text_small">Director of the Anti-cancer Center</span>',
+                'Eun Myoung, <span>Head of Dept.</span>',
+                'Lee Kangho, <span>Head of Dept.</span>',
             ],
             doctors_link:[
                 'cate=26&item=2',
@@ -734,9 +734,9 @@ const CENT_TITLE = [
             icon_src:'medi_w_cetner_12', 
             name:'여성암센터',
             doctors_name:[
-                'Kim Ji-yeon, Head of Dept.',
-                'Kim Seok-kwon, Director',
-                'Han Bong-joo, Head of Dept.'
+                'Kim Ji-yeon, <span>Head of Dept.</span>',
+                'Kim Seok-kwon, <span>Director</span>',
+                'Han Bong-joo, <span>Head of Dept.</span>'
             ],
             doctors_link:[
                 'cate=8&item=1',
@@ -751,13 +751,13 @@ const CENT_TITLE = [
             icon_src:'medi_w_cetner_14', 
             name:'유방 갑상선암 센터',
             doctors_name:[
-                'Kim Seok-kwon, Director',
-                'Ryu Sung-yeol, Cancer',
-                'Kim Mikyung, Head of Dept.',
-                'Kim Ji-yeon, Head of Dept.',
-                'Jong-Ae Son, Head of Dept.',
-                'Choi Ki-bok, Director',
-                'Kwon Hyuk-chan, Prof.',
+                'Kim Seok-kwon, <span>Director</span>',
+                'Ryu Sung-yeol, <span class="long_text_small">Cancer Center Director</span>',
+                'Kim Mikyung, <span>Head of Dept.</span>',
+                'Kim Ji-yeon, <span>Head of Dept.</span>',
+                'Jong-Ae Son, <span>Head of Dept.</span>',
+                'Choi Ki-bok, <span>Director</span>',
+                'Kwon Hyuk-chan, <span>Prof.</span>',
             ],
             doctors_link:[
                 'cate=9&item=1',
@@ -789,8 +789,8 @@ const CENT_TITLE = [
             icon_src:'medi_w_cetner_16', 
             name:'인공신장센터',
             doctors_name:[
-                'Im Soo Kwak, Professor',
-                'Ha Kyung Jeon, Professor'
+                'Im Soo Kwak, <span>Professor</span>',
+                'Ha Kyung Jeon, <span>Professor</span>'
             ],
             doctors_link:[
                 'cate=14&item=1',
@@ -804,7 +804,7 @@ const CENT_TITLE = [
             icon_src:'medi_w_cetner_17', 
             name:'인터벤션센터',
             doctors_name:[
-                'Choi Ki-bok, Director'
+                'Choi Ki-bok, <span>Director</span>'
             ],
             doctors_link:[
                 'cate=23&item=1',
@@ -824,13 +824,13 @@ const CENT_TITLE = [
             icon_src:'medi_w_cetner_19', 
             name:'재활치료센터',
             doctors_name:[
-                'Gu Ja-won, Hospital director',
-                'Kim Tae-hee, Head of Dept.',
-                'Jae-Young Choi, Director of Center',
-                'Myung-Ki Lee, Professor',
-                'Sohn-gi Roh, Vice Chief of Neurology',
-                'Jung Mi Cho, Head of Dept.',
-                'Lee Dae-hee, Team manager',
+                'Gu Ja-won, <span>Hospital director</span>',
+                'Kim Tae-hee, <span>Head of Dept.</span>',
+                'Jae-Young Choi, <span>Director of Center</span>',
+                'Myung-Ki Lee, <span>Professor</span>',
+                'Sohn-gi Roh, <span class="long_text_small">Vice Chief of Neurology</span>',
+                'Jung Mi Cho, <span>Head of Dept.</span>',
+                'Lee Dae-hee, <span>Team manager</span>',
             ],
             doctors_link:[
                 'http://standon.co.kr/board_dUOF52/767',
@@ -849,7 +849,7 @@ const CENT_TITLE = [
             icon_src:'medi_w_cetner_20', 
             name:'전립선 배뇨장애 센터',
             doctors_name:[
-                'Jae-Sik Kim, Head of Dept.'
+                'Jae-Sik Kim, <span>Head of Dept.</span>'
             ],
             doctors_link:[
                 'cate=7&item=1',
@@ -869,9 +869,9 @@ const CENT_TITLE = [
             icon_src:'medi_w_cetner_22', 
             name:'척추관절센터',
             doctors_name:[
-                'Kim Yoon-joon, Medical Director of Orthopedics Dept.',
-                'Kim Dong-jun, Head of Dept.',
-                'Yoon Sung-hoon, Vice Chief of Orthopedics Dept.'
+                'Kim Yoon-joon, <span class="long_text_small">Medical Director of Orthopedics Dept.</span>',
+                'Kim Dong-jun, <span>Head of Dept.</span>',
+                'Yoon Sung-hoon, <span class="long_text_small">Vice Chief of Orthopedics Dept.</span>'
             ],
             doctors_link:[
                 'cate=22&item=2',
@@ -886,11 +886,11 @@ const CENT_TITLE = [
             icon_src:'medi_w_cetner_23', 
             name:'초음파진단센터',
             doctors_name:[
-                'Choi Ki-bok, Director',
-                'Choi Jong-cheol, Head of Dept.',
-                'Kim Eun-mi, Head of Dept.',
-                'Choi Jeong-hyeon, Head of Dept.',
-                'Yoo Heung, PH.D.'
+                'Choi Ki-bok, <span>Director</span>',
+                'Choi Jong-cheol, <span>Head of Dept.</span>',
+                'Kim Eun-mi, <span>Head of Dept.</span>',
+                'Choi Jeong-hyeon, <span>Head of Dept.</span>',
+                'Yoo Heung, <span>PH.D.</span>'
             ],
             doctors_link:[
                 'cate=23&item=1',
@@ -907,7 +907,7 @@ const CENT_TITLE = [
             icon_src:'medi_w_cetner_24', 
             name:'췌장담도센터',
             doctors_name:[
-                'Eun-Taek Park, Director of Center'
+                'Eun-Taek Park, <span>Director</span> of Center'
             ],
             doctors_link:[
                 'cate=24&item=1',
@@ -920,7 +920,7 @@ const CENT_TITLE = [
             icon_src:'medi_w_cetner_25', 
             name:'턱얼굴수술센터',
             doctors_name:[
-                'Eui Jeong Lee, Head of Dept.'
+                'Eui Jeong Lee, <span>Head of Dept.</span>'
             ],
             doctors_link:[
                 'cate=25&item=1',
@@ -940,8 +940,8 @@ const CENT_TITLE = [
             icon_src:'medi_w_cetner_27', 
             name:'항암방사선치료센터',
             doctors_name:[
-                'Ryu Sung-yeol, Director',
-                'Kwon Hyuk-chan, Director'
+                'Ryu Sung-yeol, <span>Director</span>',
+                'Kwon Hyuk-chan, <span>Director</span>'
             ],
             doctors_link:[
                 'cate=9&item=1',
@@ -955,10 +955,10 @@ const CENT_TITLE = [
             icon_src:'medi_w_cetner_28', 
             name:'호스피스완화의료병동',
             doctors_name:[
-                'Kwon Hyuk-chan, Director of the Anti-cancer Center',
-                'Song Jeong-yun, Head of Dept.',
-                'Jo Gun-je, Prof.',
-                'Myung-Ki Lee, Prof.'
+                'Kwon Hyuk-chan, <span class="long_text_small">Director of the Anti-cancer Center</span>',
+                'Song Jeong-yun, <span>Head of Dept.</span>',
+                'Jo Gun-je, <span>Prof.</span>',
+                'Myung-Ki Lee, <span>Prof</span>.'
             ],
             doctors_link:[
                 'cate=26&item=2',
@@ -974,9 +974,9 @@ const CENT_TITLE = [
             icon_src:'medi_w_cetner_29', 
             name:'호흡기센터',
             doctors_name:[
-                'O Mu-Young, Director of Center',
-                'Choi Pil-jo, Prof.',
-                'Yoo Heung, Director of Center'
+                'O Mu-Young, <span>Director</span> of Center',
+                'Choi Pil-jo, <span>Prof.</span>',
+                'Yoo Heung, <span>Director</span> of Center'
             ],
             doctors_link:[
                 'cate=10&item=1',
@@ -991,7 +991,7 @@ const CENT_TITLE = [
             name:'코로나 후유증 회복치료센터', 
             icon_src:'medi_w_cetner_50',
             doctors_name:[
-                'Eun Myoung, Head of Dept.'
+                'Eun Myoung, <span>Head of Dept.</span>'
             ],
             doctors_link:[
                 'cate=3&item=5',
@@ -1004,7 +1004,7 @@ const CENT_TITLE = [
             name:'코로나 후유증 회복치료센터', 
             icon_src:'medi_w_cetner_50',
             doctors_name:[
-                'Eun Myoung, Head of Dept.'
+                'Eun Myoung, <span>Head of Dept.</span>'
             ],
             doctors_link:[
                 'cate=3&item=5',

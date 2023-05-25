@@ -99,6 +99,10 @@ $(document).ready(function(){
         $('#selec12').prop("selected", true);
         $('.m13').addClass('active');
         $('.spe_cen_13').addClass('nav_active')
+        setTimeout(()=> {
+            $('.center_box_doc_mix .mr_c_title').addClass('margin_30')
+        }, 100)
+        
         
         $('.dc_13').css({color: '#ee791c'})
     } else if (cen_v == 13) {
@@ -664,7 +668,7 @@ for(let i=0; i<1; i++) {
             } else {
                 cent_list += `<div class="m_r_content_box">`
             }
-            if (cen_v != 30){
+            if (cen_v != 30 || cen_v != 9){
                 cent_list += `<div class="mr_title">
                                         </div>
                                     <div class="mr_img">`
@@ -681,6 +685,16 @@ for(let i=0; i<1; i++) {
                                                 <!--div class="img_"><img src="./img/medi_center/29_1.png" alt></div-->`
                                         }
                         cent_list += `</div>`
+                } else if (cen_v == 9) {
+                    cent_list += `<div class="mr_title">
+                                            </div>
+                                        <div class="mr_img">`
+                                            for(let j=0; j<1; j++) {
+                                    cent_list += `<div class="box_img cen2_${CENT_LIST[0][cen_v].item_no}"></div>
+                                                <img class="replace_img" src="./img/medi_center/10_.jpg" alt="replace_img_9">
+                                    `
+                                            }
+                            cent_list += `</div>`
                 }
                     if (cen_v == 4) {
                         cent_list += `
@@ -1255,225 +1269,237 @@ for(let i=0; i<1; i++) {
                                             `
                         }
                          else if (cen_v == 17) {
-                            cent_list+= `<div class="m_flex_box">
-                                            
-                                            <div class="row mb-5">
-                                                <div class="col-lg-12">
-                                                    <div class="top mcenter_top">
-                                                        <!-- <div class="mb-4 mb-lg-0"><img src="./img/guide/funeral.jpg" class="mx-auto d-block rounded-circle" style="width: 150px;height: 150px;" alt=""></div> -->
-                                                        <div class="cont ml-lg-4">
-                                                            <h3 class="mb-3 mcenter_color title2 mcenter_title2"><b>온종합병원 장례식장</b></h3>
-                                                            <div class="mb-3">
-                                                                지하철역 (2호선 부암역)과 바로 연결되어 최고의 교통요지에 위치하고 있으며 <span>직접 조리한 최고급 양질의 음식제공 등 최고의 장례서비스를 제공합니다.</span>
-                                                            </div>
-                                                            <h5 class="call_box">
-                                                                <div class="img_box_call"><img src="./img/guide/funeral_call.svg" alt="" class="call_svg"></div>
-                                                                <span class="mr-4">24시 전화상담</span> 
-                                                                <i class="fas fa-phone-square text-primary"></i>&nbsp; <span>051) 607-0111,0591</span>
-                                                            </h5>
-                                                        </div>
-                                                    </div>
+                            cent_list+= ` <div class="m_flex_box">
+                            <div class="row mb-4"> 
+                                <div class="col-lg-12">
+                                    <h1 class="top_title">
+                                         
+                                        Funeral Home/Mortuary
+                                    </h1>
+                                </div>
+                            </div>
+                            <div class="row mb-5">
+                                <div class="col-lg-12 top_banner">
+                                    <div class="top">
+                                        <!-- <div class="mb-4 mb-lg-0"><img src="./img/guide/funeral.jpg" class="mx-auto d-block rounded-circle" style="width: 150px;height: 150px;" alt=""></div> -->
+                                        <div class="cont ml-lg-4">
+                                            <h3 class="mb-3  title2">
+                                                <img src="./img/guide/funeral.jpg" alt="" class="f_img">
+                                                <b>ON Hospital <br>Funeral Home / Mortuary</b>
+                                            </h3>
+                                            <div class="mb-3">
+                                                Located in the best transportation hub directly connected to the subway station (Buam Station on Line 2), <span> it provides the best funeral services, including high-quality food cooked directly on-site.</span>
+                                            </div>
+                                            <h5 class="call_box">
+                                                <span class="call_box_span">
+                                                    <div class="img_box_call"><img src="./img/guide/funeral_call.svg" alt="" class="call_svg"></div>
+                                                    <span class="mr-4">24-hour phone service</span> 
+                                                </span>
+                                                <span>051) 607-0111,0591</span>
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mb-5">
+                                <div class="col-lg-12">
+                                    <div class="section1">					
+                                        <ul class="row best_box">
+                                            <li class="col-lg-6 best_re">
+                                                <h5 class="mb-3 pl-5 "> <b class="section1_span">Operated directly  </b> by ON Hospital.</h5>
+                                            </li>
+                                            <li class="col-lg-6 best_re">
+                                                <h5 class="mb-3 pl-5 "> It is <b class="section1_span"> cheaper than the city funeral homes </b> in Busan.</h5>
+                                            </li>
+                                            <li class="col-lg-6 best_re">
+                                                <h5 class="mb-3 mb-lg-0 pl-5 "> There is no additional burden beyond the <br><b class="section1_span">official costs due to honest operation.</b></h5>
+                                            </li>
+                                            <li class="col-lg-6 best_re">							
+                                                <h5 class="mb-3 mb-lg-0 pl-5 "> Fresh boiled pork <span> prepared by</span><b class="section1_span"> the chef </b> upon ordering.</h5>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mb-4 context_top col-lg-12 text-justify">
+                                <div class="title_icon_box">
+                                    <span class="icon_title"><img src="./img/common/chk_2.png" alt=""></span>
+                                    <h4>Funeral Homes</h4>
+                                </div>
+                            </div>
+                            <div class="row mb-4 swiper_flex">
+                                <!-- <div thumbsSlider="" class="swiper mySwiper3 swiper-container gallery-thumbs">
+                                    <div class="swiper-wrapper thum_v">
+                                        <div class="swiper-slide swiper-slide-thumb-active silde_v_1 silde_v" data-slide-index="1">
+                                            <img src="./img/guide/funeral_1.png" class="img-fluid mx-auto d-block" alt="">
+                                        </div>
+                                        <div class="swiper-slide silde_v_2 silde_v" data-slide-index="1">
+                                            <img src="./img/guide/funeral_2.png" class="img-fluid mx-auto d-block" alt="">
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <div class="swiper mySwiper1 swiper-container gallery-top">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide silde_v_1_1">
+                                            <div class="col-lg-6 mb-4">
+                                                <img src="./img/guide/funeral_1.png" class="img-fluid mx-auto d-block" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide silde_v_2_1">
+                                            <div class="col-lg-6">
+                                                <img src="./img/guide/funeral_2.png" class="img-fluid mx-auto d-block" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                                
+                            </div>
+                            <div class="row mb-4 context_top col-lg-12 text-justify">
+                                <div class="title_icon_box">
+                                    <span class="icon_title"><img src="./img/common/chk_2.png" alt=""></span>
+                                    <h4>Directions</h4>
+                                </div>
+                            </div>
+                            <div class="row mb-5">
+                                <div class="col-lg-12">
+                                    <div class="section2">
+                                        <div class="subway_box">
+                                            <div class="col-lg-2 sub_title_b">
+                                                <div class="img_box car"><img src="./img/guide/funeral.svg" alt="" class="sub_svg"></div>
+                                                <h5 class="mb-3">By Car</h5>
+                                            </div>
+                                            <div class="text_box">
+                                                <h5 class="mb-4">966 Danggam 2-dong, Busanjin-gu, Busan</h5>
+                                            </div>
+                                        </div>
+
+                                        <div class="row subway_box">
+                                            <div class="col-lg-2 sub_title_b">
+                                                <div class="img_box"><img src="./img/guide/direction_2.svg" alt="" class="bus_svg"></div>
+                                                <h5 class="mb-3">By Bus</h5>
+                                            </div>
+                                            <div class="col-lg-10 text_box_bus">
+                                                <div class="text_one">
+                                                    <h6 class="em">- Danggam Entrance Bus Stop</h6>
+                                                    <div class="span">17, 23, 129-1, 138-1, 141, 160, 167, 169-1, 141 (night bus)</div>
+                                                </div>
+                                                <div class="text_one">
+                                                    <h6 class="em">- Buam Station Bus Stop</h6>
+                                                    <div class="span">31, 33, 62, 67, 68, 77, 85, 87, 110-1, 108, 133, 138, 1004 (night bus)</div>
                                                 </div>
                                             </div>
-                                            <div class="row mb-5">
-                                                <div class="col-lg-12">
-                                                    <div class="section1">					
-                                                        <ul class="row best_box">
-                                                            <li class="col-lg-6 best_re">
-                                                                <h5 class="mb-3 pl-5 mcenter_color"> 온종합병원에서 <br><b class="section1_span">직영으로 운영</b>합니다.</h5>
-                                                            </li>
-                                                            <li class="col-lg-6 best_re">
-                                                                <h5 class="mb-3 pl-5 mcenter_color"> 부산시내 최저 사용료로<br><b class="section1_span">시 장례식장보다 저렴</b>합니다.</h5>
-                                                            </li>
-                                                            <li class="col-lg-6 best_re">
-                                                                <h5 class="mb-3 mb-lg-0 pl-5 mcenter_color"> 정직한 운영으로 공식비용 외 <br><b class="section1_span">추가부담이 전혀 없습니다.</b></h5>
-                                                            </li>
-                                                            <li class="col-lg-6 best_re">							
-                                                                <h5 class="mb-3 mb-lg-0 pl-5 mcenter_color"> 수육(국내산 냉장 돈육)은 <span>주문 시</span><br class="mo"><b class="section1_span">조리사가 직접 삶아서</b> 드립니다.</h5>
-                                                            </li>
-                                                        </ul>
+                                        </div>	
+                                        
+
+                                        <div class="subway_box">
+                                            <div class="col-lg-2 sub_title_b">
+                                                <div class="img_box sub"><img src="./img/guide/direction_1.svg" alt="" class="sub_svg"></div>
+                                                <h5 class="mb-3">By Subway</h5>
+                                            </div>
+                                            <div class="text_box">
+                                                <h5 class="mb-4">Take Subway Line 2 > Buam Station > Connected to Exit 6</h5>
+                                            </div>
+                                        </div>				
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mb-4 context_top col-lg-12 text-justify">
+                                <div class="title_icon_box">
+                                    <span class="icon_title"><img src="./img/common/chk_2.png" alt=""></span>
+                                    <h4>Facilities</h4>
+                                </div>
+                            </div>
+                            <div class="table_a">
+                                <span class="row mb-5 table_b">
+                                    <div class="box">
+                                        <div class="col-6 col-lg-2 p-4 th">
+                                            <h5 class="mb-0 t_1">VIP Room : 1</h5>
+                                        </div>
+                                    </div>
+                                    <div class="box">
+                                        <div class="col-6 col-lg-2 p-4 th">
+                                            <h5 class="mb-0 t_1">Special Room : 2</h5>
+                                        </div>
+                                    </div>
+                                    <div class="box">
+                                        <div class="col-6 col-lg-2 p-4 th">
+                                            <h5 class="mb-0 t_1">Regular Room : 5</h5>
+                                        </div>
+                                    </div>
+                                </span>
+                                <div class="div">
+                                    <div class="row no-gutters mb-5">
+                                        <!-- <div thumbsSlider="" class="swiper mySwiper_1">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide slide_t_2 slide_t">
+                                                    <img src="./img/guide/room2.jpg" class="img-fluid mx-auto d-block" alt="">
+                                                </div>
+                                                <div class="swiper-slide slide_t_3 slide_t">
+                                                    <img src="./img/guide/room3.png" class="img-fluid mx-auto d-block" alt="">
+                                                </div>
+                                                <div class="swiper-slide swiper-slide-thumb-active slide_t_1 slide_t">
+                                                    <img src="./img/guide/room1.jpg" class="img-fluid mx-auto d-block" alt="">
+                                                </div>
+                                              
+                                            </div>
+                                        </div>
+                                        <div class="swiper mySwiper2">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide slide_t_1_1">
+                                                    <div class="col-lg">
+                                                        <img src="./img/guide/room1.jpg" class="img-fluid mx-auto d-block" alt="">
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="row mb-4 context_top col-lg-12 text-justify">
-                                                <div class="title_icon_box">
-                                                    <span class="icon_title"><img src="./img/common/chk_2.png" alt=""></span>
-                                                    <h4>빈소안내</h4>
-                                                </div>
-                                            </div>
-                                            <div class="row mb-4 swiper_flex">
-                                                <!-- <div thumbsSlider="" class="swiper mySwiper3 swiper-container gallery-thumbs">
-                                                    <div class="swiper-wrapper thum_v">
-                                                        <div class="swiper-slide swiper-slide-thumb-active silde_v_1 silde_v" data-slide-index="1">
-                                                            <img src="./img/guide/funeral_1.png" class="img-fluid mx-auto d-block" alt="">
-                                                        </div>
-                                                        <div class="swiper-slide silde_v_2 silde_v" data-slide-index="1">
-                                                            <img src="./img/guide/funeral_2.png" class="img-fluid mx-auto d-block" alt="">
-                                                        </div>
+                                                <div class="swiper-slide slide_t_2_1">
+                                                    <div class="col-lg">
+                                                        <img src="./img/guide/room2.jpg" class="img-fluid mx-auto d-block" alt="">
                                                     </div>
-                                                </div> -->
-                                                <div class="swiper mySwiper1 swiper-container gallery-top">
-                                                    <div class="swiper-wrapper">
-                                                        <div class="swiper-slide silde_v_1_1">
-                                                            <div class="col-lg-6 mb-4">
-                                                                <img src="./img/guide/funeral_1.png" class="img-fluid mx-auto d-block" alt="">
-                                                            </div>
-                                                        </div>
-                                                        <div class="swiper-slide silde_v_2_1">
-                                                            <div class="col-lg-6">
-                                                                <img src="./img/guide/funeral_2.png" class="img-fluid mx-auto d-block" alt="">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    
-                                                    <div class="swiper-pagination"></div>
                                                 </div>
                                                 
-                                            </div>
-                                            <div class="row mb-4 context_top col-lg-12 text-justify">
-                                                <div class="title_icon_box">
-                                                    <span class="icon_title"><img src="./img/common/chk_2.png" alt=""></span>
-                                                    <h4>찾아오시는 길</h4>
-                                                </div>
-                                            </div>
-                                            <div class="row mb-5">
-                                                <div class="col-lg-12">
-                                                    <div class="section2">
-                                                        <div class="subway_box">
-                                                            <div class="col-lg-2 sub_title_b">
-                                                                <div class="img_box car"><img src="./img/guide/funeral.svg" alt="" class="sub_svg"></div>
-                                                                <h5 class="mb-3">자동차로 방문 시</h5>
-                                                            </div>
-                                                            <div class="text_box">
-                                                                <h5 class="mb-4">부산광역시 부산진구 당감 2동 966번지</h5>
-                                                            </div>
-                                                        </div>
-    
-                                                        <div class="row subway_box">
-                                                            <div class="col-lg-2 sub_title_b">
-                                                                <div class="img_box"><img src="./img/guide/direction_2.svg" alt="" class="bus_svg"></div>
-                                                                <h5 class="mb-3">버스 이용시</h5>
-                                                            </div>
-                                                            <div class="col-lg-10 text_box_bus">
-                                                                <div class="text_one">
-                                                                    <h6 class="em">- 당감입구 정류장</h6>
-                                                                    <div class="span">17, 23, 129-1, 138-1, 141, 160, 167, 169-1, 141(심야)</div>
-                                                                </div>
-                                                                <div class="text_one">
-                                                                    <h6 class="em">- 부암역 정류장</h6>
-                                                                    <div class="span">31, 33, 62, 67, 68, 77, 85, 87, 110-1, 108, 133, 138, 1004(심야)</div>
-                                                                </div>
-                                                            </div>
-                                                        </div>	
-                                                        
-    
-                                                        <div class="subway_box">
-                                                            <div class="col-lg-2 sub_title_b">
-                                                                <div class="img_box sub"><img src="./img/guide/direction_1.svg" alt="" class="sub_svg"></div>
-                                                                <h5 class="mb-3">지하철 이용시</h5>
-                                                            </div>
-                                                            <div class="text_box">
-                                                                <h5 class="mb-4">지하철 2호선 > 부암역 > 6번 출구와 연결</h5>
-                                                            </div>
-                                                        </div>				
+                                                <div class="swiper-slide slide_t_3_1">
+                                                    <div class="col-lg">
+                                                        <img src="./img/guide/room3.png" class="img-fluid mx-auto d-block" alt="">
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="row mb-4 context_top col-lg-12 text-justify">
-                                                <div class="title_icon_box">
-                                                    <span class="icon_title"><img src="./img/common/chk_2.png" alt=""></span>
-                                                    <h4>시설안내</h4>
+                                        </div> -->
+                                        <div class="swiper mySwiper2 swiper-container gallery-top">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide silde_v_1_1">
+                                                    <div class="col-lg">
+                                                        <img src="./img/guide/room1.png" class="img-fluid mx-auto d-block" alt="">
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="table_a">
-                                                <span class="row mb-5 table_b">
-                                                    <div class="box">
-                                                        <div class="col-6 col-lg-2 p-4 width_center">
-                                                            <h5 class="mb-0 t_1">VIP실 : 1실</h5>
-                                                        </div>
+                                                <div class="swiper-slide silde_v_2_1">
+                                                    <div class="col-lg">
+                                                        <img src="./img/guide/room2.png" class="img-fluid mx-auto d-block" alt="">
                                                     </div>
-                                                    <div class="box">
-                                                        <div class="col-6 col-lg-2 p-4 width_center">
-                                                            <h5 class="mb-0 t_1">특실 : 2실</h5>
-                                                        </div>
-                                                    </div>
-                                                    <div class="box">
-                                                        <div class="col-6 col-lg-2 p-4 width_center">
-                                                            <h5 class="mb-0 t_1">일반실 : 5실</h5>
-                                                        </div>
-                                                    </div>
-                                                </span>
-                                                <div class="div">
-                                                    <div class="row no-gutters mb-5">
-                                                        <!-- <div thumbsSlider="" class="swiper mySwiper_1">
-                                                            <div class="swiper-wrapper">
-                                                                <div class="swiper-slide slide_t_2 slide_t">
-                                                                    <img src="./img/guide/room2.jpg" class="img-fluid mx-auto d-block" alt="">
-                                                                </div>
-                                                                <div class="swiper-slide slide_t_3 slide_t">
-                                                                    <img src="./img/guide/room3.png" class="img-fluid mx-auto d-block" alt="">
-                                                                </div>
-                                                                <div class="swiper-slide swiper-slide-thumb-active slide_t_1 slide_t">
-                                                                    <img src="./img/guide/room1.jpg" class="img-fluid mx-auto d-block" alt="">
-                                                                </div>
-                                                            
-                                                            </div>
-                                                        </div>
-                                                        <div class="swiper mySwiper2">
-                                                            <div class="swiper-wrapper">
-                                                                <div class="swiper-slide slide_t_1_1">
-                                                                    <div class="col-lg">
-                                                                        <img src="./img/guide/room1.jpg" class="img-fluid mx-auto d-block" alt="">
-                                                                    </div>
-                                                                </div>
-                                                                <div class="swiper-slide slide_t_2_1">
-                                                                    <div class="col-lg">
-                                                                        <img src="./img/guide/room2.jpg" class="img-fluid mx-auto d-block" alt="">
-                                                                    </div>
-                                                                </div>
-                                                                
-                                                                <div class="swiper-slide slide_t_3_1">
-                                                                    <div class="col-lg">
-                                                                        <img src="./img/guide/room3.png" class="img-fluid mx-auto d-block" alt="">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div> -->
-                                                        <div class="swiper mySwiper2 swiper-container gallery-top">
-                                                            <div class="swiper-wrapper">
-                                                                <div class="swiper-slide silde_v_1_1">
-                                                                    <div class="col-lg">
-                                                                        <img src="./img/guide/room1.png" class="img-fluid mx-auto d-block" alt="">
-                                                                    </div>
-                                                                </div>
-                                                                <div class="swiper-slide silde_v_2_1">
-                                                                    <div class="col-lg">
-                                                                        <img src="./img/guide/room2.png" class="img-fluid mx-auto d-block" alt="">
-                                                                    </div>
-                                                                </div>
-                                                                <div class="swiper-slide silde_v_2_1">
-                                                                    <div class="col-lg">
-                                                                        <img src="./img/guide/room3.png" class="img-fluid mx-auto d-block" alt="">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            
-                                                            <div class="swiper-pagination"></div>
-                                                        </div>
+                                                </div>
+                                                <div class="swiper-slide silde_v_2_1">
+                                                    <div class="col-lg">
+                                                        <img src="./img/guide/room3.png" class="img-fluid mx-auto d-block" alt="">
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="row mb-4 margin_b">
-                                                <div class="col-lg-12">
-                                                    <h3 class="mcenter_color font-myeongjo text-center" style="line-height: 1.6;">고인의 일생을 가장 아름답게 기억할 수 있는 편안한 장례식장으로 <span>항상 숭고하고 엄숙한 마음으로 유가족께 정성을 다하겠습니다.</span></h3>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-lg">
-                                                    <img src="../img/guide/flower.png" class="img-fluid mx-auto d-block" alt="">
-                                                </div>
-                                            </div>
-                                        </div>`
+                                            
+                                            <div class="swiper-pagination"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mb-4 margin_b">
+                                <div class="col-lg-12">
+                                    <h3 class=" font-myeongjo text-center" style="line-height: 1.6;">We will always do our best with a noble and solemn heart to provide a comfortable funeral home <span>where the family can remember the life of their loved one in the most beautiful way.</span></h3>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg">
+                                    <img src="./img/guide/flower.png" class="img-fluid mx-auto d-block" alt="">
+                                </div>
+                            </div>
+                        </div>`
                          }
                          else if (cen_v == 18) {
                             cent_list += `  <div>
@@ -2230,7 +2256,7 @@ for(let i=0; i<1; i++) {
                         else if (cen_v != 29) {
             cent_list +=  ` <div class="center_box_doc_mix"> 
                                 <div class="mr_c_title margin_doc">
-                                    Introduction of the center's medical staff
+                                Medical Staff
 
                                 </div>
                                 <div class="center_box_doc">`

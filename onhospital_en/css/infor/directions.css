@@ -79,6 +79,14 @@ body {font-family: 'Noto Sans KR';}
     width: 86%;
     opacity: .7;
 }
+.position_re {
+    position: relative;
+}
+.address_b {
+    position: absolute;
+    right: 20%;
+    bottom: 0;
+}
 .address_m,
 .address_b {
     display: inline-block;
@@ -274,7 +282,35 @@ body {font-family: 'Noto Sans KR';}
     .icon_title {display: none;}
     .title_icon_box h4 {width: 100%;}
 }
+@media (max-width: 1150px) {
+    .address_b {
+        right: 0;
+        bottom: -25px;
+    }
+}
+@media (max-width: 1116px) {
+    .address_b {
+        right: 80%;
+        bottom: 0;
+    }
+}
+@media (max-width: 1100px) {
+    .address_b {
+        right: -20%;
+        bottom: 0;
+    }
+}
+@media (max-width: 1000px) {
+    .address_b {
+        right: 0%;
+        bottom: 20px;
+    }
+}
 @media (max-width: 900px) {
+    .address_b {
+        right: -15%;
+        bottom: 0px;
+    }
     .direc_total_box,
     .direc_total_box,
     .sns_ul {
@@ -326,7 +362,12 @@ body {font-family: 'Noto Sans KR';}
     }
     .address_box .dm_li >span {margin-left: 0 !important;}
 }
-
+@media (max-width: 700px) {
+    .address_b {
+        right: 93%;
+        bottom: 20px;
+    }
+}
 
 @media (max-width: 600px) {
     .dm_li {
@@ -351,6 +392,18 @@ body {font-family: 'Noto Sans KR';}
     .title_icon_box {margin: 0 !important;}
     .address_box {margin-top: 10px;}
     .d_main_b, .d_center {margin-top: 50px;}
+}
+@media (max-width: 597px) {
+    .address_b {
+        right: 81%;
+        bottom: 0;
+    }
+}
+@media (max-width: 560px) {
+    .address_b {
+        right: 61%;
+        bottom: 0;
+    }
 }
 @media (max-width: 500px) {
     .bus_box {margin-bottom: 20px;}
@@ -399,7 +452,17 @@ body {font-family: 'Noto Sans KR';}
     .d_mb_mobile {display: inline-block;}
     .d_mb_desk {display: none;}
 }
+@media (max-width: 490px) {
+    .address_b {
+        right: 41%;
+        bottom: 0;
+    }
+}
 @media (max-width: 450px) {
+    .address_b {
+        right: 20%;
+        bottom: 0;
+    }
     .direc_total_box {
         gap: 10px;
     }
@@ -433,6 +496,10 @@ body {font-family: 'Noto Sans KR';}
     .wrap_map {height: 200px !important;} 
 }
 @media (max-width: 400px) {
+    .address_b {
+        right: 0%;
+        bottom: 0;
+    }
     .dm_ul {
         gap: 5px;
     }
@@ -451,5 +518,21 @@ body {font-family: 'Noto Sans KR';}
         padding: 10px 10px;
         max-width: 112px;
         border-radius: 5px;
+    }
+}
+@media (max-width: 380px) {
+    .address_b {
+        right: 30%;
+        bottom: 0;
+    }
+    .address_m, .address_b {
+        font-size: 10px;
+        line-height: 11px;
+    }
+}
+@media (max-width: 280px) {
+    .address_b {
+        right: 50%;
+        bottom: 0;
     }
 }

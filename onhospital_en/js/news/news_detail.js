@@ -3,6 +3,8 @@ $(document).ready(function(){
     const num = urlParams.get('num');
     const de_num = urlParams.get('de_num');
     const selec = urlParams.get('selec');
+    const view = urlParams.get('view');
+    console.log('view :', view)
     console.log('selec',selec)
     console.log(num)
     console.log(de_num)
@@ -27,6 +29,8 @@ $(document).ready(function(){
          $('#selec5').prop("selected", true);
         $('.ml_ul > .nav_6').addClass('active')
     }
+
+    
 
     
     let d_num = de_num -1

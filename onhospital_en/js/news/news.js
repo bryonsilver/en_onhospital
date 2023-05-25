@@ -52,32 +52,7 @@ $(document).ready(function(){
                 <p>${NEWS_TITLE[0][num].title}</p>
         `
         $('.title_box').append(list2);
-    }
-
-    for(let i=0; i<NEWS_LIST[num].length; i++) {
-        let list = `
-
-                        <li class="t_li">
-                            <a href="./news_detail.html?num=${num}&de_num=${NEWS_LIST[num][i].item_no}" style=" overflow: hidden; white-space: nowrap; text-overflow: ellipsis;" class="color" >
-                                <p class="t_text_p">
-                                    <strong class="t_title">${NEWS_LIST[num][i].title}</strong>
-                                    <span class="t_inner_text">
-                                        <span class="name" style="max-width: 300px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;" title="${NEWS_LIST[num][i].writer}">
-                                            ${NEWS_LIST[num][i].writer}
-                                            <span class="date notranslate mobile_da_vi">${NEWS_LIST[num][i].date}</span>
-                                            <span class="view notranslate mobile_da_vi">0</span>
-                                            <input type="hidden" class="view_input" value="0" name="view_input_n">
-                                        </span>
-                                        <span class="date notranslate desk_da_vi">${NEWS_LIST[num][i].date}</span>
-                                        <span class="view notranslate desk_da_vi">0</span>
-                                        <input type="hidden" class="view_input" value="0" name="view_input_n">
-                                    </span>
-                                </p>
-                            </a>
-                        </li>`
-        $('.t_box').append(list);
-    }
-
+    } 
     setTimeout(()=>
        {
             var count = 0;
@@ -103,11 +78,42 @@ $(document).ready(function(){
                 $(this).find('.view_input').val('');
                 $(this).find('.view_input').val(count);
                 console.log("view_ add 1+ ")
+                
             })
 
        }, 500
             
     )
+
+    for(let i=0; i<NEWS_LIST[num].length; i++) {
+        var c_input = $('.t_li').find('.view_input').val
+        console.log('c_input : ', c_input)
+        let list = `
+
+                        <li class="t_li">
+                            <a href="./news_detail.html?num=${num}&de_num=${NEWS_LIST[num][i].item_no}&view=${c_input}" style=" overflow: hidden; white-space: nowrap; text-overflow: ellipsis;" class="color" >
+                                <form action="./news_detail.html?num=${num}&de_num=${NEWS_LIST[num][i].item_no}&view=${c_input}" method="get">
+                                    <p class="t_text_p">
+                                        <strong class="t_title">${NEWS_LIST[num][i].title}</strong>
+                                        <span class="t_inner_text">
+                                            <span class="name" style="max-width: 300px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;" title="${NEWS_LIST[num][i].writer}">
+                                                ${NEWS_LIST[num][i].writer}
+                                                <span class="date notranslate mobile_da_vi">${NEWS_LIST[num][i].date}</span>
+                                                <span class="view notranslate mobile_da_vi">0</span>
+                                                <input type="hidden" class="view_input" value="0" name="view_input_n">
+                                            </span>
+                                            <span class="date notranslate desk_da_vi">${NEWS_LIST[num][i].date}</span>
+                                            <span class="view notranslate desk_da_vi">0</span>
+                                            <input type="hidden" class="view_input" value="0" name="view_input_n">
+                                        </span>
+                                    </p>
+                                </form>
+                            </a>
+                        </li>`
+        $('.t_box').append(list);
+    }
+
+   
 
     
                         
