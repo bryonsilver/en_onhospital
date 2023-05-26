@@ -907,7 +907,7 @@ const CENT_TITLE = [
             icon_src:'medi_w_cetner_24', 
             name:'췌장담도센터',
             doctors_name:[
-                'Eun-Taek Park, <span>Director</span> of Center'
+                'Eun-Taek Park, <span>Director of Center</span>'
             ],
             doctors_link:[
                 'cate=24&item=1',
@@ -958,7 +958,7 @@ const CENT_TITLE = [
                 'Kwon Hyuk-chan, <span class="long_text_small">Director of the Anti-cancer Center</span>',
                 'Song Jeong-yun, <span>Head of Dept.</span>',
                 'Jo Gun-je, <span>Prof.</span>',
-                'Myung-Ki Lee, <span>Prof</span>.'
+                'Myung-Ki Lee, <span>Prof.</span>'
             ],
             doctors_link:[
                 'cate=26&item=2',
@@ -974,9 +974,9 @@ const CENT_TITLE = [
             icon_src:'medi_w_cetner_29', 
             name:'호흡기센터',
             doctors_name:[
-                'O Mu-Young, <span>Director</span> of Center',
+                'O Mu-Young, <span>Director of Center</span>',
                 'Choi Pil-jo, <span>Prof.</span>',
-                'Yoo Heung, <span>Director</span> of Center'
+                'Yoo Heung, <span>Director of Center</span>'
             ],
             doctors_link:[
                 'cate=10&item=1',

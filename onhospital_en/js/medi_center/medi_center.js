@@ -145,6 +145,11 @@ $(document).ready(function(){
         $('#selec19').prop("selected", true);
         $('.m20').addClass('active');
         $('.spe_cen_20').addClass('nav_active')
+
+        setTimeout(()=> {
+            $('.text_18').addClass('margin_19')
+            $('.cent_box').addClass('margin_19')
+        }, 100)
         
         $('.dc_20').css({color: '#ee791c'})
     } else if (cen_v == 20) {
@@ -220,6 +225,26 @@ $(document).ready(function(){
         $('.dc_31').css({color: '#ee791c'})
     } 
 
+
+    if (cen_v == 9) {
+        $(window).resize(function(){
+            var width = window.innerWidth;
+            if (width < 1000) {
+                $('.mr_img').addClass("my_9")
+                $('.cent_box').css({marginTop: '0'})
+                $('.top_text').css({lineHeight: '28px'})
+            }
+        }).resize();
+    }
+
+    setTimeout(()=> {
+        var cbb_leng = $('.center_big_box').length;
+        console.log("cbb_leng 갯수 :",  cbb_leng)
+        if(cbb_leng == 1) {
+            $('.center_box_doc').css('grid-template-columns', 'repeat(1, 1fr)')
+        } 
+    }, 100)
+    
 
 // 호스피스완화병동의 이야기게시판 세부 디자인
 for(let i=0; i<1; i++) {
@@ -668,7 +693,27 @@ for(let i=0; i<1; i++) {
             } else {
                 cent_list += `<div class="m_r_content_box">`
             }
-            if (cen_v != 30 || cen_v != 9){
+            if (cen_v == 9) {
+                cent_list += `<div class="mr_title">
+                                        </div>
+                                    <div class="mr_img">`
+                                        for(let j=0; j<1; j++) {
+                                cent_list += `<div class="box_img cen2_${CENT_LIST[0][cen_v].item_no}"></div>
+                                            <img class="replace_img" src="./img/medi_center/10_.jpg" alt="replace_img_9">
+                                `
+                                        }
+                        cent_list += `</div>`
+            }
+            else if (cen_v == 30) {
+                cent_list += `<div class="mr_title">
+                                    </div>
+                                <div class="mr_img mr_cen_30" style="height: 340px">`
+                                    for(let j=0; j<1; j++) {
+                            cent_list += `<img src="./img/medi_center/29_2.png" alt class="img_">
+                                            <!--div class="img_"><img src="./img/medi_center/29_1.png" alt></div-->`
+                                    }
+                    cent_list += `</div>`
+            } else {
                 cent_list += `<div class="mr_title">
                                         </div>
                                     <div class="mr_img">`
@@ -676,26 +721,8 @@ for(let i=0; i<1; i++) {
                                 cent_list += `<div class="box_img cen2_${CENT_LIST[0][cen_v].item_no}"></div>`
                                         }
                         cent_list += `</div>`
-                } else if (cen_v == 30) {
-                    cent_list += `<div class="mr_title">
-                                        </div>
-                                    <div class="mr_img mr_cen_30" style="height: 340px">`
-                                        for(let j=0; j<1; j++) {
-                                cent_list += `<div class="img_"><img src="./img/medi_center/29_2.png" alt></div>
-                                                <!--div class="img_"><img src="./img/medi_center/29_1.png" alt></div-->`
-                                        }
-                        cent_list += `</div>`
-                } else if (cen_v == 9) {
-                    cent_list += `<div class="mr_title">
-                                            </div>
-                                        <div class="mr_img">`
-                                            for(let j=0; j<1; j++) {
-                                    cent_list += `<div class="box_img cen2_${CENT_LIST[0][cen_v].item_no}"></div>
-                                                <img class="replace_img" src="./img/medi_center/10_.jpg" alt="replace_img_9">
-                                    `
-                                            }
-                            cent_list += `</div>`
-                }
+            }
+
                     if (cen_v == 4) {
                         cent_list += `
                                         <span class="cent_box">
