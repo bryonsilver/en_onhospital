@@ -1614,6 +1614,63 @@ body {
 
 
 
+/* popup img css */
+/* .black_pan_pu{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 99;
+    text-align: center;
+    /* display: flex; */
+    /*align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+} */
+.popup_img_after_box {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 99;
+    text-align: center;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+}
+.pu_img_box {
+    width: 30%;
+    height: 100%;
+    display: none;
+
+    position: absolute;
+    top: 20%;
+}
+.pu_img_box img {width: 100%; } 
+
+.popup_plus {
+    display: none;
+    width: 100%;
+
+    position: fixed;
+    bottom: 10%;
+    z-index: 99;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.p_plus_box,
+.p_minus_box {
+    width: 100%;
+    max-width: 70px;
+}
+.p_plus_box img,
+.p_minus_box img {
+    width: 100%;
+}
+
+
 
 
 
@@ -1828,6 +1885,10 @@ body {
         box-sizing: border-box;
     }
 }
+@media (max-width: 1000px) {
+    .pu_img_box img {width: 100%; }  /* transform: translateY(50%) */
+    .pu_img_box {width: 40%;}
+}
 @media (max-width: 992px) {
     .bur_ul {gap: 50px;}
     .desk_hos_new {display: none;}
@@ -1858,6 +1919,7 @@ body {
 }
 @media (max-width: 908px) {
     .li_2 .bur_title{margin-top: 34px;}
+    .pu_img_box {width: 50%;}
 }
 @media (max-width: 850px) {
     .f_nav_ul {flex-wrap: wrap; gap: 10px;}
@@ -1989,8 +2051,10 @@ body {
         max-width: 67px !important;
     }
     #google_translate_element > div > div:after {right: 13px !important;}
+    .pu_img_box {width: 70%;}
 }
 @media (max-width: 400px) {
+    .pu_img_box img {width: 100%;}  /*  transform: translateY(70%); */
     .footer {padding-bottom: 20px;}
     .logo_m {max-width: 70% !important;}
     .li_2 .bur_title {margin-top: 21px;}
@@ -2058,6 +2122,17 @@ body {
         max-width: 65% !important;
     }
     .width {transform: translateX(0px);}
+}
+@media (max-width: 280px) {
+    .pu_img_box img {width: 100%;}  /*  transform: translateY(00%) */
+    .pu_img_box {width: 50%;}
+    .pu_img_box {
+        height: 100%;
+        position: absolute;
+        display: none;
+        top: 30%;
+        /* transform: translateY(-20%); */
+    }
 }
 @media (max-width: 210px) {
     .header {height: 70px !important;}

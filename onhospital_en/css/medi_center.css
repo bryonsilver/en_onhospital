@@ -972,6 +972,7 @@ img {
 .title_box_onn {
     display: flex;
     justify-content: center;
+    text-align: center;
     align-items: center;
 
     color: #fff;

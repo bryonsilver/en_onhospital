@@ -777,6 +777,96 @@ $('.dep3_inner_story').on('mouseout', function(){
 
 
 
+	
+	// popup img 클릭 시
+
+	$('.popup_img_before').click(function(){
+		$('.popup_img_after_box').css({display: 'flex'})
+		$('.popup_plus').css({display: 'flex'})
+		// $('.black_pan_pu').css({display: 'flex'})
+		// $('.pu_img_box').zoomer();
+	})
+	$('.popup_img_after_box').click(function(){
+		$('.popup_img_after_box').css({display: 'none'})
+		$('.pu_img_box').css({display: 'none'})
+		$('.popup_plus').css({display: 'none'})
+
+
+		var count = 0;
+		for(let i=0; i<1; i++){
+			count ++ ; 
+			var pu_nat_width = $('.pu_img').width();
+			console.log("pu_nat_width : ", pu_nat_width)
+
+			$(window).resize(function(){ 
+				console.log("1번!!!")
+				var width = window.innerWidth;
+				if (width > 1000) {  // 다바이스 크기가 1000이상일때 
+					$('.pu_img_box').css('width', pu_nat_width * Number(5) + 'px')
+					$('.pu_img_box img').css({transform: 'translateY(20%)'})
+					console.log("pu_img_box width : ", pu_nat_width * Number(5))
+				}	else if (1000 > width &&  600 < width) {
+					$('.pu_img_box').css('width', pu_nat_width * Number(3) + 'px')
+					$('.pu_img_box img').css({transform: 'translateY(50%)'})
+					console.log("pu_img_box width : ", pu_nat_width * Number(3))
+				}
+			}).resize();
+
+			break
+		}
+	})
+	
+
+
+	// plus, minus 클릭 시
+
+	$('.p_plus_box').click(function(){
+		var pu_width = $('.pu_img_box').width();
+		console.log("pu_width :", pu_width + 'px')
+		$('.pu_img_box').css('width',pu_width + Number(100) + 'px' )
+	})
+	$('.p_minus_box').click(function(){
+		var pu_width = $('.pu_img_box').width();
+		console.log("pu_width :", pu_width + 'px')
+		$('.pu_img_box').css('width',pu_width - Number(100) + 'px' )
+	})
+
+
+		// popup img  병원안내의 인사말, 장례식장
+
+		$('.pu_be_1').click(function(){
+			$('.pu_1').css({display: 'inline-block'})
+			// $('.pu_1 img').css({transform: 'translateY(25%)'})
+			$('.pu_img_box').css({pointerEvents: 'none'})
+			var pb_width = $(this).width();
+		})
+		$('.pu_be_2').click(function(){
+			$('.pu_2').css({display: 'inline-block'})
+			// $('.pu_2 img').css({transform: 'translateY(25%)'})
+			$('.pu_img_box').css({pointerEvents: 'none'})
+		})
+		$('.pu_be_3').click(function(){
+			$('.pu_3').css({display: 'inline-block'})
+			// $('.pu_3 img').css({transform: 'translateY(25%)'})
+			$('.pu_img_box').css({pointerEvents: 'none'})
+		})
+		$('.pu_be_4').click(function(){
+			$('.pu_4').css({display: 'inline-block'})
+			// $('.pu_4 img').css({transform: 'translateY(25%)'})
+			$('.pu_img_box').css({pointerEvents: 'none'})
+		})
+		$('.pu_be_5').click(function(){
+			$('.pu_5').css({display: 'inline-block'})
+			// $('.pu_5 img').css({transform: 'translateY(25%)'})
+			$('.pu_img_box').css({pointerEvents: 'none'})
+		})
+		$('.pu_be_6').click(function(){
+			$('.pu_6').css({display: 'inline-block'})
+			// $('.pu_6 img').css({transform: 'translateY(25%)'})
+			$('.pu_img_box').css({pointerEvents: 'none'})
+		})
+
+
 
 
 	
