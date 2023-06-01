@@ -77,7 +77,7 @@ cent_list += `<div class="m_r_content_box c_25">`
 cent_list += `
             <div class="mr_img">`
                 for(let j=0; j<1; j++) {
-        cent_list += `<div class="box_img cen2_${LIST_N[0][cen_v2].item_no}"></div>`
+        cent_list += `<div class="box_img cen2_${LIST_N[0][cen_v2].item_no} popup_img_before pu_be_${LIST_N[0][cen_v2].item_no}"></div>`
                 }
 cent_list += `</div>`
                 if (cen_v2 == 16) {
@@ -120,7 +120,7 @@ cent_list+= `<div class="mr_content">`
                        if (cen_v2 == 1) {
                         cent_list += `<div class="mr_c_content cent_13">
                                         <span class="cent_box margin_bottom_0">
-                                            <div class="img_box image_box"><img src="./img/medi_center/${CENT_LIST[0][cen_v2].img_src[0]}" alt="${CENT_LIST[0][cen_v2].img_src[0]}"></div>
+                                            <div class="img_box image_box"><img src="./img/medi_center/${CENT_LIST[0][cen_v2].img_src[0]}" alt="${CENT_LIST[0][cen_v2].img_src[0]}" class="popup_img_before pu_be_1"></div>
                                             <div class="cent_1_text margin_top_30">${CENT_LIST[0][cen_v2].sub_context1[0]}</div>
                                             <div class="cent_1_text">${CENT_LIST[0][cen_v2].sub_context1[1]}</div>
                                             <div class="cent_1_text margin_bottom_15">${CENT_LIST[0][cen_v2].sub_context1[2]}</div>

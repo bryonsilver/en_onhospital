@@ -865,6 +865,148 @@ $('.dep3_inner_story').on('mouseout', function(){
 			// $('.pu_6 img').css({transform: 'translateY(25%)'})
 			$('.pu_img_box').css({pointerEvents: 'none'})
 		})
+<<<<<<< Updated upstream
+=======
+		$('.pu_be_7').click(function(){
+			$('.pu_7').css({display: 'inline-block'})
+			// $('.pu_7 img').css({transform: 'translateY(25%)'})
+			$('.pu_img_box').css({pointerEvents: 'none'})
+		})
+		$('.pu_be_8').click(function(){
+			$('.pu_8').css({display: 'inline-block'})
+			// $('.pu_8 img').css({transform: 'translateY(25%)'})
+			$('.pu_img_box').css({pointerEvents: 'none'})
+		})
+		$('.pu_be_9').click(function(){
+			$('.pu_9').css({display: 'inline-block'})
+			// $('.pu_9 img').css({transform: 'translateY(25%)'})
+			$('.pu_img_box').css({pointerEvents: 'none'})
+		})
+		$('.pu_be_10').click(function(){
+			$('.pu_10').css({display: 'inline-block'})
+			// $('.pu_10 img').css({transform: 'translateY(25%)'})
+			$('.pu_img_box').css({pointerEvents: 'none'})
+		})
+		$('.pu_be_10_center').click(function(){
+			$('.pu_10_center').css({display: 'inline-block'})
+			// $('.pu_10 img').css({transform: 'translateY(25%)'})
+			$('.pu_img_box').css({pointerEvents: 'none'})
+		})
+		$('.pu_be_11').click(function(){
+			$('.pu_11').css({display: 'inline-block'})
+			// $('.pu_11 img').css({transform: 'translateY(25%)'})
+			$('.pu_img_box').css({pointerEvents: 'none'})
+		})
+		$('.pu_be_12').click(function(){
+			$('.pu_12').css({display: 'inline-block'})
+			// $('.pu_12 img').css({transform: 'translateY(25%)'})
+			$('.pu_img_box').css({pointerEvents: 'none'})
+		})
+		$('.pu_be_13').click(function(){
+			$('.pu_13').css({display: 'inline-block'})
+			// $('.pu_13 img').css({transform: 'translateY(25%)'})
+			$('.pu_img_box').css({pointerEvents: 'none'})
+		})
+		$('.pu_be_14').click(function(){
+			$('.pu_14').css({display: 'inline-block'})
+			// $('.pu_14 img').css({transform: 'translateY(25%)'})
+			$('.pu_img_box').css({pointerEvents: 'none'})
+		})
+		$('.pu_be_15').click(function(){
+			$('.pu_15').css({display: 'inline-block'})
+			// $('.pu_15 img').css({transform: 'translateY(25%)'})
+			$('.pu_img_box').css({pointerEvents: 'none'})
+		})
+		$('.pu_be_16').click(function(){
+			$('.pu_16').css({display: 'inline-block'})
+			// $('.pu_16 img').css({transform: 'translateY(25%)'})
+			$('.pu_img_box').css({pointerEvents: 'none'})
+		})
+		$('.pu_be_17').click(function(){
+			$('.pu_17').css({display: 'inline-block'})
+			// $('.pu_17 img').css({transform: 'translateY(25%)'})
+			$('.pu_img_box').css({pointerEvents: 'none'})
+		})
+		$('.pu_be_18').click(function(){
+			$('.pu_18').css({display: 'inline-block'})
+			// $('.pu_18 img').css({transform: 'translateY(25%)'})
+			$('.pu_img_box').css({pointerEvents: 'none'})
+		})
+		$('.pu_be_19').click(function(){
+			$('.pu_19').css({display: 'inline-block'})
+			// $('.pu_19 img').css({transform: 'translateY(25%)'})
+			$('.pu_img_box').css({pointerEvents: 'none'})
+		})
+		$('.pu_be_20').click(function(){
+			$('.pu_20').css({display: 'inline-block'})
+			// $('.pu_20 img').css({transform: 'translateY(25%)'})
+			$('.pu_img_box').css({pointerEvents: 'none'})
+		})
+		$('.pu_be_21').click(function(){
+			$('.pu_21').css({display: 'inline-block'})
+			// $('.pu_21 img').css({transform: 'translateY(25%)'})
+			$('.pu_img_box').css({pointerEvents: 'none'})
+		})
+		$('.pu_be_22').click(function(){
+			$('.pu_22').css({display: 'inline-block'})
+			// $('.pu_22 img').css({transform: 'translateY(25%)'})
+			$('.pu_img_box').css({pointerEvents: 'none'})
+		})
+		$('.pu_be_23').click(function(){
+			$('.pu_23').css({display: 'inline-block'})
+			// $('.pu_23 img').css({transform: 'translateY(25%)'})
+			$('.pu_img_box').css({pointerEvents: 'none'})
+		})
+		$('.pu_be_24').click(function(){
+			$('.pu_24').css({display: 'inline-block'})
+			// $('.pu_24 img').css({transform: 'translateY(25%)'})
+			$('.pu_img_box').css({pointerEvents: 'none'})
+		})
+		$('.pu_be_25').click(function(){
+			$('.pu_25').css({display: 'inline-block'})
+			// $('.pu_25 img').css({transform: 'translateY(25%)'})
+			$('.pu_img_box').css({pointerEvents: 'none'})
+		})
+		$('.pu_be_26').click(function(){
+			$('.pu_26').css({display: 'inline-block'})
+			// $('.pu_26 img').css({transform: 'translateY(25%)'})
+			$('.pu_img_box').css({pointerEvents: 'none'})
+		})
+		$('.pu_be_27').click(function(){
+			$('.pu_27').css({display: 'inline-block'})
+			// $('.pu_27 img').css({transform: 'translateY(25%)'})
+			$('.pu_img_box').css({pointerEvents: 'none'})
+		})
+
+
+
+
+		$('.pu_be_fu_1').click(function(){
+			$('.pu_fu_1').css({display: 'inline-block'})
+			// $('.pu_18 img').css({transform: 'translateY(25%)'})
+			$('.pu_img_box').css({pointerEvents: 'none'})
+		})
+		$('.pu_be_fu_2').click(function(){
+			$('.pu_fu_2').css({display: 'inline-block'})
+			// $('.pu_18 img').css({transform: 'translateY(25%)'})
+			$('.pu_img_box').css({pointerEvents: 'none'})
+		})
+		$('.pu_be_fu_3').click(function(){
+			$('.pu_fu_3').css({display: 'inline-block'})
+			// $('.pu_18 img').css({transform: 'translateY(25%)'})
+			$('.pu_img_box').css({pointerEvents: 'none'})
+		})
+		$('.pu_be_fu_4').click(function(){
+			$('.pu_fu_4').css({display: 'inline-block'})
+			// $('.pu_18 img').css({transform: 'translateY(25%)'})
+			$('.pu_img_box').css({pointerEvents: 'none'})
+		})
+		$('.pu_be_fu_5').click(function(){
+			$('.pu_fu_5').css({display: 'inline-block'})
+			// $('.pu_18 img').css({transform: 'translateY(25%)'})
+			$('.pu_img_box').css({pointerEvents: 'none'})
+		})
+>>>>>>> Stashed changes
 
 
 

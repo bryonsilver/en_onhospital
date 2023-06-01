@@ -698,7 +698,11 @@ for(let i=0; i<1; i++) {
                                         </div>
                                     <div class="mr_img">`
                                         for(let j=0; j<1; j++) {
+<<<<<<< Updated upstream
                                 cent_list += `<div class="box_img cen2_${CENT_LIST[0][cen_v].item_no}"></div>
+=======
+                                cent_list += `<div class="box_img cen2_${CENT_LIST[0][cen_v].item_no} "></div>
+>>>>>>> Stashed changes
                                             <img class="replace_img" src="./img/medi_center/10_.jpg" alt="replace_img_9">
                                 `
                                         }
@@ -718,7 +722,11 @@ for(let i=0; i<1; i++) {
                                         </div>
                                     <div class="mr_img">`
                                         for(let j=0; j<1; j++) {
+<<<<<<< Updated upstream
                                 cent_list += `<div class="box_img cen2_${CENT_LIST[0][cen_v].item_no}"></div>`
+=======
+                                cent_list += `<div class="box_img cen2_${CENT_LIST[0][cen_v].item_no}  popup_img_before pu_be_${CENT_LIST[0][cen_v].item_no - Number(1)}"></div>`
+>>>>>>> Stashed changes
                                         }
                         cent_list += `</div>`
             }
@@ -761,7 +769,11 @@ for(let i=0; i<1; i++) {
                         cent_list += `
                                         <span class="cent_box">
                                             <div>
+<<<<<<< Updated upstream
                                                 <img src="./img/medi_center/11_.png" alt="">
+=======
+                                                <img src="./img/medi_center/11_.png" alt="" class="popup_img_before pu_be_10_center">
+>>>>>>> Stashed changes
                                             </div>
                                         </span>
                                         `
@@ -923,13 +935,21 @@ for(let i=0; i<1; i++) {
                         else if (cen_v == 1) {
                             cent_list += `<div class="mr_c_content cent_13">
                                             <span class="cent_box margin_bottom_0">
+<<<<<<< Updated upstream
                                                 <div class="image_box"><img src="./img/medi_center/${CENT_LIST[0][cen_v].img_src[0]}" alt="${CENT_LIST[0][cen_v].img_src[0]}"></div>
+=======
+                                                <div class="image_box"><img src="./img/medi_center/${CENT_LIST[0][cen_v].img_src[0]}" alt="${CENT_LIST[0][cen_v].img_src[0]}" class="popup_img_before pu_be_1"></div>
+>>>>>>> Stashed changes
                                                 <div class="cent_1_text margin_top_30">${CENT_LIST[0][cen_v].sub_context1[0]}</div>
                                                 <div class="cent_1_text">${CENT_LIST[0][cen_v].sub_context1[1]}</div>
                                                 <div class="cent_1_text margin_bottom_15">${CENT_LIST[0][cen_v].sub_context1[2]}</div>
                                             </span>
                                             <span class="cent_box">
+<<<<<<< Updated upstream
                                                 <div class="image_box"><img src="./img/medi_center/${CENT_LIST[0][cen_v].img_src[1]}" alt="${CENT_LIST[0][cen_v].img_src[1]}"></div>
+=======
+                                                <div class="image_box"><img src="./img/medi_center/${CENT_LIST[0][cen_v].img_src[1]}" alt="${CENT_LIST[0][cen_v].img_src[1]}" class="popup_img_before pu_be_2"></div>
+>>>>>>> Stashed changes
                                                 <table class="table_line">
                                                     <tbody>
                                                         <tr>
@@ -1369,12 +1389,20 @@ for(let i=0; i<1; i++) {
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide silde_v_1_1">
                                             <div class="col-lg-6 mb-4">
+<<<<<<< Updated upstream
                                                 <img src="./img/guide/funeral_1.png" class="img-fluid mx-auto d-block" alt="">
+=======
+                                                <img src="./img/guide/funeral_1.png" class="img-fluid mx-auto d-block popup_img_before pu_be_fu_1" alt="">
+>>>>>>> Stashed changes
                                             </div>
                                         </div>
                                         <div class="swiper-slide silde_v_2_1">
                                             <div class="col-lg-6">
+<<<<<<< Updated upstream
                                                 <img src="./img/guide/funeral_2.png" class="img-fluid mx-auto d-block" alt="">
+=======
+                                                <img src="./img/guide/funeral_2.png" class="img-fluid mx-auto d-block popup_img_before pu_be_fu_2" alt="">
+>>>>>>> Stashed changes
                                             </div>
                                         </div>
                                     </div>
@@ -1496,17 +1524,29 @@ for(let i=0; i<1; i++) {
                                             <div class="swiper-wrapper">
                                                 <div class="swiper-slide silde_v_1_1">
                                                     <div class="col-lg">
+<<<<<<< Updated upstream
                                                         <img src="./img/guide/room1.png" class="img-fluid mx-auto d-block" alt="">
+=======
+                                                        <img src="./img/guide/room1.png" class="img-fluid mx-auto d-block popup_img_before pu_be_fu_3" alt="">
+>>>>>>> Stashed changes
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide silde_v_2_1">
                                                     <div class="col-lg">
+<<<<<<< Updated upstream
                                                         <img src="./img/guide/room2.png" class="img-fluid mx-auto d-block" alt="">
+=======
+                                                        <img src="./img/guide/room2.png" class="img-fluid mx-auto d-block popup_img_before pu_be_fu_4" alt="">
+>>>>>>> Stashed changes
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide silde_v_2_1">
                                                     <div class="col-lg">
+<<<<<<< Updated upstream
                                                         <img src="./img/guide/room3.png" class="img-fluid mx-auto d-block" alt="">
+=======
+                                                        <img src="./img/guide/room3.png" class="img-fluid mx-auto d-block popup_img_before pu_be_fu_5" alt="">
+>>>>>>> Stashed changes
                                                     </div>
                                                 </div>
                                             </div>
