@@ -1689,6 +1689,8 @@ img {
     }
 }
 @media (max-width: 500px) {
+    .text_4 {line-height: 17px !important;}
+    .bolder {margin-bottom: 0;}
     .text_4,
     .black_bold {text-align: center;}
 

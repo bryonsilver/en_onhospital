@@ -369,4 +369,21 @@ $(document).ready(function(){
 	}
 
 
+    /* 조회수 */
+    if(localStorage.getItem('id_view')) {
+        var lastData = localStorage.getItem('id_view')
+        console.log('lastData :', lastData)
+
+        localStorage.setItem('id_view_alpha', lastData)
+    } 
+    if(localStorage.getItem('news_0_1')) {
+        var news_val = localStorage.getItem('news_0_1')
+        console.log('news_val :', news_val)
+    }
+    if(localStorage.getItem('news_1_2')) {
+        var news_val2 = localStorage.getItem('news_1_2')
+        console.log('news_val2 :', news_val2)
+    }
+
+
 })

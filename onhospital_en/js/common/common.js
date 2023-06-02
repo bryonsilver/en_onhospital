@@ -865,8 +865,7 @@ $('.dep3_inner_story').on('mouseout', function(){
 			// $('.pu_6 img').css({transform: 'translateY(25%)'})
 			$('.pu_img_box').css({pointerEvents: 'none'})
 		})
-<<<<<<< Updated upstream
-=======
+
 		$('.pu_be_7').click(function(){
 			$('.pu_7').css({display: 'inline-block'})
 			// $('.pu_7 img').css({transform: 'translateY(25%)'})
@@ -879,6 +878,11 @@ $('.dep3_inner_story').on('mouseout', function(){
 		})
 		$('.pu_be_9').click(function(){
 			$('.pu_9').css({display: 'inline-block'})
+			// $('.pu_9 img').css({transform: 'translateY(25%)'})
+			$('.pu_img_box').css({pointerEvents: 'none'})
+		})
+		$('.pu_be_9_alpha').click(function(){
+			$('.pu_9_alpha').css({display: 'inline-block'})
 			// $('.pu_9 img').css({transform: 'translateY(25%)'})
 			$('.pu_img_box').css({pointerEvents: 'none'})
 		})
@@ -1006,7 +1010,6 @@ $('.dep3_inner_story').on('mouseout', function(){
 			// $('.pu_18 img').css({transform: 'translateY(25%)'})
 			$('.pu_img_box').css({pointerEvents: 'none'})
 		})
->>>>>>> Stashed changes
 
 
 
