@@ -53,198 +53,7 @@ $(document).ready(function(){
         `
         $('.title_box').append(list2);
     } 
-    setTimeout(()=>
-       {
-            var count = 0;
-            var inter;
-            
-            function add(){
-                count += 1;
-            }
-        
-            // $(document).ready(function(){
-            //     $('#plus').on('mousedown',function(){
-            //         inter = setInterval(add , 70)
-            //     })
-        
-            //     $('#plus').on('mouseup',function(){
-            //         clearInterval(inter)
-            //     })
-            // })
-            if(num == 0) {
-                console.log("공지사항")
-                
-                $('.t_li').click(function(){
-                    setTimeout(()=>
-                    { var news_divide = $(this).find('.view').attr('id');
-                        alert("news_divide :", news_divide) 
-
-                        if(news_divide == 'view_0_1') {
-                            localStorage.setItem('news_0_1', '0_1번입니다');
-                        } else if(news_divide == 'view_0_2') {
-                            localStorage.setItem('news_0_2', '0_2번입니다');
-                        }
-                    
-                    }, 200)
-                    
-
-                    add();
-                    $(this).find('.view').html(count)
-                    var id_view = $(this).find('.view').attr("id");
-                    $(this).find('.view_input').val('');
-                    $(this).find('.view_input').val(count);
-                    localStorage.setItem(id_view, count);
-                    console.log( $(this).find('.view').attr("id"))
-                    console.log("view_ add 1+ ")
-    
-    
-                    if(localStorage.getItem('id_view_alpha')) {
-                        var lastData = localStorage.getItem('id_view_alpha')
-                        console.log('lastData :', lastData)
-    
-                        
-                        localStorage.setItem(id_view, count + Number(lastData));
-                        $(this).find('.view').html(lastData)
-                    }
-                    
-                })
-            } else if(num == 1) {
-                $('.t_li').click(function(){
-                    setTimeout(()=>
-                    { var news_divide = $(this).find('.view').attr('id');
-                    alert("news_divide :", news_divide) 
-
-                    if(news_divide == 'view_1_1') {
-                        localStorage.setItem('news_1_1', '1_1번입니다');
-                    } else if(news_divide == 'view_1_2') {
-                        localStorage.setItem('news_1_2', '1_2번입니다');
-                        alert(localStorage.news_1_2(0))
-                    }
-                
-                    }, 200)
-                    
-                    
-
-                    add();
-                    $(this).find('.view').html(count)
-                    var id_view = $(this).find('.view').attr("id");
-                    $(this).find('.view_input').val('');
-                    $(this).find('.view_input').val(count);
-                    localStorage.setItem(id_view, count);
-                    console.log( $(this).find('.view').attr("id"))
-                    console.log("view_ add 1+ ")
-    
-    
-                    if(localStorage.getItem('id_view_alpha')) {
-                        var lastData = localStorage.getItem('id_view_alpha')
-                        console.log('lastData :', lastData)
-    
-                        
-                        localStorage.setItem(id_view, count + Number(lastData));
-                        $(this).find('.view').html(lastData)
-                    }
-                    
-                })
-            } else if(num == 2) {
-                $('.t_li').click(function(){
-                    add();
-                    $(this).find('.view').html(count)
-                    var id_view = $(this).find('.view').attr("id");
-                    $(this).find('.view_input').val('');
-                    $(this).find('.view_input').val(count);
-                    localStorage.setItem(id_view, count);
-                    console.log( $(this).find('.view').attr("id"))
-                    console.log("view_ add 1+ ")
-    
-    
-                    if(localStorage.getItem('id_view_alpha')) {
-                        var lastData = localStorage.getItem('id_view_alpha')
-                        console.log('lastData :', lastData)
-    
-                        
-                        localStorage.setItem(id_view, count + Number(lastData));
-                        $(this).find('.view').html(lastData)
-                    }
-                    
-                })
-            } else if(num == 3) {
-                $('.t_li').click(function(){
-                    add();
-                    $(this).find('.view').html(count)
-                    var id_view = $(this).find('.view').attr("id");
-                    $(this).find('.view_input').val('');
-                    $(this).find('.view_input').val(count);
-                    localStorage.setItem(id_view, count);
-                    console.log( $(this).find('.view').attr("id"))
-                    console.log("view_ add 1+ ")
-    
-    
-                    if(localStorage.getItem('id_view_alpha')) {
-                        var lastData = localStorage.getItem('id_view_alpha')
-                        console.log('lastData :', lastData)
-    
-                        
-                        localStorage.setItem(id_view, count + Number(lastData));
-                        $(this).find('.view').html(lastData)
-                    }
-                    
-                })
-            } else if(num == 4) {
-                $('.t_li').click(function(){
-                    add();
-                    $(this).find('.view').html(count)
-                    var id_view = $(this).find('.view').attr("id");
-                    $(this).find('.view_input').val('');
-                    $(this).find('.view_input').val(count);
-                    localStorage.setItem(id_view, count);
-                    console.log( $(this).find('.view').attr("id"))
-                    console.log("view_ add 1+ ")
-    
-    
-                    if(localStorage.getItem('id_view_alpha')) {
-                        var lastData = localStorage.getItem('id_view_alpha')
-                        console.log('lastData :', lastData)
-    
-                        
-                        localStorage.setItem(id_view, count + Number(lastData));
-                        $(this).find('.view').html(lastData)
-                    }
-                    
-                })
-            } else if(num == 5) {
-                $('.t_li').click(function(){
-                    add();
-                    $(this).find('.view').html(count)
-                    var id_view = $(this).find('.view').attr("id");
-                    $(this).find('.view_input').val('');
-                    $(this).find('.view_input').val(count);
-                    localStorage.setItem(id_view, count);
-                    console.log( $(this).find('.view').attr("id"))
-                    console.log("view_ add 1+ ")
-    
-    
-                    if(localStorage.getItem('id_view_alpha')) {
-                        var lastData = localStorage.getItem('id_view_alpha')
-                        console.log('lastData :', lastData)
-    
-                        
-                        localStorage.setItem(id_view, count + Number(lastData));
-                        $(this).find('.view').html(lastData)
-                    }
-                    
-                })
-            }
-            
-
-            // var view_input = $('.view_input').val('');
-            // var location_1 = $(location).attr('href');
-            // var location_2 = location_1 + '&' + 'view' + '=' + Number(count);
-            // console.log("location_1 :", location_1, "location_2 : ", location_2)
-
-       }, 100
-            
-    )
-    
+   
    
 
     for(let i=0; i<NEWS_LIST[num].length; i++) {
@@ -261,13 +70,13 @@ $(document).ready(function(){
                                             <span class="name" style="max-width: 300px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;" title="${NEWS_LIST[num][i].writer}">
                                                 ${NEWS_LIST[num][i].writer}
                                                 <span class="date notranslate mobile_da_vi">${NEWS_LIST[num][i].date}</span>
-                                                <span class="view notranslate mobile_da_vi">0</span>
-                                                <input type="hidden" class="view_input" value="0" name="view_input_n">
+                                                <!--span class="view notranslate mobile_da_vi">0</span>
+                                                <input type="hidden" class="view_input" value="0" name="view_input_n"-->
                                             </span>
                                             <span class="date notranslate desk_da_vi">${NEWS_LIST[num][i].date}</span>
                                             <input type="hidden" class="news_divide" value="num_${NEWS_LIST[num][i].item_no}" id="num_${NEWS_LIST[num][i].item_no}" name="news_${NEWS_LIST[num][i].cate_no}">
-                                            <span class="view notranslate desk_da_vi" id="view_${NEWS_LIST[num][i].cate_no}_${NEWS_LIST[num][i].item_no}">0</span>
-                                            <input type="hidden" class="view_input" value="0" name="view_input_n">
+                                            <!--span class="view notranslate desk_da_vi" id="view_${NEWS_LIST[num][i].cate_no}_${NEWS_LIST[num][i].item_no}">0</span>
+                                            <input type="hidden" class="view_input" value="0" name="view_input_n"-->
                                         </span>
                                     </p>
                                 </form>
@@ -304,5 +113,200 @@ $(document).ready(function(){
 			console.log('구글번역기능 가즈아!!')
 		}
 	}
+
+
+
+//     setTimeout(()=>
+//     {
+//          var count = 0;
+//          var inter;
+         
+//          function add(){
+//              count += 1;
+//          }
+     
+//          // $(document).ready(function(){
+//          //     $('#plus').on('mousedown',function(){
+//          //         inter = setInterval(add , 70)
+//          //     })
+     
+//          //     $('#plus').on('mouseup',function(){
+//          //         clearInterval(inter)
+//          //     })
+//          // })
+//         //  if(num == 0) {
+//         //      console.log("공지사항")
+             
+//         //      $('.t_li').click(function(){
+//         //          setTimeout(()=>
+//         //          { var news_divide = $(this).find('.view').attr('id');
+//         //              alert("news_divide :", news_divide) 
+
+//         //              if(news_divide == 'view_0_1') {
+//         //                  localStorage.setItem('news_0_1', '0_1번입니다');
+//         //              } else if(news_divide == 'view_0_2') {
+//         //                  localStorage.setItem('news_0_2', '0_2번입니다');
+//         //              }
+                 
+//         //          }, 200)
+                 
+
+//         //          add();
+//         //          $(this).find('.view').html(count)
+//         //          var id_view = $(this).find('.view').attr("id");
+//         //          $(this).find('.view_input').val('');
+//         //          $(this).find('.view_input').val(count);
+//         //          localStorage.setItem(id_view, count);
+//         //          console.log( $(this).find('.view').attr("id"))
+//         //          console.log("view_ add 1+ ")
+ 
+ 
+//         //          if(localStorage.getItem('id_view_alpha')) {
+//         //              var lastData = localStorage.getItem('id_view_alpha')
+//         //              console.log('lastData :', lastData)
+ 
+                     
+//         //              localStorage.setItem(id_view, count + Number(lastData));
+//         //              $(this).find('.view').html(lastData)
+//         //          }
+                 
+//         //      })
+//         //  } else if(num == 1) {
+//         //      $('.t_li').click(function(){
+//         //          setTimeout(()=>
+//         //          { var news_divide = $(this).find('.view').attr('id');
+//         //          alert("news_divide :", news_divide) 
+
+//         //          if(news_divide == 'view_1_1') {
+//         //              localStorage.setItem('news_1_1', '1_1번입니다');
+//         //          } else if(news_divide == 'view_1_2') {
+//         //              localStorage.setItem('news_1_2', '1_2번입니다');
+//         //              alert(localStorage.news_1_2(0))
+//         //          }
+             
+//         //          }, 200)
+                 
+                 
+
+//         //          add();
+//         //          $(this).find('.view').html(count)
+//         //          var id_view = $(this).find('.view').attr("id");
+//         //          $(this).find('.view_input').val('');
+//         //          $(this).find('.view_input').val(count);
+//         //          localStorage.setItem(id_view, count);
+//         //          console.log( $(this).find('.view').attr("id"))
+//         //          console.log("view_ add 1+ ")
+ 
+ 
+//         //          if(localStorage.getItem('id_view_alpha')) {
+//         //              var lastData = localStorage.getItem('id_view_alpha')
+//         //              console.log('lastData :', lastData)
+ 
+                     
+//         //              localStorage.setItem(id_view, count + Number(lastData));
+//         //              $(this).find('.view').html(lastData)
+//         //          }
+                 
+//         //      })
+//         //  } else if(num == 2) {
+//         //      $('.t_li').click(function(){
+//         //          add();
+//         //          $(this).find('.view').html(count)
+//         //          var id_view = $(this).find('.view').attr("id");
+//         //          $(this).find('.view_input').val('');
+//         //          $(this).find('.view_input').val(count);
+//         //          localStorage.setItem(id_view, count);
+//         //          console.log( $(this).find('.view').attr("id"))
+//         //          console.log("view_ add 1+ ")
+ 
+ 
+//         //          if(localStorage.getItem('id_view_alpha')) {
+//         //              var lastData = localStorage.getItem('id_view_alpha')
+//         //              console.log('lastData :', lastData)
+ 
+                     
+//         //              localStorage.setItem(id_view, count + Number(lastData));
+//         //              $(this).find('.view').html(lastData)
+//         //          }
+                 
+//         //      })
+//         //  } else if(num == 3) {
+//         //      $('.t_li').click(function(){
+//         //          add();
+//         //          $(this).find('.view').html(count)
+//         //          var id_view = $(this).find('.view').attr("id");
+//         //          $(this).find('.view_input').val('');
+//         //          $(this).find('.view_input').val(count);
+//         //          localStorage.setItem(id_view, count);
+//         //          console.log( $(this).find('.view').attr("id"))
+//         //          console.log("view_ add 1+ ")
+ 
+ 
+//         //          if(localStorage.getItem('id_view_alpha')) {
+//         //              var lastData = localStorage.getItem('id_view_alpha')
+//         //              console.log('lastData :', lastData)
+ 
+                     
+//         //              localStorage.setItem(id_view, count + Number(lastData));
+//         //              $(this).find('.view').html(lastData)
+//         //          }
+                 
+//         //      })
+//         //  } else if(num == 4) {
+//         //      $('.t_li').click(function(){
+//         //          add();
+//         //          $(this).find('.view').html(count)
+//         //          var id_view = $(this).find('.view').attr("id");
+//         //          $(this).find('.view_input').val('');
+//         //          $(this).find('.view_input').val(count);
+//         //          localStorage.setItem(id_view, count);
+//         //          console.log( $(this).find('.view').attr("id"))
+//         //          console.log("view_ add 1+ ")
+ 
+ 
+//         //          if(localStorage.getItem('id_view_alpha')) {
+//         //              var lastData = localStorage.getItem('id_view_alpha')
+//         //              console.log('lastData :', lastData)
+ 
+                     
+//         //              localStorage.setItem(id_view, count + Number(lastData));
+//         //              $(this).find('.view').html(lastData)
+//         //          }
+                 
+//         //      })
+//         //  } else if(num == 5) {
+//         //      $('.t_li').click(function(){
+//         //          add();
+//         //          $(this).find('.view').html(count)
+//         //          var id_view = $(this).find('.view').attr("id");
+//         //          $(this).find('.view_input').val('');
+//         //          $(this).find('.view_input').val(count);
+//         //          localStorage.setItem(id_view, count);
+//         //          console.log( $(this).find('.view').attr("id"))
+//         //          console.log("view_ add 1+ ")
+ 
+ 
+//         //          if(localStorage.getItem('id_view_alpha')) {
+//         //              var lastData = localStorage.getItem('id_view_alpha')
+//         //              console.log('lastData :', lastData)
+ 
+                     
+//         //              localStorage.setItem(id_view, count + Number(lastData));
+//         //              $(this).find('.view').html(lastData)
+//         //          }
+                 
+//         //      })
+//         //  }
+         
+
+//          // var view_input = $('.view_input').val('');
+//          // var location_1 = $(location).attr('href');
+//          // var location_2 = location_1 + '&' + 'view' + '=' + Number(count);
+//          // console.log("location_1 :", location_1, "location_2 : ", location_2)
+
+//     }, 100
+         
+//  )
+ 
     
 })

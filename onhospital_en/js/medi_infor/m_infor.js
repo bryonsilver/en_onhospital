@@ -23,4 +23,6 @@ $(document).ready(function(){
 			console.log('구글번역기능 가즈아!!')
 		}
 	}
+
+	$('.google-visualization-orgchart-noderow-medium').colspan(10);
 })

@@ -1,8 +1,27 @@
 body {font-size: 16px !important;}
-.icon_title {margin-bottom: 10px;}
 table * {
     border-spacing: 0;
 }
+
+/* orgchart */
+.google-visualization-orgchart-node,
+.google-visualization-orgchart-nodesel {
+    border: 1px solid #ddd !important;
+    background-color: #fff !important;
+    background: #fff !important;
+    
+    -webkit-box-shadow: none !important;
+    font-size: 14px !important;
+    font-weight: 500;
+    /* width: 20%; */
+    padding: 10px !important;
+}
+.google-visualization-orgchart-linebottom,
+.google-visualization-orgchart-lineright,
+.google-visualization-orgchart-lineleft {
+    border-color: #ee791c !important;
+}
+.google-visualization-orgchart-node-medium {width: 17%;}
 
 
 .first_table_line {
@@ -97,12 +116,12 @@ table * {
 }
 .st_th_1::before {
     content: "";
-    width: 158px;
+    width: 161px;
     height: 1px;
     background-color: #ee791c;
     position: absolute;
     left: 0;
-    top: 41.5%;
+    top: 44.5%;
 }
 .st_th_1::after {
     content: "";
@@ -111,7 +130,7 @@ table * {
     background-color: #ee791c;
     position: absolute;
     left: 50%;
-    top: 39%;
+    top: 42%;
 }
 .one::after {
     content: '';
@@ -308,7 +327,7 @@ svg:not(:root).svg-inline--fa {
     background-color: #ee791c;
     position: absolute;
     left: 17%;
-    top: -25%;
+    top: -39%;
 }
 .st_t_left::after {
     content: "";
@@ -317,21 +336,21 @@ svg:not(:root).svg-inline--fa {
     background-color: #ee791c;
     position: absolute;
     left: 17%;
-    bottom: -5%;
+    bottom: -9%;
 }
 .st_t_right::before {
     content: "";
     width: 1px;
-    height: 40px;
+    height: 20px;
     background-color: #ee791c;
     position: absolute;
     left: 92%;
-    top: -29%;
+    top: -39%;
 }
 .st_t_right::after {
     content: "";
     width: 1px;
-    height: 50px;
+    height: 20px;
     background-color: #ee791c;
     position: absolute;
     left: 92%;
@@ -433,53 +452,50 @@ svg:not(:root).svg-inline--fa {
 }
 
 
-
+@media (max-width: 1700px) {
+    /* .google-visualization-orgchart-noderow-medium > .google-visualization-orgchart-linenode {
+        colspan: 0;
+    } */
+    #chart_div {
+        overflow-x: auto;
+    }
+    #chart_div::-webkit-scrollbar {
+        width: 1px;
+        height: 5px;
+        background-color: rgb(199, 199, 199);
+        border-radius: 10px;
+    }
+    #chart_div::-webkit-scrollbar-thumb {
+        width: 1px;
+        height: 5;
+        background-color: #ff9f1c; /* #217af4 */
+    
+        border-radius: 10px;
+    }
+    #chart_div::-webkit-scrollbar-track {
+        background: rgb(199, 199, 199); /*  rgba(33, 122, 244, .1)*/
+    }
+}
 @media (max-width: 1400px) {
-    .two::after {left: 49.5%;}
     .st_th_1::before {
         content: "";
         width: 152px;
-        top: 39%;
+        top: 42%;
     }
     
     .st_th_1::after {
-        top: 38% !important;
+        top: 40% !important;
     }
-}
-@media (max-width: 1300px) {
-    .st_th_1::before {
-        content: "";
-        width: 148px;
-        top: 38%;
-    }
-    
-    .st_th_1::after {
-        top: 36% !important;
-    }
-}
-@media (max-width: 1250px) {
-    .two::after {bottom: -87px;}
-    .three::after {bottom: -112px;}
-    .st_th_1::before {width: 144px;}
-}
-@media (max-width: 1200px) {
-    
-    .st_th_1::before {width: 144px;}
 }
 @media (max-width:1150px) {
     .st_th_1::before {
         content: "";
-        width: 180px;
-        top: 45%;
+        width: 184px;
+        top: 44%;
     }
     .st_th_1::after {
-        top: 43% !important;
+        top: 42% !important;
     }
-    .two::after {
-        left: 50%;
-        bottom: -63px;
-    }
-    .three::after {bottom: -87px;}
 }
 @media (max-width:1100px)  {
     .line_2 {
@@ -488,16 +504,11 @@ svg:not(:root).svg-inline--fa {
     .st_th_1::before {
         content: "";
         width: 144px;
-        top: 38%;
+        top: 42%;
     }
     .st_th_1::after {
-        top: 36% !important;
+        top: 40% !important;
     }
-    .one::after{
-        left: 49%;
-    }
-    .two::after {left: 49.5%;}
-    .three::after {left: 51%;}
 }
 @media (max-width:991px) {
     .two_box,
