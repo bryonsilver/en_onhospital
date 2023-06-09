@@ -237,13 +237,7 @@ $(document).ready(function(){
         }).resize();
     }
 
-    setTimeout(()=> {
-        var cbb_leng = $('.center_big_box').length;
-        console.log("cbb_leng 갯수 :",  cbb_leng)
-        if(cbb_leng == 1) {
-            $('.center_box_doc').css('grid-template-columns', 'repeat(1, 1fr)')
-        } 
-    }, 100)
+
     
 
 // 호스피스완화병동의 이야기게시판 세부 디자인

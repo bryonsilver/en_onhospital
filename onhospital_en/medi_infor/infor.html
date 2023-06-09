@@ -585,44 +585,103 @@
 
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <script type="text/javascript">
-    google.charts.load('current', {packages:["orgchart"]});
-    google.charts.setOnLoadCallback(drawChart);
+    $(window).resize(function(){ 
+        var width = window.innerWidth;
+        if (width > 1150) {  // 다바이스 크기가 1400이상일때 
+            console.log("이건 와웅 데스크탑용 이넹!")
 
-    function drawChart() {
-      var data = new google.visualization.DataTable();
-      data.addColumn('string', 'Name');
-      data.addColumn('string', 'Manager');
-      data.addColumn('string', 'ToolTip');
+            $(".mid_width3").parents('td.google-visualization-orgchart-node.google-visualization-orgchart-node-medium.google-visualization-orgchart-nodesel').css({width: '50px'})
+            console.log("mid_width3 :", $(".mid_width3").parent())
 
-      // For each orgchart box, provide the name, manager, and tooltip to show.
-      data.addRows([
-        ['Procedures','', 'The President'],
-        [{'v':'<div style="background: #ee791c; color: #fff; border-radius: 5px; padding: 5px; box-sixing: border-box;">For First-Time Visitors  <div>(1st Floor Customer Support Center)</div></div>', 
-        'f':'<div style="background: #ee791c; color: #fff; border-radius: 5px; padding: 5px; box-sixing: border-box;">For First-Time Visitors  <div>(1st Floor Customer Support Center)</div></div> <ul><li style="list-style: disc; max-width: 95px; margin:auto;">Resident registration card</li> <li style="list-style: disc; max-width: 95px; margin:auto;">Health insurance card</li> <li style="list-style: disc; max-width: 95px; margin:auto;">Referral for treatment <div>(Medical aid patients)</div></li></ul>'},
-         'Procedures', ''],
-        [{'v':'<div style="background: #ee791c; color: #fff; border-radius: 5px; padding: 5px; box-sixing: border-box;">For Returning Visitors  <div style="font-size: 12px;"> (Initial visit/follow-up visit)</div><div>(2nd Floor Billing Desk)</div></div>', 
-        'f':'<div style="background: #ee791c; color: #fff; border-radius: 5px; padding: 5px; box-sixing: border-box;">For Returning Visitors  <div style="font-size: 12px;"> (Initial visit/follow-up visit)</div><div>(2nd Floor Billing Desk)</div></div>  <ul><li style="list-style: disc; max-width: 95px; margin:auto;">Treatment card</li> <li style="list-style: disc; max-width: 95px; margin:auto;">Health insurance card</li> </ul> '}, 
-        'Procedures', ''],
-        [{'v':'<div style="background: #ee791c; color: #fff; border-radius: 5px; padding: 5px; box-sixing: border-box;">For First-Time Visitors  <div>(2nd Floor Billing Desk)</div></div>', 
-        'f':'<div style="background: #ee791c; color: #fff; border-radius: 5px; padding: 5px; box-sixing: border-box;">For First-Time Visitors  <div>(2nd Floor Billing Desk)</div></div>  <ul><li style="list-style: disc; max-width: 95px; margin:auto;">Treatment card</li> <li style="list-style: disc; max-width: 95px; margin:auto;">Health insurance card</li> </ul>'}, 'Procedures', ''],
-        ['<div>Billing team outpatient reception desk</div>', '<div style="background: #ee791c; color: #fff; border-radius: 5px; padding: 5px; box-sixing: border-box;">For Returning Visitors  <div style="font-size: 12px;"> (Initial visit/follow-up visit)</div><div>(2nd Floor Billing Desk)</div></div>', ''],
-        ['Reception for medical department', '<div>Billing team outpatient reception desk</div>', ''],
-        [{'v':'Medical department', 
-        'f':'Medical department<div>Medical examination and prescription <div style="margin-top: 10px;">(Injection, medication / test / radiological imaging / issuance of referral for treatment)</div></div>'}, 'Reception for medical department', ''],
-        [{'v':'Outpatient payment desk', 
-        'f':'Outpatient payment desk<div>Payment of medical expenses/reservation fee</div>'}, 'Medical department', ''],
-        ['Admission Decision', 'Medical department', ''],
-        ['Admission Procedures', 'Admission Decision', ''],
-        ['Blood collection and other tests', 'Outpatient payment desk', ''],
-        ['Others', 'Outpatient payment desk', ''],
-        ['Returning home', 'Others', ''],
-        ['Returning home ', 'Blood collection and other tests', 'Others'],
-      ]);
+            google.charts.load('current', {packages:["orgchart"]});
+            google.charts.setOnLoadCallback(drawChart);
 
-      // Create the chart.
-      var chart = new google.visualization.OrgChart(document.getElementById('chart_div'));
-      // Draw the chart, setting the allowHtml option to true for the tooltips.
-      chart.draw(data, {'allowHtml':true});
-    }
+            function drawChart() {
+            var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Name');
+            data.addColumn('string', 'Manager');
+            data.addColumn('string', 'ToolTip');
+
+            // For each orgchart box, provide the name, manager, and tooltip to show.
+            data.addRows([
+                //['Procedures','', 'The President'],
+                //[{'v':'<div style="background: #ee791c; color: #fff; border-radius: 5px; padding: 5px; box-sizing: border-box;">For First-Time Visitors  <div>(1st Floor Customer Support Center)</div></div>', 
+                //'f':'<div style="background: #ee791c; color: #fff; border-radius: 5px; padding: 5px; box-sizing: border-box;">For First-Time Visitors  <div>(1st Floor Customer Support Center)</div></div> <ul><li style="list-style: disc; max-width: 100%; margin:auto;">Resident registration card</li> <li style="list-style: disc; max-width: 100%; margin:auto;">Health insurance card</li> <li style="list-style: disc; max-width: 100%; margin:auto;">Referral for treatment <div>(Medical aid patients)</div></li></ul>'},
+                // 'Procedures', ''],
+                ['<div class="first_pro_inner"><div class="f_one_box"> <div style="width: 100%; background: #ee791c; color: #fff; border-radius: 5px; padding: 5px; box-sizing: border-box;">For First-Time Visitors  <div>(1st Floor Customer Support Center)</div></div> <ul><li style="list-style: disc; max-width: 100%; margin:auto;">Resident registration card</li> <li style="list-style: disc; max-width: 100%; margin:auto;">Health insurance card</li> <li style="list-style: disc; max-width: 100%; margin:auto;">Referral for treatment <div>(Medical aid patients)</div></li></ul></div> <div class="f_two_box"><div style="width: 100%; background: #ee791c; color: #fff; border-radius: 5px; padding: 5px; box-sizing: border-box;">For Returning Visitors  <div style="font-size: 12px;"> (Initial visit/follow-up visit)</div><div>(2nd Floor Billing Desk)</div></div>  <ul><li style="list-style: disc; max-width: 100%; margin:auto;">Treatment card</li> <li style="list-style: disc; max-width: 100%; margin:auto;">Health insurance card</li> </ul></div>  <div class="f_three_box"><div style="width: 100%; background: #ee791c; color: #fff; border-radius: 5px; padding: 5px; box-sizing: border-box;">For First-Time Visitors  <div>(2nd Floor Billing Desk)</div></div>  <ul><li style="list-style: disc; max-width: 100%; margin:auto;">Treatment card</li> <li style="list-style: disc; max-width: 100%; margin:auto;">Health insurance card</li> </ul></div></div>', 
+                '', ''],
+                //[{'v':'<div style="width: 100%; background: #ee791c; color: #fff; border-radius: 5px; padding: 5px; box-sizing: border-box;">For First-Time Visitors  <div>(2nd Floor Billing Desk)</div></div>', 
+                //'f':'<div style="background: #ee791c; color: #fff; border-radius: 5px; padding: 5px; box-sizing: border-box;">For First-Time Visitors  <div>(2nd Floor Billing Desk)</div></div>  <ul><li style="list-style: disc; max-width: 100%; margin:auto;">Treatment card</li> <li style="list-style: disc; max-width: 100%; margin:auto;">Health insurance card</li> </ul>'}, 'Procedures', ''],
+                ['<div>Billing team outpatient reception desk</div>', '<div class="first_pro_inner"><div class="f_one_box"> <div style="width: 100%; background: #ee791c; color: #fff; border-radius: 5px; padding: 5px; box-sizing: border-box;">For First-Time Visitors  <div>(1st Floor Customer Support Center)</div></div> <ul><li style="list-style: disc; max-width: 100%; margin:auto;">Resident registration card</li> <li style="list-style: disc; max-width: 100%; margin:auto;">Health insurance card</li> <li style="list-style: disc; max-width: 100%; margin:auto;">Referral for treatment <div>(Medical aid patients)</div></li></ul></div> <div class="f_two_box"><div style="width: 100%; background: #ee791c; color: #fff; border-radius: 5px; padding: 5px; box-sizing: border-box;">For Returning Visitors  <div style="font-size: 12px;"> (Initial visit/follow-up visit)</div><div>(2nd Floor Billing Desk)</div></div>  <ul><li style="list-style: disc; max-width: 100%; margin:auto;">Treatment card</li> <li style="list-style: disc; max-width: 100%; margin:auto;">Health insurance card</li> </ul></div>  <div class="f_three_box"><div style="width: 100%; background: #ee791c; color: #fff; border-radius: 5px; padding: 5px; box-sizing: border-box;">For First-Time Visitors  <div>(2nd Floor Billing Desk)</div></div>  <ul><li style="list-style: disc; max-width: 100%; margin:auto;">Treatment card</li> <li style="list-style: disc; max-width: 100%; margin:auto;">Health insurance card</li> </ul></div></div>', ''],
+                ['Reception for medical department', '<div>Billing team outpatient reception desk</div>', ''],
+                [{'v':'Medical department', 
+                'f':'Medical department<div>Medical examination and prescription <div style="margin-top: 10px;">(Injection, medication / test / radiological imaging / issuance of referral for treatment)</div></div>'}, 'Reception for medical department', ''],
+                [{'v':'Outpatient payment desk', 
+                'f':'Outpatient payment desk<div>Payment of medical expenses/reservation fee</div>'}, 'Medical department', ''],
+                ['Admission Decision', 'Medical department', ''],
+                ['Admission Procedures', 'Admission Decision', ''],
+                ['Blood collection and other tests', 'Outpatient payment desk', ''],
+                ['Others', 'Outpatient payment desk', ''],
+                ['Returning home', 'Others', ''],
+                ['Returning home ', 'Blood collection and other tests', 'Others'],
+            ]);
+
+            // Create the chart.
+            var chart = new google.visualization.OrgChart(document.getElementById('chart_div'));
+            // Draw the chart, setting the allowHtml option to true for the tooltips.
+            chart.draw(data, {'allowHtml':true});
+            }
+        } 
+        else if (1500 > width &&  900 < width) {
+            console.log("이건 900 큼")
+
+            google.charts.load('current', {packages:["orgchart"]});
+            google.charts.setOnLoadCallback(drawChart);
+
+            function drawChart() {
+            var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Name');
+            data.addColumn('string', 'Manager');
+            data.addColumn('string', 'ToolTip');
+
+            // For each orgchart box, provide the name, manager, and tooltip to show.
+            data.addRows([
+                //['Procedures','', 'The President'],
+                //[{'v':'<div style="background: #ee791c; color: #fff; border-radius: 5px; padding: 5px; box-sizing: border-box;">For First-Time Visitors  <div>(1st Floor Customer Support Center)</div></div>', 
+                //'f':'<div style="background: #ee791c; color: #fff; border-radius: 5px; padding: 5px; box-sizing: border-box;">For First-Time Visitors  <div>(1st Floor Customer Support Center)</div></div> <ul><li style="list-style: disc; max-width: 100%; margin:auto;">Resident registration card</li> <li style="list-style: disc; max-width: 100%; margin:auto;">Health insurance card</li> <li style="list-style: disc; max-width: 100%; margin:auto;">Referral for treatment <div>(Medical aid patients)</div></li></ul>'},
+                // 'Procedures', ''],
+                ['<div class="first_pro_inner"><div class="f_one_box"> <div style="width: 100%; background: #ee791c; color: #fff; border-radius: 5px; padding: 5px; box-sizing: border-box;">For First-Time Visitors  <div>(1st Floor Customer Support Center)</div></div> <ul><li style="list-style: disc; max-width: 100%; margin:auto;">Resident registration card</li> <li style="list-style: disc; max-width: 100%; margin:auto;">Health insurance card</li> <li style="list-style: disc; max-width: 100%; margin:auto;">Referral for treatment <div>(Medical aid patients)</div></li></ul></div> <div class="f_two_box"><div style= background: #ee791c; color: #fff;"width: 100%; border-radius: 5px; padding: 5px; box-sizing: border-box;">For Returning Visitors  <div style="font-size: 12px;"> (Initial visit/follow-up visit)</div><div>(2nd Floor Billing Desk)</div></div>  <ul><li style="list-style: disc; max-width: 100%; margin:auto;">Treatment card</li> <li style="list-style: disc; max-width: 100%; margin:auto;">Health insurance card</li> </ul></div>  <div class="f_three_box"><div style="width: 100%; background: #ee791c; color: #fff; border-radius: 5px; padding: 5px; box-sizing: border-box;">For First-Time Visitors  <div>(2nd Floor Billing Desk)</div></div>  <ul><li style="list-style: disc; max-width: 100%; margin:auto;">Treatment card</li> <li style="list-style: disc; max-width: 100%; margin:auto;">Health insurance card</li> </ul></div></div>', 
+                '', ''],
+                //[{'v':'<div style="width: 100%; background: #ee791c; color: #fff; border-radius: 5px; padding: 5px; box-sizing: border-box;">For First-Time Visitors  <div>(2nd Floor Billing Desk)</div></div>', 
+                //'f':'<div style="background: #ee791c; color: #fff; border-radius: 5px; padding: 5px; box-sizing: border-box;">For First-Time Visitors  <div>(2nd Floor Billing Desk)</div></div>  <ul><li style="list-style: disc; max-width: 100%; margin:auto;">Treatment card</li> <li style="list-style: disc; max-width: 100%; margin:auto;">Health insurance card</li> </ul>'}, 'Procedures', ''],
+                ['<div>Billing team outpatient reception desk</div>', '<div class="first_pro_inner"><div class="f_one_box"> <div style="width: 100%; background: #ee791c; color: #fff; border-radius: 5px; padding: 5px; box-sizing: border-box;">For First-Time Visitors  <div>(1st Floor Customer Support Center)</div></div> <ul><li style="list-style: disc; max-width: 100%; margin:auto;">Resident registration card</li> <li style="list-style: disc; max-width: 100%; margin:auto;">Health insurance card</li> <li style="list-style: disc; max-width: 100%; margin:auto;">Referral for treatment <div>(Medical aid patients)</div></li></ul></div> <div class="f_two_box"><div style= background: #ee791c; color: #fff;"width: 100%; border-radius: 5px; padding: 5px; box-sizing: border-box;">For Returning Visitors  <div style="font-size: 12px;"> (Initial visit/follow-up visit)</div><div>(2nd Floor Billing Desk)</div></div>  <ul><li style="list-style: disc; max-width: 100%; margin:auto;">Treatment card</li> <li style="list-style: disc; max-width: 100%; margin:auto;">Health insurance card</li> </ul></div>  <div class="f_three_box"><div style="width: 100%; background: #ee791c; color: #fff; border-radius: 5px; padding: 5px; box-sizing: border-box;">For First-Time Visitors  <div>(2nd Floor Billing Desk)</div></div>  <ul><li style="list-style: disc; max-width: 100%; margin:auto;">Treatment card</li> <li style="list-style: disc; max-width: 100%; margin:auto;">Health insurance card</li> </ul></div></div>', ''],
+                ['Reception for medical department', '<div>Billing team outpatient reception desk</div>', ''],
+                [{'v':'Medical department', 
+                'f':'Medical department<div>Medical examination and prescription <div style="margin-top: 10px;">(Injection, medication / test / radiological imaging / issuance of referral for treatment)</div></div>'}, 'Reception for medical department', ''],
+                [{'v':'Outpatient payment desk', 
+                'f':'Outpatient payment desk<div>Payment of medical expenses/reservation fee</div>'}, 'Medical department', ''],
+                ['Admission Decision', 'Medical department', ''],
+                ['Admission Procedures', 'Admission Decision', ''],
+                ['Blood collection and other tests', 'Outpatient payment desk', ''],
+                ['Others', 'Outpatient payment desk', ''],
+                ['Returning home', 'Others', ''],
+                ['Returning home ', 'Blood collection and other tests', 'Others'],
+            ]);
+
+            // Create the chart.
+            var chart = new google.visualization.OrgChart(document.getElementById('chart_div'));
+            // Draw the chart, setting the allowHtml option to true for the tooltips.
+            chart.draw(data, {'allowHtml':true});
+            }
+        }
+       // else if (900 > width && 380 <= width) {
+        //    console.log("이건 380보다 큼")
+        //}
+       // else if (width < 380)  {
+        //    console.log("이건 380보다 작음")
+        //}
+        
+    }).resize(); 
+    
 </script>
 </html>

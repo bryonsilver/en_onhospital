@@ -21,7 +21,36 @@ table * {
 .google-visualization-orgchart-lineleft {
     border-color: #ee791c !important;
 }
-.google-visualization-orgchart-node-medium {width: 17%;}
+/* .google-visualization-orgchart-node-medium {width: 17%;} */
+.mid_width{
+    width: 100%;
+    margin: auto !important;
+}
+.mid_width3{
+    width: 30px !important; margin: auto !important;
+}
+/* .mid_width2 {width: 100px; margin: auto !important;} */
+.first_pro_inner{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.f_three_box,
+.f_two_box,
+.f_one_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    /* justify-content: center; */
+    border: 1px solid #ddd !important;
+    border-radius: 10px;
+    padding: 5px !important;
+    box-sizing: border-box;
+}
+
+
+
 
 
 .first_table_line {
