@@ -162,7 +162,18 @@ table * {
     transform: translate(50%, -50%);
 }
 
-
+/* .google-visualization-orgchart-noderow-medium:nth-of-type(2) td {background-color: #555 !important; color: #fff !important;} */
+.google-visualization-orgchart-noderow-medium:nth-of-type(11) td ,
+.google-visualization-orgchart-noderow-medium:nth-of-type(8) td ,
+.google-visualization-orgchart-noderow-medium:nth-of-type(5) td {background-color: #fff !important; color: #555 !important;  font-weight: 555;}
+.google-visualization-orgchart-noderow-medium:nth-of-type(2) td {font-weight: 555 !important; color: #555 !important;}
+.google-visualization-orgchart-noderow-medium:nth-of-type(14) td {
+    background-color: #fff !important; 
+    color: #555 !important; 
+    border-width: 3px !important;
+    border-color: #ee791c !important; 
+    font-weight: 555;
+}
 
 
 
